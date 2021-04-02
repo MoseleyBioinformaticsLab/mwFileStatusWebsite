@@ -1,0 +1,3 @@
+SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('Compound', '12.01_470.2476m/z'), ('Quant m/z', '470.2476284'), ('Ret. Index', '12.00835'), ('Other ID', ''), ('Spectra', ''), ('Kegg', ''), ('PubChem', ''), ('Pool_All_01', '10591.15379'), ('Pool_All_02', '11169.6858'), ('Pool_All_03', '11791.15081'), ('Pool_All_04', '11576.44948')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')

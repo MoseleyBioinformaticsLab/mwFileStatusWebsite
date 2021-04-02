@@ -1,0 +1,16 @@
+SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'Lactate')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')
+MS_METABOLITE_DATA: Metabolite/Bin Range "Lactate" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Succinate" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Fumarate" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Oxaloacetate" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Ketoglutarate" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Malate" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Aspartate" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "2-Hydroxyglutarate" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Glutamate" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Glutamine" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "cis-Aconitic Acid" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Citrate" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Isocitrate" missing data entry for 2 samples

@@ -1,0 +1,4 @@
+SCHEMA: Section "MS" does not match the allowed schema. Missing key: 'MS_COMMENTS'
+SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'myristic')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')

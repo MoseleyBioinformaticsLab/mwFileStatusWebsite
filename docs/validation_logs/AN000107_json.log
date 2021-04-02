@@ -1,0 +1,3 @@
+SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('Compound', '3.24_137.0484m/z'), ('Quant m/z', '137.0483716'), ('Retention time (min)', '3.24'), ('Other ID', ''), ('Ret. Index', '')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')

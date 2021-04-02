@@ -1,0 +1,11 @@
+SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'PA')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')
+MS_METABOLITE_DATA: Metabolite/Bin Range "PA" missing data entry for 1 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "PC" missing data entry for 1 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "PE" missing data entry for 1 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "PG" missing data entry for 1 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "PI" missing data entry for 1 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "PS" missing data entry for 1 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "SM" missing data entry for 1 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "FFA" missing data entry for 1 samples

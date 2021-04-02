@@ -1,0 +1,4 @@
+SCHEMA: Section "SUBJECT" does not match the allowed schema. Missing key: 'SUBJECT_SPECIES'
+SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'Alanine')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')
