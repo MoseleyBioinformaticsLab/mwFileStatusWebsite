@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Metabolomics Workbench File Validator</title>
+        <link rel="stylesheet" href="styles/styles.css"/>
+    </head>
+    <body>
+        <div>
+            <h1>Metabolomics Workbench File Validator</h1>
+            <p>
+                Last Updated: {}
+            </p>
+        </div>
+        <div>
+            <h2>Statistics</h2>
+{}
+        </div>
+        <div>
+            <h2>File Status</h2>
+{}
+        </div>
+    </body>
+</html>

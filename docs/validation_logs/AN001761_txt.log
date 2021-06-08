@@ -1,3 +1,9 @@
+Validation Log
+2021-06-08 10:50:14.519420
+mwtab version: 1.1.2.post1
+Study ID:      ST001079
+Analysis ID:   AN001761
+File format:   txt
 SCHEMA: Section "MS" does not match the allowed schema. Wrong key 'ACQUISITION_DATE' in OrderedDict([('INSTRUMENT_NAME', 'Thermo Q Exactive HF hybrid Orbitrap Thermo Q Exactive HF hybrid Orbitrap'), ('INSTRUMENT_TYPE', 'Orbitrap'), ('MS_TYPE', 'ESI'), ('ION_MODE', 'POSITIVE'), ('MS_COMMENTS', 'None'), ('ACQUISITION_DATE', 'Jan-15'), ('CAPILLARY_TEMPERATURE', '250C'), ('COLLISION_GAS', 'N2'), ('DRY_GAS_FLOW', '45'), ('DRY_GAS_TEMP', '150C'), ('MASS_ACCURACY', '< 3ppm'), ('SPRAY_VOLTAGE', '3500'), ('ACTIVATION_PARAMETER', '5.00E+05'), ('ACTIVATION_TIME', '118ms'), ('INTERFACE_VOLTAGE', 'S-Lens RF level= 55'), ('SCANNING_RANGE', '85-1275'), ('MS_RESULTS_FILE', 'ST001079_AN001761_Results.txt UNITS:Peak area')])
 MS_METABOLITE_DATA: Metabolite/Bin Range "Benzylamine" missing data entry for 98 samples
 MS_METABOLITE_DATA: Metabolite/Bin Range "Hypotaurine" missing data entry for 98 samples

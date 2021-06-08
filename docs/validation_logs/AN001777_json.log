@@ -1,3 +1,9 @@
+Validation Log
+2021-06-08 10:50:33.676279
+mwtab version: 1.1.2.post1
+Study ID:      ST001091
+Analysis ID:   AN001777
+File format:   json
 SCHEMA: Section "MS" does not match the allowed schema. Wrong key 'ACQUISITION_DATE' in OrderedDict([('MS_COMMENTS', '-'), ('INSTRUMENT_NAME', 'Thermo Fusion Tribrid Orbitrap Thermo Fusion Tribrid Orbitrap'), ('INSTRUMENT_TYPE', 'Orbitrap'), ('MS_TYPE', 'ESI'), ('ION_MODE', 'NEGATIVE'), ('ACQUISITION_DATE', '4/18/2017-4/27/2017'), ('CAPILLARY_TEMPERATURE', '250C'), ('COLLISION_GAS', 'N2'), ('DRY_GAS_FLOW', '45'), ('DRY_GAS_TEMP', '150C'), ('MASS_ACCURACY', '< 3ppm'), ('SPRAY_VOLTAGE', '-4000'), ('ACTIVATION_PARAMETER', '5.00E+05'), ('ACTIVATION_TIME', '118ms'), ('INTERFACE_VOLTAGE', 'S-Lens RF level= 55'), ('RESOLUTION_SETTING', '120000'), ('SCANNING_RANGE', '85-1275'), ('MS_RESULTS_FILE', 'ST001091_AN001777_Results.txt UNITS:Peak area')])
 MS_METABOLITE_DATA: Metabolite/Bin Range "Pyruvic acid" missing data entry for 423 samples
 MS_METABOLITE_DATA: Metabolite/Bin Range "Oxalic acid" missing data entry for 423 samples

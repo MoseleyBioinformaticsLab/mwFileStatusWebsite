@@ -1,3 +1,9 @@
+Validation Log
+2021-06-08 10:49:31.693086
+mwtab version: 1.1.2.post1
+Study ID:      ST001056
+Analysis ID:   AN002145
+File format:   txt
 SCHEMA: Section "MS" does not match the allowed schema. Wrong key 'ACQUISITION_DATE' in OrderedDict([('INSTRUMENT_NAME', 'ISQ LT, Thermo Fisher Scientific'), ('INSTRUMENT_TYPE', 'GC-ITQ'), ('MS_TYPE', 'EI'), ('ION_MODE', 'POSITIVE'), ('MS_COMMENTS', 'Mass spectra were recorded in electronic impact (EI) mode at 70 eV, scanning at 40-600 m/z range, scan time 0.2 sec. Mass spectrometric solvent delay was settled as 9 min.'), ('ACQUISITION_DATE', '22/05/18 till 31/05/18'), ('FRAGMENTATION_METHOD', 'EI-MS'), ('HELIUM_FLOW', '1 ml/min'), ('ION_SOURCE_TEMPERATURE', '260'), ('IONIZATION_ENERGY', '70 eV'), ('MASS_ACCURACY', 'Unit Resolution'), ('PRECURSOR_TYPE', 'Full scan'), ('SOURCE_TEMPERATURE', '260'), ('SCAN_RANGE_MOVERZ', '40-600')])
 MS_METABOLITE_DATA: Metabolite/Bin Range "(-)-Shikimic acid" missing data entry for 27 samples
 MS_METABOLITE_DATA: Metabolite/Bin Range "(S,R)-Noscapine" missing data entry for 27 samples
