@@ -36,43 +36,6 @@ with open("../docs/templates/badge_template.txt", "r") as f:
     BADGE_STR = f.read()
 
 
-"""
-{
-    study_id: {
-        analysis_id: [
-            ["txt", message],
-            ["json", message]
-        ],
-        ...
-    },
-    ...
-}
-"""
-
-example = {
-    "ST000001": {
-        "AN000001": [
-            ["txt", "Passing"],
-            ["json", "Passing"]
-        ],
-        "AN000002": [
-            ["txt", "Missing/Blank"],
-            ["json", "Passing"]
-        ]
-    },
-    "ST000002": {
-        "AN000003": [
-            ["txt", "Validation Error"],
-            ["json", "Parsing Error"]
-        ],
-        "AN000004": [
-            ["txt", "Missing/Blank"],
-            ["json", "Passing"]
-        ]
-    }
-}
-
-
 def load_validation_json(filepath):
     """
 
