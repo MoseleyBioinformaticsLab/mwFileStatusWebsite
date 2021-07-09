@@ -2,18 +2,67 @@
   box-sizing: border-box;
 }
 
-.grid__item {
+/* General background setting */
+.background {
+  background: #090d11;
+  color: #f0f6fb;
+}
+
+/* Statistic Grid Items */
+.stats__grid__item {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #aaa;
-  min-height: 25px;
-  font-size: 1em;
-  color: inherit;
-  text-decoration: none;
-  background: #ddd;
+  background: #161b22;
+  color: #f0f6fb;
+  border: 1px solid #30363c;
 }
-.grid__item:focus + .grid__description {
+
+@media screen and (min-width: 30em) {
+  .stats__grid {
+    display: grid;
+    grid-template-areas: "item item item";
+    grid-template-columns: 1fr 1fr 1fr;
+    width: calc(25%);
+  }
+
+
+/* Status Grid Items */
+.study__grid__item {
+  justify-content:left
+  display: inline-block;
+  border: 1px solid #30363c;
+  text-decoration: none;
+  height: 1.5em;
+  font-size: 1.5em;
+  background: #161b22;
+  color: #f0f6fb;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: calc(100%);
+}
+.study__grid__item:focus + .grid__description {
+  max-height: 100em;
+  transition: max-height 0.4s ease-in;
+}
+
+.analysis__grid__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5em;
+  font-size: 1em;
+  text-decoration: none;
+  border: 1px solid #30363c;
+  background: #161b22;
+  color: #f0f6fb;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: calc(100%);
+}
+.analysis__grid__item:focus + .grid__description {
   max-height: 200px;
   transition: max-height 0.4s ease-in;
 }
@@ -21,11 +70,12 @@
 .grid__description {
   max-height: 0;
   overflow: hidden;
-  background: #aaa;
   transition: max-height 0.15s ease-in;
 }
 .grid__description > div {
-  box-shadow: inset 0 0 2px #000;
+  background: #161b22;
+  box-shadow: inset 0 0 2px #30363c;
+  border: 1px solid #30363c;
 }
 
 @media screen and (min-width: 30em) {
@@ -45,6 +95,25 @@
     grid-template-columns: 1fr;
 }
 
+.desc__grid__item{
+  justify-content:left
+  display: inline-block;
+  text-decoration: none;
+  height: 1em;
+  font-size: 1em;
+  background: #161b22;
+  color: #f0f6fb;
+}
+@media screen and (min-width: 30em) {
+  .desc__grid {
+    display: grid;
+    grid-template-areas: "item item";
+    grid-template-columns: 20% 80%;
+  }
+}
+
+
+/* Status Shields */
 @import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
 
 .shield {
@@ -63,7 +132,7 @@
 
 .shieldLeft a, .shieldRight a {
   text-decoration: none;
-  color: #fff;
+  color: #f0f6fb;
 }
 
 .shieldLeft {
@@ -77,25 +146,20 @@
 
 .grey {
   background-image: linear-gradient(#555555, #2f2f2f);
-  color: #fff;
 }
 
 .lightgrey {
   background-image: linear-gradient(#a1a1a1, #8f8f8f);
-  color: #fff;
 }
 
 .brightgreen {
   background-image: linear-gradient(#50ca22, #3db70f);
-  color: #fff;
 }
 
 .orange {
   background-image: linear-gradient(#f78344, #e47031);
-  color: #fff;
 }
 
 .red {
   background-image: linear-gradient(#cd6d58, #bb5b46);
-  color: #fff;
 }

@@ -1,9 +1,21 @@
             <p>
-                Number of Studies: {}<br>
-                Number of Analyses: {}<br>
-                &emsp;Number of Files Passing Validation: {}<br>
-                &emsp;Number of Files with Errors: {}<br>
-                &emsp;&emsp;Missing: {}<br>
-                &emsp;&emsp;Parsing Error: {}<br>
-                &emsp;&emsp;Validation Error: {}<br>
+                Number of Studies: {0}<br>
+                Number of Analyses: {1}<br>
             </p>
+            <div class="stats__grid">
+                <div class="stats__grid__item">Status</div>
+                <div class="stats__grid__item">mwTab</div>
+                <div class="stats__grid__item">JSON</div>
+                <div class="stats__grid__item brightgreen">Passing</div>
+                <div class="stats__grid__item">{2}</div>
+                <div class="stats__grid__item">{3}</div>
+                <div class="stats__grid__item red">Parsing Error</div>
+                <div class="stats__grid__item">{4}</div>
+                <div class="stats__grid__item">{5}</div>
+                <div class="stats__grid__item orange">Validation Error</div>
+                <div class="stats__grid__item">{6}</div>
+                <div class="stats__grid__item">{7}</div>
+                <div class="stats__grid__item lightgrey">Missing</div>
+                <div class="stats__grid__item">{8}</div>
+                <div class="stats__grid__item">{9}</div>
+            </div>
