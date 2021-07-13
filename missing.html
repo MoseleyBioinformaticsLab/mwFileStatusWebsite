@@ -1,0 +1,2000 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Metabolomics Workbench File Validator</title>
+        <link rel="stylesheet" href="styles/styles.css"/>
+    </head>
+    <body class="background">
+        <div>
+            <h1>Metabolomics Workbench File Validator</h1>
+            <p>
+                Last Updated: 2021-07-12 21:29:11.375134
+            </p>
+        </div>
+        <div>
+            <h2>Statistics</h2>
+            <p>
+                Number of Studies: 32<br>
+                Number of Analyses: 42<br>
+            </p>
+            <div class="stats__grid">
+                <div class="stats__grid__item">Status</div>
+                <div class="stats__grid__item">mwTab</div>
+                <div class="stats__grid__item">JSON</div>
+                <a href="https://cdpowell.github.io/test-project/passing" class="stats__grid__item brightgreen">Passing</a>
+                <div class="stats__grid__item">8</div>
+                <div class="stats__grid__item">5</div>
+                <a href="https://cdpowell.github.io/test-project/validation_error" class="stats__grid__item red">Parsing Error</a>
+                <div class="stats__grid__item">2</div>
+                <div class="stats__grid__item">8</div>
+                <a href="https://cdpowell.github.io/test-project/parsing_error" class="stats__grid__item orange">Validation Error</a>
+                <div class="stats__grid__item">12</div>
+                <div class="stats__grid__item">7</div>
+                <a href="https://cdpowell.github.io/test-project/missing" class="stats__grid__item lightgrey">Missing</a>
+                <div class="stats__grid__item">20</div>
+                <div class="stats__grid__item">22</div>
+            </div>
+        </div>
+        <div>
+            <h2>File Status</h2>
+            <div class="grid header">
+                <a href="#ST000267" class="study__grid__item">ST000267: Activity-Based Metabolic Profiling of M. tuberculosis H37Rv  Rv3722c - Weill Cornell Medical College - Rhee, Kyu</a>
+                <div class="grid__description" style="height:11em;max-height:11">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Activity-Based Metabolic Profiling of M. tuberculosis H37Rv  Rv3722c</div>
+						<div class="desc__grid__item">STUDY_TYPE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">timecourse</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">These experiments involve incubating various proteins of unknown function in M. tuberculosis genome with whole-cell lysate and assaying changes in levels over time (e.g. 0, 15, 30min) to try to infer what reaction they might</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Weill Cornell Medical College</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Microbiology and Immunology</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Rhee</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Kyu</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Department of Microbiology and Immunology, Weill Cornell Medical College, 1300 Avenue, New York, NY</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">kyr9001@med.cornell.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">-</div>
+						<div class="desc__grid__item">STUDY_COMMENTS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">The timepoints in the datafiles refer the amount of time (in minutes) that each was incubated with lysate.The units for 'mzmed' are mass/charge.The units for are seconds (retention time).The units for all the other data columns in the are arbitrary; they are integrated peak counts.In this study, Rv1713 was with lysate with and without 1mM GTP added as a co-factor.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN000427" class="analysis__grid__item lightgrey">AN000427</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000427/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000427_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000427/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000427_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN000427</div>
+                    </div>
+                </div>
+                <a href="#AN000428" class="analysis__grid__item lightgrey">AN000428</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000428/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000428_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000428/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000428_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN000428</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST000368" class="study__grid__item">ST000368: Investigation of metabolomic blood biomarkers for detection of adenocarcinoma lung cancer - University of California, Davis - Fiehn, Oliver</a>
+                <div class="grid__description" style="height:12em;max-height:12">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Investigation of metabolomic blood biomarkers for detection of adenocarcinoma lung cancer</div>
+						<div class="desc__grid__item">STUDY_TYPE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Lung cancer case control biomarker discovery</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Recently, the National Lung Cancer Screen Trial (NLST) demonstrated that low-dose CT (LDCT) screening could reduce mortality due to lung cancer by 20%. However, LDCT screening is largely hindered by high false-positive rates (96%), particularly in high-risk populations (heavy smokers), due to the low prevalence rates (less than 2%) of malignant tumors and high incidence of benign lung nodules. Consequently, complementary biomarkers that can be used in conjunction with LDCT screening to improve diagnostic capacities and reduce false-positive rates are highly desirable. Preferably, such complementary tools should be noninvasive and exhibit high sensitivity and specificity. The application of “-omic” sciences (genomics, transcriptomics, proteomics, and metabolomics) represents valuable tools for the discovery and validation of potential biomarkers that can be used for detection of NSCLC. Of these omic sciences, metabolomics has received considerable attention for its application in cancer. Metabolomics is the assessment of small molecules and biochemical intermediates (metabolites) using analytic instrumentation. Metabolites in blood are the product of all cellular processes, which are highly responsive to conditions of disease and environment, and represent the final output products of all organs forming a detailed systemic representation of an individual's current physiologic state. In this study, we used an untargeted metabolomics approach using gas chromatography time-of-flight mass spectrometry (GCTOFMS) to analyze the metabolome of serum and plasma samples both collected from the same patients that were organized into two independent case–control studies (ADC1 and ADC2). In both studies, only NSCLC adenocarcinoma was investigated. The overall objectives were to (i) determine whether individual or combinations of metabolites could be used as a diagnostic test to distinguish NSCLC adenocarcinoma from controls and (ii) to determine which, plasma or serum, provides more accurate classifiers for the detection of lung cancer. We developed individual and multimetabolite classifiers using a training test from the ADC1 study and evaluated the performance of the constructed classifiers, individually or in combination, in an independent test/validation study (ADC2). This study shows the potential of metabolite-based diagnostic tests for detection of lung adenocarcinoma. Further validation in a larger pool of samples is warranted.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">University of California, Davis</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Genome and Biomedical Sciences Facility</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">WCMC Metabolomics Core</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Fiehn</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Oliver</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">1315 Genome and Biomedical Sciences Facility, 451 Health Sciences Drive, Davis, CA 95616</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">ofiehn@ucdavis.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">(530) 754-8258</div>
+						<div class="desc__grid__item">STUDY_COMMENTS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">SS = Sigma sample and is used as a quality control The first set (ADC1) used for biomarker development consisted of serum and plasma samples obtained from 52 stages I–IV NSCLC adenocarcinoma patients (52 plasma and 49 serum), and 31 healthy controls (31 pairs of serum and plasma) for a total of 163 samples. This set was regarded as the training set for biomarker discovery and classifier development. A second, independent case–control study (ADC2) consisting of serum and plasma samples collected from 43 stage I–IV NSCLC adenocarcinoma patients and 43 healthy controls (total 172 samples) was used as an independent test set for biomarker evaluation. A limitation of this study is the relatively small sample size for each cohort (52 cases, 31 controls for ADC1, and 43 cases and 43 controls for ADC2) because patient variability can be a big factor in smaller studies.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN000602" class="analysis__grid__item lightgrey">AN000602</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000602/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000602_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000602/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000602_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN000602</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST000386" class="study__grid__item">ST000386: Study 2 Investigation of metabolomic blood biomarkers for detection of adenocarcinoma lung cancer (test/validation) - University of California, Davis - Fiehn, Oliver</a>
+                <div class="grid__description" style="height:11em;max-height:11">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Study 2 Investigation of metabolomic blood biomarkers for detection of adenocarcinoma lung cancer (test/validation)</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Recently, the National Lung Cancer Screen Trial (NLST) demonstrated that low-dose CT (LDCT) screening could reduce mortality due to lung cancer by 20%. However, LDCT screening is largely hindered by high false-positive rates (96%), particularly in high-risk populations (heavy smokers), due to the low prevalence rates (less than 2%) of malignant tumors and high incidence of benign lung nodules. Consequently, complementary biomarkers that can be used in conjunction with LDCT screening to improve diagnostic capacities and reduce false-positive rates are highly desirable. Preferably, such complementary tools should be noninvasive and exhibit high sensitivity and specificity. The application of “-omic” sciences (genomics, transcriptomics, proteomics, and metabolomics) represents valuable tools for the discovery and validation of potential biomarkers that can be used for detection of NSCLC. Of these omic sciences, metabolomics has received considerable attention for its application in cancer. Metabolomics is the assessment of small molecules and biochemical intermediates (metabolites) using analytic instrumentation. Metabolites in blood are the product of all cellular processes, which are highly responsive to conditions of disease and environment, and represent the final output products of all organs forming a detailed systemic representation of an individual's current physiologic state. In this study, we used an untargeted metabolomics approach using gas chromatography time-of-flight mass spectrometry (GCTOFMS) to analyze the metabolome of serum and plasma samples both collected from the same patients that were organized into two independent case–control studies (ADC1 and ADC2). In both studies, only NSCLC adenocarcinoma was investigated. The overall objectives were to (i) determine whether individual or combinations of metabolites could be used as a diagnostic test to distinguish NSCLC adenocarcinoma from controls and (ii) to determine which, plasma or serum, provides more accurate classifiers for the detection of lung cancer. We developed individual and multimetabolite classifiers using a training test from the ADC1 study and evaluated the performance of the constructed classifiers, individually or in combination, in an independent test/validation study (ADC2). This study shows the potential of metabolite-based diagnostic tests for detection of lung adenocarcinoma. Further validation in a larger pool of samples is warranted.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">University of California, Davis</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Genome and Biomedical Sciences Facility</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">WCMC Metabolomics Core</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Fiehn</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Oliver</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">1315 Genome and Biomedical Sciences Facility, 451 Health Sciences Drive, Davis, CA 95616</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">ofiehn@ucdavis.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">(530) 754-8258</div>
+						<div class="desc__grid__item">STUDY_COMMENTS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">SS = Sigma sample and is used as a quality control The first set (ADC1) used for biomarker development consisted of serum and plasma samples obtained from 52 stages I–IV NSCLC adenocarcinoma patients (52 plasma and 49 serum), and 31 healthy controls (31 pairs of serum and plasma) for a total of 163 samples. This set was regarded as the training set for biomarker discovery and classifier development. A second, independent case–control study (ADC2) consisting of serum and plasma samples collected from 43 stage I–IV NSCLC adenocarcinoma patients and 43 healthy controls (total 172 samples) was used as an independent test set for biomarker evaluation. A limitation of this study is the relatively small sample size for each cohort (52 cases, 31 controls for ADC1, and 43 cases and 43 controls for ADC2) because patient variability can be a big factor in smaller studies.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN000621" class="analysis__grid__item lightgrey">AN000621</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000621/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000621_txt.log" target="_blank">Passing</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000621/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000621_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN000621</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST000387" class="study__grid__item">ST000387: Changes in the metabalome and lipidome in response to exercise training - University of California, Davis - Fiehn, Oliver</a>
+                <div class="grid__description" style="height:13em;max-height:13">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Changes in the metabalome and lipidome in response to exercise training</div>
+						<div class="desc__grid__item">STUDY_TYPE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">HERITAGE (HEalth, RIsk factors, exercise Training And GEnetics) family study</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">The overall objective of the Heritage Family Study is to study the role of the genotype in cardiovascular, metabolic, and hormonal responses to aerobic exercise training and the contribution of regular exercise to changes in several cardiovascular disease and diabetes risk factors. The study cohort used in this analysis was derived from the pool of 473 Caucasian subjects (230 male and 243 female) from 99 nuclear families who completed ≥58 of the prescribed 60 exercise-training sessions. Utilizing a subsample of this Caucasian cohort, we selected family members from the Quebec center (N=125) to assess the metabolome and lipidome of circulating plasma under two well-defined environmental conditions, the pre- and post-training conditions.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">University of California, Davis</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Genome and Biomedical Sciences Facility</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">WCMC Metabolomics Core</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Fiehn</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Oliver</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Health Sciences Drive, Davis, California, 95616, USA</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">ofiehn@ucdavis.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">(530) 754-8258</div>
+						<div class="desc__grid__item">NUM_GROUPS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">3</div>
+						<div class="desc__grid__item">TOTAL_SUBJECTS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">250</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN000622" class="analysis__grid__item lightgrey">AN000622</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000622/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000622_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000622/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000622_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN000622</div>
+                    </div>
+                </div>
+                <a href="#AN000623" class="analysis__grid__item lightgrey">AN000623</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000623/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000623_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000623/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000623_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN000623</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST000388" class="study__grid__item">ST000388: Serum phosphatidylethanolamine levels distinguish benign from malignant solitary pulmonary nodules and represent a potential diagnostic biomarker for lung cancer (part I) - University of California, Davis - Fiehn, Oliver</a>
+                <div class="grid__description" style="height:11em;max-height:11">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Serum phosphatidylethanolamine levels distinguish benign from malignant solitary pulmonary nodules and represent a potential diagnostic biomarker for lung cancer (part I)</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Recent computed tomography (CT) screening trials showed that it is effective for early detection of lung cancer, but were plagued by high false positive rates. Additional blood biomarker tests designed to complement CT screening and reduce false positive rates are highly desirable. In the current study, we expand upon our initial experimental findings as part of the discovery phase by evaluating metabolites in serum from subjects with benign or malignant SPNs using a combined approach of gas chromatography time-of-flight mass spectrometry (GC-TOFMS) and hydrophilic liquid chromatography accurate mass quadrupole time-of-flight mass spectrometry (HILIC-qTOFMS). Furthermore, we evaluated serum collected pre-diagnosis and at-diagnosis of lung cancer in addition to samples obtained post-surgical intervention from subjects with malignant SPNs (post-diagnosis). We hypothesize that our systems biology approach to identify candidate metabolomics biomarkers will ultimately lead to improved early detection of lung cancer and can be used in as a companion blood test to LDCT screening.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">University of California, Davis</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Genome and Biomedical Sciences Facility</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">WCMC Metabolomics Core</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Fiehn</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Oliver</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">1315 Genome and Biomedical Sciences Facility, 451 Health Sciences Drive, Davis, CA 95616</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">ofiehn@ucdavis.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">(530) 754-8258</div>
+						<div class="desc__grid__item">PUBLICATIONS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">doi: 10.3233/CBM-160602.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN000624" class="analysis__grid__item lightgrey">AN000624</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000624/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000624_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000624/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000624_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN000624</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST000389" class="study__grid__item">ST000389: Serum phosphatidylethanolamine levels distinguish benign from malignant solitary pulmonary nodules and represent a potential diagnostic biomarker for lung cancer (part II) - University of California, Davis - Fiehn, Oliver</a>
+                <div class="grid__description" style="height:11em;max-height:11">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Serum phosphatidylethanolamine levels distinguish benign from malignant solitary pulmonary nodules and represent a potential diagnostic biomarker for lung cancer (part II)</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Recent computed tomography (CT) screening trials showed that it is effective for early detection of lung cancer, but were plagued by high false positive rates. Additional blood biomarker tests designed to complement CT screening and reduce false positive rates are highly desirable. In the current study, we expand upon our initial experimental findings as part of the discovery phase by evaluating metabolites in serum from subjects with benign or malignant SPNs using a combined approach of gas chromatography time-of-flight mass spectrometry (GC-TOFMS) and hydrophilic liquid chromatography accurate mass quadrupole time-of-flight mass spectrometry (HILIC-qTOFMS). Furthermore, we evaluated serum collected pre-diagnosis and at-diagnosis of lung cancer in addition to samples obtained post-surgical intervention from subjects with malignant SPNs (post-diagnosis). We hypothesize that our systems biology approach to identify candidate metabolomics biomarkers will ultimately lead to improved early detection of lung cancer and can be used in as a companion blood test to LDCT screening.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">University of California, Davis</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Genome and Biomedical Sciences Facility</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">WCMC Metabolomics Core</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Fiehn</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Oliver</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">1315 Genome and Biomedical Sciences Facility, 451 Health Sciences Drive, Davis, CA 95616</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">ofiehn@ucdavis.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">(530) 754-8258</div>
+						<div class="desc__grid__item">PUBLICATIONS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">doi: 10.3233/CBM-160602.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN000625" class="analysis__grid__item lightgrey">AN000625</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000625/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000625_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000625/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000625_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN000625</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST000449" class="study__grid__item">ST000449: Molecular Imaging of Growth, Metabolism, and Antibiotic Inhibition in Bacterial Colonies by Laser Ablation Electrospray Ionization Mass Spectrometry - George Washington University - Li, Hang</a>
+                <div class="grid__description" style="height:10em;max-height:10">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Molecular Imaging of Growth, Metabolism, and Antibiotic Inhibition in Bacterial Colonies by Laser Ablation Electrospray Ionization Mass Spectrometry</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">This study investigates the metabolism and antibiotic inhibition in Escherichia coli and Bacillus subtilis colonies.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">George Washington University</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Chemistry</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Vertes Research Lab</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Li</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Hang</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">800 22nd St. NW, Suite 4000, Washington, DC 20052</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">amy_li@gwmail.gwu.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">202-994-6344</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN000703" class="analysis__grid__item lightgrey">AN000703</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000703/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000703_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000703/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000703_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN000703</div>
+                    </div>
+                </div>
+                <a href="#AN000704" class="analysis__grid__item lightgrey">AN000704</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000704/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000704_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000704/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000704_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN000704</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST000497" class="study__grid__item">ST000497: M-CMV infected Nicotiana tabacum - Chinese Academy of Inspection and Quarantine - Lei, Rong</a>
+                <div class="grid__description" style="height:10em;max-height:10">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">M-CMV infected Nicotiana tabacum</div>
+						<div class="desc__grid__item">STUDY_TYPE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">LC-MS & GC-MS</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">M-CMV-infected N. tabacum plants with six symptoms (vein clearing, mosaic, chlorosis, partial green recovery, complete green recovery and secondary mosaic) were analyzed by LC-MS & GC-MS. In addition, the pathogenesis biomarker might be found by this untargeted global metabolomic analysis.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Chinese Academy of Inspection and Quarantine</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Institute of Plant Quarantine of China</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Lei</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Rong</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Rong Hua Nan Lu 11, Yi Zhuang, Beijing, China</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">leirong2009@gmail.com</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">86-10-53897620</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN000763" class="analysis__grid__item lightgrey">AN000763</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000763/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000763_txt.log" target="_blank">Passing</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000763/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000763_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN000763</div>
+                    </div>
+                </div>
+                <a href="#AN000764" class="analysis__grid__item lightgrey">AN000764</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000764/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000764_txt.log" target="_blank">Passing</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000764/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000764_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN000764</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST000558" class="study__grid__item">ST000558: Plasma metabolomic profiling of diabetic nephropathy in the steptozotocin induced type-1 diabetes mouse model - RTI International - Sumner, Susan</a>
+                <div class="grid__description" style="height:8em;max-height:8">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Plasma metabolomic profiling of diabetic nephropathy in the steptozotocin induced type-1 diabetes mouse model</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">This metabolomics study evaluated plasma from wild-type and meprin β knockout mice after induction of diabetes with streptozotocin or treatment with sodium citrate control to understand how these factors influence the metabotype.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">RTI International</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Sumner</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Susan</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">3040 E. Cornwallis Road, Research Triangle Park, NC 27709</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">susan_sumner@unc.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">704-250-5000</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN000857" class="analysis__grid__item lightgrey">AN000857</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000857/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000857_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000857/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000857_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN000857</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST000581" class="study__grid__item">ST000581: DBA2J Phosphatidylinositol Analysis - University of Miami - Bhattacharya, Sanjoy</a>
+                <div class="grid__description" style="height:8em;max-height:8">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">DBA2J Phosphatidylinositol Analysis</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AH and TM samples were obtained from young-normotensive DBA/2J (3 and 7.5 months) and old-hypertensive DBA/2J mice (8-8.5, 10 and 12 month). Lipids were extracted using modified Bligh and Dyer method and subjected to mass spectrometric identification using appropriate class-specific lipid standards and ratiometric quantification. Corresponding aqueous phase (of extraction) protein concentrations were measured using Bradford method.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">University of Miami</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Bhattacharya</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Sanjoy</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">McKnight Vision Research Building, Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, 1638 NW 10th Avenue, Room 706A, Miami, Florida 33136</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">SBhattacharya@med.miami.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">305-482-4103</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN000892" class="analysis__grid__item lightgrey">AN000892</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000892/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000892_txt.log" target="_blank">Passing</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000892/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000892_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN000892</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST000582" class="study__grid__item">ST000582: DBA2J Phospholipid Analysis - University of Miami - Bhattacharya, Sanjoy</a>
+                <div class="grid__description" style="height:8em;max-height:8">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">DBA2J Phospholipid Analysis</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AH and TM samples were obtained from young-normotensive DBA/2J (3 and 7.5 months) and old-hypertensive DBA/2J mice (8-8.5, 10 and 12 month). Lipids were extracted using modified Bligh and Dyer method and subjected to mass spectrometric identification using appropriate class-specific lipid standards and ratiometric quantification. Corresponding aqueous phase (of extraction) protein concentrations were measured using Bradford method.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">University of Miami</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Bhattacharya</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Sanjoy</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">McKnight Vision Research Building, Bascom Palmer Eye Institute, University of Miami Miller School of Medicine, 1638 NW 10th Avenue, Room 706A, Miami, Florida 33136</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">SBhattacharya@med.miami.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">305-482-4103</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN000893" class="analysis__grid__item lightgrey">AN000893</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000893/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000893_txt.log" target="_blank">Passing</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000893/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN000893_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN000893</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST000849" class="study__grid__item">ST000849: Targeting Myelin FFA Compostion of Kallikrein 6 Signals through PAR1 and PAR2 to Enchance Recovery of Function after SCI - Mayo Clinic - Scarisbrick, Isobel</a>
+                <div class="grid__description" style="height:8em;max-height:8">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Targeting Myelin FFA Compostion of Kallikrein 6 Signals through PAR1 and PAR2 to Enchance Recovery of Function after SCI</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Targeting mouse myelin FFA composition of Kallikrein 6 Signals through PAR1 and PAR2 to Enchance Recovery of Function after SCI. The samples submitted are purified myelin preparations from the postnatal day 21, 60, or 90 mouse spinal cord (SC). There are 9 samples total in Project 1, n=3 for each genotype (control, PAR1 or PAR2) at 21 days. There are 9 samples total in Project 2, n=3 for each genotype (WT, PAR1-/- or PAR2-/-) at 60 days. There are 12 samples total in Project 3, n=3 for K6+/+ or K6-/- at either P21 or P90.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Mayo Clinic</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Scarisbrick</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Isobel</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">200 First St. SW, Rochester, Minnesota, 55905, USA</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">scarisbrick.isobel@mayo.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">507-284-0124</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN001373" class="analysis__grid__item lightgrey">AN001373</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001373/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN001373_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001373/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN001373_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN001373</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST000852" class="study__grid__item">ST000852: Targeting Myelin Galactosyl Sphingolipids of Kallikrein 6 Signals through PAR1 and PAR2 to Enchance Recovery of Function after SCI - Mayo Clinic - Scarisbrick, Isobel</a>
+                <div class="grid__description" style="height:8em;max-height:8">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Targeting Myelin Galactosyl Sphingolipids of Kallikrein 6 Signals through PAR1 and PAR2 to Enchance Recovery of Function after SCI</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Targeting mouse myelin Galactosyl Shingolipids of Kallikrein 6 Signals through PAR1 and PAR2 to Enchance Recovery of Function after SCI. The samples submitted are purified myelin preparations from the postnatal day 21, 60, or 90 mouse spinal cord (SC). There are 9 samples total in Project 1, n=3 for each genotype (control, PAR1 or PAR2) at 21 days. There are 9 samples total in Project 2, n=3 for each genotype (WT, PAR1-/- or PAR2-/-) at 60 days. There are 12 samples total in Project 3, n=3 for K6+/+ or K6-/- at either P21 or P90.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Mayo Clinic</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Scarisbrick</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Isobel</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">200 First St. SW, Rochester, Minnesota, 55905, USA</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">scarisbrick.isobel@mayo.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">507-284-0124</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN001376" class="analysis__grid__item lightgrey">AN001376</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001376/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN001376_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001376/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN001376_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN001376</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001149" class="study__grid__item">ST001149: Plasmodium Niemann-Pick Type C1-Related Protein is a Druggable Target Required for Parasite Membrane Homeostasis - Pennsylvania State University - Llinás, Manuel</a>
+                <div class="grid__description" style="height:11em;max-height:11">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Plasmodium Niemann-Pick Type C1-Related Protein is a Druggable Target Required for Parasite Membrane Homeostasis</div>
+						<div class="desc__grid__item">STUDY_TYPE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Drug Exposure</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Metabolic examination/confirmation of resistance mutations and GFP tagging observed in study</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Pennsylvania State University</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">BMB</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Llinás Laboratory</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Llinás</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Manuel</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">W-122 Millennium Science Complex, Pollock Road</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">eso5005@psu.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">8148673527</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN001896" class="analysis__grid__item lightgrey">AN001896</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001896/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN001896_txt.log" target="_blank">Passing</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001896/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN001896_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN001896</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001190" class="study__grid__item">ST001190: Sepsis-related metabolic changes in ileum, jejunum, skeletal muscle, liver and lung - Indiana University School of Medicine - Willis, Monte</a>
+                <div class="grid__description" style="height:10em;max-height:10">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Sepsis-related metabolic changes in ileum, jejunum, skeletal muscle, liver and lung</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Rationale: Sepsis is a multi-organ disease affecting the ileum and jejunum (small intestine),liver, skeletal muscle, and lung clinically. Recently, specific alterations in circulating metabolites have been found in patients with sepsis which are thought to contribute to the pathogenesis of disease. The specific metabolic changes in the ileum, jejunum, liver, skeletal muscle, and lung have not previously been investigated. Methods: Live Pseudomonas aeruginosa isolated from a patient was given via IV catheter to pigs  to induce severe sepsis. Eighteen hours later, ileum, jejunum, medial gastrocnemius skeletal muscle, liver,  and lung were harvested and flash frozen. Tissues were subsequently processed for non-targeted metabolomics analysis using gas chromatography/mass spectrometry. Results: After 18 hours of sepsis, the ileum and the liver demonstrated significant changes in  metabolites involved in linoleic acid metabolism, the ileum and lung had significant changes in  valine/leucine/isoleucine metabolism, the jejunum, skeletal muscle, and liver had significant changes in  arginine/ proline metabolism, and the skeletal muscle and lung had significant changes in aminoacyl-tRNA  biosynthesis by pathway analysis. Pathway analysis also identified changes in metabolic pathways unique for different tissues, including changes in the citric acid cycle (jejunum), beta-alanine metabolism (skeletal muscle), and purine metabolism (liver). Conclusion: These findings demonstrate both overlapping metabolic pathways affected in different tissues and those that are unique to others and provide insight into the metabolic changes in sepsis leading to organ dysfunction. This may allow therapeutic interventions that focus on multiple tissues or single tissues once the relationship of the altered metabolites/metabolism to the underlying pathogenesis of sepsis is determined.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Indiana University School of Medicine</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Indiana Center for Musculoskeletal Health / Dept. of Pathology & Laboratory Medicine</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Multiple Centers</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Willis</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Monte</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">NA</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">monte_willis@outlook.com</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">(984) 999-5431</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN001982" class="analysis__grid__item lightgrey">AN001982</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001982/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN001982_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001982/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN001982_json.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN001982</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001200" class="study__grid__item">ST001200: Biological Responses to Tobacco Smoke Exposure in III Children: Inflammatory Processes and the Oral Microbiome - Emory University - Uppal, Karan</a>
+                <div class="grid__description" style="height:13em;max-height:13">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Biological Responses to Tobacco Smoke Exposure in III Children: Inflammatory Processes and the Oral Microbiome</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">This project evaluates the biological response to overall tobacco smoke (OTS) exposure among pediatric emergency patients enrolled in a randomized-controlled intervention trial aimed at reducing secondhand smoke exposure. The effects of OTS as measured by salivary continine on salivary metabolic profiles are measured by untargeted high resolution metabolomics, comparing higher and lower levels of OTS.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Emory University</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">School of Medicine</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Clincal Biomarkers Laboratory</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Uppal</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Karan</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">NA</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">kuppal2@emory.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">(404) 727 5027</div>
+						<div class="desc__grid__item">TOTAL_SUBJECTS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">284</div>
+						<div class="desc__grid__item">STUDY_COMMENTS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Both CHEAR pooled saliva samples and Clinical Biomarker Laboratory pooled plasma samples were used</div>
+						<div class="desc__grid__item">CHEAR_STUDY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">2017-1762</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN001996" class="analysis__grid__item lightgrey">AN001996</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001996/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN001996_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001996/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN001996_json.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN001996</div>
+                    </div>
+                </div>
+                <a href="#AN001997" class="analysis__grid__item lightgrey">AN001997</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001997/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN001997_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001997/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN001997_json.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN001997</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001207" class="study__grid__item">ST001207: Lipidomics in the serum of cold exposed mice treated with 12-LOX inhibitor LOXBlock-1 - Joslin Diabetes Center- Harvar Medical School - Leiria, Luiz</a>
+                <div class="grid__description" style="height:9em;max-height:9">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Lipidomics in the serum of cold exposed mice treated with 12-LOX inhibitor LOXBlock-1</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">We aimed to investigate whether the cold-induced release of 12-LOX products into the circulation were dependent on 12-LOX activation. We pre-treated C57BL6/J mice with the pharmacological inhibitor LOXBlock-1 or its vehicle (DMSO), and after 15 minutes we placed them under cold temperature (5C) for 4 hours. A control group was injected with DMSO and kept at room temperature for the same 4 hours. After this period of time we, collected the blood, and obtained the serum fraction that was immediately frozen and submitted for untargeted lipidomics.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Joslin Diabetes Center- Harvar Medical School</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Leiria</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Luiz</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">One Joslin Place, Boston-MA, 02215</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">luiz.leiria@joslin.harvard.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">617-309-1967</div>
+						<div class="desc__grid__item">NUM_GROUPS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">3</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN002009" class="analysis__grid__item lightgrey">AN002009</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002009/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002009_txt.log" target="_blank">Passing</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002009/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002009_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002009</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001268" class="study__grid__item">ST001268: Metabolome data to annotate metabolite origins - University of Colorado Denver|Anschutz Medical Campus - Reisdorph, Nichole</a>
+                <div class="grid__description" style="height:10em;max-height:10">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Metabolome data to annotate metabolite origins</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Plasma metabolomics from HIV subjects and controls was incorporated with microbiome data to develop Annotation of Metabolite Origins via Networks (AMON).</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">University of Colorado Denver|Anschutz Medical Campus</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Anschutz Medical Campus</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Reisdorph</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Nichole</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">12850 East Montview Blvd, Aurora, CO, 80045, USA</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">nichole.reisdorph@ucdenver.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">3037249234</div>
+						<div class="desc__grid__item">TOTAL_SUBJECTS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">63</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN002105" class="analysis__grid__item lightgrey">AN002105</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002105/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002105_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002105/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002105_json.log" target="_blank">Passing</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002105</div>
+                    </div>
+                </div>
+                <a href="#AN002106" class="analysis__grid__item lightgrey">AN002106</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002106/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002106_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002106/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002106_json.log" target="_blank">Passing</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002106</div>
+                    </div>
+                </div>
+                <a href="#AN002107" class="analysis__grid__item lightgrey">AN002107</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002107/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002107_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002107/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002107_json.log" target="_blank">Passing</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002107</div>
+                    </div>
+                </div>
+                <a href="#AN002108" class="analysis__grid__item lightgrey">AN002108</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002108/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002108_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002108/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002108_json.log" target="_blank">Passing</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002108</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001348" class="study__grid__item">ST001348: None - None - None, None</a>
+                <div class="grid__description" style="height:0em;max-height:0">
+                    <div class="desc__grid">
+
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN002242" class="analysis__grid__item lightgrey">AN002242</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002242/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight red">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002242_txt.log" target="_blank">Parsing Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002242/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002242_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002242</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001378" class="study__grid__item">ST001378: Global metabolomics of COPD2020 - Seoul National University Hospital - Kim, Da jung</a>
+                <div class="grid__description" style="height:8em;max-height:8">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Global metabolomics of COPD2020</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">To discover distinctive endogenous metabotype of patients with COPD associated with TB from those originated from Tabaco smoking. Cross-sectional metabolomic analyses of serum samples were performed for subjects including TB-associated COPD (T-COPD), smoking-associated COPD (S-COPD) and healthy subjects. To retain a broad spectrum of metabolites, technically distinct analyses (global metabolomic profiling using liquid chromatography quadrupole time-of-flight mass spectrometry) were employed. Frozen samples were diluted with either an acetonitrile:methanol:water (3:3:4) mixture. Each sample (5 μL) was loaded onto an C18 column and was analyzed using an Agilent 6530 QTOF mass spectrometer (Agilent Technologies). Detailed protocol is obtained in this project</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Seoul National University Hospital</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Kim</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Da jung</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Daehak-ro 101, Seoul, South Korea</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">dkim3193@snu.ac.kr</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">+82100</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN002298" class="analysis__grid__item lightgrey">AN002298</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002298/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002298_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002298/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002298_json.log" target="_blank">Passing</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002298</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001422" class="study__grid__item">ST001422: Aspirin Metabolomics in Colorectal Cancer Chemoprevention - blood (part-II) - Emory University - Uppal, Karan</a>
+                <div class="grid__description" style="height:13em;max-height:13">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Aspirin Metabolomics in Colorectal Cancer Chemoprevention - blood (part-II)</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Substantial evidence supports the effectiveness of aspirin for cancer chemoprevention in addition to its well established role in cardiovascular protection. In recent meta-analyses of randomized controlled trials in human, daily aspirin use reduced incidence, metastasis and mortality from several common types of cancer, especially colorectal cancer. The mechanism(s) by which aspirin exerts an anticancer benefit is uncertain; numerous effects have been described involving both cyclooxygenase-dependent and -independent pathways. The goal of this research is to elucidate the key metabolic changes that are responsible for the anticancer effects of aspirin in humans using untargeted metabolomics analysis. Metabolomics, or global metabolite profiling, is an emerging discipline that has the potential to transform the study of pharmaceutical agents. Our innovative approach will use high-resolution mass spectroscopy to detect thousands of metabolites in blood plasma that were collected from participants in the Aspirin/Folate Polyp Prevention Study, a randomized, double-blind, placebo-controlled trial of aspirin for the prevention of colorectal adenomas. Participants in the trial were assigned with equal probability to three aspirin treatment arms (placebo, 81mg, or 325mg daily). Over the three-year period, 81mg/day of aspirin reduced the risk of adenomas, whereas the 325 mg/day dose had less effect. The aims of the current proposal are to identify metabolomic signatures, including specific metabolites and metabolic pathways, that are associated with aspirin treatment in blood of participants after three years of randomized aspirin treatment; and then to assess the associations of these metabolic signatures with adenoma risk and whether they mediate the reductions in risk due to 81 mg/day aspirin treatment. We will prioritize metabolites for study by evaluating metabolite levels in patients from the placebo and treatment arms while controlling the false discovery rate, use correlation analysis to enhance identification of relevant metabolic modules associated with these prioritized metabolites, and apply pathway mapping with post-hoc application of ion dissociation spectroscopy to representative metabolites to confirm pathway identification. Because aspirin is a multifunctional drug that is thought to modify numerous pathways with potential roles in carcinogenesis, a global discovery-based metabolomics approach is the best way to identify its key activities. The public health significance of this work is substantial because understanding the mechanism of aspirin's anticancer effects is key to optimizing its use and to the development of novel drugs targeting the metabolic pathways identified.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Emory University</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">School of Medicine</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Clincal Biomarkers Laboratory</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Uppal</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Karan</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">615 Michael St, Suite 225</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">kuppal2@emory.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">(404) 727 5027</div>
+						<div class="desc__grid__item">TOTAL_SUBJECTS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">600</div>
+						<div class="desc__grid__item">STUDY_COMMENTS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Aspirin Metabolomics Priority 1</div>
+						<div class="desc__grid__item">ANALYSIS_TYPE_DETAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">LC-MS</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN002378" class="analysis__grid__item lightgrey">AN002378</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002378/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002378_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002378/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002378_json.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002378</div>
+                    </div>
+                </div>
+                <a href="#AN002379" class="analysis__grid__item lightgrey">AN002379</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002379/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002379_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002379/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002379_json.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002379</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001423" class="study__grid__item">ST001423: Aspirin Metabolomics in Colorectal Cancer Chemoprevention - blood (part-II) - Emory University - Uppal, Karan</a>
+                <div class="grid__description" style="height:13em;max-height:13">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Aspirin Metabolomics in Colorectal Cancer Chemoprevention - blood (part-II)</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Substantial evidence supports the effectiveness of aspirin for cancer chemoprevention in addition to its well established role in cardiovascular protection. In recent meta-analyses of randomized controlled trials in human, daily aspirin use reduced incidence, metastasis and mortality from several common types of cancer, especially colorectal cancer. The mechanism(s) by which aspirin exerts an anticancer benefit is uncertain; numerous effects have been described involving both cyclooxygenase-dependent and -independent pathways. The goal of this research is to elucidate the key metabolic changes that are responsible for the anticancer effects of aspirin in humans using untargeted metabolomics analysis. Metabolomics, or global metabolite profiling, is an emerging discipline that has the potential to transform the study of pharmaceutical agents. Our innovative approach will use high-resolution mass spectroscopy to detect thousands of metabolites in blood plasma that were collected from participants in the Aspirin/Folate Polyp Prevention Study, a randomized, double-blind, placebo-controlled trial of aspirin for the prevention of colorectal adenomas. Participants in the trial were assigned with equal probability to three aspirin treatment arms (placebo, 81mg, or 325mg daily). Over the three-year period, 81mg/day of aspirin reduced the risk of adenomas, whereas the 325 mg/day dose had less effect. The aims of the current proposal are to identify metabolomic signatures, including specific metabolites and metabolic pathways, that are associated with aspirin treatment in blood after three years of randomized aspirin treatment; and then to assess the associations of these metabolic signatures with adenoma risk and whether they mediate the reductions in risk due to 81 mg/day aspirin treatment. We will prioritize metabolites for study by evaluating metabolite levels in patients from the placebo and treatment arms while controlling the false discovery rate, use correlation analysis to enhance identification of relevant metabolic modules associated with these prioritized metabolites, and apply pathway mapping with post-hoc application of ion dissociation spectroscopy to representative metabolites to confirm pathway identification. Because aspirin is a multifunctional drug that is thought to modify numerous pathways with potential roles in carcinogenesis, a global discovery-based metabolomics approach is the best way to identify its key activities. The public health significance of this work is substantial because understanding the mechanism of aspirin's anticancer effects is key to optimizing its use and to the development of novel drugs targeting the metabolic pathways identified.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Emory University</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">School of Medicine</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Clincal Biomarkers Laboratory</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Uppal</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Karan</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">615 Michael St, Suite 225</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">kuppal2@emory.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">(404) 727 5027</div>
+						<div class="desc__grid__item">TOTAL_SUBJECTS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">446</div>
+						<div class="desc__grid__item">STUDY_COMMENTS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Aspirin Metabolomics Priority 2</div>
+						<div class="desc__grid__item">ANALYSIS_TYPE_DETAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">LC-MS</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN002380" class="analysis__grid__item lightgrey">AN002380</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002380/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002380_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002380/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002380_json.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002380</div>
+                    </div>
+                </div>
+                <a href="#AN002381" class="analysis__grid__item lightgrey">AN002381</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002381/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002381_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002381/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002381_json.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002381</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001447" class="study__grid__item">ST001447: None - None - None, None</a>
+                <div class="grid__description" style="height:0em;max-height:0">
+                    <div class="desc__grid">
+
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN002418" class="analysis__grid__item lightgrey">AN002418</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002418/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002418_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002418/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight red">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002418_json.log" target="_blank">Parsing Error</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002418</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001469" class="study__grid__item">ST001469: None - None - None, None</a>
+                <div class="grid__description" style="height:0em;max-height:0">
+                    <div class="desc__grid">
+
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN002445" class="analysis__grid__item lightgrey">AN002445</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002445/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002445_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002445/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight red">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002445_json.log" target="_blank">Parsing Error</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002445</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001470" class="study__grid__item">ST001470: None - None - None, None</a>
+                <div class="grid__description" style="height:0em;max-height:0">
+                    <div class="desc__grid">
+
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN002446" class="analysis__grid__item lightgrey">AN002446</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002446/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002446_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002446/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight red">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002446_json.log" target="_blank">Parsing Error</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002446</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001471" class="study__grid__item">ST001471: None - None - None, None</a>
+                <div class="grid__description" style="height:0em;max-height:0">
+                    <div class="desc__grid">
+
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN002447" class="analysis__grid__item lightgrey">AN002447</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002447/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002447_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002447/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight red">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002447_json.log" target="_blank">Parsing Error</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002447</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001472" class="study__grid__item">ST001472: None - None - None, None</a>
+                <div class="grid__description" style="height:0em;max-height:0">
+                    <div class="desc__grid">
+
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN002448" class="analysis__grid__item lightgrey">AN002448</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002448/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002448_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002448/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight red">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002448_json.log" target="_blank">Parsing Error</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002448</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001473" class="study__grid__item">ST001473: None - None - None, None</a>
+                <div class="grid__description" style="height:0em;max-height:0">
+                    <div class="desc__grid">
+
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN002449" class="analysis__grid__item lightgrey">AN002449</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002449/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002449_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002449/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight red">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002449_json.log" target="_blank">Parsing Error</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002449</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001474" class="study__grid__item">ST001474: None - None - None, None</a>
+                <div class="grid__description" style="height:0em;max-height:0">
+                    <div class="desc__grid">
+
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN002450" class="analysis__grid__item lightgrey">AN002450</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002450/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002450_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002450/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight red">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002450_json.log" target="_blank">Parsing Error</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002450</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001475" class="study__grid__item">ST001475: None - None - None, None</a>
+                <div class="grid__description" style="height:0em;max-height:0">
+                    <div class="desc__grid">
+
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN002451" class="analysis__grid__item lightgrey">AN002451</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002451/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002451_txt.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002451/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight red">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002451_json.log" target="_blank">Parsing Error</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002451</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001633" class="study__grid__item">ST001633: None - None - None, None</a>
+                <div class="grid__description" style="height:0em;max-height:0">
+                    <div class="desc__grid">
+
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN002669" class="analysis__grid__item lightgrey">AN002669</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002669/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight red">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002669_txt.log" target="_blank">Parsing Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002669/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002669_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002669</div>
+                    </div>
+                </div>
+            </div>
+			<br>
+            <div class="grid header">
+                <a href="#ST001766" class="study__grid__item">ST001766: Application of the redox metabolite detection method for mammalian tissues (part I) - Boston Children's Hospital, Harvard Medical School - Petrova, Boryana</a>
+                <div class="grid__description" style="height:10em;max-height:10">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Application of the redox metabolite detection method for mammalian tissues (part I)</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">This study was aimed at optimizing redox metabolites detection from mammalian tissues. Three different chromatographic conditions were compared as well as three different extraction conditions. This study was run on LUNA NH2 HILIC chromatography</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Boston Children's Hospital, Harvard Medical School</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Pathology</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Naama Kanarek</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Petrova</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Boryana</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">300 Longwood Av, Boston, MA, 2115, USA</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">boryana.petrova@childrens.harvard.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">6173557433</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <a href="#AN002873" class="analysis__grid__item lightgrey">AN002873</a>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002873/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002873_txt.log" target="_blank">Passing</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002873/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight lightgrey">
+                                <a href="https://raw.githubusercontent.com/cdpowell/test-project/master/docs/validation_logs/AN002873_json.log" target="_blank">Missing/Blank</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002873</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -87,10 +87,13 @@ def create_desc(params, tabs="\t"*6):
     return "\n".join(desc_items)
 
 
-if __name__ == "__main__":
+def create_html(validation_dict, output_filename):
+    """
 
-    output_name = "test.html"
-    validation_dict = load_validation_json("test2.json")
+    :param validation_filename:
+    :param output_filename:
+    :return:
+    """
     num_studies, num_analyses, error_dict = generate_statistics_summary(validation_dict)
 
     num_errors = list()
@@ -123,17 +126,6 @@ if __name__ == "__main__":
         grid_item_list = []
         for analysis_id in validation_dict[study_id]["analyses"]:
 
-            print(analysis_id)  # REMOVE
-            # analysis_desc_list = []
-            # for analysis_key in validation_dict[study_id]["analyses"][analysis_id]["params"]:
-            #     analysis_desc_list.append(DESC_STR.format("", analysis_key))
-            #     analysis_desc_list.append(
-            #         DESC_STR.format(
-            #             " style=\"white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);\"",
-            #             validation_dict[study_id]["analyses"][analysis_id]["params"][analysis_key]
-            #         )
-            #     )
-
             badge_list = []
             for format_type in validation_dict[study_id]["analyses"][analysis_id]["status"]:
 
@@ -157,9 +149,57 @@ if __name__ == "__main__":
 
     file_status_str = "\n".join(file_status_list)
 
-    with open("../"+output_name, "w") as f:
+    with open("../"+output_filename, "w") as f:
         f.write(INDEX_STR.format(
             str(datetime.now()),
             stats_str,
             file_status_str
         ))
+
+
+def create_error_dicts(validation_dict, status_str, file_format=None):
+    """
+
+    :param validation_dict:
+    :return:
+    """
+    status_dict = dict()
+
+    for study_id in validation_dict:
+        for analysis_id in validation_dict[study_id]["analyses"]:
+            if not file_format:
+                if {status_str} == set(validation_dict[study_id]["analyses"][analysis_id]["status"].values()):
+                    status_dict.setdefault(study_id, dict()).setdefault("params", validation_dict[study_id]["params"])
+                    status_dict[study_id].setdefault("analyses", dict())[analysis_id] =  \
+                        validation_dict[study_id]["analyses"][analysis_id]
+            elif file_format:
+                if status_str in set(validation_dict[study_id]["analyses"][analysis_id]["status"].values()):
+                    status_dict.setdefault(study_id, dict()).setdefault("params", validation_dict[study_id]["params"])
+                    status_dict[study_id].setdefault("analyses", dict())[analysis_id] = \
+                        validation_dict[study_id]["analyses"][analysis_id]
+
+    return status_dict
+
+
+if __name__ == "__main__":
+
+    # create the main webpage
+    validation_dict = load_validation_json("tmp.json")
+    create_html(validation_dict, "index.html")
+
+    # create the error subpages
+    # webpage with analyses were both formats are passing
+    passing = create_error_dicts(validation_dict, "Passing")
+    create_html(passing, "passing.html")
+
+    # webpage with analyses were one format or more has a validation error
+    validation = create_error_dicts(validation_dict, "Validation Error", True)
+    create_html(validation, "validation_error.html")
+
+    # webpage with analyses were one format or more has a parsing error
+    parsing = create_error_dicts(validation_dict, "Parsing Error", True)
+    create_html(parsing, "parsing_error.html")
+
+    # webpage with analyses were one format or more is missing
+    missing = create_error_dicts(validation_dict, "Missing/Blank", True)
+    create_html(missing, "missing.html")

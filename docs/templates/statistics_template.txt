@@ -6,16 +6,16 @@
                 <div class="stats__grid__item">Status</div>
                 <div class="stats__grid__item">mwTab</div>
                 <div class="stats__grid__item">JSON</div>
-                <div class="stats__grid__item brightgreen">Passing</div>
+                <a href="https://cdpowell.github.io/test-project/passing" class="stats__grid__item brightgreen">Passing</a>
                 <div class="stats__grid__item">{2}</div>
                 <div class="stats__grid__item">{3}</div>
-                <div class="stats__grid__item red">Parsing Error</div>
+                <a href="https://cdpowell.github.io/test-project/validation_error" class="stats__grid__item red">Parsing Error</a>
                 <div class="stats__grid__item">{4}</div>
                 <div class="stats__grid__item">{5}</div>
-                <div class="stats__grid__item orange">Validation Error</div>
+                <a href="https://cdpowell.github.io/test-project/parsing_error" class="stats__grid__item orange">Validation Error</a>
                 <div class="stats__grid__item">{6}</div>
                 <div class="stats__grid__item">{7}</div>
-                <div class="stats__grid__item lightgrey">Missing</div>
+                <a href="https://cdpowell.github.io/test-project/missing" class="stats__grid__item lightgrey">Missing</a>
                 <div class="stats__grid__item">{8}</div>
                 <div class="stats__grid__item">{9}</div>
             </div>
