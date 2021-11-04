@@ -1,78 +1,8 @@
 Validation Log
-2021-06-08 10:50:32.169349
-mwtab version: 1.1.2.post1
+2021-11-04 15:19:29.934880
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001777/mwtab/txt
 Study ID:      ST001091
 Analysis ID:   AN001777
-File format:   txt
-SCHEMA: Section "MS" does not match the allowed schema. Wrong key 'ACQUISITION_DATE' in OrderedDict([('MS_COMMENTS', '-'), ('INSTRUMENT_NAME', 'Thermo Fusion Tribrid Orbitrap Thermo Fusion Tribrid Orbitrap'), ('INSTRUMENT_TYPE', 'Orbitrap'), ('MS_TYPE', 'ESI'), ('ION_MODE', 'NEGATIVE'), ('ACQUISITION_DATE', '4/18/2017-4/27/2017'), ('CAPILLARY_TEMPERATURE', '250C'), ('COLLISION_GAS', 'N2'), ('DRY_GAS_FLOW', '45'), ('DRY_GAS_TEMP', '150C'), ('MASS_ACCURACY', '< 3ppm'), ('SPRAY_VOLTAGE', '-4000'), ('ACTIVATION_PARAMETER', '5.00E+05'), ('ACTIVATION_TIME', '118ms'), ('INTERFACE_VOLTAGE', 'S-Lens RF level= 55'), ('RESOLUTION_SETTING', '120000'), ('SCANNING_RANGE', '85-1275'), ('MS_RESULTS_FILE', 'ST001091_AN001777_Results.txt UNITS:Peak area')])
-MS_METABOLITE_DATA: Metabolite/Bin Range "Pyruvic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Oxalic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Hydroxypyruvic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Serine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Glyceric acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Pyrrole-2-carboxylic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Uracil" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Creatinine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Imidazoleacetic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Ureidopropionic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Aspartic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Adenine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Hypoxanthine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "5-Hydroxymethyluracil" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Oxoglutaric acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Glutamine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Lysine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Citramalic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "trans-Cinnamic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Mevalonic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Methionine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Guanine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Xanthine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "3-Sulfinoalanine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Dopamine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Histidine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Indoleacetaldehyde" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Oxoadipic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Aminoadipic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "3-Hydroxymethylglutaric acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Acetylcysteine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Phenylalanine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Uric acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "trans-Aconitic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Shikimic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "N-Acetylasparagine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "N-Acetyl-L-aspartic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Citrulline" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "N-Formyl-L-methionine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Caffeic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Tyrosine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "DL-O-Phosphoserine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "3-Phosphoglyceric acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "N-Alpha-acetyllysine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Kynurenic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "N-Acetylglutamic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Diaminopimelic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Quinic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Gluconic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Vanillylmandelic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Phosphocreatine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Dethiobiotin" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Pantothenic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Myristic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Uridine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Palmitoleic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Adenosine" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "6-Phosphogluconic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Gamma-Linolenic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "All-trans-retinoic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Guanosine monophosphate" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Adenosine 35-diphosphate" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Guanosine diphosphate" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Glycocholic acid" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Cytidine triphosphate" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Adenosine diphosphate ribose" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Uridine diphosphate glucose" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ADP-glucose" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Guanosine diphosphate mannose" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Stachyose" missing data entry for 423 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "FAD" missing data entry for 423 samples
+File format:   txtStatus: Missing/Blank
+<urlopen error [Errno 8] nodename nor servname provided, or not known>

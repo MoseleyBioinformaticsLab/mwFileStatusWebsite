@@ -1,0 +1,9 @@
+Validation Log
+2021-07-12 17:42:54.758958
+mwtab version: 1.1.2.post1
+Study ID:      ST000236
+Analysis ID:   AN000362
+File format:   json
+SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('Compound', '13.56_929.6035'), ('Quant m/z', '929.6035'), ('Ret. Index', '13.56'), ('Other ID', ''), ('Spectra', ''), ('Kegg', ''), ('PubChem', '')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')

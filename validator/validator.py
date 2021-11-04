@@ -9,16 +9,11 @@ file containing the validation metadata.
 """
 import mwtab
 import json
+import re
 from datetime import datetime
 
+
 MW_REST_URL = "https://www.metabolomicsworkbench.org/rest/study/analysis_id/{}/mwtab/{}"
-VALIDATION_LOG_HEADER = """Validation Log
-{}
-mwtab version: {}
-Study ID:      {}
-Analysis ID:   {}
-File format:   {}
-"""
 
 
 def validate_mwtab_files(output_file="tmp.json", verbose=False):
@@ -31,7 +26,7 @@ def validate_mwtab_files(output_file="tmp.json", verbose=False):
         print("\tmwtab version:", mwtab.__version__)
 
     try:
-        study_analysis_dict = mwtab.mwrest.pull_study_analysis()
+        study_analysis_dict = mwtab.mwrest._pull_study_analysis()
 
         # count the number of present studies and analyses
         num_studies = len(study_analysis_dict)
@@ -76,35 +71,40 @@ def validate_mwtab_files(output_file="tmp.json", verbose=False):
 
             for file_format in ("txt", "json"):
 
-                validation_log = VALIDATION_LOG_HEADER.format(str(datetime.now()), mwtab.__version__, study_id, analysis_id, file_format)
-
                 try:
                     mwtabfile = next(mwtab.read_files(MW_REST_URL.format(analysis_id, file_format)))
-                    _, error_log_str = mwtab.validate_file(mwtabfile, metabolites=False)
-
-                    # file passed validation (no errors saved to error log)
-                    if not error_log_str:
+                    validated_mwtabfile, validation_log = mwtab.validate_file(mwtabfile, metabolites=False)
+                    status_str = re.search(r'Status.*', validation_log).group(0).split(': ')[1]
+                    if status_str == 'Passing':
                         validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Passing"
-                        error_log_str = "Passing"
-
-                    # file contains validation errors
-                    else:
+                    elif status_str == 'Contains Validation Errors':
                         validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Validation Error"
-
-                    validation_log += error_log_str
-
-                    # get study metadata
-                    if not validation_dict[study_id]["params"]:
-                        validation_dict[study_id]["params"] = mwtabfile["STUDY"]
+                    validation_dict[study_id]["params"] = mwtabfile["STUDY"]
 
                 # error in accessing Metabolomics Workbench REST API for specific file
                 except (TypeError, IndexError) as e:
                     validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Parsing Error"
-                    validation_log += "Parsing Error\n" + str(e)
+                    validation_log = mwtab.validator.VALIDATION_LOG_HEADER.format(
+                        str(datetime.now()),
+                        mwtab.__version__,
+                        MW_REST_URL.format(analysis_id, file_format),
+                        study_id,
+                        analysis_id,
+                        file_format
+                    )
+                    validation_log += "Status: Parsing Error\n" + str(e)
 
                 except Exception as e:
                     validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Missing/Blank"
-                    validation_log += "Missing/Blank\n" + str(e)
+                    validation_log = mwtab.validator.VALIDATION_LOG_HEADER.format(
+                        str(datetime.now()),
+                        mwtab.__version__,
+                        MW_REST_URL.format(analysis_id, file_format),
+                        study_id,
+                        analysis_id,
+                        file_format
+                    )
+                    validation_log += "Status: Missing/Blank\n" + str(e)
 
                 with open("../docs/validation_logs/{}_{}.log".format(analysis_id, file_format), "w") as fh:
                     fh.write(validation_log)

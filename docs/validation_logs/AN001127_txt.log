@@ -1,122 +1,15 @@
 Validation Log
-2021-06-08 10:37:22.051765
-mwtab version: 1.1.2.post1
+2021-11-04 15:01:49.207041
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001127/mwtab/txt
 Study ID:      ST000721
 Analysis ID:   AN001127
 File format:   txt
+Status: Contains Validation Errors
+Number Errors: 4
+
+Error Log:
 SCHEMA: Section "PROJECT" does not match the allowed schema. Missing key: 'PHONE'
 SCHEMA: Section "STUDY" does not match the allowed schema. Missing key: 'PHONE'
 SCHEMA: Section "MS" does not match the allowed schema. Missing key: 'MS_COMMENTS'
-MS_METABOLITE_DATA: Metabolite/Bin Range "1-METHYLADENOSINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "1-METHYLADENOSINE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "1-METHYLXANTHINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "16:0 LYSO PC (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "16:0 LYSO PC (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "16:0-18:0 PC (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "18:0 LYSO-PE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "2-DEOXY-D-GLUCOSE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "20:0 LYSO PC (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "3-AMINOISOBUTYRIC ACID (M+H)+[-H2O]" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "3-METHOXYTYROSINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "4-ACETAMINOPHEN SULFATE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "4-ACETAMINOPHEN SULFATE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "4-PYRIDOXIC ACID (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "4-QUINOLINECARBOXYLIC ACID #2 (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "5'-METHYLTHIOADENOSINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "5-AMINOPENTANOIC ACID (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ACETAMINOPHEN (TN TYLENOL) (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ACETAMINOPHEN (TN TYLENOL) (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ADENOSINE 5'-MONOPHOSPHATE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ADIPIC ACID (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ASPARAGINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "BIS(2-ETHYLHEXYL)PHTHALIC ACID (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "BIS(2-ETHYLHEXYL)PHTHALIC ACID (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "BUTYRYLCARNITINE (*) (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAFFEINE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CARNITINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CHOLESTEROL (M+H)+[-H2O]" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CHOLINE M+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CHOLINE PHOSPHATE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CITRIC ACID (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CREATINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CREATININE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CYSTATHIONINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CYSTEIC ACID (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CYTIDINE 5'-DIPHOSPHOCHOLINE (M+K)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "DECANOYLCARNITINE (*) (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "DECENOYLCARNITINE (*) (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "DODECENOYLCARNITINE (*) II M+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "EDTA (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ELAIDIC ACID (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "EPIANDROSTERONE (M+H)+[-H2O]" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "EPIBRASSINOLIDE [ISTD] (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "GAMMA-LINOLENIC ACID (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "GLUCOSE (2M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "GLUCOSE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "GLUTARYLCARNITINE (*) (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "GLYCEROL MYRISTATE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "GLYCOCHENODEOXYCHOLIC ACID (M+H)+[-H2O]" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "GLYCOCHOLIC ACID (M+H)+[-H2O]" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "GUANINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "HEXANOYLCARNITINE (*) M+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "HOMOGENTISIC ACID (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "HOMOVANILLIC ACID (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "HYPOXANTHINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ISO-BUTYRYLCARNITINE (*) (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ISOLEUCINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ISOLEUCINE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ISOVALERYLCARNITINE (*) (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "KYNURENIC ACID (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "KYNURENINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "KYNURENINE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "L-ARGININE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "L-ARGININE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "L-TRYPTOPHAN-15N2 [ISTD] (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "LAUROYLCARNITINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "LYSINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "METHIONINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "METHYL BETA-D-GALACTOSIDE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "N-ACETYL-DL-SERINE (M+H)+[-H2O]" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "N-ACETYL-L-ALANINE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "NICOTINAMIDE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "OCTENOYLCARNITINE (*) M+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "OLEIC ACID (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "OLEIC ACID (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "OLEOYL-GLYCEROL (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "OLEOYL-GLYCEROL (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ORNITHINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "P-ACETAMIDOPHENYL BETA-D-GLUCURONIDE (2M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "P-ACETAMIDOPHENYL BETA-D-GLUCURONIDE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "P-ACETAMIDOPHENYL BETA-D-GLUCURONIDE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "PANTOTHENIC ACID (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "PANTOTHENIC ACID (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "PHENYLALANINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "PIPECOLIC ACID (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "PROLINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "PROPIONYLCARNITINE (*) (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "S-ADENOSYL-L-HOMOCYSTEINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "SERINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "SEROTONIN (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "SEROTONIN (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "SN-GLYCERO-3-PHOSPHOCHOLINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "SPERMIDINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "SPERMINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "STEAROYLCARNITINE (*) (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "SUCROSE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "TAUROCHENODEOXYCHOLIC ACID (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "THEOBROMINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "THEOPHYLLINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "THEOPHYLLINE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "THREONINE (M+H)+[-H2O]" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "TRANS-3'-HYDROXYCOTININE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "TRYPTOPHAN (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "TRYPTOPHAN (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "TYROSINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "TYROSINE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "URIC ACID (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "URIC ACID (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "URIDINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "URIDINE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "VALINE (M+H)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "VALINE (M+NA)+" missing data entry for 104 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ZEATIN [ISTD] (M+H)+" missing data entry for 104 samples
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'S00025740', 'S00025781', 'S00025748', 'S00025754', 'S00025751', 'S00025785', 'S00025762', 'S00025783', 'S00025747', 'S00025756', 'S00025746', 'S00025778', 'S00025869', 'S00025877', 'S00025870', 'S00025880', 'S00025882', 'S00025736', 'S00025774', 'S00025865', 'S00025784', 'S00025879', 'S00025764', 'S00025767', 'S00025871', 'S00025650', 'S00025646', 'S00025872', 'S00025648', 'S00025749', 'S00025886', 'S00025645', 'S00025753', 'S00025881', 'S00025775', 'S00025654', 'S00025658', 'S00025770', 'S00025875', 'S00025757', 'S00025887', 'S00025741', 'S00025639', 'S00025745', 'S00025885', 'S00025779', 'S00025780', 'S00025755', 'S00025642', 'S00025891', 'S00025760', 'S00025873', 'S00025768', 'S00025883', 'S00025890', 'S00025892', 'S00025652', 'S00025656', 'S00025640', 'S00025771', 'S00025752', 'S00025759', 'S00025874', 'S00025782', 'S00025876', 'S00025766', 'S00025651', 'S00025884', 'S00025744', 'S00025655', 'S00025769', 'S00025878', 'S00025888', 'S00025763', 'S00025765', 'S00025786', 'S00025743', 'S00025787', 'S00025867', 'S00025868', 'S00025643', 'S00025638', 'S00025637', 'S00025777', 'S00025742', 'S00025641', 'S00025866', 'S00025758', 'S00025657', 'S00025738', 'S00025649', 'S00025739', 'S00025761', 'S00025776', 'S00025737', 'S00025750', 'S00025864', 'S00025644', 'S00025647', 'S00025889', 'S00025772', 'S00025659', 'S00025653', 'S00025773'}.

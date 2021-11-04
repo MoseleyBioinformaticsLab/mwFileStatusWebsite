@@ -1,0 +1,78 @@
+Validation Log
+2021-07-12 18:30:07.363331
+mwtab version: 1.1.2.post1
+Study ID:      ST001119
+Analysis ID:   AN001830
+File format:   json
+SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'Acetylaspartate')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')
+MS_METABOLITE_DATA: Metabolite/Bin Range "Acetylaspartate" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(2:0)" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Acetylglutamate" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "N-acetylglutamic acid" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Alanine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Aminoadipic acid" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Arginine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Asparagine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Dimethylarginine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Beta-Alanine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Betaine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Biotin" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Carnitine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Carnosine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "CDP-choline" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Choline" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Citrulline" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "CMP" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Coenzyme A" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Creatinine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Cystathionine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Cystine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Cytidine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "dATP" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Deoxycytidine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Fructose-1,6-biphosphate" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Gamma-Aminobutyric acid" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "5-Glutamyl-alanine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Glutamine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Glycerol 3-phosphate" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "sn-glycero-3-phosphocholine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Glycine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "GSH" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "GSSG" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Guanidoacetic acid" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Histidine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Hypotaurine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Hypoxanthine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "IMP" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Indolelactic acid" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Inosine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Isoleucine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Kynurenine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Leucine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Lysine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Methionine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Methionine sulfoxide" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "N6-acetyllysine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Niacinamide" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Ornithine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Pantothenic acid" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Alpha-N-Phenylacetylglutamine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Phenylalanine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Choline phosphate" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Phosphocreatine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Phosphoserine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Picolinic acid" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Pipecolic acid" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Proline" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Riboflavin" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "S-Adenosylhomocysteine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Sarcosine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Serine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Threonine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Urocanic acid" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Tryptophan" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Tyrosine" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "UMP" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Valine" missing data entry for 6 samples

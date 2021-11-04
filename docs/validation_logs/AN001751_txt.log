@@ -1,7 +1,12 @@
 Validation Log
-2021-06-08 10:50:02.643323
-mwtab version: 1.1.2.post1
+2021-11-04 15:13:54.225850
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001751/mwtab/txt
 Study ID:      ST001069
 Analysis ID:   AN001751
 File format:   txt
-MS_METABOLITE_DATA: Metabolite/Bin Range "SLC1G" missing data entry for 36 samples
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'KCHS16841', 'KCHS17029', 'KCHS16877', 'KCHS16924', 'KCHS16869', 'KCHS16725', 'KCHS16955', 'KCHS16884', 'KCHS16878', 'KCHS16862', 'KCHS16952', 'KCHS16870', 'KCHS16663', 'KCHS16726', 'KCHS16925', 'KCHS17027', 'KCHS16861', 'KCHS17028', 'KCHS16885', 'KCHS16713', 'KCHS17012', 'KCHS16714', 'KCHS16926', 'KCHS16951', 'KCHS17030', 'KCHS16675', 'KCHS17014', 'KCHS16879', 'KCHS16868', 'KCHS16843', 'KCHS16844', 'KCHS16661', 'KCHS17013', 'KCHS16863', 'KCHS16682', 'KCHS16876'}.

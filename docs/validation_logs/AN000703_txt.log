@@ -1,28 +1,12 @@
 Validation Log
-2021-06-08 10:21:28.648120
-mwtab version: 1.1.2.post1
+2021-11-04 14:46:34.913247
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000703/mwtab/txt
 Study ID:      ST000449
 Analysis ID:   AN000703
 File format:   txt
-MS_METABOLITE_DATA: Metabolite/Bin Range "Glutathione" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ATP" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Xanthine" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "AMP" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Hypoxanthine" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "D-alanyl-D-alanine" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "γ-L-glutamyl methylamide" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "glycerol monophosphate" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "S-(hydroxymethyl)glutathione" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "xanthylic acid" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "dCDP" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "dGDP" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ADP" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "GDP" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "retinoyl glucuronide" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "dTDP-D-glucose" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "dTDP-D-galactose" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "UDP-glucose" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "UDP-D-galactose" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "UDP-N-acetylglucosamine" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "UDP-N-Acetyl-D-mannosamine" missing data entry for 2 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "surfactin-C15" missing data entry for 2 samples
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'ECBS-1', 'BS-2'}.

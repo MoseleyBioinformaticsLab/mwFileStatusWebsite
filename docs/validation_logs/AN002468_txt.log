@@ -1,8 +1,8 @@
 Validation Log
-2021-06-08 11:03:25.153083
-mwtab version: 1.1.2.post1
+2021-11-04 15:19:36.224822
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002468/mwtab/txt
 Study ID:      ST001490
 Analysis ID:   AN002468
-File format:   txt
-Parsing Error
-('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t1\\t13200944\\tTreatment:Baseline\\tRAW_FILE_NAME=Batch 1 of 9 - 20181003172516 - 1.wiff;Batch 1 of 9 - 20181003172516 - 2.wiff'", IndexError('list index out of range'))
+File format:   txtStatus: Missing/Blank
+<urlopen error [Errno 8] nodename nor servname provided, or not known>

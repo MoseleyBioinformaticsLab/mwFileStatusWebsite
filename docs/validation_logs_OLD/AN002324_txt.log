@@ -1,0 +1,8 @@
+Validation Log
+2021-07-12 18:41:55.523585
+mwtab version: 1.1.2.post1
+Study ID:      ST001393
+Analysis ID:   AN002324
+File format:   txt
+Parsing Error
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\t32ppt-1C_A\\tType:Smp | Salinity:32 | Temp_degC:-1\\tReplicate=A; RFU=605.6; Vol_L=0.07; RAW_FILE_NAME=170410_Smp_32ppt-1C_A;170413_Smp_40ppt4C_C;170410_Smp_32ppt-1C_A'", IndexError('list index out of range'))

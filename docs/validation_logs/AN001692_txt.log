@@ -1,18 +1,12 @@
 Validation Log
-2021-06-08 10:49:07.456000
-mwtab version: 1.1.2.post1
+2021-11-04 15:12:55.162976
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001692/mwtab/txt
 Study ID:      ST001032
 Analysis ID:   AN001692
 File format:   txt
-MS_METABOLITE_DATA: Metabolite/Bin Range "Lysine" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Arginine" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Guanine" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Pyridoxal" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Creatine" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Alanine" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Asparagine" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Glutamine" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Glutamate" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Aspartic acid" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Hypoxanthine" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Hydroxyproline" missing data entry for 3 samples
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'V1E2T1N', 'V1E4T1N', 'V1E1T1N'}.

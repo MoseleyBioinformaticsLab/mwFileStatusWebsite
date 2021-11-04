@@ -1,66 +1,15 @@
 Validation Log
-2021-06-08 10:02:44.782586
-mwtab version: 1.1.2.post1
+2021-11-04 14:24:02.131467
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000220/mwtab/txt
 Study ID:      ST000138
 Analysis ID:   AN000220
 File format:   txt
+Status: Contains Validation Errors
+Number Errors: 4
+
+Error Log:
 SUBJECT_SAMPLE_FACTORS: Entry #1 missing value for Additional sample data Waist Cm.
 SUBJECT_SAMPLE_FACTORS: Entry #2 missing value for Additional sample data Waist Cm.
 SUBJECT_SAMPLE_FACTORS: Entry #4 missing value for Additional sample data Waist Cm.
-MS_METABOLITE_DATA: Metabolite/Bin Range "C10" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C10_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C12" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C12_1" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C12_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C14" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C14_1" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C14_1_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C14_2" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C14_2_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C14_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C16" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C16_1" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C16_1_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C16_2" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C16_2_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C16_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C18" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C18_1" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C18_1_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C18_2" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C18_2_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C18_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C2" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C20" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C20_1" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C20_1_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C20_2" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C20_2_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C20_3" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C20_4" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C20_OH_C22_6_DC" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C22" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C22_1" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C22_2" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C22_3" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C22_4" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C22_5" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C3" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C3_DC" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C4_1" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C4_Butyryl" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C4_DC_Methylmalonyl" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C4_DC_Succinyl" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C4_Isobutryl" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C4_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C5_1" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C5_2_Methylbutyryl" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C5_DC" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C5_Isovaleryl" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C5_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C5_Valeryl" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C6" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C6_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C8" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C8_1_OH" missing data entry for 3 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "C8_OH" missing data entry for 3 samples
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'PR0517', 'PF0219', 'PR0271'}.

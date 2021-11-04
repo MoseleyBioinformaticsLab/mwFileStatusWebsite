@@ -1,0 +1,12 @@
+Validation Log
+2021-07-12 17:44:16.633496
+mwtab version: 1.1.2.post1
+Study ID:      ST000256
+Analysis ID:   AN000404
+File format:   txt
+SCHEMA: Section "PROJECT" does not match the allowed schema. Missing key: 'PHONE'
+SCHEMA: Section "STUDY" does not match the allowed schema. Missing key: 'PHONE'
+SCHEMA: Section "COLLECTION" does not match the allowed schema. Missing key: 'COLLECTION_SUMMARY'
+SCHEMA: Section "SAMPLEPREP" does not match the allowed schema. Missing key: 'SAMPLEPREP_SUMMARY'
+SCHEMA: Section "NM" does not match the allowed schema. Missing key: 'SPECTROMETER_FREQUENCY'
+NMR_METABOLITE_DATA: Metabolite/Bin Range "Valine" missing data entry for 1 samples

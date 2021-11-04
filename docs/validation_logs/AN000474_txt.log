@@ -1,14 +1,12 @@
 Validation Log
-2021-06-08 10:11:19.072066
-mwtab version: 1.1.2.post1
+2021-11-04 14:38:52.418245
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000474/mwtab/txt
 Study ID:      ST000296
 Analysis ID:   AN000474
 File format:   txt
-MS_METABOLITE_DATA: Metabolite/Bin Range "acetic acid" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "butyric acid" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "heptanoic acid" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "hexanoic acid" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "iso-butyric acid" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "isovaleric acid" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "propionic acid" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "valeric acid" missing data entry for 1 samples
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'S00017167'}.

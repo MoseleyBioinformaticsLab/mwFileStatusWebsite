@@ -1,13 +1,12 @@
 Validation Log
-2021-06-08 10:03:56.742184
-mwtab version: 1.1.2.post1
+2021-11-04 14:25:02.627717
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000305/mwtab/json
 Study ID:      ST000203
 Analysis ID:   AN000305
 File format:   json
-MS_METABOLITE_DATA: Metabolite/Bin Range "aceticacid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "butyricacid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "heptanoicacid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "hexanoicacid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "isovalericacid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "propionic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "valericacid" missing data entry for 33 samples
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'S00012816', 'S00012825', 'S00012821', 'S00012822', 'S00012824', 'S00012797', 'S00012800', 'S00012798', 'S00012818', 'S00012801', 'S00012809', 'S00012806', 'S00012795', 'S00012793', 'S00012819', 'S00012799', 'S00012803', 'S00012815', 'S00012802', 'S00012817', 'S00012810', 'S00012812', 'S00012813', 'S00012811', 'S00012823', 'S00012820', 'S00012808', 'S00012814', 'S00012807', 'S00012794', 'S00012796', 'S00012804', 'S00012805'}.

@@ -1,0 +1,25 @@
+Validation Log
+2021-07-12 18:19:00.361324
+mwtab version: 1.1.2.post1
+Study ID:      ST000864
+Analysis ID:   AN001389
+File format:   json
+SCHEMA: Section "MS" does not match the allowed schema. Missing key: 'MS_COMMENTS'
+SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'Sph')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')
+MS_METABOLITE_DATA: Metabolite/Bin Range "Sph" missing data entry for 3 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "SPA" missing data entry for 3 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "S1P" missing data entry for 3 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "C8-cer" missing data entry for 3 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "C14-cer" missing data entry for 3 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "C16-cer" missing data entry for 3 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "C16-dh cer" missing data entry for 3 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "C18:1-cer" missing data entry for 3 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "C18:1-dh cer" missing data entry for 3 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "C18-cer" missing data entry for 3 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "C18-dh cer" missing data entry for 3 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "C20-cer" missing data entry for 3 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "C22-cer" missing data entry for 3 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "C24:1-cer" missing data entry for 3 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "C24-cer" missing data entry for 3 samples

@@ -1,7 +1,12 @@
 Validation Log
-2021-06-08 10:33:14.675731
-mwtab version: 1.1.2.post1
+2021-11-04 14:58:12.251097
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001826/mwtab/txt
 Study ID:      ST000619
 Analysis ID:   AN001826
 File format:   txt
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
 DATA: Missing MS_METABOLITE_DATA section or MS_RESULTS_FILE item in MS section.

@@ -1,15 +1,12 @@
 Validation Log
-2021-06-08 10:14:23.452246
-mwtab version: 1.1.2.post1
+2021-11-04 14:40:40.788831
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000570/mwtab/txt
 Study ID:      ST000351
 Analysis ID:   AN000570
 File format:   txt
-MS_METABOLITE_DATA: Metabolite/Bin Range "NAM" missing data entry for 21 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "NMN" missing data entry for 21 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "NAD" missing data entry for 21 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "NADP" missing data entry for 21 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "NADH" missing data entry for 21 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "NADPH" missing data entry for 21 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "AMP" missing data entry for 21 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ADP" missing data entry for 21 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "ATP" missing data entry for 21 samples
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'C1-3', '13', '3', '30', '29', '28', '6', '16', '17', '18', '26', '7', '9', '23', 'C1-1', '8', '10', '27', '20', 'C1-2', '19'}.

@@ -1,11 +1,12 @@
 Validation Log
-2021-06-08 10:15:30.977245
-mwtab version: 1.1.2.post1
+2021-11-04 14:41:44.765148
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000610/mwtab/json
 Study ID:      ST000376
 Analysis ID:   AN000610
 File format:   json
-MS_METABOLITE_DATA: Metabolite/Bin Range "5-Hydroxyindoleacetic acid" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Adenosine" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Serotonin" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "3-Methoxytyramine" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Acetylcholine" missing data entry for 1 samples
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'S00018109'}.

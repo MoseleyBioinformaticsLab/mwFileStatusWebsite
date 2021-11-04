@@ -1,0 +1,8 @@
+Validation Log
+2021-07-12 18:53:29.128988
+mwtab version: 1.1.2.post1
+Study ID:      ST001775
+Analysis ID:   AN002882
+File format:   txt
+Parsing Error
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\tStrainsMetabs_PWK_2_35\\tStrain:C57BL/6 | SacDay:19 | Infected_yn:FALSE\\tExperimental.Cohort=StrainsMetabs_PWK_2; Mouse.Number=35; Cage=7; Notes.Global=plasma a little gunky; Blood.Volume.Gross=bridged from other experiment, effective sac -&gt; d19; Plasma.Volume.Gross=780; Hemolysis_notes=430; EDTA.Volume=pink; Blood.Volume.Net=50; Plasma.Volume.Net=730; Mouse.Source=380; Genotype=in-house; Sex=WT; Date.Birth=F; Date.Arrived=2017/11/30 00:00:00; Date.Transpond=2017/11/30 00:00:00; Date.d0Sampling=2018/01/23 00:00:00; Date.Infection=2018/01/30 00:00:00; RBC.Initial.millions.per.uL=2018/02/01 00:00:00; Temperature.Initial=8.0055; Weight.Initial=37.9; Weight=20.1; Temperature=20.5; RBC.millions.per.uL=37.5; Blood.Glucose=7.1215; Parasitemia=147; Parasite.Density=-; RBC.Delta=-; Blood.Glucose.Initial=-0.884; Blood.Glucose.Delta=134; Temperature.Delta=13; Weight.Delta=-0.4; Weight.Percent.Loss=0.4; AST=0.019900498; ALT=-; EOTAXIN=-; GSCF.CSF3=-; GMCSF=-; GROA=-; IFNA=-; IFNG=-; IL10=-; IL12P70=-; IL13=-; IL15.IL15R=-; IL17A=-; IL18=-; IL1A=-; IL1B=-; IL2=-; IL22=-; IL23=-; IL27=-; IL28=-; IL3=-; IL31=-; IL4=-; IL5=-; IL6=-; IL9=-; IP10=-; LEPTIN=-; LIF=-; LIX=-; MCSF=-; MCP1=-; MCP3=-; MIP1A=-; MIP1B=-; MIP2=-; RANTES=-; TGFB=-; TNFA=-; VEGF=-'", IndexError('list index out of range'))

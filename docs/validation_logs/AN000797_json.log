@@ -1,16 +1,12 @@
 Validation Log
-2021-06-08 10:23:56.202230
-mwtab version: 1.1.2.post1
+2021-11-04 14:48:59.642822
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000797/mwtab/json
 Study ID:      ST000522
 Analysis ID:   AN000797
 File format:   json
-MS_METABOLITE_DATA: Metabolite/Bin Range "Arachidonic acid" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Testosterone glucuronide" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "17a,21-Dihydroxypreg-nenolone" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "3a,21-Dihydroxy-5b-pregnane-11,20-dione" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Androsterone" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "5b-Dihydrotestosterone" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Etiocholanolone" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Dihydrotestosterone" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "4a-Methylzymosterol-4-carboxylic acid" missing data entry for 1 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "4a-Carboxy-4b-methyl-5a-cholesta-8,24-dien-3b-ol" missing data entry for 1 samples
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'20150724_YU_1_1_9'}.

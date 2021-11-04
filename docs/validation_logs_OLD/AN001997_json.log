@@ -1,0 +1,32 @@
+Validation Log
+2021-07-12 18:33:50.845682
+mwtab version: 1.1.2.post1
+Study ID:      ST001200
+Analysis ID:   AN001997
+File format:   json
+SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'CHEAR_STUDY' in OrderedDict([('STUDY_TITLE', 'Biological Responses to Tobacco Smoke Exposure in III Children: Inflammatory Processes and the Oral Microbiome'), ('STUDY_SUMMARY', 'This project evaluates the biological response to overall tobacco smoke (OTS) exposure among pediatric emergency patients enrolled in a randomized-controlled intervention trial aimed at reducing secondhand smoke exposure. The effects of OTS as measured by salivary continine on salivary metabolic profiles are measured by untargeted high resolution metabolomics, comparing higher and lower levels of OTS.'), ('INSTITUTE', 'Emory University'), ('DEPARTMENT', 'School of Medicine'), ('LABORATORY', 'Clincal Biomarkers Laboratory'), ('LAST_NAME', 'Uppal'), ('FIRST_NAME', 'Karan'), ('ADDRESS', 'NA'), ('EMAIL', 'kuppal2@emory.edu'), ('PHONE', '(404) 727 5027'), ('TOTAL_SUBJECTS', '284'), ('STUDY_COMMENTS', 'Both CHEAR pooled saliva samples and Clinical Biomarker Laboratory pooled plasma samples were used'), ('CHEAR_STUDY', '2017-1762')])
+SCHEMA: Section "MS" does not match the allowed schema. Wrong key 'ACQUISITION_DATE' in OrderedDict([('INSTRUMENT_NAME', 'Thermo Q Exactive HF hybrid Orbitrap'), ('INSTRUMENT_TYPE', 'Orbitrap'), ('MS_TYPE', 'ESI'), ('ION_MODE', 'NEGATIVE'), ('MS_COMMENTS', 'NA'), ('ACQUISITION_DATE', '1/23/19-2/1/19'), ('CAPILLARY_TEMPERATURE', '250C'), ('COLLISION_GAS', 'N2'), ('DRY_GAS_FLOW', '45'), ('DRY_GAS_TEMP', '150C'), ('MASS_ACCURACY', '< 3ppm'), ('SPRAY_VOLTAGE', '-4000'), ('ACTIVATION_PARAMETER', '5.00E+05'), ('ACTIVATION_TIME', '118ms'), ('INTERFACE_VOLTAGE', 'S-Lens RF level= 55'), ('SCANNING_RANGE', '85-1275'), ('MS_RESULTS_FILE', 'ST001200_AN001997_Results.txt UNITS:peak area Has m/z:Yes Has RT:Yes RT units:Seconds')])
+MS_METABOLITE_DATA: Metabolite/Bin Range "Oxalic acid" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "2-Aminoisobutyric acid" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Pyrrole-2-carboxylic acid" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Acetylglycine" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "4-Methylcatechol" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "O-Phosphoethanolamine" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Lysine" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Indoleacetaldehyde" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Pyridoxal" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "N-Acetylasparagine" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Caffeic acid" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "12-Hydroxydodecanoic acid" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Myristic acid" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Palmitoleic acid" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Palmitic acid" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Glucose 6-phosphate" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Heptadecanoic acid" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Gamma-Linolenic acid" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Linoleic acid" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Stearic acid" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "All-trans-retinoic acid" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Cytidine monophosphate" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Docosahexaenoic acid" missing data entry for 2 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "Adenosine 35-diphosphate" missing data entry for 2 samples

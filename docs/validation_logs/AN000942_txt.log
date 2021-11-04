@@ -1,15 +1,12 @@
 Validation Log
-2021-06-08 10:33:03.550682
-mwtab version: 1.1.2.post1
+2021-11-04 14:58:02.485549
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000942/mwtab/txt
 Study ID:      ST000614
 Analysis ID:   AN000942
 File format:   txt
-MS_METABOLITE_DATA: Metabolite/Bin Range "1,7-dimethylxanthine" missing data entry for 24 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Aniline" missing data entry for 24 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Benzyl alcohol" missing data entry for 24 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Cytidine 2,3-cyclic mono­phosphate" missing data entry for 24 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Epinephirine" missing data entry for 24 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Guanine" missing data entry for 24 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Hippureic acid" missing data entry for 24 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Norepinephrine" missing data entry for 24 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Pantathonicacid" missing data entry for 24 samples
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'22201-3 N', '0059678-07', '0060504-10', '20500-1 N', 'GN-8(0060808-03)', '0060684-07', '22186-1N', '0060960-04', '20957-1 N', '0061030-04', '0060530-03', '19229-1N', '21981-N', '22233-1N', '21813-N', '22018-1 N', '11(00601060-03)', '19(0065349-03)', '18132-1N', '19627-1 N', '20636-1 N', '19071-1 N', '13742-N', 'GN-5(0060539-03)'}.

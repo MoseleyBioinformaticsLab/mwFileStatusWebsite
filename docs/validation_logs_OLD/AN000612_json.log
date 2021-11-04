@@ -1,0 +1,11 @@
+Validation Log
+2021-07-12 17:51:57.855536
+mwtab version: 1.1.2.post1
+Study ID:      ST000378
+Analysis ID:   AN000612
+File format:   json
+SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Data' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('', 'D-2-hydroxyglutarate'), ('S00018487', '29.90'), ('S00018488', '17.66'), ('S00018489', '47.85'), ('S00018490', '9.90'), ('S00018491', '41.73'), ('S00018492', '11.71'), ('S00018493', '103.67'), ('S00018494', '20.92'), ('S00018495', '1.73'), ('S00018496', '1.19'), ('S00018497', '3.50'), ('S00018498', '2.71')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')
+MS_METABOLITE_DATA: Metabolite/Bin Range "D-2-hydroxyglutarate" missing data entry for 6 samples
+MS_METABOLITE_DATA: Metabolite/Bin Range "L-2-hydroxyglutarate" missing data entry for 6 samples

@@ -1,9 +1,13 @@
 Validation Log
-2021-06-08 10:42:05.833211
-mwtab version: 1.1.2.post1
+2021-11-04 15:05:52.334280
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001388/mwtab/txt
 Study ID:      ST000863
 Analysis ID:   AN001388
 File format:   txt
+Status: Contains Validation Errors
+Number Errors: 2
+
+Error Log:
 SCHEMA: Section "MS" does not match the allowed schema. Missing key: 'MS_COMMENTS'
-MS_METABOLITE_DATA: Metabolite/Bin Range "Total Cholesterol" missing data entry for 5 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Free Cholesterol" missing data entry for 5 samples
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'ms6120-30', 'ms6120-7', 'ms6120-9', 'ms6120-18', 'ms6120-8'}.

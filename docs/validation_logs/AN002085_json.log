@@ -1,7 +1,8 @@
 Validation Log
-2021-06-08 10:56:38.577569
-mwtab version: 1.1.2.post1
+2021-11-04 15:19:32.558143
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002085/mwtab/json
 Study ID:      ST001256
 Analysis ID:   AN002085
-File format:   json
-SCHEMA: Section "MS" does not match the allowed schema. Wrong key 'LABORATORY_NAME' in OrderedDict([('INSTRUMENT_NAME', 'Thermo Q-Exactive'), ('INSTRUMENT_TYPE', 'Orbitrap'), ('MS_TYPE', 'ESI'), ('ION_MODE', 'UNSPECIFIED'), ('MS_COMMENTS', 'The capillary of the ESI source was set to 275 °C, with sheath gas at 45 arbitrary units, auxiliary gas at 5 arbitrary units and the spray voltage at 4.0 kV. In positive/negative polarity switching mode, an m/z scan range from 70 to 850 was chosen and MS1 data was collected at a resolution of 70,000. The automatic gain control (AGC) target was set at 1 × 106 and the maximum injection time was 200\u2009ms. The top 5 precursor ions were subsequently fragmented, in a data-dependent manner, using the higher energy collisional dissociation (HCD) cell set to 30% normalized collision energy in MS2 at a resolution power of 17,500. The sample volumes of 25\u2009μl were injected. Data acquisition and analysis were carried out by Xcalibur 4.0 software and Tracefinder 2.1 software, respectively (both from Thermo Fisher Scientific).'), ('LABORATORY_NAME', 'Northwestern University.')])
+File format:   jsonStatus: Missing/Blank
+<urlopen error [Errno 8] nodename nor servname provided, or not known>

@@ -1,0 +1,7 @@
+Validation Log
+2021-07-12 18:32:40.597246
+mwtab version: 1.1.2.post1
+Study ID:      ST001171
+Analysis ID:   AN001936
+File format:   json
+SCHEMA: Section "MS" does not match the allowed schema. Wrong key 'ACQUISITION_DATE' in OrderedDict([('INSTRUMENT_NAME', 'Thermo Q Exactive HF hybrid Orbitrap'), ('INSTRUMENT_TYPE', 'Orbitrap'), ('MS_TYPE', 'ESI'), ('ION_MODE', 'POSITIVE'), ('MS_COMMENTS', 'LC-MS/MS data was acquired by data dependent acquisition;Progenesis QI was used to process the raw data.'), ('ACQUISITION_DATE', '7/20/2018'), ('CAPILLARY_TEMPERATURE', '275 oC'), ('CAPILLARY_VOLTAGE', '3.75 kV'), ('COLLISION_ENERGY', '20, 30, 45'), ('COLLISION_GAS', 'N2'), ('DRY_GAS_FLOW', '45 arbitary unit'), ('DRY_GAS_TEMP', '325 oC'), ('FRAGMENTATION_METHOD', 'CID'), ('GAS_PRESSURE', '45 arbitary unit'), ('ION_SOURCE_TEMPERATURE', '325 oC'), ('ION_SPRAY_VOLTAGE', '3.75 kV'), ('IONIZATION', 'ESI'), ('IONIZATION_POTENTIAL', 'positive'), ('MASS_ACCURACY', '5ppm'), ('SOURCE_TEMPERATURE', '325 oC'), ('SPRAY_VOLTAGE', '3.75 kV'), ('RESOLUTION_SETTING', '120000'), ('SCAN_RANGE_MOVERZ', '70-1050 m/z'), ('SCANNING_RANGE', '70-1050 m/z'), ('MS_RESULTS_FILE', 'ST001171_AN001936_Results.txt UNITS:peak area Has m/z:Yes Has RT:Yes RT units:Minutes')])

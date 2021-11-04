@@ -1,36 +1,12 @@
 Validation Log
-2021-06-08 10:03:53.142838
-mwtab version: 1.1.2.post1
+2021-11-04 14:24:59.454675
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000300/mwtab/json
 Study ID:      ST000198
 Analysis ID:   AN000300
 File format:   json
-MS_METABOLITE_DATA: Metabolite/Bin Range "3-hydroxylauroylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "3-Hydroxylinoleoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "3-hydroxymyristoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "3-Hydroxypalmitoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Acetylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "arachidonoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "butyrylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Decanoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "decenoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Dodecenoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Glutarylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Hexanoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "icosadienoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Icosanoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "icosatrienoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "icoseneoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "isovalerylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "lauroylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "L-Carnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Linoelaidyl carnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "myristoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "octanoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Octenoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Oleoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Palmitoleylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "palmitoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "propionylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Stearoylcarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Tetradecadiencarnitine" missing data entry for 20 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Tetradecenoylcarnitine" missing data entry for 20 samples
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'S00013170', 'S00013161', 'S00013158', 'S00013168', 'S00013175', 'S00013172', 'S00013157', 'S00013167', 'S00013173', 'S00013171', 'S00013166', 'S00013169', 'S00013174', 'S00013162', 'S00013163', 'S00013159', 'S00013164', 'S00013156', 'S00013165', 'S00013160'}.

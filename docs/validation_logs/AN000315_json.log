@@ -1,25 +1,12 @@
 Validation Log
-2021-06-08 10:04:01.904500
-mwtab version: 1.1.2.post1
+2021-11-04 14:25:07.149592
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000315/mwtab/json
 Study ID:      ST000213
 Analysis ID:   AN000315
 File format:   json
-MS_METABOLITE_DATA: Metabolite/Bin Range "﻿a-Muricholic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "b-Muricholic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Chenodeoxycholic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Cholic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Deoxycholic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Glychocholic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Glycochenodeoxycholic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Glycodeoxycholic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "GLYCO-HYODEOXYCHOLIC ACID/GLYCOURSODEOXYCHOLIC ACID" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Glycolithocholic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "g-Muricholic acid (hyocholic acid)" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Hyodeoxycholic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Lithocholic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Taurochenodeoxycholic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Taurocholic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Taurodeoxycholic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Taurolithocolic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "Tauroursodeoxycholic acid/Tauro-hyodeoxycholic acid" missing data entry for 33 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "w-Muricholic acid" missing data entry for 33 samples
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'S00012767', 'S00012779', 'S00012783', 'S00012766', 'S00012787', 'S00012791', 'S00012784', 'S00012760', 'S00012773', 'S00012769', 'S00012792', 'S00012768', 'S00012770', 'S00012765', 'S00012776', 'S00012763', 'S00012771', 'S00012788', 'S00012778', 'S00012775', 'S00012762', 'S00012764', 'S00012790', 'S00012785', 'S00012786', 'S00012782', 'S00012777', 'S00012774', 'S00012780', 'S00012789', 'S00012781', 'S00012772', 'S00012761'}.

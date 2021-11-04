@@ -1,8 +1,8 @@
 Validation Log
-2021-06-08 11:03:24.207256
-mwtab version: 1.1.2.post1
+2021-11-04 15:19:36.113532
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002457/mwtab/txt
 Study ID:      ST001480
 Analysis ID:   AN002457
-File format:   txt
-Parsing Error
-('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\tNl_32ppt-1C_1\\tSpecies:Nitzschia lecointei | Salinity:32 | Temp_degC:-1\\tLight=Saturating; Cobalamin=Replete; Vol_intracellular_µL=1.2756163; Vol_filtered_mL=70; Replicate=1; Type=Smp; Strain=NA; RAW_FILE_NAME=200309_Smp_32ppt-1C_A;200309_Smp_32ppt-1C_A'", IndexError('list index out of range'))
+File format:   txtStatus: Missing/Blank
+<urlopen error [Errno 8] nodename nor servname provided, or not known>

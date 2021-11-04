@@ -1,36 +1,12 @@
 Validation Log
-2021-06-08 10:11:21.607162
-mwtab version: 1.1.2.post1
+2021-11-04 14:38:54.556985
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000477/mwtab/txt
 Study ID:      ST000299
 Analysis ID:   AN000477
 File format:   txt
-MS_METABOLITE_DATA: Metabolite/Bin Range "Carnitine" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(2:0)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(3:0)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(4:0)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(5:0)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(5:0-DC)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(6:0)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(8:0)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(8:1)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(10:0)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(10:1)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(12:0)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(12:1)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(12-OH)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(14:0)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(14:1)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(14:2)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(14:0-OH)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(16:0)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(16:1)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(16:0-OH)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(18:0)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(18:1)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(18:2)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(18:2-OH)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(20:0)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(20:1)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(20:2)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(20:3)" missing data entry for 60 samples
-MS_METABOLITE_DATA: Metabolite/Bin Range "CAR(20:4)" missing data entry for 60 samples
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'S00017490', 'S00017496', 'S00017499', 'S00017452', 'S00017473', 'S00017488', 'S00017474', 'S00017485', 'S00017459', 'S00017483', 'S00017489', 'S00017505', 'S00017455', 'S00017500', 'S00017484', 'S00017454', 'S00017477', 'S00017469', 'S00017482', 'S00017509', 'S00017498', 'S00017506', 'S00017451', 'S00017494', 'S00017510', 'S00017492', 'S00017464', 'S00017460', 'S00017493', 'S00017479', 'S00017472', 'S00017507', 'S00017486', 'S00017497', 'S00017457', 'S00017481', 'S00017475', 'S00017476', 'S00017502', 'S00017504', 'S00017491', 'S00017458', 'S00017453', 'S00017465', 'S00017461', 'S00017487', 'S00017463', 'S00017456', 'S00017462', 'S00017478', 'S00017467', 'S00017470', 'S00017480', 'S00017468', 'S00017503', 'S00017495', 'S00017466', 'S00017471', 'S00017508', 'S00017501'}.
