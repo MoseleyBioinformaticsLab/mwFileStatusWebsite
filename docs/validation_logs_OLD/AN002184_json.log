@@ -1,9 +1,0 @@
-Validation Log
-2021-07-12 18:39:05.042938
-mwtab version: 1.1.2.post1
-Study ID:      ST001312
-Analysis ID:   AN002184
-File format:   json
-SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
-Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'TG 52:3; [M+Na]+; TG(16:0/18:1/18:2)')])
-Missing key: Or('Metabolite', 'Bin range(ppm)')
