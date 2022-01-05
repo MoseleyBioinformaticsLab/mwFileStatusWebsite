@@ -74,8 +74,8 @@ FULL_STUDY_ANALYSIS_DICT = pkgutil.get_data(__name__, '/test/study_analysis_dict
 
 
 @pytest.mark.parametrize('input_list', [
-    [{'ST000001': 'AN000001'}, 'Passing', 'txt'],
-    [{'ST000001': 'AN000001'}, 'Passing', 'json']
+    [{'ST000001': ['AN000001']}, 'Passing', 'txt'],
+    [{'ST000001': ['AN000001']}, 'Passing', 'json']
 ])
 def test_validate_mwtab_files_hardcoded(input_list):
     """Hardcoded method for testing the ``validate_mwtab_files()`` method in the ``validator`` module.

@@ -12,6 +12,7 @@ import json
 import re
 from datetime import datetime
 from os.path import join
+from time import sleep
 
 
 MW_REST_URL = "https://www.metabolomicsworkbench.org/rest/study/analysis_id/{}/mwtab/{}"
@@ -77,11 +78,36 @@ def create_validation_dict(study_analysis_dict):
     return validation_dict
 
 
-def validate_mwtab_files(input_file=None, input_dict=None, logs_path='docs/validation_logs', output_file="tmp.json", verbose=False):
+def validate(validation_dict, study_id, analysis_id, file_format):
     """
 
+    :param validation_dict:
+    :param study_id:
+    :param analysis_id:
+    :param file_format:
     :return:
     """
+    mwtabfile = next(mwtab.read_files(MW_REST_URL.format(analysis_id, file_format)))
+    sleep(1)
+    validated_mwtabfile, validation_log = mwtab.validate_file(mwtabfile, metabolites=False)
+    status_str = re.search(r'Status.*', validation_log).group(0).split(': ')[1]
+
+    if status_str == 'Passing':
+        validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Passing"
+    elif status_str == 'Contains Validation Errors':
+        validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Validation Error"
+
+    if not validation_dict[study_id]["params"]:
+        validation_dict[study_id]["params"] = mwtabfile["STUDY"]
+
+    return validation_log
+
+
+def validate_mwtab_files(
+        input_file=None, input_dict=None,
+        logs_path='docs/validation_logs', output_file="tmp.json", verbose=False
+):
+
     if verbose:
         print("Running mwTab file validation.")
         print("\tmwtab version:", mwtab.__version__)
@@ -110,35 +136,39 @@ def validate_mwtab_files(input_file=None, input_dict=None, logs_path='docs/valid
             for file_format in ("txt", "json"):
 
                 try:
-                    mwtabfile = next(mwtab.read_files(MW_REST_URL.format(analysis_id, file_format)))
-                    validated_mwtabfile, validation_log = mwtab.validate_file(mwtabfile, metabolites=False)
-                    status_str = re.search(r'Status.*', validation_log).group(0).split(': ')[1]
-
-                    if status_str == 'Passing':
-                        validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Passing"
-                    elif status_str == 'Contains Validation Errors':
-                        validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Validation Error"
-
-                    if not validation_dict[study_id]["params"]:
-                        validation_dict[study_id]["params"] = mwtabfile["STUDY"]
+                    validation_log = validate(validation_dict, study_id, analysis_id, file_format)
 
                 except Exception as e:
-                    status = ""
-                    # blank source given
-                    if type(e) == ValueError and e.args[0] == "Blank input string retrieved from source.":
-                        validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Missing/Blank"
-                    else:
-                        validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Parsing Error"
+                    # error is one of; 1) temporary server error, 2) source is blank, or 3) source cannot be parsed
 
-                    validation_log = mwtab.validator.VALIDATION_LOG_HEADER.format(
-                        str(datetime.now()),
-                        mwtab.__version__,
-                        MW_REST_URL.format(analysis_id, file_format),
-                        study_id,
-                        analysis_id,
-                        file_format
-                    )
-                    validation_log += "\nStatus:" + status + "\n" + str(e)
+                    # check to see if temporary server error
+                    fixed = False
+                    for x in range(3):  # try three times to see if there is a temporary server error
+                        try:
+                            validation_log = validate(validation_dict, study_id, analysis_id, file_format)
+                            fixed = True
+                            break
+                        except Exception:
+                            pass
+
+                    # not temporary server error, either source is blank or source cannot be parsed
+                    if not fixed:
+                        status = ""
+                        # blank source given
+                        if type(e) == ValueError and e.args[0] == "Blank input string retrieved from source.":
+                            validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Missing/Blank"
+                        else:
+                            validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Parsing Error"
+
+                        validation_log = mwtab.validator.VALIDATION_LOG_HEADER.format(
+                            str(datetime.now()),
+                            mwtab.__version__,
+                            MW_REST_URL.format(analysis_id, file_format),
+                            study_id,
+                            analysis_id,
+                            file_format
+                        )
+                        validation_log += "\nStatus:" + status + "\n" + str(e)
 
                 with open(join(logs_path, '{}_{}.log'.format(analysis_id, file_format)), "w") as fh:
                     fh.write(validation_log)
@@ -151,4 +181,4 @@ def validate_mwtab_files(input_file=None, input_dict=None, logs_path='docs/valid
 
 
 if __name__ == "__main__":
-    validate_mwtab_files("tmp.json", True)
+    validate_mwtab_files(output_file="tmp.json", verbose=True)
