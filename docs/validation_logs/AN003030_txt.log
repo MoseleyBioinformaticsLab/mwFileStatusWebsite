@@ -1,0 +1,9 @@
+Validation Log
+2022-01-06 03:30:45.692556
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003030/mwtab/txt
+Study ID:      ST001868
+Analysis ID:   AN003030
+File format:   txt
+Status:
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t1682\\t1682_L\\tCortisol treatment:Control | DCA treatment:DCA-treated (over 24h)\\tRAW_FILE_NAME=Sheep_heart_noesy_SZ_L_03172020/39; Weight(mg)=30.01; MAPavglast3h=NaN; HRavglast3h=137; QRSAvg46=34; QRSavglast3=38; GA_surg=-43150; GA_cort=-; GA_sac=140; cutofftime=NaT; gender=m; fetus=&lt;undefined&gt;; breed=19-Feb-2018; cortdate=no; surgery=NaT; oxytocin=NaT; oxytocintime=NaN; sac=09-Jul-2018'", IndexError('list index out of range'))

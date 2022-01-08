@@ -1,0 +1,13 @@
+Validation Log
+2022-01-06 03:12:54.735713
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002682/mwtab/txt
+Study ID:      ST001639
+Analysis ID:   AN002682
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 2
+
+Error Log:
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'NJHC-01750'}.
+SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {''} found in MS_METABOLITE_DATA section.

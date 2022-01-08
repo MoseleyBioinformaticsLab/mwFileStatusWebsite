@@ -1,0 +1,14 @@
+Validation Log
+2022-01-06 03:31:24.416007
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003041/mwtab/txt
+Study ID:      ST001881
+Analysis ID:   AN003041
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 3
+
+Error Log:
+SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'ANALYSIS_TYPE_DETAIL' in OrderedDict([('STUDY_TITLE', 'NMR Predator Cues Target Signaling Pathways in Toxic Algal Metabolome (Non-polar metabolites)'), ('STUDY_TYPE', '1H NMR Metabolomics to elucidate signaling pathway'), ('STUDY_SUMMARY', 'Metabolomics investigation of the phytoplankton Alexandrium minutum with and without copepod cues in order to explore cell signaling involved in toxin induction.'), ('INSTITUTE', 'Georgia Institute of Technology'), ('DEPARTMENT', 'School of Biological Sciences, School of Chemistry and Biochemistry, Center for Microbial Dynamics and Infection, Parker H. Petit Institute for Bioengineering and Bioscience'), ('LABORATORY', 'Kubanek Lab'), ('LAST_NAME', 'Brown'), ('FIRST_NAME', 'Emily'), ('ADDRESS', '950 Atlantic Dr Atlanta, Georgia USA 30332'), ('EMAIL', 'julia.kubanek@biosci.gatech.edu'), ('PHONE', '404-894-8424'), ('NUM_GROUPS', '2'), ('TOTAL_SUBJECTS', '40'), ('STUDY_COMMENTS', 'Part 2 of 3. This part includes NMR analysis of non-polar metabolites using oPLSDA. Parts 1 and 3 inlcude NMR analysis of polar metabolites and the corresponding mass spectrometry metabolomics for both polar and non-polar metabolites.'), ('ANALYSIS_TYPE_DETAIL', 'Metabolab')])
+SCHEMA: Section "NM" does not match the allowed schema. Wrong key 'NMR_RESULTS_FILE' in OrderedDict([('INSTRUMENT_NAME', 'Bruker Avance IIIHD'), ('INSTRUMENT_TYPE', 'FT-NMR'), ('NMR_EXPERIMENT_TYPE', '1D-1H'), ('SPECTROMETER_FREQUENCY', '800 MHz'), ('NMR_PROBE', '3 mm triple resonance broadband cryoprobe'), ('NMR_SOLVENT', 'Dimethyl sulfoxide d6 (99.9% atom d6-DMSO; Cambridge Isotope Labs) containing 0.1% trimethylsilane'), ('NMR_TUBE_SIZE', '3 mm'), ('PULSE_SEQUENCE', 'zg30'), ('NUMBER_OF_SCANS', '320'), ('SPECTRAL_WIDTH', '9.6 kHz'), ('BASELINE_CORRECTION_METHOD', 'Spline'), ('BINNED_INCREMENT', '0.005 ppm'), ('BINNED_DATA_NORMALIZATION_METHOD', 'Probabilistic quotient normalized'), ('NMR_RESULTS_FILE', 'Preprocessed_binned_nonpolar_NMRmetabolomics.txt UNITS:area under the curve')])
+DATA: Missing either NMR_METABOLITE_DATA or NMR_BINNED_DATA section.

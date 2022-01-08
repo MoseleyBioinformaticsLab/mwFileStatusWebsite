@@ -1,0 +1,13 @@
+Validation Log
+2022-01-06 02:32:18.004965
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001988/mwtab/json
+Study ID:      ST001193
+Analysis ID:   AN001988
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 2
+
+Error Log:
+SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'CHEAR_STUDY' in OrderedDict([('STUDY_TITLE', 'MARBLES (Markers of Autism Risk in Babies: Learning Early Sign) Enriched Cohort Study:    Internal Metabolomic Biomarker Exposome and Development Disorders (IMBEDD)'), ('STUDY_SUMMARY', 'This project aims to identify internal biomarkers of drug, food and microbial exposures associated to Autism Spectrum Disorder (ASD) and neurodevelopmental outcomes in an enriched-risk cohort. Using targeted and untargeted internal exposome approaches to identify exposures in maternal blood and child cord blood, internal metabolomics biomarkers will be associated with related exposures and also associated with ASD.'), ('INSTITUTE', 'Emory University'), ('DEPARTMENT', 'School of Medicine'), ('LABORATORY', 'Clincal Biomarkers Laboratory'), ('LAST_NAME', 'Uppal'), ('FIRST_NAME', 'Karan'), ('ADDRESS', 'NA'), ('EMAIL', 'kuppal2@emory.edu'), ('PHONE', '(404) 727 5027'), ('TOTAL_SUBJECTS', '147'), ('STUDY_COMMENTS', 'Both CHEAR pooled plasma samples and Clinical Biomarker Laboratory pooled plasma    samples were used'), ('CHEAR_STUDY', '2016-1438')])
+SCHEMA: Section "MS" does not match the allowed schema. Wrong key 'ACQUISITION_DATE' in OrderedDict([('INSTRUMENT_NAME', 'Thermo Q Exactive HF hybrid Orbitrap'), ('INSTRUMENT_TYPE', 'Orbitrap'), ('MS_TYPE', 'ESI'), ('ION_MODE', 'POSITIVE'), ('MS_COMMENTS', 'NA'), ('ACQUISITION_DATE', '4/15/19-4/19/19'), ('CAPILLARY_TEMPERATURE', '250C'), ('COLLISION_GAS', 'N2'), ('DRY_GAS_FLOW', '45'), ('DRY_GAS_TEMP', '150C'), ('MASS_ACCURACY', '< 3ppm'), ('SPRAY_VOLTAGE', '3500'), ('ACTIVATION_PARAMETER', '5.00E+05'), ('ACTIVATION_TIME', '118ms'), ('INTERFACE_VOLTAGE', 'S-Lens RF level= 55'), ('SCANNING_RANGE', '85-1275'), ('MS_RESULTS_FILE', 'ST001193_AN001988_Results.txt UNITS:peak area Has m/z:Yes Has RT:Yes RT units:Seconds')])

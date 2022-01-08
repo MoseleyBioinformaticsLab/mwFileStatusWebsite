@@ -1,0 +1,12 @@
+Validation Log
+2022-01-06 00:51:40.954564
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000304/mwtab/json
+Study ID:      ST000202
+Analysis ID:   AN000304
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'S00013574', 'S00013568', 'S00013583', 'S00013584', 'S00013588', 'S00013590', 'S00013573', 'S00013577', 'S00013578', 'S00013589', 'S00013585', 'S00013582', 'S00013570', 'S00013579', 'S00013576', 'S00013571', 'S00013586', 'S00013567', 'S00013581', 'S00013575', 'S00013587', 'S00013569', 'S00013572', 'S00013580'}.

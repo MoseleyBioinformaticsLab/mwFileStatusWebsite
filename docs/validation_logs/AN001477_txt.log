@@ -1,0 +1,13 @@
+Validation Log
+2022-01-06 02:00:39.835742
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001477/mwtab/txt
+Study ID:      ST000909
+Analysis ID:   AN001477
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 2
+
+Error Log:
+SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'CHEAR_STUDY' in OrderedDict([('STUDY_TITLE', 'Metabolomics Linking Air Pollution, Obesity and Type 2 Diabetes'), ('STUDY_TYPE', 'Untargeted high-resolution mass spectrometry profiling'), ('STUDY_SUMMARY', "The overall goal of this proposal is to use blood non-targeted high resolution metabolomics (HRM) to investigate the hypothesis that regional air pollution (NO2, PM2.5 and O3) and traffic-related air pollution exposures (traffic-related particulate matter components including EC2.5 and PM2.5 transition metals, and CALINE model-predicted NOx) alter key metabolic pathway(s) and that these alterations are associated with obesity and type 2 diabetes-related traits during the important developmental period of adolesence in the ongoing prospective Chidlren's Health study (CHS). Specific Aim 1 will examine the adverse impact of environmental chemicals in fasting blood samples measured by HRM on obesity (i.e., total body fat and body mass index (BMI)), metabolic dysfunction (e.g., fasting glucose and insulin concentrations and insulin resistance), and obesity-induced inflammation (i.e., leptin) among 104 Southern California adolescents enrolled in the CHS. Specific Aim 2 will examine associations of childhood exposures to PM2.5 and traffic-related air pollutants (i.e., CALINE model-predicted NOx) with biological metabolites identified in fasting blood samples using HRM among 104 adolescents in the CHS. Specific Aim 3 will investigate the metabolic pathways linking air pollution exposures and obesity and type 2 diabetes-related traits using pathway analysis under bayesian hierarchical model among 104 adolescents in the CHS."), ('INSTITUTE', 'Emory University School of Medicine'), ('DEPARTMENT', 'Division of Pulmonary, Allergy and Critical Care Medicine'), ('LABORATORY', 'Clincal Biomarkers Laboratory'), ('LAST_NAME', 'Walker'), ('FIRST_NAME', 'Douglas'), ('ADDRESS', '615 Michael St. Ste 225, Atlanta, GA, 30322, USA'), ('EMAIL', 'douglas.walker@emory.edu'), ('PHONE', '(404) 727 5984'), ('TOTAL_SUBJECTS', '104'), ('STUDY_COMMENTS', 'Both CHEAR and Clinical Biomarker Laboratory pooled plasma samples were used for quality control. Study specific sample pools were not created'), ('CHEAR_STUDY', '2016-1432')])
+SCHEMA: Section "MS" does not match the allowed schema. Missing key: 'MS_COMMENTS'

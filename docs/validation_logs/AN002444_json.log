@@ -1,0 +1,14 @@
+Validation Log
+2022-01-06 02:56:01.867922
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002444/mwtab/json
+Study ID:      ST001468
+Analysis ID:   AN002444
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "NMR_METABOLITE_DATA" does not match the allowed schema. Key 'Data' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', "AXP-1'_1"), ('12_B1-2_SI_syngenic_7days_170427_UKy_GCH_rep3-polar-NMR_A', '54.16611129462427'), ('14_C1-2_SI_allogenic_7days_170427_UKy_GCH_rep2-polar-NMR_A', '138.3735320093099'), ('11_B1-1_SI_syngenic_7days_170427_UKy_GCH_rep2-polar-NMR_A', '119.0788390465373'), ('01_A0_SI_naive_0days_170427_UKy_GCH_rep1-polar-NMR_A', '65.52775022002263'), ('05_B1_SI_syngenic_42days_170427_UKy_GCH_rep2-polar-NMR_A', '57.77562841793961'), ('15_C1-20_SI_allogenic_7days_170427_UKy_GCH_rep3-polar-NMR_A', '2.358752617870189'), ('08_C1-2_SI_allogenic_42days_170427_UKy_GCH_rep2-polar-NMR_A', '72.24617619855763'), ('03_A2_SI_naive_0days_170427_UKy_GCH_rep3-polar-NMR_A', '35.02912462503513'), ('13_C1-1_SI_allogenic_7days_170427_UKy_GCH_rep1-polar-NMR_A', '85.75252409525586'), ('07_C1-1_SI_allogenic_42days_170427_UKy_GCH_rep1-polar-NMR_A', '78.67136836113734'), ('09_C2-0_SI_allogenic_42days_170427_UKy_GCH_rep1-polar-NMR_A', '62.42022315314556'), ('04_B0_SI_syngenic_42days_170427_UKy_GCH_rep1-polar-NMR_A', '43.63311758410446'), ('10_B1-0_SI_syngenic_7days_170427_UKy_GCH_rep1-polar-NMR_A', '69.90091043527946'), ('06_B2_SI_syngenic_42days_170427_UKy_GCH_rep3-polar-NMR_A', '34.69909628067251'), ('02_A1_SI_naive_0days_170427_UKy_GCH_rep2-polar-NMR_A', '74.73967625889097')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')

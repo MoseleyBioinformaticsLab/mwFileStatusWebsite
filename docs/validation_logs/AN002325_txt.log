@@ -1,0 +1,9 @@
+Validation Log
+2022-01-06 02:49:36.450814
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002325/mwtab/txt
+Study ID:      ST001393
+Analysis ID:   AN002325
+File format:   txt
+Status:
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\t32ppt-1C_A\\tType:Smp | Salinity:32 | Temp_degC:-1\\tReplicate=A; RFU=605.6; Vol_L=0.07; RAW_FILE_NAME=170410_Smp_32ppt-1C_A;170413_Smp_40ppt4C_C;170410_Smp_32ppt-1C_A'", IndexError('list index out of range'))

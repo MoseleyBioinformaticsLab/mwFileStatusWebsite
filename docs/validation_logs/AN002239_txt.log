@@ -1,0 +1,9 @@
+Validation Log
+2022-01-06 02:45:36.357013
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002239/mwtab/txt
+Study ID:      ST001345
+Analysis ID:   AN002239
+File format:   txt
+Status:
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\tNT_WT_1\\tTreatment:NT | Genotype:WT\\tTime=48; RAW_FILE_NAME=Sample_Method1 (1).mzML;Sample_Method2 (1).mzML'", IndexError('list index out of range'))

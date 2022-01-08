@@ -1,0 +1,13 @@
+Validation Log
+2022-01-06 01:33:34.914383
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000905/mwtab/json
+Study ID:      ST000590
+Analysis ID:   AN000905
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 2
+
+Error Log:
+SCHEMA: Section "NM" does not match the allowed schema. Wrong key 'NM_RESULTS_FILE' in OrderedDict([('INSTRUMENT_NAME', 'Bruker Avance DRX 500 spectrometer'), ('INSTRUMENT_TYPE', 'FT-NMR'), ('NMR_EXPERIMENT_TYPE', '1D-1H'), ('SPECTROMETER_FREQUENCY', '500 MHz'), ('NMR_PROBE', 'TXI'), ('NMR_SOLVENT', 'H2O+D2O (10%)_salt'), ('NMR_TUBE_SIZE', '5 mm'), ('SHIMMING_METHOD', 'Automated'), ('PULSE_SEQUENCE', 'cpmgpr1d and ledbpgp2s1dpr'), ('WATER_SUPPRESSION', 'Yes'), ('PULSE_WIDTH', '7 us'), ('RECEIVER_GAIN', '128 and 203'), ('CHEMICAL_SHIFT_REF_CPD', 'glucose'), ('TEMPERATURE', '300 K'), ('NUMBER_OF_SCANS', '256 and 128'), ('DUMMY_SCANS', '4'), ('ACQUISITION_TIME', '1.59 s'), ('RELAXATION_DELAY', '4 s'), ('SPECTRAL_WIDTH', '20,6557 Hz'), ('NUM_DATA_POINTS_ACQUIRED', '32 k'), ('REAL_DATA_POINTS', '32 k'), ('LINE_BROADENING', '0,3 Hz'), ('ZERO_FILLING', '64 k'), ('BASELINE_CORRECTION_METHOD', 'manual'), ('CHEMICAL_SHIFT_REF_STD', 'glucose (5.23 ppm)'), ('BINNED_INCREMENT', 'full resolution'), ('BINNED_DATA_EXCLUDED_RANGE', '4.50-5.15 ppm'), ('NM_RESULTS_FILE', 'ST000590_AN000905_Results.zip')])
+DATA: Missing either NMR_METABOLITE_DATA or NMR_BINNED_DATA section.

@@ -1,0 +1,12 @@
+Validation Log
+2022-01-06 02:51:47.513506
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002362/mwtab/txt
+Study ID:      ST001412
+Analysis ID:   AN002362
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'ANALYSIS_TYPE_DETAIL' in OrderedDict([('STUDY_TITLE', 'Metabolomics study in Plasma of Obese Patients with Neuropathy Identifies Potential Metabolomics Signatures'), ('STUDY_SUMMARY', 'The goal of this study was to characterize biochemical profiles observed in human plasma samples originating from an obese cohort stratified by a diagnosis of neuropathy as well as a cohort of lean control subjects without a clinical manifestation of neuropathy.'), ('INSTITUTE', 'University of Michigan'), ('LAST_NAME', 'Feldman'), ('FIRST_NAME', 'Eva'), ('ADDRESS', '5017 AATBSRB, 109 Zina Pitcher Place Ann Arbor, MI 48109-2200'), ('EMAIL', 'efeldman@med.umich.edu'), ('PHONE', '734-763-7274'), ('ANALYSIS_TYPE_DETAIL', 'LC-MS')])

@@ -1,0 +1,9 @@
+Validation Log
+2022-01-06 03:27:20.239375
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002970/mwtab/txt
+Study ID:      ST001830
+Analysis ID:   AN002970
+File format:   txt
+Status:
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\tS2_0230\\tTreatments:C57BL6J, APAP 300 mg/kg | Treatment times:2h | Air conditions:normal air\\tRAW_FILE_NAME=negative ion_PRM hcd20_35_PC PUFA;O2_APAP2h'", IndexError('list index out of range'))

@@ -1,0 +1,9 @@
+Validation Log
+2022-01-06 03:13:31.122602
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002687/mwtab/txt
+Study ID:      ST001642
+Analysis ID:   AN002687
+File format:   txt
+Status:
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t140365\\t1\\tDisease status:HRT1D\\tRAW_FILE_NAME=1_pos.raw;1_pos_2.raw;1_neg.raw;1_neg_2.raw'", IndexError('list index out of range'))

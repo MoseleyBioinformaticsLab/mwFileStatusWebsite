@@ -1,0 +1,13 @@
+Validation Log
+2022-01-06 02:59:14.554275
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002506/mwtab/json
+Study ID:      ST001512
+Analysis ID:   AN002506
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 2
+
+Error Log:
+SCHEMA: Section "NM" does not match the allowed schema. Wrong key 'NMR_RESULTS_FILE' in OrderedDict([('INSTRUMENT_NAME', 'Bruker Avance lll'), ('INSTRUMENT_TYPE', 'FT-NMR'), ('NMR_EXPERIMENT_TYPE', '2D-1H-13C'), ('NMR_COMMENTS', 'Analysis protocol is in 5_Analysis protocol_UGA_phytoplankton_Oct2020.docx; detailed aquisition and processing parameters are in 6_Acquisition and processing parameters_UGA_phytoplankton_Oct2020.xlsx'), ('STANDARD_CONCENTRATION', '1 mmol L-1'), ('SPECTROMETER_FREQUENCY', '600 and 800 MHz'), ('NMR_PROBE', '800 MHz 5 mm TCI, 800 MHz 1.7 mm TCI and 600 MHz 5 mm TXI'), ('NMR_SOLVENT', 'Sodium phosphate buffer in D2O'), ('NMR_TUBE_SIZE', '5 mm'), ('SHIMMING_METHOD', 'TopShim'), ('PULSE_SEQUENCE', 'hsqcetgpprsisp2.2, hsqcdietgpsisp.2, and hmbcetgpl2nd'), ('CHEMICAL_SHIFT_REF_STD', 'DSS'), ('BINNED_DATA_PROTOCOL_FILE', "Folder 'rNMR'"), ('NMR_RESULTS_FILE', 'ST001512_AN002506_Results.txt UNITS:ppm')])
+DATA: Missing either NMR_METABOLITE_DATA or NMR_BINNED_DATA section.

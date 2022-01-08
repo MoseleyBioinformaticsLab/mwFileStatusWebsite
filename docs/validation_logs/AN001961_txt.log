@@ -1,0 +1,13 @@
+Validation Log
+2022-01-06 02:31:00.645434
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001961/mwtab/txt
+Study ID:      ST001183
+Analysis ID:   AN001961
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 2
+
+Error Log:
+SCHEMA: Section "ANALYSIS" does not match the allowed schema. Missing key: 'ANALYSIS_TYPE'
+NMR_METABOLITE_DATA: Section missing data entry for sample(s): {'W_09_FVP_N2_01_04', 'W_09_FVP_N2_08_03', 'W_09_FVP_N2_03_01', 'W_09_FVP_N2_L1s', 'W_09_FVP_N2_07_04', 'W_09_FVP_N2_06_01', 'W_09_FVP_N2_07_02', 'W_09_FVP_N2_03_04', 'W_09_FVP_N2_04_04', 'W_09_FVP_N2_01_02', 'W_09_FVP_N2_04_02', 'W_09_FVP_N2_08_01', 'W_09_FVP_N2_05_02', 'W_09_FVP_N2_07_03', 'W_09_FVP_N2_08_04', 'W_09_FVP_N2_07_01', 'W_09_FVP_N2_01_03', 'W_09_FVP_N2_03_03', 'W_09_FVP_N2_05_03', 'W_09_FVP_N2_08_02', 'W_09_FVP_N2_06_03', 'W_09_FVP_N2_04_03', 'W_09_FVP_N2_05_04', 'W_09_FVP_N2_03_02', 'W_09_FVP_N2_04_01', 'W_09_FVP_N2_01_01', 'W_09_FVP_N2_06_04', 'W_09_FVP_N2_06_02', 'W_09_FVP_N2_05_01'}.

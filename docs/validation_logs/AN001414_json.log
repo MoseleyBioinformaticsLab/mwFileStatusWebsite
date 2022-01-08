@@ -1,0 +1,12 @@
+Validation Log
+2022-01-06 01:53:28.206223
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001414/mwtab/json
+Study ID:      ST000826
+Analysis ID:   AN001414
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'CHEAR_STUDY' in OrderedDict([('STUDY_TITLE', 'CHEAR Christiani NMR'), ('STUDY_SUMMARY', 'Human cord blood serum samples (200) were provided by David Christiani. The 200 study samples, total pool samples, and external CHEAR Plasma Reference Material samples were prepared for NMR data collection and signals were library matched to metabolites to determine semi-quantitative concentration data using Chenomx NMR Suite 8.1.'), ('INSTITUTE', 'RTI International'), ('LAST_NAME', 'Fennell'), ('FIRST_NAME', 'Timothy'), ('ADDRESS', '3040 E Cornwallis Rd, Durham, NC 27709'), ('EMAIL', 'fennell@rti.org'), ('PHONE', '9194852781'), ('TOTAL_SUBJECTS', '200'), ('STUDY_COMMENTS', 'Due to sample volume limitations: study samples, study pools, and CHEAR reference samples were prepared using 150 uL of sample and diluted with 100 ul of 0.9% Saline buffer. This is a deviation from the CHEAR Proficiency testing in which 400 ul of CHEAR reference sample was used and diluted with 300 uL of 0.9% Saline buffer. Samples were then transfered into a 3 mm NMR tube, in this study, as opposed to a 5 mm NMR tube for the Proficiency testing. Data for this study were acquired on a 600 MHz Bruker NMR spectrometer. Data for the procficiency testing were acquired on a 700 MHz Bruker NMR spectrometer.'), ('CHEAR_STUDY', '2016-34')])

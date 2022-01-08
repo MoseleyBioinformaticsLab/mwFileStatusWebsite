@@ -1,0 +1,16 @@
+Validation Log
+2022-01-06 01:01:04.189829
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000436/mwtab/json
+Study ID:      ST000273
+Analysis ID:   AN000436
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 5
+
+Error Log:
+SCHEMA: Section "COLLECTION" does not match the allowed schema. Missing key: 'COLLECTION_SUMMARY'
+SCHEMA: Section "TREATMENT" does not match the allowed schema. 'list' object has no attribute 'keys'
+SCHEMA: Section "SAMPLEPREP" does not match the allowed schema. Missing key: 'SAMPLEPREP_SUMMARY'
+SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Missing key: 'INSTRUMENT_NAME'
+SCHEMA: Section "MS" does not match the allowed schema. Missing key: 'MS_COMMENTS'

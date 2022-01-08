@@ -1,0 +1,9 @@
+Validation Log
+2022-01-06 00:44:39.834245
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000152/mwtab/txt
+Study ID:      ST000096
+Analysis ID:   AN000152
+File format:   txt
+Status:
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\tPatient_1218\\tS29C\\tSample Type:Co-culture  | Timepoint:18 hours\\tSKOV3ip1 passage=p94; Patient=1218; JWN ID=LNG-18; LNG-19; File name (Oxylipin data)=Lengyal 18 hr Pilot Oxys r-LNG-18.mzML; Lengyal 18 hr Pilot Oxys r-LNG-19.mzML; File name (Ceramide data)=Lengyal 18 hr Pilot Endos-LNG-18.mzML; Lengyal 18 hr Pilot Endos-LNG-19.mzML; File name (Endocannabinoid data)=Lengyal 18 hr Pilot Cer-LNG-18.mzML; Lengyal 18 hr Pilot Cer-LNG-19.mzML'", IndexError('list index out of range'))

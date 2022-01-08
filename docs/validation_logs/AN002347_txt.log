@@ -1,0 +1,9 @@
+Validation Log
+2022-01-06 02:50:54.995885
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002347/mwtab/txt
+Study ID:      ST001405
+Analysis ID:   AN002347
+File format:   txt
+Status:
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\tLIPNEG17MAR_02.POOL.1\\tTreatment_Status:N/A | MDM2 Amplification:N/A | Cell line:N/A\\tRAW_FILE_NAME=LIPNEG17MAR_02.POOL.1.mzML;LIPNEG17MAR_02.ms2'", IndexError('list index out of range'))

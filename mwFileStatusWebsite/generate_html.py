@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+generate_html.py
+~~~~~~~~~~~~~~~~
+
+This script contains methods for generating html pages from validation dictionaries.
+"""
 import json
 from datetime import datetime
 import pkgutil
@@ -23,29 +29,12 @@ LEVEL_TO_MESSAGE = {
 }
 
 # load in all the necessary HTML templates
-INDEX_STR = pkgutil.get_data(__name__, 'templates/index_template.txt')
-STATS_STR = pkgutil.get_data(__name__, 'templates/statistics_template.txt')
-HEADER_STR = pkgutil.get_data(__name__, 'templates/header_template.txt')
-GRID_STR = pkgutil.get_data(__name__, 'templates/grid_template.txt')
-GRID_ITEM_STR = pkgutil.get_data(__name__, 'templates/grid_item_template.txt')
-BADGE_STR = pkgutil.get_data(__name__, 'templates/badge_template.txt')
-
-
-# with open("templates/index_template.txt", "r") as f:
-#     INDEX_STR = f.read()
-# with open("templates/statistics_template.txt", "r") as f:
-#     STATS_STR = f.read()
-#     # study_id, description
-# with open("templates/header_template.txt", "r") as f:
-#     HEADER_STR = f.read()
-# with open("templates/grid_template.txt", "r") as f:
-#     GRID_STR = f.read()
-# with open("templates/grid_item_template.txt", "r") as f:
-#     GRID_ITEM_STR = f.read()
-#     # analysis_id, file_format, badge_color, badge_message
-# with open("templates/badge_template.txt", "r") as f:
-#     BADGE_STR = f.read()
-
+INDEX_STR = pkgutil.get_data(__name__, 'templates/index_template.txt').decode('utf-8')
+STATS_STR = pkgutil.get_data(__name__, 'templates/statistics_template.txt').decode('utf-8')
+HEADER_STR = pkgutil.get_data(__name__, 'templates/header_template.txt').decode('utf-8')
+GRID_STR = pkgutil.get_data(__name__, 'templates/grid_template.txt').decode('utf-8')
+GRID_ITEM_STR = pkgutil.get_data(__name__, 'templates/grid_item_template.txt').decode('utf-8')
+BADGE_STR = pkgutil.get_data(__name__, 'templates/badge_template.txt').decode('utf-8')
 DESC_STR = "<div class=\"desc__grid__item\"{0}>{1}</div>"
 
 
@@ -137,7 +126,9 @@ def create_html(validation_dict, config_dict, output_filename):
                     analysis_id,
                     format_type,
                     MESSAGE_COLOR[validation_dict[study_id]["analyses"][analysis_id]["status"][format_type]],
-                    validation_dict[study_id]["analyses"][analysis_id]["status"][format_type]
+                    validation_dict[study_id]["analyses"][analysis_id]["status"][format_type],
+                    config_dict['owner'],
+                    config_dict['repo']
                 ))
 
             grid_item_list.append(GRID_ITEM_STR.format(
@@ -153,7 +144,7 @@ def create_html(validation_dict, config_dict, output_filename):
 
     file_status_str = "\n".join(file_status_list)
 
-    with open("../"+output_filename, "w") as f:
+    with open(output_filename, "w") as f:
         f.write(INDEX_STR.format(
             config_dict['owner'],
             config_dict['repo'],
@@ -185,28 +176,3 @@ def create_error_dicts(validation_dict, status_str, file_format=None):
                         validation_dict[study_id]["analyses"][analysis_id]
 
     return status_dict
-
-
-if __name__ == "__main__":
-
-    # create the main webpage
-    validation_dict = load_json('tmp.json')
-    config_dict = load_json('docs/config.json')
-    create_html(validation_dict, 'index.html')
-
-    # create the error subpages
-    # webpage with analyses were both formats are passing
-    passing = create_error_dicts(validation_dict, 'Passing')
-    create_html(passing, 'passing.html')
-
-    # webpage with analyses were one format or more has a validation error
-    validation = create_error_dicts(validation_dict, 'Validation Error', True)
-    create_html(validation, 'validation_error.html')
-
-    # webpage with analyses were one format or more has a parsing error
-    parsing = create_error_dicts(validation_dict, 'Parsing Error', True)
-    create_html(parsing, 'parsing_error.html')
-
-    # webpage with analyses were one format or more is missing
-    missing = create_error_dicts(validation_dict, 'Missing/Blank', True)
-    create_html(missing, 'missing.html')

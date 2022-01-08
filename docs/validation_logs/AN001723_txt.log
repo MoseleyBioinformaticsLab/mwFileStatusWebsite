@@ -1,0 +1,13 @@
+Validation Log
+2022-01-06 02:13:55.999365
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001723/mwtab/txt
+Study ID:      ST001054
+Analysis ID:   AN001723
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 2
+
+Error Log:
+SCHEMA: Section "NM" does not match the allowed schema. Wrong key 'NMR_RESULTS_FILE' in OrderedDict([('INSTRUMENT_NAME', 'Bruker Avance III'), ('INSTRUMENT_TYPE', 'FT-NMR'), ('NMR_EXPERIMENT_TYPE', '1D-1H'), ('SPECTROMETER_FREQUENCY', '600 MHz'), ('NMR_SOLVENT', 'Serum D2O Buffer'), ('NMR_TUBE_SIZE', '4.25 mm'), ('TEMPERATURE', '36.85'), ('NUMBER_OF_SCANS', '64'), ('DUMMY_SCANS', '4'), ('ACQUISITION_TIME', '2.7'), ('RELAXATION_DELAY', '4'), ('LINE_BROADENING', '1 Hz'), ('CHEMICAL_SHIFT_REF_STD', 'TMSP at 0 ppm'), ('BINNED_INCREMENT', '0.02'), ('BINNED_DATA_EXCLUDED_RANGE', '4.40-5.00 (ppm) H2O region'), ('NMR_RESULTS_FILE', 'ST001054_AN001723_Results.txt UNITS:NMR bins')])
+DATA: Missing either NMR_METABOLITE_DATA or NMR_BINNED_DATA section.

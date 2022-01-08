@@ -1,0 +1,13 @@
+Validation Log
+2022-01-06 02:38:11.545482
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002095/mwtab/json
+Study ID:      None
+Analysis ID:   None
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 2
+
+Error Log:
+SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'CHEAR_STUDY' in OrderedDict([('STUDY_TITLE', 'The impact of tobacco smoke exposure and environmental exposures on the pulmonary microbiome of critically ill children'), ('STUDY_SUMMARY', 'This project evaluates the effects of tobacco smoke exposure (TSE) on the pediatric lung microbiome in critically ill children. The impact of TSE on the airway microbiome of critically ill, mechanically ventilated pediatric patients will be determined by through clinical outcomes and analysis of urinary and plasma metabolomes to identify other environmental exposures contributing to the alteration of the pediatric microbiome.'), ('INSTITUTE', 'Emory University'), ('DEPARTMENT', 'School of Medicine'), ('LABORATORY', 'Clincal Biomarkers Laboratory'), ('LAST_NAME', 'Uppal'), ('FIRST_NAME', 'Karan'), ('ADDRESS', 'NA'), ('EMAIL', 'kuppal2@emory.edu'), ('PHONE', '(404) 727 5027'), ('TOTAL_SUBJECTS', '367'), ('STUDY_COMMENTS', 'Both CHEAR pooled urine samples and Clinical Biomarker Laboratory pooled plasma samples were used'), ('CHEAR_STUDY', '2018-2120')])
+SCHEMA: Section "MS" does not match the allowed schema. Wrong key 'ACQUISITION_DATE' in OrderedDict([('INSTRUMENT_NAME', 'Thermo Q Exactive HF hybrid Orbitrap'), ('INSTRUMENT_TYPE', 'Orbitrap'), ('MS_TYPE', 'ESI'), ('ION_MODE', 'NEGATIVE'), ('MS_COMMENTS', 'NA'), ('ACQUISITION_DATE', '4/26/19-5/5/19'), ('CAPILLARY_TEMPERATURE', '250C'), ('COLLISION_GAS', 'N2'), ('DRY_GAS_FLOW', '45'), ('DRY_GAS_TEMP', '150C'), ('MASS_ACCURACY', '< 3ppm'), ('SPRAY_VOLTAGE', '-4000'), ('ACTIVATION_PARAMETER', '5.00E+05'), ('ACTIVATION_TIME', '118ms'), ('INTERFACE_VOLTAGE', 'S-Lens RF level= 55'), ('SCANNING_RANGE', '85-1275'), ('MS_RESULTS_FILE', 'ST001262_AN002095_Results.txt UNITS:peak area Has m/z:Yes Has RT:Yes RT units:Seconds')])

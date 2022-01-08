@@ -1,0 +1,12 @@
+Validation Log
+2022-01-06 01:56:38.449544
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001381/mwtab/txt
+Study ID:      ST000856
+Analysis ID:   AN001381
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "MS" does not match the allowed schema. Missing key: 'MS_COMMENTS'

@@ -1,0 +1,15 @@
+Validation Log
+2022-01-06 00:53:48.694096
+mwtab Python Library Version: 1.2.3.post1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000357/mwtab/json
+Study ID:      ST000236
+Analysis ID:   AN000357
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 2
+
+Error Log:
+SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('Compound', '15.42_618.4208'), ('Quant m/z', '618.4208'), ('Ret. Index', '15.42'), ('Other ID', ''), ('Spectra', ''), ('Kegg', ''), ('PubChem', '')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'FemaleRat1', 'FemaleRat5', 'MaleRat6', 'FemaleRat6', 'MaleRat5', 'MaleRat7', 'FemaleRat3', 'MaleRat4', 'FemaleRat7', 'FemaleRat8', 'FemaleRat4', 'MaleRat8', 'MaleRat2', 'MaleRat3', 'MaleRat1', 'FemaleRat2'}.
