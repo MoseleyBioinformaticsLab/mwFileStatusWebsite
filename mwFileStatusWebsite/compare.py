@@ -137,12 +137,15 @@ def compare_data(mwtabfile_1, mwtabfile_2):
 
         # compare "Metabolites"
         if 'Metabolites' in subsections:
-            new_mwtabfile_1_metabolites_list = sorted(mwtabfile_1[data_section]['Metabolites'],
-                                                      key=operator.itemgetter('Metabolite'))
-            new_mwtabfile_2_metabolites_list = sorted(mwtabfile_2[data_section]['Metabolites'],
-                                                      key=operator.itemgetter('Metabolite'))
-            if new_mwtabfile_1_metabolites_list != new_mwtabfile_2_metabolites_list:
-                error_list.append(AssertionError("'Metabolites' section of '{}' block do not match.".format(data_section)))
+            try:
+                new_mwtabfile_1_metabolites_list = sorted(mwtabfile_1[data_section]['Metabolites'],
+                                                          key=operator.itemgetter('Metabolite'))
+                new_mwtabfile_2_metabolites_list = sorted(mwtabfile_2[data_section]['Metabolites'],
+                                                          key=operator.itemgetter('Metabolite'))
+                if new_mwtabfile_1_metabolites_list != new_mwtabfile_2_metabolites_list:
+                    error_list.append(AssertionError("'Metabolites' section of '{}' block do not match.".format(data_section)))
+            except Exception as e:
+                error_list.append(e)
 
         # compare "Data"
         if 'Data' in subsections:
