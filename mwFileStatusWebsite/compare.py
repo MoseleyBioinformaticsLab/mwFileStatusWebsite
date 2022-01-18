@@ -31,6 +31,17 @@ DATA_BLOCKS = {
     'NMR_METABOLITE_DATA'
 }
 
+COMPARISON_LOG = \
+"""Comparison Log
+{}
+mwtab Python Library Version: {}
+Source:      {}
+Study ID:    {}
+Analysis ID: {}
+Status:      {}
+
+"""
+
 
 def compare_blocks(mwtabfile_1, mwtabfile_2):
     """Method for comparing the section headers of two Metabolomics Workbench file in `~mwtab.mwtab.MWTabFile` object
@@ -112,25 +123,35 @@ def compare_data(mwtabfile_1, mwtabfile_2):
 
     else:
         error_list = list()
+        subsections = set(mwtabfile_1[data_section].keys()) & set(mwtabfile_2[data_section].keys())
+
+        if mwtabfile_1[data_section].keys() != mwtabfile_2[data_section].keys():
+            error_list.append(AssertionError("'_DATA' blocks do not contain the same subsections: {}".format(
+                set(mwtabfile_1[data_section].keys()) ^ set(mwtabfile_2[data_section].keys())
+            )))
+
         # compare "Units"
-        if mwtabfile_1[data_section]['Units'] != mwtabfile_2[data_section]['Units']:
-            error_list.append(AssertionError("'Units' section of '{}' block do not match.".format(data_section)))
+        if 'Units' in subsections:
+            if mwtabfile_1[data_section]['Units'] != mwtabfile_2[data_section]['Units']:
+                error_list.append(AssertionError("'Units' section of '{}' block do not match.".format(data_section)))
 
         # compare "Metabolites"
-        new_mwtabfile_1_metabolites_list = sorted(mwtabfile_1[data_section]['Metabolites'],
-                                                  key=operator.itemgetter('Metabolite'))
-        new_mwtabfile_2_metabolites_list = sorted(mwtabfile_2[data_section]['Metabolites'],
-                                                  key=operator.itemgetter('Metabolite'))
-        if new_mwtabfile_1_metabolites_list != new_mwtabfile_2_metabolites_list:
-            error_list.append(AssertionError("'Metabolites' section of '{}' block do not match.".format(data_section)))
+        if 'Metabolites' in subsections:
+            new_mwtabfile_1_metabolites_list = sorted(mwtabfile_1[data_section]['Metabolites'],
+                                                      key=operator.itemgetter('Metabolite'))
+            new_mwtabfile_2_metabolites_list = sorted(mwtabfile_2[data_section]['Metabolites'],
+                                                      key=operator.itemgetter('Metabolite'))
+            if new_mwtabfile_1_metabolites_list != new_mwtabfile_2_metabolites_list:
+                error_list.append(AssertionError("'Metabolites' section of '{}' block do not match.".format(data_section)))
 
         # compare "Data"
-        new_mwtabfile_1_data_list = sorted(mwtabfile_1[data_section]['Data'],
-                                                  key=operator.itemgetter('Metabolite'))
-        new_mwtabfile_2_data_list = sorted(mwtabfile_2[data_section]['Data'],
-                                                  key=operator.itemgetter('Metabolite'))
-        if new_mwtabfile_1_data_list != new_mwtabfile_2_data_list:
-            error_list.append(AssertionError("'Data' section of '{}' block do not match.".format(data_section)))
+        if 'Data' in subsections:
+            new_mwtabfile_1_data_list = sorted(mwtabfile_1[data_section]['Data'],
+                                                      key=operator.itemgetter('Metabolite'))
+            new_mwtabfile_2_data_list = sorted(mwtabfile_2[data_section]['Data'],
+                                                      key=operator.itemgetter('Metabolite'))
+            if new_mwtabfile_1_data_list != new_mwtabfile_2_data_list:
+                error_list.append(AssertionError("'Data' section of '{}' block do not match.".format(data_section)))
 
         return error_list
 
@@ -154,7 +175,7 @@ def compare(mwtabfile_1, mwtabfile_2):
         error_list.append(e)
 
     # compare files to assert they have the same items in each  appropriate block (e.g. PROJECT, STUDY, etc.).
-    error_list.extend(compare_block_keys(mwtabfile_1, mwtabfile_2))  # no issue if compare_block_keys() returns a null list.
+    error_list.extend(compare_block_items(mwtabfile_1, mwtabfile_2))  # no issue if compare_block_keys() returns a null list.
 
     # check that the SUBJECT_SAMPLE_FACTORS sections match
     try:
@@ -163,3 +184,5 @@ def compare(mwtabfile_1, mwtabfile_2):
         error_list.extend(e)
 
     error_list.extend(compare_data(mwtabfile_1, mwtabfile_2))
+
+    return error_list

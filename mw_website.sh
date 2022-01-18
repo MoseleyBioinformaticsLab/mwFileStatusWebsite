@@ -1,5 +1,5 @@
 #!/bin/bash
-# A Shell Script to update the Metabolomcis Workbench File Status website
+# A Shell Script to update the Metabolomics Workbench File Status website
 # Christian D. Powell - 21/Aug/2021
 
 ###########################
@@ -24,8 +24,10 @@ python3 -m install mwtab
 ########################
 # update website files #
 ########################
-python3 -m validator/validator.py
-python3 -m validator/generate_html.py
+#python3 -m validator/validator.py
+#python3 -m validator/generate_html.py
+python3 -m mwFileStatusWebsite validate
+python3 -m mwFileStatusWebsite generate
 
 #############################
 # add updated files to repo #
