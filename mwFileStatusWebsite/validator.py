@@ -84,7 +84,8 @@ def create_validation_dict(study_analysis_dict):
 
 
 def _validate(validation_dict, study_id, analysis_id, file_format):
-    """
+    """Helper function for performing validation of a specified mwTab data file given the files; study ID, analysis ID,
+    and file format (.txt or .json).
 
     :param validation_dict:
     :param study_id:
@@ -146,7 +147,6 @@ def validate(validation_dict, study_id, analysis_id, file_format):
 
         # not temporary server error, either source is blank or source cannot be parsed
         if error:
-            status = ""
             # blank source given
             if type(e) == ValueError and e.args[0] == "Blank input string retrieved from source.":
                 validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Missing/Blank"
@@ -161,7 +161,10 @@ def validate(validation_dict, study_id, analysis_id, file_format):
                 analysis_id,
                 file_format
             )
-            validation_log += "\nStatus:" + status + "\n" + str(e)
+            validation_log += \
+                "\nStatus:" + \
+                validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] + \
+                "\n" + str(e)
 
     if not error:
         return validated_mwtabfile, validation_log
