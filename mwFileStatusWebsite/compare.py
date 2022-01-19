@@ -115,13 +115,14 @@ def compare_data(mwtabfile_1, mwtabfile_2):
     :return: List of errors.
     :rtype: list
     """
-    data_section = list(set(mwtabfile_1.keys()) & set(mwtabfile_2.keys()) & DATA_BLOCKS)[0]
+    data_section = set(mwtabfile_1.keys()) & set(mwtabfile_2.keys()) & DATA_BLOCKS
 
     # data block is not consistently present across files
-    if type(data_section) != str or not data_section:
+    if not data_section or type(data_section) != set:
         return [AssertionError("Unable to find '_DATA' block in given files.")]
 
     else:
+        data_section = list(data_section)[0]
         error_list = list()
         subsections = set(mwtabfile_1[data_section].keys()) & set(mwtabfile_2[data_section].keys())
 
@@ -184,7 +185,7 @@ def compare(mwtabfile_1, mwtabfile_2):
     try:
         compare_subject_sample_factors(mwtabfile_1, mwtabfile_2)
     except Exception as e:
-        error_list.extend(e)
+        error_list.append(e)
 
     error_list.extend(compare_data(mwtabfile_1, mwtabfile_2))
 

@@ -88,42 +88,82 @@ def test_compare_block_items(mwtabfile_1, mwtabfile_2, error):
 
 
 @pytest.mark.parametrize('mwtabfile_1, mwtabfile_2, error', [
-    # same data section
+    # same "_DATA" section
     (
         {'MS_METABOLITE_DATA': {
             'Units': 'test',
-            'Data': [
-                OrderedDict([
-                ('Metabolite', 'Test'),
-                ('Subject_1', 1000)
-                ]),
-            ],
-            'Metabolites': [
-                OrderedDict([
-                ('Metabolite', 'Test'),
-                ('Value_1', 'Test')
-                ]),
-            ],
+            'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
+            'Metabolites': [OrderedDict([('Metabolite', 'Test'),('Value_1', 'Test')])],
         }},
         {'MS_METABOLITE_DATA': {
             'Units': 'test',
-            'Data': [
-                OrderedDict([
-                ('Metabolite', 'Test'),
-                ('Subject_1', 1000)
-                ]),
-            ],
-            'Metabolites': [
-                OrderedDict([
-                ('Metabolite', 'Test'),
-                ('Value_1', 'Test')
-                ]),
-            ],
+            'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
+            'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
         }},
         False
-    )
+    ),
+
+    # different "_DATA" sections
+    (
+        {'MS_METABOLITE_DATA': {
+            'Units': 'test',
+            'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
+            'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
+        }},
+        {'MNMR_BINNED_DATA': {
+            'Units': 'test',
+            'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
+            'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
+        }},
+        True
+    ),
+
+    # different "Units" subsections
+    (
+        {'MS_METABOLITE_DATA': {
+            'Units': 'test',
+            'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
+            'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
+        }},
+        {'MNMR_BINNED_DATA': {
+            'Units': 'test2',
+            'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
+            'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
+        }},
+        True
+    ),
+
+    # different "Data" sections
+    (
+        {'MS_METABOLITE_DATA': {
+            'Units': 'test',
+            'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
+            'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
+        }},
+        {'MNMR_BINNED_DATA': {
+            'Units': 'test',
+            'Data': [OrderedDict([('Metabolite', 'Test2'), ('Subject_1', 1000)])],
+            'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
+        }},
+        True
+    ),
+
+    # different "Metabolites" sections
+    (
+        {'MS_METABOLITE_DATA': {
+            'Units': 'test',
+            'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
+            'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
+        }},
+        {'MNMR_BINNED_DATA': {
+            'Units': 'test',
+            'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
+            'Metabolites': [OrderedDict([('Metabolite', 'Test2'), ('Value_1', 'Test')])],
+        }},
+        True
+    ),
 ])
-def test_compare_block_items(mwtabfile_1, mwtabfile_2, error):
+def test_compare_data(mwtabfile_1, mwtabfile_2, error):
     errors = mwFileStatusWebsite.compare.compare_data(mwtabfile_1, mwtabfile_2)
 
     if errors and not error:
