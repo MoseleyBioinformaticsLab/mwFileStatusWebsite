@@ -74,15 +74,18 @@ def compare_block_items(mwtabfile_1, mwtabfile_2):
     error_list = list()
 
     for section_key in set(mwtabfile_1.keys()) & set(mwtabfile_2.keys()) & ITEM_SECTIONS:
-        if mwtabfile_1[section_key].items() ^ mwtabfile_2[section_key].items():
-            error_list.append(
-                AssertionError(
-                    "Sections \"{}\" contain missmatched items: {}".format(
-                        section_key,
-                        mwtabfile_1[section_key].items() ^ mwtabfile_2[section_key].items()
+        try:
+            if mwtabfile_1[section_key].items() ^ mwtabfile_2[section_key].items():
+                error_list.append(
+                    AssertionError(
+                        "Sections \"{}\" contain missmatched items: {}".format(
+                            section_key,
+                            mwtabfile_1[section_key].items() ^ mwtabfile_2[section_key].items()
+                        )
                     )
                 )
-            )
+        except Exception as e:
+            error_list.append(e)
 
     return error_list
 
