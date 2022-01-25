@@ -1,9 +1,9 @@
 Validation Log
-2022-01-06 00:50:11.793003
-mwtab Python Library Version: 1.2.3.post1
+2022-01-19 20:19:25.306706
+mwtab Python Library Version: 1.2.4
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000261/mwtab/txt
 Study ID:      ST000167
 Analysis ID:   AN000261
 File format:   txt
-Status:
+Status:Parsing Error
 ('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\t25\\tTreatment:SFM cold 24-120h\\tReplicate=2; factor description=A  SFM  cold 24-120h; 6-23-2012'", IndexError('list index out of range'))

@@ -1,6 +1,6 @@
 Validation Log
-2022-01-06 02:54:03.644708
-mwtab Python Library Version: 1.2.3.post1
+2022-01-19 22:19:45.333863
+mwtab Python Library Version: 1.2.4
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002408/mwtab/json
 Study ID:      ST001441
 Analysis ID:   AN002408
@@ -12,4 +12,4 @@ Error Log:
 SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
 Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'Hypotaurine')])
 Missing key: Or('Metabolite', 'Bin range(ppm)')
-MS_METABOLITE_DATA: Section missing data entry for sample(s): {'D0-patient2_luna', 'D5-control6_luna', 'D5-control2_luna', 'D0-control3_luna', 'D0-control5_luna', 'D5-control4_luna', 'D0-control2_luna', 'D0-patient6_luna', 'D5-patient4_luna', 'D5-patient1_luna', 'D5-patient2_luna', 'D0-patient3_luna', 'D5-control1_luna', 'D0-patient7_luna', 'D0-control1_luna', 'D0-patient1_luna', 'D0-control6_luna', 'D0-control4_luna', 'D5-control7_luna', 'D0-patient5_luna', 'D5-patient3_luna', 'D5-control5_luna', 'D5-patient5_luna', 'D0-patient4_luna', 'D0-control7_luna', 'D5-patient7_luna', 'D5-patient6_luna', 'D5-control3_luna'}.
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'D0-control6_luna', 'D0-patient1_luna', 'D0-patient5_luna', 'D0-patient2_luna', 'D5-patient3_luna', 'D5-patient6_luna', 'D5-patient7_luna', 'D5-control7_luna', 'D0-control7_luna', 'D5-control5_luna', 'D5-patient2_luna', 'D0-patient7_luna', 'D5-control2_luna', 'D5-patient5_luna', 'D5-control4_luna', 'D0-patient3_luna', 'D5-control1_luna', 'D0-control3_luna', 'D5-control3_luna', 'D0-control1_luna', 'D0-control4_luna', 'D0-control5_luna', 'D0-patient6_luna', 'D5-control6_luna', 'D5-patient4_luna', 'D0-control2_luna', 'D0-patient4_luna', 'D5-patient1_luna'}.

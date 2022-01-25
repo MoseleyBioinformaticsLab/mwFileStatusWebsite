@@ -1,6 +1,6 @@
 Validation Log
-2022-01-06 03:34:16.552393
-mwtab Python Library Version: 1.2.3.post1
+2022-01-19 22:53:49.662313
+mwtab Python Library Version: 1.2.4
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003185/mwtab/txt
 Study ID:      ST001942
 Analysis ID:   AN003185
@@ -9,4 +9,4 @@ Status: Contains Validation Errors
 Number Errors: 1
 
 Error Log:
-MS_METABOLITE_DATA: Section missing data entry for sample(s): {'7N_Pos', '1EAC_Pos', '5B_Neg', '7N_f1', '6B_Pos', '9EAC_f1', '5N_Neg', '10EAC_Pos', '2EAC_f1', '2B_a1', '10B_Pos', '2EAC_a1', '9N_Neg', '5EAC_f1', '4B_f1', '1B_Neg', '8B_Neg', '2B_Pos', '1EAC_Neg', '6B_Neg', '8N_Pos', '9N_Pos', '8EAC_Pos', '3N_Pos', '7EAC_Pos', '4B_Pos', '2EAC_Neg', '10N_f1', '9B_Pos', '7EAC_Neg', '1B_a1', '10EAC_f1', '8EAC_f1', '6N_a1', '3EAC_Neg', '4N_f1', '4EAC_Neg', '6EAC_a1', '1N_Pos', '5B_Pos', '5EAC_a1', '8EAC_a1', '1N_a1', '3N_Neg', '1N_f1', '10N_Neg', '7B_Neg', '8B_f1', '9EAC_Pos', '7N_a1', '6EAC_f1', '4B_Neg', '3B_f1', '8N_a1', '9N_a1', '1N_Neg', '9B_a1', '7B_f1', '10B_a1', '9EAC_a1', '10B_Neg', '10N_a1', '6N_Neg', '2EAC_Pos', '5N_f1', '2B_Neg', '5B_f1', '7N_Neg', '5N_Pos', '1B_f1', '4N_a1', '9B_Neg', '2N_f1', '8N_f1', '7B_a1', '6EAC_Pos', '7EAC_a1', '3N_f1', '3EAC_f1', '6EAC_Neg', '7EAC_f1', '8B_a1', '2N_Pos', '6B_a1', '5EAC_Neg', '2N_a1', '3B_a1', '9EAC_Neg', '10N_Pos', '3EAC_Pos', '1B_Pos', '5B_a1', '3B_Pos', '8EAC_Neg', '5N_a1', '3B_Neg', '4EAC_a1', '8N_Neg', '2B_f1', '4N_Neg', '4EAC_Pos', '8B_Pos', '3EAC_a1', '2N_Neg', '10EAC_Neg', '9N_f1', '9B_f1', '5EAC_Pos', '4B_a1', '10EAC_a1', '6N_f1', '6N_Pos', '4N_Pos', '1EAC_f1', '7B_Pos', '6B_f1', '3N_a1', '4EAC_f1', '10B_f1', '1EAC_a1'}.
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'8B_Pos', '9EAC_f1', '9N_Neg', '5B_f1', '1EAC_f1', '7B_a1', '8EAC_Pos', '8N_Pos', '3B_Pos', '9B_Pos', '6EAC_Neg', '7N_f1', '8N_a1', '1N_Neg', '3B_f1', '2EAC_f1', '10EAC_a1', '4EAC_a1', '6B_Neg', '6EAC_a1', '10N_a1', '10N_Neg', '7N_Neg', '4N_a1', '3N_Pos', '6N_a1', '2N_Neg', '6N_f1', '8N_f1', '7EAC_Neg', '2EAC_a1', '3EAC_a1', '10EAC_Pos', '1N_Pos', '1EAC_Neg', '9N_a1', '10B_Neg', '4N_Pos', '2B_Pos', '4N_Neg', '9B_Neg', '3EAC_f1', '2B_Neg', '7N_a1', '6EAC_Pos', '3B_a1', '6N_Pos', '5EAC_a1', '2N_Pos', '1EAC_Pos', '5EAC_f1', '2N_a1', '10EAC_f1', '7B_f1', '7EAC_a1', '6B_Pos', '6B_a1', '7B_Neg', '1B_Pos', '5B_Pos', '1N_f1', '3B_Neg', '9EAC_Neg', '9EAC_a1', '6EAC_f1', '7EAC_Pos', '4B_Pos', '1B_Neg', '8EAC_a1', '2B_a1', '8B_Neg', '5EAC_Neg', '10N_f1', '2EAC_Pos', '3N_a1', '6B_f1', '8B_f1', '10B_Pos', '8N_Neg', '4EAC_f1', '4EAC_Neg', '3N_Neg', '5N_f1', '9B_a1', '8EAC_f1', '5EAC_Pos', '9B_f1', '3N_f1', '1N_a1', '5N_a1', '2B_f1', '1B_a1', '4EAC_Pos', '8EAC_Neg', '1B_f1', '1EAC_a1', '10B_a1', '5N_Neg', '2EAC_Neg', '8B_a1', '5B_a1', '3EAC_Neg', '10B_f1', '5N_Pos', '2N_f1', '7N_Pos', '10N_Pos', '4B_f1', '4B_a1', '3EAC_Pos', '9N_Pos', '7B_Pos', '10EAC_Neg', '6N_Neg', '9N_f1', '4B_Neg', '9EAC_Pos', '5B_Neg', '4N_f1', '7EAC_f1'}.

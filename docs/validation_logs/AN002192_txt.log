@@ -1,9 +1,9 @@
 Validation Log
-2022-01-06 02:43:13.924207
-mwtab Python Library Version: 1.2.3.post1
+2022-01-19 22:08:44.335563
+mwtab Python Library Version: 1.2.4
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002192/mwtab/txt
 Study ID:      ST001317
 Analysis ID:   AN002192
 File format:   txt
-Status:
+Status:Parsing Error
 ('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\tMatrix1\\tSampleType:Matrix_Blank\\tLaboratory_Sample_ID=matrix_19S021; Batch=B1; Sample.No.=NA; SPG=NA; dilution.factor=NA; InjectionOrder=14; RAW_FILE_NAME=VY_B1_014_matrix_19S021_ZHP;GD_B1_014_matrix_19S021_RPN_reinject'", IndexError('list index out of range'))

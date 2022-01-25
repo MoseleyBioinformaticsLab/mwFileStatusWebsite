@@ -1,6 +1,6 @@
 Validation Log
-2022-01-06 03:33:51.536346
-mwtab Python Library Version: 1.2.3.post1
+2022-01-19 22:53:24.614367
+mwtab Python Library Version: 1.2.4
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003149/mwtab/json
 Study ID:      ST001936
 Analysis ID:   AN003149
@@ -12,5 +12,5 @@ Error Log:
 SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
 Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'AEA(20:1)')])
 Missing key: Or('Metabolite', 'Bin range(ppm)')
-MS_METABOLITE_DATA: Section missing data entry for sample(s): {'PX20', 'PX11', 'N13', 'N16', 'N4', 'G7', 'N8', 'PX12', 'G1', 'PX10', 'G11', 'G17', 'G3', 'N5', 'PX2', 'PX4', 'N24', 'PX13', 'N7', 'PX9', 'N12', 'G2', 'N10', 'N20', 'G6', 'PX17', 'N19', 'N22', 'G9', 'N6', 'G16', 'N14', 'N9', 'BB02', 'G10', 'BB04', 'PX6', 'N1', 'N17', 'G12', 'G5', 'G4', 'N18', 'PX18', 'PX15', 'PX5', 'N2', 'G15', 'BB03', 'PX14', 'G18', 'G14', 'N21', 'PX16', 'PX3', 'N23', 'G13', 'PX19', 'N15', 'G8', 'PX8', 'PX7', 'N11', 'PX1', 'N3'}.
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'PX19', 'G2', 'PX17', 'N19', 'PX15', 'N7', 'PX11', 'PX10', 'G9', 'G17', 'PX16', 'N16', 'N9', 'G10', 'G11', 'N3', 'N1', 'G13', 'G7', 'PX9', 'G18', 'N24', 'G1', 'N13', 'G4', 'G15', 'N15', 'N8', 'BB04', 'PX2', 'N12', 'N10', 'G14', 'PX6', 'N20', 'PX5', 'G5', 'N17', 'BB02', 'G8', 'N22', 'PX7', 'N21', 'N23', 'PX18', 'N6', 'PX12', 'G16', 'G3', 'PX8', 'N4', 'BB03', 'PX4', 'PX14', 'N2', 'N18', 'PX1', 'G12', 'PX3', 'N14', 'N5', 'PX13', 'G6', 'PX20', 'N11'}.
 SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {''} found in MS_METABOLITE_DATA section.

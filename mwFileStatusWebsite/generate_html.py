@@ -4,7 +4,7 @@
 generate_html.py
 ~~~~~~~~~~~~~~~~
 
-This script contains methods for generating html pages from validation dictionaries.
+This script contains methods for generating HTML pages from validation dictionaries.
 """
 import json
 from datetime import datetime
@@ -16,6 +16,9 @@ MESSAGE_COLOR = {
     "Validation Error": "orange",
     "Parsing Error": "red",
     "Missing/Blank": "lightgrey",
+    'Consistent': 'brightgreen',
+    'Inconsistent': 'orange',
+    'Not Checked': 'lightgrey'
 }
 
 MESSAGE_TO_LEVEL = {
@@ -30,7 +33,8 @@ LEVEL_TO_MESSAGE = {
 
 # load in all the necessary HTML templates
 INDEX_STR = pkgutil.get_data(__name__, 'templates/index_template.txt').decode('utf-8')
-STATS_STR = pkgutil.get_data(__name__, 'templates/statistics_template.txt').decode('utf-8')
+VAL_STATS_STR = pkgutil.get_data(__name__, 'templates/statistics_template.txt').decode('utf-8')
+COMP_STATS_STR = pkgutil.get_data(__name__, 'templates/comparison_stats_template.txt').decode('utf-8')
 HEADER_STR = pkgutil.get_data(__name__, 'templates/header_template.txt').decode('utf-8')
 GRID_STR = pkgutil.get_data(__name__, 'templates/grid_template.txt').decode('utf-8')
 GRID_ITEM_STR = pkgutil.get_data(__name__, 'templates/grid_item_template.txt').decode('utf-8')
@@ -39,10 +43,12 @@ DESC_STR = "<div class=\"desc__grid__item\"{0}>{1}</div>"
 
 
 def load_json(filepath):
-    """
+    """Help function for loading in JSON data files.
 
-    :param filepath:
-    :return:
+    :param filepath: Path to JSON file to be loaded.
+    :type filepath: str
+    :return: JSON dictionary object.
+    :rtype: dict
     """
     with open(filepath, "r") as fh:
         json_dict = json.loads(fh.read())
@@ -51,11 +57,15 @@ def load_json(filepath):
     return json_dict
 
 
-def generate_statistics_summary(validation_dict):
-    """
+def generate_validation_stats_summary(validation_dict):
+    """Method for generating the statistics to filling the HTML template with the current Metabolomics Workbench mwTab
+    files validation data.
 
-    :param validation_dict:
-    :return:
+    :param validation_dict: Dictionary object containing the validation statuses for all validated mwTab data files.
+    :type validation_dict: dict
+    :return: Tuple containing the number of validated studies, number of validated analyses, and the dictionary
+    containing the validation data (eg. number Passing, number with Validation Errors, etc.).
+    :rtype: tuple
     """
     num_studies = 0
     num_analyses = 0
@@ -71,13 +81,45 @@ def generate_statistics_summary(validation_dict):
         for analysis_id in validation_dict[study_id]["analyses"]:
             num_analyses += 1
 
-            for file_format in validation_dict[study_id]["analyses"][analysis_id]["status"]:
+            for file_format in ('txt', 'json'):
                 error_num_dict[validation_dict[study_id]["analyses"][analysis_id]["status"][file_format]][file_format] += 1
 
     return num_studies, num_analyses, error_num_dict
 
 
+def generate_comparison_stats_summary(validation_dict):
+    """Method for generating the statistics to filling the HTML template with the current Metabolomics Workbench mwTab
+    files comparison data.
+
+    :param validation_dict: Dictionary object containing the validation statuses for all validated mwTab data files.
+    :type validation_dict: dict
+    :return: Tuple containing the number of validated studies, number of validated analyses, and the dictionary
+    containing the validation data (eg. number Passing, number with Validation Errors, etc.).
+    :rtype: tuple
+    """
+    count_dict = {
+        'Consistent': 0,
+        'Inconsistent': 0,
+        'Not Checked': 0,
+    }
+
+    for study_id in validation_dict:
+        for analysis_id in validation_dict[study_id]['analyses']:
+            count_dict[validation_dict[study_id]['analyses'][analysis_id]['status']['comparison']] += 1
+
+    return count_dict['Consistent'], count_dict['Inconsistent'], count_dict['Not Checked']
+
+
 def create_desc(params, tabs="\t"*6):
+    """Method for parsing out STUDY or ANALYSIS description items from the generated validation nested dictionary and
+    returning a formatted string.
+
+    :param params: Nested validation dictionary or section of nested validation dictionary.
+    :type params: dict
+    :param tabs: White spacing for tabs.
+    :type tabs: str
+    :return: String containing formatted
+    """
     desc_items = list()
     for k in params:
         desc_items.append(tabs + DESC_STR.format("", k))
@@ -87,13 +129,22 @@ def create_desc(params, tabs="\t"*6):
 
 
 def create_html(validation_dict, config_dict, output_filename):
-    num_studies, num_analyses, error_dict = generate_statistics_summary(validation_dict)
+    """Method for generating the text for the HTML files for the website.
+
+    :param validation_dict:
+    :param config_dict:
+    :param output_filename:
+    :return:
+    """
+    num_studies, num_analyses, error_dict = generate_validation_stats_summary(validation_dict)
 
     num_errors = list()
     for error_type in error_dict:
         for file_format in error_dict[error_type]:
             num_errors.append(error_dict[error_type][file_format])
-    stats_str = STATS_STR.format(num_studies, num_analyses, *num_errors, config_dict['owner'], config_dict['repo'])
+    val_stats_str = VAL_STATS_STR.format(num_studies, num_analyses, *num_errors, config_dict['owner'], config_dict['repo'])
+
+    comp_stats_str = COMP_STATS_STR.format(*generate_comparison_stats_summary(validation_dict))
 
     # generate file status section
     file_status_list = []
@@ -131,10 +182,11 @@ def create_html(validation_dict, config_dict, output_filename):
                     config_dict['repo']
                 ))
 
+            # adds the colored analysis button
             grid_item_list.append(GRID_ITEM_STR.format(
                 analysis_id,
                 MESSAGE_COLOR[LEVEL_TO_MESSAGE[max([
-                    MESSAGE_TO_LEVEL[value] for value in validation_dict[study_id]["analyses"][analysis_id]["status"].values()
+                    MESSAGE_TO_LEVEL[value] for value in validation_dict[study_id]["analyses"][analysis_id]["status"].values() if value in MESSAGE_TO_LEVEL.keys()
                 ])]],
                 "\n".join(badge_list),
                 create_desc(validation_dict[study_id]["analyses"][analysis_id]["params"])
@@ -149,7 +201,8 @@ def create_html(validation_dict, config_dict, output_filename):
             config_dict['owner'],
             config_dict['repo'],
             str(datetime.now()),
-            stats_str,
+            val_stats_str,
+            comp_stats_str,
             file_status_str
         ))
 

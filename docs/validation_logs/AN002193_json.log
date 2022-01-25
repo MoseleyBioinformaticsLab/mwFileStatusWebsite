@@ -1,6 +1,6 @@
 Validation Log
-2022-01-06 02:43:23.339343
-mwtab Python Library Version: 1.2.3.post1
+2022-01-19 22:08:51.998554
+mwtab Python Library Version: 1.2.4
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002193/mwtab/json
 Study ID:      ST001317
 Analysis ID:   AN002193
@@ -10,4 +10,4 @@ Number Errors: 2
 
 Error Log:
 SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'CHEAR_STUDY' in OrderedDict([('STUDY_TITLE', 'Dynamics of Exposure, Phthalates, and Asthma in a Randomized Trial (DEPART)'), ('STUDY_TYPE', 'CHEAR Study'), ('STUDY_SUMMARY', 'project will investigate relationships between phthalate exposure, pediatric asthma health, and underlying biological pathways of toxicity among a rural, underserved Latino population located in Yakima Valley, WA. DEPART will benefit from the original study’s (HAPI’s) robust longitudinal repeat-measure design and community-engaged framework. DEPART will add new measurements including concentrations of urinary phthalate monoester metabolites and biomarkers of oxidative stress to better characterize exposure-response associations. This project’s primary goal is to deepen the understanding of pathophysiological phenomena underlying exposure-response relationships between phthalates and asthma health. Our specific aims are: (1) Characterize associations between urinary phthalate metabolite concentrations and short-term asthma morbidity, and (2) Determine individual relationships between urinary phthalate metabolite concentrations, short-term asthma morbidity, and biomarkers for oxidative stress to assess the potential for a mediating effect by oxidative stress. Covariates of interest will include atopic status, randomized intervention grouping, and the caregiver psychosocial stress assessment.'), ('INSTITUTE', 'Icahn School of Medicine at Mount Sinai'), ('DEPARTMENT', 'Department of Environmental Medicine and Public Health'), ('LABORATORY', 'Mount Sinai CHEAR Untargeted Laboratory Hub'), ('LAST_NAME', 'Walker'), ('FIRST_NAME', 'Douglas'), ('ADDRESS', 'Atran Building RM AB3-39, 1428 Madison Ave'), ('EMAIL', 'douglas.walker@mssm.edu'), ('PHONE', '212-241-9891'), ('CHEAR_STUDY', '2017-2121')])
-MS_METABOLITE_DATA: Section missing data entry for sample(s): {'UT21', 'LQC18'}.
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'LQC18', 'UT21'}.
