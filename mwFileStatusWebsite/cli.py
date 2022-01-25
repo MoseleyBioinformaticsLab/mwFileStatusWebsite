@@ -27,7 +27,7 @@ def cli(cmdargs):
         # create the main webpage
         validation_dict = generate_html.load_json('tmp.json')
         config_dict = generate_html.load_json('docs/config.json')
-        generate_html.create_html(validation_dict, config_dict, '../index.html')
+        generate_html.create_html(validation_dict, config_dict, 'index.html')
 
         passing = generate_html.create_error_dicts(validation_dict, 'Passing')
         generate_html.create_html(passing, config_dict, 'passing.html')
