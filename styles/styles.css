@@ -26,6 +26,14 @@
     width: calc(25%);
   }
 }
+@media screen and (min-width: 20em) {
+  .compare__stats__grid {
+    display: grid;
+    grid-template-areas: "item item";
+    grid-template-columns: 1fr 1fr;
+    width: calc(25%);
+  }
+}
 
 /* Status Grid Items */
 .study__grid__item {
