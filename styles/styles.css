@@ -26,16 +26,6 @@
     width: calc(25%);
   }
 }
-
-.compare__grid__item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #161b22;
-  color: #f0f6fb;
-  border: 1px solid #30363c;
-  text-decoration: none;
-}
 @media screen and (min-width: 20em) {
   .compare__stats__grid {
     display: grid;

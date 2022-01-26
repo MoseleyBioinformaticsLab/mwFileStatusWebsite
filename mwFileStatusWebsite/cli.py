@@ -29,14 +29,14 @@ def cli(cmdargs):
         config_dict = generate_html.load_json('docs/config.json')
         generate_html.create_html(validation_dict, config_dict, 'index.html')
 
-        passing = generate_html.create_error_dicts(validation_dict, 'Passing')
+        passing = generate_html.create_error_dicts(validation_dict, 'Passing', True)
         generate_html.create_html(passing, config_dict, 'passing.html')
 
-        validation = generate_html.create_error_dicts(validation_dict, 'Validation Error', True)
+        validation = generate_html.create_error_dicts(validation_dict, 'Validation Error')
         generate_html.create_html(validation, config_dict, 'validation_error.html')
 
-        parsing = generate_html.create_error_dicts(validation_dict, 'Parsing Error', True)
+        parsing = generate_html.create_error_dicts(validation_dict, 'Parsing Error')
         generate_html.create_html(parsing, config_dict, 'parsing_error.html')
 
-        missing = generate_html.create_error_dicts(validation_dict, 'Missing/Blank', True)
+        missing = generate_html.create_error_dicts(validation_dict, 'Missing/Blank')
         generate_html.create_html(missing, config_dict, 'missing.html')
