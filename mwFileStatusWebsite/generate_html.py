@@ -207,17 +207,20 @@ def create_html(validation_dict, config_dict, output_filename):
         ))
 
 
-def create_error_dicts(validation_dict, status_str, based_on_file_format=False):
+def create_error_dicts(validation_dict, status_str, file_format=None):
     """Method for creating a dictionary containing the entries
 
     :param validation_dict:
+    :param status_str:
+    :param file_format:
     :return:
     """
     status_dict = dict()
 
     for study_id in validation_dict:
         for analysis_id in validation_dict[study_id]["analyses"]:
-            if based_on_file_format:
+
+            if not file_format:
                 file_format_status_set = {validation_dict[study_id]["analyses"][analysis_id]["status"]['json'],
                                           validation_dict[study_id]["analyses"][analysis_id]["status"]['txt']}
                 if {status_str} == file_format_status_set:
@@ -230,16 +233,5 @@ def create_error_dicts(validation_dict, status_str, based_on_file_format=False):
                     status_dict.setdefault(study_id, dict()).setdefault("params", validation_dict[study_id]["params"])
                     status_dict[study_id].setdefault("analyses", dict())[analysis_id] =  \
                         validation_dict[study_id]["analyses"][analysis_id]
-
-            # if not file_format:
-            #     if status_str in set(validation_dict[study_id]["analyses"][analysis_id]["status"].values()):
-            #         status_dict.setdefault(study_id, dict()).setdefault("params", validation_dict[study_id]["params"])
-            #         status_dict[study_id].setdefault("analyses", dict())[analysis_id] =  \
-            #             validation_dict[study_id]["analyses"][analysis_id]
-            # elif file_format:
-            #     if status_str in set(validation_dict[study_id]["analyses"][analysis_id]["status"].values()):
-            #         status_dict.setdefault(study_id, dict()).setdefault("params", validation_dict[study_id]["params"])
-            #         status_dict[study_id].setdefault("analyses", dict())[analysis_id] = \
-            #             validation_dict[study_id]["analyses"][analysis_id]
 
     return status_dict

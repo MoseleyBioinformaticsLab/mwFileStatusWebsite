@@ -83,17 +83,30 @@ def create_validation_dict(study_analysis_dict):
     return validation_dict
 
 
-def _validate(validation_dict, study_id, analysis_id, file_format):
+def _validate(validation_dict, study_id, analysis_id, file_format, save_path=None):
     """Helper function for performing validation of a specified mwTab data file given the files; study ID, analysis ID,
     and file format (.txt or .json).
 
-    :param validation_dict:
-    :param study_id:
-    :param analysis_id:
-    :param file_format:
-    :return:
+    :param validation_dict: Structured dictionary containing analyses statuses and other study information.
+    :type validation_dict: dict
+    :param study_id: Metabolomics Workbench study ID string (eg. ST000001).
+    :type study_id: str
+    :param analysis_id: Metabolomics Workbench analysis ID string (eg. AN000001).
+    :type analysis_id: str
+    :param file_format: File format extension string (either: 'txt' or 'json').
+    :type file_format: str
+    :param save_path: Boolean value indicating if retrieved analyses should be save.
+    :type save_path: bool or str
+
+    :return: Tuple containing of the validated mwtab file object and the string validation log.
+    :rtype: tuple
     """
     mwtabfile = next(mwtab.read_files(MW_REST_URL.format(analysis_id, file_format)))
+
+    if save_path:
+        with open(join(save_path, analysis_id + '.' + file_format), 'w') as fh:
+            mwtabfile.write(fh, 'mwtab' if file_format == 'txt' else 'json')
+
     sleep(1)
     validated_mwtabfile, validation_log = mwtab.validate_file(mwtabfile, metabolites=False)
     status_str = re.search(r'Status.*', validation_log).group(0).split(': ')[1]
@@ -109,7 +122,7 @@ def _validate(validation_dict, study_id, analysis_id, file_format):
     return validated_mwtabfile, validation_log
 
 
-def validate(validation_dict, study_id, analysis_id, file_format):
+def validate(validation_dict, study_id, analysis_id, file_format, save_path=None):
     """Method for validating a given Metabolomics Workbench mwTab file.
 
     Creates a validation log and adds validation status to the given validation_dict dictionary. Fetches files using the
@@ -124,13 +137,16 @@ def validate(validation_dict, study_id, analysis_id, file_format):
     :type analysis_id: str
     :param file_format: File format extension string (either: 'txt' or 'json').
     :type file_format: str
+    :param save_path: Boolean value indicating if retrieved analyses should be save.
+    :type save_path: bool or str
 
-    :return:
+    :return: Tuple containing of the validated mwtab file object and the string validation log.
+    :rtype: tuple
     """
     error = False
 
     try:
-        validated_mwtabfile, validation_log = _validate(validation_dict, study_id, analysis_id, file_format)
+        validated_mwtabfile, validation_log = _validate(validation_dict, study_id, analysis_id, file_format, save_path)
 
     except Exception as e:
         # error is one of; 1) temporary server error, 2) source is blank, or 3) source cannot be parsed
@@ -173,7 +189,7 @@ def validate(validation_dict, study_id, analysis_id, file_format):
 
 
 def validate_mwtab_files(input_file=None, input_dict=None, logs_path='docs/validation_logs', output_file="tmp.json",
-                         verbose=False):
+                         verbose=False, save_path=None):
     """Method for validating all available Metabolomics Workbench mwTab formatted data files.
 
     :param input_file:
@@ -182,6 +198,7 @@ def validate_mwtab_files(input_file=None, input_dict=None, logs_path='docs/valid
     :type logs_path: str
     :param output_file:
     :param verbose:
+    :save_path
     :return:
     """
 
@@ -211,8 +228,8 @@ def validate_mwtab_files(input_file=None, input_dict=None, logs_path='docs/valid
                 print("\t", analysis_id)
 
             # retrieve file in both its 'txt' and 'json' formats
-            txt_mwtab_file, txt_validation_log = validate(validation_dict, study_id, analysis_id, 'txt')
-            json_mwtab_file, json_validation_log = validate(validation_dict, study_id, analysis_id, 'json')
+            txt_mwtab_file, txt_validation_log = validate(validation_dict, study_id, analysis_id, 'txt', save_path=save_path)
+            json_mwtab_file, json_validation_log = validate(validation_dict, study_id, analysis_id, 'json', save_path=save_path)
 
             # if both formats are available and parsable, compare the two files
             validation_dict[study_id]["analyses"][analysis_id]["status"]['comparison'] = 'Not Checked'

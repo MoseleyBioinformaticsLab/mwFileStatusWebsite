@@ -7,13 +7,14 @@ The mwFileStatusWebsite command-line interface
 Usage:
     mwFileStatusWebsite -h | --help
     mwFileStatusWebsite --version
-    mwFileStatusWebsite validate
+    mwFileStatusWebsite validate [--to-path=<path>]
     mwFileStatusWebsite generate
 
 Options:
     -h, --help                      Show this screen.
     --version                       Show version.
     --verbose                       Enable verbose processing.
+    --to-path=<path>                Path to directory for retrieved analyses to be saved in.
 """
 from . import validator, generate_html
 
@@ -21,7 +22,7 @@ from . import validator, generate_html
 def cli(cmdargs):
 
     if cmdargs['validate']:
-        validator.validate_mwtab_files()
+        validator.validate_mwtab_files(save_path=cmdargs['--to-path'])
 
     elif cmdargs['generate']:
         # create the main webpage
