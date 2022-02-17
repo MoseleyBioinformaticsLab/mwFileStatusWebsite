@@ -152,6 +152,7 @@ def create_html(validation_dict, config_dict, output_filename):
     file_status_list = []
     for study_id in validation_dict:
 
+        # Add space between grid items
         if file_status_list:
             file_status_list.append("\t\t\t<br>")
 
@@ -218,7 +219,7 @@ def create_error_dicts(validation_dict, status_str, file_format=None):
     :param status_str: Analysis validation status to be searched for.
     :type status_str: str
     :param file_format: Indicates which file format to be searched (if only one).
-    :type file_format: str
+    :type file_format: str or bool
     :return: Structured dictionary containing analyses statuses and other study information for analyses with indicated
     validation status.
     :rtype: dict
@@ -228,6 +229,7 @@ def create_error_dicts(validation_dict, status_str, file_format=None):
     for study_id in validation_dict:
         for analysis_id in validation_dict[study_id]["analyses"]:
 
+            # both file formats have the same validation status
             if not file_format:
                 file_format_status_set = {validation_dict[study_id]["analyses"][analysis_id]["status"]['json'],
                                           validation_dict[study_id]["analyses"][analysis_id]["status"]['txt']}
@@ -236,6 +238,9 @@ def create_error_dicts(validation_dict, status_str, file_format=None):
                     status_dict[study_id].setdefault("analyses", dict())[analysis_id] = \
                         validation_dict[study_id]["analyses"][analysis_id]
 
+            # TODO: Allow specifying which file format to be checked
+
+            # only one file format has a given status
             else:
                 if status_str in set(validation_dict[study_id]["analyses"][analysis_id]["status"].values()):
                     status_dict.setdefault(study_id, dict()).setdefault("params", validation_dict[study_id]["params"])
