@@ -17,6 +17,8 @@ from time import sleep
 
 
 MW_REST_URL = "https://www.metabolomicsworkbench.org/rest/study/analysis_id/{}/mwtab/{}"
+SLEEP_TIME = 1
+NUM_TRIES = 3
 
 
 def retrieve_mwtab_files(verbose=False):
@@ -66,7 +68,7 @@ def create_validation_dict(study_analysis_dict):
     # setup some variables for collecting validation statuses
     validation_dict = {
         study_id: {
-            "params": {},
+            "params": {},  # TODO:Change to STUDY_params
             "analyses": {
                 analysis_id: {
                     "params": {
@@ -103,19 +105,24 @@ def _validate(validation_dict, study_id, analysis_id, file_format, save_path=Non
     """
     mwtabfile = next(mwtab.read_files(MW_REST_URL.format(analysis_id, file_format)))
 
+    # allows saving out the retrieved non-validated mwTab analysis files.
     if save_path:
         with open(join(save_path, analysis_id + '.' + file_format), 'w') as fh:
             mwtabfile.write(fh, 'mwtab' if file_format == 'txt' else 'json')
 
-    sleep(1)
-    validated_mwtabfile, validation_log = mwtab.validate_file(mwtabfile, metabolites=False)
-    status_str = re.search(r'Status.*', validation_log).group(0).split(': ')[1]
+    sleep(SLEEP_TIME)
 
+    # TODO: Allow validating METABOLITES section
+    validated_mwtabfile, validation_log = mwtab.validate_file(mwtabfile, metabolites=False)
+
+    # parse validation status (e.g. "Passing") from validation log
+    status_str = re.search(r'Status.*', validation_log).group(0).split(': ')[1]
     if status_str == 'Passing':
         validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Passing"
     elif status_str == 'Contains Validation Errors':
         validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Validation Error"
 
+    # parse out STUDY block parameters
     if not validation_dict[study_id]["params"]:
         validation_dict[study_id]["params"] = mwtabfile["STUDY"]
 
@@ -153,7 +160,7 @@ def validate(validation_dict, study_id, analysis_id, file_format, save_path=None
 
         # check to see if temporary server error
         error = True
-        for x in range(3):  # try three times to see if there is a temporary server error
+        for x in range(NUM_TRIES):  # try three times to see if there is a temporary server error
             try:
                 validated_mwtabfile, validation_log = _validate(validation_dict, study_id, analysis_id, file_format)
                 error = False
@@ -169,6 +176,7 @@ def validate(validation_dict, study_id, analysis_id, file_format, save_path=None
             else:
                 validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Parsing Error"
 
+            # create validation log for missing or unparsable files.
             validation_log = mwtab.validator.VALIDATION_LOG_HEADER.format(
                 str(datetime.now()),
                 mwtab.__version__,
@@ -188,27 +196,34 @@ def validate(validation_dict, study_id, analysis_id, file_format, save_path=None
         return {}, validation_log
 
 
-def validate_mwtab_files(input_file=None, input_dict=None, logs_path='docs/validation_logs', output_file="tmp.json",
+def validate_mwtab_files(file_path=None, input_dict=None, logs_path='docs/validation_logs', output_file="tmp.json",
                          verbose=False, save_path=None):
     """Method for validating all available Metabolomics Workbench mwTab formatted data files.
 
-    :param input_file:
-    :param input_dict:
+    :param file_path: File path to directory containing Metabolomics Workbench analysis data files to be validated.
+    :type file_path: str
+    :param input_dict: Dictionary of Metabolomics study IDs (key) and lists of their associated analysis IDs (value).
+    :type input_dict: dict
     :param logs_path: File path to the directory validation logs are to be saved to.
     :type logs_path: str
-    :param output_file:
-    :param verbose:
-    :save_path
-    :return:
+    :param output_file: File path for the structured dictionary containing analyses statuses and other study information
+    to be saved to.
+    :type output_file: str
+    :param verbose: Run in verbose mode.
+    :type verbose: bool
+    :param save_path: Directory path for retrieved Metabolomics Workbench analysis data files to be saved in.
+    :type save_path: str
+    :return: Structured dictionary containing analyses statuses and other study information.
+    :rtype: dict
     """
-
     if verbose:
         print("Running mwTab file validation.")
         print("\tmwtab version:", mwtab.__version__)
 
     # collect dictionary of studies and their analyses
-    if input_file:
-        study_analysis_dict = dict()
+    if file_path:
+        # TODO: Add method for passing in a directory and validating files within
+        pass
     elif input_dict:
         study_analysis_dict = input_dict
     else:

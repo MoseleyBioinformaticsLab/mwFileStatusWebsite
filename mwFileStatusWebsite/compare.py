@@ -6,8 +6,10 @@ compare.py
 
 This script contains methods comparing two Metabolomics Workbench file in `~mwtab.mwtab.MWTabFile` object and assert
 that the files (objects) are the same.
+
+TODO: This should be migrated into the mwtab Python library as a ~mwtab.mwtab.MWTabFile.equals() functionality or
+TODO: similar.
 """
-import mwtab
 import operator
 
 
@@ -59,6 +61,7 @@ def compare_blocks(mwtabfile_1, mwtabfile_2):
                 mwtabfile_1.keys() ^ mwtabfile_2.keys()  # symmetric difference
             )
         )
+
 
 def compare_block_items(mwtabfile_1, mwtabfile_2):
     """Method for comparing the items (keys and values) present within the sections of two Metabolomics Workbench file
