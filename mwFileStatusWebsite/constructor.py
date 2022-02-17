@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-generate_html.py
+constructor.py
 ~~~~~~~~~~~~~~~~
 
 This script contains methods for generating HTML pages from validation dictionaries.
@@ -68,9 +68,7 @@ def generate_validation_stats_summary(validation_dict):
     num_studies = 0
     num_analyses = 0
     error_num_dict = {
-        key: {"txt": 0, "json": 0} for key in [
-            "Passing", "Parsing Error", "Validation Error", "Missing/Blank"
-        ]
+        key: {"txt": 0, "json": 0} for key in ["Passing", "Parsing Error", "Validation Error", "Missing/Blank"]
     }
 
     for study_id in validation_dict:
@@ -117,6 +115,7 @@ def create_desc(params, tabs="\t"*6):
     :param tabs: White spacing for tabs.
     :type tabs: str
     :return: String containing formatted
+    :rtype: str
     """
     desc_items = list()
     for k in params:
@@ -127,7 +126,7 @@ def create_desc(params, tabs="\t"*6):
 
 
 def create_html(validation_dict, config_dict, output_filename):
-    """Method for generating the text for the HTML files for the website.
+    """Creates and saves HTML file based on given validation and config dictionaries.
 
     :param validation_dict: Structured dictionary containing analyses statuses and other study information.
     :type validation_dict: dict
@@ -199,6 +198,7 @@ def create_html(validation_dict, config_dict, output_filename):
 
     file_status_str = "\n".join(file_status_list)
 
+    # TODO: Change to writing to file at time of creation rather than generating strings.
     with open(output_filename, "w") as f:
         f.write(INDEX_TEMPLATE.format(
             config_dict['owner'],
