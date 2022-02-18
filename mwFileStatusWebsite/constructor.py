@@ -30,6 +30,7 @@ LEVEL_TO_MESSAGE = {
     MESSAGE_TO_LEVEL[k]: k for k in MESSAGE_TO_LEVEL
 }
 # load in all the necessary HTML templates
+INDEX_HEADER_TEMPLATE = pkgutil.get_data(__name__, 'templates/index_header_template.txt').decode('utf-8')
 INDEX_TEMPLATE = pkgutil.get_data(__name__, 'templates/index_template.txt').decode('utf-8')
 VAL_STATS_TEMPLATE = pkgutil.get_data(__name__, 'templates/statistics_template.txt').decode('utf-8')
 COMP_STATS_TEMPLATE = pkgutil.get_data(__name__, 'templates/comparison_stats_template.txt').decode('utf-8')
@@ -136,78 +137,101 @@ def create_html(validation_dict, config_dict, output_filename):
     :type output_filename: str
     :return: None
     """
-    # collect general statistics for the run (number of available studies and analyses).
-    num_studies, num_analyses, error_dict = generate_validation_stats_summary(validation_dict)
+    with open(output_filename, "w") as fh:
 
-    # Fill out the statistics_template and comparison_stats_template.
-    num_errors = list()
-    for error_type in error_dict:
-        for file_format in error_dict[error_type]:
-            num_errors.append(error_dict[error_type][file_format])
-    val_stats_str = VAL_STATS_TEMPLATE.format(num_studies, num_analyses, *num_errors, config_dict['owner'], config_dict['repo'])
-    comp_stats_str = COMP_STATS_TEMPLATE.format(*generate_comparison_stats_summary(validation_dict))
-
-    # generate file status section
-    file_status_list = []
-    for study_id in validation_dict:
-
-        # Add space between grid items
-        if file_status_list:
-            file_status_list.append("\t\t\t<br>")
-
-        # Add study header
-        # Adds header line (grid)
-        # Adds study meta data
-        height = 1*len(validation_dict[study_id]["params"])
-        file_status_list.append(HEADER_TEMPLATE.format(
-            study_id,
-            validation_dict[study_id]["params"].get("STUDY_TITLE"),
-            validation_dict[study_id]["params"].get("INSTITUTE"),
-            validation_dict[study_id]["params"].get("LAST_NAME"),
-            validation_dict[study_id]["params"].get("FIRST_NAME"),
-            " style=\"height:" + str(height) + "em;max-height:" + str(height) + "\"",
-            create_desc(validation_dict[study_id]["params"])
-        ))
-
-        grid_item_list = []
-        for analysis_id in validation_dict[study_id]["analyses"]:
-
-            badge_list = []
-            for format_type in validation_dict[study_id]["analyses"][analysis_id]["status"]:
-
-                badge_list.append(BADGE_TEMPLATE.format(
-                    analysis_id,
-                    format_type,
-                    MESSAGE_COLOR[validation_dict[study_id]["analyses"][analysis_id]["status"][format_type]],
-                    validation_dict[study_id]["analyses"][analysis_id]["status"][format_type],
-                    config_dict['owner'],
-                    config_dict['repo']
-                ))
-
-            # adds the colored analysis button
-            grid_item_list.append(GRID_ITEM_TEMPLATE.format(
-                analysis_id,
-                MESSAGE_COLOR[LEVEL_TO_MESSAGE[max([
-                    MESSAGE_TO_LEVEL[value] for value in validation_dict[study_id]["analyses"][analysis_id]["status"].values() if value in MESSAGE_TO_LEVEL.keys()
-                ])]],
-                "\n".join(badge_list),
-                create_desc(validation_dict[study_id]["analyses"][analysis_id]["params"])
-            ))
-
-        file_status_list.append(GRID_TEMPLATE.format("\n".join(grid_item_list)))
-
-    file_status_str = "\n".join(file_status_list)
-
-    # TODO: Change to writing to file at time of creation rather than generating strings.
-    with open(output_filename, "w") as f:
-        f.write(INDEX_TEMPLATE.format(
+        #####################################
+        # write the HTML header information #
+        #####################################
+        fh.write(INDEX_HEADER_TEMPLATE.format(
             config_dict['owner'],
             config_dict['repo'],
             str(datetime.now()),
-            val_stats_str,
-            comp_stats_str,
-            file_status_str
         ))
+
+        #####################################################
+        # collect and write validation and comparison stats #
+        #####################################################
+        # collect general statistics for the run (number of available studies and analyses).
+        num_studies, num_analyses, error_dict = generate_validation_stats_summary(validation_dict)
+
+        # Fill out the statistics_template and comparison_stats_template.
+        num_errors = list()
+        for error_type in error_dict:
+            for file_format in error_dict[error_type]:
+                num_errors.append(error_dict[error_type][file_format])
+
+        # writes the validation and comparison stats sections to the HTML file
+        fh.write(VAL_STATS_TEMPLATE.format(num_studies, num_analyses, *num_errors, config_dict['owner'], config_dict['repo']))
+        fh.write(COMP_STATS_TEMPLATE.format(*generate_comparison_stats_summary(validation_dict)))
+
+        ################################
+        # generate file status section #
+        ################################
+        # file_status_list = []
+        for study_id in validation_dict:
+
+            # # Add space between grid items
+            # if file_status_list:
+            #     file_status_list.append()
+
+            # Add study header
+            # Adds header line (grid)
+            # Adds study meta data
+            height = 1*len(validation_dict[study_id]["params"])
+            fh.write(HEADER_TEMPLATE.format(
+                study_id,
+                validation_dict[study_id]["params"].get("STUDY_TITLE"),
+                validation_dict[study_id]["params"].get("INSTITUTE"),
+                validation_dict[study_id]["params"].get("LAST_NAME"),
+                validation_dict[study_id]["params"].get("FIRST_NAME"),
+                " style=\"height:" + str(height) + "em;max-height:" + str(height) + "\"",
+                create_desc(validation_dict[study_id]["params"])
+            ))
+
+            grid_item_list = []
+            for analysis_id in validation_dict[study_id]["analyses"]:
+
+                badge_list = []
+                for format_type in validation_dict[study_id]["analyses"][analysis_id]["status"]:
+
+                    badge_list.append(BADGE_TEMPLATE.format(
+                        analysis_id,
+                        format_type,
+                        MESSAGE_COLOR[validation_dict[study_id]["analyses"][analysis_id]["status"][format_type]],
+                        validation_dict[study_id]["analyses"][analysis_id]["status"][format_type],
+                        config_dict['owner'],
+                        config_dict['repo']
+                    ))
+
+                # adds the colored analysis button
+                grid_item_list.append(GRID_ITEM_TEMPLATE.format(
+                    analysis_id,
+                    MESSAGE_COLOR[LEVEL_TO_MESSAGE[max([
+                        MESSAGE_TO_LEVEL[value] for value in validation_dict[study_id]["analyses"][analysis_id]["status"].values() if value in MESSAGE_TO_LEVEL.keys()
+                    ])]],
+                    "\n".join(badge_list),
+                    create_desc(validation_dict[study_id]["analyses"][analysis_id]["params"])
+                ))
+
+            fh.write(GRID_TEMPLATE.format("\n".join(grid_item_list)))
+
+            fh.write("\t\t\t<br>")
+
+        # close file
+        fh.write("\t\t</div>\n\t</body>\n</html>\n")
+
+        # file_status_str = "\n".join(file_status_list)
+
+        # TODO: Change to writing to file at time of creation rather than generating strings.
+        # with open(output_filename, "w") as f:
+        #     f.write(INDEX_TEMPLATE.format(
+        #         config_dict['owner'],
+        #         config_dict['repo'],
+        #         str(datetime.now()),
+        #         val_stats_str,
+        #         comp_stats_str,
+        #         file_status_str
+        #     ))
 
 
 def create_error_dicts(validation_dict, status_str, file_format=None):
