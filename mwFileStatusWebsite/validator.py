@@ -281,8 +281,6 @@ def validate_mwtab_files(file_path=None, input_dict=None, logs_path='docs/valida
 
     # export validation status dictionary
     with open(output_file, "w") as fh:
-        fh.write(json.dumps(validation_dict, indent=4, sort_keys=True))
-        # TODO: Change to indented form
-        # TODO: Test sort keys
+        fh.write(json.dumps(validation_dict, indent=4))
 
     return validation_dict
