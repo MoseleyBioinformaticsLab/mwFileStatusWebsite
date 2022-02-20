@@ -1,5 +1,5 @@
 Validation Log
-2022-01-19 20:08:17.687015
+2022-02-19 19:39:00.282457
 mwtab Python Library Version: 1.2.4
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000041/mwtab/txt
 Study ID:      ST000022
@@ -10,5 +10,5 @@ Number Errors: 3
 
 Error Log:
 SCHEMA: Section "NMR_BINNED_DATA" does not match the allowed schema. Missing key: 'Units'
-NMR_BINNED_DATA: Section missing data entry for sample(s): {'D2404', 'D0177', 'F0108', 'C0640', 'E2036', 'F0036', 'D0613', 'C2177', 'D2079', 'D2111', 'E0195', 'D0729', 'D0945', 'C0835', 'D0762', 'E0309', 'D1174', 'A2003', 'A0233', 'D2532', 'E0225', 'C0629', 'E0487', 'C0559', 'E0004', 'D2090', 'D2062', 'A0490', 'D1158', 'D1113', 'C0586', 'E0607', 'D0909', 'E0546'}.
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {'C0640 ', 'D0762 ', 'D2532 ', 'C0629 ', 'E0225 ', 'A0490 ', 'D0945 ', 'C0835 ', 'A2003 ', 'D2062 ', 'D1158 ', 'E0309 ', 'D0729 ', 'D2090 ', 'C2177 ', 'D1113 ', 'A0233 ', 'D2404 ', 'E0546 ', 'C0586 ', 'E0195 ', 'D0177 ', 'E0607 ', 'C0559 ', 'E2036 ', 'F0108 ', 'D1174 ', 'D0613 ', 'E0004 ', 'E0487 ', 'D2111 ', 'F0036 ', 'D2079 ', 'D0909 '} found in NMR_BINNED_DATA section.
+NMR_BINNED_DATA: Section missing data entry for sample(s): {'E2036', 'D0945', 'E0225', 'E0607', 'D1113', 'D1174', 'C0835', 'E0004', 'E0195', 'D0762', 'A0233', 'F0036', 'F0108', 'C0586', 'D0177', 'D2404', 'A2003', 'E0309', 'E0546', 'A0490', 'D0613', 'D1158', 'C0640', 'D2090', 'D2079', 'D2111', 'C0629', 'D0729', 'C0559', 'D2532', 'D0909', 'E0487', 'D2062', 'C2177'}.
+SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {'E0195 ', 'E0607 ', 'D1113 ', 'C0559 ', 'D0762 ', 'A0233 ', 'D2079 ', 'D0909 ', 'D0177 ', 'D2090 ', 'E2036 ', 'C0640 ', 'C0835 ', 'F0036 ', 'D2062 ', 'E0487 ', 'D0613 ', 'C0629 ', 'E0004 ', 'C0586 ', 'D0729 ', 'D1158 ', 'A0490 ', 'D1174 ', 'E0309 ', 'C2177 ', 'A2003 ', 'D2111 ', 'F0108 ', 'D2404 ', 'E0225 ', 'D0945 ', 'D2532 ', 'E0546 '} found in NMR_BINNED_DATA section.

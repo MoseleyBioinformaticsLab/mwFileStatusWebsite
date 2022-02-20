@@ -1,5 +1,5 @@
 Validation Log
-2022-01-19 22:14:10.147344
+2022-02-19 21:51:24.488950
 mwtab Python Library Version: 1.2.4
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002302/mwtab/json
 Study ID:      ST001381
@@ -12,4 +12,4 @@ Error Log:
 SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
 Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'AcCa(16:0)')])
 Missing key: Or('Metabolite', 'Bin range(ppm)')
-MS_METABOLITE_DATA: Section missing data entry for sample(s): {'PR_NC_NS_OD_744', 'p_NR_PC_PS_OS_519_A003, p_NR_PC_PS_OS_519_A004, p_NR_PC_PS_OS_519_A005, p_NR_PC_PS_OS_519_A006', 'PR_NC_PS_OD_901', 'PR_PC_PS_OS_581', 'PR_NC_NS_OD_796', 'PR_PC_PS_OS_901', 'PR_PC_NS_OS_607', 'PR_NC_PS_OD_905', 'PR_PC_NS_OS_608', 'PR_PC_PS_OS_905', 'PR_PC_NS_OS_796', 'PR_PC_PS_OS_903', 'PR_NC_NS_OD_791', 'PR_NC_NS_OD_608', 'PR_NC_PS_OD_613', 'PR_NC_PS_OD_581', 'PR_PC_NS_OS_791', 'PR_NC_NS_OD_793', 'PR_PC_PS_OS_777', 'PR_PC_NS_OS_806', 'PR_NC_NS_OD_607', 'PR_NC_PS_OD_777', 'PR_PC_PS_OS_889', 'PR_NC_PS_OD_889', 'PR_PC_NS_OS_744'}.
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'PR_NC_PS_OD_901', 'PR_PC_PS_OS_777', 'PR_PC_PS_OS_901', 'PR_NC_PS_OD_777', 'PR_PC_PS_OS_581', 'PR_NC_NS_OD_607', 'PR_PC_PS_OS_889', 'PR_NC_NS_OD_796', 'PR_PC_NS_OS_608', 'PR_PC_NS_OS_607', 'PR_NC_PS_OD_905', 'PR_PC_NS_OS_796', 'PR_NC_NS_OD_744', 'PR_PC_NS_OS_744', 'PR_NC_NS_OD_608', 'PR_PC_PS_OS_903', 'PR_NC_PS_OD_889', 'PR_PC_NS_OS_791', 'PR_NC_NS_OD_793', 'PR_NC_NS_OD_791', 'PR_NC_PS_OD_613', 'PR_PC_NS_OS_806', 'p_NR_PC_PS_OS_519_A003, p_NR_PC_PS_OS_519_A004, p_NR_PC_PS_OS_519_A005, p_NR_PC_PS_OS_519_A006', 'PR_PC_PS_OS_905', 'PR_NC_PS_OD_581'}.

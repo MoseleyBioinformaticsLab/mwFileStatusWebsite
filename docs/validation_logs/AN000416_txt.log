@@ -1,5 +1,5 @@
 Validation Log
-2022-01-19 20:26:55.053090
+2022-02-19 19:59:12.933641
 mwtab Python Library Version: 1.2.4
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000416/mwtab/txt
 Study ID:      ST000261
@@ -9,5 +9,5 @@ Status: Contains Validation Errors
 Number Errors: 2
 
 Error Log:
-NMR_BINNED_DATA: Section missing data entry for sample(s): {'P043', 'P042', 'P046', 'P048', 'P041', 'P047', 'P045', 'P044'}.
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {'R043', 'R041', 'R046', 'R048', 'R047', 'R044', 'R045', 'R042'} found in NMR_BINNED_DATA section.
+NMR_BINNED_DATA: Section missing data entry for sample(s): {'P044', 'P048', 'P043', 'P045', 'P042', 'P046', 'P041', 'P047'}.
+SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {'R046', 'R045', 'R043', 'R044', 'R042', 'R041', 'R047', 'R048'} found in NMR_BINNED_DATA section.
