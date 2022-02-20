@@ -220,19 +220,6 @@ def create_html(validation_dict, config_dict, output_filename):
         # close file
         fh.write("\t\t</div>\n\t</body>\n</html>\n")
 
-        # file_status_str = "\n".join(file_status_list)
-
-        # TODO: Change to writing to file at time of creation rather than generating strings.
-        # with open(output_filename, "w") as f:
-        #     f.write(INDEX_TEMPLATE.format(
-        #         config_dict['owner'],
-        #         config_dict['repo'],
-        #         str(datetime.now()),
-        #         val_stats_str,
-        #         comp_stats_str,
-        #         file_status_str
-        #     ))
-
 
 def create_error_dicts(validation_dict, status_str, file_format=None):
     """Method for creating a dictionary containing the validation status and additional parameters of analyses with

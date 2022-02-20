@@ -22,7 +22,7 @@ from . import validator, constructor
 def cli(cmdargs):
 
     if cmdargs['validate']:
-        validator.validate_mwtab_files(save_path=cmdargs['--to-path'])
+        validator.validate_mwtab_rest(save_path=cmdargs['--to-path'])
 
     elif cmdargs['generate']:
         # create the main webpage (index.html)

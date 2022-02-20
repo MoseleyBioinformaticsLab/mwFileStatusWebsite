@@ -12,7 +12,8 @@ import mwtab
 import json
 import re
 from datetime import datetime
-from os.path import join
+from os import walk
+from os.path import join, isdir, isfile
 from time import sleep
 
 
@@ -196,12 +197,10 @@ def validate(validation_dict, study_id, analysis_id, file_format, save_path=None
         return {}, validation_log
 
 
-def validate_mwtab_files(file_path=None, input_dict=None, logs_path='docs/validation_logs', output_file="tmp.json",
-                         verbose=False, save_path=None):
+def validate_mwtab_rest(input_dict=None, logs_path='docs/validation_logs', output_file="tmp.json",
+                        verbose=False, save_path=None):
     """Method for validating all available Metabolomics Workbench mwTab formatted data files.
 
-    :param file_path: File path to directory containing Metabolomics Workbench analysis data files to be validated.
-    :type file_path: str
     :param input_dict: Dictionary of Metabolomics study IDs (key) and lists of their associated analysis IDs (value).
     :type input_dict: dict
     :param logs_path: File path to the directory validation logs are to be saved to.
@@ -221,10 +220,7 @@ def validate_mwtab_files(file_path=None, input_dict=None, logs_path='docs/valida
         print("\tmwtab version:", mwtab.__version__)
 
     # collect dictionary of studies and their analyses
-    if file_path:
-        # TODO: Add method for passing in a directory and validating files within
-        pass
-    elif input_dict:
+    if input_dict:
         study_analysis_dict = input_dict
     else:
         study_analysis_dict = retrieve_mwtab_files(verbose)
@@ -250,8 +246,6 @@ def validate_mwtab_files(file_path=None, input_dict=None, logs_path='docs/valida
             validation_dict[study_id]["analyses"][analysis_id]["status"]['comparison'] = 'Not Checked'
             if txt_mwtab_file and json_mwtab_file:  # both files passed validation and can be compared
                 comparison_list = mwFileStatusWebsite.compare.compare(txt_mwtab_file, json_mwtab_file)
-                # txt_validation_log += comparison_log
-                # json_validation_log += comparison_log
 
                 if comparison_list:
                     comparison_status = 'Inconsistent'
@@ -284,3 +278,33 @@ def validate_mwtab_files(file_path=None, input_dict=None, logs_path='docs/valida
         fh.write(json.dumps(validation_dict, indent=4))
 
     return validation_dict
+
+
+def validate_mwtab_files(file_path=None, logs_path='docs/validation_logs', output_file="tmp.json", verbose=False,):
+    """Validate and create a validation dictionary for a single Metabolomics Workbench analysis data file (mwTab or
+    JSON) or a directory of data files.
+
+    :param file_path: File path to directory containing Metabolomics Workbench analysis data files to be validated.
+    :type file_path: str
+    :param logs_path: File path to the directory validation logs are to be saved to.
+    :type logs_path: str
+    :param output_file: File path for the structured dictionary containing analyses statuses and other study information
+    to be saved to.
+    :type output_file: str
+    :param verbose: Run in verbose mode.
+    :type verbose: bool
+    :return: Structured dictionary containing analyses statuses and other study information.
+    :rtype: dict
+    """
+    # check to see if a directory or file was passed in
+    if isdir(file_path):
+        _, _, filenames = next(walk(file_path))
+        analysis_ids = sorted({filename.split('.')[0] for filename in filenames})
+    elif isfile(file_path):
+        analysis_ids = []
+    else:
+        raise ValueError("'file_path' is not a valid directory or file.")
+
+    validation_dict = dict()
+    for analysis_id in analysis_ids:
+        pass
