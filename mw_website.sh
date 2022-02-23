@@ -1,6 +1,6 @@
 #!/bin/bash
 # A Shell Script to update the Metabolomics Workbench File Status website
-# Christian D. Powell - 21/Aug/2021
+# Christian D. Powell - 2022/02/20
 
 ###########################
 # change directory to tmp #
@@ -10,8 +10,8 @@ cd /tmp
 ##############################
 # clone  mw file status repo #
 ##############################
-git clone https://github.com/cdpowell/test-project.git
-cd test-project/
+git clone https://github.com/MoseleyBioinformaticsLab/mwFileStatusWebsite.git
+cd mwFileStatusWebsite/
 
 ###################################################
 # install virtualenv and create a new environment #
@@ -25,7 +25,7 @@ python3 -m install mwtab
 # update website files #
 ########################
 #python3 -m validator/validator.py
-#python3 -m validator/generate_html.py
+#python3 -m validator/constructor.py
 python3 -m mwFileStatusWebsite validate
 python3 -m mwFileStatusWebsite generate
 
@@ -33,11 +33,12 @@ python3 -m mwFileStatusWebsite generate
 # add updated files to repo #
 #############################
 git add docs/validation_logs index.html missing.html parsing_error.html passing.html validation_error.html
-git commit -m "Weekly update to website."
+now=$(date +'%Y/%m/%d')
+git commit -m "Weekly update for $now"
 git push
 
 #####################
 # remove everything #
 #####################
 cd ..
-rm -rf test-project/
+rm -rf mwFileStatusWebsite/
