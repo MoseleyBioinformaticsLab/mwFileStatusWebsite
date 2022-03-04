@@ -30,3 +30,9 @@ directory in this repository.
 python3 validator.py
 python3 generate_html.py
 ```
+
+## License
+
+This package is distributed under the BSD_ `license`.
+
+.. _BSD: https://choosealicense.com/licenses/bsd-3-clause-clear/
