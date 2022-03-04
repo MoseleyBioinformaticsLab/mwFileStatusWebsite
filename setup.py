@@ -28,7 +28,7 @@ def find_version():
 
 
 REQUIRES = [
-    "mwtab >= 1.2.3",
+    "mwtab >= 1.2.4",
     "pytest"
 ]
 
