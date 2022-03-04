@@ -12,11 +12,10 @@ formats.
 The Metabolomics Workbench File Status website can be 
 accessed through it's GitHub Pages hosted webpage at: 
 
-https://cdpowell.github.io/test-project/
-
+https://moseleybioinformaticslab.github.io/mwFileStatusWebsite/
 
 Individual validation files can be accessed in the 
-[docs/validation_logs/](https://github.com/cdpowell/test-project/tree/master/docs/validation_logs) 
+[docs/validation_logs/](https://github.com/moseleybioinformaticslab/mwFileStatusWebsite/tree/master/docs/validation_logs) 
 directory in this repository.
 
 ## Installation
