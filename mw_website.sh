@@ -19,7 +19,8 @@ cd mwFileStatusWebsite/
 python3 -m pip install virtualenv
 python3 -m virtualenv venv
 source venv/bin/activate
-python3 -m install mwtab
+python3 -m pip install mwtab
+python3 -m pip install -e ../mwFilesStatusWebsite
 
 ########################
 # update website files #
