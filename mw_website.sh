@@ -7,6 +7,12 @@
 ###########################
 cd /tmp
 
+###################
+# start ssh agent #
+###################
+eval "$(ssh-agent -s)"
+ssh-add /root/.ssh/id_ed25519_github
+
 ##############################
 # clone  mw file status repo #
 ##############################
@@ -29,6 +35,12 @@ python3 -m pip install -e ../mwFilesStatusWebsite
 #python3 -m validator/constructor.py
 python3 -m mwFileStatusWebsite validate
 python3 -m mwFileStatusWebsite generate
+
+###################
+# start ssh agent #
+###################
+eval "$(ssh-agent -s)"
+ssh-add /root/.ssh/id_ed25519_github
 
 #############################
 # add updated files to repo #
