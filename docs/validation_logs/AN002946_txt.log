@@ -1,5 +1,5 @@
 Validation Log
-2022-02-19 22:25:06.980683
+2022-03-14 18:20:38.398942
 mwtab Python Library Version: 1.2.4
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002946/mwtab/txt
 Study ID:      ST001815
@@ -9,5 +9,5 @@ Status: Contains Validation Errors
 Number Errors: 2
 
 Error Log:
-MS_METABOLITE_DATA: Section missing data entry for sample(s): {'9.0', '10.0', '50.0', '11.0', '38.0', '64.0', '63.0', '59.0', '20.0', '40.0', '62.0', '24.0', '12.0', '61.0', '58.0', '66.0', '22.0', '30.0', '8.0', '14.0', '45.0', '51.0', '35.0', '60.0', '29.0', '49.0', '37.0', '2.0', '25.0', '36.0'}.
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {'30', '8', '9', '24', '2', '11', '59', '14', '40', '25', '38', '50', '61', '35', '22', '58', '45', '60', '10', '49', '63', '66', '37', '12', '51', '20', '29', '62', '36', '64'} found in MS_METABOLITE_DATA section.
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'49.0', '37.0', '63.0', '64.0', '22.0', '8.0', '38.0', '50.0', '14.0', '25.0', '20.0', '29.0', '51.0', '11.0', '59.0', '58.0', '30.0', '9.0', '35.0', '61.0', '24.0', '62.0', '40.0', '45.0', '36.0', '60.0', '66.0', '10.0', '2.0', '12.0'}.
+SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {'35', '64', '63', '38', '58', '45', '25', '50', '62', '49', '36', '11', '29', '60', '24', '14', '40', '30', '61', '10', '22', '51', '20', '2', '66', '9', '37', '59', '8', '12'} found in MS_METABOLITE_DATA section.

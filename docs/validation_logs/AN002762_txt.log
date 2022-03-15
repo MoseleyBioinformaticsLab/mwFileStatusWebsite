@@ -1,0 +1,9 @@
+Validation Log
+2022-03-14 18:11:31.706171
+mwtab Python Library Version: 1.2.4
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002762/mwtab/txt
+Study ID:      ST001692
+Analysis ID:   AN002762
+File format:   txt
+Status:Parsing Error
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\tLC-MS grade water\\tWater_HRE0010_01_001\\tClass:Water_blank\\tBatch=1; Run_order=1; RAW_FILE_NAME=HRE_HFX_20200923_HRE0010_001;HRE_HFX_20200923_HRE0010_002'", IndexError('list index out of range'))

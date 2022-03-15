@@ -1,0 +1,12 @@
+Validation Log
+2022-03-14 18:40:20.234252
+mwtab Python Library Version: 1.2.4
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003404/mwtab/json
+Study ID:      ST002086
+Analysis ID:   AN003404
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "NM" does not match the allowed schema. Wrong key 'NMR_RESULTS_FILE' in OrderedDict([('INSTRUMENT_NAME', 'Bruker'), ('INSTRUMENT_TYPE', 'FT-NMR'), ('NMR_EXPERIMENT_TYPE', '1D-1H'), ('SPECTROMETER_FREQUENCY', '600MHz'), ('NMR_PROBE', '5 mm PATXI 1H−13C−15N and 2H-decoupling probe'), ('NMR_TUBE_SIZE', '5.00 mm'), ('PULSE_SEQUENCE', 'NOESY'), ('WATER_SUPPRESSION', '1Dpresat'), ('TEMPERATURE', '36,85'), ('NUMBER_OF_SCANS', '32'), ('DUMMY_SCANS', '4'), ('ACQUISITION_TIME', '2.7 s'), ('RELAXATION_DELAY', '4 s'), ('SPECTRAL_WIDTH', '18,028 Hz'), ('NUM_DATA_POINTS_ACQUIRED', '98,304'), ('LINE_BROADENING', '0.3'), ('BINNED_INCREMENT', '0.02 ppm'), ('BINNED_DATA_EXCLUDED_RANGE', '4.5-5.5 ppm'), ('NMR_RESULTS_FILE', 'NOESY.txt UNITS:ppm')])

@@ -1,5 +1,5 @@
 Validation Log
-2022-02-19 21:24:51.543213
+2022-03-14 17:22:25.802832
 mwtab Python Library Version: 1.2.4
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001800/mwtab/txt
 Study ID:      ST001106
@@ -9,5 +9,5 @@ Status: Contains Validation Errors
 Number Errors: 2
 
 Error Log:
-MS_METABOLITE_DATA: Section missing data entry for sample(s): {'729', '717', '753', '1576', '3843', '767', '1577', '770', '802', '734', '706'}.
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {'802.00', '753.00', '767.00', '729.00', '1576.00', '717.00', '3843.00', '734.00', '770.00', '706.00', '1577.00'} found in MS_METABOLITE_DATA section.
+MS_METABOLITE_DATA: Section missing data entry for sample(s): {'753', '802', '706', '729', '717', '1577', '734', '1576', '770', '3843', '767'}.
+SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {'734.00', '1576.00', '1577.00', '767.00', '729.00', '753.00', '770.00', '717.00', '3843.00', '706.00', '802.00'} found in MS_METABOLITE_DATA section.

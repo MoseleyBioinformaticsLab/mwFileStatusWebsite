@@ -1,15 +1,14 @@
 Validation Log
-2022-02-19 20:16:30.760759
+2022-03-14 16:00:48.434448
 mwtab Python Library Version: 1.2.4
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000647/mwtab/json
 Study ID:      ST000407
 Analysis ID:   AN000647
 File format:   json
 Status: Contains Validation Errors
-Number Errors: 469
+Number Errors: 467
 
 Error Log:
-SCHEMA: Section "Data" does not match the allowed schema. 'Data'
 SUBJECT_SAMPLE_FACTORS: Entry #1 missing Subject ID.
 SUBJECT_SAMPLE_FACTORS: Entry #1 missing value for Factor Age.
 SUBJECT_SAMPLE_FACTORS: Entry #2 missing Subject ID.
@@ -477,4 +476,3 @@ SUBJECT_SAMPLE_FACTORS: Entry #307 missing value for Additional sample data Pool
 SUBJECT_SAMPLE_FACTORS: Entry #308 missing Subject ID.
 SUBJECT_SAMPLE_FACTORS: Entry #309 missing Subject ID.
 SUBJECT_SAMPLE_FACTORS: Entry #310 missing Subject ID.
-DATA: Missing either NMR_METABOLITE_DATA or NMR_BINNED_DATA section.

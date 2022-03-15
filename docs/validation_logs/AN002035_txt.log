@@ -1,8 +1,9 @@
 Validation Log
-2022-02-19 21:36:47.923153
+2022-03-14 17:34:08.201432
 mwtab Python Library Version: 1.2.4
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002035/mwtab/txt
 Study ID:      ST001222
 Analysis ID:   AN002035
 File format:   txt
-Status: Passing
+Status:Parsing Error
+('LINE WITH ERROR:\n\t', "'ST:STUDY_SUMMARY                 \\tfully establish a microbiome. \\tOnce the bees had an established microbiome, we'", ValueError('too many values to unpack (expected 2)'))
