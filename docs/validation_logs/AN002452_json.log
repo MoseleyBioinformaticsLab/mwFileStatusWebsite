@@ -1,13 +1,8 @@
 Validation Log
-2022-03-14 17:56:11.035407
-mwtab Python Library Version: 1.2.4
+2022-05-10 19:08:48.958946
+mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002452/mwtab/json
 Study ID:      ST001476
 Analysis ID:   AN002452
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 2
-
-Error Log:
-SCHEMA: Section "NM" does not match the allowed schema. Wrong key 'NMR_RESULTS_FILE' in OrderedDict([('INSTRUMENT_NAME', 'Bruker Avance III HD'), ('INSTRUMENT_TYPE', 'FT-NMR'), ('NMR_EXPERIMENT_TYPE', '1D-1H'), ('FIELD_FREQUENCY_LOCK', 'Deuterium'), ('SPECTROMETER_FREQUENCY', '600 MHz'), ('NMR_PROBE', '5mm TCI'), ('NMR_SOLVENT', '90% H2O, 10% D2O'), ('NMR_TUBE_SIZE', '1.7mm'), ('SHIMMING_METHOD', 'Topshim'), ('PULSE_SEQUENCE', 'noesypr1d'), ('WATER_SUPPRESSION', 'Presaturation'), ('PULSE_WIDTH', '7.45 us'), ('POWER_LEVEL', '5.5584 W'), ('RECEIVER_GAIN', '203'), ('OFFSET_FREQUENCY', '2819.9 Hz'), ('PRESATURATION_POWER_LEVEL', '1.2333e-05 W'), ('CHEMICAL_SHIFT_REF_CPD', 'DSS'), ('TEMPERATURE', '25'), ('NUMBER_OF_SCANS', '128'), ('DUMMY_SCANS', '4'), ('ACQUISITION_TIME', '2.72 s'), ('RELAXATION_DELAY', '4 s'), ('SPECTRAL_WIDTH', '20 ppm'), ('NUM_DATA_POINTS_ACQUIRED', '65382'), ('LINE_BROADENING', '0.3 Hz'), ('BASELINE_CORRECTION_METHOD', 'Polynomial order 5'), ('NMR_RESULTS_FILE', 'ST001476_AN002452_Results.txt UNITS:AU')])
-DATA: Missing either NMR_METABOLITE_DATA or NMR_BINNED_DATA section.
+Status: Passing

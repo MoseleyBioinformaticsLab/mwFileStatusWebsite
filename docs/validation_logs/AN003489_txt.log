@@ -1,0 +1,9 @@
+Validation Log
+2022-05-10 20:01:22.176342
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003489/mwtab/txt
+Study ID:      ST002134
+Analysis ID:   AN003489
+File format:   txt
+Status:Parsing Error
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t117\\tCB_VP_ARMII_117\\tSampleType:Umbilical cord blood | BATCH:1 | LIPIDOMICS_BATCH:1\\tRAW_FILE_NAME=20160914-EX00616-A003-IN0016-S00024175-N;20160926-EX00616-A003-IP0016-S00024175-P;20160915_S00024175;20160913_S00024175'", IndexError('list index out of range'))

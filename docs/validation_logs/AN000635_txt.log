@@ -1,13 +1,8 @@
 Validation Log
-2022-03-14 15:59:53.670176
-mwtab Python Library Version: 1.2.4
+2022-05-10 17:19:06.951680
+mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000635/mwtab/txt
 Study ID:      ST000398
 Analysis ID:   AN000635
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 2
-
-Error Log:
-SCHEMA: Section "NM" does not match the allowed schema. Wrong key 'NMR_RESULTS_FILE' in OrderedDict([('INSTRUMENT_NAME', 'Bruker Avance DRX 500'), ('INSTRUMENT_TYPE', 'FT-NMR'), ('NMR_EXPERIMENT_TYPE', '1D-1H'), ('NMR_COMMENTS', 'Standard experiment (noesypr1d)'), ('FIELD_FREQUENCY_LOCK', 'Deuterium'), ('SPECTROMETER_FREQUENCY', '500 MHz'), ('NMR_PROBE', 'BBI'), ('NMR_SOLVENT', 'D2O+H2O'), ('NMR_TUBE_SIZE', '5 mm'), ('SHIMMING_METHOD', 'Automatic'), ('PULSE_SEQUENCE', 'noesypr1d'), ('WATER_SUPPRESSION', 'presaturation'), ('RECEIVER_GAIN', '32'), ('CHEMICAL_SHIFT_REF_CPD', 'TSP'), ('TEMPERATURE', '300 K'), ('NUMBER_OF_SCANS', '128'), ('DUMMY_SCANS', '4'), ('ACQUISITION_TIME', '3.25 s'), ('RELAXATION_DELAY', '32'), ('SPECTRAL_WIDTH', '20.16 ppm'), ('NUM_DATA_POINTS_ACQUIRED', '64 k'), ('REAL_DATA_POINTS', '64 k'), ('LINE_BROADENING', '0.3 Hz'), ('BASELINE_CORRECTION_METHOD', 'manual'), ('CHEMICAL_SHIFT_REF_STD', 'TSP (0.0 ppm)'), ('BINNED_INCREMENT', 'full resolution'), ('BINNED_DATA_EXCLUDED_RANGE', '4.60-5.05 ppm'), ('NMR_RESULTS_FILE', 'ST000398_AN000635_Results.txt UNITS:ppm')])
-DATA: Missing either NMR_METABOLITE_DATA or NMR_BINNED_DATA section.
+Status: Passing

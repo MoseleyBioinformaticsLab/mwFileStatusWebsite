@@ -1,13 +1,8 @@
 Validation Log
-2022-03-14 18:25:52.492194
-mwtab Python Library Version: 1.2.4
+2022-05-10 19:39:28.929713
+mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003029/mwtab/json
 Study ID:      ST001867
 Analysis ID:   AN003029
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 2
-
-Error Log:
-SCHEMA: Section "NM" does not match the allowed schema. Wrong key 'NMR_RESULTS_FILE' in OrderedDict([('INSTRUMENT_NAME', 'Bruker NEO 600MHz'), ('INSTRUMENT_TYPE', 'FT-NMR'), ('NMR_EXPERIMENT_TYPE', '1D-1H'), ('FIELD_FREQUENCY_LOCK', 'D2O'), ('SPECTROMETER_FREQUENCY', '600 MHz'), ('NMR_PROBE', '4mm CMP_HRMAS'), ('NMR_SOLVENT', 'D2O'), ('NMR_TUBE_SIZE', '50 ul'), ('SHIMMING_METHOD', 'manual'), ('PULSE_SEQUENCE', 'cpmgpr1d'), ('WATER_SUPPRESSION', 'presat'), ('RECEIVER_GAIN', '101'), ('CHEMICAL_SHIFT_REF_CPD', 'DSS'), ('TEMPERATURE', '10'), ('NUMBER_OF_SCANS', '128'), ('DUMMY_SCANS', '8'), ('ACQUISITION_TIME', '0.69 s'), ('SPECTRAL_WIDTH', '19.8393'), ('NUM_DATA_POINTS_ACQUIRED', '16384'), ('LINE_BROADENING', '1.8'), ('BASELINE_CORRECTION_METHOD', 'ABSG'), ('NMR_RESULTS_FILE', 'CPMG_binned_data.txt UNITS:(relative)')])
-DATA: Missing either NMR_METABOLITE_DATA or NMR_BINNED_DATA section.
+Status: Passing

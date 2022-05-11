@@ -1,15 +1,14 @@
 Validation Log
-2022-03-14 16:35:08.115321
-mwtab Python Library Version: 1.2.4
+2022-05-10 17:50:57.496003
+mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001820/mwtab/json
 Study ID:      ST000623
 Analysis ID:   AN001820
 File format:   json
 Status: Contains Validation Errors
-Number Errors: 2
+Number Errors: 1
 
 Error Log:
 SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
 Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', '1,2-Propanediol')])
 Missing key: Or('Metabolite', 'Bin range(ppm)')
-MS_METABOLITE_DATA: Section missing data entry for sample(s): {'K17'}.

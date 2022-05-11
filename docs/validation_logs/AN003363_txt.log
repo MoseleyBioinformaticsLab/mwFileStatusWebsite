@@ -1,13 +1,8 @@
 Validation Log
-2022-03-14 18:38:54.623843
-mwtab Python Library Version: 1.2.4
+2022-05-10 19:52:53.202989
+mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003363/mwtab/txt
 Study ID:      ST002064
 Analysis ID:   AN003363
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 2
-
-Error Log:
-SCHEMA: Section "NM" does not match the allowed schema. Wrong key 'NMR_RESULTS_FILE' in OrderedDict([('INSTRUMENT_NAME', 'Avance III TM HD 500MHz'), ('INSTRUMENT_TYPE', 'FT-NMR'), ('NMR_EXPERIMENT_TYPE', '1D-1H'), ('FIELD_FREQUENCY_LOCK', 'Deuterium'), ('SPECTROMETER_FREQUENCY', '500MHz'), ('NMR_PROBE', 'TXI'), ('NMR_SOLVENT', 'D2O'), ('NMR_TUBE_SIZE', '5mm'), ('SHIMMING_METHOD', 'Topshim'), ('RECEIVER_GAIN', '203'), ('TEMPERATURE', '298K'), ('NUMBER_OF_SCANS', '512'), ('ACQUISITION_TIME', '2.34s'), ('RELAXATION_DELAY', '2s'), ('SPECTRAL_WIDTH', '7002.801'), ('ZERO_FILLING', '64k'), ('BASELINE_CORRECTION_METHOD', 'Manual'), ('CHEMICAL_SHIFT_REF_STD', 'TSP (3-(trimethylsilyl)-propionic-2,2,3,3-d4 acid)'), ('NMR_RESULTS_FILE', 'matrix_bioimpact_healthy_EA_brain.txt UNITS:ppm')])
-DATA: Missing either NMR_METABOLITE_DATA or NMR_BINNED_DATA section.
+Status: Passing

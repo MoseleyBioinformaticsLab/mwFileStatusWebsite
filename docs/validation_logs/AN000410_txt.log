@@ -1,15 +1,14 @@
 Validation Log
-2022-03-14 15:40:38.173896
-mwtab Python Library Version: 1.2.4
+2022-05-10 16:59:11.722272
+mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000410/mwtab/txt
 Study ID:      ST000258
 Analysis ID:   AN000410
 File format:   txt
 Status: Contains Validation Errors
-Number Errors: 4
+Number Errors: 3
 
 Error Log:
 SCHEMA: Section "COLLECTION" does not match the allowed schema. Missing key: 'COLLECTION_SUMMARY'
 SCHEMA: Section "TREATMENT" does not match the allowed schema. Missing key: 'TREATMENT_SUMMARY'
 SCHEMA: Section "SAMPLEPREP" does not match the allowed schema. Missing key: 'SAMPLEPREP_SUMMARY'
-SCHEMA: Section "MS" does not match the allowed schema. Missing key: 'MS_COMMENTS'

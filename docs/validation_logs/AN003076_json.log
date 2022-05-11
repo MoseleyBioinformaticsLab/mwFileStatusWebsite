@@ -1,14 +1,12 @@
 Validation Log
-2022-03-14 18:27:44.963220
-mwtab Python Library Version: 1.2.4
+2022-05-10 19:41:21.966558
+mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003076/mwtab/json
 Study ID:      ST001895
 Analysis ID:   AN003076
 File format:   json
 Status: Contains Validation Errors
-Number Errors: 3
+Number Errors: 1
 
 Error Log:
 SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'ANALYSIS_TYPE_DETAIL' in OrderedDict([('STUDY_TITLE', 'NMR Differentiating toxic and nontoxic congeneric harmful algae using the non-polar metabolome (Experiment 1)'), ('STUDY_TYPE', '1H NMR Metabolomics to compare toxic and non-toxic species'), ('STUDY_SUMMARY', 'Metabolomics comparison of toxic and non-toxic species of phytoplankton from the genus Alexandrium.This study was carried out using 2 pairwise experiments, A. catenella compared to A. tamarense (Experiment 1) and A. pacificum compared to A. tamarense (Experiment 2). This study includes the NMR data from Experiment 1.'), ('INSTITUTE', 'Georgia Institute of Technology'), ('DEPARTMENT', 'School of Biological Sciences, School of Chemistry and Biochemistry, Center for Microbial Dynamics and Infection, Parker H. Petit Institute for Bioengineering and Bioscience'), ('LABORATORY', 'Kubanek Lab'), ('LAST_NAME', 'Brown'), ('FIRST_NAME', 'Emily'), ('ADDRESS', '950 Atlantic Dr Atlanta, Georgia USA 30332'), ('EMAIL', 'julia.kubanek@biosci.gatech.edu'), ('PHONE', '404-894-8424'), ('NUM_GROUPS', '2'), ('TOTAL_SUBJECTS', '30'), ('STUDY_COMMENTS', 'Part 1 of 3. This part includes NMR analysis of non-polar metabolites from Experiment 1 using oPLSDA. Parts 2 and 3 inlcude NMR analysis of non-polar metabolites from Experiment 2 and the corresponding mass spectrometry metabolomics for both Experiments 1 and 2.'), ('ANALYSIS_TYPE_DETAIL', 'Metabolab')])
-SCHEMA: Section "NM" does not match the allowed schema. Wrong key 'NMR_RESULTS_FILE' in OrderedDict([('INSTRUMENT_NAME', 'Bruker Avance IIIHD'), ('INSTRUMENT_TYPE', 'FT-NMR'), ('NMR_EXPERIMENT_TYPE', '1D-1H'), ('SPECTROMETER_FREQUENCY', '800 MHz'), ('NMR_PROBE', '3 mm triple resonance broadband cryoprobe'), ('NMR_SOLVENT', 'Dimethyl sulfoxide d6 (99.9% atom d6-DMSO; Cambridge Isotope Labs) containing 0.1% trimethylsilane'), ('NMR_TUBE_SIZE', '3 mm'), ('PULSE_SEQUENCE', 'zg30'), ('NUMBER_OF_SCANS', '320'), ('BASELINE_CORRECTION_METHOD', 'Spline'), ('BINNED_INCREMENT', '0.005 ppm'), ('NMR_RESULTS_FILE', 'Preprocessed_binned_Experiment1_AcvAt_NMRmetabolomics.txt UNITS:area under the curve')])
-DATA: Missing either NMR_METABOLITE_DATA or NMR_BINNED_DATA section.

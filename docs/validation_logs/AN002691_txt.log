@@ -1,13 +1,8 @@
 Validation Log
-2022-03-14 18:06:00.704896
-mwtab Python Library Version: 1.2.4
+2022-05-10 19:18:46.576839
+mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002691/mwtab/txt
 Study ID:      ST001645
 Analysis ID:   AN002691
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 2
-
-Error Log:
-SCHEMA: Section "NM" does not match the allowed schema. Wrong key 'NMR_RESULTS_FILE' in OrderedDict([('INSTRUMENT_NAME', 'Bruker Avance Neo 600 MHz/54mm console'), ('INSTRUMENT_TYPE', 'FT-NMR'), ('NMR_EXPERIMENT_TYPE', '1D-1H'), ('FIELD_FREQUENCY_LOCK', 'Deuterium'), ('STANDARD_CONCENTRATION', '0.5 mM DSS'), ('SPECTROMETER_FREQUENCY', '600.2328273 MHz'), ('NMR_PROBE', 'CP TXI CryoProbe'), ('NMR_SOLVENT', 'Phosphate buffer (pH 7.2) + 2 mM EDTA + 0.5 mM DSS + 0.2% of sodium azide in deuterated environment'), ('NMR_TUBE_SIZE', '1.5 mm O.D.'), ('SHIMMING_METHOD', 'Topshim'), ('PULSE_SEQUENCE', 'noesypr1d'), ('WATER_SUPPRESSION', 'presat'), ('PULSE_WIDTH', '90-degree'), ('RECEIVER_GAIN', '256'), ('OFFSET_FREQUENCY', '2827.31 Hz'), ('CHEMICAL_SHIFT_REF_CPD', 'DSS (4,4-dimethyl-4-silapentane-1-sulfonic acid)'), ('TEMPERATURE', '25 o C'), ('NUMBER_OF_SCANS', '64'), ('DUMMY_SCANS', '4'), ('ACQUISITION_TIME', '4 s'), ('RELAXATION_DELAY', '1 s'), ('SPECTRAL_WIDTH', '7211.54'), ('NUM_DATA_POINTS_ACQUIRED', '57690'), ('REAL_DATA_POINTS', '65536'), ('LINE_BROADENING', '0.22 Hz'), ('ZERO_FILLING', '65,536 points'), ('APODIZATION', 'Exponential'), ('BASELINE_CORRECTION_METHOD', 'Spline'), ('CHEMICAL_SHIFT_REF_STD', '0 ppm for DSS'), ('BINNED_INCREMENT', '0.4ppm'), ('BINNED_DATA_EXCLUDED_RANGE', 'greater than 9.5 ppm and below 0.5 ppm including water regions'), ('NMR_RESULTS_FILE', 'ST001645_AN002691_Results.txt UNITS:ppm')])
-DATA: Missing either NMR_METABOLITE_DATA or NMR_BINNED_DATA section.
+Status: Passing

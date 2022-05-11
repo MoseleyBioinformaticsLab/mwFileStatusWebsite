@@ -1,0 +1,12 @@
+Validation Log
+2022-05-10 19:53:03.155564
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003366/mwtab/txt
+Study ID:      ST002066
+Analysis ID:   AN003366
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'ANALYSIS_TYPE_DETAIL' in OrderedDict([('STUDY_TITLE', 'Glutaminase inhibition impairs CD8 T cell activation in STK11/Lkb1 deficient lung cancer'), ('STUDY_TYPE', 'Biomedical research'), ('STUDY_SUMMARY', 'To characterize the impact of KRAS co-mutations KEAP1 and STK11/Lkb1 on the metabolic and immune microenvironment of lung adenocarcinoma in immune-intact models, we generated a cohort of genetically engineered mouse models (GEMMs) to reflect the diverse tumor suppressor landscape seen in patients. Mice carrying the KrasG12D allele (K)21 were crossed with Keap1flox/flox (KK)22 and/or Lkb1flox/flox (KKL, KL)23 mice and genetic recombination induced by intranasal inhalation of Ad5-CMV-Cre adenovirus. We interrogated the metabolites present in lung tumor nodules collected from cohorts of KK, KL and KKL mice.'), ('INSTITUTE', 'The Walter and Eliza Hall Institute of Medical Research'), ('LABORATORY', 'Kate Sutherland'), ('LAST_NAME', 'Sarah'), ('FIRST_NAME', 'Best'), ('ADDRESS', '1G, Royal Parade, Parkville VIC 3052, Australia'), ('EMAIL', 'best@wehi.edu.au'), ('PHONE', '+61-3-9345-2452'), ('NUM_GROUPS', '5'), ('TOTAL_SUBJECTS', '25'), ('NUM_MALES', '17'), ('NUM_FEMALES', '8'), ('STUDY_COMMENTS', 'L lobe of mice lung'), ('PUBLICATIONS', 'Glutaminase inhibition impairs CD8 T cell activation in STK11/Lkb1 deficient lung cancer'), ('ANALYSIS_TYPE_DETAIL', 'untargeted LCMS metabolomics')])

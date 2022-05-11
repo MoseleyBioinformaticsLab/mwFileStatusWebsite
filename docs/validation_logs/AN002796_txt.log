@@ -1,13 +1,8 @@
 Validation Log
-2022-03-14 18:13:10.874487
-mwtab Python Library Version: 1.2.4
+2022-05-10 19:26:03.522948
+mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002796/mwtab/txt
 Study ID:      ST001716
 Analysis ID:   AN002796
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 2
-
-Error Log:
-SCHEMA: Section "NM" does not match the allowed schema. Wrong key 'NMR_RESULTS_FILE' in OrderedDict([('INSTRUMENT_NAME', 'Avance III 700 MHz NMR Spectrometer'), ('INSTRUMENT_TYPE', 'FT-NMR'), ('NMR_EXPERIMENT_TYPE', '1D-1H'), ('FIELD_FREQUENCY_LOCK', '3015 Hz, D2O'), ('STANDARD_CONCENTRATION', '0.5 mM'), ('SPECTROMETER_FREQUENCY', '700 MHz'), ('NMR_PROBE', 'CP QCI/HPCN'), ('NMR_SOLVENT', '90% H2O, 10% D2O'), ('NMR_TUBE_SIZE', '5 mm'), ('SHIMMING_METHOD', 'topshim'), ('PULSE_SEQUENCE', 'noesygppr1d'), ('WATER_SUPPRESSION', 'pre-saturation'), ('PULSE_WIDTH', '15.57 us'), ('POWER_LEVEL', '12.3 Watts'), ('RECEIVER_GAIN', '32'), ('OFFSET_FREQUENCY', '3289.21'), ('PRESATURATION_POWER_LEVEL', '0.0000964 Watts'), ('CHEMICAL_SHIFT_REF_CPD', 'DSS-d6'), ('TEMPERATURE', '25 C'), ('NUMBER_OF_SCANS', '128'), ('DUMMY_SCANS', '4'), ('ACQUISITION_TIME', '3.9 seconds'), ('RELAXATION_DELAY', '2 seconds'), ('SPECTRAL_WIDTH', '12 ppm'), ('NUM_DATA_POINTS_ACQUIRED', '65536'), ('REAL_DATA_POINTS', '32768'), ('LINE_BROADENING', '0.5 Hz'), ('ZERO_FILLING', 'Yes'), ('APODIZATION', 'Lorentzian'), ('BASELINE_CORRECTION_METHOD', 'Polynomial'), ('CHEMICAL_SHIFT_REF_STD', 'DSS-d6'), ('BINNED_INCREMENT', '0.04ppm'), ('BINNED_DATA_EXCLUDED_RANGE', '2.53 - 2.62 ppm (EDTA 01), 2.68 - 2.72 ppm (EDTA 02 ), 3.03 - 3.37 ppm (Methanol), 3.57 - 3.66 ppm (EDTA 03 ), 4.79-4.90 ppm (Water)'), ('NMR_RESULTS_FILE', 'wpathmasiri_20210302_074234_NM_Dartmouth_ECHO_OIF_Metabolomics_Normalized_Binned_Data.txt UNITS:ppm')])
-DATA: Missing either NMR_METABOLITE_DATA or NMR_BINNED_DATA section.
+Status: Passing

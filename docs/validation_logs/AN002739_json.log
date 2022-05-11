@@ -1,15 +1,14 @@
 Validation Log
-2022-03-14 18:09:10.789225
-mwtab Python Library Version: 1.2.4
+2022-05-10 19:21:52.057176
+mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002739/mwtab/json
 Study ID:      ST001680
 Analysis ID:   AN002739
 File format:   json
 Status: Contains Validation Errors
-Number Errors: 2
+Number Errors: 1
 
 Error Log:
 SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
 Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', '1,25-Dihydroxyvitamin D3')])
 Missing key: Or('Metabolite', 'Bin range(ppm)')
-MS_METABOLITE_DATA: Section missing data entry for sample(s): {'C18-pos-HFD-216', 'C18-pos-HFD-Drug-217b', 'C18-neg-HFD-Drug-316', 'C18-pos-HFD-416', 'anp-pos-Control-317', 'C18-neg-HFD-Drug-116b', 'anp-pos-HFD-Drug-217', 'C18-pos-HFD-Drug-417b', 'C18-pos-Control-316b', 'C18-pos-HFD-Drug-417', 'C18-pos-HFD-4217', 'anp-pos-HFD-316', 'C18-pos-Control-217', 'C18-pos-HFD-317', 'anp-pos-HFD-Drug-217b', 'C18-neg-HFD-317', 'anp-pos-HFD-Drug-316b', 'anp-pos-Control-417', 'C18-neg-Control-317', 'C18-neg-Control-316', 'anp-pos-HFD-Drug-417', 'anp-pos-HFD-416', 'anp-pos-Control-417b', 'C18-pos-Control-316', 'anp-pos-Control-217b', 'C18-neg-HFD-Drug-217', 'C18-neg-Control-217b', 'C18-pos-HFD-417', 'C18-pos-HFD-Drug-116', 'C18-neg-HFD-Drug-116', 'C18-neg-Control-417b', 'C18-neg-HFD-4217', 'C18-neg-HFD-316', 'anp-pos-HFD-Drug-417b', 'anp-pos-HFD-317', 'anp-pos-HFD-4217', 'C18-neg-Control-217', 'C18-pos-HFD-217', 'C18-neg-HFD-Drug-217b', 'C18-neg-Control-417', 'anp-pos-HFD-Drug-116', 'C18-pos-Control-217b', 'anp-pos-Control-316b', 'C18-neg-HFD-416', 'C18-neg-HFD-417', 'C18-neg-HFD-Drug-316b', 'anp-pos-Control-217', 'C18-neg-Control-316b', 'C18-pos-HFD-Drug-217', 'anp-pos-HFD-Drug-116b', 'anp-pos-Control-317b', 'C18-neg-HFD-Drug-417', 'anp-pos-HFD-417', 'C18-pos-HFD-Drug-316', 'anp-pos-HFD-216', 'anp-pos-Control-316', 'C18-neg-HFD-217b', 'C18-neg-HFD-216', 'C18-pos-HFD-316', 'anp-pos-HFD-217b', 'anp-pos-HFD-217', 'C18-pos-Control-317b', 'C18-pos-Control-417', 'C18-pos-Control-417b', 'C18-neg-HFD-217', 'C18-neg-Control-317b', 'C18-pos-HFD-217b', 'C18-neg-HFD-Drug-417b', 'C18-pos-HFD-Drug-116b', 'C18-pos-HFD-Drug-316b', 'C18-pos-Control-317', 'anp-pos-HFD-Drug-316'}.
