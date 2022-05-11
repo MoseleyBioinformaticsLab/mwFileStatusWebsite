@@ -16,7 +16,7 @@ ssh-add /root/.ssh/id_ed25519_github
 ##############################
 # clone  mw file status repo #
 ##############################
-git clone https://github.com/MoseleyBioinformaticsLab/mwFileStatusWebsite.git
+git clone git@github.com:MoseleyBioinformaticsLab/mwFileStatusWebsite.git
 cd mwFileStatusWebsite/
 
 ###################################################
