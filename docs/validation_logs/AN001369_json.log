@@ -1,14 +1,9 @@
 Validation Log
-2022-07-24 02:39:31.242658
+2022-07-31 02:50:58.063486
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001369/mwtab/json
 Study ID:      ST000846
 Analysis ID:   AN001369
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
-
-Error Log:
-SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
-Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', '6-keto PGF1a')])
-Missing key: Or('Metabolite', 'Bin range(ppm)')
+Status:Parsing Error
+<urlopen error [Errno 113] No route to host>
