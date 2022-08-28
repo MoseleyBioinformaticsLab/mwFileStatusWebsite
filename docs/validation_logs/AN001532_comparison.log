@@ -1,10 +1,10 @@
 Comparison Log
-2022-08-21 02:54:08.892185
+2022-08-28 02:53:04.813112
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001532/mwtab/...
 Study ID:    ST000935
 Analysis ID: AN001532
 Status:      Inconsistent
 
-Sections "MS" contain missmatched items: {('MS_TYPE', 'ESI ESI'), ('INSTRUMENT_NAME', 'Agilent 6220 TOF Agilent 6220 TOF'), ('INSTRUMENT_TYPE', 'TOF QTOF'), ('INSTRUMENT_NAME', 'Agilent 6220 TOF'), ('ION_MODE', 'POSITIVE POSITIVE'), ('INSTRUMENT_TYPE', 'QTOF'), ('MS_TYPE', 'ESI'), ('ION_MODE', 'POSITIVE')}
+Sections "MS" contain missmatched items: {('INSTRUMENT_TYPE', 'QTOF'), ('INSTRUMENT_NAME', 'Agilent 6220 TOF'), ('ION_MODE', 'POSITIVE'), ('INSTRUMENT_TYPE', 'TOF QTOF'), ('MS_TYPE', 'ESI ESI'), ('MS_TYPE', 'ESI'), ('ION_MODE', 'POSITIVE POSITIVE'), ('INSTRUMENT_NAME', 'Agilent 6220 TOF Agilent 6220 TOF')}
 Unable to find '_DATA' block in given files.

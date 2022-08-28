@@ -1,11 +1,11 @@
 Comparison Log
-2022-08-21 04:31:24.127350
+2022-08-28 04:34:06.265208
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003348/mwtab/...
 Study ID:    ST002056
 Analysis ID: AN003348
 Status:      Inconsistent
 
+Sections "CHROMATOGRAPHY" contain missmatched items: {('INSTRUMENT_NAME', 'LECO'), ('INSTRUMENT_NAME', 'Agilent 6890N'), ('COLUMN_NAME', 'Agilent DB5-MS (60m × 0.25mm, 0.25um)'), ('COLUMN_NAME', 'none')}
 Sections "MS" contain missmatched items: {('MS_TYPE', 'EI'), ('MS_TYPE', 'Other')}
-Sections "CHROMATOGRAPHY" contain missmatched items: {('COLUMN_NAME', 'none'), ('INSTRUMENT_NAME', 'Agilent 6890N'), ('INSTRUMENT_NAME', 'LECO'), ('COLUMN_NAME', 'Agilent DB5-MS (60m × 0.25mm, 0.25um)')}
 'Metabolite'
