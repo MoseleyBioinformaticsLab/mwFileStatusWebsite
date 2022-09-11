@@ -1,0 +1,9 @@
+Validation Log
+2022-09-11 04:51:12.129015
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003703/mwtab/txt
+Study ID:      ST002266
+Analysis ID:   AN003703
+File format:   txt
+Status:Parsing Error
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\tSmp_S2C2D5_A\\tSampling_Date:7/13/2018 | Latitude:19.415 | Longitude:154.8416667 | Station:S2 | Cast:C2 | Depth:5 | sample_vol_filtered_L:10\\tRAW_FILE_NAME=181004_Smp_S2C2D5_A;181004_Smp_S2C2D5_A;181008_Smp_S2C2D5_A; Notes=Sampled filtrate (1L)'", IndexError('list index out of range'))
