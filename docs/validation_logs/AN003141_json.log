@@ -1,0 +1,12 @@
+Validation Log
+2022-10-09 04:31:57.392350
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003141/mwtab/json
+Study ID:      ST001932
+Analysis ID:   AN003141
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'CHEAR_STUDY' in OrderedDict([('STUDY_TITLE', 'Perfluorinated compounds and high fat diet in relation to CVD-relevant metabolomic pathways in the SEARCH for Diabetes in Youth study'), ('STUDY_SUMMARY', 'This project aims to evaluate the association between environmental exposure to perfluorinated alkyl substances (PFCs) and the development of risk factors for cardiometabolic disease in youth diagnosed with diabetes in the SEARCH Cohort Study. The longitudinal study of newly diagnosed cases of type 1 and type 2 diabetes examines serum metabolome changes at baseline and follow-up at approximately 5 years (all >3 years from baseline). Exposures to PFCs and biological effects characterized by serum metabolome changes will be associated with known cardiometabolic risk factors in youth diagnosed with diabetes.'), ('INSTITUTE', 'Emory University'), ('DEPARTMENT', 'School of Medicine'), ('LABORATORY', 'Clincal Biomarkers Laboratory'), ('LAST_NAME', 'Tran'), ('FIRST_NAME', 'ViLinh'), ('ADDRESS', '615 Michael St, suite 225'), ('EMAIL', 'vtran6@emory.edu'), ('PHONE', '4047275091'), ('TOTAL_SUBJECTS', '1796'), ('STUDY_COMMENTS', 'Both CHEAR pooled plasma samples and Clinical Biomarker Laboratory pooled plasma samples were used'), ('CHEAR_STUDY', '2018-2120')])
