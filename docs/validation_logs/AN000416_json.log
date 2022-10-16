@@ -1,5 +1,5 @@
 Validation Log
-2022-10-09 01:32:27.197340
+2022-10-16 01:32:59.089512
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000416/mwtab/json
 Study ID:      ST000261
@@ -13,4 +13,4 @@ SCHEMA: Section "MS" does not match the allowed schema. 'list' object has no att
 SCHEMA: Section "NMR_BINNED_DATA" does not match the allowed schema. Key 'Data' error:
 Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('ppm_range', '[8.96...9]'), ('R041', '-8.22159E-06'), ('R042', '-2.14623E-05'), ('R043', '-1.2112E-05'), ('R044', '-4.549E-06'), ('R045', '8.10773E-06'), ('R046', '4.45842E-07'), ('R047', '-8.94384E-06'), ('R048', '-8.59963E-06'), ('P341', '1.50498E-06'), ('P342', '-3.06499E-05'), ('P343', '-1.7545E-05'), ('P344', '-3.84163E-05'), ('P345', '-2.5671E-05'), ('P741', '-3.95429E-06'), ('P742', '-3.25056E-05'), ('P743', '-2.69647E-05'), ('P744', '-7.80212E-06')])
 Missing key: Or('Metabolite', 'Bin range(ppm)')
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {'R041', 'R042', 'R048', 'R044', 'R047', 'R045', 'R043', 'R046'} found in NMR_BINNED_DATA section.
+SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {'R041', 'R042', 'R044', 'R046', 'R048', 'R043', 'R047', 'R045'} found in NMR_BINNED_DATA section.

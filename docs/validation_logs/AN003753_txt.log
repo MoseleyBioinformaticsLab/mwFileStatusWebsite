@@ -1,0 +1,9 @@
+Validation Log
+2022-10-16 04:56:00.680548
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003753/mwtab/txt
+Study ID:      ST002297
+Analysis ID:   AN003753
+File format:   txt
+Status:Parsing Error
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\tF01\\tF01_V1\\tTreatedrial arm:Treated\\tTime point=Baseline; 24h Creatinine=7.1; sTyr groups=1) &lt;701; RAW_FILE_NAME=F01_V1'", IndexError('list index out of range'))
