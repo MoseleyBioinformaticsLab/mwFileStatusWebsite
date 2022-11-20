@@ -1,0 +1,12 @@
+Validation Log
+2022-11-20 05:02:07.665184
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003789/mwtab/json
+Study ID:      ST002322
+Analysis ID:   AN003789
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "ANALYSIS" does not match the allowed schema. Wrong key 'UNITS' in OrderedDict([('ANALYSIS_TYPE', 'MS'), ('ANALYSIS_PROTOCOL_FILE', 'B_cell_MS_protocol.docx'), ('UNITS', 'Normalized AUC')])

@@ -1,5 +1,5 @@
 Comparison Log
-2022-11-13 01:30:39.150783
+2022-11-20 01:30:37.247442
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000405/mwtab/...
 Study ID:    ST000256
@@ -7,6 +7,6 @@ Analysis ID: AN000405
 Status:      Inconsistent
 
 mwTab files contain different blocks: "{'CHROMATOGRAPHY'}"
+Sections "PROJECT" contain missmatched items: {('FUNDING_SOURCE', 'This work was supported by a grant from the Department of Computational Medicine and Bioinformatics, Department of Medicine, University of Michigan; the University of Michigan Claude D. Pepper Older Americans Independence Center (NIA Grant AGA024824); and the National Center for Advancing Translational Sciences of the National Institutes of Health under Award Number UL1TR000433-06. The University of Toronto\x92s NMR 3 mm probe and spectrometer were provided by Canada Foundation for Innovation grant #19119.'), ('FUNDING_SOURCE', 'This work was supported by a grant from the Department of Computational Medicine and Bioinformatics, Department of Medicine, University of Michigan; the University of Michigan Claude D. Pepper Older Americans Independence Center (NIA Grant AGA024824); and the National Center for Advancing Translational Sciences of the National Institutes of Health under Award Number UL1TR000433-06. The University of Torontos NMR 3 mm probe and spectrometer were provided by Canada Foundation for Innovation grant #19119.')}
 Sections "SAMPLEPREP" contain missmatched items: {('EXTRACT_CONCENTRATION_DILUTION', 'N/A')}
-Sections "PROJECT" contain missmatched items: {('FUNDING_SOURCE', 'This work was supported by a grant from the Department of Computational Medicine and Bioinformatics, Department of Medicine, University of Michigan; the University of Michigan Claude D. Pepper Older Americans Independence Center (NIA Grant AGA024824); and the National Center for Advancing Translational Sciences of the National Institutes of Health under Award Number UL1TR000433-06. The University of Torontos NMR 3 mm probe and spectrometer were provided by Canada Foundation for Innovation grant #19119.'), ('FUNDING_SOURCE', 'This work was supported by a grant from the Department of Computational Medicine and Bioinformatics, Department of Medicine, University of Michigan; the University of Michigan Claude D. Pepper Older Americans Independence Center (NIA Grant AGA024824); and the National Center for Advancing Translational Sciences of the National Institutes of Health under Award Number UL1TR000433-06. The University of Toronto\x92s NMR 3 mm probe and spectrometer were provided by Canada Foundation for Innovation grant #19119.')}
 'Data' section of 'NMR_METABOLITE_DATA' block do not match.
