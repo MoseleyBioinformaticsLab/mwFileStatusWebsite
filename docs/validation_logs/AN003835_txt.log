@@ -1,0 +1,9 @@
+Validation Log
+2022-12-04 04:46:50.319608
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003835/mwtab/txt
+Study ID:      ST002349
+Analysis ID:   AN003835
+File format:   txt
+Status:Parsing Error
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\tMED1 Aqueous Sample 1\\tProtein:MED1 | RNA:150 nM | Fraction:aqueous\\tSource=Mouse liver metabolites; RAW_FILE_NAME=med1 top21.mzdata.xml;p_med1 top21.mzdata.xml;med1 top21_1.mzdata.xml;p_med1 top21_1.mzdata.xml;'", IndexError('list index out of range'))
