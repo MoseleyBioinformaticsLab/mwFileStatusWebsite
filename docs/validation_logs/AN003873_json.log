@@ -1,0 +1,12 @@
+Validation Log
+2022-12-18 04:49:27.490881
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003873/mwtab/json
+Study ID:      ST002377
+Analysis ID:   AN003873
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'ANALYSIS_TYPE_DETAIL' in OrderedDict([('STUDY_TITLE', 'Hepatic Phosphatidylcholine Catabolism Driven by PNPLA7 and PNPLA8 Supplies Endogenous Choline to Replenish the Methionine Cycle with Methyl Groups (Pnpla7-knockout)'), ('STUDY_SUMMARY', 'Choline supplies methyl groups for regeneration of methionine and the methyl donor S-adenosylmethionine in the liver. Here we demonstrate that the catabolism of membrane phosphatidylcholine (PC) into water-soluble glycerophosphocholine (GPC) by the phospholipase/lysophospholipase PNPLA8-PNPLA7 axis enables endogenous choline stored in hepatic PC to be utilized in methyl metabolism. PNPLA7-deficient mice show marked decreases in hepatic GPC, choline, and several metabolites related to the methionine cycle, accompanied by various signs of methionine insufficiency including growth retardation, hypoglycemia, hypolipidemia, increased energy consumption, reduced adiposity, increased FGF21, and an altered histone/DNA methylation landscape. Moreover, PNPLA8-deficient mice recapitulate most of these phenotypes. In contrast to wild-type mice fed a methionine/choline-deficient diet, both knockout strains display a decreased hepatic triglyceride likely via reductions of lipogenesis and GPC-derived glycerol flux. Collectively, our findings highlight the biological importance of phospholipid catabolism driven by PNPLA8/PNPLA7 in methyl group flux and triglyceride synthesis in the liver.'), ('INSTITUTE', 'Tokyo Metropolitan Institute of Medical Science'), ('LAST_NAME', 'Hirabayashi'), ('FIRST_NAME', 'Tetsuya'), ('ADDRESS', '2-6-1 Kamikitazawa, Setagaya-ku, Tokyo, 156-8506, Japan'), ('EMAIL', 'hirabayashi-tt@igakuken.or.jp'), ('ANALYSIS_TYPE_DETAIL', 'CE-MS'), ('PHONE', '+81-3-5316-3100')])

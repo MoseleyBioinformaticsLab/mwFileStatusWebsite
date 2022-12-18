@@ -1,9 +1,9 @@
 Comparison Log
-2022-12-11 02:37:48.285037
+2022-12-18 02:37:21.632100
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001310/mwtab/...
 Study ID:    ST000824
 Analysis ID: AN001310
 Status:      Inconsistent
 
-'Metabolites' section of 'MS_METABOLITE_DATA' block do not match.
+Sections "ANALYSIS" contain missmatched items: {('Units', 'uM/ng protein'), ('UNITS', 'uM/ng protein')}

@@ -1,9 +1,9 @@
 Validation Log
-2022-12-11 04:48:19.771629
+2022-12-18 04:48:47.337294
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003838/mwtab/txt
 Study ID:      ST002352
 Analysis ID:   AN003838
 File format:   txt
 Status:Parsing Error
-('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\tMED1 Condensate Sample 4\\tProtein:MED1 | RNA:150 nM | fraction:condensate | Extraction from condensate:No heat step | timing of metabolite extract addition:standard\\tsource=Mouse liver metabolites; RAW_FILE_NAME=51_B_No650.mzdata.xml;p_51_B_No650.mzdata.xml'", IndexError('list index out of range'))
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\tMED1 Aqueous Sample 4\\tProtein:MED1 | RNA:150 nM | fraction:aqueous | Extraction from condensate:No heat step | timing of metabolite extract addition:standard\\tSample_Data:source=Mouse liver metabolites; RAW_FILE_NAME=51_T_No650.mzdata.xml;p_51_T_No650.mzdata.xml'", IndexError('list index out of range'))
