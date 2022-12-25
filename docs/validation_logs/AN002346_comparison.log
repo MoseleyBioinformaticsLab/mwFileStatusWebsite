@@ -1,5 +1,5 @@
 Comparison Log
-2022-12-18 03:31:11.829378
+2022-12-25 03:31:22.090106
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002346/mwtab/...
 Study ID:    ST001404
@@ -7,5 +7,5 @@ Analysis ID: AN002346
 Status:      Inconsistent
 
 mwTab files contain different blocks: "{'MS_ALL_DATA'}"
-Sections "ANALYSIS" contain missmatched items: {('UNITS', 'm/z'), ('Units', 'm/z')}
+Sections "ANALYSIS" contain missmatched items: {('Units', 'm/z'), ('UNITS', 'm/z')}
 Unable to find '_DATA' block in given files.
