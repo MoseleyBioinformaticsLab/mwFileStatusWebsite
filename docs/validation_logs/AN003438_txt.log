@@ -1,0 +1,12 @@
+Validation Log
+2023-02-26 04:34:30.949678
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003438/mwtab/txt
+Study ID:      ST002103
+Analysis ID:   AN003438
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "ANALYSIS" does not match the allowed schema. Wrong key 'Units' in OrderedDict([('ANALYSIS_TYPE', 'MS'), ('Units', 'Voltage')])
