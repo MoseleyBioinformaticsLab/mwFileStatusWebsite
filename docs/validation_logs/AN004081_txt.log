@@ -1,0 +1,13 @@
+Validation Log
+2023-03-05 05:01:19.032855
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004081/mwtab/txt
+Study ID:      ST002492
+Analysis ID:   AN004081
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 2
+
+Error Log:
+SCHEMA: Section "ANALYSIS" does not match the allowed schema. Wrong key 'Units' in OrderedDict([('ANALYSIS_TYPE', 'MS'), ('Units', 'Peak area')])
+SCHEMA: Section "_ALL_DATA" does not match the allowed schema. '_ALL_DATA'
