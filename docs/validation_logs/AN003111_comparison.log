@@ -1,5 +1,5 @@
 Comparison Log
-2023-04-02 04:13:37.424095
+2023-04-09 04:13:30.131975
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003111/mwtab/...
 Study ID:    ST001913
@@ -7,5 +7,5 @@ Analysis ID: AN003111
 Status:      Inconsistent
 
 mwTab files contain different blocks: "{'CHROMATOGRAPHY'}"
-Sections "ANALYSIS" contain missmatched items: {('UNITS', 'ppm'), ('Units', 'ppm')}
+Sections "ANALYSIS" contain missmatched items: {('Units', 'ppm'), ('UNITS', 'ppm')}
 Unable to find '_DATA' block in given files.
