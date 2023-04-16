@@ -1,5 +1,5 @@
 Validation Log
-2023-04-09 01:15:39.395629
+2023-04-16 01:15:41.601638
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000139/mwtab/txt
 Study ID:      ST000087
@@ -9,4 +9,4 @@ Status: Contains Validation Errors
 Number Errors: 1
 
 Error Log:
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {'S20D', 'NoCellCultureMedia(MediaBlank)', 'S25D', 'S26E', 'S17D', 'S17E', 'S19E', 'S24D', 'QCPellet020414', 'S20E', 'S19D', 'S17E_QC', 'S25E', 'S20F', 'S26D', 'S17F', 'S24E'} found in MS_METABOLITE_DATA section.
+SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {'S17E_QC', 'S24E', 'S26D', 'S20D', 'S20E', 'S24D', 'S17D', 'S19E', 'S17F', 'S19D', 'S17E', 'S25D', 'S26E', 'S25E', 'S20F', 'QCPellet020414', 'NoCellCultureMedia(MediaBlank)'} found in MS_METABOLITE_DATA section.

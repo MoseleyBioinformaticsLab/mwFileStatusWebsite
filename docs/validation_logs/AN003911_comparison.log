@@ -1,5 +1,5 @@
 Comparison Log
-2023-04-09 04:56:05.416686
+2023-04-16 04:56:57.116166
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003911/mwtab/...
 Study ID:    ST002400
@@ -7,4 +7,4 @@ Analysis ID: AN003911
 Status:      Inconsistent
 
 Sections "MS" contain missmatched items: {('MS_COMMENTS', 'MRM acquisition of abundant neutral lipids: CE and TG after 10 fold dilution This acquisition is referred to as C18_10x'), ('MS_COMMENTS', 'MRM acquisition of abundant neutral lipids: CE and TG after 10 fold dilution This acquisition is referred to as "C18_10x"')}
-Sections "ANALYSIS" contain missmatched items: {('Units', 'mol% of total lipids'), ('UNITS', 'mol% of total lipids')}
+Sections "ANALYSIS" contain missmatched items: {('UNITS', 'mol% of total lipids'), ('Units', 'mol% of total lipids')}
