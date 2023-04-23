@@ -1,0 +1,14 @@
+Validation Log
+2023-04-23 05:07:25.406666
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004187/mwtab/json
+Study ID:      ST002541
+Analysis ID:   AN004187
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'Glyoxylic acid')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')
