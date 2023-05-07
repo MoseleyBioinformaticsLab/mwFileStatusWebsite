@@ -1,0 +1,12 @@
+Validation Log
+2023-05-07 05:11:25.168734
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004185/mwtab/txt
+Study ID:      ST002540
+Analysis ID:   AN004185
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "ANALYSIS" does not match the allowed schema. Wrong key 'Units' in OrderedDict([('ANALYSIS_TYPE', 'MS'), ('ANALYSIS_PROTOCOL_FILE', 'majd-et-al-csc-protocol.pdf'), ('Units', 'Peak height')])
