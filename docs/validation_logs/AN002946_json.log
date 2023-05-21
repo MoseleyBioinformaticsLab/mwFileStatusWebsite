@@ -1,5 +1,5 @@
 Validation Log
-2023-05-14 04:03:11.869424
+2023-05-21 04:03:28.503029
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002946/mwtab/json
 Study ID:      ST001815
@@ -9,4 +9,4 @@ Status: Contains Validation Errors
 Number Errors: 1
 
 Error Log:
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {'38', '61', '22', '12', '62', '63', '24', '45', '20', '40', '59', '30', '51', '50', '35', '14', '64', '58', '29', '66', '60', '10', '11', '8', '25', '36', '49', '37', '2', '9'} found in MS_METABOLITE_DATA section.
+SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {'22', '29', '10', '24', '63', '38', '49', '60', '64', '8', '12', '14', '9', '11', '20', '36', '58', '59', '25', '45', '37', '30', '61', '62', '66', '40', '50', '51', '35', '2'} found in MS_METABOLITE_DATA section.
