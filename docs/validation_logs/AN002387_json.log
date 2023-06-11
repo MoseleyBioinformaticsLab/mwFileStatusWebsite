@@ -1,9 +1,12 @@
 Validation Log
-2023-06-04 03:34:33.935421
+2023-06-11 03:35:00.357287
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002387/mwtab/json
 Study ID:      ST001428
 Analysis ID:   AN002387
 File format:   json
-Status:Missing/Blank
-Blank input string retrieved from source.
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'CHEAR_STUDY' in OrderedDict([('STUDY_TITLE', 'Role of environmental toxicants in modulating disease severity in children with NAFLD'), ('STUDY_SUMMARY', 'This project aims to further understand about how the environment impacts nonalcoholic fatty liver disease NAFLD and nonalcoholic steatohepatitis (NASH) in children. At present the NASH CRN has the largest, well characterized cohort of children with NAFLD, including clinical data, labs, cytokines, genetic polymorphisms, but no proteomics, metabolomics, lipidomics or toxicant assessment. Exposure and untargeted metabolomics analyses will examine the role of environmental toxicants in modulating disease severity and the endogenous response to exposures in children with NAFLD.'), ('INSTITUTE', 'Emory University'), ('DEPARTMENT', 'School of Medicine'), ('LABORATORY', 'Clincal Biomarkers Laboratory'), ('LAST_NAME', 'Tran'), ('FIRST_NAME', 'ViLinh'), ('ADDRESS', '615 Michael St, suite 225, Atlanta GA 30322'), ('EMAIL', 'vtran6@emory.edu'), ('PHONE', '9122281788'), ('TOTAL_SUBJECTS', '427'), ('STUDY_COMMENTS', 'Both CHEAR pooled plasma samples and Clinical Biomarker Laboratory pooled plasma samples were used'), ('CHEAR_STUDY', '2017-1593')])
