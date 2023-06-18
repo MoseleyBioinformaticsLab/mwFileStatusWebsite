@@ -1,11 +1,11 @@
 Comparison Log
-2023-06-11 05:14:00.350894
+2023-06-18 05:14:25.161073
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004185/mwtab/...
 Study ID:    ST002540
 Analysis ID: AN004185
 Status:      Inconsistent
 
-Sections "ANALYSIS" contain missmatched items: {('UNITS', 'Peak height'), ('Units', 'Peak height')}
+Sections "ANALYSIS" contain missmatched items: {('Units', 'Peak height'), ('UNITS', 'Peak height')}
 'Metabolites' section of 'MS_METABOLITE_DATA' block do not match.
 'Data' section of 'MS_METABOLITE_DATA' block do not match.
