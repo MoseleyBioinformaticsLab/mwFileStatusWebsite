@@ -1,12 +1,8 @@
 Validation Log
-2023-07-23 04:09:56.521552
+2023-08-06 07:06:44.518511
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003041/mwtab/json
 Study ID:      ST001881
 Analysis ID:   AN003041
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
-
-Error Log:
-SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'ANALYSIS_TYPE_DETAIL' in OrderedDict([('STUDY_TITLE', 'NMR Predator Cues Target Signaling Pathways in Toxic Algal Metabolome (Non-polar metabolites)'), ('STUDY_TYPE', '1H NMR Metabolomics to elucidate signaling pathway'), ('STUDY_SUMMARY', 'Metabolomics investigation of the phytoplankton Alexandrium minutum with and without copepod cues in order to explore cell signaling involved in toxin induction.'), ('INSTITUTE', 'Georgia Institute of Technology'), ('DEPARTMENT', 'School of Biological Sciences, School of Chemistry and Biochemistry, Center for Microbial Dynamics and Infection, Parker H. Petit Institute for Bioengineering and Bioscience'), ('LABORATORY', 'Kubanek Lab'), ('LAST_NAME', 'Brown'), ('FIRST_NAME', 'Emily'), ('ADDRESS', '950 Atlantic Dr Atlanta, Georgia USA 30332'), ('EMAIL', 'julia.kubanek@biosci.gatech.edu'), ('PHONE', '404-894-8424'), ('NUM_GROUPS', '2'), ('TOTAL_SUBJECTS', '40'), ('STUDY_COMMENTS', 'Part 2 of 3. This part includes NMR analysis of non-polar metabolites using oPLSDA. Parts 1 and 3 inlcude NMR analysis of polar metabolites and the corresponding mass spectrometry metabolomics for both polar and non-polar metabolites.'), ('ANALYSIS_TYPE_DETAIL', 'Metabolab')])
+Status: Passing

@@ -1,12 +1,8 @@
 Validation Log
-2023-07-23 04:11:54.835503
+2023-08-06 07:08:44.160529
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003077/mwtab/json
 Study ID:      ST001896
 Analysis ID:   AN003077
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
-
-Error Log:
-SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'ANALYSIS_TYPE_DETAIL' in OrderedDict([('STUDY_TITLE', 'NMR Differentiating toxic and nontoxic congeneric harmful algae using the non-polar metabolome (Experiment 2)'), ('STUDY_TYPE', '1H NMR Metabolomics to compare toxic and non-toxic species'), ('STUDY_SUMMARY', 'Metabolomics comparison of toxic and non-toxic species of phytoplankton from the genus Alexandrium.This study was carried out using 2 pairwise experiments, A. catenella compared to A. tamarense (Experiment 1) and A. pacificum compared to A. tamarense (Experiment 2). This study includes the NMR data from Experiment 2.'), ('INSTITUTE', 'Georgia Institute of Technology'), ('DEPARTMENT', 'School of Biological Sciences, School of Chemistry and Biochemistry, Center for Microbial Dynamics and Infection, Parker H. Petit Institute for Bioengineering and Bioscience'), ('LABORATORY', 'Kubanek Lab'), ('LAST_NAME', 'Brown'), ('FIRST_NAME', 'Emily'), ('ADDRESS', '950 Atlantic Dr Atlanta, Georgia USA 30332'), ('EMAIL', 'julia.kubanek@biosci.gatech.edu'), ('PHONE', '404-894-8424'), ('NUM_GROUPS', '2'), ('TOTAL_SUBJECTS', '30'), ('STUDY_COMMENTS', 'Part 2 of 3. This part includes NMR analysis of non-polar metabolites from Experiment 2 using oPLSDA. Parts 1 and 3 inlcude NMR analysis of non-polar metabolites from Experiment 1 and the corresponding mass spectrometry metabolomics for both Experiments 1 and 2.'), ('ANALYSIS_TYPE_DETAIL', 'Metabolab')])
+Status: Passing

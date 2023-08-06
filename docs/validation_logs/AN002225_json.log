@@ -1,12 +1,8 @@
 Validation Log
-2023-07-23 03:25:23.274564
+2023-08-06 06:09:04.857730
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002225/mwtab/json
 Study ID:      ST001335
 Analysis ID:   AN002225
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
-
-Error Log:
-SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'CHEAR_STUDY' in OrderedDict([('STUDY_TITLE', 'Air Pollution, Placenta Function, and Birth Outcomes in Los Angeles in the Placental Assessment in Response to ENvironmenTal pollution study (PARENTs) cohort'), ('STUDY_SUMMARY', 'This project aims to evaluate the internal environmental exposome of mother/fetus pairs within the PARENTs cohort, assessing a wide range of biomarkers/internal exposure measures for environmental toxins including air pollutants. Focusing on advanced imaging data on placental development and robust, clinically-confirmed birth outcomes, this a hypothesis-generating, untargeted pilot metabolomics study aims to identify potential predictors of placental insufficiencies and adverse birth outcomes. Measurements of exposures which include residential, occupational, and behavioral exposures, along with personalized air pollution measures, will help us in identifying related metabolomics patterns.'), ('INSTITUTE', 'Emory University'), ('DEPARTMENT', 'School of Medicine'), ('LABORATORY', 'Clincal Biomarkers Laboratory'), ('LAST_NAME', 'Uppal'), ('FIRST_NAME', 'Karan'), ('ADDRESS', '615 Michael St. Ste 225, Atlanta, GA, 30322, USA'), ('EMAIL', 'kuppal2@emory.edu'), ('PHONE', '(404) 727 5027'), ('TOTAL_SUBJECTS', '440'), ('CHEAR_STUDY', '2017-1729')])
+Status: Passing

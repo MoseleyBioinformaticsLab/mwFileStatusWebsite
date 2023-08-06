@@ -1,8 +1,9 @@
 Comparison Log
-2023-07-23 04:45:27.593179
+2023-08-06 07:43:49.273568
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003581/mwtab/...
 Study ID:    ST002187
 Analysis ID: AN003581
-Status:      Consistent
+Status:      Inconsistent
 
+Sections "CHROMATOGRAPHY" contain missmatched items: {('CHROMATOGRAPHY_SUMMARY', 'Triple-quadrupole-ion trap hybrid mass spectrometer viz., QTRAP6500+ (Sciex, USA) connected with ultra-performance liquid chromatography I-class (UPLC) system procured from Waters, USA was used for the metabolite analysis. The chromatographic separation was performed by liquid chromatography using XBridge Amide (150 ×\u20092.1mm .D  3.5µm particle size, Waters, USA) analytical column and a binary solvent system with a flow rate of 0.4\u2009ml/min. A guard XBridge Amide column (20 ×\u20092.1mm .D  3.5µm particle size, Waters, USA) was connected in front of analytical column. Mobile phase A was composed of 10 mM ammonium acetate, 10mM ammonium hydroxide containing 5% acetonitrile in LC-MS grade water; mobile phase B was 100% LC-MS grade acetonitrile.'), ('CHROMATOGRAPHY_SUMMARY', 'Triple-quadrupole-ion trap hybrid mass spectrometer viz., QTRAP6500+ (Sciex, USA) connected with ultra-performance liquid chromatography I-class (UPLC) system procured from Waters, USA was used for the metabolite analysis. The chromatographic separation was performed by liquid chromatography using XBridge Amide (150 ×\u20092.1mm ID; 3.5µm particle size, Waters, USA) analytical column and a binary solvent system with a flow rate of 0.4\u2009ml/min. A guard XBridge Amide column (20 ×\u20092.1mm ID; 3.5µm particle size, Waters, USA) was connected in front of analytical column. Mobile phase A was composed of 10 mM ammonium acetate, 10mM ammonium hydroxide containing 5% acetonitrile in LC-MS grade water; mobile phase B was 100% LC-MS grade acetonitrile.')}

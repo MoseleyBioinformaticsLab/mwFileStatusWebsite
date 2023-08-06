@@ -1,9 +1,9 @@
 Validation Log
-2023-07-23 03:41:56.456483
+2023-08-06 06:28:26.230148
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002528/mwtab/txt
 Study ID:      ST001519
 Analysis ID:   AN002528
 File format:   txt
 Status:Parsing Error
-('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t9002\\t9002-3-SA\\tAge:20 | Sex:Male | Race:White | Study_Diet:Vegan\\tType=Stool; BMI=21.3; Ethnicity=Not Hispanic or Latino; Time=Day 15; RAW_FILE_NAME=0229_WUG_FARMM_HIL-9002-3-SA.raw;0229_WUG_FARMM_LIP-9002-3-SA.raw;0229_WU_FARMM_CMH_9002-3-SA.raw;0229_WUG_FARMM_FFA-9002-3-SA.raw'", IndexError('list index out of range'))
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\tQC-pooled_stool\\tQCPS02\\tAge:NA | Sex:NA | Race:NA | Study_Diet:NA\\tType=NA; BMI=NA; Ethnicity=NA; Time=NA; RAW_FILE_NAME=NA;0171a_WUG_FARMM_LIP-QCPS02.raw NA;0171a_WUG_FARMM_FFA-QCPS02.raw'", IndexError('list index out of range'))

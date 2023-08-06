@@ -1,18 +1,15 @@
 Validation Log
-2023-07-23 01:12:52.720309
+2023-08-06 01:12:53.385407
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000111/mwtab/json
 Study ID:      ST000071
 Analysis ID:   AN000111
 File format:   json
 Status: Contains Validation Errors
-Number Errors: 5
+Number Errors: 4
 
 Error Log:
 SCHEMA: Section "STUDY" does not match the allowed schema. Missing key: 'STUDY_SUMMARY'
 SCHEMA: Section "COLLECTION" does not match the allowed schema. Missing key: 'COLLECTION_SUMMARY'
 SCHEMA: Section "TREATMENT" does not match the allowed schema. 'list' object has no attribute 'keys'
 SCHEMA: Section "ANALYSIS" does not match the allowed schema. Wrong key 'UNITS' in OrderedDict([('LABORATORY_NAME', 'RTI'), ('ANALYSIS_TYPE', 'MS'), ('ACQUISITION_DATE', '41656'), ('SOFTWARE_VERSION', 'MassLynx 4.1'), ('OPERATOR_NAME', 'Suraj Dhungana, Darya Cheng'), ('DETECTOR_TYPE', 'TOF (positive)'), ('UNITS', 'Normalized abundance')])
-SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Data' error:
-Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('Samples', 'Factors')])
-Missing key: Or('Metabolite', 'Bin range(ppm)')

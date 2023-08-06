@@ -1,13 +1,12 @@
 Validation Log
-2023-07-23 04:17:19.813029
+2023-08-06 07:14:13.973886
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003173/mwtab/txt
 Study ID:      ST001949
 Analysis ID:   AN003173
 File format:   txt
 Status: Contains Validation Errors
-Number Errors: 2
+Number Errors: 1
 
 Error Log:
-SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'ANALYSIS_TYPE_DETAIL' in OrderedDict([('STUDY_TITLE', 'Plasma Metabolome Normalization in Rheumatoid Arthritis following initiation of Methotrexate and the Identification of Metabolic Biomarkers of Efficacy'), ('STUDY_TYPE', 'Clinical'), ('STUDY_SUMMARY', 'Methotrexate (MTX) efficacy in the treatment of rheumatoid arthritis (RA) is variable and unpredictable, resulting in a need to identify biomarkers to guide drug therapy. This study evaluates changes in the plasma metabolome associated with response to MTX in RA with the goal of understanding the metabolic basis for MTX efficacy towards the identification of potential metabolic biomarkers of MTX response.'), ('INSTITUTE', 'University of Kansas'), ('DEPARTMENT', 'Pharmacy Practice'), ('LABORATORY', 'Funk'), ('LAST_NAME', 'Medcalf'), ('FIRST_NAME', 'Matthew'), ('ADDRESS', '2106 Olathe Boulevard'), ('EMAIL', 'mmedcalf@ku.edu'), ('PHONE', '13147880236'), ('NUM_GROUPS', '3'), ('TOTAL_SUBJECTS', '40'), ('NUM_MALES', '9'), ('NUM_FEMALES', '31'), ('ANALYSIS_TYPE_DETAIL', 'GC/LC-MS')])
 SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Missing key: 'Metabolites'

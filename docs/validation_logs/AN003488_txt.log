@@ -1,12 +1,8 @@
 Validation Log
-2023-07-23 04:39:59.483191
+2023-08-06 07:38:05.116117
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003488/mwtab/txt
 Study ID:      ST002133
 Analysis ID:   AN003488
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
-
-Error Log:
-SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'ANALYSIS_TYPE_DETAIL' in OrderedDict([('STUDY_TITLE', 'Metabolite variation in the blood serum of HIV patients carrier treated with effervecent glutamine'), ('STUDY_TYPE', 'Liquid NMR experiments'), ('STUDY_SUMMARY', "It was demonstrated that effervescent glutamine supplementation in people living with HIV/AIDS increased the amount of CD4+ T lymphocytes. , decreased the serum levels of biomarkers of inflammation, and introduced health benefits. Herein, NMR spectroscopy was applied to evaluate if oral ingestion of glutamine (12.5 g) for 30 days can be measured through serum metabolite variations and if the reported benefits might correlate to small metabolites' changes in a chosen cohort of individuals. The HIV/AIDS group has been carefully selected and studied before and after the 30-days of supplementation with the glutamine, together with the matched non-HIV carrier patients' group. The group of HIV/AIDS individuals presented lower (p &lt; 0.05) levels of choline, creatine, pyruvate, glutamate, lysine, and tyrosine when compared to the non-HIV carrier patients. On the other hand, serum concentrations of glucose, lipids, lactate, glutamine, phenylalanine, and threonine were higher (p &lt; 0.05) in HIV/AIDS individuals. The variation in metabolites as a result of treatment with glutamine is consistent with the improvements observed in these patients and may lead us to suggest the introduction of the effervescent glutamine supplementation to antiretroviral therapies in people living with HIV/AIDS."), ('INSTITUTE', 'University of Campinas'), ('DEPARTMENT', 'Organic Chemistry'), ('LABORATORY', 'Biological Chemistry Lab'), ('LAST_NAME', 'MARTINS'), ('FIRST_NAME', 'LUCAS'), ('ADDRESS', 'Rua Josué de Castro, s/n - Cidade Universitária, Campinas - SP, 13083-970'), ('EMAIL', 'lgmartins1984@gmail.com'), ('PHONE', '+5519992947044'), ('NUM_GROUPS', '3'), ('TOTAL_SUBJECTS', '24'), ('NUM_MALES', '10'), ('NUM_FEMALES', '14'), ('STUDY_COMMENTS', 'Crossover study'), ('ANALYSIS_TYPE_DETAIL', '1H NMR analyses of blood serum')])
+Status: Passing

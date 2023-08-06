@@ -1,13 +1,12 @@
 Validation Log
-2023-07-23 04:45:28.909027
+2023-08-06 07:43:50.594888
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003582/mwtab/txt
 Study ID:      ST002188
 Analysis ID:   AN003582
 File format:   txt
 Status: Contains Validation Errors
-Number Errors: 2
+Number Errors: 1
 
 Error Log:
-SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'ANALYSIS_TYPE_DETAIL' in OrderedDict([('STUDY_TITLE', 'Metabolomic profiling reveals muscle metabolic changes following iliac arteriovenous fistula creation in mice'), ('STUDY_TYPE', 'Study of the skeletal muscle metabolome in mice with iliac arteriovenous fistula via 1H NMR'), ('STUDY_SUMMARY', 'In the present study, we hypothesize that the creation of an iliac AVF would result in significant alterations to the limb muscle metabolome. Recently, our group developed a new murine model to address the pathophysiology of access-related hand dysfunction (ARHD) in mice, where AVF creation is performed in the iliac artery/vein. Because of the anatomical location of the AVF creation, this model produces clinically relevant changes in the mouse hindlimb including hemodynamic alterations, muscle weakness, and mitochondrial function impairment.'), ('INSTITUTE', 'University of Florida'), ('DEPARTMENT', 'Applied Physiology and Kinesiology'), ('LABORATORY', 'Rm 42 and Rm 43'), ('LAST_NAME', 'Ryan'), ('FIRST_NAME', 'Terence'), ('ADDRESS', '1864 Stadium Rd, FLG 114, Gainesville, FL, 32611, USA'), ('EMAIL', 'ryant@ufl.edu'), ('PHONE', '352-294-1700'), ('NUM_GROUPS', '4'), ('TOTAL_SUBJECTS', '34'), ('NUM_MALES', 'All'), ('STUDY_COMMENTS', 'Metabolomic study via NMR'), ('PUBLICATIONS', 'Frontiers'), ('ANALYSIS_TYPE_DETAIL', 'Metabolomics profiling')])
 SCHEMA: Section "ANALYSIS" does not match the allowed schema. Missing key: 'ANALYSIS_TYPE'

@@ -1,12 +1,8 @@
 Validation Log
-2023-07-23 04:37:35.936857
+2023-08-06 07:35:35.264760
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003440/mwtab/txt
 Study ID:      ST002104
 Analysis ID:   AN003440
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
-
-Error Log:
-SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'ANALYSIS_TYPE_DETAIL' in OrderedDict([('STUDY_TITLE', 'Chemoresistant Cancer Cell Lines are Characterized by Migratory, Amino Acid Metabolism, Protein Catabolism and IFN1 Signalling Perturbations'), ('STUDY_TYPE', 'Biomedical research'), ('STUDY_SUMMARY', 'Our analysis was able to separate chemoresistant cells from their parental cells based on their metabolomic and proteomic features and identified altered biological processes and pathways which are of further interest. Preliminary investigation of patient-derived cells highlighted the need to perform broad biological and molecular analyses, compre-hensive in vitro and in vivo studies, using a larger patient cohort to achieve a deeper and clinically relevant characterization of the molecular drivers of chemoresistance.'), ('INSTITUTE', 'Future Industries Institute'), ('LABORATORY', 'Manuela Klingler-Hoffmann'), ('LAST_NAME', 'Acland'), ('FIRST_NAME', 'Mitchell'), ('ADDRESS', 'X Building, Mawson Lakes South Australia 5095'), ('EMAIL', 'mitch.acland@gmail.com'), ('PHONE', '0448671141'), ('NUM_GROUPS', '4'), ('TOTAL_SUBJECTS', '12'), ('NUM_MALES', 'NA'), ('NUM_FEMALES', 'NA'), ('STUDY_COMMENTS', 'OVCAR5 and CaOV3 cell lines and their carboplatin resistant cell lines'), ('PUBLICATIONS', 'Chemoresistant Cancer Cell Lines are Characterized by Migra-tory, Amino Acid Metabolism, Protein Catabolism and IFN1 Signalling Perturbations'), ('ANALYSIS_TYPE_DETAIL', 'untargeted LCMS metabolomics')])
+Status: Passing

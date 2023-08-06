@@ -1,12 +1,8 @@
 Validation Log
-2023-07-23 05:15:28.345787
+2023-08-06 08:27:51.628107
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004211/mwtab/txt
 Study ID:      ST002556
 Analysis ID:   AN004211
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
-
-Error Log:
-SCHEMA: Section "ANALYSIS" does not match the allowed schema. Wrong key 'Units' in OrderedDict([('ANALYSIS_TYPE', 'MS'), ('ANALYSIS_PROTOCOL_FILE', 'Methods_SC.pdf'), ('Units', 'peak heights')])
+Status: Passing

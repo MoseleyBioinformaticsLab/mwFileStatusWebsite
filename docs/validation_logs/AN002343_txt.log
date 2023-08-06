@@ -1,12 +1,9 @@
 Validation Log
-2023-07-23 03:31:25.383771
+2023-08-06 06:17:06.070453
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002343/mwtab/txt
 Study ID:      ST001401
 Analysis ID:   AN002343
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
-
-Error Log:
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {''} found in MS_METABOLITE_DATA section.
+Status:Parsing Error
+('LINE WITH ERROR:\n\t', "'SU:TAXONOMY_ID                   '", ValueError('not enough values to unpack (expected 2, got 1)'))

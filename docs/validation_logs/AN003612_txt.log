@@ -1,12 +1,8 @@
 Validation Log
-2023-07-23 04:47:02.882505
+2023-08-06 07:45:37.244465
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003612/mwtab/txt
 Study ID:      ST002209
 Analysis ID:   AN003612
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
-
-Error Log:
-SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'ANALYSIS_TYPE_DETAIL' in OrderedDict([('STUDY_TITLE', 'Metabolomic analysis to assess response to immunotherapy for malignant brain tumors: Part 3'), ('STUDY_SUMMARY', 'An effective immune response in patients with cancer treated with immunotherapy includes dendritic cell (DC) activation and migration followed by stimulation of CD8 and CD4 T cells. This then leads to the activation, proliferation and further activation of other immune cell populations including NK cells or immunosuppressive populations such as Tregs and myeloid derived suppressor cells (MDSCs). These studies were carried out utilizing murine brain tumor models treated with an RNA DC vaccine platform. We hypothesized that metabolomic analyses of urines would be sensitive to the action of this diverse set of immune cells. The objective of this study was to evaluate the feasibility of using metabolomics to follow immune responses after immunotherapy. We chose NMR as our analytical technique of choice, as it has many favorable qualities that make it ideal for analyses of urine.'), ('INSTITUTE', 'University of Florida'), ('DEPARTMENT', 'Applied Physiology and Kinesiology'), ('LABORATORY', 'Rm 042'), ('LAST_NAME', 'Khattri'), ('FIRST_NAME', 'Ram'), ('ADDRESS', '1200 Newell Dr., ARB 240, Gainesville, FL, 32611, USA'), ('EMAIL', 'rbk11@ufl.edu'), ('NUM_GROUPS', '5'), ('TOTAL_SUBJECTS', '24'), ('NUM_MALES', 'NA'), ('NUM_FEMALES', 'NA'), ('STUDY_COMMENTS', 'Metabolomic profiling of urine samples'), ('PUBLICATIONS', 'Metabolomics journal (submitted)'), ('ANALYSIS_TYPE_DETAIL', 'Metabolomic profiling of urine samples via NMR'), ('STUDY_TYPE', 'Cancer surrogate biomarker discovery'), ('PHONE', '3307856045')])
+Status: Passing

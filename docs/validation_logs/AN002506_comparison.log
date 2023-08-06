@@ -1,0 +1,15 @@
+Comparison Log
+2023-08-06 06:26:49.990859
+mwtab Python Library Version: 1.2.5
+Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002506/mwtab/...
+Study ID:    ST001512
+Analysis ID: AN002506
+Status:      Inconsistent
+
+Sections "NM" contain missmatched items: {('NMR_RESULTS_FILE', 'ST001512_AN002506_Results.txt UNITS:ppm')}
+Sections "SAMPLEPREP" contain missmatched items: {('PROCESSING_STORAGE_CONDITIONS', '-80℃'), ('PROCESSING_STORAGE_CONDITIONS', '-80?'), ('EXTRACT_STORAGE', '-80℃'), ('EXTRACT_STORAGE', '-80?')}
+Sections "STUDY" contain missmatched items: {('SUBMIT_DATE', '2020-10-18'), ('PHONE', '?(706) 542-8387?'), ('PHONE', '\u202d(706) 542-8387\u202c')}
+Sections "SUBJECT" contain missmatched items: {('SUBJECT_SPECIES', 'Thalassiosira pseudonana'), ('SUBJECT_SPECIES', 'Thalassiosira pseudonana CCMP1335')}
+Sections "PROJECT" contain missmatched items: {('PHONE', '?(706) 542-8387?'), ('PHONE', '\u202d(706) 542-8387\u202c'), ('PROJECT_SUMMARY', 'Organic substrate transfer between photoautotrophic and heterotrophic microbes in the surface ocean is a central but poorly understood process in the global carbon cycle. This study developed a co-culture system of marine diatom Thalassiosira pseudonana and heterotrophic bacterium Ruegeria pomeroyi, and addressed diel changes in phytoplankton endometabolite production using nuclear magnetic resonance (NMR) and bacterial metabolite consumption using gene expression. Here we deposit data for NMR analysis from the study. Samples were collected every 6 hours over two days under a diel light cycle. During the course of the study, we observed an increase in some phytoplankton endometabolites presumably due to the effects of the associated bacteria. We introduced an additional experiment and tested this possibility by comparing phytoplankton endometabolite accumulation between axenic treatments and bacteria coculture treatments.'), ('DOI', 'http://dx.doi.org/10.21228/M80408')}
+mwTab files contain different 'SUBJECT_SAMPLE_FACTORS' sections.
+Unable to find '_DATA' block in given files.

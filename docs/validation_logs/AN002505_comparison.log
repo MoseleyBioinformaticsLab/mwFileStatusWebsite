@@ -1,10 +1,11 @@
 Comparison Log
-2023-07-23 03:40:21.733123
+2023-08-06 06:26:47.298355
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002505/mwtab/...
 Study ID:    ST001511
 Analysis ID: AN002505
 Status:      Inconsistent
 
-Sections "ANALYSIS" contain missmatched items: {('UNITS', 'peak area'), ('Units', 'peak area')}
+Sections "ANALYSIS" contain missmatched items: {('UNITS', 'peak area')}
+Sections "CHROMATOGRAPHY" contain missmatched items: {('COLUMN_NAME', 'Waters Acquity BEH Amide (150 x 2.1mm,1.7um)'), ('SOLVENT_B', '90% isopropanol/10% acetonitrile; 0.1% formic acid'), ('FLOW_RATE', '0.4 mL/min'), ('INSTRUMENT_NAME', 'Unspecified'), ('COLUMN_TEMPERATURE', '35'), ('COLUMN_NAME', 'Waters Acquity BEH Amide (150 x 2.1mm, 1.7um)'), ('FLOW_GRADIENT', '0-0.5 min, 95% B; 0.5-9.5 min, 95% to 65% B; 9.5-10.5 min, 65%-40% B; 10.5-12 min, 40% B; 12-12.2 min, 40%-95% B; and 12.2-15 min, 95% B.'), ('SOLVENT_A', '100% water; 25 mM ammonium acetate')}
 Unable to find '_DATA' block in given files.

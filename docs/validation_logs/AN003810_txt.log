@@ -1,9 +1,9 @@
 Validation Log
-2023-07-23 04:56:56.232402
+2023-08-06 07:58:51.340240
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003810/mwtab/txt
 Study ID:      ST002334
 Analysis ID:   AN003810
 File format:   txt
 Status:Parsing Error
-('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\t1\\tBiological replicate:I\\tSample_Data:SH-SY5Y cell line=PLD3 Knockout ex6; Type=PNS; RAW_FILE_NAME=PLD3.scan; PLD3.wiff; Analysed data=PLD3 lipidomics results (Excel worksheet names represent displayed analyzes and units)'", IndexError('list index out of range'))
+('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\t1\\tBiological replicate:I\\tSH-SY5Y cell line=PLD3 Knockout ex6; Type=PNS; RAW_FILE_NAME=PLD3.scan; PLD3.wiff; Analysed data=PLD3 lipidomics results (Excel worksheet names represent displayed analyzes and units)'", IndexError('list index out of range'))

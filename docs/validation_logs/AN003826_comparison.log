@@ -1,10 +1,11 @@
 Comparison Log
-2023-07-23 04:57:39.187158
+2023-08-06 07:59:44.026244
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003826/mwtab/...
 Study ID:    ST002342
 Analysis ID: AN003826
 Status:      Inconsistent
 
-Sections "ANALYSIS" contain missmatched items: {('UNITS', 'Peak Intensity'), ('Units', 'Peak Intensity')}
+Sections "ANALYSIS" contain missmatched items: {('UNITS', 'Peak Intensity')}
+mwTab files contain different 'SUBJECT_SAMPLE_FACTORS' sections.
 Unable to find '_DATA' block in given files.

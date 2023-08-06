@@ -1,9 +1,8 @@
 Validation Log
-2023-07-23 05:14:56.145756
+2023-08-06 08:27:08.061370
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004199/mwtab/txt
 Study ID:      ST002550
 Analysis ID:   AN004199
 File format:   txt
-Status:Parsing Error
-('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\tD_Serum_1\\tD_Serum_1\\tFactor:Control\\tBatch=1; RAW_FILE_NAME=20190802_PC,PE profiling_Human serum_set1_HJW-D_Normal serum_1_1_100.mzML;20190802_PLS_Human serum_Set1_HJW-D_Normal serum_1.mzML;20190801_Cer_SM_Human serum_set1_HJW-D_Normal serum_1_1_5.mzML'", IndexError('list index out of range'))
+Status: Passing
