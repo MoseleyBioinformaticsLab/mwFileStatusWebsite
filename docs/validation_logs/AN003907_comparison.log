@@ -1,11 +1,9 @@
 Comparison Log
-2023-08-06 08:06:02.629922
+2023-08-13 05:02:16.996351
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003907/mwtab/...
 Study ID:    ST002400
 Analysis ID: AN003907
 Status:      Inconsistent
 
-Sections "MS" contain missmatched items: {('MS_COMMENTS', 'MRM acquisition of broad chromatographic peaks of low abundant phospho- and sphingolipid classes: PS, PA, LPC, LPE and some ceramides this acquisition is called "long_1x"'), ('MS_COMMENTS', 'MRM acquisition of broad chromatographic peaks of low abundant phospho- and sphingolipid classes: PS, PA, LPC, LPE and some ceramides this acquisition is called long_1x')}
-Sections "ANALYSIS" contain missmatched items: {('UNITS', 'mol% of total lipids')}
-mwTab files contain different 'SUBJECT_SAMPLE_FACTORS' sections.
+Sections "MS" contain missmatched items: {('MS_COMMENTS', 'MRM acquisition of broad chromatographic peaks of low abundant phospho- and sphingolipid classes: PS, PA, LPC, LPE and some ceramides this acquisition is called long_1x'), ('MS_COMMENTS', 'MRM acquisition of broad chromatographic peaks of low abundant phospho- and sphingolipid classes: PS, PA, LPC, LPE and some ceramides this acquisition is called "long_1x"')}

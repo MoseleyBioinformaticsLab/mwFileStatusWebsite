@@ -1,12 +1,8 @@
 Validation Log
-2023-08-06 08:06:11.247664
+2023-08-13 05:02:25.674633
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003910/mwtab/json
 Study ID:      ST002400
 Analysis ID:   AN003910
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
-
-Error Log:
-SCHEMA: Section "ANALYSIS" does not match the allowed schema. Wrong key 'UNITS' in OrderedDict([('ANALYSIS_TYPE', 'MS'), ('UNITS', 'mol% of total lipids')])
+Status: Passing

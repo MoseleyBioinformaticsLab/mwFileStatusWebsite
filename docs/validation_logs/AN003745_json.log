@@ -1,13 +1,12 @@
 Validation Log
-2023-08-06 07:55:29.071293
+2023-08-13 04:55:35.392550
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003745/mwtab/json
 Study ID:      ST002292
 Analysis ID:   AN003745
 File format:   json
 Status: Contains Validation Errors
-Number Errors: 2
+Number Errors: 1
 
 Error Log:
 SCHEMA: Section "SUBJECT" does not match the allowed schema. Missing key: 'SUBJECT_SPECIES'
-SCHEMA: Section "ANALYSIS" does not match the allowed schema. Wrong key 'UNITS' in OrderedDict([('ANALYSIS_TYPE', 'MS'), ('ANALYSIS_PROTOCOL_FILE', 'CXSPE_Method_Paper_MS_Methods.txt'), ('UNITS', 'Peak Area')])

@@ -1,15 +1,14 @@
 Validation Log
-2023-08-06 07:39:43.347182
+2023-08-13 04:42:22.129456
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003519/mwtab/json
 Study ID:      ST002149
 Analysis ID:   AN003519
 File format:   json
 Status: Contains Validation Errors
-Number Errors: 2
+Number Errors: 1
 
 Error Log:
-SCHEMA: Section "ANALYSIS" does not match the allowed schema. Wrong key 'UNITS' in OrderedDict([('ANALYSIS_TYPE', 'MS'), ('UNITS', 'OriginalScale MS Units')])
 SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Data' error:
 Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', '(12 or 13)-methylmyristate (a15:0 or i15:0)'), ('GF1', '1526025'), ('GF2', '1618327'), ('GF3', '2416765'), ('GF4', '1625286'), ('GF5', '1496187'), ('GF6', '966502'), ('GF7', '2305224'), ('GF8', '1677219'), ('CSAR1', '1074188'), ('CSAR2', '1807823'), ('CSAR3', '1837733'), ('CSAR4', '1172830'), ('CSAR5', '1191433'), ('CSAR6', '1775469'), ('CSAR7', '2002290'), ('CSAR8', '1019138'), ('PBI1', '1960032'), ('PBI2', '23386580'), ('PBI3', '2229169'), ('PBI4', '8372193'), ('PBI5', '1307127'), ('PBI6', '1158369'), ('PBI7', '2547356'), ('PBI8', '1431783'), ('Cdiff1', '1508569'), ('Cdiff2', '1437068'), ('Cdiff3', '1862998'), ('Cdiff4', '1176185'), ('Cdiff5', '2126199'), ('Cdiff6', '1933784'), ('Cdiff7', '1747905'), ('Cdiff8', '1708579'), ('CSAR/Cdiff1', '1317112'), ('CSAR/Cdiff2', '3127850'), ('CSAR/Cdiff3', '3417111'), ('CSAR/Cdiff4', '3555827'), ('CSAR/Cdiff5', '3319682'), ('CSAR/Cdiff6', '2017703'), ('CSAR/Cdiff7', '3550964'), ('CSAR/Cdiff8', '5706570'), ('PBI/Cdiff1', '1535098'), ('PBI/Cdiff2', '6206213'), ('PBI/Cdiff3', '1142634'), ('PBI/Cdiff4', '1353944'), ('PBI/Cdiff5', '1593715'), ('PBI/Cdiff6', '1355996'), ('PBI/Cdiff7', '1514153'), ('PBI/Cdiff8', '1923427')])
 Missing key: Or('Metabolite', 'Bin range(ppm)')

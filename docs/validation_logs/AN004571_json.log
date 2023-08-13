@@ -1,0 +1,12 @@
+Validation Log
+2023-08-13 05:23:21.002967
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004571/mwtab/json
+Study ID:      ST002741
+Analysis ID:   AN004571
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Wrong key 'SOLVENT_C' in OrderedDict([('CHROMATOGRAPHY_SUMMARY', 'The GC-MS analysis was carried out with an Agilent GC (Model 7890B) and MS Quadrupole (Model 5977A) (Agilent Technologies). The liquid injection was done using a PAL System RSI 85 (PAL, Lake Elmo, MN, USA). The injector temperature was 260°C; the MS transfer line was 230°C. Metabolites were separated on a 5% phenyl 95% dimethylarylene siloxane HP-5MS 30 m, 0.25 mm, 0.25 μm capillary column (Agilent Technologies), at constant flow 1.5 ml.min-1 of helium as a carrier gas. One mi-croliter of derivatized sample was injected into the injector operating in 1:5 split mode. The temperature of the column was initially set to 60°C, and increased at a rate of 10°C.min−1 to 325°C.'), ('CHROMATOGRAPHY_TYPE', 'GC'), ('INSTRUMENT_NAME', 'Agilent 7890B'), ('COLUMN_NAME', 'Agilent HP5-MS (30m x 0.25mm, 0.25 um)'), ('SOLVENT_A', 'N/A for GC'), ('SOLVENT_B', 'N/A for GC'), ('SOLVENT_C', 'N/A for GC'), ('FLOW_GRADIENT', 'N/A for GC'), ('FLOW_RATE', '1.5 ml/min'), ('COLUMN_TEMPERATURE', '60')])

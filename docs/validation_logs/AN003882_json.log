@@ -1,12 +1,8 @@
 Validation Log
-2023-08-06 08:04:26.811445
+2023-08-13 05:01:08.773809
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003882/mwtab/json
 Study ID:      ST002383
 Analysis ID:   AN003882
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
-
-Error Log:
-SCHEMA: Section "ANALYSIS" does not match the allowed schema. Wrong key 'UNITS' in OrderedDict([('LABORATORY_NAME', 'Joshua Chandler, PhD'), ('ANALYSIS_TYPE', 'MS'), ('ACQUISITION_DATE', '2018-2019'), ('SOFTWARE_VERSION', 'Compound Discoverer 3.3'), ('OPERATOR_NAME', 'Matthew Kilgore, PhD'), ('DETECTOR_TYPE', 'Orbitrap'), ('UNITS', 'normalized peak area')])
+Status: Passing

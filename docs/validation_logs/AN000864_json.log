@@ -1,12 +1,8 @@
 Validation Log
-2023-08-06 02:59:08.798385
+2023-08-13 02:10:44.113151
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000864/mwtab/json
 Study ID:      ST000562
 Analysis ID:   AN000864
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
-
-Error Log:
-SCHEMA: Section "ANALYSIS" does not match the allowed schema. Wrong key 'UNITS' in OrderedDict([('LABORATORY_NAME', 'MRC2 (University of Michigan)'), ('ANALYSIS_TYPE', 'MS'), ('UNITS', 'pg/mg tissue')])
+Status: Passing

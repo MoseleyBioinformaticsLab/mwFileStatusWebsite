@@ -1,17 +1,14 @@
 Validation Log
-2023-08-06 01:52:32.833481
+2023-08-13 01:29:51.467213
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000405/mwtab/json
 Study ID:      ST000256
 Analysis ID:   AN000405
 File format:   json
 Status: Contains Validation Errors
-Number Errors: 6
+Number Errors: 3
 
 Error Log:
 SCHEMA: Section "PROJECT" does not match the allowed schema. Missing key: 'PHONE'
 SCHEMA: Section "STUDY" does not match the allowed schema. Missing key: 'PHONE'
-SCHEMA: Section "COLLECTION" does not match the allowed schema. Missing key: 'COLLECTION_SUMMARY'
-SCHEMA: Section "SAMPLEPREP" does not match the allowed schema. Missing key: 'SAMPLEPREP_SUMMARY'
 SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. 'list' object has no attribute 'keys'
-SCHEMA: Section "NM" does not match the allowed schema. Missing key: 'SPECTROMETER_FREQUENCY'

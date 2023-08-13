@@ -1,9 +1,8 @@
 Validation Log
-2023-08-06 08:38:26.242451
+2023-08-13 05:26:56.955864
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004512/mwtab/txt
 Study ID:      ST002772
 Analysis ID:   AN004512
 File format:   txt
-Status:Parsing Error
-('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\t?N1\\tfactor:Dark phase sample\\tRAW_FILE_NAME=RAW_FILE_NAME-&gt;220317-NEG-034-CS36967.raw  RAW_FILE_NAME-&gt;220317-NEG-034-CS36967.mzML  RAW_FILE_NAME-&gt;220317-POS-034-CS36967.raw  RAW_FILE_NAME-&gt;220317-POS-034-CS36967.mzML'", IndexError('list index out of range'))
+Status: Passing

@@ -1,13 +1,8 @@
 Validation Log
-2023-08-06 01:11:13.833292
+2023-08-13 01:11:18.766871
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000086/mwtab/txt
 Study ID:      ST000050
 Analysis ID:   AN000086
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 2
-
-Error Log:
-SCHEMA: Section "NMR_BINNED_DATA" does not match the allowed schema. Missing key: 'Units'
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {'UAKI100858 ', 'UCON100591 ', 'UCON100745 ', 'UCON100220 ', 'UAKI100014 ', 'UAKI100835 ', 'UAKI100595 ', 'UAKI100691 ', 'UAKI100694 ', 'UPAKI0003 ', 'UCON100725 ', 'UCON100200 ', 'UAKI100160 ', 'UCON101010 ', 'UAKI100938 ', 'UCON100150 ', 'UCON100252 ', 'UPAKI0002 ', 'UAKI100592 ', 'UPALL0002 ', 'UPCON0002 ', 'UAKI100925 ', 'UCON100390 ', 'UCON100922 ', 'UCON100972 ', 'UAKI100045 ', 'UPCON0001 ', 'UCON100996 ', 'UCON100547 ', 'UCON100741 ', 'UCON100948 ', 'UAKI100594 ', 'UCON100836 ', 'UAKI100651 ', 'UCON100707 ', 'UAKI100983 ', 'UCON100975 ', 'UAKI100700 ', 'UAKI100910 ', 'UCON100781 ', 'UCON100153 ', 'UAKI100159 ', 'UAKI100868 ', 'UAKI100989 ', 'UAKI100593 ', 'UPALL0003 ', 'UPALL0001 ', 'UPAKI0001 '} found in NMR_BINNED_DATA section.
+Status: Passing
