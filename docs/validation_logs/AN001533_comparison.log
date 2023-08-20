@@ -1,11 +1,11 @@
 Comparison Log
-2023-08-13 02:48:20.514485
+2023-08-20 02:47:51.063677
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001533/mwtab/...
 Study ID:    ST000935
 Analysis ID: AN001533
 Status:      Inconsistent
 
-Sections "CHROMATOGRAPHY" contain missmatched items: {('CHROMATOGRAPHY_SUMMARY', 'Aqueous normal phase diamond hydride Aqueous normal phase diamond hydride Aqueous normal phase diamond hydride Aqueous normal phase diamond hydride'), ('COLUMN_NAME', 'Microsolv Diamond hydride (150mm, 4um) Microsolv Diamond hydride 4 micron, 150 mm column Microsolv Diamond hydride 4 micron, 150 mm column Microsolv Diamond hydride 4 micron, 150 mm column'), ('CHROMATOGRAPHY_TYPE', 'Normal phase Normal phase Normal phase Normal phase'), ('INSTRUMENT_NAME', 'Agilent 1290 Agilent 1290 Agilent 1290 Agilent 1290'), ('INSTRUMENT_NAME', 'Agilent 1290'), ('CHROMATOGRAPHY_TYPE', 'Normal phase'), ('CHROMATOGRAPHY_SUMMARY', 'Aqueous normal phase diamond hydride'), ('COLUMN_NAME', 'Microsolv Diamond hydride 4 micron, 150 mm column')}
-Sections "MS" contain missmatched items: {('INSTRUMENT_NAME', 'Agilent 6220 TOF'), ('MS_TYPE', 'ESI'), ('ION_MODE', 'NEGATIVE'), ('INSTRUMENT_NAME', 'Agilent 6220 TOF Agilent 6220 TOF'), ('INSTRUMENT_TYPE', 'QTOF'), ('INSTRUMENT_TYPE', 'TOF QTOF'), ('MS_TYPE', 'ESI ESI'), ('ION_MODE', 'NEGATIVE NEGATIVE')}
+Sections "MS" contain missmatched items: {('INSTRUMENT_NAME', 'Agilent 6220 TOF Agilent 6220 TOF'), ('ION_MODE', 'NEGATIVE NEGATIVE'), ('INSTRUMENT_TYPE', 'QTOF'), ('ION_MODE', 'NEGATIVE'), ('INSTRUMENT_TYPE', 'TOF QTOF'), ('INSTRUMENT_NAME', 'Agilent 6220 TOF'), ('MS_TYPE', 'ESI'), ('MS_TYPE', 'ESI ESI')}
+Sections "CHROMATOGRAPHY" contain missmatched items: {('CHROMATOGRAPHY_TYPE', 'Normal phase Normal phase Normal phase Normal phase'), ('CHROMATOGRAPHY_SUMMARY', 'Aqueous normal phase diamond hydride'), ('INSTRUMENT_NAME', 'Agilent 1290 Agilent 1290 Agilent 1290 Agilent 1290'), ('CHROMATOGRAPHY_SUMMARY', 'Aqueous normal phase diamond hydride Aqueous normal phase diamond hydride Aqueous normal phase diamond hydride Aqueous normal phase diamond hydride'), ('CHROMATOGRAPHY_TYPE', 'Normal phase'), ('COLUMN_NAME', 'Microsolv Diamond hydride (150mm, 4um) Microsolv Diamond hydride 4 micron, 150 mm column Microsolv Diamond hydride 4 micron, 150 mm column Microsolv Diamond hydride 4 micron, 150 mm column'), ('INSTRUMENT_NAME', 'Agilent 1290'), ('COLUMN_NAME', 'Microsolv Diamond hydride 4 micron, 150 mm column')}
 Unable to find '_DATA' block in given files.
