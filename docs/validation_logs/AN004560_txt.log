@@ -1,0 +1,13 @@
+Validation Log
+2023-08-27 05:29:14.788754
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004560/mwtab/txt
+Study ID:      ST002804
+Analysis ID:   AN004560
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 2
+
+Error Log:
+SCHEMA: Section "FACTORS" does not match the allowed schema. 'FACTORS'
+DATA: Missing either NMR_METABOLITE_DATA or NMR_BINNED_DATA section or NMR_RESULTS_FILE item in NM secction.
