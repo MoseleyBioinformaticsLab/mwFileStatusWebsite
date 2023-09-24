@@ -1,0 +1,12 @@
+Validation Log
+2023-09-24 05:36:41.194647
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004647/mwtab/txt
+Study ID:      ST002840
+Analysis ID:   AN004647
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Wrong key 'SOLVENT_C' in OrderedDict([('CHROMATOGRAPHY_SUMMARY', 'Liquid chromatography (Agilent 1290 Infinity II) was used for the formic acid method.'), ('CHROMATOGRAPHY_TYPE', 'Normal phase'), ('INSTRUMENT_NAME', 'Agilent 1290 Infinity II'), ('COLUMN_NAME', 'Microsolv Diamond hydride (150 x 2.1mm,4um)'), ('SOLVENT_A', 'Milli Q H2O + 0.2% Formic Acid'), ('SOLVENT_B', 'Acetonitrile + 0.2% Formic Acid'), ('SOLVENT_C', 'NA'), ('FLOW_GRADIENT', '0–2 min, 85% B; 3–5 min, 80% B; 6–7 min, 75%; 8–9 min, 70% B; 10–11 min, 50% B; 11–14 min 20% B; 14–24 min 5% B followed by a 10 min re-equilibration period at 85% B'), ('FLOW_RATE', '0.4'), ('COLUMN_TEMPERATURE', '25'), ('METHODS_FILENAME', 'NA'), ('METHODS_ID', 'NA'), ('COLUMN_PRESSURE', 'NA'), ('INJECTION_TEMPERATURE', '25')])
