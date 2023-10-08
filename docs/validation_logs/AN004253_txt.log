@@ -1,0 +1,13 @@
+Validation Log
+2023-10-08 05:20:01.010404
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004253/mwtab/txt
+Study ID:      ST002582
+Analysis ID:   AN004253
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 2
+
+Error Log:
+SCHEMA: Section "COLLECTION" does not match the allowed schema. Missing key: 'COLLECTION_SUMMARY'
+SCHEMA: Section "ANALYSIS" does not match the allowed schema. Wrong key 'ANALYSIS_DETAILS:' in OrderedDict([('ANALYSIS_TYPE', 'MS'), ('ANALYSIS_DETAILS:', 'Peak integration, concentrations calculated base on standards curves equations, in the result file data represented in ng/ul of plasma')])

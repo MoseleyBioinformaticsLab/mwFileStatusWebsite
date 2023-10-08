@@ -1,0 +1,13 @@
+Validation Log
+2023-10-08 05:24:56.914317
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004335/mwtab/txt
+Study ID:      ST002663
+Analysis ID:   AN004335
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 2
+
+Error Log:
+SCHEMA: Section "COLLECTION" does not match the allowed schema. Missing key: 'COLLECTION_SUMMARY'
+SCHEMA: Section "ANALYSIS" does not match the allowed schema. Wrong key 'ANALYSIS_COMMENTS:' in OrderedDict([('ANALYSIS_TYPE', 'MS'), ('ANALYSIS_COMMENTS:', 'Ion ratios of endogenous acyl CoAs to the C-17 CoA internal standard are computed from centroided spectra using a software package NeoLynx (Waters, Milford, MA). The ratios are converted to concentrations using calibrators prepared by spiking tissue homogenates with authentic CoAs (Sigma, St. Louis , MO) having saturated acyl chain lengths C0- C18. Corrections for the heavy isotope effects, mainly 13C, to the adjacent m+2 spectral peaks in a particular chain length cluster are made empirically by referring to the observed spectra for the analytical standards. The values are expressed in pmol/mg.')])
