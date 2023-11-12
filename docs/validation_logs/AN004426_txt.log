@@ -1,0 +1,12 @@
+Validation Log
+2023-11-12 05:31:51.198927
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004426/mwtab/txt
+Study ID:      ST002729
+Analysis ID:   AN004426
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Wrong key 'SOLVENT_C' in OrderedDict([('CHROMATOGRAPHY_SUMMARY', 'Fatty acids (FA), diacylglycerols (DG), and triacylglycerols (TG) were analyzed via Normal phase SFC/MS/MS.'), ('INSTRUMENT_NAME', 'Shimadzu Nexera UC'), ('COLUMN_NAME', 'Waters ACQUITY UPC2 Torus DEA (100 x 3.0mm, 1.7um)'), ('COLUMN_TEMPERATURE', '50℃'), ('FLOW_GRADIENT', '0-1.0 min, 1%B, 1.0-24.0 min, 1-75%B, 24.0-26.0 min, 75%B, 26.0-26.1 min, 75-1%B, 26.1-30.0 min, 1%B'), ('FLOW_RATE', '1.0 mL/min'), ('SOLVENT_A', 'CO2'), ('SOLVENT_B', '0.1% (w/v) ammonium acetate in MeOH/H2O (95/5)'), ('CHROMATOGRAPHY_TYPE', 'Normal phase'), ('SOLVENT_C', '0.1% (w/v) ammonium acetate in MeOH/H2O (95/5)')])
