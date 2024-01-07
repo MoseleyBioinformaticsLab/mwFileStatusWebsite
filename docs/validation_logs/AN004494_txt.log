@@ -1,0 +1,12 @@
+Validation Log
+2024-01-07 05:37:10.996853
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004494/mwtab/txt
+Study ID:      ST002763
+Analysis ID:   AN004494
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Wrong key 'SOLVENT_C' in OrderedDict([('CHROMATOGRAPHY_SUMMARY', 'Chromatography was performed according to DOI: 10.1128/msphere.00184-22'), ('CHROMATOGRAPHY_TYPE', 'Reversed phase'), ('INSTRUMENT_NAME', 'Agilent 1290 Infinity'), ('COLUMN_NAME', 'Agilent InfinityLab Poroshell 120 EC-C18 (100 x 3mm,2.7um)'), ('SOLVENT_A', '10 mM Ammonium acetate and 0.2 mM ammonium fluoride in 9:1 H2O:MeOH (v/v)'), ('SOLVENT_B', '10 mM Ammonium acetate and 0.2 mM ammonium fluoride in 2:3:5 ACN:MeOH:IPA (v/v)'), ('SOLVENT_C', 'N/A'), ('FLOW_GRADIENT', '70%B held 1 min; then increase up to 86 %B at 3.5 min; then hold 10 min; Next, incerase in %B up to 100 %B at 11 min; then, held for 6 min. Then, switched to initial conditions (1.84 min of re-equilibration time)'), ('FLOW_RATE', '0.6 mL/min'), ('COLUMN_TEMPERATURE', '50 ºC'), ('SAMPLE_INJECTION', '2 uL (ESI+, MS1, ITMS with default inj. volume) and 5 uL (ESI-, MS1, ITMS with default inj. volume), 7 uL (ESI+ ITMS with increased inj. volume), 10 uL (ESI- ITMS with increased inj. volume)')])

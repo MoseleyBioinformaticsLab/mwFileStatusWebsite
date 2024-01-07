@@ -1,0 +1,12 @@
+Validation Log
+2024-01-07 05:37:05.129971
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004492/mwtab/txt
+Study ID:      ST002763
+Analysis ID:   AN004492
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Wrong key 'SOLVENT_C' in OrderedDict([('CHROMATOGRAPHY_SUMMARY', 'Chromatography was performed according to DOI: 10.1385/1-59745-003-0:439'), ('CHROMATOGRAPHY_TYPE', 'GC'), ('INSTRUMENT_NAME', 'Agilent 7890B'), ('COLUMN_NAME', 'Agilent DB5-MS (30m x 0.25mm, 0.25um)'), ('SOLVENT_A', 'N/A for GC'), ('SOLVENT_B', 'N/A for GC'), ('SOLVENT_C', 'N/A for GC'), ('FLOW_GRADIENT', 'N/A for GC'), ('FLOW_RATE', '0.85 mL/min'), ('COLUMN_TEMPERATURE', 'According to temperature gradient. DOI: 10.1385/1-59745-003-0:439'), ('INTERNAL_STANDARD', 'Tricosane'), ('SAMPLE_INJECTION', '2 uL')])
