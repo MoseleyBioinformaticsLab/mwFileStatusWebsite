@@ -1,9 +1,12 @@
 Validation Log
-2024-02-04 04:03:36.336782
+2024-02-11 04:04:27.171469
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002923/mwtab/txt
 Study ID:      ST001801
 Analysis ID:   AN002923
 File format:   txt
-Status:Parsing Error
-Unknown file format
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+DATA: Missing MS_METABOLITE_DATA section or MS_RESULTS_FILE item in MS section.

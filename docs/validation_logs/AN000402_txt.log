@@ -1,12 +1,9 @@
 Validation Log
-2024-02-04 01:30:00.632189
+2024-02-11 01:30:11.355492
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000402/mwtab/txt
 Study ID:      ST000254
 Analysis ID:   AN000402
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
-
-Error Log:
-DATA: Missing MS_METABOLITE_DATA section or MS_RESULTS_FILE item in MS section.
+Status:Parsing Error
+('LINE WITH ERROR:\n\t', "' @unc.edu'", ValueError('not enough values to unpack (expected 2, got 1)'))

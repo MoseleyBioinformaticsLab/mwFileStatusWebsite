@@ -1,9 +1,8 @@
 Validation Log
-2024-02-04 04:08:26.130954
+2024-02-11 04:09:29.146087
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002995/mwtab/txt
 Study ID:      ST001849
 Analysis ID:   AN002995
 File format:   txt
-Status:Parsing Error
-('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\tWU350-296\\tB7_WU350-296_d0\\tbatch:7 | WU day of presentation:d0 | SARS-CoV-2 Positive:No | Admitted to the ICU:None | REMDESIVIR on:- | DEXAMETHOSONE on:-\\tRAW_FILE_NAME=B7_WU350-296_d0_polar_pos.mzML B7_WU350-296_d0_polar_neg.mzML B7_WU350-296_d0_lipid_pos.mzML B7_WU350-296_d0_lipid_neg.mzML  Days post symptom onset=9; Sex=Female; BMI=20.5; Age at Symptom onset (years)=27.9; Hospitalized?=No; Time from symptom onset to ICU (days)=None; Subject on ventilation at any point after d0=-; Mortality Status=Alive; Symptom Fever=Yes; Symptom Headache=No; Symptom Cough=No; Symptom Shortness of breath=Yes; Symptom: Sore throat=No; Asymptomatic=No; Death due to COVID-19?=-; 30 day mortality=-; 60 day mortality=-; 90 day mortality=-; CRP=-1; D-dimer=&lt;215; Neutrophil %=64.8; CO2=23; Acute respiratory failure=-; Diabetes=-; Acute renal failure=-; Chronic kidney disease=-; Cancer=-; Age=27.9; Smoker=-1; High/Low arterial pH=-; Neutrophil absolute=3.4; Lymphocyte absolute=1.3; Lymphocyte %=25.1; IL1b=-1; IL10=-1; IL6=-1; RANTES=-1; MIP1a=-1; GMCSF=-1; MCP1=-1; IL15=-1; HGF=-1; VEGF=-1; IL1Ra=-1; IL2R=-1; MIG=-1; IL8=-1'", IndexError('list index out of range'))
+Status: Passing

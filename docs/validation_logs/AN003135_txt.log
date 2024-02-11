@@ -1,9 +1,8 @@
 Validation Log
-2024-02-04 04:15:55.017534
+2024-02-11 04:17:22.673989
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003135/mwtab/txt
 Study ID:      ST001927
 Analysis ID:   AN003135
 File format:   txt
-Status:Parsing Error
-('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\tBov2_1\\tFungal species:Beauveria bassiana Strain Bov2\\tRAW_FILE_NAME=Bov2_1; RAW_FILE_NAME=Bov2_1_R001; Bov2_1_R002; Bov2_1_R003; RAW_FILE_NAME=Bov2_1_R001_NEG; Bov2_1_R002_NEG; Bov2_1_R003_NEG; Group=Bov2'", IndexError('list index out of range'))
+Status: Passing
