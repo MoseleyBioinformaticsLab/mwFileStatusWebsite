@@ -1,0 +1,15 @@
+Validation Log
+2024-02-18 06:04:23.249027
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005015/mwtab/json
+Study ID:      ST003060
+Analysis ID:   AN005015
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 2
+
+Error Log:
+SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Wrong key 'SOLVENT_C' in OrderedDict([('CHROMATOGRAPHY_SUMMARY', 'Ion Pairing UPLC'), ('CHROMATOGRAPHY_TYPE', 'Ion pair'), ('INSTRUMENT_NAME', 'Agilent 1290 Infinity II'), ('COLUMN_NAME', 'Agilent ZORBAX RRHD Extend-C18 (150 x 2.1mm, 1.8um, 80Å)'), ('SOLVENT_A', '97% water, 3% methanol, 5mM tributylamine, 5.5mM acetic acid, 12.5nM medronic acid'), ('SOLVENT_B', '100% methanol, 5mM tributylamine, 5.5mM acetic acid, 12.5nM medronic acid'), ('SOLVENT_C', '100% Acetonitrile'), ('FLOW_GRADIENT', '(Time PercentA PercentB PercentC Flow) (2 100 0 0 0.25) (12 1 99 0 0.25) (19.5 1 99 0 0.25) (20 5 0 95 0.5) (21 5 0 95 0.8) (22 5 0 95 0.8) (26 5 0 95 0.6) (26.1 5 0 95 0.4) (26.2 100 0 0 0.4) (31.8 100 0 0 0.25) (32 100 0 0 0.25)'), ('FLOW_RATE', '0.25 ml/min'), ('COLUMN_TEMPERATURE', '35')])
+SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'F6P m+0')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')
