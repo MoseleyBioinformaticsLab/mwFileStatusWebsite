@@ -1,10 +1,10 @@
 Comparison Log
-2024-03-03 01:37:51.680995
+2024-03-10 01:37:30.888901
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000453/mwtab/...
 Study ID:    ST000285
 Analysis ID: AN000453
 Status:      Inconsistent
 
-mwTab files contain different blocks: "{'NMR_BINNED_DATA', 'Data', 'CHROMATOGRAPHY'}"
+mwTab files contain different blocks: "{'CHROMATOGRAPHY', 'Data', 'NMR_BINNED_DATA'}"
 Unable to find '_DATA' block in given files.
