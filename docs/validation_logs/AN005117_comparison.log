@@ -1,12 +1,12 @@
 Comparison Log
-2024-06-23 06:37:41.468873
+2024-06-30 06:40:10.421667
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005117/mwtab/...
 Study ID:    ST003123
 Analysis ID: AN005117
 Status:      Inconsistent
 
+Sections "PROJECT" contain missmatched items: {('LABORATORY', "Schug's Lab"), ('LABORATORY', "Schug''s Lab")}
+Sections "STUDY" contain missmatched items: {('LABORATORY', "Schug's Lab"), ('LABORATORY', "Schug''s Lab")}
 Sections "SUBJECT" contain missmatched items: {('CELL_BIOSOURCE_OR_SUPPLIER', "Dr. Andrew Aplin''s lab, Thomas Jefferson University (Philadelphia, PA, USA)"), ('CELL_BIOSOURCE_OR_SUPPLIER', "Dr. Andrew Aplin's lab, Thomas Jefferson University (Philadelphia, PA, USA)")}
-Sections "PROJECT" contain missmatched items: {('LABORATORY', "Schug''s Lab"), ('LABORATORY', "Schug's Lab")}
-Sections "STUDY" contain missmatched items: {('LABORATORY', "Schug''s Lab"), ('LABORATORY', "Schug's Lab")}
 'Metabolites' section of 'MS_METABOLITE_DATA' block do not match.
