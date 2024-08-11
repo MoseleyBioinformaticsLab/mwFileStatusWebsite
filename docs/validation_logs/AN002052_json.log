@@ -1,0 +1,12 @@
+Validation Log
+2024-08-11 03:29:22.654712
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002052/mwtab/json
+Study ID:      ST001234
+Analysis ID:   AN002052
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "MS" does not match the allowed schema. Wrong key 'ACQUISITION_DATE' in OrderedDict([('INSTRUMENT_NAME', 'Leco Pegasus IV TOF'), ('INSTRUMENT_TYPE', 'GC-TOF'), ('MS_TYPE', 'EI'), ('ION_MODE', 'POSITIVE'), ('MS_COMMENTS', 'See attached file.'), ('ACQUISITION_DATE', 'March 22, 2016')])
