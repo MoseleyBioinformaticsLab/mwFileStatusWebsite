@@ -1,0 +1,12 @@
+Validation Log
+2024-08-25 06:58:51.369745
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005582/mwtab/json
+Study ID:      ST003401
+Analysis ID:   AN005582
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Wrong key 'SOLVENT_C' in OrderedDict([('CHROMATOGRAPHY_TYPE', 'Normal phase'), ('INSTRUMENT_NAME', 'ThermoFisher Ultimate 3000 RSLC'), ('COLUMN_NAME', 'Intersil si (150 x 2.1mm, 5um)'), ('SOLVENT_A', '100% heptane'), ('SOLVENT_B', '66.67% acetone/33.33% ethyl acetate; 0.15% acetic acid'), ('SOLVENT_C', '85% isopropanol/15% water; 0.043% acetic acid; 0.104 % triethylamine'), ('FLOW_GRADIENT', 'T(min) %A %B %C: 0 100 0 0; 1.5 100 0 0; 1.6 97 3 0; 9 94 6 0; 11 70 30 0; 14 45 55 0; 15 45 55 0; 16 40 55 5; 20 35 55 10; 20.1 33 50 17; 25 38 45 17; 25.1 48 35 17; 30 53 30 17; 40 40 0 60; 40.1 0 100 0; 42 0 100 0; 42.1 50 0 0; 45 50 0 0; 47 100 0 0; 53 100 0 0'), ('FLOW_RATE', '0.8mL/min'), ('COLUMN_TEMPERATURE', '40')])
