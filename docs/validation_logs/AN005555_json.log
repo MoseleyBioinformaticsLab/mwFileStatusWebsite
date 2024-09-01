@@ -1,0 +1,15 @@
+Validation Log
+2024-09-01 07:04:46.420990
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005555/mwtab/json
+Study ID:      ST003388
+Analysis ID:   AN005555
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 2
+
+Error Log:
+SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Wrong key 'SOLVENT_C' in OrderedDict([('CHROMATOGRAPHY_SUMMARY', 'Setup Chiral column to MS and create MRM profiles for each lipid class. Run samples and collect data using parameters in table 2 and 3 below. Table 2. UHPLC Parameters Column: Lux 3 µm i-Cellulose-5, LC Column 250 x 4.6 mm, Part No.: 00G-4755-E0 Detector: MS triple quad Sciex 5500 Injection Volume: 30 µL Sample Temperature: 15 °C Column Temperature: 35 °C Flow rate: 0.5 mL/min. Mobile Phase-A: 5 mM ammonium acetate in Methanol Mobile Phase-B: 5 mM ammonium acetate in Acetonitrile Elution Mode: Gradient see below table Time (min.) A% B% 0 0 100 1 0 100 3 30 70 15 30 70 15.01 0 100 20 0 100'), ('CHROMATOGRAPHY_TYPE', 'Reversed phase'), ('INSTRUMENT_NAME', 'Shimadzu Nexera X2'), ('COLUMN_NAME', 'Phenomenex Lux i-Cellulose-5 (250 x 4.6mm, 3um)'), ('SOLVENT_A', '100% methanol; 5 mM ammonium acetate'), ('SOLVENT_B', '100% acetonitrile; 5 mM ammonium acetate'), ('SOLVENT_C', 'none'), ('FLOW_GRADIENT', 'Time (min.) A% B%; 0 0 100; 1 0 100; 3 30 70; 15 30 70; 15.01 0 100; 20 0 100'), ('FLOW_RATE', '0.5 mL/min'), ('COLUMN_TEMPERATURE', '35'), ('METHODS_FILENAME', 'LIPIDOMICS_protocol_all_parameters_etc.pdf'), ('INTERNAL_STANDARD', 'PI, PIP, PIP2')])
+SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'PI32:1')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')
