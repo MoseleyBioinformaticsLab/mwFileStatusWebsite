@@ -1,11 +1,11 @@
 Comparison Log
-2024-11-10 06:43:04.320432
+2024-11-17 06:40:19.473008
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005206/mwtab/...
 Study ID:    ST003172
 Analysis ID: AN005206
 Status:      Inconsistent
 
-Sections "CHROMATOGRAPHY" contain missmatched items: {('SOLVENT_A', '100% Water; 1% Formic Acid '), ('SOLVENT_A', '100% Water; 1% Formic Acid'), ('SOLVENT_B', '100% Acetonitrile; 1% Formic Acid '), ('SOLVENT_B', '100% Acetonitrile; 1% Formic Acid')}
+Sections "CHROMATOGRAPHY" contain missmatched items: {('SOLVENT_B', '100% Acetonitrile; 1% Formic Acid '), ('SOLVENT_A', '100% Water; 1% Formic Acid'), ('SOLVENT_A', '100% Water; 1% Formic Acid '), ('SOLVENT_B', '100% Acetonitrile; 1% Formic Acid')}
 'Metabolites' section of 'MS_METABOLITE_DATA' block do not match.
 'Data' section of 'MS_METABOLITE_DATA' block do not match.
