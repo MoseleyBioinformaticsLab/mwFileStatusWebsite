@@ -1,0 +1,12 @@
+Validation Log
+2024-12-08 06:56:33.497177
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005463/mwtab/json
+Study ID:      ST003334
+Analysis ID:   AN005463
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Wrong key 'SOLVENT_C' in OrderedDict([('CHROMATOGRAPHY_SUMMARY', 'The LC and MS conditions for serum was as follows: LC solvent A (water/0.1% formic acid [FA]), solvent B (acetonitrile/0.1% FA), and solvent C (isopropanol/0.1% FA). Operating conditions for ESI were, capillary voltage 3 kV, cone voltage 30 V, desolvation temperature 500°C, desolvation gas flow 600 L/Hr. The gradient for serum was: 4 min 98% A 2% B, 4 min 40% A 60% B, 1.5 min 2% A 98% B, 2 min 11.8% B 88.2% C, 0.5 min 50% A 50% B, and 1 min 98% A 2% B at a flow rate of 0.5 ml/min, column temp 60 °C (S3 Fig).'), ('CHROMATOGRAPHY_TYPE', 'Reversed phase'), ('INSTRUMENT_NAME', 'Waters Acquity'), ('COLUMN_NAME', 'Waters ACQUITY UPLC BEH C18 (50 x 2.1mm,1.7um)'), ('SOLVENT_A', '100% water; 0.1% formic acid'), ('SOLVENT_B', '100% acetonitrile; 0.1% formic acid'), ('SOLVENT_C', '100% isopropanol; 0.1% formic acid'), ('FLOW_GRADIENT', '4 min 98% A 2% B, 4 min 40% A 60% B, 1.5 min 2% A 98% B, 2 min 11.8% B 88.2% C, 0.5 min 50% A 50% B, and 1 min 98% A 2% B'), ('FLOW_RATE', '0.5 ml/min'), ('COLUMN_TEMPERATURE', '60')])
