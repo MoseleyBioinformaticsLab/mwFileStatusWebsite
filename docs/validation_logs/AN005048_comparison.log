@@ -1,12 +1,12 @@
 Comparison Log
-2024-12-08 06:36:15.008020
+2024-12-15 06:36:43.534204
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005048/mwtab/...
 Study ID:    ST003087
 Analysis ID: AN005048
 Status:      Inconsistent
 
-Sections "STUDY" contain missmatched items: {('INSTITUTE', "Boston Children's Hospital, Harvard Medical School"), ('INSTITUTE', "Boston Children''s Hospital, Harvard Medical School")}
-Sections "MS" contain missmatched items: {('MS_COMMENTS', 'HESI, See uploaded protocol.docx for metabolite metadata Tags key and explanation'), ('MS_COMMENTS', 'HESI, See uploaded protocol.docx for metabolite metadata "Tags" key and explanation')}
+Sections "MS" contain missmatched items: {('MS_COMMENTS', 'HESI, See uploaded protocol.docx for metabolite metadata "Tags" key and explanation'), ('MS_COMMENTS', 'HESI, See uploaded protocol.docx for metabolite metadata Tags key and explanation')}
+Sections "STUDY" contain missmatched items: {('INSTITUTE', "Boston Children''s Hospital, Harvard Medical School"), ('INSTITUTE', "Boston Children's Hospital, Harvard Medical School")}
 'Metabolites' section of 'MS_METABOLITE_DATA' block do not match.
 'Data' section of 'MS_METABOLITE_DATA' block do not match.
