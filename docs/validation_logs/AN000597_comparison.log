@@ -1,11 +1,11 @@
 Comparison Log
-2024-12-29 01:48:31.798548
+2025-01-05 01:48:10.270259
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000597/mwtab/...
 Study ID:    ST000364
 Analysis ID: AN000597
 Status:      Inconsistent
 
-mwTab files contain different blocks: "{'Data', 'NMR_BINNED_DATA'}"
-Sections "PROJECT" contain missmatched items: {('ADDRESS', '"Box 7614 NCSU Campus Raleigh, NC 27695"'), ('ADDRESS', 'Box 7614 NCSU Campus Raleigh, NC 27695')}
+mwTab files contain different blocks: "{'NMR_BINNED_DATA', 'Data'}"
+Sections "PROJECT" contain missmatched items: {('ADDRESS', 'Box 7614 NCSU Campus Raleigh, NC 27695'), ('ADDRESS', '"Box 7614 NCSU Campus Raleigh, NC 27695"')}
 Unable to find '_DATA' block in given files.

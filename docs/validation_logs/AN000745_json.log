@@ -1,0 +1,14 @@
+Validation Log
+2025-01-05 02:06:41.338172
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000745/mwtab/json
+Study ID:      ST000479
+Analysis ID:   AN000745
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "NMR_METABOLITE_DATA" does not match the allowed schema. Key 'Data' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', '2-Aminobutyrate'), ('G041', '0.443'), ('G042', '0.411'), ('G043', '0.437'), ('G044', '0.407'), ('G341', '0.354'), ('G342', '0.291'), ('G343', '0.299'), ('G344', '0.334'), ('G345', '0.333'), ('G741', '0.405'), ('G742', '0.412'), ('G743', '0.393'), ('G744', '0.400'), ('G011', '0.367'), ('G012', '0.355'), ('G013', '0.345'), ('G014', '0.373'), ('G311', '0.341'), ('G312', '0.335'), ('G313', '0.350'), ('G314', '0.357'), ('G315', '0.343'), ('P311', '0.359'), ('P312', '0.390'), ('P313', '0.353'), ('P314', '0.329'), ('P315', '0.344')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')
