@@ -1,0 +1,12 @@
+Validation Log
+2025-01-12 07:25:45.564231
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005980/mwtab/txt
+Study ID:      ST003641
+Analysis ID:   AN005980
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Wrong key 'SOLVENT_C' in OrderedDict([('CHROMATOGRAPHY_SUMMARY', 'Detection and separation of 7Î±-hydroxy-4-cholesten-3-one (C4) using a UHPLC gradient method. Duration = 15min. Please see ETV-Lab-C4-Methods.pdf for details.'), ('METHODS_FILENAME', 'ETV-Lab-C4-Methods.pdf'), ('INSTRUMENT_NAME', 'Thermo Dionex Ultimate 3000'), ('COLUMN_NAME', 'ACE Excel SuperC18 (150 x 2.1mm, 2um, 90Ã\x85)'), ('COLUMN_TEMPERATURE', '50'), ('FLOW_GRADIENT', '0.3 ml/min: 0min: 60% C, 40% A, 0.5min: 60% C, 40% A, 2min: 90% C, 10% A, 5min: 100% C, 9min: 100% C, 10-15min: 60% C, 40% A'), ('FLOW_RATE', '0.3 mL/min'), ('INJECTION_TEMPERATURE', '5'), ('SOLVENT_A', 'Water 80%/20% methanol; 0.1% formic acid;'), ('SOLVENT_B', '-'), ('CHROMATOGRAPHY_TYPE', 'Reversed phase'), ('SOLVENT_C', '100% Methanol')])
