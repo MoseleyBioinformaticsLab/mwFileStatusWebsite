@@ -1,0 +1,12 @@
+Validation Log
+2025-01-19 07:27:47.128403
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005966/mwtab/txt
+Study ID:      ST003633
+Analysis ID:   AN005966
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "ANALYSIS" does not match the allowed schema. Missing key: 'ANALYSIS_TYPE'
