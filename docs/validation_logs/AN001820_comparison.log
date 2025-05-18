@@ -1,10 +1,10 @@
 Comparison Log
-2025-05-11 02:31:42.171977
+2025-05-18 02:31:14.878472
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001820/mwtab/...
 Study ID:    ST000623
 Analysis ID: AN001820
 Status:      Inconsistent
 
-Sections "MS" contain missmatched items: {('INSTRUMENT_TYPE', 'Single quadrupole Single quadrupole'), ('ION_MODE', 'POSITIVE POSITIVE'), ('INSTRUMENT_TYPE', 'Single quadrupole'), ('MS_TYPE', 'EI EI'), ('ION_MODE', 'POSITIVE'), ('MS_TYPE', 'EI'), ('INSTRUMENT_NAME', 'Agilent 5975 MS'), ('INSTRUMENT_NAME', 'Agilent 5975 Agilent 5975 MS')}
+Sections "MS" contain missmatched items: {('ION_MODE', 'POSITIVE'), ('INSTRUMENT_TYPE', 'Single quadrupole'), ('INSTRUMENT_TYPE', 'Single quadrupole Single quadrupole'), ('ION_MODE', 'POSITIVE POSITIVE'), ('INSTRUMENT_NAME', 'Agilent 5975 MS'), ('MS_TYPE', 'EI'), ('INSTRUMENT_NAME', 'Agilent 5975 Agilent 5975 MS'), ('MS_TYPE', 'EI EI')}
 'Metabolite'
