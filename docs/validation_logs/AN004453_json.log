@@ -1,0 +1,12 @@
+Validation Log
+2025-06-08 06:05:29.963359
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004453/mwtab/json
+Study ID:      ST002746
+Analysis ID:   AN004453
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Wrong key 'SOLVENT_C' in OrderedDict([('CHROMATOGRAPHY_SUMMARY', 'We use a 7890A GC coupled with a LECO TOF. 0.5 uL of derivatized sample is injected using a splitless method onto a RESTEK RTX-5SIL MS column with an Intergra-Guard at 275C with a helium flow of 1 mL/min. The GC oven is set to hold at 50C for 1 min then ramp to 20C/min to 330C and then hold for 5 min. The transferline is set to 280C while the EI ion source is set to 250C. The Mass spec parameters collect data from 85m/z to 500m/z at an acquisition rate of 17 spectra/sec.'), ('CHROMATOGRAPHY_TYPE', 'GC'), ('INSTRUMENT_NAME', 'Agilent 7890A'), ('COLUMN_NAME', 'Restek Rtx-5Sil MS (30m x 0.25mm, 0.25um)'), ('SOLVENT_A', 'N/A for GC'), ('SOLVENT_B', 'N/A for GC'), ('SOLVENT_C', 'N/A for GC'), ('FLOW_GRADIENT', 'N/A for GC'), ('FLOW_RATE', '-'), ('COLUMN_TEMPERATURE', '-')])
