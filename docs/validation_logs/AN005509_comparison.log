@@ -1,16 +1,16 @@
 Comparison Log
-2025-06-22 07:14:08.806648
+2025-06-29 07:18:52.589379
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005509/mwtab/...
 Study ID:    ST003363
 Analysis ID: AN005509
 Status:      Inconsistent
 
-Sections "ANALYSIS" contain missmatched items: {('ANALYSIS_TYPE', 'NMR'), ('ANALYSIS_PROTOCOL_FILE', '5_Analysis_protocol_Glu_2024.pdf'), ('ANALYSIS_PROTOCOL_FILE', '5_Analysis protocol_Glu_2024.pdf')}
-Sections "STUDY" contain missmatched items: {('PHONE', '(706) 542-8387'), ('PHONE', '\u202d(706) 542-8387\u202c'), ('SUBMIT_DATE', '2024-07-29')}
-Sections "NM" contain missmatched items: {('NMR_COMMENTS', "The raw NMR data files are in the ''Spectra'' folder."), ('NMR_COMMENTS', "The raw NMR data files are in the 'Spectra' folder.")}
-Sections "PROJECT" contain missmatched items: {('PHONE', '(706) 542-8387'), ('PHONE', '\u202d(706) 542-8387\u202c'), ('DOI', 'http://dx.doi.org/10.21228/M8KR7D')}
-Sections "SAMPLEPREP" contain missmatched items: {('SAMPLEPREP_PROTOCOL_FILENAME', '4_Sample_preparation_protocol_Glu_2024.pdf'), ('SAMPLEPREP_PROTOCOL_FILENAME', '4_Sample preparation protocol_Glu_2024.pdf')}
+Sections "STUDY" contain missmatched items: {('PHONE', '\u202d(706) 542-8387\u202c'), ('PHONE', '(706) 542-8387'), ('SUBMIT_DATE', '2024-07-29')}
 Sections "COLLECTION" contain missmatched items: {('COLLECTION_SUMMARY', '7.5 to 20 mL of milk samples were collected from mothers and kept in sterile 50-mL tubes (Sigma-Aldrich). The samples were kept cold and transported to the laboratory within the first two hours of the sampling. 5 mL of the breast milk samples were aliquoted in cryovials and stored at -80oC for glutamate analysis.'), ('COLLECTION_SUMMARY', '7.5 to 20 mL of milk samples were collected from mothers and kept in sterile 50-mL tubes (Sigma-Aldrich). The samples were kept cold and transported to the laboratory within the first two hours of the sampling. 5 mL of the breast milk samples were aliquoted in cryovials and stored at -80oC for glutamate analysis. Lactation stage 1 = colostrum, 2 = transition, 3 = mature.')}
+Sections "PROJECT" contain missmatched items: {('PHONE', '\u202d(706) 542-8387\u202c'), ('PHONE', '(706) 542-8387'), ('DOI', 'http://dx.doi.org/10.21228/M8KR7D')}
+Sections "ANALYSIS" contain missmatched items: {('ANALYSIS_PROTOCOL_FILE', '5_Analysis_protocol_Glu_2024.pdf'), ('ANALYSIS_PROTOCOL_FILE', '5_Analysis protocol_Glu_2024.pdf'), ('ANALYSIS_TYPE', 'NMR')}
+Sections "NM" contain missmatched items: {('NMR_COMMENTS', "The raw NMR data files are in the 'Spectra' folder."), ('NMR_COMMENTS', "The raw NMR data files are in the ''Spectra'' folder.")}
+Sections "SAMPLEPREP" contain missmatched items: {('SAMPLEPREP_PROTOCOL_FILENAME', '4_Sample preparation protocol_Glu_2024.pdf'), ('SAMPLEPREP_PROTOCOL_FILENAME', '4_Sample_preparation_protocol_Glu_2024.pdf')}
 'Metabolites' section of 'NMR_METABOLITE_DATA' block do not match.
 'Data' section of 'NMR_METABOLITE_DATA' block do not match.
