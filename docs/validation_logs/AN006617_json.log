@@ -1,0 +1,12 @@
+Validation Log
+2025-07-06 08:01:17.865163
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006617/mwtab/json
+Study ID:      ST004012
+Analysis ID:   AN006617
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {''} found in MS_METABOLITE_DATA section.

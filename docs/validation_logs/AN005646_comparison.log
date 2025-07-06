@@ -1,12 +1,12 @@
 Comparison Log
-2025-06-29 07:25:55.754124
+2025-07-06 07:21:59.783248
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005646/mwtab/...
 Study ID:    ST003436
 Analysis ID: AN005646
 Status:      Inconsistent
 
-Sections "STUDY" contain missmatched items: {('LABORATORY', "Schug's Lab"), ('LABORATORY', "Schug''s Lab")}
-Sections "PROJECT" contain missmatched items: {('LABORATORY', "Schug's Lab"), ('LABORATORY', "Schug''s Lab")}
+Sections "STUDY" contain missmatched items: {('LABORATORY', "Schug''s Lab"), ('LABORATORY', "Schug's Lab")}
 Sections "ANALYSIS" contain missmatched items: {('LABORATORY_NAME', "Schug''s Lab"), ('LABORATORY_NAME', "Schug's Lab")}
+Sections "PROJECT" contain missmatched items: {('LABORATORY', "Schug''s Lab"), ('LABORATORY', "Schug's Lab")}
 'Metabolites' section of 'MS_METABOLITE_DATA' block do not match.
