@@ -1,9 +1,8 @@
 Validation Log
-2025-08-17 04:26:34.340654
+2025-08-24 04:26:52.521469
 mwtab Python Library Version: 1.2.5
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002534/mwtab/txt
 Study ID:      ST001521
 Analysis ID:   AN002534
 File format:   txt
-Status:Parsing Error
-('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\tQC-pooled_plasma\\tQPP01\\tStudy_Diet:NA | Age:NA | Sex:NA | Race:NA | Time:NA\\tType=Plasma; BMI=NA; Ethnicity=NA; RAW_FILE_NAME=NA;NA;0000d_WU_FARMM_CMH_QPP-01.raw NA'", IndexError('list index out of range'))
+Status: Passing
