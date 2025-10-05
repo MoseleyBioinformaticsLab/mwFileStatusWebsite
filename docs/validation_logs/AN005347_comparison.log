@@ -1,5 +1,5 @@
 Comparison Log
-2025-09-28 07:52:47.237886
+2025-10-05 07:52:18.356547
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005347/mwtab/...
 Study ID:    ST003263
@@ -7,6 +7,6 @@ Analysis ID: AN005347
 Status:      Inconsistent
 
 Sections "MS" contain missmatched items: {('MS_RESULTS_FILE', 'ST003263_AN005347_Results.txt UNITS:Normalized data. All data is unitless. Note that masses ending in "m/z" are mass-to-charge values while those ending in "n" are neutral masses Has m/z:Yes Has RT:Yes RT units:Minutes'), ('MS_RESULTS_FILE', 'ST003263_AN005347_Results.txt UNITS:Normalized data. All data is unitless. Note that masses ending in m/z are mass-to-charge values while those ending in n are neutral masses Has m/z:Yes Has RT:Yes RT units:Minutes')}
-Sections "STUDY" contain missmatched items: {('INSTITUTE', 'UNC-Chapel Hill'), ('INSTITUTE', 'University of North Carolina at Chapel Hill'), ('SUBMIT_DATE', '2024-06-17')}
-Sections "PROJECT" contain missmatched items: {('INSTITUTE', 'UNC-Chapel Hill'), ('INSTITUTE', 'University of North Carolina at Chapel Hill'), ('DOI', 'http://dx.doi.org/10.21228/M8VJ86')}
+Sections "STUDY" contain missmatched items: {('SUBMIT_DATE', '2024-06-17'), ('INSTITUTE', 'University of North Carolina at Chapel Hill'), ('INSTITUTE', 'UNC-Chapel Hill')}
+Sections "PROJECT" contain missmatched items: {('INSTITUTE', 'University of North Carolina at Chapel Hill'), ('DOI', 'http://dx.doi.org/10.21228/M8VJ86'), ('INSTITUTE', 'UNC-Chapel Hill')}
 Unable to find '_DATA' block in given files.
