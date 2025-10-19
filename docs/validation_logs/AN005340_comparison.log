@@ -1,5 +1,5 @@
 Comparison Log
-2025-10-12 07:45:22.940579
+2025-10-19 07:45:03.400471
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005340/mwtab/...
 Study ID:    ST003258
@@ -7,7 +7,7 @@ Analysis ID: AN005340
 Status:      Inconsistent
 
 Sections "PROJECT" contain missmatched items: {('DOI', 'http://dx.doi.org/10.21228/M87V6Z')}
+Sections "CHROMATOGRAPHY" contain missmatched items: {('CHROMATOGRAPHY_TYPE', 'Reversed phase'), ('CHROMATOGRAPHY_TYPE', 'HILIC')}
 Sections "STUDY" contain missmatched items: {('SUBMIT_DATE', '2024-04-05'), ('STUDY_TITLE', "Rev-erb''s Role in Muscle Metabolism: Mass Spectrometry Analysis in WT and Rev-erb skeletal muscle specific knockout Mice"), ('STUDY_TITLE', "Rev-erb's Role in Muscle Metabolism: Mass Spectrometry Analysis in WT and Rev-erb skeletal muscle specific knockout Mice")}
-Sections "CHROMATOGRAPHY" contain missmatched items: {('CHROMATOGRAPHY_TYPE', 'HILIC'), ('CHROMATOGRAPHY_TYPE', 'Reversed phase')}
 'Metabolite'
 'Data' section of 'MS_METABOLITE_DATA' block do not match.
