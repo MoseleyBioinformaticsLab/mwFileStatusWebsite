@@ -78,7 +78,21 @@ def create_validation_dict(study_analysis_dict):
                     "status": {
                         "txt": None,
                         "json": None
-                    }
+                    },
+                    'issues': {
+                        'txt': {
+                            'value': False,
+                            'consistency': False,
+                            'format': False,
+                            'warnings': False
+                            },
+                        'json': {
+                            'value': False,
+                            'consistency': False,
+                            'format': False,
+                            'warnings': False
+                            }
+                        }
                 } for analysis_id in sorted(study_analysis_dict[study_id])
             }
         } for study_id in sorted(study_analysis_dict.keys())
@@ -113,21 +127,31 @@ def _validate(validation_dict, study_id, analysis_id, file_format, save_path=Non
 
     sleep(SLEEP_TIME)
 
-    # TODO: Allow validating METABOLITES section
-    validated_mwtabfile, validation_log = mwtab.validate_file(mwtabfile, metabolites=False)
+    validation_log, validation_json = mwtab.validate_file(mwtabfile)
 
     # parse validation status (e.g. "Passing") from validation log
     status_str = re.search(r'Status.*', validation_log).group(0).split(': ')[1]
     if status_str == 'Passing':
         validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Passing"
-    elif status_str == 'Contains Validation Errors':
-        validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Validation Error"
+    elif status_str == 'Contains Validation Issues':
+        validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Validation Issue"
+    
+    for issue in validation_json:
+        if issue['message'].startswith('Error'):
+            if 'value' in issue['tags']:
+                validation_dict[study_id]["analyses"][analysis_id]["issues"][file_format]['value'] = True
+            if 'consistency' in issue['tags']:
+                validation_dict[study_id]["analyses"][analysis_id]["issues"][file_format]['consistency'] = True
+            if 'format' in issue['tags']:
+                validation_dict[study_id]["analyses"][analysis_id]["issues"][file_format]['format'] = True
+        elif issue['message'].startswith('Warning'):
+            validation_dict[study_id]["analyses"][analysis_id]["issues"][file_format]['warnings'] = True
 
     # parse out STUDY block parameters
     if not validation_dict[study_id]["params"]:
         validation_dict[study_id]["params"] = mwtabfile["STUDY"]
 
-    return validated_mwtabfile, validation_log
+    return mwtabfile, validation_log
 
 
 def validate(validation_dict, study_id, analysis_id, file_format, save_path=None):

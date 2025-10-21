@@ -13,7 +13,7 @@ import pkgutil
 
 MESSAGE_COLOR = {
     "Passing": "brightgreen",
-    "Validation Error": "orange",
+    "Validation Issue": "orange",
     "Parsing Error": "red",
     "Missing/Blank": "lightgrey",
     'Consistent': 'brightgreen',
@@ -22,7 +22,7 @@ MESSAGE_COLOR = {
 }
 MESSAGE_TO_LEVEL = {
     "Passing": 0,
-    "Validation Error": 1,
+    "Validation Issue": 1,
     "Parsing Error": 2,
     "Missing/Blank": 3,
 }
@@ -32,7 +32,8 @@ LEVEL_TO_MESSAGE = {
 # load in all the necessary HTML templates
 INDEX_HEADER_TEMPLATE = pkgutil.get_data(__name__, 'templates/index_header_template.txt').decode('utf-8')
 INDEX_TEMPLATE = pkgutil.get_data(__name__, 'templates/index_template.txt').decode('utf-8')
-VAL_STATS_TEMPLATE = pkgutil.get_data(__name__, 'templates/statistics_template.txt').decode('utf-8')
+STATUS_STATS_TEMPLATE = pkgutil.get_data(__name__, 'templates/statistics_template_status.txt').decode('utf-8')
+ISSUES_STATS_TEMPLATE = pkgutil.get_data(__name__, 'templates/statistics_template_issues.txt').decode('utf-8')
 COMP_STATS_TEMPLATE = pkgutil.get_data(__name__, 'templates/comparison_stats_template.txt').decode('utf-8')
 HEADER_TEMPLATE = pkgutil.get_data(__name__, 'templates/header_template.txt').decode('utf-8')
 GRID_TEMPLATE = pkgutil.get_data(__name__, 'templates/grid_template.txt').decode('utf-8')
@@ -62,26 +63,34 @@ def generate_validation_stats_summary(validation_dict):
 
     :param validation_dict: Dictionary object containing the validation statuses for all validated mwTab data files.
     :type validation_dict: dict
-    :return: Tuple containing the number of validated studies, number of validated analyses, and the dictionary
-    containing the validation data (eg. number Passing, number with Validation Errors, etc.).
+    :return: Tuple containing the number of validated studies, number of validated analyses, the dictionary
+    containing the validation data (eg. number Passing, number with Validation Errors, etc.), and the dicitonary 
+    containing validation issues.
     :rtype: tuple
     """
     num_studies = 0
     num_analyses = 0
     error_num_dict = {
-        key: {"txt": 0, "json": 0} for key in ["Passing", "Parsing Error", "Validation Error", "Missing/Blank"]
+        key: {"txt": 0, "json": 0} for key in ["Passing", "Parsing Error", "Validation Issue", "Missing/Blank"]
+    }
+    issue_types = ["value", "consistency", "format", "warning"]
+    issue_num_dict = {
+        key: {"txt": 0, "json": 0} for key in issue_types
     }
 
     for study_id in validation_dict:
         num_studies += 1
 
-        for analysis_id in validation_dict[study_id]["analyses"]:
+        for analysis_id, analysis_dict in validation_dict[study_id]["analyses"].items():
             num_analyses += 1
 
             for file_format in ('txt', 'json'):
-                error_num_dict[validation_dict[study_id]["analyses"][analysis_id]["status"][file_format]][file_format] += 1
+                error_num_dict[analysis_dict["status"][file_format]][file_format] += 1
+                for issue_type in issue_types:
+                    if analysis_dict["issues"][file_format][issue_type]:
+                        issue_num_dict[issue_type][file_format] += 1
 
-    return num_studies, num_analyses, error_num_dict
+    return num_studies, num_analyses, error_num_dict, issue_num_dict
 
 
 def generate_comparison_stats_summary(validation_dict):
@@ -152,16 +161,21 @@ def create_html(validation_dict, config_dict, output_filename):
         # collect and write validation and comparison stats #
         #####################################################
         # collect general statistics for the run (number of available studies and analyses).
-        num_studies, num_analyses, error_dict = generate_validation_stats_summary(validation_dict)
+        num_studies, num_analyses, error_dict, issue_dict = generate_validation_stats_summary(validation_dict)
 
         # Fill out the statistics_template and comparison_stats_template.
         num_errors = list()
         for error_type in error_dict:
             for file_format in error_dict[error_type]:
                 num_errors.append(error_dict[error_type][file_format])
+        issue_errors = []
+        for issue_type in issue_dict:
+            for file_format in issue_dict[issue_type]:
+                issue_errors.append(issue_dict[issue_type][file_format])
 
         # writes the validation and comparison stats sections to the HTML file
-        fh.write(VAL_STATS_TEMPLATE.format(num_studies, num_analyses, *num_errors, config_dict['owner'], config_dict['repo']))
+        fh.write(STATUS_STATS_TEMPLATE.format(num_studies, num_analyses, *num_errors, config_dict['owner'], config_dict['repo']))
+        fh.write(ISSUES_STATS_TEMPLATE.format(num_studies, num_analyses, *issue_errors, config_dict['owner'], config_dict['repo']))
         fh.write(COMP_STATS_TEMPLATE.format(*generate_comparison_stats_summary(validation_dict)))
 
         ################################
@@ -221,7 +235,7 @@ def create_html(validation_dict, config_dict, output_filename):
         fh.write("\t\t</div>\n\t</body>\n</html>\n")
 
 
-def create_error_dicts(validation_dict, status_str, file_format=None):
+def filter_analyses_by_status(validation_dict, status_str, match_all_formats = False):
     """Method for creating a dictionary containing the validation status and additional parameters of analyses with
     indicated validation status.
 
@@ -229,8 +243,8 @@ def create_error_dicts(validation_dict, status_str, file_format=None):
     :type validation_dict: dict
     :param status_str: Analysis validation status to be searched for.
     :type status_str: str
-    :param file_format: Indicates which file format to be searched (if only one).
-    :type file_format: str or bool
+    :param match_all_formats: Whether all file formats must have the indicated status_str or just one.
+    :type match_all_formats: bool
     :return: Structured dictionary containing analyses statuses and other study information for analyses with indicated
     validation status.
     :rtype: dict
@@ -238,24 +252,59 @@ def create_error_dicts(validation_dict, status_str, file_format=None):
     status_dict = dict()
 
     for study_id in validation_dict:
-        for analysis_id in validation_dict[study_id]["analyses"]:
+        for analysis_id, analysis_dict in validation_dict[study_id]["analyses"].items():
 
             # both file formats have the same validation status
-            if not file_format:
-                file_format_status_set = {validation_dict[study_id]["analyses"][analysis_id]["status"]['json'],
-                                          validation_dict[study_id]["analyses"][analysis_id]["status"]['txt']}
+            if match_all_formats:
+                file_format_status_set = {analysis_dict["status"]['json'],
+                                          analysis_dict["status"]['txt']}
                 if {status_str} == file_format_status_set:
                     status_dict.setdefault(study_id, dict()).setdefault("params", validation_dict[study_id]["params"])
-                    status_dict[study_id].setdefault("analyses", dict())[analysis_id] = \
-                        validation_dict[study_id]["analyses"][analysis_id]
-
-            # TODO: Allow specifying which file format to be checked
+                    status_dict[study_id].setdefault("analyses", dict())[analysis_id] = analysis_dict
 
             # only one file format has a given status
             else:
-                if status_str in set(validation_dict[study_id]["analyses"][analysis_id]["status"].values()):
+                if status_str in set(analysis_dict["status"].values()):
                     status_dict.setdefault(study_id, dict()).setdefault("params", validation_dict[study_id]["params"])
-                    status_dict[study_id].setdefault("analyses", dict())[analysis_id] =  \
-                        validation_dict[study_id]["analyses"][analysis_id]
+                    status_dict[study_id].setdefault("analyses", dict())[analysis_id] =  analysis_dict
 
     return status_dict
+
+
+def filter_analyses_by_issues(validation_dict, issues_str, match_all_formats = False):
+    """Method for creating a dictionary containing the validation issues and additional parameters of analyses with
+    indicated validation issues.
+
+    :param validation_dict: Structured dictionary containing analyses issues and other study information.
+    :type validation_dict: dict
+    :param issues_str: Analysis validation issues to be searched for.
+    :type issues_str: str
+    :param match_all_formats: Whether all file formats must have the indicated status_str or just one.
+    :type match_all_formats: bool
+    :return: Structured dictionary containing analyses statuses and other study information for analyses with indicated
+    validation issues.
+    :rtype: dict
+    """
+    issues_dict = dict()
+
+    for study_id in validation_dict:
+        for analysis_id, analysis_dict in validation_dict[study_id]["analyses"].items():
+            file_format_issues = [analysis_dict['issues']['json'][issues_str], analysis_dict['issues']['txt'][issues_str]]
+
+            # both file formats have the same validation issue
+            if match_all_formats and all(file_format_issues):
+                issues_dict.setdefault(study_id, dict()).setdefault("params", validation_dict[study_id]["params"])
+                issues_dict[study_id].setdefault("analyses", dict())[analysis_id] = analysis_dict
+
+            # only one file format has a given issue
+            elif any(file_format_issues):
+                issues_dict.setdefault(study_id, dict()).setdefault("params", validation_dict[study_id]["params"])
+                issues_dict[study_id].setdefault("analyses", dict())[analysis_id] =  analysis_dict
+
+    return issues_dict
+
+
+
+
+
+

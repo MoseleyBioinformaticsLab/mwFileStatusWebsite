@@ -77,14 +77,11 @@ FULL_STUDY_ANALYSIS_DICT = pkgutil.get_data(__name__, '/test/study_analysis_dict
     [{'ST000001': ['AN000001']}, 'Passing', 'txt'],
     [{'ST000001': ['AN000001']}, 'Passing', 'json']
 ])
-def test_validate_mwtab_files_hardcoded(input_list):
-    """Hardcoded method for testing the ``validate_mwtab_files()`` method in the ``validator`` module.
-
-    :return:
-    """
+def test_validate_mwtab_rest(input_list):
+    """No mocking. Test that downloading and validating from the Workbench works."""
     study_id = list(input_list[0].keys())[0]
     analysis_id = input_list[0][study_id][0]
-    validation_dict = mwFileStatusWebsite.validator.validate_mwtab_files(input_dict=input_list[0])
+    validation_dict = mwFileStatusWebsite.validator.validate_mwtab_rest(input_dict=input_list[0])
 
     assert validation_dict[study_id]['analyses'][analysis_id]['status'][input_list[2]]
 

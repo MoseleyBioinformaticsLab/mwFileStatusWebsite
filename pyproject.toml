@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mwFileStatusWebsite"
+description = "Supplemental database for the Metabolomics Workbench data repository"
+readme = "README.md"
+requires-python = ">=3.6"
+keywords = ["mwtab", "metabolomics workbench"]
+license = {file = "LICENSE"}
+classifiers = [
+        'Environment :: Console',
+        'Intended Audience :: Developers',
+        'Intended Audience :: Science/Research',
+        'License :: OSI Approved :: BSD License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Topic :: Scientific/Engineering :: Bio-Informatics',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+]
+dynamic = ["version", "dependencies"]
+
+[project.urls]
+"Homepage" = "https://github.com/MoseleyBioinformaticsLab/mwFileStatusWebsite"
+"Documentation" = "https://moseleybioinformaticslab.github.io/mwFileStatusWebsite/"
+"GitHub" = "https://github.com/MoseleyBioinformaticsLab/mwFileStatusWebsite"
+"Issues" = "https://github.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/issues"
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
+
+[tool.setuptools.package-data]
+mwFileStatusWebsite = ['templates/*']
+
+[project.scripts]
+mwFileStatusWebsite = "mwFileStatusWebsite.__main__:main"
+
+[tool.setuptools_scm]
+write_to = "src/mwFileStatusWebsite/_version.py"
+
+[tool.coverage.run]
+patch = ["subprocess"]
