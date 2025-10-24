@@ -13,18 +13,20 @@ import pkgutil
 
 MESSAGE_COLOR = {
     "Passing": "brightgreen",
-    "Validation Issue": "orange",
+    "Warnings Only": "yellow",
+    "Validation Error": "orange",
     "Parsing Error": "red",
-    "Missing/Blank": "lightgrey",
+    "Missing/Blank": "brightred",
     'Consistent': 'brightgreen',
     'Inconsistent': 'orange',
     'Not Checked': 'lightgrey'
 }
 MESSAGE_TO_LEVEL = {
     "Passing": 0,
-    "Validation Issue": 1,
-    "Parsing Error": 2,
-    "Missing/Blank": 3,
+    "Warnings Only": 1,
+    "Validation Error": 2,
+    "Parsing Error": 3,
+    "Missing/Blank": 4,
 }
 LEVEL_TO_MESSAGE = {
     MESSAGE_TO_LEVEL[k]: k for k in MESSAGE_TO_LEVEL
@@ -71,9 +73,9 @@ def generate_validation_stats_summary(validation_dict):
     num_studies = 0
     num_analyses = 0
     error_num_dict = {
-        key: {"txt": 0, "json": 0} for key in ["Passing", "Parsing Error", "Validation Issue", "Missing/Blank"]
+        key: {"txt": 0, "json": 0} for key in ["Passing", "Warnings Only", "Validation Error", "Parsing Error", "Missing/Blank"]
     }
-    issue_types = ["value", "consistency", "format", "warning"]
+    issue_types = ["value", "consistency", "format"]
     issue_num_dict = {
         key: {"txt": 0, "json": 0} for key in issue_types
     }
@@ -146,7 +148,7 @@ def create_html(validation_dict, config_dict, output_filename):
     :type output_filename: str
     :return: None
     """
-    with open(output_filename, "w") as fh:
+    with open(output_filename, "w", encoding='utf-8') as fh:
 
         #####################################
         # write the HTML header information #
@@ -175,35 +177,32 @@ def create_html(validation_dict, config_dict, output_filename):
 
         # writes the validation and comparison stats sections to the HTML file
         fh.write(STATUS_STATS_TEMPLATE.format(num_studies, num_analyses, *num_errors, config_dict['owner'], config_dict['repo']))
-        fh.write(ISSUES_STATS_TEMPLATE.format(num_studies, num_analyses, *issue_errors, config_dict['owner'], config_dict['repo']))
+        fh.write(ISSUES_STATS_TEMPLATE.format(*issue_errors, config_dict['owner'], config_dict['repo']))
         fh.write(COMP_STATS_TEMPLATE.format(*generate_comparison_stats_summary(validation_dict)))
 
         ################################
         # generate file status section #
         ################################
         # file_status_list = []
-        for study_id in validation_dict:
-
-            # # Add space between grid items
-            # if file_status_list:
-            #     file_status_list.append()
-
+        for i, study_id in enumerate(validation_dict):
             # Add study header
             # Adds header line (grid)
             # Adds study meta data
             height = 1*len(validation_dict[study_id]["params"])
-            fh.write(HEADER_TEMPLATE.format(
+            study_description = HEADER_TEMPLATE.format(
                 study_id,
                 validation_dict[study_id]["params"].get("STUDY_TITLE"),
                 validation_dict[study_id]["params"].get("INSTITUTE"),
                 validation_dict[study_id]["params"].get("LAST_NAME"),
                 validation_dict[study_id]["params"].get("FIRST_NAME"),
                 " style=\"height:" + str(height) + "em;max-height:" + str(height) + "\"",
-                create_desc(validation_dict[study_id]["params"])
-            ))
+                create_desc(validation_dict[study_id]["params"]),
+                i
+            )
+            fh.write(study_description)
 
             grid_item_list = []
-            for analysis_id in validation_dict[study_id]["analyses"]:
+            for j, analysis_id in enumerate(validation_dict[study_id]["analyses"]):
 
                 badge_list = []
                 for format_type in validation_dict[study_id]["analyses"][analysis_id]["status"]:
@@ -224,7 +223,8 @@ def create_html(validation_dict, config_dict, output_filename):
                         MESSAGE_TO_LEVEL[value] for value in validation_dict[study_id]["analyses"][analysis_id]["status"].values() if value in MESSAGE_TO_LEVEL.keys()
                     ])]],
                     "\n".join(badge_list),
-                    create_desc(validation_dict[study_id]["analyses"][analysis_id]["params"])
+                    create_desc(validation_dict[study_id]["analyses"][analysis_id]["params"]),
+                    i+j
                 ))
 
             fh.write(GRID_TEMPLATE.format("\n".join(grid_item_list)))

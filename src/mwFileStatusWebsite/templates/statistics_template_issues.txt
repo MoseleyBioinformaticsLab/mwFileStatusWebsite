@@ -1,17 +1,15 @@
+            <p></p>
             <div class="stats__grid">
-                <div class="stats__grid__item">Status</div>
+                <div class="stats__grid__item">Validation Error Type</div>
                 <div class="stats__grid__item">mwTab</div>
                 <div class="stats__grid__item">JSON</div>
-                <a href="https://{10}.github.io/{11}/value" class="stats__grid__item">Value</a>
+                <a href="https://{6}.github.io/{7}/value" class="stats__grid__item orange">Value Error</a>
+                <div class="stats__grid__item">{0}</div>
+                <div class="stats__grid__item">{1}</div>
+                <a href="https://{6}.github.io/{7}/consistency" class="stats__grid__item orange">Consistency Error</a>
                 <div class="stats__grid__item">{2}</div>
                 <div class="stats__grid__item">{3}</div>
-                <a href="https://{10}.github.io/{11}/consistency" class="stats__grid__item">Consistency</a>
+                <a href="https://{6}.github.io/{7}/format" class="stats__grid__item orange">Format Error</a>
                 <div class="stats__grid__item">{4}</div>
                 <div class="stats__grid__item">{5}</div>
-                <a href="https://{10}.github.io/{11}/format" class="stats__grid__item">Format</a>
-                <div class="stats__grid__item">{6}</div>
-                <div class="stats__grid__item">{7}</div>
-                <a href="https://{10}.github.io/{11}/warning" class="stats__grid__item">Warning</a>
-                <div class="stats__grid__item">{8}</div>
-                <div class="stats__grid__item">{9}</div>
             </div>

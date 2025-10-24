@@ -1,5 +1,6 @@
             <div class="grid header">
-                <a href="#{0}" class="study__grid__item">{0}: {1} - {2} - {3}, {4}</a>
+                <input type="checkbox" id="study_grid_item{7}" class="study_checkbox"/>
+                <label for="study_grid_item{7}" href="#{0}" class="study__grid__item">{0}: {1} - {2} - {3}, {4}</label>
                 <div class="grid__description"{5}>
                     <div class="desc__grid">
 {6}

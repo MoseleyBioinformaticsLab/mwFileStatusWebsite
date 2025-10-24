@@ -84,13 +84,11 @@ def create_validation_dict(study_analysis_dict):
                             'value': False,
                             'consistency': False,
                             'format': False,
-                            'warnings': False
                             },
                         'json': {
                             'value': False,
                             'consistency': False,
                             'format': False,
-                            'warnings': False
                             }
                         }
                 } for analysis_id in sorted(study_analysis_dict[study_id])
@@ -118,14 +116,19 @@ def _validate(validation_dict, study_id, analysis_id, file_format, save_path=Non
     :return: Tuple containing of the validated mwtab file object and the string validation log.
     :rtype: tuple
     """
-    mwtabfile = next(mwtab.read_files(MW_REST_URL.format(analysis_id, file_format)))
+    if file_format == 'txt':
+        path = f'C:/Users/Sparda/Desktop/Moseley Lab/Code/mwtab/scratch/download/txt/https%3A%2F%2Fwww_metabolomicsworkbench_org%2Frest%2Fstudy%2Fanalysis_id%2F{analysis_id}%2Fmwtab%2Ftxt.txt'
+    elif file_format == 'json':
+        path = f'C:/Users/Sparda/Desktop/Moseley Lab/Code/mwtab/scratch/download/json/https%3A%2F%2Fwww_metabolomicsworkbench_org%2Frest%2Fstudy%2Fanalysis_id%2F{analysis_id}%2Fmwtab%2Fjson.json'
+    # mwtabfile = next(mwtab.read_files(MW_REST_URL.format(analysis_id, file_format)))
+    mwtabfile = next(mwtab.read_files(path)) #TODO
 
     # allows saving out the retrieved non-validated mwTab analysis files.
     if save_path:
         with open(join(save_path, analysis_id + '.' + file_format), 'w') as fh:
             mwtabfile.write(fh, 'mwtab' if file_format == 'txt' else 'json')
 
-    sleep(SLEEP_TIME)
+    # sleep(SLEEP_TIME) #TODO
 
     validation_log, validation_json = mwtab.validate_file(mwtabfile)
 
@@ -133,8 +136,10 @@ def _validate(validation_dict, study_id, analysis_id, file_format, save_path=Non
     status_str = re.search(r'Status.*', validation_log).group(0).split(': ')[1]
     if status_str == 'Passing':
         validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Passing"
+    elif re.search(r'Number of Issues: (\d+)', validation_log).group(1) == re.search(r'Number of Warnings: (\d+)', validation_log).group(1):
+        validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Warnings Only"
     elif status_str == 'Contains Validation Issues':
-        validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Validation Issue"
+        validation_dict[study_id]["analyses"][analysis_id]["status"][file_format] = "Validation Error"
     
     for issue in validation_json:
         if issue['message'].startswith('Error'):
@@ -144,8 +149,6 @@ def _validate(validation_dict, study_id, analysis_id, file_format, save_path=Non
                 validation_dict[study_id]["analyses"][analysis_id]["issues"][file_format]['consistency'] = True
             if 'format' in issue['tags']:
                 validation_dict[study_id]["analyses"][analysis_id]["issues"][file_format]['format'] = True
-        elif issue['message'].startswith('Warning'):
-            validation_dict[study_id]["analyses"][analysis_id]["issues"][file_format]['warnings'] = True
 
     # parse out STUDY block parameters
     if not validation_dict[study_id]["params"]:
@@ -247,7 +250,11 @@ def validate_mwtab_rest(input_dict=None, logs_path='docs/validation_logs', outpu
     if input_dict:
         study_analysis_dict = input_dict
     else:
-        study_analysis_dict = retrieve_mwtab_files(verbose)
+        with open('C:/Users/Sparda/Desktop/Moseley Lab/Code/mwtab/scratch/download/study_analysis_dict.json', 'r') as jsonFile:
+            study_analysis_dict = json.load(jsonFile)
+        # study_analysis_dict = {'ST000001': ['AN000001'], 'ST000002': ['AN000002'], 'ST000003': ['AN000003'],
+        #                        'ST000004': ['AN000004', 'AN000005', 'AN000006', 'AN000007', 'AN000008', 'AN000009', 'AN000010']}
+        # study_analysis_dict = retrieve_mwtab_files(verbose) #TODO
 
     # create the validation dict
     validation_dict = create_validation_dict(study_analysis_dict)
@@ -288,13 +295,13 @@ def validate_mwtab_rest(input_dict=None, logs_path='docs/validation_logs', outpu
                     comparison_status
                 ) + error_str
 
-                with open(join(logs_path, '{}_comparison.log').format(analysis_id), 'w') as fh:
+                with open(join(logs_path, '{}_comparison.log').format(analysis_id), 'w', encoding='utf-8') as fh:
                     fh.write(comparison_log)
 
             # save out each files validation log
-            with open(join(logs_path, '{}_{}.log'.format(analysis_id, 'txt')), 'w') as fh:
+            with open(join(logs_path, '{}_{}.log'.format(analysis_id, 'txt')), 'w', encoding='utf-8') as fh:
                 fh.write(txt_validation_log)
-            with open(join(logs_path, '{}_{}.log'.format(analysis_id, 'json')), 'w') as fh:
+            with open(join(logs_path, '{}_{}.log'.format(analysis_id, 'json')), 'w', encoding='utf-8') as fh:
                 fh.write(json_validation_log)
 
     # export validation status dictionary
@@ -303,32 +310,3 @@ def validate_mwtab_rest(input_dict=None, logs_path='docs/validation_logs', outpu
 
     return validation_dict
 
-
-def validate_mwtab_files(file_path=None, logs_path='docs/validation_logs', output_file="tmp.json", verbose=False,):
-    """Validate and create a validation dictionary for a single Metabolomics Workbench analysis data file (mwTab or
-    JSON) or a directory of data files.
-
-    :param file_path: File path to directory containing Metabolomics Workbench analysis data files to be validated.
-    :type file_path: str
-    :param logs_path: File path to the directory validation logs are to be saved to.
-    :type logs_path: str
-    :param output_file: File path for the structured dictionary containing analyses statuses and other study information
-    to be saved to.
-    :type output_file: str
-    :param verbose: Run in verbose mode.
-    :type verbose: bool
-    :return: Structured dictionary containing analyses statuses and other study information.
-    :rtype: dict
-    """
-    # check to see if a directory or file was passed in
-    if isdir(file_path):
-        _, _, filenames = next(walk(file_path))
-        analysis_ids = sorted({filename.split('.')[0] for filename in filenames})
-    elif isfile(file_path):
-        analysis_ids = []
-    else:
-        raise ValueError("'file_path' is not a valid directory or file.")
-
-    validation_dict = dict()
-    for analysis_id in analysis_ids:
-        pass

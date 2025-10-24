@@ -50,9 +50,16 @@
   text-overflow: ellipsis;
   width: calc(100%);
 }
-.study__grid__item:focus-within + .grid__description {
+.study__grid__item:hover {
+  cursor: pointer;
+}
+.study_checkbox:checked ~ .grid__description {
   max-height: 100em;
-  transition: max-height 0.4s ease-in;
+  /*transition: max-height 0.4s ease-in;*/
+}
+
+.study_checkbox {
+  display: none;
 }
 
 .analysis__grid__item {
@@ -70,15 +77,22 @@
   text-overflow: ellipsis;
   width: calc(100%);
 }
-.analysis__grid__item:focus + .grid__description {
+.analysis__grid__item:hover {
+  cursor: pointer;
+}
+.analysis_checkbox:checked ~ .grid__description {
   max-height: 200px;
-  transition: max-height 0.4s ease-in;
+  /*transition: max-height 0.4s ease-in;*/
+}
+
+.analysis_checkbox {
+  display: none;
 }
 
 .grid__description {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.15s ease-in;
+  /*transition: max-height 0.15s ease-in;*/
 }
 .grid__description > div {
   background: #161b22;
@@ -164,10 +178,18 @@
   background-image: linear-gradient(#50ca22, #3db70f);
 }
 
+.yellow {
+  background-image: linear-gradient(#cfcf00, #a6a600);
+}
+
 .orange {
   background-image: linear-gradient(#f78344, #e47031);
 }
 
 .red {
   background-image: linear-gradient(#cd6d58, #bb5b46);
+}
+
+.brightred {
+  background-image: linear-gradient(#ff0000, #cd0202);
 }

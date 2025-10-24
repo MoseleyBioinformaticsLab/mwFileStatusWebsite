@@ -9,16 +9,19 @@
                 <div class="stats__grid__item">Status</div>
                 <div class="stats__grid__item">mwTab</div>
                 <div class="stats__grid__item">JSON</div>
-                <a href="https://{10}.github.io/{11}/passing" class="stats__grid__item brightgreen">Passing</a>
+                <a href="https://{11}.github.io/{12}/passing" class="stats__grid__item brightgreen">Passing</a>
                 <div class="stats__grid__item">{2}</div>
                 <div class="stats__grid__item">{3}</div>
-                <a href="https://{10}.github.io/{11}/parsing_error" class="stats__grid__item red">Parsing Error</a>
+                <a href="https://{11}.github.io/{12}/passing" class="stats__grid__item yellow">Warnings Only</a>
                 <div class="stats__grid__item">{4}</div>
                 <div class="stats__grid__item">{5}</div>
-                <a href="https://{10}.github.io/{11}/validation_error" class="stats__grid__item orange">Validation Issue</a>
+                <a href="https://{11}.github.io/{12}/validation_error" class="stats__grid__item orange">Validation Error</a>
                 <div class="stats__grid__item">{6}</div>
                 <div class="stats__grid__item">{7}</div>
-                <a href="https://{10}.github.io/{11}/missing" class="stats__grid__item lightgrey">Missing</a>
+                <a href="https://{11}.github.io/{12}/parsing_error" class="stats__grid__item red">Parsing Error</a>
                 <div class="stats__grid__item">{8}</div>
                 <div class="stats__grid__item">{9}</div>
+                <a href="https://{11}.github.io/{12}/missing" class="stats__grid__item brightred">Missing</a>
+                <div class="stats__grid__item">{10}</div>
+                <div class="stats__grid__item">{11}</div>
             </div>

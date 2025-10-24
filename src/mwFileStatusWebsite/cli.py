@@ -19,7 +19,6 @@ Options:
 from . import validator, constructor
 
 def cli(cmdargs):
-    # TODO add error checking on --to-path to make sure it's a directory and not a file. Create directory if needed.
 
     if cmdargs['validate']:
         validator.validate_mwtab_rest(save_path=cmdargs['--to-path'], verbose = cmdargs.get('--verbose', False))
@@ -34,6 +33,11 @@ def cli(cmdargs):
         # contains only analyses which one or both formats (mwTab and JSON) are passing
         passing = constructor.filter_analyses_by_status(validation_dict, 'Passing', True)
         constructor.create_html(passing, config_dict, 'passing.html')
+        
+        # create the warnings_only.html page
+        # contains analyses which both formats (mwTab and JSON) have only warnings.
+        warnings = constructor.filter_analyses_by_status(validation_dict, 'Warnings Only')
+        constructor.create_html(warnings, config_dict, 'warnings_only.html')
 
         # create the validation_error.html page
         # contains analyses which both formats (mwTab and JSON) have validation errors.
@@ -68,5 +72,5 @@ def cli(cmdargs):
 
         # create the warning.html page
         # contains analyses where one or both formats (mwTab and JSON) have warnings.
-        warning = constructor.filter_analyses_by_issues(validation_dict, 'warning')
-        constructor.create_html(warning, config_dict, 'warning.html')
+        # warning = constructor.filter_analyses_by_issues(validation_dict, 'warnings')
+        # constructor.create_html(warning, config_dict, 'warning.html')
