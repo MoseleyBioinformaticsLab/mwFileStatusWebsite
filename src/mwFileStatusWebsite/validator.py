@@ -218,7 +218,7 @@ def validate(validation_dict, study_id, analysis_id, file_format, save_path=None
         return {}, validation_log
 
 
-def validate_mwtab_rest(input_dict=None, logs_path='docs/validation_logs', output_file="tmp.json",
+def validate_mwtab_rest(input_dict=None, logs_path='validation_logs', output_file="tmp.json",
                         verbose=False, save_path=None):
     """Method for validating all available Metabolomics Workbench mwTab formatted data files.
 

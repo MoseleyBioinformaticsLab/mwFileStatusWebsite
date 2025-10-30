@@ -40,7 +40,6 @@ def cli(cmdargs):
         
         # create the main webpage (index.html)
         validation_dict = constructor.load_json(validation_path)
-        # config_dict = constructor.load_json('docs/config.json')
         
         constructor.create_html(validation_dict, owner, repo, os.path.join(html_path, 'index.html'))
 
