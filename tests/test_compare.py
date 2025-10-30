@@ -9,11 +9,8 @@ that the files (objects) are the same.
 """
 import pytest
 import mwFileStatusWebsite
-import mwtab
-from urllib.request import urlopen
-from time import sleep
-import pkgutil
 from collections import OrderedDict
+from contextlib import nullcontext as does_not_raise
 
 
 @pytest.mark.parametrize('mwtabfile_1, mwtabfile_2, error', [
@@ -24,13 +21,12 @@ from collections import OrderedDict
     ({"a": {"b": 1}}, {}, True),  # one file is null
 ])
 def test_compare_blocks(mwtabfile_1, mwtabfile_2, error):
-    try:
-        mwFileStatusWebsite.compare.compare_blocks(mwtabfile_1, mwtabfile_2)
-        if error:  # test should have raise an error
-            assert False
-    except Exception as e:
-        if not error:
-            assert False
+    if error:
+        with pytest.raises(AssertionError):
+            mwFileStatusWebsite.compare.compare_blocks(mwtabfile_1, mwtabfile_2)
+    else:
+        with does_not_raise():
+            mwFileStatusWebsite.compare.compare_blocks(mwtabfile_1, mwtabfile_2)
 
 
 @pytest.mark.parametrize('mwtabfile_1, mwtabfile_2, error', [
@@ -41,8 +37,10 @@ def test_compare_blocks(mwtabfile_1, mwtabfile_2, error):
 ])
 def test_compare_block_items(mwtabfile_1, mwtabfile_2, error):
     errors = mwFileStatusWebsite.compare.compare_block_items(mwtabfile_1, mwtabfile_2)
-    if bool(errors) != error:
-        assert False
+    if error:
+        assert len(errors) == 1
+    else:
+        assert len(errors) == 0
 
 
 @pytest.mark.parametrize('mwtabfile_1, mwtabfile_2, error', [
@@ -77,17 +75,16 @@ def test_compare_block_items(mwtabfile_1, mwtabfile_2, error):
         True
     )
 ])
-def test_compare_block_items(mwtabfile_1, mwtabfile_2, error):
-    try:
-        mwFileStatusWebsite.compare.compare_subject_sample_factors(mwtabfile_1, mwtabfile_2)
-        if error:  # test should have raise an error
-            assert False
-    except Exception as e:
-        if not error:
-            assert False
+def test_compare_subject_sample_factors(mwtabfile_1, mwtabfile_2, error):
+    if error:
+        with pytest.raises(AssertionError):
+            mwFileStatusWebsite.compare.compare_subject_sample_factors(mwtabfile_1, mwtabfile_2)
+    else:
+        with does_not_raise():
+            mwFileStatusWebsite.compare.compare_subject_sample_factors(mwtabfile_1, mwtabfile_2)
 
 
-@pytest.mark.parametrize('mwtabfile_1, mwtabfile_2, error', [
+@pytest.mark.parametrize('mwtabfile_1, mwtabfile_2, error_msg', [
     # same "_DATA" section
     (
         {'MS_METABOLITE_DATA': {
@@ -110,12 +107,27 @@ def test_compare_block_items(mwtabfile_1, mwtabfile_2, error):
             'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
             'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
         }},
-        {'MNMR_BINNED_DATA': {
+        {'NMR_BINNED_DATA': {
             'Units': 'test',
             'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
             'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
         }},
-        True
+        "Unable to find '_DATA' block in given files."
+    ),
+    
+    # different keys sections
+    (
+        {'MS_METABOLITE_DATA': {
+            'Units1': 'test',
+            'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
+            'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
+        }},
+        {'MS_METABOLITE_DATA': {
+            'Units2': 'test',
+            'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
+            'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
+        }},
+        "'_DATA' blocks do not contain the same subsections:"
     ),
 
     # different "Units" subsections
@@ -125,12 +137,12 @@ def test_compare_block_items(mwtabfile_1, mwtabfile_2, error):
             'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
             'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
         }},
-        {'MNMR_BINNED_DATA': {
+        {'MS_METABOLITE_DATA': {
             'Units': 'test2',
             'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
             'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
         }},
-        True
+        "'Units' section of 'MS_METABOLITE_DATA' block do not match."
     ),
 
     # different "Data" sections
@@ -140,12 +152,12 @@ def test_compare_block_items(mwtabfile_1, mwtabfile_2, error):
             'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
             'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
         }},
-        {'MNMR_BINNED_DATA': {
+        {'MS_METABOLITE_DATA': {
             'Units': 'test',
             'Data': [OrderedDict([('Metabolite', 'Test2'), ('Subject_1', 1000)])],
             'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
         }},
-        True
+        "'Data' section of 'MS_METABOLITE_DATA' block do not match."
     ),
 
     # different "Metabolites" sections
@@ -155,19 +167,28 @@ def test_compare_block_items(mwtabfile_1, mwtabfile_2, error):
             'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
             'Metabolites': [OrderedDict([('Metabolite', 'Test'), ('Value_1', 'Test')])],
         }},
-        {'MNMR_BINNED_DATA': {
+        {'MS_METABOLITE_DATA': {
             'Units': 'test',
             'Data': [OrderedDict([('Metabolite', 'Test'), ('Subject_1', 1000)])],
             'Metabolites': [OrderedDict([('Metabolite', 'Test2'), ('Value_1', 'Test')])],
         }},
-        True
+        "'Metabolites' section of 'MS_METABOLITE_DATA' block do not match."
     ),
 ])
-def test_compare_data(mwtabfile_1, mwtabfile_2, error):
+def test_compare_data(mwtabfile_1, mwtabfile_2, error_msg):
     errors = mwFileStatusWebsite.compare.compare_data(mwtabfile_1, mwtabfile_2)
+    assert not error_msg or any([error_msg in error.args[0] for error in errors])
 
-    if errors and not error:
-        assert False
 
-    if not errors and error:
-        assert False
+
+def test_compare():
+    tabfile1 = {'key1': 'asdf', 'SUBJECT_SAMPLE_FACTORS': [{'Sample ID': 'qwer'}]}
+    tabfile2 = {'key2': 'asdf', 'SUBJECT_SAMPLE_FACTORS': [{'Sample ID': 'asdf'}]}
+    errors = mwFileStatusWebsite.compare.compare(tabfile1, tabfile2)
+    
+    assert any(["mwTab files contain different blocks:" in error.args[0] for error in errors])
+    assert any(["mwTab files contain different 'SUBJECT_SAMPLE_FACTORS' sections." in error.args[0] for error in errors])
+
+
+
+

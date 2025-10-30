@@ -1,0 +1,166 @@
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST002321","ANALYSIS_ID":"AN003788","VERSION":"1","CREATED_ON":"October 17, 2022, 11:30 am"},
+
+"PROJECT":{"PROJECT_TITLE":"13C NMR metabolomics: integrating J-resolved STOCSY and INADEQUATE","PROJECT_SUMMARY":"Robust annotation of metabolites remains a challenging task in metabolomics. This study introduces an approach that uses 13C homonuclear J-resolved experiment (JRES), statistical total correlation spectroscopy (STOCSY), and 2D incredible natural abundance double-quantum experiment (INADEQUATE) complementarily, to obtain robust molecular structure information based on 13C NMR with less experiment time. This approach was tested using the endometabolome from a model marine phytoplankton strain, varying the settings of incubation temperature, nutrient condition, and the presence of co-culturing bacteria.","INSTITUTE":"University of Georgia","LAST_NAME":"Uchimiya","FIRST_NAME":"Mario","ADDRESS":"315 Riverbend Rd, Athens, GA, 30602, USA","EMAIL":"mario.uchimiya@uga.edu","PHONE":"(706) 542-8387","FUNDING_SOURCE":"NSF (grant numbers 1948104, OCE-2019589, and 1946970), NIH (5R01GM120151-04)","CONTRIBUTORS":"Edison Lab, Moran Lab"},
+
+"STUDY":{"STUDY_TITLE":"13C NMR metabolomics: integrating J-resolved STOCSY and INADEQUATE","STUDY_SUMMARY":"Robust annotation of metabolites remains a challenging task in metabolomics. This study introduces an approach that uses 13C homonuclear J-resolved experiment (JRES), statistical total correlation spectroscopy (STOCSY), and 2D incredible natural abundance double-quantum experiment (INADEQUATE) complementarily, to obtain robust molecular structure information based on 13C NMR with less experiment time. This approach was tested using the endometabolome from a model marine phytoplankton strain, varying the settings of incubation temperature, nutrient condition, and the presence of co-culturing bacteria.","INSTITUTE":"University of Georgia","LAST_NAME":"Uchimiya","FIRST_NAME":"Mario","ADDRESS":"315 Riverbend Rd, Athens, GA, 30602, USA","EMAIL":"mario.uchimiya@uga.edu","PHONE":"(706) 542-8387"},
+
+"SUBJECT":{"SUBJECT_TYPE":"Other organism","SUBJECT_SPECIES":"Thalassiosira pseudonana","TAXONOMY_ID":"296543"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"-",
+"Sample ID":"6",
+"Factors":{"Factor_1 (temperature)":"14.0","Factor_2 (bacteria presence)":"1.0"},
+"Additional sample data":{"RAW_FILE_NAME":"6","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"14°C Co-culture","Biological replicate":"1"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"9",
+"Factors":{"Factor_1 (temperature)":"14.0","Factor_2 (bacteria presence)":"1.0"},
+"Additional sample data":{"RAW_FILE_NAME":"9","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"14°C Co-culture","Biological replicate":"2"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"12",
+"Factors":{"Factor_1 (temperature)":"14.0","Factor_2 (bacteria presence)":"1.0"},
+"Additional sample data":{"RAW_FILE_NAME":"12","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"14°C Co-culture","Biological replicate":"3"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"15",
+"Factors":{"Factor_1 (temperature)":"14.0","Factor_2 (bacteria presence)":"1.0"},
+"Additional sample data":{"RAW_FILE_NAME":"15","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"14°C Co-culture","Biological replicate":"4"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"18",
+"Factors":{"Factor_1 (temperature)":"20.0","Factor_2 (bacteria presence)":"1.0"},
+"Additional sample data":{"RAW_FILE_NAME":"18","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"20°C Co-culture","Biological replicate":"1"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"21",
+"Factors":{"Factor_1 (temperature)":"20.0","Factor_2 (bacteria presence)":"1.0"},
+"Additional sample data":{"RAW_FILE_NAME":"21","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"20°C Co-culture","Biological replicate":"2"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"24",
+"Factors":{"Factor_1 (temperature)":"20.0","Factor_2 (bacteria presence)":"1.0"},
+"Additional sample data":{"RAW_FILE_NAME":"24","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"20°C Co-culture","Biological replicate":"3"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"27",
+"Factors":{"Factor_1 (temperature)":"20.0","Factor_2 (bacteria presence)":"1.0"},
+"Additional sample data":{"RAW_FILE_NAME":"27","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"20°C Co-culture","Biological replicate":"4"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"30",
+"Factors":{"Factor_1 (temperature)":"28.0","Factor_2 (bacteria presence)":"1.0"},
+"Additional sample data":{"RAW_FILE_NAME":"30","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"28°C Co-culture","Biological replicate":"1"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"39",
+"Factors":{"Factor_1 (temperature)":"28.0","Factor_2 (bacteria presence)":"1.0"},
+"Additional sample data":{"RAW_FILE_NAME":"39","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"28°C Co-culture","Biological replicate":"2"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"42",
+"Factors":{"Factor_1 (temperature)":"28.0","Factor_2 (bacteria presence)":"1.0"},
+"Additional sample data":{"RAW_FILE_NAME":"42","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"28°C Co-culture","Biological replicate":"3"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"45",
+"Factors":{"Factor_1 (temperature)":"28.0","Factor_2 (bacteria presence)":"1.0"},
+"Additional sample data":{"RAW_FILE_NAME":"45","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"28°C Co-culture","Biological replicate":"4"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"48",
+"Factors":{"Factor_1 (temperature)":"14.0","Factor_2 (bacteria presence)":"0.0"},
+"Additional sample data":{"RAW_FILE_NAME":"48","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"14°C Axenic","Biological replicate":"1"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"51",
+"Factors":{"Factor_1 (temperature)":"14.0","Factor_2 (bacteria presence)":"0.0"},
+"Additional sample data":{"RAW_FILE_NAME":"51","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"14°C Axenic","Biological replicate":"2"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"54",
+"Factors":{"Factor_1 (temperature)":"14.0","Factor_2 (bacteria presence)":"0.0"},
+"Additional sample data":{"RAW_FILE_NAME":"54","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"14°C Axenic","Biological replicate":"3"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"57",
+"Factors":{"Factor_1 (temperature)":"14.0","Factor_2 (bacteria presence)":"0.0"},
+"Additional sample data":{"RAW_FILE_NAME":"57","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"14°C Axenic","Biological replicate":"4"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"60",
+"Factors":{"Factor_1 (temperature)":"20.0","Factor_2 (bacteria presence)":"0.0"},
+"Additional sample data":{"RAW_FILE_NAME":"60","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"20°C Axenic","Biological replicate":"1"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"63",
+"Factors":{"Factor_1 (temperature)":"20.0","Factor_2 (bacteria presence)":"0.0"},
+"Additional sample data":{"RAW_FILE_NAME":"63","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"20°C Axenic","Biological replicate":"2"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"66",
+"Factors":{"Factor_1 (temperature)":"20.0","Factor_2 (bacteria presence)":"0.0"},
+"Additional sample data":{"RAW_FILE_NAME":"66","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"20°C Axenic","Biological replicate":"3"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"69",
+"Factors":{"Factor_1 (temperature)":"20.0","Factor_2 (bacteria presence)":"0.0"},
+"Additional sample data":{"RAW_FILE_NAME":"69","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"20°C Axenic","Biological replicate":"4"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"72",
+"Factors":{"Factor_1 (temperature)":"28.0","Factor_2 (bacteria presence)":"0.0"},
+"Additional sample data":{"RAW_FILE_NAME":"72","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"28°C Axenic","Biological replicate":"1"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"75",
+"Factors":{"Factor_1 (temperature)":"28.0","Factor_2 (bacteria presence)":"0.0"},
+"Additional sample data":{"RAW_FILE_NAME":"75","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"28°C Axenic","Biological replicate":"2"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"78",
+"Factors":{"Factor_1 (temperature)":"28.0","Factor_2 (bacteria presence)":"0.0"},
+"Additional sample data":{"RAW_FILE_NAME":"78","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"28°C Axenic","Biological replicate":"3"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"81",
+"Factors":{"Factor_1 (temperature)":"28.0","Factor_2 (bacteria presence)":"0.0"},
+"Additional sample data":{"RAW_FILE_NAME":"81","Dataset type":"Endometabolome","Organism":"Phytoplankton, marine diatom, Thalassiosira pseudonana CCMP1335","Experiment name":"Temperature experiment","Sample descritpion":"28°C Axenic","Biological replicate":"4"}
+}
+],
+"COLLECTION":{"COLLECTION_SUMMARY":"320 mL of diatom cells were collected by filtering the culture onto 2.0-µm-pore-size PCTE membrane filters (MilliporeSigma Isopore). Filters were kept in 50 mL tubes (Falcon) and stored at -80oC until processing.","COLLECTION_PROTOCOL_FILENAME":"2_Collection protocol__UGA_phytoplankton_Oct2022.docx","SAMPLE_TYPE":"Algae"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"Six treatments of a marine diatom strain Thalassiosira pseudonana CCMP1335 were prepared: treatments incubated axenically at either 14, 20, or 28 oC, and treatments co-cultured with a bacterial strain Ruegeria pomeroyi DSS-3 at the corresponding temperatures (four replicates for each). L1 media was used with NaH13CO3 as a source of bicarbonate. The diatom used for the co-cultured treatments was B12 stressed to emphasize the known co-existing system. The light cycle consisted of 16 h light (120 µmol photons m-2 s-1) and 8 h of dark.","TREATMENT_PROTOCOL_FILENAME":"3_Treatment protocol__UGA_phytoplankton_Oct2022.docx"},
+
+"SAMPLEPREP":{"SAMPLEPREP_SUMMARY":"Phytoplankton cells were removed from filters using a sonicator SLPe (Branson) in ultra-pure water (Millipore), concentrated by a lyophilizer (Labconco), and kept -80oC until further processing. The samples were mixed with 600 µL of 30 mmol L-1 sodium phosphate buffer (18 mmol L-1 NaHPO4, 12 mmol L-1, pH 7.4) and an internal standard of 2,2-dimethyl-2-silapentane-5-sulfonate-d6 (DSS, 1 mmol L-1), vortexed at 4oC for 5 minutes, centrifuged at 20,800 rcf using an ultracentrifuge 5417C (Eppendorf) at 4oC for 10 minutes, and supernatants were transferred to 5-mm NMR tubes (NORELL).","SAMPLEPREP_PROTOCOL_FILENAME":"4_Sample preparation protocol__UGA_phytoplankton_Oct2022.docx"},
+
+"ANALYSIS":{"ANALYSIS_TYPE":"NMR"},
+
+"NM":{"INSTRUMENT_NAME":"Bruker NEO","INSTRUMENT_TYPE":"CW-NMR","NMR_EXPERIMENT_TYPE":"Other","SPECTROMETER_FREQUENCY":"600 MHz","NMR_RESULTS_FILE":"ST002321_AN003788_Results.txt UNITS:Intensity"}
+
+}
+

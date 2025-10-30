@@ -1,0 +1,203 @@
+#METABOLOMICS WORKBENCH thflott_20200602_061913 DATATRACK_ID:2035 STUDY_ID:ST001390 ANALYSIS_ID:AN002319 PROJECT_ID:PR000953
+VERSION             	1
+CREATED_ON             	June 2, 2020, 5:28 pm
+#PROJECT
+PR:PROJECT_TITLE                 	Natural History of the Systemic Responses to a Renal Inoculation of
+PR:PROJECT_TITLE                 	Uropathogenic E. coli in Swine
+PR:PROJECT_SUMMARY               	Metabolomics of whole blood samples from a novel large animal model of systemic
+PR:PROJECT_SUMMARY               	infection.
+PR:INSTITUTE                     	University of Michigan
+PR:LAST_NAME                     	Flott
+PR:FIRST_NAME                    	Thomas
+PR:ADDRESS                       	428 Church St., Ann Arbor, MI, 48109
+PR:EMAIL                         	thflott@med.umich.edu
+PR:PHONE                         	7346604241
+PR:CONTRIBUTORS                  	Mohamad Hakam Tiba, Brendan M. McCracken, Robert P.Dickson, Jean A. Nemzek,
+PR:CONTRIBUTORS                  	Carmen I. Colmenero, Danielle C. Leander, Thomas L. Flott, Rodney C. Daniels,
+PR:CONTRIBUTORS                  	Kristine Konopka, J. Scott VanEpps, Kathleen A. Stringer, and Kevin R. Ward
+#STUDY
+ST:STUDY_TITLE                   	Natural history of the systemic responses to a renal inoculation of
+ST:STUDY_TITLE                   	uropathogenic E. coli in swine
+ST:STUDY_SUMMARY                 	Background: The pathogenesis of systemic infection and its progression to sepsis
+ST:STUDY_SUMMARY                 	remains poorly understood. Progress in the field has been stifled by the
+ST:STUDY_SUMMARY                 	shortcomings of experimental models which include poor replication of the human
+ST:STUDY_SUMMARY                 	condition. To address these challenges, we developed a novel large animal model
+ST:STUDY_SUMMARY                 	of systemic infection that is capable of generating high-dimensional clinically
+ST:STUDY_SUMMARY                 	relevant data. Methods: Male swine (n=5) were anesthetized, mechanically
+ST:STUDY_SUMMARY                 	ventilated, and surgically instrumented for continuous hemodynamic monitoring
+ST:STUDY_SUMMARY                 	and serial blood sampling. Animals were inoculated with uropathogenic E. coli by
+ST:STUDY_SUMMARY                 	direct injection into the renal parenchyma and were maintained under anesthesia
+ST:STUDY_SUMMARY                 	for up to 24 hours. The natural history of the infection was studied, animals
+ST:STUDY_SUMMARY                 	were not resuscitated. Multi-dimensional data were collected hourly to every 6
+ST:STUDY_SUMMARY                 	hours; all animals were euthanized when at predetermined physiologic endpoints.
+ST:STUDY_SUMMARY                 	Results: Core body temperature progressively increased from mean (SD) 37.9(0.8)
+ST:STUDY_SUMMARY                 	̊C at baseline to 43.0(1.2) ̊C at experiment termination (p=0.006). While mean
+ST:STUDY_SUMMARY                 	arterial pressure did not begin to decline until 6h post inoculation, dropping
+ST:STUDY_SUMMARY                 	from 86(9) mmHg at baseline to 28(5) mmHg (p=0.005) at termination. Blood
+ST:STUDY_SUMMARY                 	glucose progressively declined but lactate levels did not elevate until the last
+ST:STUDY_SUMMARY                 	hours of the experiment. There were also temporal changes in whole blood
+ST:STUDY_SUMMARY                 	concentrations of a number of metabolites including increases in the
+ST:STUDY_SUMMARY                 	catecholamine precursors, tyrosine (p=0.005) and phenylalanine (p=0.005). Lung,
+ST:STUDY_SUMMARY                 	liver, and kidney function parameters worsened as infection progressed and at
+ST:STUDY_SUMMARY                 	study termination there was histopathological evidence of injury in these
+ST:STUDY_SUMMARY                 	end-organs. Conclusion: We demonstrate a versatile, multi-dimensional,
+ST:STUDY_SUMMARY                 	longitudinal, swine model of systemic infection that could be used to further
+ST:STUDY_SUMMARY                 	our understanding of the mechanisms that underlie infection-induced multi-organ
+ST:STUDY_SUMMARY                 	dysfunction and failure, optimize resuscitation protocols and test therapeutic
+ST:STUDY_SUMMARY                 	interventions. Such a model could improve translation of findings from the bench
+ST:STUDY_SUMMARY                 	to the bedside, circumventing a significant obstacle in sepsis research.
+ST:INSTITUTE                     	University of Michigan
+ST:LAST_NAME                     	Flott
+ST:FIRST_NAME                    	Thomas
+ST:ADDRESS                       	428 Church St., Ann Arbor, MI, 48109
+ST:EMAIL                         	thflott@med.umich.edu
+ST:PHONE                         	7346604241
+#SUBJECT
+SU:SUBJECT_TYPE                  	Mammal
+SU:SUBJECT_SPECIES               	Sus Scrofa
+SU:TAXONOMY_ID                   	9823
+SU:GENDER                        	Male
+#SUBJECT_SAMPLE_FACTORS:         	SUBJECT(optional)[tab]SAMPLE[tab]FACTORS(NAME:VALUE pairs separated by |)[tab]Raw file names and additional sample data
+SUBJECT_SAMPLE_FACTORS           	17x10022	224_003	Timepoint:6	Sample Collection Site=JV; RAW_FILE_NAME=224_003
+SUBJECT_SAMPLE_FACTORS           	17x10022	224_035	Timepoint:-	Sample Collection Site=JV; RAW_FILE_NAME=224_035
+SUBJECT_SAMPLE_FACTORS           	17x10022	224_097	Timepoint:12	Sample Collection Site=JV; RAW_FILE_NAME=224_097
+SUBJECT_SAMPLE_FACTORS           	17x10039	224_013	Timepoint:-	Sample Collection Site=JV; RAW_FILE_NAME=224_013
+SUBJECT_SAMPLE_FACTORS           	17x10039	224_025	Timepoint:12	Sample Collection Site=JV; RAW_FILE_NAME=224_025
+SUBJECT_SAMPLE_FACTORS           	17x10039	224_079	Timepoint:6	Sample Collection Site=JV; RAW_FILE_NAME=224_079
+SUBJECT_SAMPLE_FACTORS           	17x10055	224_009	Timepoint:-	Sample Collection Site=JV; RAW_FILE_NAME=224_009
+SUBJECT_SAMPLE_FACTORS           	17x10055	224_010	Timepoint:12	Sample Collection Site=JV; RAW_FILE_NAME=224_010
+SUBJECT_SAMPLE_FACTORS           	17x10055	224_020	Timepoint:6	Sample Collection Site=JV; RAW_FILE_NAME=224_020
+SUBJECT_SAMPLE_FACTORS           	17x10064	224_001	Timepoint:12	Sample Collection Site=JV; RAW_FILE_NAME=224_001
+SUBJECT_SAMPLE_FACTORS           	17x10064	224_024	Timepoint:-	Sample Collection Site=JV; RAW_FILE_NAME=224_024
+SUBJECT_SAMPLE_FACTORS           	17x10064	224_090	Timepoint:6	Sample Collection Site=JV; RAW_FILE_NAME=224_090
+#COLLECTION
+CO:COLLECTION_SUMMARY            	Whole blood (WB) samples were collected from the indwelling line in the internal
+CO:COLLECTION_SUMMARY            	jugular vein. Blood was collected into 4ml Vacutainer tubes containing sodium
+CO:COLLECTION_SUMMARY            	heparin. Following collection, tubes were inverted several times to ensure
+CO:COLLECTION_SUMMARY            	adequate mixing and were immediately placed on ice. Each of two 600uL aliquots
+CO:COLLECTION_SUMMARY            	were added to screw-top cryogenic storage tubes and flash frozen in liquid
+CO:COLLECTION_SUMMARY            	nitrogen. Frozen samples were placed on dry ice until the completion of the
+CO:COLLECTION_SUMMARY            	experiment at which time they were transferred to storage in liquid nitrogen and
+CO:COLLECTION_SUMMARY            	stored until the time of assay. The remaining whole blood volume in the
+CO:COLLECTION_SUMMARY            	collection tube was centrifuged (1300g for 10 min at 4C). Aliquots of
+CO:COLLECTION_SUMMARY            	plasma(~600uL) were transferred into screw-top cryogenic storage tubes, flash
+CO:COLLECTION_SUMMARY            	frozen in liquid nitrogen, placed on dry ice, and stored in liquid nitrogen for
+CO:COLLECTION_SUMMARY            	future assays.
+CO:SAMPLE_TYPE                   	Blood (whole)
+CO:STORAGE_CONDITIONS            	Described in summary
+#TREATMENT
+TR:TREATMENT_SUMMARY             	Male swine (n=5) were anesthetized, mechanically ventilated, and surgically
+TR:TREATMENT_SUMMARY             	instrumented for continuous hemodynamic monitoring and serial blood sampling.
+TR:TREATMENT_SUMMARY             	Animals were inoculated with uropathogenic E. coli by direct injection into the
+TR:TREATMENT_SUMMARY             	renal parenchyma and were maintained under anesthesia for up to 24 hours. The
+TR:TREATMENT_SUMMARY             	natural history of the infection was studied, animals were not resuscitated.
+TR:TREATMENT_SUMMARY             	Multi-dimensional data were collected hourly to every 6 hours; all animals were
+TR:TREATMENT_SUMMARY             	euthanized when at predetermined physiologic endpoints.
+#SAMPLEPREP
+SP:SAMPLEPREP_SUMMARY            	Whole blood samples were thawed on ice and subjected to a methanol-chloroform
+SP:SAMPLEPREP_SUMMARY            	precipitation. Briefly, samples were thawed in an ice-water bath after which 500
+SP:SAMPLEPREP_SUMMARY            	μL of blood was transferred to a microcentrifuge tube and 1ml of a 1:1
+SP:SAMPLEPREP_SUMMARY            	methanol-chloroform solution was added. Samples were sonicated for 2 minutes at
+SP:SAMPLEPREP_SUMMARY            	4°C, then incubated at -20°C for 20 minutes, and then centrifuged (13,400g at
+SP:SAMPLEPREP_SUMMARY            	4°C for 30 minutes). The aqueous supernatant was transferred to a new
+SP:SAMPLEPREP_SUMMARY            	microcentrifuge tube and dried by lyophilization. Samples were then resuspended
+SP:SAMPLEPREP_SUMMARY            	in 600 μL of 50mM sodium phosphate buffer in D2O for NMR analysis.
+SP:PROCESSING_STORAGE_CONDITIONS 	On ice
+#ANALYSIS
+AN:ANALYSIS_TYPE                 	NMR
+#NMR
+NM:INSTRUMENT_NAME               	Varian
+NM:INSTRUMENT_TYPE               	FT-NMR
+NM:NMR_EXPERIMENT_TYPE           	1D-1H
+NM:SPECTROMETER_FREQUENCY        	500 MHz
+#NMR_METABOLITE_DATA
+NMR_METABOLITE_DATA:UNITS	uM
+NMR_METABOLITE_DATA_START
+Samples	224_035	224_013	224_009	224_024	224_003	224_079	224_020	224_090	224_097	224_010	224_025	224_001
+Factors	Timepoint:-	Timepoint:-	Timepoint:-	Timepoint:-	Timepoint:6	Timepoint:6	Timepoint:6	Timepoint:6	Timepoint:12	Timepoint:12	Timepoint:12	Timepoint:12
+Aminoadipic acid						37.07096774		52.572	55.7375	68.94097222	83.5456	222.9464286
+2-Hydroxybutyric acid	22					23.6516129			19.175			
+Ketoleucine	26.95	27.5	16.26595745	30.88064	20.87962963	29.69032258	17.95918367	13.728	22.1	24.63541667	19.9104	35.49744898
+ADP	212.74	193.0729167	106.7234043	144.97504	135.2083333	238.0258065	288.0952381	147.108	247.1625	194.21875	178.2176	219.4387755
+AMP	113.08	73.33333333	69.27659574	135.41024	181.5509259	204.1419355	108.6904762	159.432	166.725	143.0381944	194.224	313.1632653
+ATP	323.51	327.7083333	185.8297872	201.95392	261.6319444	301.7677419	480.0340136	150.696	370.825	369.9131944	166.1152	183.380102
+Alanine	199.32	431.40625	248.2021277	553.52864	596.2152778	814.2193548	636.6156463	345.384	740.1875	1421.40625	845.216	1233.852041
+Betaine	112.2	255.234375	157.9787234	347.47552	100.3240741	190.0516129	156.7687075	139.62	118.4625	194.7916667	168.2624	259.4260204
+Carnitine							6.36		7.8	12.8	8.78	8.28
+Choline	22.88	18.046875	14.62765957	17.35328	26.6087963	24.82580645	31.05442177	12.48	33.3125	38.19444444	19.3248	25.67602041
+Creatine	94.82	100.2604167	174.9468085	237.89024	187.025463	238.3612903	332.4319728	233.532	397.8	519.0625	431.5872	618.0484694
+Creatinine	68.2	61.015625	54.18085106	53.2896	75.37037037	79.50967742	142.3639456	43.992	185.9	233.9409722	98.7712	164.1581633
+Dimethyl sulfone	8.36	22.20052083	13.69148936	22.27232	8.530092593	24.32258065	16.64965986	9.672	13.65	16.04166667	15.4208	16.97704082
+Glucose	6417.62	4338.268229	2892.06383	4863.56416	2906.851852	3267.277419	2286.428571	2214.576	2254.6875	1009.861111	2061.8976	1678.622449
+Glutamic acid	169.07	286.171875	150.2553191	292.54624	186.0069444	363.3290323	232.1598639	316.992	259.35	224.9652778	420.0704	597.1428571
+Glutamine	228.03	325.1302083	200.3404255	316.73152	324.3981481	505.0709677	355.255102	236.34	571.35	636.7013889	503.8112	569.0816327
+Glutathione	98.89	87.08333333	53.71276596	69.41312	133.1712963	134.3612903	106.0714286	62.556	127.5625	105.7986111	131.76	125.5739796
+Glycine	1036.42	1050.15625	591.4255319	1234.40576	1225.405093	1379.006452	805.7312925	742.404	1446.575	831.1111111	1048.0288	1357.181122
+Hippuric acid							72.58503401		61.75	109.2361111		71.13520408
+Histidine	58.52	71.61458333	49.61702128	36.61952	70.02314815	92.09032258	101.207483	56.004	118.4625	107.1354167	89.5968	112.8061224
+Hypoxanthine					27.24537037		48.07823129		36.2375	122.03125		42.65306122
+IMP			12.87234043		34.12037037	42.60645161	49.57482993	23.712	34.9375	88.22916667	35.5264	43.63520408
+Isoleucine	67.1	90.6640625	56.87234043	97.28768	70.40509259	99.97419355	64.3537415	71.292	80.275	80.20833333	117.7056	203.0229592
+Lactic acid	1383.03	1456.783854	1099.06383	1792.58016	2291.666667	1503.806452	1394.829932	596.076	2600.4875	7598.784722	1075.7472	2767.959184
+Leucine	145.2	161.4192708	101.106383	154.12992	132.7893519	184.516129	129.829932	120.588	177.6125	169.0104167	256.2976	372.5127551
+Lysine	193.38	162.7083333	124.0425532	198.67456	295.2430556	327.2645161	302.1258503	234	422.5	359.21875	357.216	495.1403061
+Malonic acid	174.35	145.3776042	104.5	159.45888	176.0763889	185.1870968	195.4931973	111.228	201.825	183.5243056	153.232	197.130102
+Methionine	22.11	31.3671875	20.59574468	32.7936	37.04861111	49.31612903	39.09863946	28.704	48.9125	65.12152778	47.2384	72.25765306
+CAR(2:0)		2.01				2.85			4.23	7.45		
+Ornithine	89.21	124.4661458	114.9148936	165.06112	117.2569444	183.1741935	185.2040816	131.508	146.4125	241.3888889	207.888	269.5280612
+Phenylalanine	51.7	59.58333333	39.20212766	45.91104	78.04398148	110.2064516	90.54421769	70.824	136.825	124.3229167	141.9104	197.6913265
+Proline	223.63	253.3723958	149.4361702	233.79104	188.8078704	354.1032258	328.3163265	164.58	267.15	281.4930556	258.4448	414.6045918
+Pyruvic acid	47.19	73.90625	63.65957447	101.93344	127.6967593	142.7483871	104.2006803	59.748	107.4125	157.5520833	82.3744	121.7857143
+Serine	52.03	132.34375	51.60638298	43.58816	95.3587963	114.5677419	162.755102	102.804	143.65	138.6458333	134.4928	186.0459184
+Taurine		82.35677083	89.63829787	71.46272	158.125	166.5677419	217.9421769	218.712	163.15	189.8263889	120.048	409.1326531
+Threonine	67.43	84.93489583	61.43617021	34.56992	142.8472222	121.4451613	127.0238095	121.992	206.7	129.0972222	162.6016	295.7653061
+Trimethylamine N-oxide	51.04	31.08072917	21.53191489	42.63168	65.94907407	56.19354839	54.25170068	30.264	71.825	52.51736111	48.4096	55.14030612
+Tyrosine	43.45	45.83333333	37.21276596	45.7744	62.25694444	70.95483871	82.68707483	57.408	87.75	87.65625	93.3056	125.7142857
+Valine	170.17	230.8854167	155.4042553	239.8032	186.1342593	262.3483871	174.7278912	159.744	224.7375	178.5590278	291.6288	427.9336735
+NMR_METABOLITE_DATA_END
+#METABOLITES
+METABOLITES_START
+metabolite_name	KEGG ID
+Aminoadipic acid	C00956
+2-Hydroxybutyric acid	C05984
+Ketoleucine	C00233
+ADP	C00008
+AMP	C00020
+ATP	C00002
+Alanine	C00041
+Betaine	C00719
+Carnitine	C00318
+Choline	C00114
+Creatine	C00300
+Creatinine	C00791
+Dimethyl sulfone	C11142
+Glucose	C00221
+Glutamic acid	C00025
+Glutamine	C00064
+Glutathione	C00051
+Glycine	C00037
+Hippuric acid	C01586
+Histidine	C00135
+Hypoxanthine	C00262
+IMP	C00130
+Isoleucine	C00407
+Lactic acid	C00186
+Leucine	C00123
+Lysine	C00047
+Malonic acid	C00383
+Methionine	C00073
+CAR(2:0)	C02571
+Ornithine	C00077
+Phenylalanine	C00079
+Proline	C00148
+Pyruvic acid	C00022
+Serine	C00065
+Taurine	C00245
+Threonine	C00188
+Trimethylamine N-oxide	C01104
+Tyrosine	C00082
+Valine	C00183
+METABOLITES_END
+#END
+
+

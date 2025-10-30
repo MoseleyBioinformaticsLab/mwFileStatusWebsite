@@ -12,8 +12,7 @@ import mwtab
 import json
 import re
 from datetime import datetime
-from os import walk
-from os.path import join, isdir, isfile
+from os.path import join
 from time import sleep
 
 
@@ -110,25 +109,20 @@ def _validate(validation_dict, study_id, analysis_id, file_format, save_path=Non
     :type analysis_id: str
     :param file_format: File format extension string (either: 'txt' or 'json').
     :type file_format: str
-    :param save_path: Boolean value indicating if retrieved analyses should be save.
-    :type save_path: bool or str
+    :param save_path: Directory path for retrieved Metabolomics Workbench analysis data files to be saved in.
+    :type save_path: str
 
     :return: Tuple containing of the validated mwtab file object and the string validation log.
     :rtype: tuple
     """
-    if file_format == 'txt':
-        path = f'C:/Users/Sparda/Desktop/Moseley Lab/Code/mwtab/scratch/download/txt/https%3A%2F%2Fwww_metabolomicsworkbench_org%2Frest%2Fstudy%2Fanalysis_id%2F{analysis_id}%2Fmwtab%2Ftxt.txt'
-    elif file_format == 'json':
-        path = f'C:/Users/Sparda/Desktop/Moseley Lab/Code/mwtab/scratch/download/json/https%3A%2F%2Fwww_metabolomicsworkbench_org%2Frest%2Fstudy%2Fanalysis_id%2F{analysis_id}%2Fmwtab%2Fjson.json'
-    # mwtabfile = next(mwtab.read_files(MW_REST_URL.format(analysis_id, file_format)))
-    mwtabfile = next(mwtab.read_files(path)) #TODO
+    mwtabfile = next(mwtab.read_files(MW_REST_URL.format(analysis_id, file_format)))
 
     # allows saving out the retrieved non-validated mwTab analysis files.
     if save_path:
-        with open(join(save_path, analysis_id + '.' + file_format), 'w') as fh:
+        with open(join(save_path, analysis_id + '.' + file_format), 'w', encoding='utf-8') as fh:
             mwtabfile.write(fh, 'mwtab' if file_format == 'txt' else 'json')
 
-    # sleep(SLEEP_TIME) #TODO
+    sleep(SLEEP_TIME)
 
     validation_log, validation_json = mwtab.validate_file(mwtabfile)
 
@@ -172,8 +166,8 @@ def validate(validation_dict, study_id, analysis_id, file_format, save_path=None
     :type analysis_id: str
     :param file_format: File format extension string (either: 'txt' or 'json').
     :type file_format: str
-    :param save_path: Boolean value indicating if retrieved analyses should be save.
-    :type save_path: bool or str
+    :param save_path: Directory path for retrieved Metabolomics Workbench analysis data files to be saved in.
+    :type save_path: str
 
     :return: Tuple containing of the validated mwtab file object and the string validation log.
     :rtype: tuple
@@ -250,11 +244,7 @@ def validate_mwtab_rest(input_dict=None, logs_path='docs/validation_logs', outpu
     if input_dict:
         study_analysis_dict = input_dict
     else:
-        with open('C:/Users/Sparda/Desktop/Moseley Lab/Code/mwtab/scratch/download/study_analysis_dict.json', 'r') as jsonFile:
-            study_analysis_dict = json.load(jsonFile)
-        # study_analysis_dict = {'ST000001': ['AN000001'], 'ST000002': ['AN000002'], 'ST000003': ['AN000003'],
-        #                        'ST000004': ['AN000004', 'AN000005', 'AN000006', 'AN000007', 'AN000008', 'AN000009', 'AN000010']}
-        # study_analysis_dict = retrieve_mwtab_files(verbose) #TODO
+        study_analysis_dict = retrieve_mwtab_files(verbose)
 
     # create the validation dict
     validation_dict = create_validation_dict(study_analysis_dict)

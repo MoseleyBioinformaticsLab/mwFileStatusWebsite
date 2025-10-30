@@ -137,13 +137,15 @@ def create_desc(params, tabs="\t"*6):
     return "\n".join(desc_items)
 
 
-def create_html(validation_dict, config_dict, output_filename):
+def create_html(validation_dict, owner, repo, output_filename):
     """Creates and saves HTML file based on given validation and config dictionaries.
 
     :param validation_dict: Structured dictionary containing analyses statuses and other study information.
     :type validation_dict: dict
-    :param config_dict: Dictionary containing GitHub repository information.
-    :type config_dict: dict
+    :param owner: The GitHub account name that owns the repo where the html files will be committed to. Used to build links between html pages.
+    :type owner: str
+    :param repo: The name of the repo where the html files will be committed to. Used to build links between html pages.
+    :type repo: str
     :param output_filename: Filename of HTML file to be created.
     :type output_filename: str
     :return: None
@@ -154,8 +156,8 @@ def create_html(validation_dict, config_dict, output_filename):
         # write the HTML header information #
         #####################################
         fh.write(INDEX_HEADER_TEMPLATE.format(
-            config_dict['owner'],
-            config_dict['repo'],
+            owner,
+            repo,
             str(datetime.now()),
         ))
 
@@ -176,14 +178,15 @@ def create_html(validation_dict, config_dict, output_filename):
                 issue_errors.append(issue_dict[issue_type][file_format])
 
         # writes the validation and comparison stats sections to the HTML file
-        fh.write(STATUS_STATS_TEMPLATE.format(num_studies, num_analyses, *num_errors, config_dict['owner'], config_dict['repo']))
-        fh.write(ISSUES_STATS_TEMPLATE.format(*issue_errors, config_dict['owner'], config_dict['repo']))
+        fh.write(STATUS_STATS_TEMPLATE.format(num_studies, num_analyses, *num_errors, owner, repo))
+        fh.write(ISSUES_STATS_TEMPLATE.format(*issue_errors, owner, repo))
         fh.write(COMP_STATS_TEMPLATE.format(*generate_comparison_stats_summary(validation_dict)))
 
         ################################
         # generate file status section #
         ################################
         # file_status_list = []
+        num_of_analyses = 0
         for i, study_id in enumerate(validation_dict):
             # Add study header
             # Adds header line (grid)
@@ -202,7 +205,8 @@ def create_html(validation_dict, config_dict, output_filename):
             fh.write(study_description)
 
             grid_item_list = []
-            for j, analysis_id in enumerate(validation_dict[study_id]["analyses"]):
+            for analysis_id in validation_dict[study_id]["analyses"]:
+                num_of_analyses += 1
 
                 badge_list = []
                 for format_type in validation_dict[study_id]["analyses"][analysis_id]["status"]:
@@ -212,8 +216,8 @@ def create_html(validation_dict, config_dict, output_filename):
                         format_type,
                         MESSAGE_COLOR[validation_dict[study_id]["analyses"][analysis_id]["status"][format_type]],
                         validation_dict[study_id]["analyses"][analysis_id]["status"][format_type],
-                        config_dict['owner'],
-                        config_dict['repo']
+                        owner,
+                        repo
                     ))
 
                 # adds the colored analysis button
@@ -224,7 +228,7 @@ def create_html(validation_dict, config_dict, output_filename):
                     ])]],
                     "\n".join(badge_list),
                     create_desc(validation_dict[study_id]["analyses"][analysis_id]["params"]),
-                    i+j
+                    num_of_analyses
                 ))
 
             fh.write(GRID_TEMPLATE.format("\n".join(grid_item_list)))
@@ -253,20 +257,11 @@ def filter_analyses_by_status(validation_dict, status_str, match_all_formats = F
 
     for study_id in validation_dict:
         for analysis_id, analysis_dict in validation_dict[study_id]["analyses"].items():
-
-            # both file formats have the same validation status
-            if match_all_formats:
-                file_format_status_set = {analysis_dict["status"]['json'],
-                                          analysis_dict["status"]['txt']}
-                if {status_str} == file_format_status_set:
-                    status_dict.setdefault(study_id, dict()).setdefault("params", validation_dict[study_id]["params"])
-                    status_dict[study_id].setdefault("analyses", dict())[analysis_id] = analysis_dict
-
-            # only one file format has a given status
-            else:
-                if status_str in set(analysis_dict["status"].values()):
-                    status_dict.setdefault(study_id, dict()).setdefault("params", validation_dict[study_id]["params"])
-                    status_dict[study_id].setdefault("analyses", dict())[analysis_id] =  analysis_dict
+            file_format_status_set = set(analysis_dict["status"].values())
+            if (match_all_formats and {status_str} == file_format_status_set) or \
+               (not match_all_formats and status_str in file_format_status_set):
+                status_dict.setdefault(study_id, dict()).setdefault("params", validation_dict[study_id]["params"])
+                status_dict[study_id].setdefault("analyses", dict())[analysis_id] = analysis_dict
 
     return status_dict
 
@@ -277,7 +272,7 @@ def filter_analyses_by_issues(validation_dict, issues_str, match_all_formats = F
 
     :param validation_dict: Structured dictionary containing analyses issues and other study information.
     :type validation_dict: dict
-    :param issues_str: Analysis validation issues to be searched for.
+    :param issues_str: Analysis validation issues to be searched for. Should only ever be 'value', consistency', or 'format'.
     :type issues_str: str
     :param match_all_formats: Whether all file formats must have the indicated status_str or just one.
     :type match_all_formats: bool
@@ -290,16 +285,10 @@ def filter_analyses_by_issues(validation_dict, issues_str, match_all_formats = F
     for study_id in validation_dict:
         for analysis_id, analysis_dict in validation_dict[study_id]["analyses"].items():
             file_format_issues = [analysis_dict['issues']['json'][issues_str], analysis_dict['issues']['txt'][issues_str]]
-
-            # both file formats have the same validation issue
-            if match_all_formats and all(file_format_issues):
+            if (match_all_formats and all(file_format_issues)) or \
+               (not match_all_formats and any(file_format_issues)):
                 issues_dict.setdefault(study_id, dict()).setdefault("params", validation_dict[study_id]["params"])
                 issues_dict[study_id].setdefault("analyses", dict())[analysis_id] = analysis_dict
-
-            # only one file format has a given issue
-            elif any(file_format_issues):
-                issues_dict.setdefault(study_id, dict()).setdefault("params", validation_dict[study_id]["params"])
-                issues_dict[study_id].setdefault("analyses", dict())[analysis_id] =  analysis_dict
 
     return issues_dict
 

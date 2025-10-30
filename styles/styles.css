@@ -80,9 +80,29 @@
 .analysis__grid__item:hover {
   cursor: pointer;
 }
-.analysis_checkbox:checked ~ .grid__description {
+.analysis_checkbox:checked + .analysis__grid__item + .grid__description {
   max-height: 200px;
   /*transition: max-height 0.4s ease-in;*/
+}
+.analysis_checkbox:checked + .analysis__grid__item.brightgreen {
+  background-image: linear-gradient(#3db70f, #33980c);
+  outline: 1px solid white;
+}
+.analysis_checkbox:checked + .analysis__grid__item.yellow {
+  background-image: linear-gradient(#a6a600, #888800);
+  outline: 1px solid white;
+}
+.analysis_checkbox:checked + .analysis__grid__item.orange {
+  background-image: linear-gradient(#e47031, #c75b20);
+  outline: 1px solid white;
+}
+.analysis_checkbox:checked + .analysis__grid__item.red {
+  background-image: linear-gradient(#bb5b46, #a04835);
+  outline: 1px solid white;
+}
+.analysis_checkbox:checked + .analysis__grid__item.brightred {
+  background-image: linear-gradient(#cd0202, #ad0101);
+  outline: 1px solid white;
 }
 
 .analysis_checkbox {
