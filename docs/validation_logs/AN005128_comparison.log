@@ -1,13 +1,13 @@
 Comparison Log
-2025-10-26 07:26:39.189527
+2025-11-02 06:43:09.466413
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005128/mwtab/...
 Study ID:    ST003128
 Analysis ID: AN005128
 Status:      Inconsistent
 
-Sections "STUDY" contain missmatched items: {('SUBMIT_DATE', '2024-03-06'), ('STUDY_TITLE', 'Effect of high fat diet on serum fatty acids, lipidome and metabolome in CHCHD10 mutant mice'), ('STUDY_TITLE', 'Effect of high fat diet on serum lipidome and metabolome in CHCHD10 Mutant Mice')}
-Sections "MS" contain missmatched items: {('MS_RESULTS_FILE', 'ST003128_AN005128_Results.txt UNITS:Peak Intensity Has m/z:Neutral masses Has RT:No RT units:No RT data'), ('MS_RESULTS_FILE', 'ST003128_AN005128_Results.txt UNITS:Peak Intensity')}
+Sections "MS" contain missmatched items: {('MS_RESULTS_FILE', 'ST003128_AN005128_Results.txt UNITS:Peak Intensity'), ('MS_RESULTS_FILE', 'ST003128_AN005128_Results.txt UNITS:Peak Intensity Has m/z:Neutral masses Has RT:No RT units:No RT data')}
 Sections "PROJECT" contain missmatched items: {('DOI', 'http://dx.doi.org/10.21228/M8FD9G')}
+Sections "STUDY" contain missmatched items: {('STUDY_TITLE', 'Effect of high fat diet on serum lipidome and metabolome in CHCHD10 Mutant Mice'), ('SUBMIT_DATE', '2024-03-06'), ('STUDY_TITLE', 'Effect of high fat diet on serum fatty acids, lipidome and metabolome in CHCHD10 mutant mice')}
 'Metabolites' section of 'MS_METABOLITE_DATA' block do not match.
 'Data' section of 'MS_METABOLITE_DATA' block do not match.

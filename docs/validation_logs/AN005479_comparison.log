@@ -1,13 +1,13 @@
 Comparison Log
-2025-10-26 07:48:31.409414
+2025-11-02 07:05:25.257338
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005479/mwtab/...
 Study ID:    ST003344
 Analysis ID: AN005479
 Status:      Inconsistent
 
-Sections "STUDY" contain missmatched items: {('SUBMIT_DATE', '2024-07-22')}
-Sections "ANALYSIS" contain missmatched items: {('ANALYSIS_PROTOCOL_FILE', 'HT_Targeted_MS_method.pdf'), ('ANALYSIS_PROTOCOL_FILE', 'HT_Targeted MS method.pdf')}
 Sections "PROJECT" contain missmatched items: {('DOI', 'http://dx.doi.org/10.21228/M8RJ9N')}
+Sections "ANALYSIS" contain missmatched items: {('ANALYSIS_PROTOCOL_FILE', 'HT_Targeted_MS_method.pdf'), ('ANALYSIS_PROTOCOL_FILE', 'HT_Targeted MS method.pdf')}
+Sections "STUDY" contain missmatched items: {('SUBMIT_DATE', '2024-07-22')}
 'Metabolite'
 'Data' section of 'MS_METABOLITE_DATA' block do not match.
