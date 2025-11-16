@@ -1,0 +1,14 @@
+Validation Log
+2025-11-16 07:39:42.513601
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004891/mwtab/json
+Study ID:      ST002978
+Analysis ID:   AN004891
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Data' error:
+Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('Metabolite_name', '(N(1) + N(8))-acetylspermidine'), ('L_cris_S', '4.719127497'), ('L_cris_S.1', '4.558680591'), ('L_cris_S.2', '4.67039069'), ('L_cris_B', '15.31767783'), ('L_cris_B.1', '15.54870981'), ('L_cris_B.2', '15.20033235'), ('L_iners_S', '1.484431987'), ('L_iners_S.1', '1.374380665'), ('L_iners_S.2', '1.364337493'), ('G_vag_S', '0.541591569'), ('G_vag_S.1', '0.521874895'), ('G_vag_S.2', '0.535175588'), ('G_vag_B1', '0.540568796'), ('G_vag_B1.1', '0.562349601'), ('G_vag_B1.2', '0.503565347'), ('G_vag_B2', '0.35112406'), ('G_vag_B2.1', '0.382889306'), ('G_vag_B2.2', '0.361953409'), ('BL_MRS', '0.911772881'), ('BL_MRS.1', '0.977875638'), ('BL_MRS.2', '0.918691791'), ('BL_NYC', '0.459319225'), ('BL_NYC.1', '0.486855659'), ('BL_NYC.2', '0.481954602'), ('BL_BHI', '1.184891324'), ('BL_BHI.1', '1.196666129'), ('BL_BHI.2', '1.214659347'), ('Bl_sBHI', '1.022124362'), ('Bl_sBHI.1', '1.108691868'), ('Bl_sBHI.2', '1.109171194')])
+Missing key: Or('Metabolite', 'Bin range(ppm)')

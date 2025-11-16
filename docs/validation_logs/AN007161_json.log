@@ -1,0 +1,12 @@
+Validation Log
+2025-11-16 09:47:06.463563
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007161/mwtab/json
+Study ID:      ST004304
+Analysis ID:   AN007161
+File format:   json
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'DISEASE_ASSOCIATION' in OrderedDict([('STUDY_TITLE', 'Untargeted UHPLC-Q-Orbitrap Metabolomic Profiling of Cattle Serum after Testosterone Propionate Administration'), ('STUDY_TYPE', 'Untargeted Metabolomics'), ('STUDY_SUMMARY', 'This study presents an untargeted metabolomic analysis of cattle serum using UHPLC-Q-Orbitrap mass spectrometry to investigate metabolic alterations following testosterone propionate administration. The data include raw and processed MS files, feature tables, and statistical analyses supporting biomarker discovery and pathway elucidation.'), ('INSTITUTE', 'Universidade Federal de Minas Gerais'), ('DEPARTMENT', 'Department of Chemistry'), ('LABORATORY', '261A'), ('LAST_NAME', 'Rocha'), ('FIRST_NAME', 'Diego'), ('ADDRESS', 'Av. Antônio Carlos 6627, Belo Horizonte, MG, 31270-901, Brazil'), ('EMAIL', 'diegogr.ufmg@gmail.com'), ('PHONE', '553134095734'), ('NUM_GROUPS', '-'), ('TOTAL_SUBJECTS', '-'), ('NUM_MALES', '-'), ('NUM_FEMALES', '-'), ('STUDY_COMMENTS', '-'), ('PUBLICATIONS', '-'), ('DISEASE_ASSOCIATION', '-')])
