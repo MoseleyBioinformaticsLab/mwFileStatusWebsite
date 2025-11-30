@@ -1,5 +1,5 @@
 Comparison Log
-2025-11-23 08:33:06.082357
+2025-11-30 08:15:06.393949
 mwtab Python Library Version: 1.2.5
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005605/mwtab/...
 Study ID:    ST003412
@@ -7,6 +7,6 @@ Analysis ID: AN005605
 Status:      Inconsistent
 
 Sections "STUDY" contain missmatched items: {('LABORATORY', "Schug's Lab"), ('LABORATORY', "Schug''s Lab")}
-Sections "ANALYSIS" contain missmatched items: {('LABORATORY_NAME', "Schug's Lab"), ('LABORATORY_NAME', "Schug''s Lab")}
 Sections "PROJECT" contain missmatched items: {('LABORATORY', "Schug's Lab"), ('LABORATORY', "Schug''s Lab")}
+Sections "ANALYSIS" contain missmatched items: {('LABORATORY_NAME', "Schug's Lab"), ('LABORATORY_NAME', "Schug''s Lab")}
 'bool' object is not subscriptable
