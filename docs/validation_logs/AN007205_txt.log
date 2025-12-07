@@ -1,0 +1,12 @@
+Validation Log
+2025-12-07 09:56:25.489119
+mwtab Python Library Version: 1.2.5
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007205/mwtab/txt
+Study ID:      ST004323
+Analysis ID:   AN007205
+File format:   txt
+Status: Contains Validation Errors
+Number Errors: 1
+
+Error Log:
+SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'DISEASE_ASSOCIATION' in OrderedDict([('STUDY_TITLE', 'Human Hearts intrinsically increase cardiomyocyte mitosis following myocardial infarction'), ('STUDY_SUMMARY', 'Background: Myocardial infarction (MI) is a leading cause of death worldwide and can eliminate up to a third of the cardiomyocytes (CMs) within the human heart. Although CMs undergo mitosis during early development, most CMs cease cell cycling soon after birth. In contrast, rodent MI models have shown that CMs increase mitosis in response to ischemia, however this has not been shown in humans. Methods: Using a unique pre-mortem post-MI human heart, immunostaining, bulk RNA sequencing, proteomics, metabolomics, single nucleus RNA sequencing and a novel post-MI human biopsy method, we investigated human CM mitosis post-MI. Results: We show that adult human CMs exhibit increased mitosis and cytokinesis in response to ischemia. Conclusions: Future development of therapeutics to enhance this intrinsic mitotic potential could lead to new treatments that reverse heart failure via cardiac regeneration. This uploaded dataset relates to the metabolomics (HILIC and AMIDE) performed on the unique infarcted human heart (5 days post-myocardial infarction) as compared to healthy donor hearts. Infarct samples consisted of non-ischemic right atrium (MI RA, technical replicates), partially ischemic right ventricle (MI RV, technical replicates), ischemic left ventricle (MI LV, technical replicates) and non-ischemic left ventricle donor tissue (Donor LV, biological replicates).'), ('INSTITUTE', 'University of Sydney'), ('DEPARTMENT', 'Charles Perkins Centre'), ('LAST_NAME', 'Hume'), ('FIRST_NAME', 'Robert'), ('ADDRESS', 'John Hopkins Dr'), ('EMAIL', 'robert.hume@sydney.edu.au'), ('PHONE', '0434848772'), ('DISEASE_ASSOCIATION', 'Donor left ventricle or infarct (MI) left ventricle, right ventricle or right atrium')])
