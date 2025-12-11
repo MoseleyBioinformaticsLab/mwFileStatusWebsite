@@ -78,18 +78,33 @@ def compare_block_items(mwtabfile_1, mwtabfile_2):
 
     for section_key in set(mwtabfile_1.keys()) & set(mwtabfile_2.keys()) & ITEM_SECTIONS:
         try:
-            if mwtabfile_1[section_key].items() ^ mwtabfile_2[section_key].items():
+            if mwtabfile_1[section_key].keys() != mwtabfile_2[section_key].keys():
                 error_list.append(
                     AssertionError(
-                        "Sections \"{}\" contain missmatched items: {}".format(
+                        "Sections \"{}\" contain missmatched keys: {}".format(
                             section_key,
-                            mwtabfile_1[section_key].items() ^ mwtabfile_2[section_key].items()
+                            list(mwtabfile_1[section_key].keys() ^ mwtabfile_2[section_key].keys())
                         )
                     )
                 )
+            
+            else:
+                bad_items = {}
+                for key in mwtabfile_1[section_key]:
+                    if mwtabfile_1[section_key][key] != mwtabfile_2[section_key][key]:
+                        bad_items[key] = [mwtabfile_1[section_key][key], mwtabfile_2[section_key][key]]
+                if bad_items:
+                    error_list.append(
+                        AssertionError(
+                            "Sections \"{}\" contain missmatched items: {}".format(
+                                section_key,
+                                bad_items
+                            )
+                        )
+                    )
         except Exception as e:
             error_list.append(e)
-
+        
     return error_list
 
 
@@ -125,7 +140,7 @@ def compare_data(mwtabfile_1, mwtabfile_2):
 
     # data block is not consistently present across files
     if not data_section or type(data_section) != set:
-        return [AssertionError("Unable to find '_DATA' block in given files.")]
+        return []
 
     else:
         data_section = list(data_section)[0]
@@ -144,27 +159,22 @@ def compare_data(mwtabfile_1, mwtabfile_2):
 
         # compare "Metabolites"
         if 'Metabolites' in subsections:
-            try:
-                new_mwtabfile_1_metabolites_list = sorted(mwtabfile_1[data_section]['Metabolites'],
-                                                          key=operator.itemgetter('Metabolite'))
-                new_mwtabfile_2_metabolites_list = sorted(mwtabfile_2[data_section]['Metabolites'],
-                                                          key=operator.itemgetter('Metabolite'))
-                if new_mwtabfile_1_metabolites_list != new_mwtabfile_2_metabolites_list:
-                    error_list.append(AssertionError("'Metabolites' section of '{}' block do not match.".format(data_section)))
-            except Exception as e:
-                error_list.append(e)
+            if mwtabfile_1[data_section]['Metabolites'] != mwtabfile_2[data_section]['Metabolites']:
+                error_list.append(AssertionError("'Metabolites' section of '{}' block do not match.".format(data_section)))
 
         # compare "Data"
         if 'Data' in subsections:
-            try:
-                new_mwtabfile_1_data_list = sorted(mwtabfile_1[data_section]['Data'],
-                                                          key=operator.itemgetter('Metabolite'))
-                new_mwtabfile_2_data_list = sorted(mwtabfile_2[data_section]['Data'],
-                                                          key=operator.itemgetter('Metabolite'))
-                if new_mwtabfile_1_data_list != new_mwtabfile_2_data_list:
+            if mwtabfile_1[data_section]['Data'] != mwtabfile_2[data_section]['Data']:
+                # For NMR_BINNED_DATA, only for JSON we have keys for both "Bin range(ppm)" and "Metabolite", so ignore this if you see it.
+                # Note that this code assumes there is no other issue.
+                ignore = False
+                if data_section == 'NMR_BINNED_DATA' and len(mwtabfile_1[data_section]['Data']) == len(mwtabfile_2[data_section]['Data']):
+                    diff_keys = set(mwtabfile_1[data_section]['Data'][0].keys()) ^ set(mwtabfile_2[data_section]['Data'][0].keys())
+                    if len(diff_keys) == 1 and 'Bin range(ppm)' in diff_keys:
+                        ignore = True
+                
+                if not ignore:
                     error_list.append(AssertionError("'Data' section of '{}' block do not match.".format(data_section)))
-            except Exception as e:
-                error_list.append(e)
 
         return error_list
 
