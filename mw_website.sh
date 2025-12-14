@@ -45,7 +45,7 @@ ssh-add /root/.ssh/id_ed25519_github
 #############################
 # add updated files to repo #
 #############################
-git add docs/validation_logs index.html missing.html parsing_error.html passing.html validation_error.html
+git add validation_logs index.html missing.html parsing_error.html passing.html validation_error.html warnings_only.html value.html consistency.html format.html
 now=$(date +'%Y/%m/%d')
 git commit -m "Weekly update for $now"
 git push

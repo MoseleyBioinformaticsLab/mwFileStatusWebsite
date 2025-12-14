@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Metabolomics Workbench File Validator</title>
+        <link rel="stylesheet" href="styles/styles.css"/>
+    </head>
+    <body class="background">
+        <div>
+            <h1><a href="https://MoseleyBioinformaticsLab.github.io/mwFileStatusWebsite/" style="text-decoration:none;color:white;">Metabolomics Workbench File Validator</a></h1>
+            <p>
+                Last Updated: 2025-10-30 04:04:22.086815
+            </p>
+        </div>
+        <div>
+            <h2>Statistics</h2>
+            <p>
+                Number of Studies: 15<br>
+                Number of Analyses: 23<br>
+            </p>
+            <h3>Validation Statistics</h3>
+            <div class="stats__grid">
+                <div class="stats__grid__item">Status</div>
+                <div class="stats__grid__item">mwTab</div>
+                <div class="stats__grid__item">JSON</div>
+                <a href="https://0.github.io/MoseleyBioinformaticsLab/passing" class="stats__grid__item brightgreen">Passing</a>
+                <div class="stats__grid__item">0</div>
+                <div class="stats__grid__item">0</div>
+                <a href="https://0.github.io/MoseleyBioinformaticsLab/passing" class="stats__grid__item yellow">Warnings Only</a>
+                <div class="stats__grid__item">17</div>
+                <div class="stats__grid__item">21</div>
+                <a href="https://0.github.io/MoseleyBioinformaticsLab/validation_error" class="stats__grid__item orange">Validation Error</a>
+                <div class="stats__grid__item">6</div>
+                <div class="stats__grid__item">2</div>
+                <a href="https://0.github.io/MoseleyBioinformaticsLab/parsing_error" class="stats__grid__item red">Parsing Error</a>
+                <div class="stats__grid__item">0</div>
+                <div class="stats__grid__item">0</div>
+                <a href="https://0.github.io/MoseleyBioinformaticsLab/missing" class="stats__grid__item brightred">Missing</a>
+                <div class="stats__grid__item">0</div>
+                <div class="stats__grid__item">0</div>
+            </div>
+            <p></p>
+            <div class="stats__grid">
+                <div class="stats__grid__item">Validation Error Type</div>
+                <div class="stats__grid__item">mwTab</div>
+                <div class="stats__grid__item">JSON</div>
+                <a href="https://MoseleyBioinformaticsLab.github.io/mwFileStatusWebsite/value" class="stats__grid__item orange">Value Error</a>
+                <div class="stats__grid__item">0</div>
+                <div class="stats__grid__item">2</div>
+                <a href="https://MoseleyBioinformaticsLab.github.io/mwFileStatusWebsite/consistency" class="stats__grid__item orange">Consistency Error</a>
+                <div class="stats__grid__item">0</div>
+                <div class="stats__grid__item">2</div>
+                <a href="https://MoseleyBioinformaticsLab.github.io/mwFileStatusWebsite/format" class="stats__grid__item orange">Format Error</a>
+                <div class="stats__grid__item">6</div>
+                <div class="stats__grid__item">0</div>
+            </div>
+            <h3>mwTab vs JSON Comparison Statistics</h3>
+            <div class="compare__stats__grid">
+                <div class="stats__grid__item">Status</div>
+                <div class="stats__grid__item">Count</div>
+                <div class="stats__grid__item brightgreen">Consistent</div>
+                <div class="stats__grid__item">10</div>
+                <div class="stats__grid__item orange">Inconsistent</div>
+                <div class="stats__grid__item">13</div>
+                <div class="stats__grid__item lightgrey">Not Checked</div>
+                <div class="stats__grid__item">0</div>
+            </div>
+        </div>
+        <div>
+            <h2>File Status</h2>
+            <div class="grid header">
+                <input type="checkbox" id="study_grid_item0" class="study_checkbox"/>
+                <label for="study_grid_item0" href="#ST001189" class="study__grid__item">ST001189: 1H NMR spectroscopy-based metabolic profiling of Ophiocordyceps sinensis and Cordyceps militaris of water-boiled and 50% ethanol-soaked extracts - Sun Yat-sen University - ZHONG, Xin</label>
+                <div class="grid__description" style="height:9em;max-height:9">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">1H NMR spectroscopy-based metabolic profiling of Ophiocordyceps sinensis and Cordyceps militaris of water-boiled and 50% ethanol-soaked extracts</div>
+						<div class="desc__grid__item">STUDY_TYPE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">NMR</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Introduction Ophiocordyceps sinensis, a well-known Chinese complementary herb, is a rare and valuable therapeutic resource. Cordyceps militaris (C. militaris) is a commonly used substitute for O. sinensis. A metabolomic-based approach for exploring the similarities and differences in the metabolites of O. sinensis and C. militaris in water-boiled and 50% ethanol-soaked extracts is of great significance. Objectives To determine a vital role of extraction methodologies in influencing the metabolic composition of herbs, 1HNMR-based profiling was used to characterize the metabolic fingerprints of O. sinensis and C. militaris. Methods To make a distinction between the global metabolite profiling of O. sinensis and C. militaris extracts obtained from either the water-boiled or 50% ethanol-soaked methods, we screened the herbs samples using 1HNMR-based metabolic fingerprints combined with multivariate statistical analysis. Results This study revealed that a total of 43 (82.69% of 52) metabolites were detectable in both O. sinensis and C. militaris. According to the variable importance in projection (VIP) value and p-value from the Mann-Whitney test, 7 metabolites (alanine, aspartate, glutamate, mannitol, ornithine, serine, and trehalose) differed between O. sinensis and C. militaris. Arginine, glucose, putrescine, pyroglutamate, betaine, O-phosphocholine, and xylose differed significantly between the water-boiled and 50% ethanol-soaked methods used to prepare the herb extracts. Conclusion A total of 52 primary metabolites were identified and quantified from O. sinensis and C. militaris samples. The study suggests that a water-boiled extraction is much faster method and strongly recommended over the 50% ethanol-soaked method for both O. sinensis and C. militaris.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Sun Yat-sen University</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">ZHONG</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Xin</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Guangzhou</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">zhongxin@mail.sysu.edu.cn</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">862084112299</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <input type="checkbox" id="analysis_grid_item1" class="analysis_checkbox"/>
+                <label for="analysis_grid_item1" href="#AN001981" class="analysis__grid__item orange">AN001981</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001981/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN001981_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001981/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN001981_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001981/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN001981_comparison.log" target="_blank">Inconsistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN001981</div>
+                    </div>
+                </div>
+
+            </div>			<br>            <div class="grid header">
+                <input type="checkbox" id="study_grid_item1" class="study_checkbox"/>
+                <label for="study_grid_item1" href="#ST001356" class="study__grid__item">ST001356: Diel Metabolites in the North Pacific Subtropical Gyre (KM1513) - University of Washington - Boysen, Angela</label>
+                <div class="grid__description" style="height:11em;max-height:11">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Diel Metabolites in the North Pacific Subtropical Gyre (KM1513)</div>
+						<div class="desc__grid__item">STUDY_TYPE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Diel metabolomics</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Diverse organisms within the marine microbial communities show 24-hour cycles of gene expression, likely driven by the need to harness energy from sunlight and to cope with dramatic fluctuations in solar radiation over the course of the day. Metabolites are the direct product of metabolic activity; they are therefore expected to both reflect and influence the daily cycle of the microbial community. Here we measure the intracellular metabolome of the microbial community of the North Pacific Subtropical Gyre, sampled at 4-hour intervals for 8 days. Concentrations of some metabolites common to many organisms exhibit diel periodicity, revealing synchrony of community-level metabolism. Comparing these data to gene expression data reveals temporal offsets between gene transcription and cellular activity, and ties some metabolites to the activities of specific organisms. For example, the dramatic fluctuations of the disaccharide trehalose likely reflect the daily cycles of {Crocosphaera}, a photosynthesizing cyanobacteria that needs to store energy during the day to fuel nighttime nitrogen-fixation. This study illustrates how pairing multiple types of 'omics and environmental data can provide insight into how the activities of individual organisms lead to community functions such as net primary productivity and nitrogen fixation.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">University of Washington</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Oceanography</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Ingalls Lab</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Boysen</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Angela</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">1502 NE Boat St</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">aboysen@uw.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">3037461944</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <input type="checkbox" id="analysis_grid_item2" class="analysis_checkbox"/>
+                <label for="analysis_grid_item2" href="#AN002255" class="analysis__grid__item yellow">AN002255</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002255/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002255_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002255/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002255_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002255/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002255_comparison.log" target="_blank">Consistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002255</div>
+                    </div>
+                </div>
+
+                <input type="checkbox" id="analysis_grid_item3" class="analysis_checkbox"/>
+                <label for="analysis_grid_item3" href="#AN002256" class="analysis__grid__item yellow">AN002256</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002256/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002256_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002256/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002256_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002256/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002256_comparison.log" target="_blank">Consistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002256</div>
+                    </div>
+                </div>
+
+                <input type="checkbox" id="analysis_grid_item4" class="analysis_checkbox"/>
+                <label for="analysis_grid_item4" href="#AN002257" class="analysis__grid__item yellow">AN002257</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002257/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002257_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002257/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002257_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002257/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002257_comparison.log" target="_blank">Consistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002257</div>
+                    </div>
+                </div>
+
+                <input type="checkbox" id="analysis_grid_item5" class="analysis_checkbox"/>
+                <label for="analysis_grid_item5" href="#AN002258" class="analysis__grid__item yellow">AN002258</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002258/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002258_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002258/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002258_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002258/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002258_comparison.log" target="_blank">Consistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002258</div>
+                    </div>
+                </div>
+
+                <input type="checkbox" id="analysis_grid_item6" class="analysis_checkbox"/>
+                <label for="analysis_grid_item6" href="#AN002259" class="analysis__grid__item yellow">AN002259</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002259/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002259_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002259/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002259_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002259/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002259_comparison.log" target="_blank">Consistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002259</div>
+                    </div>
+                </div>
+
+            </div>			<br>            <div class="grid header">
+                <input type="checkbox" id="study_grid_item2" class="study_checkbox"/>
+                <label for="study_grid_item2" href="#ST001390" class="study__grid__item">ST001390: Natural history of the systemic responses to a renal inoculation of uropathogenic E. coli in swine - University of Michigan - Flott, Thomas</label>
+                <div class="grid__description" style="height:8em;max-height:8">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Natural history of the systemic responses to a renal inoculation of uropathogenic E. coli in swine</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Background: The pathogenesis of systemic infection and its progression to sepsis remains poorly understood. Progress in the field has been stifled by the shortcomings of experimental models which include poor replication of the human condition. To address these challenges, we developed a novel large animal model of systemic infection that is capable of generating high-dimensional clinically relevant data. Methods: Male swine (n=5) were anesthetized, mechanically ventilated, and surgically instrumented for continuous hemodynamic monitoring and serial blood sampling. Animals were inoculated with uropathogenic E. coli by direct injection into the renal parenchyma and were maintained under anesthesia for up to 24 hours. The natural history of the infection was studied, animals were not resuscitated. Multi-dimensional data were collected hourly to every 6 hours; all animals were euthanized when at predetermined physiologic endpoints. Results: Core body temperature progressively increased from mean (SD) 37.9(0.8) ̊C at baseline to 43.0(1.2) ̊C at experiment termination (p=0.006). While mean arterial pressure did not begin to decline until 6h post inoculation, dropping from 86(9) mmHg at baseline to 28(5) mmHg (p=0.005) at termination. Blood glucose progressively declined but lactate levels did not elevate until the last hours of the experiment. There were also temporal changes in whole blood concentrations of a number of metabolites including increases in the catecholamine precursors, tyrosine (p=0.005) and phenylalanine (p=0.005). Lung, liver, and kidney function parameters worsened as infection progressed and at study termination there was histopathological evidence of injury in these end-organs. Conclusion: We demonstrate a versatile, multi-dimensional, longitudinal, swine model of systemic infection that could be used to further our understanding of the mechanisms that underlie infection-induced multi-organ dysfunction and failure, optimize resuscitation protocols and test therapeutic interventions. Such a model could improve translation of findings from the bench to the bedside, circumventing a significant obstacle in sepsis research.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">University of Michigan</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Flott</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Thomas</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">428 Church St., Ann Arbor, MI, 48109</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">thflott@med.umich.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">7346604241</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <input type="checkbox" id="analysis_grid_item7" class="analysis_checkbox"/>
+                <label for="analysis_grid_item7" href="#AN002319" class="analysis__grid__item yellow">AN002319</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002319/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002319_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002319/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002319_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002319/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002319_comparison.log" target="_blank">Consistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002319</div>
+                    </div>
+                </div>
+
+            </div>			<br>            <div class="grid header">
+                <input type="checkbox" id="study_grid_item3" class="study_checkbox"/>
+                <label for="study_grid_item3" href="#ST001448" class="study__grid__item">ST001448: Maternal Hypercortisolemia alters placental metabolism: NMR metabolomics - University of Florida - Walejko, Jacquelyn</label>
+                <div class="grid__description" style="height:8em;max-height:8">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Maternal Hypercortisolemia alters placental metabolism: NMR metabolomics</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">NMR metabolomic studies of placental tissue from sheep with excess maternal cortisol during late gestation</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">University of Florida</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Walejko</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Jacquelyn</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">300 N Duke St Durham NC 27701</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">jacquelyn.walejko@duke.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">9194792304</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <input type="checkbox" id="analysis_grid_item8" class="analysis_checkbox"/>
+                <label for="analysis_grid_item8" href="#AN002419" class="analysis__grid__item yellow">AN002419</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002419/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002419_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002419/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002419_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002419/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002419_comparison.log" target="_blank">Consistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002419</div>
+                    </div>
+                </div>
+
+            </div>			<br>            <div class="grid header">
+                <input type="checkbox" id="study_grid_item4" class="study_checkbox"/>
+                <label for="study_grid_item4" href="#ST001478" class="study__grid__item">ST001478: NMR spectroscopy analysis reveals altered metabolic homeostasis in Arabidopsis seedlings treated with a cytokinesis inhibitor - California State University Fresno - Krishnan, Krish</label>
+                <div class="grid__description" style="height:8em;max-height:8">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">NMR spectroscopy analysis reveals altered metabolic homeostasis in Arabidopsis seedlings treated with a cytokinesis inhibitor</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">In plant cytokinesis, de novo formation of a cell plate that evolves into the new cell wall, partitions the cytoplasm of the dividing cell. Cell plate formation involves highly orchestrated vesicle accumulation, fusion, and membrane network maturation supported by the temporary integration of elastic and pliable callose. The small molecule, Endosidin 7 (ES7), arrests late cytokinesis in Arabidopsis by inhibiting callose deposition at the cell plate. Its effect is specific, as it does not broadly affect endomembrane trafficking or cytoskeletal organization. It has emerged as a very valuable tool for dissecting this essential plant process. In order to gain deeper insights regarding its mode of action and the effects of cytokinesis inhibition on overall plant growth, we investigated the effect of ES7 through a nuclear magnetic resonance (NMR) spectroscopy metabolomics approach. In this case study, profiles of Arabidopsis leaf and root tissues were analyzed at different growth stages and ES7 exposure levels. The results show tissue-specific changes in the plant metabolic profile across a developmental gradient, and the effect that ES7 treatment has on the corresponding metabolome. The ES7 induced profile suggests metabolic compensations in central metabolism pathways in response to cytokinesis inhibition. Further, this study shows that long-term treatment of ES7 disrupts the homeostasis of primary metabolism in Arabidopsis seedlings, likely via alteration of hormonal regulation.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">California State University Fresno</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Krishnan</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Krish</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Department of Chemistry</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">krish@csufresno.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">559-278-7944</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <input type="checkbox" id="analysis_grid_item9" class="analysis_checkbox"/>
+                <label for="analysis_grid_item9" href="#AN002454" class="analysis__grid__item orange">AN002454</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002454/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002454_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002454/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002454_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002454/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN002454_comparison.log" target="_blank">Inconsistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN002454</div>
+                    </div>
+                </div>
+
+            </div>			<br>            <div class="grid header">
+                <input type="checkbox" id="study_grid_item5" class="study_checkbox"/>
+                <label for="study_grid_item5" href="#ST002787" class="study__grid__item">ST002787: Metabolomic analysis of gut metabolites in colorectal cancer patients: correlation with disease development and outcome - Wuhan University of Science and Technology - Xie, Zhufu</label>
+                <div class="grid__description" style="height:10em;max-height:10">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Metabolomic analysis of gut metabolites in colorectal cancer patients: correlation with disease development and outcome</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">In this study, targeted metabolomic sequencing was performed on fecal samples from 35 colorectal cancer (CRC) patients, 37 colorectal adenoma patients (CRA), and 30 healthy controls (HC) to identify metabolite biomarkers. Orthogonal partial least squares discriminant analysis (OPLS-DA) was used to identify metabolomic features distinguishing the three groups. ROC analysis found that 9,10-diHOME, cholesterol CE (18:2), and lipoxinA4 distinguished CRC from HC with an AUC of 0.969. The study highlights the advantages and potential applications of using LC-MS for targeted metabolomic analysis.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Wuhan University of Science and Technology</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">School of Medicine</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Hubei Province Key Laboratory of Occupational Hazard Identification and Control</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Xie</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Zhufu</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">No.2 Huangjiahu Road, Hongshan District, Wuhan City, Hubei Province, China</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">xiezhufu2020@outlook.com</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">18171407470</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <input type="checkbox" id="analysis_grid_item10" class="analysis_checkbox"/>
+                <label for="analysis_grid_item10" href="#AN004534" class="analysis__grid__item orange">AN004534</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004534/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN004534_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004534/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN004534_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004534/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN004534_comparison.log" target="_blank">Inconsistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN004534</div>
+                    </div>
+                </div>
+
+                <input type="checkbox" id="analysis_grid_item11" class="analysis_checkbox"/>
+                <label for="analysis_grid_item11" href="#AN004535" class="analysis__grid__item orange">AN004535</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004535/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN004535_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004535/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN004535_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004535/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN004535_comparison.log" target="_blank">Inconsistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN004535</div>
+                    </div>
+                </div>
+
+            </div>			<br>            <div class="grid header">
+                <input type="checkbox" id="study_grid_item6" class="study_checkbox"/>
+                <label for="study_grid_item6" href="#ST002795" class="study__grid__item">ST002795: Functional divergence of CYP76AKs shapes the chemodiversity of abietane-type diterpenoids in genus Salvia - Shanghai University of Traditional Chinese Medicine - Chen, Wansheng</label>
+                <div class="grid__description" style="height:8em;max-height:8">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Functional divergence of CYP76AKs shapes the chemodiversity of abietane-type diterpenoids in genus Salvia</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">The genus Salvia L. (Lamiaceae) comprises myriad distinct medicinal herbs, with terpenoids as one of their major active chemical groups. Abietane-type diterpenoids (ATDs), such as tanshinones and carnosic acids, are specific to Salvia and exhibit taxonomic chemical diversity among lineages. To elucidate how ATD chemical diversity evolved, we carried out large-scale metabolic and phylogenetic analyses of 71 Salvia species, combined with enzyme function, ancestral sequence and chemical trait reconstruction, and comparative genomics experiments. This integrated approach showed that the lineage-wide ATD diversities in Salvia were induced by differences in the oxidation of the terpenoid skeleton at C-20, which was caused by the functional divergence of the cytochrome P450 subfamily CYP76AK. These findings present a unique pattern of chemical diversity in plants that was shaped by the loss of enzyme activity and associated catalytic pathways.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Shanghai University of Traditional Chinese Medicine</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Chen</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Wansheng</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">NO. 1200 Cailun Road</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">chenwansheng@shutcm.edu.cn</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">02151322405</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <input type="checkbox" id="analysis_grid_item12" class="analysis_checkbox"/>
+                <label for="analysis_grid_item12" href="#AN004547" class="analysis__grid__item yellow">AN004547</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004547/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN004547_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004547/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN004547_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004547/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN004547_comparison.log" target="_blank">Consistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN004547</div>
+                    </div>
+                </div>
+
+            </div>			<br>            <div class="grid header">
+                <input type="checkbox" id="study_grid_item7" class="study_checkbox"/>
+                <label for="study_grid_item7" href="#ST003639" class="study__grid__item">ST003639: Multilevel Plasticity and Altered Glycosylation Drive Aggressiveness in Hypoxic and Glucose-Deprived Bladder Cancer Cells - Portuguese Oncology Institute of Porto (IPO-Porto) - Peixoto, Andreia</label>
+                <div class="grid__description" style="height:11em;max-height:11">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Multilevel Plasticity and Altered Glycosylation Drive Aggressiveness in Hypoxic and Glucose-Deprived Bladder Cancer Cells</div>
+						<div class="desc__grid__item">STUDY_TYPE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">MS quantitative analysis</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Bladder tumours with aggressive characteristics often present microenvironmental niches marked by low oxygen levels (hypoxia) and limited glucose supply due to inadequate vascularization. The molecular mechanisms facilitating cellular adaptation to these stimuli remain largely elusive. Employing a multi-omics approach, we discovered that hypoxic and glucose-deprived cancer cells enter a quiescent state supported by mitophagy, fatty acid β-oxidation, and amino acid catabolism, concurrently enhancing their invasive capabilities. Reoxygenation and glucose restoration efficiently reversed cell quiescence without affecting cellular viability, highlighting significant molecular plasticity in adapting to microenvironmental challenges. Furthermore, cancer cells exhibited substantial perturbation of protein O-glycosylation, leading to simplified glycophenotypes with shorter glycosidic chains. Exploiting glycoengineered cell models, we established that immature glycosylation contributes to reduced cell proliferation and increased invasion. Our findings collectively indicate that hypoxia and glucose deprivation trigger cancer aggressiveness, reflecting an adaptive escape mechanism underpinned by altered metabolism and protein glycosylation, providing grounds for clinical intervention.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Portuguese Oncology Institute of Porto (IPO-Porto)</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">IPO Porto Research Center</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Lab 2</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Peixoto</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Andreia</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Rua Dr. António Bernardino de Almeida</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">andreia.peixoto@ipoporto.min-saude.pt</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">225084000 (ext:5111)</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <input type="checkbox" id="analysis_grid_item13" class="analysis_checkbox"/>
+                <label for="analysis_grid_item13" href="#AN005976" class="analysis__grid__item yellow">AN005976</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005976/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN005976_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005976/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN005976_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005976/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN005976_comparison.log" target="_blank">Inconsistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN005976</div>
+                    </div>
+                </div>
+
+                <input type="checkbox" id="analysis_grid_item14" class="analysis_checkbox"/>
+                <label for="analysis_grid_item14" href="#AN005977" class="analysis__grid__item orange">AN005977</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005977/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN005977_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005977/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN005977_json.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005977/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN005977_comparison.log" target="_blank">Inconsistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN005977</div>
+                    </div>
+                </div>
+
+            </div>			<br>            <div class="grid header">
+                <input type="checkbox" id="study_grid_item8" class="study_checkbox"/>
+                <label for="study_grid_item8" href="#ST003653" class="study__grid__item">ST003653: Marine community metabolomes in the eastern tropical North Pacific Oxygen Deficient Zone - University of Washington, School of Oceanography - Kellogg, Natalie</label>
+                <div class="grid__description" style="height:8em;max-height:8">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Marine community metabolomes in the eastern tropical North Pacific Oxygen Deficient Zone</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Oxygen deficient zones (ODZs) are subsurface marine systems that harbor distinct microbial communities, including populations of the picocyanobacteria Prochlorococcus that can form a secondary chlorophyll maxima (SCM), and low-oxygen tolerant strains of the globally abundant heterotroph Pelagibacter (SAR11). Yet, the small labile molecules (metabolites) responsible for maintaining these ODZ communities are unknown. Here, we compared the metabolome of an ODZ to that of an oxygenated site by quantifying 87 metabolites across depth profiles in the eastern tropical North Pacific ODZ and the oxygenated waters of the North Pacific Gyre. We further use transcriptomes to identify taxa involved in production and subsequent transformation of glycine betaine (GBT), a metabolite we suggest is involved in microbial interdependencies in this community, and elsewhere in the ocean.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">University of Washington, School of Oceanography</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Kellogg</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Natalie</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">1503 NE Boat Street, Seattle, WA, 98195, USA</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">nak01@uw.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">6517958717</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <input type="checkbox" id="analysis_grid_item15" class="analysis_checkbox"/>
+                <label for="analysis_grid_item15" href="#AN006001" class="analysis__grid__item yellow">AN006001</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006001/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006001_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006001/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006001_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006001/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006001_comparison.log" target="_blank">Inconsistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN006001</div>
+                    </div>
+                </div>
+
+                <input type="checkbox" id="analysis_grid_item16" class="analysis_checkbox"/>
+                <label for="analysis_grid_item16" href="#AN006002" class="analysis__grid__item yellow">AN006002</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006002/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006002_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006002/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006002_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006002/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006002_comparison.log" target="_blank">Inconsistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN006002</div>
+                    </div>
+                </div>
+
+                <input type="checkbox" id="analysis_grid_item17" class="analysis_checkbox"/>
+                <label for="analysis_grid_item17" href="#AN006003" class="analysis__grid__item yellow">AN006003</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006003/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006003_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006003/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006003_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006003/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006003_comparison.log" target="_blank">Inconsistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN006003</div>
+                    </div>
+                </div>
+
+            </div>			<br>            <div class="grid header">
+                <input type="checkbox" id="study_grid_item9" class="study_checkbox"/>
+                <label for="study_grid_item9" href="#ST003675" class="study__grid__item">ST003675: Polar Metabolite Profiles Distinguish Between Early and Severe Sub-maintenance Nutritional States of Wild Bighorn Sheep - Montana State University - O'Shea-Stone, Galen</label>
+                <div class="grid__description" style="height:13em;max-height:13">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Polar Metabolite Profiles Distinguish Between Early and Severe Sub-maintenance Nutritional States of Wild Bighorn Sheep</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Understanding the metabolic adaptations of wild bighorn sheep (Ovis c. canadensis) to nutritional stress is crucial for their conservation. This study employed 1H nuclear magnetic resonance (NMR) metabolomics to investigate the biochemical responses of these animals to varying sub-maintenance nutritional states. Serum samples from 388 wild bighorn sheep collected between 2014 and 2017 during December through March across Wyoming and Montana were analyzed. Multivariate statistics and machine learning analyses were employed to identify characteristic metabolic patterns and metabolic interactions between early and severe sub-maintenance nutritional states. Significant differences were observed in the levels of 15 of the 49 quantified metabolites, including formate, thymine, glucose, choline, and others, pointing to disruptions in one-carbon, amino acid, and central carbon metabolic pathways. These metabolites may serve as indicators of critical physiological processes such as nutritional intake, immune function, energy metabolism, and protein catabolism, essential for understanding how wild bighorn sheep adapt to nutritional stress. The study has generated valuable insights into molecular networks underlying the metabolic resilience of wild bighorn sheep, highlighting the potential for using specific biochemical markers to evaluate nutritional and energetic states in free-ranging ungulates. These insights may help wildlife man-agers and ecologists compare populations across different times in seasonal cycles, providing information to assess the adequacy of seasonal ranges and support conservation efforts. This research strengthens our understanding of metabolic adaptations to envi-ronmental stressors in wild ruminants, offering a foundation for improving management practices to maintain healthy bighorn sheep populations.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Montana State University</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Chemistry and Biochemistry</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">PI: Dr. Valerie Copie</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">O'Shea-Stone</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Galen</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">103 Chemistry and Biochemistry Building</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">galenoshea@gmail.com</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">3035237132</div>
+						<div class="desc__grid__item">NUM_GROUPS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">3</div>
+						<div class="desc__grid__item">TOTAL_SUBJECTS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">398</div>
+						<div class="desc__grid__item">NUM_FEMALES</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">398</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <input type="checkbox" id="analysis_grid_item18" class="analysis_checkbox"/>
+                <label for="analysis_grid_item18" href="#AN006036" class="analysis__grid__item orange">AN006036</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006036/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006036_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006036/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006036_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006036/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006036_comparison.log" target="_blank">Inconsistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN006036</div>
+                    </div>
+                </div>
+
+            </div>			<br>            <div class="grid header">
+                <input type="checkbox" id="study_grid_item10" class="study_checkbox"/>
+                <label for="study_grid_item10" href="#ST003691" class="study__grid__item">ST003691: Beneficial effects of Glucose-1,6-bisphosphate modulation on mutant phosphomannomutase-2 - Institute of Biomolecular Chemistry (ICB-CNR) - Monticelli, Maria</label>
+                <div class="grid__description" style="height:10em;max-height:10">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Beneficial effects of Glucose-1,6-bisphosphate modulation on mutant phosphomannomutase-2</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">The metabolite Glucose-1,6-bisphosphate (Glc-1,6-P2) plays a vital role in human metabolism, and is a crucial activator and stabilizer for phosphomannomutase-2 (PMM2) - mutations within this protein propagate the most common congenital disorder of glycosylation (PMM2-CDG). In vivo, Glc-1,6-P2 is hydrolysed by phosphomannomutase-1 (PMM1), predominantly in the brain, under the influence of inosine monophosphate. In the present study, we employed knockout PMM1 in Arg141His/Phe119LeuPMM2 patient-derived fibroblasts and investigated the phenotypic improvement. Increased Glc-1,6-P2 was associated with glycosylation enhancement, confirmed by glycan profiling. The prevalence of previously identified PMM2-CDG biomarkers, such as LAMP-1, PTX3 and lysosomal enzymes showed empirical increases - these findings were corroborated by metabolomic and proteomic analysis. Moreover, our results support the potential of Glc-1,6-P2 modulation for PMM2-CDG, potentiating novel perspectives in drug discovery.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Institute of Biomolecular Chemistry (ICB-CNR)</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Monticelli</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Maria</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">via Campi Flegrei 34, 80078 Pozzuoli (NA)</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">maria.monticelli@unina.it</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">+39 3663514733</div>
+						<div class="desc__grid__item">NUM_GROUPS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">2</div>
+						<div class="desc__grid__item">TOTAL_SUBJECTS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">10</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <input type="checkbox" id="analysis_grid_item19" class="analysis_checkbox"/>
+                <label for="analysis_grid_item19" href="#AN006057" class="analysis__grid__item orange">AN006057</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006057/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006057_txt.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006057/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006057_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006057/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006057_comparison.log" target="_blank">Inconsistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN006057</div>
+                    </div>
+                </div>
+
+            </div>			<br>            <div class="grid header">
+                <input type="checkbox" id="study_grid_item11" class="study_checkbox"/>
+                <label for="study_grid_item11" href="#ST003779" class="study__grid__item">ST003779: Overcoming resistance to immunotherapy by targeting CD38 in human tumor explants - Intracellular metabolomics of B7.H3 human CAR-T cells - MGH - Revach, Or-Yam</label>
+                <div class="grid__description" style="height:11em;max-height:11">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Overcoming resistance to immunotherapy by targeting CD38 in human tumor explants - Intracellular metabolomics of B7.H3 human CAR-T cells</div>
+						<div class="desc__grid__item">STUDY_TYPE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Intracellular metabolomics</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">CD38 is an ectoenzyme on the surface of T cells and controlling both intracellular and extracellular NAD+ levels, which are important for T cell function. In this study we profiled the intracellular metabolomics of B7.H3 human CAR-T cells. Results can be found in Fig. 4 and Fig. S7 in the paper Overcoming resistance to immunotherapy by targeting CD38 in human tumor explants (Revach et al.)</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">MGH</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">KF-CCR</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Jenkins lab</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Revach</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Or-Yam</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">55 Fruit street, Boston, MA, 02114, USA</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">oryamush@gmail.com</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">(617) 726-5130</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <input type="checkbox" id="analysis_grid_item20" class="analysis_checkbox"/>
+                <label for="analysis_grid_item20" href="#AN006207" class="analysis__grid__item yellow">AN006207</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006207/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006207_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006207/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006207_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006207/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006207_comparison.log" target="_blank">Consistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN006207</div>
+                    </div>
+                </div>
+
+            </div>			<br>            <div class="grid header">
+                <input type="checkbox" id="study_grid_item12" class="study_checkbox"/>
+                <label for="study_grid_item12" href="#ST003830" class="study__grid__item">ST003830: Overcoming resistance to immunotherapy by targeting CD38 in human tumor explants - Extracellular metabolomics of B7.H3 human CAR-T cells - MGH - Revach, Or-Yam</label>
+                <div class="grid__description" style="height:11em;max-height:11">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Overcoming resistance to immunotherapy by targeting CD38 in human tumor explants - Extracellular metabolomics of B7.H3 human CAR-T cells</div>
+						<div class="desc__grid__item">STUDY_TYPE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Extracellular metabolomics</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">CD38 is an ectoenzyme on the surface of T cells and controlling both intracellular and extracellular NAD+ levels, which are important for T cell function. In this study we profiled the extracellular metabolomics of B7.H3 human CAR-T cells that were chronically stimulated using TCR activation for 10 days and were treated with CD38 inhibitor (78c).</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">MGH</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">KF-CCR</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Jenkins lab</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Revach</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Or-Yam</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">55 Fruit street, Boston, MA, 02114, USA</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">oryamush@gmail.com</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">(617) 726-5130</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <input type="checkbox" id="analysis_grid_item21" class="analysis_checkbox"/>
+                <label for="analysis_grid_item21" href="#AN006291" class="analysis__grid__item yellow">AN006291</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006291/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006291_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006291/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006291_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006291/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight brightgreen">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006291_comparison.log" target="_blank">Consistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN006291</div>
+                    </div>
+                </div>
+
+            </div>			<br>            <div class="grid header">
+                <input type="checkbox" id="study_grid_item13" class="study_checkbox"/>
+                <label for="study_grid_item13" href="#ST003896" class="study__grid__item">ST003896: Postprandial Plasma Metabolomic Changes in 147 Individuals Following Ingestion of a Standard Mixed Meal - Nanjing Medical University - Wang, Jiachen</label>
+                <div class="grid__description" style="height:8em;max-height:8">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Postprandial Plasma Metabolomic Changes in 147 Individuals Following Ingestion of a Standard Mixed Meal</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">This study applied untargeted metabolomic techniques to investigate plasma metabolic profile changes in 147 individuals following consumption of a standard mixed meal. Time-series analyses identified dynamic responses in several key metabolic pathways and examined their associations with participants' metabolic health status. The results indicated considerable inter-individual differences in the amplitude and temporal patterns of metabolite changes, highlighting the significance of metabolic individuality.We found that substances such as Phenylalanine, allo-Inositol, Taurochenodesoxycholic acid, Succinic acid semialdehyde (notably listed twice), DNP-DL-Methionine, and 1,3,5-Trihydroxybenzene changed significantly after the standard mixed meal test (MMTT), and these changes were highly correlated with hormone fluctuations such as Insulin and Glucagon.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Nanjing Medical University</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Wang</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Jiachen</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">No. 300, Guangzhou Road, Nanjing</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">jcwang@stu.njmu.edu.cn</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">02565306466</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <input type="checkbox" id="analysis_grid_item22" class="analysis_checkbox"/>
+                <label for="analysis_grid_item22" href="#AN006399" class="analysis__grid__item yellow">AN006399</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006399/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006399_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006399/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006399_json.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006399/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006399_comparison.log" target="_blank">Inconsistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN006399</div>
+                    </div>
+                </div>
+
+            </div>			<br>            <div class="grid header">
+                <input type="checkbox" id="study_grid_item14" class="study_checkbox"/>
+                <label for="study_grid_item14" href="#ST003969" class="study__grid__item">ST003969: Effect of Desiccation of Mycobacterium tuberculosis metabolism - Weill Cornell Medicine - Brown, Christopher</label>
+                <div class="grid__description" style="height:13em;max-height:13">
+                    <div class="desc__grid">
+						<div class="desc__grid__item">STUDY_TITLE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Effect of Desiccation of Mycobacterium tuberculosis metabolism</div>
+						<div class="desc__grid__item">STUDY_TYPE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Metabolomics</div>
+						<div class="desc__grid__item">STUDY_SUMMARY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Mycobacterium tuberculosis (Mtb) is an obligate human pathogen that depends on its ability to spread from host-to-host to survive as a species. Yet, knowledge of transmission-specific traits remains lacking. Here, we report the discovery of a specific adaptive response to desiccation, a stress intrinsically linked to the generation of the aerosol droplets within which Mtb transmits. We show that desiccation inflicts oxidative damage and activates Mtb’s DNA repair responses but that this repair is imperfect and results in mutations. We further show that activation of these DNA repair responses is accompanied by increased expression of the transcription-coupled repair factor, mfd, but that this expression serves to buffer the fitness cost of specific resistance-conferring mutations in rpoB, the target of the frontline drug rifampin, rather than to facilitate transcription-coupled DNA repair. Silencing mfd during aerosolization impairs survival of strains harboring the rifampin resistance allele S450L. This function is further supported by whole genome sequence data from over 50,000 clinically circulating strains. These studies indicate that Mtb has evolved transmission-specific stress responses that have enabled it to leverage desiccation-induced DNA damage as a potential source of genetic diversification and drug resistance.</div>
+						<div class="desc__grid__item">INSTITUTE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Weill Cornell Medicine</div>
+						<div class="desc__grid__item">DEPARTMENT</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Department of Medicine, Division of Infectious Diseases</div>
+						<div class="desc__grid__item">LABORATORY</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Rhee Lab</div>
+						<div class="desc__grid__item">LAST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Brown</div>
+						<div class="desc__grid__item">FIRST_NAME</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">Christopher</div>
+						<div class="desc__grid__item">ADDRESS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">413 E 69th St</div>
+						<div class="desc__grid__item">EMAIL</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">cdb9006@med.cornell.edu</div>
+						<div class="desc__grid__item">PHONE</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">16469626225</div>
+						<div class="desc__grid__item">NUM_GROUPS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">5</div>
+						<div class="desc__grid__item">PUBLICATIONS</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">https://doi.org/10.1101/2025.06.04.657859</div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <input type="checkbox" id="analysis_grid_item23" class="analysis_checkbox"/>
+                <label for="analysis_grid_item23" href="#AN006530" class="analysis__grid__item orange">AN006530</label>
+                <div class="grid__description">
+                    <div>
+                        <span>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006530/mwtab/txt" target="_blank">txt</a>
+                            </div>
+                            <div class="shieldRight yellow">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006530_txt.log" target="_blank">Warnings Only</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006530/mwtab/json" target="_blank">json</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006530_json.log" target="_blank">Validation Error</a>
+                            </div>
+                        </div>
+                        <div class="shield">
+                            <div class="shieldLeft grey">
+                                <a href="https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006530/mwtab/comparison" target="_blank">comparison</a>
+                            </div>
+                            <div class="shieldRight orange">
+                                <a href="https://raw.githubusercontent.com/MoseleyBioinformaticsLab/mwFileStatusWebsite/master/docs/validation_logs/AN006530_comparison.log" target="_blank">Inconsistent</a>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                    <br>
+                    <div class="desc__grid">
+						<div class="desc__grid__item">ANALYSIS_ID</div>
+						<div class="desc__grid__item" style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:calc(100%);">AN006530</div>
+                    </div>
+                </div>
+
+            </div>			<br>		</div>
+	</body>
+</html>
