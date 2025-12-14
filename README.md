@@ -15,7 +15,7 @@ accessed through it's GitHub Pages hosted webpage at:
 https://moseleybioinformaticslab.github.io/mwFileStatusWebsite/
 
 Individual validation files can be accessed in the 
-[docs/validation_logs/](https://github.com/moseleybioinformaticslab/mwFileStatusWebsite/tree/master/docs/validation_logs) 
+[validation_logs/](https://github.com/moseleybioinformaticslab/mwFileStatusWebsite/tree/master/validation_logs) 
 directory in this repository.
 
 
