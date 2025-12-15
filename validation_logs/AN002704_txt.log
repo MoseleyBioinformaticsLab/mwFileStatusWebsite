@@ -1,8 +1,27 @@
 Validation Log
-2025-12-07 04:43:27.206733
-mwtab Python Library Version: 1.2.5
+2025-12-14 23:32:24.154170
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002704/mwtab/txt
 Study ID:      ST001656
 Analysis ID:   AN002704
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 8
+
+Number of Warnings: 0
+
+Number of Value Errors: 2
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 6
+
+Issue Log:
+Error: The value, "000000", for "PROJECT_ID" in the file header must be the letters "PR" followed by 6 numbers. Ex. "PR001405".
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Error: Unknown or invalid section, "FACTORS".

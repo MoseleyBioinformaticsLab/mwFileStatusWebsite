@@ -1,8 +1,95 @@
 Validation Log
-2025-12-07 04:58:04.730977
-mwtab Python Library Version: 1.2.5
+2025-12-14 23:43:43.083021
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002895/mwtab/txt
 Study ID:      ST001784
 Analysis ID:   AN002895
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 9
+
+Number of Value Errors: 14
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "000000", for "PROJECT_ID" in the file header must be the letters "PR" followed by 6 numbers. Ex. "PR001405".
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "300ul/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "20min", for the subsection, "ANALYTICAL_TIME", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['min']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "Molecular Weight" column at position 3 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                      1
+10        C25 H44 N O7 P
+11        C23 H44 N O7 P
+14             C8 H9 N O
+19          C21 H37 N O4
+22          C8 H7 N O4 S
+33          C23 H41 N O4
+34          C17 H31 N O4
+35          C14 H17 N O8
+36           C9 H17 N O4
+37            C4 H7 N O2
+39           C18 H37 N O
+40            C5 H9 N O3
+47           C5 H11 N O2
+64            C5 H9 N O2
+67          C17 H33 N O4
+75          C12 H17 N O3
+80           C9 H11 N O3
+84            C4 H9 N O2
+86           C7 H15 N O2
+88          C26 H43 N O6
+89          C26 H43 N O5
+90          C26 H43 N O5
+92           C10 H9 N O3
+93            C9 H9 N O3
+98           C11 H9 N O2
+99          C11 H11 N O3
+104          C7 H15 N O3
+105        C5 H11 N O2 S
+106           C3 H7 N O3
+107           C4 H9 N O3
+108           C3 H7 N O2
+111           C5 H9 N O4
+113         C25 H45 N O4
+114          C6 H13 N O2
+115          C9 H11 N O2
+117           C5 H9 N O2
+118           C5 H7 N O3
+119          C9 H11 N O3
+120          C5 H11 N O2
+121       C8 H7 Cl2 N O2
+122    C21 H18 [2]H9 N O
+123            C4 H8 O S
+124         C17 H27 N O4
+127         C21 H31 N O8
+128          C7 H13 N O3
+136          C6 H11 N O2
+138       C26 H54 N O7 P
+139          C8 H17 N O2
+140         C10 H19 N O4
+142       C18 H38 N O5 P
+143          C7 H13 N O2
+145          C6 H9 N O S
+146         C2 H7 N O3 S
+150         C4 H7 N O2 S
+151         C19 H35 N O4
+152           C2 H F3 O2
+156          C6 H11 N O2
+Warning: The "KEGG" column at position 9 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 9 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0    1
+Warning: The "Human Metabolome Database" column at position 8 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Human Metabolome Database" column at position 8 in the METABOLITES table, matches a standard column name, "hmdb_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                1
+75    DL-Cerulenin
+Warning: The "RT [min]" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "mzVault Best Match" column at position 6 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: There are duplicate column names in the METABOLITES table.

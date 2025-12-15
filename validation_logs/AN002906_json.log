@@ -1,8 +1,388 @@
 Validation Log
-2025-12-07 04:58:49.422445
-mwtab Python Library Version: 1.2.5
+2025-12-14 23:44:21.489641
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002906/mwtab/json
 Study ID:      ST001791
 Analysis ID:   AN002906
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 187
+
+Number of Warnings: 182
+
+Number of Value Errors: 182
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][0] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][1] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][2] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][3] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][4] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][5] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][6] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][7] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][8] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][9] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][10] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][11] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][12] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][13] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][14] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][15] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][16] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][17] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][18] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][19] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][20] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][21] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][22] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][23] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][24] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][25] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][26] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][27] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][28] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][29] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][30] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][31] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][32] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][33] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][34] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][35] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][36] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][37] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][38] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][39] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][40] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][41] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][42] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][43] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][44] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][45] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][46] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][47] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][48] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][49] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][50] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][51] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][52] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][53] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][54] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][55] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][56] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][57] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][58] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][59] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][60] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][61] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][62] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][63] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][64] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][65] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][66] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][67] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][68] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][69] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][70] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][71] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][72] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][73] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][74] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][75] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][76] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][77] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][78] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][79] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][80] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][81] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][82] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][83] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][84] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][85] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][86] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][87] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][88] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][89] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][90] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][91] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][92] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][93] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][94] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][95] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][96] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][97] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][98] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][99] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][100] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][101] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][102] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][103] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][104] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][105] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][106] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][107] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][108] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][109] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][110] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][111] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][112] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][113] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][114] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][115] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][116] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][117] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][118] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][119] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][120] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][121] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][122] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][123] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][124] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][125] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][126] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][127] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][128] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][129] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][130] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][131] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][132] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][133] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][134] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][135] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][136] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][137] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][138] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][139] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][140] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][141] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][142] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][143] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][144] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][145] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][146] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][147] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][148] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][149] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][150] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][151] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][152] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][153] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][154] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][155] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][156] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][157] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][158] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][159] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][160] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][161] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][162] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][163] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][164] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][165] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][166] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][167] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][168] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][169] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][170] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][171] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][172] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][173] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][174] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][175] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][176] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][177] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][178] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][179] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][180] has the following duplicate keys in its Factors:
+	"Factor"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][181] has the following duplicate keys in its Factors:
+	"Factor"

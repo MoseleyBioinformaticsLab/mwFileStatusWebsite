@@ -1,8 +1,25 @@
 Validation Log
-2025-12-07 05:44:47.350499
-mwtab Python Library Version: 1.2.5
+2025-12-15 00:19:17.187308
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003424/mwtab/json
 Study ID:      ST002096
 Analysis ID:   AN003424
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 6
+
+Number of Warnings: 0
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "800", in ["NM"]["SPECTROMETER_FREQUENCY"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['MHz']. Ignore this when more complicated descriptions are required.
+Error: The value, "6", in ["NM"]["TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.
+Error: The value, "1.31 sec", in ["NM"]["ACQUISITION_TIME"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s']. Ignore this when more complicated descriptions are required.
+Error: The value, "20.2", in ["NM"]["SPECTRAL_WIDTH"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm', 'Hz']. Ignore this when more complicated descriptions are required.
+Error: The value, "65,536", in ["NM"]["NUM_DATA_POINTS_ACQUIRED"] should be a unitless number. Ignore this when more complicated descriptions are required.
+Error: The value, "1.5", in ["NM"]["LINE_BROADENING"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['Hz']. Ignore this when more complicated descriptions are required.

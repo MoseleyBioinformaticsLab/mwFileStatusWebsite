@@ -1,8 +1,53 @@
 Validation Log
-2025-12-07 01:19:45.372845
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:06:48.109214
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000151/mwtab/txt
 Study ID:      ST000095
 Analysis ID:   AN000151
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 34
+
+Number of Warnings: 24
+
+Number of Value Errors: 33
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection.
+Error: The value, "From 11.5 days post coitus to postnatal day 5", for the subsection, "TREATMENT_DOSEDURATION", in the "TREATMENT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['h', 'weeks', 'days']. Ignore this when more complicated descriptions are required.
+Error: The value, "See protocol/methods file", for the subsection, "ION_SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "See protocol/methods file", for the subsection, "ION_SPRAY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "0.4mL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "5 L", for the subsection, "SAMPLE_INJECTION", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "600 L", for the subsection, "WEAK_WASH_VOLUME", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "600 L", for the subsection, "STRONG_WASH_VOLUME", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "17 L", for the subsection, "SAMPLE_LOOP_SIZE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Warning: There are duplicate samples in the MS_METABOLITE_DATA section.
+Warning: The "ri" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The 2nd "T52-6" column at position 17 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "V32-6" column at position 18 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "V32-6" column at position 19 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "V38-9" column at position 20 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "V38-9" column at position 21 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "V44-2" column at position 22 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "V44-2" column at position 23 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "V47-6" column at position 24 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "V47-6" column at position 25 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "V69-3" column at position 26 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "V69-3" column at position 27 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "V77-5" column at position 28 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "V77-5" column at position 29 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "V78-6" column at position 30 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "V78-6" column at position 31 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "moverz_quant" column at position 2 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 3 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 4 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 6 in the METABOLITES table has all null values.
+Warning: The "kegg_id" column at position 7 in the METABOLITES table has all null values.

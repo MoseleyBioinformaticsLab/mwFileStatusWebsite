@@ -1,8 +1,53 @@
 Validation Log
-2025-12-07 05:51:54.435002
-mwtab Python Library Version: 1.2.5
+2025-12-15 00:24:58.987529
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003536/mwtab/txt
 Study ID:      ST002159
 Analysis ID:   AN003536
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 34
+
+Number of Warnings: 29
+
+Number of Value Errors: 29
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "161107_Blk_MediaBlk_DiatomC" column at position 133 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "161107_Blk_MediaBlk_DiatomYBC" column at position 134 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "161107_Blk_MediaBlk_DiatomA" column at position 135 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "161107_Blk_MediaBlk_DiatomZ" column at position 136 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "170213_Blk_MediaBlk_Pc55x" column at position 137 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "161107_Blk_MediaBlk_DiatomB" column at position 138 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "170821_Blk_FilterBlk_71" column at position 139 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "170821_Blk_FilterBlk_N" column at position 140 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "170821_Blk_FilterBlk_49" column at position 141 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "170821_Blk_FilterBlk_21" column at position 142 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "170821_Blk_FilterBlk_O" column at position 143 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "161114_Blk_MediaBlk_A" column at position 144 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "170821_Blk_FilterBlk_1314P" column at position 145 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "170821_Blk_FilterBlk_As9601" column at position 146 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "170821_Blk_FilterBlk_Nat" column at position 147 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "161114_Blk_MediaBlk_C" column at position 148 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "170213_Blk_MediaBlk_B" column at position 149 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "170117_Blk_MediaBlk_A" column at position 150 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "161116_Blk_MediaBlk_B" column at position 151 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "161107_Blk_MediaBlk_A" column at position 152 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "180227_Blk_MediaBlk_LInoSi" column at position 153 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "180227_Blk_MediaBlk_RAC5" column at position 154 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "180130_Blk_MediaBlk_1" column at position 155 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "170821_Blk_FilterBlk_Tp10" column at position 156 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "170821_Blk_FilterBlk_Tp28" column at position 157 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "170821_Blk_FilterBlk_Tp35" column at position 158 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "161107_Smp_Cy_A" column at position 74 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "161107_Smp_Cy_B" column at position 75 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "161107_Smp_Cy_C" column at position 76 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

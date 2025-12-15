@@ -1,12 +1,27 @@
 Validation Log
-2025-12-07 04:37:06.446162
-mwtab Python Library Version: 1.2.5
+2025-12-14 23:29:14.766897
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002664/mwtab/txt
 Study ID:      ST001629
 Analysis ID:   AN002664
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 8
 
-Error Log:
-SCHEMA: Section "ANALYSIS" does not match the allowed schema. Missing key: 'ANALYSIS_TYPE'
+Number of Warnings: 0
+
+Number of Value Errors: 7
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "000000", for "PROJECT_ID" in the file header must be the letters "PR" followed by 6 numbers. Ex. "PR001405".
+Error: The value for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "ANIMAL_VET_TREATMENTS", in the "TREATMENT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The required property, "ANALYSIS_TYPE", in the "ANALYSIS" section  is missing.
+Error: The value, "10mM pyrazine", for the subsection, "STANDARD_CONCENTRATION", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mM']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "WATER_SUPPRESSION", in the "NM" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "25 o C", for the subsection, "TEMPERATURE", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.
+Error: The value, "128 scans", for the subsection, "NUMBER_OF_SCANS", in the "NM" section should be a unitless number. Ignore this when more complicated descriptions are required.

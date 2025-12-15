@@ -1,8 +1,1248 @@
 Validation Log
-2025-12-07 06:40:05.177411
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:02:33.176972
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005613/mwtab/json
 Study ID:      ST002576
 Analysis ID:   AN005613
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 188
+
+Number of Warnings: 187
+
+Number of Value Errors: 188
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "30", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][0] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][1] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][2] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][3] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][4] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][5] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][6] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][7] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][8] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][9] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][10] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][11] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][12] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][13] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][14] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][15] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][16] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][17] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][18] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][19] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][20] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][21] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][22] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][23] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][24] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][25] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][26] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][27] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][28] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][29] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][30] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][31] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][32] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][33] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][34] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][35] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][36] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][37] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][38] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][39] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][40] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][41] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][42] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][43] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][44] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][45] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][46] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][47] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][48] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][49] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][50] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][51] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][52] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][53] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][54] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][55] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][56] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][57] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][58] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][59] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][60] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][61] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][62] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][63] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][64] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][65] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][66] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][67] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][68] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][69] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][70] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][71] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][72] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][73] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][74] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][75] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][76] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][77] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][78] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][79] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][80] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][81] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][82] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][83] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][84] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][85] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][86] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][87] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][88] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][89] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][90] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][91] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][92] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][93] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][94] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][95] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][96] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][97] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][98] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][99] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][100] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][101] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][102] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][103] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][104] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][105] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][106] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][107] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][108] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][109] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][110] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][111] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][112] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][113] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][114] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][115] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][116] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][117] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][118] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][119] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][120] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][121] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][122] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][123] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][124] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][125] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][126] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][127] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][128] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][129] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][130] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][131] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][132] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][133] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][134] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][135] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][136] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][137] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][138] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][139] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][140] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][141] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][142] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][143] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][144] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][145] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][146] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][147] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][148] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][149] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][150] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][151] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][152] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][153] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][154] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][155] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][156] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][157] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][158] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][159] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][160] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][161] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][162] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][163] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][164] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][165] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][166] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][167] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][168] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][169] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][170] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][171] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][172] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][173] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][174] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][175] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The "mz" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Neutral mass" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InChiKey_14" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InChiKey_14" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1      FIOHTMQGSFVHEZ
+2      DKPMWHFRUGMUKF
+3      XHXUANMFYXWVNG
+4      UDIUFGIXIGLRSM
+5      DJQYBVLXBVJHMU
+6      JGUNZIWGNMQSBM
+7       LIDBLDQVAYHNE
+8      DNWUYCUUEGGVPR
+9      BYPXGAVDTZXOLE
+10     OYNBXMWIXBFNAJ
+11     OSCCDBFHNMXNME
+12     WTIIULQJLZEHGZ
+13     YWWVWXASSLXJHU
+14     OYDCCWNLILCHDJ
+15     HWXBTNAVRSUOJR
+16     JVGVDSSUAVXRDY
+17     WHBMMWSBFZVSSR
+18     JVTAAEKCZFNVCJ
+19     BJEPYKJPYRNKOW
+20     SERHXTVXHNVDKA
+21     NMDWGEGFJUBKLB
+22     VOKUMXABRRXHAR
+23     XKLJLHAPJBUBNL
+24     INMKWUNQKOWGEZ
+25     NELZMZLNTYWIPD
+26     OTSBKHHWSQYEHK
+27     MPCAJMNYNOGXPB
+28     LXBIFEVIBLOUGU
+29     PZLZEXRSLQTBJE
+30     LCSBQXXSNDOFFD
+31     KWNBDPJHEKVDAW
+32     BVQVLAIMHVDZEL
+33     AOMLMYXPXUTBQH
+34     JUSMHIGDXPKSID
+35     AXKZIDYFAMKWSA
+36     QHBZHVUGQROELI
+37     YJCJVMMDTBEITC
+38     FYURGFQVSMALOD
+39     BITHHVVYSMSWAG
+40     XSXIVVZCUAHUJO
+41     ZDHCZVWCTKTBRY
+42     ZDHCZVWCTKTBRY
+43     ICTIYYVVZNILKD
+44     UGAGPNKCDRTDHP
+45     MGAAHPXIGWJLPX
+46     UZIIAZIXTSAEPN
+47     AQTKXCPRNZDOJU
+48     AAKDPDFZMNYDLR
+49     ADVGKWPZRIDURE
+50     JDWYRSDDJVCWPB
+51     SXCLPOXHBILXEY
+52     PMOWTIHVNWZYFI
+53     VBUYCZFBVCCYFD
+54     MNRBGFKCVTVNBA
+55     JGHSBPIZNUXPLA
+56     WJSNOGSNIHAQKB
+57     WCJYZUFKKTYNLB
+58     NYHNVHGFPZAZGA
+59     CTXGTHVAWRBISV
+60     ZASFWGOMAIPHLN
+61     CDUUKBXTEOFITR
+62     COJBGNAUUSNXHX
+63     MVJLYXCJBPXRCY
+64     KGRVJHAUYBGFFP
+65     PCEJMSIIDXUDSN
+66     FOGJPHRWJKZCAO
+67     KLAKIAVEMQMVBT
+68     NADRVFUNXRGAII
+69     IHJUECRFYCQBMW
+70     NOUMDGXCGDQQOD
+71     ZUKLXLKVCGZHAA
+72     HOOWCUZPEFNHDT
+73     LZRUJECSWOAXOK
+74     LZRUJECSWOAXOK
+75     ACWBBAGYTKWBCD
+76     WVMWZWGZRAXUBK
+77     IBGYNIRCYXIAON
+78     SEOVTRFCIGRIMH
+79     GOLXRNDWAUTYKT
+80     ZFRKQXVRDFCRJG
+81     DZHSPYMHDVROSM
+82     PHENTZNALBMCQD
+83     RGHMISIYKIHAJW
+84     AULKDLUOQCUNOK
+85     UYEMGAFJOZZIFP
+86     VGFDFWZBUWIRGA
+87     VCRXMIQBQGCAAL
+88     BTCSSZJGUNDROE
+89     PTNLHDGQWUGONS
+90     PTNLHDGQWUGONS
+91     MKBJQFWSHNXYFZ
+92     OUIKMDRGUNIXSP
+93     CEVQXWMPODOBRM
+94     FEPBITJSIHRMRT
+95      KCHAXAGQVCJPN
+96     IETVQHUKTKKBFF
+97     DBTLNKQGKRKJBT
+98     RDZNZFGKEVDNPK
+99     PHPQIPPBBQUFII
+100    LTQYPAVLAYVKTK
+101    CZWARROQQFCFJB
+102    COCNDHOPIHDTHK
+103    HRQKXMSCZPCUSK
+104    CUBKHJDNGLGYAG
+105    WVMJEBICTINBRO
+106    NKXYOIJDQPQELO
+107    ZMITXKRGXGRMKS
+108    JHFAETDERBWUOO
+109    MXAFHAYQTYCNNT
+110    WPGZVCKWXQHYGF
+111    GSIHBOIIJFLKIL
+112    RVEKLXYYCHAMDF
+113    JBYXPOFIGCOSSB
+114    OAIJQUCVLFETGX
+115    YGCFIWIQZPHFLU
+116    NNPWPZGBFIMYHW
+117    TWSWSIQAPQLDBP
+118    DTHSUAKYTFUSQU
+119    AVKOENOBFIYBSA
+120    XUHLIQGRKRUKPH
+121    OFCNXPDARWKPPY
+122    CUGVBZDXUTZXJO
+123    JFLIEFSWGNOPJJ
+124    MKIFOPBVDBXRTO
+125    WEKGHNWYEFXAQP
+126    MPSNEAHFGOEKBI
+127    RDOXTESZEPMUJZ
+128    XDBMXUKHMOFBPJ
+129    BLFLLBZGZJTVJG
+130    UCMIRNVEIXFBKS
+131    MQCPOLNSJCWPGT
+132    MXJWRABVEGLYDG
+133    XUPYJHCZDLZNFP
+134    PRPNUZWHFGSGRV
+135    YCIMNLLNPGFGHC
+136    BHYOQNUELFTYRT
+137    GTZCVFVGUGFEME
+138    OGUCZBIQSYYWEF
+139    NKEXCFKOKFWDAA
+140    JYGXADMDTFJGBT
+141    KQUGQXNYBWYGAI
+142    DDRJAANPRJIHGJ
+143    IRPJCUWMPPZCJN
+144    NOKPBJYHPHHWAN
+145    QXKAIJAYHKCRRA
+146    HEBKCHPVOIAQTA
+147    HEBKCHPVOIAQTA
+148    DCXYFEDJOCDNAF
+149    CKLJMWTZIZZHCS
+150    FBPFZTCFMRRESA
+151    HXEACLLIILLPRG
+152    ONIBWKKTOPOVIA
+153    MTCFGRXMJLQNBG
+154    FBPFZTCFMRRESA
+155    QIVBCDIJIAJPQS
+156    JJHHIJFTHRNPIK
+157    GYSCBCSGKXNZRH
+158    CHNSJWFYRAXVMQ
+159    KXGVEGMKQFWNSR
+160    DOIRQSBPFJWKBE
+161    MSLRDZDDYDCKDD
+162    HOBAELRKJCKHQD
+163    SCCDDNKJYDZXMM
+164    OWZPCEFYPSAJFR
+165    QQVHEQUEHCEAKS
+166    SGMJBNSHAZVGMC
+167    ODBLHEXUDAPZAU
+168    MBMBGCFOFBJSGT
+169    YUFFSWGQGVEMMI
+170    VCCBEIPGXKNHFW
+171    YRAPWMYACXYABW
+172    PHMBVCPLDPDESM
+173    VKOBVWXKNCXXDE
+174    RCTQPWJZZZLMBI
+175    SHWUXGHQECDXLJ
+176    NUVBSKCKDOMJSU
+177    LYRIITRHDCNUHV
+178    KQWWVLVLVYYYDT
+179    XWAZTQUZONPJEW
+180    QISOBCMNUJQOJU
+181    BTCSSZJGUNDROE
+182    ZMJBYMUCKBYSCP
+183    HIGQPQRQIQDZMP
+184    WHUUTDBJXJRKMK
+185    AAYACJGHNRIFCT
+186    RFDAIACWWDREDC
+187    WVULKSPCQVQLCU
+188    AQTYXAPIHMXAAV
+189    UDZRBDXBUYNBCW
+190    CATSNJVOTSVZJV
+191    IPCSVZSSVZVIGE
+192    QIAFMBKCNZACKA
+193    JEJNWEREQWMOHB
+194    RSTKLPZEZYGQPY
+195    BXFFHSIDQOFMLE
+196    SAUCHDKDCUROAO
+197    LEVWYRKDKASIDU
+198    AGPKZVBTJJNPAG
+199    FFEARJCKVFRZRR
+200    OUYCCCASQSFEME
+201    RHGKLRLOHDJJDR
+202    POULHZVOKOAJMA
+203    WKZWTZTZWGWEGE
+204    SMEROWZSTRWXGI
+205    UNUKMHHAQBXDMO
+206    ZZUMXQCSMJCDDC
+207    HQAXXRWVFPWZIL
+208    KEMQGTRYUADPNZ
+209    GATINKBJRDIBBW
+210    AWVGVHUVOTVOAQ
+211    GCMVATDSSHTCOS
+212    HBLUGHSSFJXCOA
+213    TWJNQYPJQDRXPH
+214    WJFVEEAIYIOATH
+215    OTCCIMWXFLJLIA
+216    BKAYIFDRRZZKNF
+217    PWATWSYOIIXYMA
+218    PQBAWAQIRZIWIV
+219    JLEBZPBDRKPWTD
+220    DATAGRPVKZEWHA
+221    JBIJLHTVPXGSAM
+222    PVNIIMVLHYAWGP
+223    MBZNUFZCBLXJOY
+224    IFAWYXIHOVRGHQ
+225    YJCJVMMDTBEITC
+226    GWQOOADXMVQEFT
+227    HOUSDILKOJMENG
+228    SUBDBMMJDZJVOS
+229    DSWLRNLRVBAVFC
+230    WGNAKZGUSRVWRH
+231    SECPZKHBENQXJG
+232    USQVRFZEIYYKND
+233    DTKXGPUQRVDFCG
+234    GHOKWGTUZJEAQD
+235    IGTYILLPRJOVFY
+236    QUNWUDVFRNGTCO
+237    YVYMBNSKXOXSKW
+238    BBYWOYAFBUOUFP
+239    GEWUBFCXNZWHKH
+240    HEQMDGOBDIGJOC
+241    QJHRNPQXCMXOOH
+242    JPNPIRVRGLGTRE
+243    MPVZXVXIZMIJFZ
+244    YFSUTJLHUFNCNZ
+245    PAZGBAOHGQRCBP
+246    DTUQWGWMVIHBKE
+247    MQHNKCZKNAJROC
+248    MNSQZCUZCDASJO
+249    IHFWVIPLEXWUCY
+250    VCMMXZQDRFWYSE
+251    DIJBBUIOWGGQOP
+252    ULFMNSXBTYDMFI
+253    SJGBVXPXTMNDDG
+254    BUHPPQFOKKRDPX
+255    NHZMQXZHNVQTQA
+256    WUEVZLPTHXVTBC
+257    AAWZDTNXLSGCEK
+258    FPXPQMOQWJZYBL
+259    JTEYKUFKXGDTEU
+260    LMGKXMPKANQKTB
+261    XSCYYIVXGBKTOC
+262    ZZLHPCSGGOGHFW
+263    HGTBAIVLETUVCG
+264    JZNWSCPGTDBMEW
+265    KDYFGRWQOYBRFD
+266    YCPXWRQRBFJBPZ
+267    UHRCUSBDMVNETF
+268    XOAAWQZATWQOTB
+269    IOUNJEVHPQCKKE
+270    WAQBISPOEAOCOG
+271    ODJQKYXPKWQWNK
+272    NODSEPOUFZPJEQ
+273    NNPTVHABBUVOGA
+274    ZPFYUMPBKRRSTR
+275    LEHOTFFKMJEONL
+276    DRTQHJPVMGBUCF
+277    MKLWBFOSJJEDLZ
+278    KCMITHMNVLRGJU
+279    WBZPMFHFKXZDRZ
+280    POULHZVOKOAJMA
+281    LRFVTYWOQMYALW
+Warning: The "Formula" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1          C6 H11 N O4
+11         C6 H13 N O3
+28         C6 H13 N O4
+33          C5 H7 N O3
+48         C7 H15 N O4
+49          C8 H9 N O2
+50          C9 H9 N O4
+51         C8 H7 Cl O3
+61          C4 H9 N O3
+62          C5 H7 N O4
+72          C8 H9 N O4
+75      C9 H10 Cl N O3
+78         C10 H9 N O2
+79        C11 H11 N O2
+88          C4 H9 N O2
+101        C5 H11 N O3
+102       C11 H11 N O3
+109       C9 H9 N O4 S
+115       C4 H5 N O4 S
+120      C6 H11 N O3 S
+125        C7 H11 N O5
+126       C10 H15 N O2
+129        C9 H11 N O2
+130         C3 H7 N O2
+132       C12 H17 N O3
+138    C18 H19 Cl N4 O
+144      C3 H7 N O5 S2
+149         C4 H7 N O4
+151        C6 H11 N O2
+152         C5 H9 N O2
+153         C3 H7 N O3
+156        C12 H10 O S
+158       C10 H11 N O2
+163    C13 H18 Cl N O2
+172        C9 H15 N O3
+175     C30 H47 N O5 S
+181         C4 H9 N O2
+184         C5 H9 N O4
+185       C26 H43 N O5
+186       C26 H43 N O6
+187       C26 H43 N O5
+192         C9 H9 N O3
+194        C11 H9 N O3
+195       C8 H7 N O4 S
+196         C4 H7 N O3
+198        C6 H13 N O2
+199      C5 H11 N O2 S
+200        C9 H11 N O3
+214      C8 H15 N O9 S
+215         C6 H9 N O5
+222         C6 H5 N O2
+227       C16 H31 N O3
+229       C8 H9 N O2 S
+234        C9 H17 N O5
+235       C8 H9 N O5 S
+237     C21 H44 N O7 P
+238     C23 H48 N O7 P
+239     C24 H50 N O7 P
+240     C25 H52 N O7 P
+241     C25 H48 N O7 P
+242     C25 H44 N O7 P
+244      C8 H F17 O3 S
+256       C23 H29 N O9
+262       C4 H9 N O3 S
+264      C5 H14 N O6 P
+268       C2 H7 N O3 S
+Warning: The "RefMet" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+2                                  Muricholic acid
+3                                  Menthyl acetate
+4                                Bornane-2,5-dione
+7                                    Abscisic acid
+13                                Myristoleic acid
+14                      4-Hydroxycinnamate sulfate
+15                          2-Hydroxyglutaric acid
+17                          3R-Hydroxybutyric acid
+18                                     Lactic acid
+19                                    D-Malic acid
+20                                    Pantolactone
+21                              (S)-2-Acetolactate
+22             (S)-Methylmalonic acid semialdehyde
+24                                       Traumatin
+26                           1,3-Dimethyluric acid
+27                            1,5-Anhydro-mannitol
+31                               1-Methyluric acid
+33             1-Pyrroline-4-hydroxy-2-carboxylate
+37                         10-Hydroxydecanoic acid
+38                             10-Oxodecanoic acid
+39                                cis-Gondoic acid
+40                      11Z,14Z-Eicosadienoic acid
+41                          12-Hydroxy lauric acid
+42                          12-Hydroxy lauric acid
+43                14-Hydroxy-12-tetradecenoic acid
+44                                  Juniperic acid
+50                                 Leucodopachrome
+53                       2-Dehydro-D-gluconic acid
+55                         2-Hydroxy palmitic acid
+58                          2-Hydroxyhexanoic acid
+61                                  2-Methylserine
+62                          2-Keto-glutaramic acid
+75                                3-Chlorotyrosine
+76                                3-Dehydroquinate
+78                               Indoleacetic acid
+79                          3-Indolepropionic acid
+80                                  3-Methylindole
+81                            3-Oxododecanoic acid
+82                           Ureidoisobutyric acid
+83                      3,4-Dihydroxymandelic acid
+85                       3,5-Dihydroxybenzoic acid
+86     3beta,16alpha-Dihydroxyandrostenone sulfate
+88                         gamma-Aminobutyric acid
+89                              4-Coumaryl alcohol
+90                              4-Coumaryl alcohol
+93                           4-Methylene-glutamine
+96                                4-Hydroxystyrene
+98      5-Acetylamino-6-formylamino-3-methyluracil
+100                          5-Hydroxyisouric acid
+102                     5-Methoxyindoleacetic acid
+103                   5-Methyl-2E-tridecenoic acid
+106                                       5S-HpEPE
+107     5alpha-Androstane-3alpha-ol-17-one sulfate
+112                      9,12-Hexadecadienoic acid
+115                                     Acesulfame
+117                                   Adrenic acid
+120                                         Alliin
+121                                    Allopurinol
+123                  alpha-N-Phenylacetylglutamine
+124                               Ambrettolic acid
+125                                       AminoDHQ
+127                                        Anisole
+129                                     Benzocaine
+130                                   beta-Alanine
+131                                    Bisphenol F
+132                                      Bufexamac
+133                                Butyl butanoate
+135                                   Pyrocatechol
+136                            Cholesterol sulfate
+137                              cis-Aconitic acid
+140                                       Cortisol
+142                                     Creatinine
+144                             Cysteine-S-sulfate
+145                                Arabinonic acid
+146                                       Arabitol
+147                                       Arabitol
+148                                   D-Asparagine
+149                                D-Aspartic acid
+151                                 Pipecolic acid
+152                                      D-Proline
+153                                       D-Serine
+154                                       Sorbitol
+155                                   D-Tryptophan
+157                                    Capric acid
+159                               Deoxycholic acid
+160                              Dibutyl phthalate
+162                   Bishomo-gamma-linolenic acid
+164           2-(1-Methylpropyl)-4,6-dinitrophenol
+165                            Diundecyl phthalate
+166                          Erythrono-1,4-lactone
+167                                 Isocitric Acid
+168                           Docosahexaenoic acid
+169                          Docosapentaenoic acid
+172                                       Ecgonine
+173                                 Arachidic acid
+176                                  Ethyl paraben
+177                   Ethyl (R)-3-hydroxyhexanoate
+178                           Ethyl 3-oxohexanoate
+179                                Eugenol sulfate
+180                                   Fumaric acid
+181                        gamma-Aminobutyric acid
+182                                  Garcinia acid
+183                                Geranyl acetate
+184                                  Glutamic acid
+186                               Glycocholic acid
+187                          Glycodeoxycholic acid
+188                               Guaiacol sulfate
+190                                    2-Heptanone
+191                                  Palmitic acid
+192                                  Hippuric acid
+194                                 Indolepyruvate
+195                                Indoxyl sulfate
+196                   L-2-Amino-3-oxobutanoic acid
+197                                        Cystine
+198                                     Isoleucine
+199                                     Methionine
+200                                       Tyrosine
+201                                     Citrulline
+202                                    Lauric acid
+204                               Lithocholic acid
+208                                  Margaric acid
+212                                    Mucronine B
+213                                  Myristic acid
+215                          N-Acetylaspartic acid
+216                              N-Acetylcarnosine
+218                             N-Methylpyridinium
+220                           N(5)-Ethyl-glutamine
+221                             2-Aminonaphthalene
+222                                 Nicotinic acid
+225                        10-Hydroxydecanoic acid
+228                                     Omeprazole
+230                               p-Cresol sulfate
+231                               Palmitoleic acid
+234                               Pantothenic acid
+235                            Paracetamol sulfate
+236                                   Paraxanthine
+237                                   LPE 16:0/0:0
+238                                   LPE 18:0/0:0
+239                                  LPE 19:0/0:0*
+240                                   LPE 20:0/0:0
+241                          PE 20:2(11Z,14Z)/0:0*
+242                   PE 20:4(8Z,11Z,14Z,17Z)/0:0*
+244                   Perfluorooctanesulfonic acid
+245                              PG 16:0/18:1(9Z)*
+246                             Phenylacetaldehyde
+248                             PI 15:0/22:1(11Z)*
+249                             PI 16:0/22:1(11Z)*
+250                                      Plumbagin
+251                           Pregnenolone sulfate
+254                            Pulcherriminic acid
+255                                   Pyridoxamine
+257                                    Quinic acid
+258                                 Quinol sulfate
+259                  (R)-2,3-Dihydroxy-isovalerate
+261                                       Rishitin
+262                       S-Methylcysteine S-oxide
+264               sn-Glycero-3-phosphoethanolamine
+265                                  Succinic acid
+268                                        Taurine
+270                           Testosterone sulfate
+271                    3,3''-Thiobispropanoic acid
+272                                         Thymol
+275                                      Uric acid
+276                                        Uridine
+280                                    Lauric acid
+281                                       Xanthine
+Warning: The "RT_sec" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "MS1_RT_std" column at position 13 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Neutral mass" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "Adduct" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "MS2_db_exp" column at position 15 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

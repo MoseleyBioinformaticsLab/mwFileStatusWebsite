@@ -1,12 +1,25 @@
 Validation Log
-2025-12-07 08:41:10.805882
-mwtab Python Library Version: 1.2.5
+2025-12-15 02:30:29.703066
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005763/mwtab/txt
 Study ID:      ST003509
 Analysis ID:   AN005763
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 6
 
-Error Log:
-SCHEMA: Section "FACTORS" does not match the allowed schema. 'FACTORS'
+Number of Warnings: 0
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "1 mM TSP (tissue) or 0.5 mM TSP (cells)", for the subsection, "STANDARD_CONCENTRATION", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mM']. Ignore this when more complicated descriptions are required.
+Error: The value, "57 (tissue) or 144 (cells)", for the subsection, "RECEIVER_GAIN", in the "NM" section should be a unitless number. Ignore this when more complicated descriptions are required.
+Error: The value, "25", for the subsection, "TEMPERATURE", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.
+Error: The value, "32 (tissue) or 64 (cells)", for the subsection, "NUMBER_OF_SCANS", in the "NM" section should be a unitless number. Ignore this when more complicated descriptions are required.
+Error: The value, "64 K", for the subsection, "NUM_DATA_POINTS_ACQUIRED", in the "NM" section should be a unitless number. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "FACTORS".

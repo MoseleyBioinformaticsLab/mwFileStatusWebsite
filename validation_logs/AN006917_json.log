@@ -1,8 +1,34 @@
 Validation Log
-2025-12-07 09:45:17.717234
-mwtab Python Library Version: 1.2.5
+2025-12-15 03:20:21.815816
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006917/mwtab/json
 Study ID:      ST004167
 Analysis ID:   AN006917
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 5
+
+Number of Warnings: 4
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "45", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "IonFormula" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "IonFormula" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+23         C40 H80 O10 N0 P1
+24         C44 H88 O10 N0 P1
+25         C44 H78 O10 N0 P1
+26     C45 H87 O13 N0 P1 Na1
+27     C45 H85 O13 N0 P1 Na1
+28     C45 H83 O13 N0 P1 Na1
+118         C35 H68 O9 N0 P1
+122    C42 H75 O10 N0 P1 Na1
+125        C46 H74 O10 N0 P1
+131        C47 H89 O15 N0 P2
+Warning: The "RT-(min)" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "FA4" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

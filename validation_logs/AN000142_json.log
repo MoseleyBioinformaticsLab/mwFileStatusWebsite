@@ -1,8 +1,77 @@
 Validation Log
-2025-12-07 01:18:58.577250
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:06:04.503844
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000142/mwtab/json
 Study ID:      ST000089
 Analysis ID:   AN000142
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 27
+
+Number of Warnings: 9
+
+Number of Value Errors: 23
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected in ["COLLECTION"]["COLLECTION_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLEPREP_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: The value, "3500", in ["MS"]["CAPILLARY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "13 l/min", in ["MS"]["DRY_GAS_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "200", in ["MS"]["DRY_GAS_TEMP"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "175", in ["MS"]["FRAGMENT_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: The value, "325", in ["MS"]["ION_SOURCE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "1000", in ["MS"]["ION_SPRAY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "Neg", in ["MS"]["IONIZATION"] should not be "positive" or "negative". "ION_MODE" is where that should be indicated.
+Error: The value, "11 l/min", in ["MS"]["DESOLVATION_GAS_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "750", in ["MS"]["OCTPOLE_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: The value, "65", in ["MS"]["SKIMMER_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: The value, "3500", in ["CHROMATOGRAPHY"]["CAPILLARY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "5 seconds", in ["CHROMATOGRAPHY"]["WEAK_WASH_VOLUME"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "Autosampler temp 4 C", in ["CHROMATOGRAPHY"]["TARGET_SAMPLE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phospho-(1^-sn-glycerol)"
+	"PC (40:6)_1"
+	"plasmenyl-PC (34:2)_1"
+	"plasmenyl-PE (34:1)_1"
+	"plasmenyl-PE (34:2)_1"
+	"plasmenyl-PE (36:1)_1"
+	"plasmenyl-PE (36:2)_1"
+	"plasmenyl-PE (38:2)_1"
+	"plasmenyl-PE (38:3)_1"
+	"plasmenyl-PE (38:4)_1"
+	"plasmenyl-PE (38:5)_1"
+	"plasmenyl-PE (40:4)_1"
+	"plasmenyl-PE (40:6)_1"
+	"SM (d38:1)_1"
+	"SM (d40:1)_1"
+	"SM (d42:1)_1"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"PC (40:6)_2"
+	"plasmenyl-PC (34:2)_2"
+	"plasmenyl-PE (34:1)_2"
+	"plasmenyl-PE (34:2)_2"
+	"plasmenyl-PE (36:1)_2"
+	"plasmenyl-PE (36:2)_2"
+	"plasmenyl-PE (38:2)_2"
+	"plasmenyl-PE (38:3)_2"
+	"plasmenyl-PE (38:4)_2"
+	"plasmenyl-PE (38:5)_2"
+	"plasmenyl-PE (40:4)_2"
+	"plasmenyl-PE (40:6)_2"
+	"SM (d38:1)_2"
+	"SM (d40:1)_2"
+	"SM (d42:1)_2"
+Warning: The "ri" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "inchi_key" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "kegg_id" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "pubchem_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

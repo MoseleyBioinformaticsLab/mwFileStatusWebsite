@@ -1,8 +1,55 @@
 Validation Log
-2025-12-07 01:24:55.901675
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:10:24.484533
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000244/mwtab/txt
 Study ID:      ST000153
 Analysis ID:   AN000244
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 36
+
+Number of Warnings: 25
+
+Number of Value Errors: 30
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "SUBJECT_TYPE", in the "SUBJECT" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "SAMPLEPREP_SUMMARY", in the "SAMPLEPREP" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: There are duplicate samples in the MS_METABOLITE_DATA section.
+Warning: The "ri" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "S00017305" column at position 18 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S00017305" column at position 19 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S00017313" column at position 20 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S00017313" column at position 21 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S00017306" column at position 22 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S00017306" column at position 23 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S00017307" column at position 24 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S00017307" column at position 25 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S00017308" column at position 26 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S00017308" column at position 27 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S00017309" column at position 28 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S00017309" column at position 29 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S00017310" column at position 30 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S00017310" column at position 31 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S00017311" column at position 32 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S00017311" column at position 33 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "moverz_quant" column at position 2 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 3 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 4 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 6 in the METABOLITES table has all null values.
+Warning: The "kegg_id" column at position 7 in the METABOLITES table has all null values.

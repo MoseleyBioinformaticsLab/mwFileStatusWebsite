@@ -1,14 +1,50 @@
 Validation Log
-2025-12-07 07:36:33.633313
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:45:57.186580
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004894/mwtab/json
 Study ID:      ST002978
 Analysis ID:   AN004894
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 31
 
-Error Log:
-SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Data' error:
-Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('Metabolite_name', "(3''-5'')-cytidylylguanosine"), ('L_cris_S', '0.414070078'), ('L_cris_S.1', '0.414070078'), ('L_cris_S.2', '0.414070078'), ('L_cris_B', '0.414070078'), ('L_cris_B.1', '0.414070078'), ('L_cris_B.2', '0.414070078'), ('L_iners_S', '2.978068589'), ('L_iners_S.1', '2.227037031'), ('L_iners_S.2', '3.604946233'), ('G_vag_S', '0.529174597'), ('G_vag_S.1', '1.021317982'), ('G_vag_S.2', '0.993776575'), ('G_vag_B1', '1.213033015'), ('G_vag_B1.1', '0.79006559'), ('G_vag_B1.2', '1.169437585'), ('G_vag_B2', '0.866754749'), ('G_vag_B2.1', '0.969103082'), ('G_vag_B2.2', '1.006223425'), ('BL_MRS', '0.414070078'), ('BL_MRS.1', '0.730898491'), ('BL_MRS.2', '0.772349539'), ('BL_NYC', '0.67759305'), ('BL_NYC.1', '0.780853663'), ('BL_NYC.2', '0.60035862'), ('BL_BHI', '1.294592908'), ('BL_BHI.1', '1.081145697'), ('BL_BHI.2', '0.877193534'), ('Bl_sBHI', '1.279765743'), ('Bl_sBHI.1', '1.089482045'), ('Bl_sBHI.2', '1.160744714')])
-Missing key: Or('Metabolite', 'Bin range(ppm)')
+Number of Warnings: 27
+
+Number of Value Errors: 30
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: An empty value or a null value was detected in ["STUDY"]["NUM_MALES"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["STUDY"]["NUM_FEMALES"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "40-50", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: There is a metabolite name, "Metabolite_name", in the table at ["MS_METABOLITE_DATA"]["Metabolites"] that is probably wrong. It is close to a header name and is likely due to a badly constructed Tab file.
+Error: The ["MS_METABOLITE_DATA"]["Data"] table does not have a column for "Metabolite". It is likely misspelled or using a common incorrect substitute.
+Warning: The "L_cris_B.1" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "L_cris_B.2" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "L_iners_S" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "L_iners_S.1" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "L_iners_S.2" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "G_vag_S" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "G_vag_S.1" column at position 12 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "G_vag_S.2" column at position 13 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "G_vag_B1" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "G_vag_B1.1" column at position 15 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "G_vag_B1.2" column at position 16 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "G_vag_B2" column at position 17 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "G_vag_B2.1" column at position 18 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "G_vag_B2.2" column at position 19 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "BL_MRS" column at position 20 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "BL_MRS.1" column at position 21 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "BL_MRS.2" column at position 22 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "BL_NYC" column at position 23 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "BL_NYC.1" column at position 24 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "BL_NYC.2" column at position 25 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "BL_BHI" column at position 26 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "BL_BHI.1" column at position 27 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "BL_BHI.2" column at position 28 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "Bl_sBHI" column at position 29 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "Bl_sBHI.1" column at position 30 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "Bl_sBHI.2" column at position 31 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

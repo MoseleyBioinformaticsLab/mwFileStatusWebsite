@@ -1,8 +1,72 @@
 Validation Log
-2025-12-07 01:08:45.187149
-mwtab Python Library Version: 1.2.5
+2025-12-14 20:59:43.307033
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000027/mwtab/json
 Study ID:      ST000011
 Analysis ID:   AN000027
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 25
+
+Number of Warnings: 7
+
+Number of Value Errors: 17
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected in ["PROJECT"]["ADDRESS"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["PROJECT"]["PHONE"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["STUDY"]["ADDRESS"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["STUDY"]["PHONE"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["COLLECTION"]["COLLECTION_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLEPREP_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["MS"]["MS_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["CHROMATOGRAPHY_TYPE"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["INSTRUMENT_NAME"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["COLUMN_NAME"]. A legitimate value should be provided for this required key.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"2^_4^-DIHYDROXYACETOPHENONE"
+	"ADENOSINE 3^_5^-CYCLIC MONOPHOSPHATE"
+	"DOCOSAHEXAENOYLGLYCEROPHOSPHOCHOLINE_1"
+	"GLUTAMINE_1"
+	"HEPTADECANOYLGLYCEROPHOSPHOCHOLINE_1"
+	"LENTICIN_1"
+	"LINOLEOYLGLYCEROPHOSPHOCHOLINE_1"
+	"LL-2_6-DIAMINOHEPTANEDIOATE"
+	"METHYL JASMONATE_1"
+	"N-CYCLOHEXYLFORMAMIDE_1"
+	"PALMITOYLCARNITINE_1"
+	"PALMITOYLGLYCEROPHOSPHOCHOLINE_1"
+	"PHENYLACETYLGLUTAMINE_1"
+	"PHENYLALANINE_1"
+	"TRANS-CYCLOHEXANE-1_2-DIOL"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"2',4'-DIHYDROXYACETOPHENONE"
+	"ADENOSINE 3',5'-CYCLIC MONOPHOSPHATE"
+	"DOCOSAHEXAENOYLGLYCEROPHOSPHOCHOLINE_2"
+	"GLUTAMINE_2"
+	"HEPTADECANOYLGLYCEROPHOSPHOCHOLINE_2"
+	"LENTICIN_2"
+	"LINOLEOYLGLYCEROPHOSPHOCHOLINE_2"
+	"METHYL JASMONATE_2"
+	"N-CYCLOHEXYLFORMAMIDE_2"
+	"PALMITOYLCARNITINE_2"
+	"PALMITOYLGLYCEROPHOSPHOCHOLINE_2"
+	"PHENYLACETYLGLUTAMINE_2"
+	"PHENYLALANINE_3"
+Warning: The "ri" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "moverz_quant" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

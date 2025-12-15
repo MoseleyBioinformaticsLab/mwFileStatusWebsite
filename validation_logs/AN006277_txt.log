@@ -1,8 +1,134 @@
 Validation Log
-2025-12-07 09:11:48.111525
-mwtab Python Library Version: 1.2.5
+2025-12-15 02:54:08.035400
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006277/mwtab/txt
 Study ID:      ST003818
 Analysis ID:   AN006277
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 6
+
+Number of Warnings: 5
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "40℃", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z (MS2, Da)" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 4 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 4 in the METABOLITES table, matches a standard column name, "pubchem_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                   750|3339|5257127
+3                          5950|3343
+8                         12647|3561
+9                           119|3628
+12                         1060|3324
+13                         6590|5612
+15                          597|3670
+16                          774|3678
+19                         1174|3406
+22                     5951|617|3365
+23                          743|3772
+24                          649|3718
+28                     6262|389|3377
+30                      439575|65098
+39                         5610|3766
+40                          243|3480
+41                          243|3480
+43                        165271|776
+44                   6427080|5283324
+46                   444212|309|5390
+47                 11850|453|5460044
+48                   7405|499|439685
+50               5372954|444539|8784
+52                          586|3594
+56                       439734|5499
+58                         1054|3608
+61                          588|4049
+62                       440266|4581
+64                5570|4250|25046596
+65                  736715|1178|4043
+67             65098|439575|4949|824
+72                        10685|4206
+73                         1150|3688
+80                    1102|3609|9539
+81                         5961|3364
+86                          873|4423
+88                         1050|3549
+93                        74300|5726
+94                     16899|5283349
+109                   92136|469|4207
+110                        92136|469
+111                        92136|469
+112                        469|92136
+113                        469|92136
+114                        92136|469
+117                       637542|322
+118                      637540|4905
+119                     637540|11968
+120                       158980|847
+126                         397|5661
+131                        5202|4041
+134                        1153|6057
+136                      1014|135437
+137                        3867|1014
+143                    159659|440120
+156                      445858|4664
+162               18950|24749|185698
+167                     676157|92904
+168                  74839|2000|6328
+169                  161166|3622|846
+171                    9750|833|3621
+174                        1198|3605
+175                311|3458|19782904
+177                    188824|107738
+178                    188824|107738
+179                       5192|10475
+188                  578305|10922465
+195                      2002|700653
+197        5281708|12394 CID:5281708
+203                      31645|13261
+208                        5789|1134
+210                   60961|3512|191
+214                 13917187|6439873
+221             5283387|1930|5353370
+227                10469728|16061072
+232                13917187|53394275
+235            31270|5280335|5353955
+236                       91486|4094
+237                 5283154|11976122
+239               18546378|131751634
+240                 53394018|5283007
+245                11953821|10245190
+248               444899|231|5312542
+259    6602503|440658|11458|872|7769
+262                      5753|5753.0
+263                      5753|5753.0
+264              65059|645|135398597
+268                       221493|303
+269             221493|3963|221493.0
+270                  5283469|6436630
+272           222528|440355|222528.0
+273                       10133|5645
+274                 5283468|12178130
+275                 5283468|12178130
+278                3749604|439559|na
+279         84571|6134|493593|440995
+280                        10712|294
+281                   439559|3749604
+283                 10712|294|439178
+287                5997|304|11025495
+295                       5668|15376
+300             221493|3963|221493.0
+302                        8343|8346
+312                  520286|10093830
+321                       447145|195
+338                   8959|6675|7544
+347                        6675|7544
+357             16081932|1.6081932E7
+411                 10350317|6437081
+Warning: The "KEGG ID" column at position 5 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Retention time (min)" column at position 2 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

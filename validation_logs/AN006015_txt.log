@@ -1,8 +1,233 @@
 Validation Log
-2025-12-07 08:54:56.103923
-mwtab Python Library Version: 1.2.5
+2025-12-15 02:42:02.908046
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006015/mwtab/txt
 Study ID:      ST003662
 Analysis ID:   AN006015
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 130
+
+Number of Warnings: 126
+
+Number of Value Errors: 128
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "18-35", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "45", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "FACTORS".
+Warning: The "Monoisotopic_mass" column at position 7 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ID_inchikey" column at position 11 in the METABOLITES table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ID_inchi" column at position 10 in the METABOLITES table, matches a standard column name, "inchi". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ID_smiles" column at position 15 in the METABOLITES table, matches a standard column name, "smiles". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ID_HMDB_Name" column at position 2 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ID_iupac_name" column at position 13 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Product Adduct" column at position 5 in the METABOLITES table, matches a standard column name, "adduct". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ID_KEGG" column at position 16 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ID_HMDB_Name" column at position 2 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ID_HMDB" column at position 8 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ID_HMDB_Name" column at position 2 in the METABOLITES table, matches a standard column name, "hmdb_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0         2-Hydroxybutyric acid
+1         3-Hydroxybutyric acid
+2       Adenosine monophosphate
+3        5'-Methylthioadenosine
+4                       Adenine
+5                     L-Alanine
+6              Aminoadipic acid
+7         Argininosuccinic acid
+8                  L-Asparagine
+9              Butyrylcarnitine
+10                   Cadaverine
+11                  L-Carnitine
+12                  Citric acid
+13                 Cysteic Acid
+14                     Cytosine
+15      gamma-Aminobutyric acid
+16                    D-Glucose
+17              L-Glutamic acid
+18                  L-Glutamine
+19                      Glycine
+20           Guanidoacetic acid
+21                      Guanine
+22                  L-Histidine
+23                 L-Homoserine
+24                      Inosine
+25                 myo-Inositol
+26                 L-Isoleucine
+27                    L-Leucine
+28                     Mannitol
+29               N-Acetylserine
+30            N-Methylhydantoin
+31                          NAD
+32                  Niacinamide
+33              Ophthalmic Acid
+34                    Ornithine
+35             Pantothenic acid
+36              L-Phenylalanine
+37            Phosphorylcholine
+38                    L-Proline
+39                 Pyruvic acid
+40         S-Adenosylmethionine
+41    Sedoheptulose 7-phosphate
+42                     Thiamine
+43                  L-Threonine
+44     Uridine 5'-monophosphate
+45                      Uridine
+46                     Xanthine
+47                         NADP
+48          1,5-Anhydrosorbitol
+49       2-Phosphoglyceric acid
+50             4-Hydroxyproline
+53    3-Hydroxybutyrylcarnitine
+55             Valerylcarnitine
+56      Hydroxyvalerylcarnitine
+57            Hexanoylcarnitine
+59                     Creatine
+60                   Creatinine
+61                     Cytidine
+62                 Deoxyuridine
+63                     Dopamine
+64                  Glutathione
+66        Glycerophosphocholine
+68                 Hypoxanthine
+69                 L-Kynurenine
+70                L-Lactic acid
+72         Mannitol-1-phosphate
+73               Mevalonic acid
+74            N4-Acetylcytidine
+75                     Nicotine
+76                  Oxalic acid
+77              Phosphocreatine
+78                Pseudouridine
+79                   Spermidine
+80                     Spermine
+81                       Uracil
+82                         Urea
+83            L-Acetylcarnitine
+85              Tiglylcarnitine
+86         Oxidized glutathione
+87          Ureidosuccinic Acid
+90                       3'-AMP
+91                   Pyridoxine
+92             3-Methylcytidine
+93                         dCMP
+Warning: The "ID_ChemSpider" column at position 14 in the METABOLITES table, matches a standard column name, "chemspider_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ID_CAS" column at position 12 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ID_ChEBI" column at position 9 in the METABOLITES table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT_mean_Analyte" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column, "ID_HMDB_Name", in the METABOLITES table was matched to multiple standard names, ['name', 'hmdb_id']. This is a good indication that the values in that column should be split into the appropriate individual columns.
+Warning: The "78_Before" column at position 244 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "78_After" column at position 245 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "79_Before" column at position 246 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "79_After" column at position 247 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "93_Before" column at position 248 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "93_After" column at position 249 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "245_Before" column at position 250 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "245_After" column at position 251 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "317_Before" column at position 252 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "317_After" column at position 253 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "318_Before" column at position 254 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "318_After" column at position 255 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "320_Before" column at position 256 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "320_After" column at position 257 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "322_Before" column at position 258 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "322_After" column at position 259 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "356_Before" column at position 260 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "356_After" column at position 261 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "377_Before" column at position 262 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "377_After" column at position 263 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "394_Before" column at position 264 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "394_After" column at position 265 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "408_Before" column at position 266 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "408_After" column at position 267 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "415_Before" column at position 268 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "415_After" column at position 269 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "600_Before" column at position 270 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "600_After" column at position 271 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "601_Before" column at position 272 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "601_After" column at position 273 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "602_Before" column at position 274 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "602_After" column at position 275 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Blank_Extr_1" column at position 276 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Blank_Extr_2" column at position 277 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Blank_Extr_3" column at position 278 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Blank_ISTD_1" column at position 279 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Blank_ISTD_2" column at position 280 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Blank_ISTD_3" column at position 281 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Blank_Solvent_2" column at position 282 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Blank_Solvent_3" column at position 283 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Blank_Solvent_4" column at position 284 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "blood_pool10_1" column at position 285 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "blood_pool5_1" column at position 286 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "blood_pool6_1" column at position 287 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "blood_pool7_1" column at position 288 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "blood_pool8_1" column at position 289 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "blood_pool9_1" column at position 290 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "blood_poolall_1" column at position 291 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ESTD_1_1" column at position 292 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ESTD_10_1" column at position 293 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ESTD_100_1" column at position 294 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ESTD_1000_1" column at position 295 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ESTD_10000_1" column at position 296 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ESTD_25_1" column at position 297 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ESTD_250_1" column at position 298 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ESTD_25000_1" column at position 299 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ESTD_5_1" column at position 300 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ESTD_50_1" column at position 301 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ESTD_500_1" column at position 302 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ESTD_5000_1" column at position 303 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ESTD_75_1" column at position 304 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ESTD_750_1" column at position 305 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_1-1" column at position 306 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_1-10" column at position 307 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_1-11" column at position 308 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_1-12" column at position 309 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_1-2" column at position 310 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_1-3" column at position 311 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_1-5" column at position 312 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_1-6" column at position 313 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_1-7" column at position 314 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_1-8" column at position 315 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_1-9" column at position 316 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_2-1" column at position 317 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_2-10" column at position 318 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_2-11" column at position 319 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_2-12" column at position 320 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_2-2" column at position 321 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_2-3" column at position 322 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_2-5" column at position 323 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_2-6" column at position 324 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_2-7" column at position 325 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_2-8" column at position 326 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_2-9" column at position 327 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_3-1" column at position 328 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_3-10" column at position 329 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_3-11" column at position 330 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_3-12" column at position 331 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_3-2" column at position 332 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_3-3" column at position 333 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_3-5" column at position 334 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_3-6" column at position 335 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_3-7" column at position 336 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_3-8" column at position 337 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "plasma_SRM_3-9" column at position 338 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_ESTD1000nM_1" column at position 339 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_ESTD1000nM_10" column at position 340 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_ESTD1000nM_11" column at position 341 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_ESTD1000nM_12" column at position 342 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_ESTD1000nM_13" column at position 343 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_ESTD1000nM_14" column at position 344 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_ESTD1000nM_15" column at position 345 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_ESTD1000nM_2" column at position 346 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_ESTD1000nM_3" column at position 347 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_ESTD1000nM_4" column at position 348 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_ESTD1000nM_5" column at position 349 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_ESTD1000nM_6" column at position 350 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_ESTD1000nM_7" column at position 351 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_ESTD1000nM_8" column at position 352 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_ESTD1000nM_9" column at position 353 in the MS_METABOLITE_DATA table has all null values.

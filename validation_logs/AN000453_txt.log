@@ -1,12 +1,331 @@
 Validation Log
-2025-12-07 01:45:56.381656
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:23:28.950847
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000453/mwtab/txt
 Study ID:      ST000285
 Analysis ID:   AN000453
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 312
 
-Error Log:
-SCHEMA: Section "NMR_BINNED_DATA" does not match the allowed schema. Missing key: 'Units'
+Number of Warnings: 305
+
+Number of Value Errors: 310
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 2
+
+Issue Log:
+Error: The value, "21-86", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "64 M and 63 F", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "25C", for the subsection, "TEMPERATURE", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.
+Error: The value, "16K", for the subsection, "NUM_DATA_POINTS_ACQUIRED", in the "NM" section should be a unitless number. Ignore this when more complicated descriptions are required.
+Error: The value, "0.00587", for the subsection, "BINNED_INCREMENT", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm']. Ignore this when more complicated descriptions are required.
+Error: The required property, "Units", in the "NMR_BINNED_DATA" section  is missing.
+Error: Unknown or invalid section, "CHROMATOGRAPHY".
+Warning: The "359" column at position 210 in the NMR_BINNED_DATA table has all null values.
+Warning: The "360" column at position 211 in the NMR_BINNED_DATA table has all null values.
+Warning: The "361" column at position 212 in the NMR_BINNED_DATA table has all null values.
+Warning: The "366" column at position 213 in the NMR_BINNED_DATA table has all null values.
+Warning: The "367" column at position 214 in the NMR_BINNED_DATA table has all null values.
+Warning: The "369" column at position 215 in the NMR_BINNED_DATA table has all null values.
+Warning: The "37" column at position 216 in the NMR_BINNED_DATA table has all null values.
+Warning: The "370" column at position 217 in the NMR_BINNED_DATA table has all null values.
+Warning: The "371" column at position 218 in the NMR_BINNED_DATA table has all null values.
+Warning: The "372" column at position 219 in the NMR_BINNED_DATA table has all null values.
+Warning: The "374" column at position 220 in the NMR_BINNED_DATA table has all null values.
+Warning: The "375" column at position 221 in the NMR_BINNED_DATA table has all null values.
+Warning: The "378" column at position 222 in the NMR_BINNED_DATA table has all null values.
+Warning: The "379" column at position 223 in the NMR_BINNED_DATA table has all null values.
+Warning: The "382" column at position 224 in the NMR_BINNED_DATA table has all null values.
+Warning: The "383" column at position 225 in the NMR_BINNED_DATA table has all null values.
+Warning: The "384" column at position 226 in the NMR_BINNED_DATA table has all null values.
+Warning: The "386" column at position 227 in the NMR_BINNED_DATA table has all null values.
+Warning: The "387" column at position 228 in the NMR_BINNED_DATA table has all null values.
+Warning: The "39" column at position 229 in the NMR_BINNED_DATA table has all null values.
+Warning: The "392" column at position 230 in the NMR_BINNED_DATA table has all null values.
+Warning: The "393" column at position 231 in the NMR_BINNED_DATA table has all null values.
+Warning: The "396" column at position 232 in the NMR_BINNED_DATA table has all null values.
+Warning: The "397" column at position 233 in the NMR_BINNED_DATA table has all null values.
+Warning: The "398" column at position 234 in the NMR_BINNED_DATA table has all null values.
+Warning: The "40" column at position 235 in the NMR_BINNED_DATA table has all null values.
+Warning: The "401" column at position 236 in the NMR_BINNED_DATA table has all null values.
+Warning: The "405" column at position 237 in the NMR_BINNED_DATA table has all null values.
+Warning: The "406" column at position 238 in the NMR_BINNED_DATA table has all null values.
+Warning: The "407" column at position 239 in the NMR_BINNED_DATA table has all null values.
+Warning: The "409" column at position 240 in the NMR_BINNED_DATA table has all null values.
+Warning: The "423" column at position 241 in the NMR_BINNED_DATA table has all null values.
+Warning: The "426" column at position 242 in the NMR_BINNED_DATA table has all null values.
+Warning: The "43" column at position 243 in the NMR_BINNED_DATA table has all null values.
+Warning: The "433" column at position 244 in the NMR_BINNED_DATA table has all null values.
+Warning: The "437" column at position 245 in the NMR_BINNED_DATA table has all null values.
+Warning: The "441" column at position 246 in the NMR_BINNED_DATA table has all null values.
+Warning: The "442" column at position 247 in the NMR_BINNED_DATA table has all null values.
+Warning: The "445" column at position 248 in the NMR_BINNED_DATA table has all null values.
+Warning: The "449" column at position 249 in the NMR_BINNED_DATA table has all null values.
+Warning: The "45" column at position 250 in the NMR_BINNED_DATA table has all null values.
+Warning: The "458" column at position 251 in the NMR_BINNED_DATA table has all null values.
+Warning: The "46" column at position 252 in the NMR_BINNED_DATA table has all null values.
+Warning: The "460" column at position 253 in the NMR_BINNED_DATA table has all null values.
+Warning: The "462" column at position 254 in the NMR_BINNED_DATA table has all null values.
+Warning: The "465" column at position 255 in the NMR_BINNED_DATA table has all null values.
+Warning: The "466" column at position 256 in the NMR_BINNED_DATA table has all null values.
+Warning: The "467" column at position 257 in the NMR_BINNED_DATA table has all null values.
+Warning: The "475" column at position 258 in the NMR_BINNED_DATA table has all null values.
+Warning: The "477" column at position 259 in the NMR_BINNED_DATA table has all null values.
+Warning: The "478" column at position 260 in the NMR_BINNED_DATA table has all null values.
+Warning: The "481" column at position 261 in the NMR_BINNED_DATA table has all null values.
+Warning: The "482" column at position 262 in the NMR_BINNED_DATA table has all null values.
+Warning: The "483" column at position 263 in the NMR_BINNED_DATA table has all null values.
+Warning: The "485" column at position 264 in the NMR_BINNED_DATA table has all null values.
+Warning: The "487" column at position 265 in the NMR_BINNED_DATA table has all null values.
+Warning: The "488" column at position 266 in the NMR_BINNED_DATA table has all null values.
+Warning: The "489" column at position 267 in the NMR_BINNED_DATA table has all null values.
+Warning: The "490" column at position 268 in the NMR_BINNED_DATA table has all null values.
+Warning: The "492" column at position 269 in the NMR_BINNED_DATA table has all null values.
+Warning: The "494" column at position 270 in the NMR_BINNED_DATA table has all null values.
+Warning: The "495" column at position 271 in the NMR_BINNED_DATA table has all null values.
+Warning: The "496" column at position 272 in the NMR_BINNED_DATA table has all null values.
+Warning: The "498" column at position 273 in the NMR_BINNED_DATA table has all null values.
+Warning: The "499" column at position 274 in the NMR_BINNED_DATA table has all null values.
+Warning: The "50" column at position 275 in the NMR_BINNED_DATA table has all null values.
+Warning: The "502" column at position 276 in the NMR_BINNED_DATA table has all null values.
+Warning: The "503" column at position 277 in the NMR_BINNED_DATA table has all null values.
+Warning: The "504" column at position 278 in the NMR_BINNED_DATA table has all null values.
+Warning: The "54" column at position 279 in the NMR_BINNED_DATA table has all null values.
+Warning: The "55" column at position 280 in the NMR_BINNED_DATA table has all null values.
+Warning: The "551" column at position 281 in the NMR_BINNED_DATA table has all null values.
+Warning: The "553" column at position 282 in the NMR_BINNED_DATA table has all null values.
+Warning: The "554" column at position 283 in the NMR_BINNED_DATA table has all null values.
+Warning: The "559" column at position 284 in the NMR_BINNED_DATA table has all null values.
+Warning: The "56" column at position 285 in the NMR_BINNED_DATA table has all null values.
+Warning: The "564" column at position 286 in the NMR_BINNED_DATA table has all null values.
+Warning: The "566" column at position 287 in the NMR_BINNED_DATA table has all null values.
+Warning: The "57" column at position 288 in the NMR_BINNED_DATA table has all null values.
+Warning: The "574" column at position 289 in the NMR_BINNED_DATA table has all null values.
+Warning: The "576" column at position 290 in the NMR_BINNED_DATA table has all null values.
+Warning: The "577" column at position 291 in the NMR_BINNED_DATA table has all null values.
+Warning: The "579" column at position 292 in the NMR_BINNED_DATA table has all null values.
+Warning: The "581" column at position 293 in the NMR_BINNED_DATA table has all null values.
+Warning: The "583" column at position 294 in the NMR_BINNED_DATA table has all null values.
+Warning: The "586" column at position 295 in the NMR_BINNED_DATA table has all null values.
+Warning: The "587" column at position 296 in the NMR_BINNED_DATA table has all null values.
+Warning: The "588" column at position 297 in the NMR_BINNED_DATA table has all null values.
+Warning: The "589" column at position 298 in the NMR_BINNED_DATA table has all null values.
+Warning: The "59" column at position 299 in the NMR_BINNED_DATA table has all null values.
+Warning: The "590" column at position 300 in the NMR_BINNED_DATA table has all null values.
+Warning: The "6" column at position 301 in the NMR_BINNED_DATA table has all null values.
+Warning: The "600" column at position 302 in the NMR_BINNED_DATA table has all null values.
+Warning: The "601" column at position 303 in the NMR_BINNED_DATA table has all null values.
+Warning: The "608" column at position 304 in the NMR_BINNED_DATA table has all null values.
+Warning: The "61" column at position 305 in the NMR_BINNED_DATA table has all null values.
+Warning: The "610" column at position 306 in the NMR_BINNED_DATA table has all null values.
+Warning: The "612" column at position 307 in the NMR_BINNED_DATA table has all null values.
+Warning: The "617" column at position 308 in the NMR_BINNED_DATA table has all null values.
+Warning: The "618" column at position 309 in the NMR_BINNED_DATA table has all null values.
+Warning: The "619" column at position 310 in the NMR_BINNED_DATA table has all null values.
+Warning: The "63" column at position 311 in the NMR_BINNED_DATA table has all null values.
+Warning: The "64" column at position 312 in the NMR_BINNED_DATA table has all null values.
+Warning: The "65" column at position 313 in the NMR_BINNED_DATA table has all null values.
+Warning: The "68" column at position 314 in the NMR_BINNED_DATA table has all null values.
+Warning: The "7" column at position 315 in the NMR_BINNED_DATA table has all null values.
+Warning: The "75" column at position 316 in the NMR_BINNED_DATA table has all null values.
+Warning: The "76" column at position 317 in the NMR_BINNED_DATA table has all null values.
+Warning: The "78" column at position 318 in the NMR_BINNED_DATA table has all null values.
+Warning: The "79" column at position 319 in the NMR_BINNED_DATA table has all null values.
+Warning: The "80" column at position 320 in the NMR_BINNED_DATA table has all null values.
+Warning: The "87" column at position 321 in the NMR_BINNED_DATA table has all null values.
+Warning: The "88" column at position 322 in the NMR_BINNED_DATA table has all null values.
+Warning: The "89" column at position 323 in the NMR_BINNED_DATA table has all null values.
+Warning: The "93" column at position 324 in the NMR_BINNED_DATA table has all null values.
+Warning: The "94" column at position 325 in the NMR_BINNED_DATA table has all null values.
+Warning: The "98" column at position 326 in the NMR_BINNED_DATA table has all null values.
+Warning: The "10" column at position 327 in the NMR_BINNED_DATA table has all null values.
+Warning: The "102" column at position 328 in the NMR_BINNED_DATA table has all null values.
+Warning: The "103" column at position 329 in the NMR_BINNED_DATA table has all null values.
+Warning: The "104" column at position 330 in the NMR_BINNED_DATA table has all null values.
+Warning: The "106" column at position 331 in the NMR_BINNED_DATA table has all null values.
+Warning: The "111" column at position 332 in the NMR_BINNED_DATA table has all null values.
+Warning: The "116" column at position 333 in the NMR_BINNED_DATA table has all null values.
+Warning: The "117" column at position 334 in the NMR_BINNED_DATA table has all null values.
+Warning: The "123" column at position 335 in the NMR_BINNED_DATA table has all null values.
+Warning: The "124" column at position 336 in the NMR_BINNED_DATA table has all null values.
+Warning: The "134" column at position 337 in the NMR_BINNED_DATA table has all null values.
+Warning: The "135" column at position 338 in the NMR_BINNED_DATA table has all null values.
+Warning: The "136" column at position 339 in the NMR_BINNED_DATA table has all null values.
+Warning: The "137" column at position 340 in the NMR_BINNED_DATA table has all null values.
+Warning: The "138" column at position 341 in the NMR_BINNED_DATA table has all null values.
+Warning: The "142" column at position 342 in the NMR_BINNED_DATA table has all null values.
+Warning: The "147" column at position 343 in the NMR_BINNED_DATA table has all null values.
+Warning: The "149" column at position 344 in the NMR_BINNED_DATA table has all null values.
+Warning: The "150" column at position 345 in the NMR_BINNED_DATA table has all null values.
+Warning: The "151" column at position 346 in the NMR_BINNED_DATA table has all null values.
+Warning: The "153" column at position 347 in the NMR_BINNED_DATA table has all null values.
+Warning: The "155" column at position 348 in the NMR_BINNED_DATA table has all null values.
+Warning: The "158" column at position 349 in the NMR_BINNED_DATA table has all null values.
+Warning: The "160" column at position 350 in the NMR_BINNED_DATA table has all null values.
+Warning: The "164" column at position 351 in the NMR_BINNED_DATA table has all null values.
+Warning: The "165" column at position 352 in the NMR_BINNED_DATA table has all null values.
+Warning: The "17" column at position 353 in the NMR_BINNED_DATA table has all null values.
+Warning: The "171" column at position 354 in the NMR_BINNED_DATA table has all null values.
+Warning: The "172" column at position 355 in the NMR_BINNED_DATA table has all null values.
+Warning: The "174" column at position 356 in the NMR_BINNED_DATA table has all null values.
+Warning: The "175" column at position 357 in the NMR_BINNED_DATA table has all null values.
+Warning: The "178" column at position 358 in the NMR_BINNED_DATA table has all null values.
+Warning: The "180" column at position 359 in the NMR_BINNED_DATA table has all null values.
+Warning: The "181" column at position 360 in the NMR_BINNED_DATA table has all null values.
+Warning: The "182" column at position 361 in the NMR_BINNED_DATA table has all null values.
+Warning: The "183" column at position 362 in the NMR_BINNED_DATA table has all null values.
+Warning: The "189" column at position 363 in the NMR_BINNED_DATA table has all null values.
+Warning: The "190" column at position 364 in the NMR_BINNED_DATA table has all null values.
+Warning: The "195" column at position 365 in the NMR_BINNED_DATA table has all null values.
+Warning: The "197" column at position 366 in the NMR_BINNED_DATA table has all null values.
+Warning: The "204" column at position 367 in the NMR_BINNED_DATA table has all null values.
+Warning: The "206" column at position 368 in the NMR_BINNED_DATA table has all null values.
+Warning: The "211" column at position 369 in the NMR_BINNED_DATA table has all null values.
+Warning: The "215" column at position 370 in the NMR_BINNED_DATA table has all null values.
+Warning: The "220" column at position 371 in the NMR_BINNED_DATA table has all null values.
+Warning: The "221" column at position 372 in the NMR_BINNED_DATA table has all null values.
+Warning: The "222" column at position 373 in the NMR_BINNED_DATA table has all null values.
+Warning: The "223" column at position 374 in the NMR_BINNED_DATA table has all null values.
+Warning: The "224" column at position 375 in the NMR_BINNED_DATA table has all null values.
+Warning: The "227" column at position 376 in the NMR_BINNED_DATA table has all null values.
+Warning: The "228" column at position 377 in the NMR_BINNED_DATA table has all null values.
+Warning: The "229" column at position 378 in the NMR_BINNED_DATA table has all null values.
+Warning: The "23" column at position 379 in the NMR_BINNED_DATA table has all null values.
+Warning: The "232" column at position 380 in the NMR_BINNED_DATA table has all null values.
+Warning: The "234" column at position 381 in the NMR_BINNED_DATA table has all null values.
+Warning: The "235" column at position 382 in the NMR_BINNED_DATA table has all null values.
+Warning: The "236" column at position 383 in the NMR_BINNED_DATA table has all null values.
+Warning: The "238" column at position 384 in the NMR_BINNED_DATA table has all null values.
+Warning: The "239" column at position 385 in the NMR_BINNED_DATA table has all null values.
+Warning: The "241" column at position 386 in the NMR_BINNED_DATA table has all null values.
+Warning: The "243" column at position 387 in the NMR_BINNED_DATA table has all null values.
+Warning: The "245" column at position 388 in the NMR_BINNED_DATA table has all null values.
+Warning: The "248" column at position 389 in the NMR_BINNED_DATA table has all null values.
+Warning: The "255" column at position 390 in the NMR_BINNED_DATA table has all null values.
+Warning: The "266" column at position 391 in the NMR_BINNED_DATA table has all null values.
+Warning: The "267" column at position 392 in the NMR_BINNED_DATA table has all null values.
+Warning: The "269" column at position 393 in the NMR_BINNED_DATA table has all null values.
+Warning: The "270" column at position 394 in the NMR_BINNED_DATA table has all null values.
+Warning: The "274" column at position 395 in the NMR_BINNED_DATA table has all null values.
+Warning: The "29" column at position 396 in the NMR_BINNED_DATA table has all null values.
+Warning: The "290" column at position 397 in the NMR_BINNED_DATA table has all null values.
+Warning: The "298" column at position 398 in the NMR_BINNED_DATA table has all null values.
+Warning: The "299" column at position 399 in the NMR_BINNED_DATA table has all null values.
+Warning: The "303" column at position 400 in the NMR_BINNED_DATA table has all null values.
+Warning: The "307" column at position 401 in the NMR_BINNED_DATA table has all null values.
+Warning: The "308" column at position 402 in the NMR_BINNED_DATA table has all null values.
+Warning: The "311" column at position 403 in the NMR_BINNED_DATA table has all null values.
+Warning: The "314" column at position 404 in the NMR_BINNED_DATA table has all null values.
+Warning: The "316" column at position 405 in the NMR_BINNED_DATA table has all null values.
+Warning: The "317" column at position 406 in the NMR_BINNED_DATA table has all null values.
+Warning: The "319" column at position 407 in the NMR_BINNED_DATA table has all null values.
+Warning: The "321" column at position 408 in the NMR_BINNED_DATA table has all null values.
+Warning: The "323" column at position 409 in the NMR_BINNED_DATA table has all null values.
+Warning: The "326" column at position 410 in the NMR_BINNED_DATA table has all null values.
+Warning: The "327" column at position 411 in the NMR_BINNED_DATA table has all null values.
+Warning: The "328" column at position 412 in the NMR_BINNED_DATA table has all null values.
+Warning: The "338" column at position 413 in the NMR_BINNED_DATA table has all null values.
+Warning: The "339" column at position 414 in the NMR_BINNED_DATA table has all null values.
+Warning: The "340" column at position 415 in the NMR_BINNED_DATA table has all null values.
+Warning: The "341" column at position 416 in the NMR_BINNED_DATA table has all null values.
+Warning: The "342" column at position 417 in the NMR_BINNED_DATA table has all null values.
+Warning: The "344" column at position 418 in the NMR_BINNED_DATA table has all null values.
+Warning: The "35" column at position 419 in the NMR_BINNED_DATA table has all null values.
+Warning: The "353" column at position 420 in the NMR_BINNED_DATA table has all null values.
+Warning: The "356" column at position 421 in the NMR_BINNED_DATA table has all null values.
+Warning: The "358" column at position 422 in the NMR_BINNED_DATA table has all null values.
+Warning: The "363" column at position 423 in the NMR_BINNED_DATA table has all null values.
+Warning: The "364" column at position 424 in the NMR_BINNED_DATA table has all null values.
+Warning: The "365" column at position 425 in the NMR_BINNED_DATA table has all null values.
+Warning: The "373" column at position 426 in the NMR_BINNED_DATA table has all null values.
+Warning: The "376" column at position 427 in the NMR_BINNED_DATA table has all null values.
+Warning: The "377" column at position 428 in the NMR_BINNED_DATA table has all null values.
+Warning: The "38" column at position 429 in the NMR_BINNED_DATA table has all null values.
+Warning: The "380" column at position 430 in the NMR_BINNED_DATA table has all null values.
+Warning: The "381" column at position 431 in the NMR_BINNED_DATA table has all null values.
+Warning: The "385" column at position 432 in the NMR_BINNED_DATA table has all null values.
+Warning: The "390" column at position 433 in the NMR_BINNED_DATA table has all null values.
+Warning: The "399" column at position 434 in the NMR_BINNED_DATA table has all null values.
+Warning: The "4" column at position 435 in the NMR_BINNED_DATA table has all null values.
+Warning: The "400" column at position 436 in the NMR_BINNED_DATA table has all null values.
+Warning: The "402" column at position 437 in the NMR_BINNED_DATA table has all null values.
+Warning: The "41" column at position 438 in the NMR_BINNED_DATA table has all null values.
+Warning: The "413" column at position 439 in the NMR_BINNED_DATA table has all null values.
+Warning: The "415" column at position 440 in the NMR_BINNED_DATA table has all null values.
+Warning: The "424" column at position 441 in the NMR_BINNED_DATA table has all null values.
+Warning: The "438" column at position 442 in the NMR_BINNED_DATA table has all null values.
+Warning: The "44" column at position 443 in the NMR_BINNED_DATA table has all null values.
+Warning: The "443" column at position 444 in the NMR_BINNED_DATA table has all null values.
+Warning: The "446" column at position 445 in the NMR_BINNED_DATA table has all null values.
+Warning: The "450" column at position 446 in the NMR_BINNED_DATA table has all null values.
+Warning: The "451" column at position 447 in the NMR_BINNED_DATA table has all null values.
+Warning: The "453" column at position 448 in the NMR_BINNED_DATA table has all null values.
+Warning: The "456" column at position 449 in the NMR_BINNED_DATA table has all null values.
+Warning: The "459" column at position 450 in the NMR_BINNED_DATA table has all null values.
+Warning: The "461" column at position 451 in the NMR_BINNED_DATA table has all null values.
+Warning: The "463" column at position 452 in the NMR_BINNED_DATA table has all null values.
+Warning: The "464" column at position 453 in the NMR_BINNED_DATA table has all null values.
+Warning: The "468" column at position 454 in the NMR_BINNED_DATA table has all null values.
+Warning: The "47" column at position 455 in the NMR_BINNED_DATA table has all null values.
+Warning: The "470" column at position 456 in the NMR_BINNED_DATA table has all null values.
+Warning: The "471" column at position 457 in the NMR_BINNED_DATA table has all null values.
+Warning: The "472" column at position 458 in the NMR_BINNED_DATA table has all null values.
+Warning: The "473" column at position 459 in the NMR_BINNED_DATA table has all null values.
+Warning: The "474" column at position 460 in the NMR_BINNED_DATA table has all null values.
+Warning: The "476" column at position 461 in the NMR_BINNED_DATA table has all null values.
+Warning: The "479" column at position 462 in the NMR_BINNED_DATA table has all null values.
+Warning: The "48" column at position 463 in the NMR_BINNED_DATA table has all null values.
+Warning: The "480" column at position 464 in the NMR_BINNED_DATA table has all null values.
+Warning: The "484" column at position 465 in the NMR_BINNED_DATA table has all null values.
+Warning: The "493" column at position 466 in the NMR_BINNED_DATA table has all null values.
+Warning: The "497" column at position 467 in the NMR_BINNED_DATA table has all null values.
+Warning: The "500" column at position 468 in the NMR_BINNED_DATA table has all null values.
+Warning: The "501" column at position 469 in the NMR_BINNED_DATA table has all null values.
+Warning: The "506" column at position 470 in the NMR_BINNED_DATA table has all null values.
+Warning: The "507" column at position 471 in the NMR_BINNED_DATA table has all null values.
+Warning: The "52" column at position 472 in the NMR_BINNED_DATA table has all null values.
+Warning: The "522" column at position 473 in the NMR_BINNED_DATA table has all null values.
+Warning: The "550" column at position 474 in the NMR_BINNED_DATA table has all null values.
+Warning: The "552" column at position 475 in the NMR_BINNED_DATA table has all null values.
+Warning: The "556" column at position 476 in the NMR_BINNED_DATA table has all null values.
+Warning: The "557" column at position 477 in the NMR_BINNED_DATA table has all null values.
+Warning: The "560" column at position 478 in the NMR_BINNED_DATA table has all null values.
+Warning: The "563" column at position 479 in the NMR_BINNED_DATA table has all null values.
+Warning: The "568" column at position 480 in the NMR_BINNED_DATA table has all null values.
+Warning: The "569" column at position 481 in the NMR_BINNED_DATA table has all null values.
+Warning: The "571" column at position 482 in the NMR_BINNED_DATA table has all null values.
+Warning: The "572" column at position 483 in the NMR_BINNED_DATA table has all null values.
+Warning: The "578" column at position 484 in the NMR_BINNED_DATA table has all null values.
+Warning: The "580" column at position 485 in the NMR_BINNED_DATA table has all null values.
+Warning: The "582" column at position 486 in the NMR_BINNED_DATA table has all null values.
+Warning: The "584" column at position 487 in the NMR_BINNED_DATA table has all null values.
+Warning: The "585" column at position 488 in the NMR_BINNED_DATA table has all null values.
+Warning: The "591" column at position 489 in the NMR_BINNED_DATA table has all null values.
+Warning: The "592" column at position 490 in the NMR_BINNED_DATA table has all null values.
+Warning: The "593" column at position 491 in the NMR_BINNED_DATA table has all null values.
+Warning: The "594" column at position 492 in the NMR_BINNED_DATA table has all null values.
+Warning: The "596" column at position 493 in the NMR_BINNED_DATA table has all null values.
+Warning: The "597" column at position 494 in the NMR_BINNED_DATA table has all null values.
+Warning: The "598" column at position 495 in the NMR_BINNED_DATA table has all null values.
+Warning: The "599" column at position 496 in the NMR_BINNED_DATA table has all null values.
+Warning: The "607" column at position 497 in the NMR_BINNED_DATA table has all null values.
+Warning: The "615" column at position 498 in the NMR_BINNED_DATA table has all null values.
+Warning: The "616" column at position 499 in the NMR_BINNED_DATA table has all null values.
+Warning: The "62" column at position 500 in the NMR_BINNED_DATA table has all null values.
+Warning: The "67" column at position 501 in the NMR_BINNED_DATA table has all null values.
+Warning: The "70" column at position 502 in the NMR_BINNED_DATA table has all null values.
+Warning: The "71" column at position 503 in the NMR_BINNED_DATA table has all null values.
+Warning: The "72" column at position 504 in the NMR_BINNED_DATA table has all null values.
+Warning: The "73" column at position 505 in the NMR_BINNED_DATA table has all null values.
+Warning: The "74" column at position 506 in the NMR_BINNED_DATA table has all null values.
+Warning: The "81" column at position 507 in the NMR_BINNED_DATA table has all null values.
+Warning: The "83" column at position 508 in the NMR_BINNED_DATA table has all null values.
+Warning: The "84" column at position 509 in the NMR_BINNED_DATA table has all null values.
+Warning: The "85" column at position 510 in the NMR_BINNED_DATA table has all null values.
+Warning: The "86" column at position 511 in the NMR_BINNED_DATA table has all null values.
+Warning: The "90" column at position 512 in the NMR_BINNED_DATA table has all null values.
+Warning: The "91" column at position 513 in the NMR_BINNED_DATA table has all null values.
+Warning: The "99" column at position 514 in the NMR_BINNED_DATA table has all null values.

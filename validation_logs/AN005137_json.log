@@ -1,8 +1,113 @@
 Validation Log
-2025-12-07 07:52:49.808057
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:58:31.447123
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005137/mwtab/json
 Study ID:      ST003131
 Analysis ID:   AN005137
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 16
+
+Number of Warnings: 10
+
+Number of Value Errors: 12
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "20-29g", in ["SUBJECT"]["WEIGHT_OR_WEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "-", in ["SUBJECT"]["HEIGHT_OR_HEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['cm', 'in']. Ignore this when more complicated descriptions are required.
+Error: The value, "40-50", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"1_1-kestotetraose"
+	"12_13-DiHOME"
+	"1_2_3-benzenetriol sulfate (2)"
+	"1_5-anhydroglucitol (1_5-AG)"
+	"2^-deoxyguanosine"
+	"2^-deoxyinosine"
+	"2^-deoxyuridine"
+	"2^-O-methyluridine"
+	"3_4-dihydroxybenzoate"
+	"(3^-5^)-adenylyladenosine*"
+	"(3^-5^)-adenylylcytidine"
+	"(3^-5^)-adenylylguanosine*"
+	"(3^-5^)-adenylyluridine"
+	"(3^-5^)-cytidylyladenosine"
+	"(3^-5^)-cytidylylcytidine*"
+	"(3^-5^)-cytidylylguanosine"
+	"(3^-5^)-cytidylyluridine*"
+	"(3^-5^)-guanylyladenosine*"
+	"(3^-5^)-guanylylcytidine"
+	"(3^-5^)-guanylyluridine"
+	"(3^-5^)-uridylyladenosine"
+	"(3^-5^)-uridylylcytidine*"
+	"(3^-5^)-uridylylguanosine"
+	"(3^-5^)-uridylyluridine"
+	"5_6-dihydrouridine"
+	"7_12-diketolithocholate"
+	"9_10-DiHOME"
+	"adenosine-2^_3^-cyclic monophosphate"
+	"adenosine 3^_5^-cyclic monophosphate (cAMP)"
+	"adenosine 3^-monophosphate (3^-AMP)"
+	"branched-chain_ straight-chain_ or cyclopropyl 12:1 fatty acid*"
+	"chrysoeriol (3^-O-methylluteolin)"
+	"fructose 1_6-diphosphate/glucose 1_6-diphosphate/myo-inositol diphosphates"
+	"guanosine-2^_3^-cyclic monophosphate"
+	"guanosine 3^-monophosphate (3^-GMP)"
+	"guanosine 5^- monophosphate (5^-GMP)"
+	"thymidine 5^-monophosphate"
+	"uridine-2^_3^-cyclic monophosphate"
+	"uridine 3^-monophosphate (3^-UMP)"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"1,1-kestotetraose"
+	"12,13-DiHOME"
+	"1,2,3-benzenetriol sulfate (2)"
+	"1,5-anhydroglucitol (1,5-AG)"
+	"2'-deoxyguanosine"
+	"2'-deoxyinosine"
+	"2'-deoxyuridine"
+	"2'-O-methyluridine"
+	"3,4-dihydroxybenzoate"
+	"(3'-5')-adenylyladenosine*"
+	"(3'-5')-adenylylcytidine"
+	"(3'-5')-adenylylguanosine*"
+	"(3'-5')-adenylyluridine"
+	"(3'-5')-cytidylyladenosine"
+	"(3'-5')-cytidylylcytidine*"
+	"(3'-5')-cytidylylguanosine"
+	"(3'-5')-cytidylyluridine*"
+	"(3'-5')-guanylyladenosine*"
+	"(3'-5')-guanylylcytidine"
+	"(3'-5')-guanylyluridine"
+	"(3'-5')-uridylyladenosine"
+	"(3'-5')-uridylylcytidine*"
+	"(3'-5')-uridylylguanosine"
+	"(3'-5')-uridylyluridine"
+	"5,6-dihydrouridine"
+	"7,12-diketolithocholate"
+	"9,10-DiHOME"
+	"adenosine-2',3'-cyclic monophosphate"
+	"adenosine 3',5'-cyclic monophosphate (cAMP)"
+	"adenosine 3'-monophosphate (3'-AMP)"
+	"branched-chain, straight-chain, or cyclopropyl 12:1 fatty acid*"
+	"chrysoeriol (3'-O-methylluteolin)"
+	"fructose 1,6-diphosphate/glucose 1,6-diphosphate/myo-inositol diphosphates"
+	"guanosine-2',3'-cyclic monophosphate"
+	"guanosine 3'-monophosphate (3'-GMP)"
+	"guanosine 5'- monophosphate (5'-GMP)"
+	"thymidine 5'-monophosphate"
+	"uridine-2',3'-cyclic monophosphate"
+	"uridine 3'-monophosphate (3'-UMP)"
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "moverz_quant" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

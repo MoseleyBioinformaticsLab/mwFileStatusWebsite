@@ -1,8 +1,226 @@
 Validation Log
-2025-12-07 08:43:46.645531
-mwtab Python Library Version: 1.2.5
+2025-12-15 02:32:31.961354
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005802/mwtab/txt
 Study ID:      ST003532
 Analysis ID:   AN005802
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 12
+
+Number of Value Errors: 14
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "40°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "FACTORS".
+Warning: The "Molecular Weight" column at position 6 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Compounds" column at position 2 in the METABOLITES table, matches a standard column name, "compound". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Ion mode" column at position 7 in the METABOLITES table, matches a standard column name, "ion". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Ion mode" column at position 7 in the METABOLITES table, matches a standard column name, "ion", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     Negative
+1     Negative
+2     Negative
+3     Negative
+4     Negative
+5     Negative
+6     Negative
+7     Negative
+8     Positive
+9     Positive
+10    Positive
+11    Positive
+12    Positive
+13    Positive
+14    Positive
+15    Positive
+16    Positive
+17    Positive
+18    Positive
+19    Positive
+20    Positive
+21    Positive
+22    Positive
+23    Positive
+24    Positive
+25    Positive
+26    Positive
+27    Positive
+28    Positive
+29    Positive
+30    Positive
+31    Positive
+32    Positive
+33    Positive
+34    Positive
+35    Positive
+36    Positive
+37    Positive
+38    Positive
+39    Positive
+40    Positive
+41    Positive
+42    Positive
+43    Positive
+44    Positive
+45    Positive
+46    Positive
+47    Positive
+48    Positive
+49    Positive
+50    Positive
+51    Positive
+52    Positive
+53    Positive
+54    Positive
+55    Positive
+56    Positive
+57    Positive
+58    Positive
+59    Positive
+60    Positive
+61    Positive
+62    Positive
+63    Positive
+64    Positive
+65    Positive
+66    Positive
+67    Positive
+68    Positive
+69    Positive
+70    Positive
+71    Positive
+72    Positive
+73    Positive
+74    Positive
+75    Positive
+76    Positive
+77    Positive
+78    Positive
+79    Positive
+80    Positive
+81    Positive
+82    Positive
+83    Positive
+84    Positive
+85    Positive
+86    Positive
+87    Positive
+88    Positive
+89    Positive
+90    Positive
+91    Positive
+92    Positive
+93    Positive
+Warning: The "kegg_map" column at position 13 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 11 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 12 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 12 in the METABOLITES table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+20     13204-98-3(1190-94-9)
+21         153-98-0(50-67-9)
+65    34450-15-2(13431-24-8)
+91       1118-90-7(542-32-5)
+Warning: The "Ionization model" column at position 8 in the METABOLITES table, matches a standard column name, "ionization_mode". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Ionization model" column at position 8 in the METABOLITES table, matches a standard column name, "ionization_mode", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     [M-H]-
+1     [M-H]-
+2     [M-H]-
+3     [M-H]-
+4     [M-H]-
+5     [M-H]-
+6     [M-H]-
+7     [M-H]-
+8     [M+H]+
+9     [M+H]+
+10    [M+H]+
+11    [M+H]+
+12    [M+H]+
+13    [M+H]+
+14    [M+H]+
+15    [M+H]+
+16    [M+H]+
+17    [M+H]+
+18    [M+H]+
+19    [M+H]+
+20    [M+H]+
+21    [M+H]+
+22    [M+H]+
+23    [M+H]+
+24    [M+H]+
+25    [M+H]+
+26    [M+H]+
+27    [M+H]+
+28    [M+H]+
+29    [M+H]+
+30    [M+H]+
+31    [M+H]+
+32    [M+H]+
+33    [M+H]+
+34    [M+H]+
+35    [M+H]+
+36    [M+H]+
+37    [M+H]+
+38    [M+H]+
+39    [M+H]+
+40    [M+H]+
+41    [M+H]+
+42    [M+H]+
+43    [M+H]+
+44    [M+H]+
+45    [M+H]+
+46    [M+H]+
+47    [M+H]+
+48    [M+H]+
+49    [M+H]+
+50    [M+H]+
+51    [M+H]+
+52    [M+H]+
+53    [M+H]+
+54    [M+H]+
+55    [M+H]+
+56    [M+H]+
+57    [M+H]+
+58    [M+H]+
+59    [M+H]+
+60    [M+H]+
+61    [M+H]+
+62    [M+H]+
+63    [M+H]+
+64    [M+H]+
+65    [M+H]+
+66    [M+H]+
+67    [M+H]+
+68    [M+H]+
+69    [M+H]+
+70    [M+H]+
+71    [M+H]+
+72    [M+H]+
+73    [M+H]+
+74    [M+H]+
+75    [M+H]+
+76    [M+H]+
+77    [M+H]+
+78    [M+H]+
+79    [M+H]+
+80    [M+H]+
+81    [M+H]+
+82    [M+H]+
+83    [M+H]+
+84    [M+H]+
+85    [M+H]+
+86    [M+H]+
+87    [M+H]+
+88    [M+H]+
+89    [M+H]+
+90    [M+H]+
+91    [M+H]+
+92    [M+H]+
+93    [M+H]+
+Warning: The "Ion mode" column at position 7 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "Ionization model" column at position 8 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

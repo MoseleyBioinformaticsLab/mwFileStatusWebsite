@@ -1,8 +1,47 @@
 Validation Log
-2025-12-07 07:45:17.157658
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:52:07.289430
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005012/mwtab/json
 Study ID:      ST003057
 Analysis ID:   AN005012
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 5
+
+Number of Warnings: 4
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "40", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "precursor ion" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ion". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "product ion" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ion". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "product ion" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ion", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+210    NA(SIM)
+211    NA(SIM)
+212    NA(SIM)
+213    NA(SIM)
+214    NA(SIM)
+215    NA(SIM)
+216    NA(SIM)
+217    NA(SIM)
+218    NA(SIM)
+219    NA(SIM)
+220    NA(SIM)
+221    NA(SIM)
+222    NA(SIM)
+223    NA(SIM)
+224    NA(SIM)
+225    NA(SIM)
+226    NA(SIM)
+227    NA(SIM)
+228    NA(SIM)
+229    NA(SIM)
+230    NA(SIM)
+231    NA(SIM)
+232    NA(SIM)
+Warning: The "retention time" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

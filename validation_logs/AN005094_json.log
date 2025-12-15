@@ -1,8 +1,68 @@
 Validation Log
-2025-12-07 07:49:54.729944
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:56:13.937682
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005094/mwtab/json
 Study ID:      ST003111
 Analysis ID:   AN005094
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 6
+
+Number of Warnings: 4
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.450ml/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "45°C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+86     HMDB0013124
+87     HMDB0062592
+88     HMDB0062514
+89     HMDB0013125
+90     HMDB0013133
+91     HMDB0002013
+92     HMDB0062556
+93       HMDB02366
+94     HMDB0000688
+95     HMDB0062555
+96     HMDB0000552
+97     HMDB0000705
+98     HMDB0013328
+99     HMDB0061633
+100    HMDB0013324
+101    HMDB0000791
+102    HMDB0061634
+103    HMDB0013288
+104    HMDB0000651
+105    HMDB0013326
+106    HMDB0013327
+107    HMDB0002250
+108    HMDB0061638
+109    HMDB0062588
+110    HMDB0013330
+111    HMDB0005066
+112    HMDB0061640
+113    HMDB0062517
+114    HMDB0061641
+115    HMDB0013334
+116    HMDB0006317
+117    HMDB0013333
+118    HMDB0000222
+119    HMDB0061642
+120    HMDB0006210
+121    HMDB0006319
+122    HMDB0006469
+123    HMDB0013338
+124    HMDB0013339
+125    HMDB0000848
+126    HMDB0006460
+127    HMDB0006321
+128    HMDB0000201
+Warning: The "r.t." column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

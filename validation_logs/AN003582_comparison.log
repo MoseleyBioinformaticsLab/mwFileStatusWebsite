@@ -1,11 +1,11 @@
 Comparison Log
-2025-12-07 05:55:00.173053
-mwtab Python Library Version: 1.2.5
+2025-12-15 00:27:38.665193
+mwtab Python Library Version: 2.0.0
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003582/mwtab/...
 Study ID:    ST002188
 Analysis ID: AN003582
 Status:      Inconsistent
 
-Sections "TREATMENT" contain missmatched items: {('ANIMAL_ENDP_TISSUE_PROC_METHOD', 'Two weeks after surgery, mice were anesthetized using isoflurane and the left quadriceps muscle was rapidly dissected and immediately frozen in liquid nitrogen and stored at -80oC for metabolite extraction.')}
-Sections "NM" contain missmatched items: {('BINNED_DATA_CHEMICAL_SHIFT_RANGE', 'None'), ('BINNED_DATA_NORMALIZATION_METHOD', 'None')}
-'Metabolite'
+Sections "NM" contain missmatched keys: ['BINNED_DATA_NORMALIZATION_METHOD', 'BINNED_DATA_CHEMICAL_SHIFT_RANGE']
+Sections "TREATMENT" contain missmatched keys: ['ANIMAL_ENDP_TISSUE_PROC_METHOD']
+'Metabolites' section of 'NMR_METABOLITE_DATA' block do not match.

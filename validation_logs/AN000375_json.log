@@ -1,8 +1,92 @@
 Validation Log
-2025-12-07 01:33:44.575493
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:17:42.314946
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000375/mwtab/json
 Study ID:      ST000242
 Analysis ID:   AN000375
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 19
+
+Number of Warnings: 10
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected in ["STUDY"]["ADDRESS"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["STUDY"]["PHONE"]. A legitimate value should be provided for this required key.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"(-)-11-hydroxy-9_10-dihydrojasmonic acid"
+	"3^-Amino-3^-deoxy-AMP"
+	"5_7_8-Trihydroxy-3-methoxyflavone 8-((E)-2-methylbut-2-enoate)"
+	"6^^^-Deamino-6^^^-dehydro-6^^^-oxoneomycin C"
+	"6-Hydroxytricetin 6_7_3^_5^-tetramethyl eter 5-robinobioside"
+	"8_9_16-trihydroxy palmitic acid"
+	"8^-Hydroxydihydroergotamine"
+	"PE(18:4(6Z_9Z_12Z_15Z)/18:4(6Z_9Z_12Z_15Z))"
+	"PE(18:4(6Z_9Z_12Z_15Z)/20:4(8Z_11Z_14Z_17Z))"
+	"Quercetin 3-(6^^-malonylglucoside)-7-glucoside"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"3'-Amino-3'-deoxy-AMP"
+	"6'''-Deamino-6'''-dehydro-6'''-oxoneomycin C"
+	"6-Hydroxytricetin 6,7,3',5'-tetramethyl eter 5-robinobioside"
+	"8'-Hydroxydihydroergotamine"
+	"Quercetin 3-(6''-malonylglucoside)-7-glucoside"
+Warning: The "inchi_key" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+159    C08935
+165    C18846
+171    C10280
+172    C00350
+180    C06653
+208    C10819
+232    C12216
+234    C14689
+299    C16435
+313    C09910
+316    C06816
+334    C08187
+463    C02367
+581    C18745
+584    C02678
+588    C11821
+603    C05551
+609    C00413
+614    C05598
+617    C06808
+618    C10152
+623    C03065
+629    C17589
+631    C09662
+637    C18739
+643    C01907
+648    C10547
+650    C00791
+660    C00431
+670    C15739
+676    C03032
+691    C11815
+707    C10280
+714    C09016
+715    C15516
+722    C17431
+724    C18453
+747    C02961
+763    C08676
+Warning: The "ri" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "other_id" and "other_id_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "pubchem_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "kegg_id" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

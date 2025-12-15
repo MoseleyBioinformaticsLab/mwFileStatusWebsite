@@ -1,8 +1,175 @@
 Validation Log
-2025-12-07 01:57:18.789089
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:32:05.635822
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000619/mwtab/json
 Study ID:      None
 Analysis ID:   None
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 9
+
+Number of Warnings: 3
+
+Number of Value Errors: 4
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected in ["MS"]["MS_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "KEGG ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1                  176
+3                  857
+5                  484
+6                  402
+7                   30
+8                 1058
+9                 1423
+10                1392
+11                 306
+13                 206
+14                1325
+15         00101/01983
+16                  85
+17                1202
+18                 905
+19              01163/
+20                 426
+21                 661
+22                1401
+23                 807
+24                1227
+25                 124
+26                1586
+27                 448
+28                1068
+29                 691
+31                 295
+32                 893
+33                 624
+35                 729
+36                 792
+37                 132
+38                1062
+39                 133
+40                1201
+41                3391
+42                  95
+43                 634
+44     110,035,700,442
+45                 254
+46                 700
+47                1274
+48                 630
+50                 272
+52                 263
+53                1870
+54          18,203,405
+55                 720
+56                 115
+57                  45
+58                 167
+59          64,103,423
+60                3072
+61         06557/01095
+65         00695/00491
+67                 235
+68                1470
+69                 764
+70                1863
+71                 954
+72                 947
+73                1220
+74                1341
+75                 244
+76                 126
+77                 902
+78                1206
+79                2666
+80                1248
+81                 638
+82                 784
+83                 511
+84                 847
+85                3459
+86          15,600,744
+87                 217
+88                 482
+89          19,001,311
+90                 666
+91                4437
+92                1431
+93                 535
+94          13,906,372
+95                 237
+97                 267
+98          51,703,416
+99                1370
+100                618
+101                759
+102                294
+104                 34
+105                 39
+106              11733
+107                718
+109         16,203,411
+110         21,403,374
+112               1555
+113                625
+114                450
+116               1406
+118               1548
+119                177
+120                904
+121                239
+122                175
+125               3357
+126         19,106,483
+127                288
+128               1178
+129               1397
+131               1185
+132               2005
+133                687
+135                168
+136                159
+137         14,803,339
+138               1243
+139               1257
+140               1173
+141                883
+142                172
+143               1545
+144                123
+145                301
+146                195
+147                158
+148                935
+149                299
+150                696
+151                929
+152         18,703,406
+153         16,101,310
+154               2189
+155                 56
+156                 50
+157                210
+158               2107
+159                 97
+160                134
+161               1554
+163                112
+164                562
+165               1432
+166                 64
+167                157
+168               2820
+169                 86

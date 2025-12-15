@@ -1,12 +1,110 @@
 Validation Log
-2025-12-07 09:53:54.746981
-mwtab Python Library Version: 1.2.5
+2025-12-15 03:27:37.219941
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007118/mwtab/txt
 Study ID:      ST004279
 Analysis ID:   AN007118
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 8
 
-Error Log:
-SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Wrong key 'SOLVENT_C' in OrderedDict([('CHROMATOGRAPHY_TYPE', 'Reversed phase'), ('INSTRUMENT_NAME', 'Agilent 1290 Infinity II'), ('COLUMN_NAME', 'Agilent ZORBAX RRHD SB-C18 (150 x 2.1mm,1.8um)'), ('SOLVENT_A', '97% water/3% methanol;15 mM acetic acid; 10 mM tributylamine at pH 5'), ('SOLVENT_B', '100% methanol; 15 mM acetic acid; 10 mM tributylamine'), ('SOLVENT_C', '100% acetonitrile, wash solvent.'), ('FLOW_GRADIENT', '0.25 mL/min, 0–2.5 min, 100% A; 7.5 min, 80% A and 20% B; 13 min 55% A and 45% B; 20 min, 1% A and 99% B; 24 min, 1% A and 99% B; 24.05 min, 1% A and 99% C; 27 min, 1% A and 99% C; at 0.8 mL/min, 27.5–31.35 min, 1% A and 99% C; at 0.6 mL/min, 31.50 min, 1% A and 99% C; at 0.4 mL/min, 32.25–39.9 min, 100% A; and at 0.25 mL/min, 40 min, 100% A.'), ('FLOW_RATE', '0.25-0.8 mL/min'), ('COLUMN_TEMPERATURE', '35')])
+Number of Warnings: 3
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 2
+
+Issue Log:
+Error: The value, "20s-70s", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "35", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid subsection, "SOLVENT_C", in the "CHROMATOGRAPHY" section .
+Error: Unknown or invalid section, "FACTORS".
+Warning: The "REFMET_ID" column at position 4 in the METABOLITES table, matches a standard column name, "refmet". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 4 in the METABOLITES table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     RM0156401
+1     RM0155888
+2     RM0153678
+3     RM0136217
+4     RM0135874
+5     RM0132180
+6     RM0136067
+7     RM0021619
+8     RM0049281
+9     RM0137319
+10    RM0135963
+11    RM0135724
+12    RM0135905
+13    RM0037601
+14    RM0013709
+15    RM0008606
+16    RM0138946
+17    RM0153397
+18    RM0136022
+19    RM0138923
+20    RM0135876
+21    RM0028430
+22    RM0135885
+23    RM0136213
+24    RM0131854
+25    RM0155901
+26    RM0136085
+27    RM0032432
+28    RM0138943
+29    RM0109018
+30    RM0136036
+31    RM0012559
+32    RM0135893
+33    RM0012560
+34    RM0135889
+35    RM0135902
+36    RM0160118
+37    RM0018303
+38    RM0129894
+39    RM0136229
+40    RM0135895
+41    RM0043289
+42    RM0000534
+43    RM0132226
+44    RM0135904
+45    RM0153373
+46    RM0135894
+47    RM0161726
+48    RM0136735
+49    RM0136005
+50    RM0027165
+51    RM0136738
+52    RM0135920
+53    RM0133217
+54    RM0136399
+55    RM0133216
+56    RM0139022
+57    RM0135911
+58    RM0136730
+59    RM0060576
+60    RM0060581
+61    RM0135899
+62    RM0134967
+63    RM0135916
+64    RM0135919
+65    RM0136025
+66    RM0032433
+67    RM0135445
+68    RM0134982
+69    RM0118223
+70    RM0033602
+71    RM0135900
+72    RM0128618
+73    RM0136024
+74    RM0135896
+75    RM0135932
+76    RM0133219
+77    RM0135929
+78    RM0135934
+79    RM0135933
+80    RM0160877
+81    RM0135930
+82    RM0161017
+Warning: The "Pubchem CID" column at position 2 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

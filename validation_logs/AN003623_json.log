@@ -1,8 +1,112 @@
 Validation Log
-2025-12-07 05:57:22.612706
-mwtab Python Library Version: 1.2.5
+2025-12-15 00:29:51.860140
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003623/mwtab/json
 Study ID:      ST002214
 Analysis ID:   AN003623
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 13
+
+Number of Warnings: 7
+
+Number of Value Errors: 7
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The value, "50-90 yrs", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "mz" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG or HMDB ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG or HMDB ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+77        ac107
+78    HMDB00791
+Warning: The "KEGG or HMDB ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG or HMDB ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     C00041
+1     C00062
+2     C00049
+3     C00097
+4     C00025
+5     C00064
+6     C00135
+7     C00123
+8     C00047
+9     C00073
+10    C00079
+11    C00148
+12    C00065
+13    C00188
+14    C00078
+15    C00082
+16    C00183
+17    C00020
+18    C00212
+19    C00147
+20    C00144
+21    C00387
+22    C00242
+23    C00055
+24    C00475
+25    C00380
+26    C00214
+27    C00105
+28    C00106
+29    C00130
+30    C00294
+31    C00262
+32    C00385
+33    C00499
+34    C00250
+35    C00153
+36    C00003
+37    C00004
+38    C00121
+39    C01684
+40    C02630
+41    C00279
+42    C00051
+43    C01879
+44    C05695
+45    C15767
+46    C15699
+47    C02532
+48    C00021
+49    C01602
+50    C01672
+51    C00134
+52    C00315
+53    C00750
+54    C03410
+55    C02305
+56    C00300
+57    C00864
+58    C00506
+59    C00637
+60    C00331
+61    C08480
+62    C00977
+63    C00328
+64    C02700
+65    C10164
+66    C03453
+67    C02220
+68    C05830
+69    C00093
+70    C00346
+71    C01996
+72    C00114
+73    C00318
+74    C02571
+75    C03017
+76    C20826
+77     ac107
+Warning: The "r.t." column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column, "KEGG or HMDB ID", in the ["MS_METABOLITE_DATA"]["Metabolites"] table was matched to multiple standard names, ['kegg_id', 'hmdb_id']. This is a good indication that the values in that column should be split into the appropriate individual columns.

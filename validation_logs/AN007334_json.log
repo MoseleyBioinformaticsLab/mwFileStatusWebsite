@@ -1,8 +1,94 @@
 Validation Log
-2025-12-07 09:59:41.844517
-mwtab Python Library Version: 1.2.5
+2025-12-15 03:31:24.499674
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007334/mwtab/json
 Study ID:      ST004389
 Analysis ID:   AN007334
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 4
+
+Number of Warnings: 4
+
+Number of Value Errors: 4
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Warning: The "PubChem CID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+13     73-40-5 | 66224-61-1 | 66224-63-3 | 66224-64-4...
+14       57-48-7 | 30237-26-4 | 25702-76-5 | 139686-85-4
+15                                 7772-94-3 | 1136-44-3
+25                                3058-01-3 | 61898-58-6
+37       9005-82-7 | 6401-81-6 | 133137-05-0 | 1109-28-0
+45     87-89-8 | 643-12-9 | 488-59-5 | 6917-35-7 | 48...
+62                                               1453453
+84                               58166-27-1 | 15132-06-6
+89                     86-95-3 | 70254-44-3 | 70254-43-2
+98               142217-69-4 | 209216-23-9 | 188399-46-4
+113                              36183-24-1 | 22150-76-1
+118              105816-04-4 | 105816-06-6 | 105746-37-0
+122       56-06-4 | 100643-27-4 | 143504-99-8 | 195-66-4
+133                24512-63-8 | 169799-41-1 | 27745-20-6
+138                            126433-07-6 | 122520-90-5
+151                                                21672
+162                              95120-07-3 | 94944-70-4
+183                              78712-43-3 | 74003-18-2
+218                                  959-24-0 | 366-80-3
+223                               5150-42-5 | 25155-26-4
+241                                 518-69-4 | 6018-35-5
+242                            104054-27-5 | 308081-08-5
+251                               6917-79-9 | 35857-70-6
+266                                               206975
+273                                 5287-64-9 | 815-89-4
+275                               6998-60-3 | 15105-92-7
+278    22888-70-6 | 36804-17-8 | 65666-07-1 | 802918-...
+282                            333963-40-9 | 136790-76-6
+289                                   122-85-0 | 34-24-2
+296                              38315-48-9 | 54324-29-7
+308                              19309-14-9 | 18956-16-6
+311                             21059-47-2 | 314075-00-8
+314                  14292-26-3 | 5561-87-5 | 33044-91-6
+318    62989-33-7 | 17528-72-2 | 103130-44-5 | 27070-...
+320                              6763-34-4 | 130550-15-1
+324                              49625-89-0 | 20410-98-4
+332                                7362-39-2 | 2979-06-8
+352                                 487-79-6 | 4071-38-9
+355                                1999-42-4 | 1638-60-4
+356                             101205-02-1 | 99434-58-9
+373                                687-69-4 | 25765-55-3
+385                              15176-29-1 | 69264-36-4
+387                            291758-32-2 | 189302-40-7
+389                67776-06-1 | 79032-48-7 | 152971-80-7
+401                            221244-14-0 | 956025-48-2
+433                            158932-33-3 | 148244-82-0
+446                               24218-00-6 | 2002-28-0
+458                       76-74-4 | 57-33-0 | 30849-50-4
+469                  121-57-3 | 129674-17-5 | 71949-32-1
+481                              4955-22-0 | 429678-85-3
+482               68693-11-8 | 112111-49-6 | 112111-47-4
+489                               6099-04-3 | 17570-26-2
+490               73573-87-2 | 128954-45-0 | 126587-85-7
+508    27299-12-3 | 100402-56-0 | 12441-09-7 | 28218-...
+510        59-51-8 | 26062-47-5 | 7005-18-7 | 33807-07-7
+519                                42485-00-7 | 478-09-1
+522                 123-33-1 | 116595-47-2 | 129016-38-2
+523                                552-80-7 | 13366-36-4
+541                               504-24-5 | 916979-36-7
+552                                243-17-4 | 30777-19-6
+560                               103-79-7 | 136675-26-8
+571                             154447-36-6 | 15447-36-6
+592                              23537-16-8 | 21884-45-7
+630                              26016-98-8 | 26472-47-9
+634                                                31506
+648                                116-37-0 | 37353-75-6
+663                              1670-26-4 | 875444-14-7
+674                             60705-62-6 | 157432-87-6
+676                               2222-07-3 | 28580-39-4
+697                             69937-02-6 | 112295-93-9
+702                                 57-67-0 | 61116-95-8

@@ -1,15 +1,27 @@
 Validation Log
-2025-12-07 04:37:13.477262
-mwtab Python Library Version: 1.2.5
+2025-12-14 23:29:21.553518
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002666/mwtab/json
 Study ID:      ST001631
 Analysis ID:   AN002666
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 2
+Status: Contains Validation Issues
+Number of Issues: 8
 
-Error Log:
-SCHEMA: Section "ANALYSIS" does not match the allowed schema. Missing key: 'ANALYSIS_TYPE'
-SCHEMA: Section "NMR_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
-Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'C18-CH3 chol+V26C1C1:W25')])
-Missing key: Or('Metabolite', 'Bin range(ppm)')
+Number of Warnings: 0
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 2
+
+Issue Log:
+Error: The value in ["SUBJECT"]["WEIGHT_OR_WEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["TREATMENT"]["ANIMAL_VET_TREATMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The required property, "ANALYSIS_TYPE", in ["ANALYSIS"] is missing.
+Error: The value, "10mM pyrazine", in ["NM"]["STANDARD_CONCENTRATION"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mM']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["NM"]["WATER_SUPPRESSION"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "25 o C", in ["NM"]["TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.
+Error: The value, "128 scans", in ["NM"]["NUMBER_OF_SCANS"] should be a unitless number. Ignore this when more complicated descriptions are required.
+Error: The ["NMR_METABOLITE_DATA"]["Metabolites"] table does not have a column for "Metabolite". It is likely misspelled or using a common incorrect substitute.

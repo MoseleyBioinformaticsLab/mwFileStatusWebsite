@@ -1,8 +1,76 @@
 Validation Log
-2025-12-07 07:25:12.631108
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:37:00.749066
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005183/mwtab/json
 Study ID:      ST002871
 Analysis ID:   AN005183
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 18
+
+Number of Warnings: 13
+
+Number of Value Errors: 18
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["FLOW_GRADIENT"]. A legitimate value should be provided for this required key.
+Error: The value, "none", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["SOLVENT_A"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["SOLVENT_B"]. A legitimate value should be provided for this required key.
+Warning: The "mz" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Neutral mass" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InChiKey_14" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InChiKey_14" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     UBXYXCRCOKCZIT
+1     QGQSRQPXXMTJCM
+2     OMFRMAHOUUJSGP
+3     ZCVAOQKBXKSDMS
+4     SMKRKQBMYOFFMU
+5     BJQHLKABXJIVAM
+6     ULDHMXUKGWMISQ
+7     VOWAEIGWURALJQ
+8     NIQCNGHVCWTJSM
+9     DMYHGDXADUDKCQ
+10    IKVXBIIHQGXQRQ
+11    ZDYJWDIWLRZXDB
+12    RLLPVAHGXHCWKJ
+13    QFMDFTQOJHFVNR
+14    XKJCHHZQLQNZHY
+15    YPCALTGLHFLNGA
+16    YYGNTYWPHWGJRM
+17    PNRAZZZISDRWMV
+18    CIFFBTOJCKSRJY
+19    DQFPEYARZIQXRM
+20    STCOOQWBFONSKY
+21    CRDAMVZIKSXKFV
+22    QMVPMAAFGQKVCJ
+23    DSSYKIVIOFKYAU
+Warning: The "Formula" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+2      C23 H22 Cl F3 O2
+10    C19 H19 Cl F N O3
+14           C8 H5 N O2
+15         C13 H15 N O2
+17         C17 H27 N O2
+18           C8 H9 N O2
+19         C10 H13 N O2
+Warning: The "RefMet" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+5     Bis(2-ethylhexyl)phthalate
+6                        Carvone
+7         Dicyclohexyl phthalate
+8             Dimethyl phthalate
+14                   Phthalimide
+16                      Squalene
+20            Tributyl phosphate
+23                       Camphor
+Warning: The "RT_sec" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "MS1_RT_std" column at position 13 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Adduct" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "MSI_level" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "MS1_AM_std" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "MS1_AM_db" column at position 12 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "MS1_RT_std" column at position 13 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

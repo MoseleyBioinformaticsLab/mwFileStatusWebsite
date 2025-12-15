@@ -1,8 +1,169 @@
 Validation Log
-2025-12-07 06:40:45.931491
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:03:11.158731
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004258/mwtab/json
 Study ID:      ST002586
 Analysis ID:   AN004258
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 20
+
+Number of Warnings: 12
+
+Number of Value Errors: 17
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["FLOW_GRADIENT"]. A legitimate value should be provided for this required key.
+Error: The value, "0.69 ml/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "60-320", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["SOLVENT_A"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["SOLVENT_B"]. A legitimate value should be provided for this required key.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"2-hydroxyglutaric (433_245)"
+	"2-phosphoGlycertate (585_383)"
+	"3-hydroxybutyrate (275_233)"
+	"3-Hydroxy isobutyric (275_260)"
+	"3-phosphoglycerate (585_383)"
+	"aketoglutarate (346_258)"
+	"Alanine (260_232)"
+	"Asparagine (417_302)"
+	"Aspartic (418_390)"
+	"Cis-aconitic (459_327)"
+	"Citric (459_431)"
+	"Citric m+1 (460_432)"
+	"Citric m+2 (461_433)"
+	"Citric m+3 (462_434)"
+	"Citric m+4 (463_435)"
+	"Citric m+5 (464_436)"
+	"Citric m+6 (465_ 437)"
+	"Creatinine (284_341)"
+	"Cysteine (406_378)"
+	"DHAP 1/2 (484_452_383)"
+	"DHAP 2/2 (484_452_383)"
+	"Ethanolamine (232_144)"
+	"Fumaric (287_329)"
+	"Glutamic (432_330)"
+	"Glutamine (431_329)"
+	"Glyceraldehyde-3P (484_457_425)"
+	"Glycine (246_218)"
+	"Glycolic Acid (247_189) ?"
+	"Histidine (440_338)"
+	"Homocysteine (420_392)"
+	"Hydroxyproline (416_388)"
+	"Hypotaruine (280_158)"
+	"Isocitric (459_431)"
+	"Isocitric m+1 (460_432)"
+	"Isocitric m+2 (461_433)"
+	"Isocitric m+3 (462_434)"
+	"Isocitric m+4 (463_435)"
+	"Isocitric m+5 (464_436)"
+	"Isocitric m+6 (465_ 437)"
+	"Isoleucine (302_274)"
+	"Lactic (261_233)"
+	"Leucine (302_274)"
+	"Linoelaidic M0 337_129_379"
+	"Lysine (431_488)"
+	"Malic (419_287)"
+	"Methionine (320_292)"
+	"Myristic M+0 (285_129_327)"
+	"Niacinamide (179_ 136_ 221)"
+	"Ornithine (474_417)"
+	"Oxaloacetic (332_374)"
+	"Palmitelaidic acid M+0 311_ 129_353"
+	"Phenylalanine (336_308)"
+	"Phosphoenolpyruvic (453_495)"
+	"Phosphoserine (584_482)"
+	"Proline (286_258)"
+	"Propylene glycol 2TBDMS 247_189 ?"
+	"Pyroglutamic (300_272)"
+	"Pyruvic (174_115)"
+	"Serine (390_362)"
+	"Stearic M+0 341_129_383"
+	"Succinic (289_331)"
+	"Threonine (404_376)"
+	"Tyrosine (466_302)"
+	"Urea (231_ 273)"
+	"Uric acid (576_395_511)"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"2-hydroxyglutaric (433,245)"
+	"2-phosphoGlycertate (585,383)"
+	"3-hydroxybutyrate (275,233)"
+	"3-Hydroxy isobutyric (275,260)"
+	"3-phosphoglycerate (585,383)"
+	"aketoglutarate (346,258)"
+	"Alanine (260,232)"
+	"Asparagine (417,302)"
+	"Aspartic (418,390)"
+	"Cis-aconitic (459,327)"
+	"Citric (459,431)"
+	"Citric m+1 (460,432)"
+	"Citric m+2 (461,433)"
+	"Citric m+3 (462,434)"
+	"Citric m+4 (463,435)"
+	"Citric m+5 (464,436)"
+	"Citric m+6 (465, 437)"
+	"Creatinine (284,341)"
+	"Cysteine (406,378)"
+	"DHAP 1/2 (484,452,383)"
+	"DHAP 2/2 (484,452,383)"
+	"Ethanolamine (232,144)"
+	"Fumaric (287,329)"
+	"Glutamic (432,330)"
+	"Glutamine (431,329)"
+	"Glyceraldehyde-3P (484,457,425)"
+	"Glycine (246,218)"
+	"Glycolic Acid (247,189) ?"
+	"Histidine (440,338)"
+	"Homocysteine (420,392)"
+	"Hydroxyproline (416,388)"
+	"Hypotaruine (280,158)"
+	"Isocitric (459,431)"
+	"Isocitric m+1 (460,432)"
+	"Isocitric m+2 (461,433)"
+	"Isocitric m+3 (462,434)"
+	"Isocitric m+4 (463,435)"
+	"Isocitric m+5 (464,436)"
+	"Isocitric m+6 (465, 437)"
+	"Isoleucine (302,274)"
+	"Lactic (261,233)"
+	"Leucine (302,274)"
+	"Linoelaidic M0 337,129,379"
+	"Lysine (431,488)"
+	"Malic (419,287)"
+	"Methionine (320,292)"
+	"Myristic M+0 (285,129,327)"
+	"Niacinamide (179, 136, 221)"
+	"Ornithine (474,417)"
+	"Oxaloacetic (332,374)"
+	"Palmitelaidic acid M+0 311, 129,353"
+	"Phenylalanine (336,308)"
+	"Phosphoenolpyruvic (453,495)"
+	"Phosphoserine (584,482)"
+	"Proline (286,258)"
+	"Propylene glycol 2TBDMS 247,189 ?"
+	"Pyroglutamic (300,272)"
+	"Pyruvic (174,115)"
+	"Serine (390,362)"
+	"Stearic M+0 341,129,383"
+	"Succinic (289,331)"
+	"Threonine (404,376)"
+	"Tyrosine (466,302)"
+	"Urea (231, 273)"
+	"Uric acid (576,395,511)"
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "pubchem_id" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "kegg_id" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "moverz_quant" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

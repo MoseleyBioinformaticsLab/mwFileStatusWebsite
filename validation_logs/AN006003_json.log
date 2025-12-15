@@ -1,8 +1,34 @@
 Validation Log
-2025-12-07 08:54:07.748475
-mwtab Python Library Version: 1.2.5
+2025-12-15 02:41:30.438399
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006003/mwtab/json
 Study ID:      ST003653
 Analysis ID:   AN006003
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 15
+
+Number of Value Errors: 15
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Warning: The "mz" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Emperical Formula" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGGNAME" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHEBI" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT min." column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "DOS-1070m_1" column at position 2 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "DOS-1070m_2" column at position 3 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "DOS-1070m_3" column at position 4 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "DOS-3000m_1" column at position 11 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "DOS-3000m_2" column at position 12 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "DOS-3000m_3" column at position 13 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "DOS-590m_2" column at position 21 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "DOS-590m_3" column at position 22 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "MP2C44D400_B" column at position 65 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.

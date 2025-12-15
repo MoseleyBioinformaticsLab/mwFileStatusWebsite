@@ -1,9 +1,86 @@
 Validation Log
-2025-12-07 04:10:26.803452
-mwtab Python Library Version: 1.2.5
+2025-12-14 23:07:25.973290
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002192/mwtab/txt
 Study ID:      ST001317
 Analysis ID:   AN002192
 File format:   txt
-Status:Parsing Error
-('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\tMatrix1\\tSampleType:Matrix_Blank\\tLaboratory_Sample_ID=matrix_19S021; Batch=B1; Sample.No.=NA; SPG=NA; dilution.factor=NA; InjectionOrder=14; RAW_FILE_NAME=VY_B1_014_matrix_19S021_ZHP;GD_B1_014_matrix_19S021_RPN_reinject'", IndexError('list index out of range'))
+Status: Contains Validation Issues
+Number of Issues: 8
+
+Number of Warnings: 4
+
+Number of Value Errors: 7
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "250C", for the subsection, "CAPILLARY_TEMPERATURE", in the "MS" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "3000", for the subsection, "CAPILLARY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "25C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "quantitated m/z" column at position 7 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1          C7 H7 N O2
+2        C11 H13 N O3
+4         C10 H9 N O2
+5          C7 H7 N O2
+6        C26 H43 N O5
+7          C9 H9 N O3
+8        C5 H9 N O3 S
+11         C7 H7 N O3
+12        C6 H11 N O3
+14         C6 H5 N O2
+15        C9 H17 N O5
+16          C5 H5 N O
+17         C4 H7 N O3
+19         C5 H7 N O3
+21         C6 H5 N O3
+22        C10 H7 N O3
+24        C7 H11 N O5
+25         C6 H9 N O5
+26       C5 H9 N O4 S
+27         C8 H9 N O4
+29        C10 H7 N O4
+38         C7 H7 N O3
+42     C28 H56 N O8 P
+43        C9 H17 N O4
+46        C9 H11 N O2
+51        C6 H13 N O2
+52        C6 H13 N O2
+54       C11 H19 N O9
+55        C6 H13 N O2
+56        C8 H15 N O6
+61        C9 H11 N O3
+65        C5 H11 N O2
+66        C5 H11 N O2
+67         C5 H9 N O2
+69        C9 H11 N O3
+71        C6 H11 N O2
+73         C7 H7 N O2
+74        C5 H11 N O2
+75         C4 H9 N O2
+80        C6 H11 N O4
+81        C6 H13 N O2
+83         C4 H9 N O2
+85         C4 H9 N O2
+88         C4 H9 N O2
+89         C5 H9 N O3
+90         C4 H7 N O4
+91        C6 H11 N O4
+92         C5 H9 N O3
+93         C5 H9 N O4
+94         C4 H7 N O2
+95         C5 H9 N O4
+96         C4 H9 N O3
+97        C8 H11 N O2
+99         C3 H7 N O2
+100        C4 H9 N O3
+101      C2 H8 N O4 P
+102        C3 H7 N O3
+107     C5 H14 N O4 P
+111       C7 H16 N O3
+Warning: The "Retention times" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RTsec" column at position 5 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

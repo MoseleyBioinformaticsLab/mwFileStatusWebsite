@@ -1,8 +1,73 @@
 Validation Log
-2025-12-07 04:49:23.010437
-mwtab Python Library Version: 1.2.5
+2025-12-14 23:36:15.941372
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002758/mwtab/txt
 Study ID:      ST001688
 Analysis ID:   AN002758
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 18
+
+Number of Warnings: 11
+
+Number of Value Errors: 10
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"1_3-DIMETHYLURACIL"
+	"1_5_6_7-TETRAHYDRO-4H-INDOL-4-ONE|2-PHENYLACETAMIDE|N-BENZYLFORMAMIDE"
+	"1_6-ANHYDRO-B-GLUCOSE"
+	"2_6-DIAMINOHEPTANEDIOIC ACID"
+	"2^-DEOXYGUANOSINE 5^-MONOPHOSPHATE"
+	"3_5-DIMETHOXYPHENOL"
+	"3^-CMP"
+	"5_6-DIHYDRO THYMINE"
+	"5^-DEOXYADENOSINE"
+	"ADENOSINE 2^_3^-CYCLIC MONOPHOSPHATE"
+	"CYTIDINE 2^_3^-CYCLIC MONOPHOSPHATE"
+	"CYTIDINE 5^-DIPHOSPHOCHOLINE"
+	"GUANOSINE 3^_5^-CYCLIC MONOPHOSPHATE"
+	"GUANOSINE 5^-MONOPHOSPHATE"
+	"NEPSILON_NEPSILON_NEPSILON-TRIMETHYLLYSINE"
+	"N_N-DIMETHYLGLYCINE"
+	"S-(5^-ADENOSYL)-L-HOMOCYSTEINE"
+	"XANTHOSINE 5^-MONOPHOSPHATE"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"1,3-DIMETHYLURACIL"
+	"1,5,6,7-TETRAHYDRO-4H-INDOL-4-ONE|2-PHENYLACETAMIDE|N-BENZYLFORMAMIDE"
+	"1,6-ANHYDRO-B-GLUCOSE"
+	"2,6-DIAMINOHEPTANEDIOIC ACID"
+	"2'-DEOXYGUANOSINE 5'-MONOPHOSPHATE"
+	"3,5-DIMETHOXYPHENOL"
+	"3'-CMP"
+	"5,6-DIHYDRO THYMINE"
+	"5'-DEOXYADENOSINE"
+	"ADENOSINE 2',3'-CYCLIC MONOPHOSPHATE"
+	"CYTIDINE 2',3'-CYCLIC MONOPHOSPHATE"
+	"CYTIDINE 5'-DIPHOSPHOCHOLINE"
+	"GUANOSINE 3',5'-CYCLIC MONOPHOSPHATE"
+	"GUANOSINE 5'-MONOPHOSPHATE"
+	"NEPSILON,NEPSILON,NEPSILON-TRIMETHYLLYSINE"
+	"N,N-DIMETHYLGLYCINE"
+	"S-(5'-ADENOSYL)-L-HOMOCYSTEINE"
+	"XANTHOSINE 5'-MONOPHOSPHATE"
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "pubchem_id" column at position 2 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "kegg_id" column at position 4 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 7 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.

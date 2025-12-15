@@ -1,8 +1,157 @@
 Validation Log
-2025-12-07 08:56:22.448379
-mwtab Python Library Version: 1.2.5
+2025-12-15 02:43:07.467984
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006039/mwtab/json
 Study ID:      ST003678
 Analysis ID:   AN006039
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 6
+
+Number of Warnings: 4
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "~200–270 μL/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "25", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "CalcMz" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "IonFormula" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "IonFormula" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+182                C28 H47 O0
+563          C22 H44 O9 N0 P1
+564          C23 H44 O9 N0 P1
+565          C25 H48 O9 N0 P1
+640          C31 H60 O8 N0 P1
+641          C33 H64 O8 N0 P1
+642          C35 H68 O8 N0 P1
+644          C37 H70 O8 N0 P1
+645          C39 H68 O8 N0 P1
+646          C35 H70 O7 N0 P1
+647          C41 H72 O7 N0 P1
+648          C33 H62 O8 N0 P1
+649          C35 H64 O8 N0 P1
+650          C37 H68 O8 N0 P1
+651          C37 H66 O8 N0 P1
+652          C41 H66 O8 N0 P1
+653          C36 H68 O8 N0 P1
+654          C37 H72 O8 N0 P1
+655          C39 H74 O8 N0 P1
+656          C35 H66 O8 N0 P1
+657          C39 H72 O8 N0 P1
+658          C41 H70 O8 N0 P1
+659          C37 H72 O7 N0 P1
+660          C38 H72 O8 N0 P1
+661         C35 H66 O10 N0 P1
+662         C37 H70 O10 N0 P1
+663          C37 H72 O7 N0 P1
+664          C39 H76 O7 N0 P1
+665          C41 H70 O7 N0 P1
+1483         C31 H60 O8 N0 P1
+1484         C35 H64 O8 N0 P1
+1485         C37 H68 O8 N0 P1
+1486         C39 H72 O8 N0 P1
+1487         C37 H66 O8 N0 P1
+1488        C41 H76 O15 N0 P1
+1489        C41 H76 O10 N0 P1
+1490         C42 H84 O8 N0 P1
+1491         C46 H82 O8 N0 P1
+1492        C34 H66 O10 N0 P1
+1494        C36 H70 O10 N0 P1
+1496        C38 H72 O10 N0 P1
+1498        C42 H74 O10 N0 P1
+1499        C44 H74 O10 N0 P1
+1500        C38 H70 O10 N0 P1
+1502        C40 H74 O10 N0 P1
+1503        C40 H72 O10 N0 P1
+1504        C37 H70 O10 N0 P1
+1506        C41 H76 O10 N0 P1
+1508        C42 H78 O10 N0 P1
+1509        C42 H76 O10 N0 P1
+1510        C44 H76 O10 N0 P1
+1511        C40 H76 O11 N0 P1
+1513        C43 H82 O10 N0 P1
+1514        C36 H70 O10 N0 P1
+1520        C41 H76 O15 N0 P1
+1521        C43 H74 O13 N0 P1
+1522        C35 H66 O13 N0 P1
+1524        C37 H70 O13 N0 P1
+1525        C39 H74 O13 N0 P1
+1527        C41 H78 O13 N0 P1
+1528        C41 H76 O13 N0 P1
+1530        C43 H80 O13 N0 P1
+1531        C45 H80 O13 N0 P1
+1533        C45 H78 O13 N0 P1
+1535        C47 H78 O13 N0 P1
+1536        C45 H80 O12 N0 P1
+1537        C47 H84 O12 N0 P1
+1538        C39 H72 O13 N0 P1
+1540        C41 H74 O13 N0 P1
+1541        C42 H78 O13 N0 P1
+1542        C43 H80 O13 N0 P1
+1544        C43 H78 O13 N0 P1
+1546        C43 H76 O13 N0 P1
+1548        C45 H76 O13 N0 P1
+1549        C46 H82 O13 N0 P1
+1551        C46 H80 O13 N0 P1
+1552        C42 H76 O13 N0 P1
+1554        C44 H80 O13 N0 P1
+1556        C46 H78 O13 N0 P1
+1558        C43 H82 O13 N0 P1
+1559        C44 H84 O13 N0 P1
+1560        C45 H86 O13 N0 P1
+1561        C45 H86 O13 N0 P1
+1562    C45 H85 O13 N0 P1 Na1
+1564        C45 H84 O13 N0 P1
+1565        C47 H88 O13 N0 P1
+1567        C47 H86 O13 N0 P1
+1569        C47 H84 O13 N0 P1
+1571        C47 H82 O13 N0 P1
+1572        C49 H92 O13 N0 P1
+1573        C49 H90 O13 N0 P1
+1574        C49 H88 O13 N0 P1
+1576        C49 H86 O13 N0 P1
+1578        C49 H84 O13 N0 P1
+1580        C49 H82 O13 N0 P1
+1581        C43 H84 O12 N0 P1
+1582        C49 H88 O12 N0 P1
+1583        C45 H84 O13 N0 P1
+1584    C45 H83 O13 N0 P1 Na1
+1586        C45 H82 O13 N0 P1
+1588        C45 H80 O13 N0 P1
+1590        C47 H82 O13 N0 P1
+1591        C47 H82 O13 N0 P1
+1592    C47 H81 O13 N0 P1 Na1
+1594        C47 H80 O13 N0 P1
+1596        C49 H82 O13 N0 P1
+1598        C49 H80 O13 N0 P1
+1599        C43 H80 O14 N0 P1
+1600        C43 H82 O12 N0 P1
+1601        C47 H82 O12 N0 P1
+1602        C49 H82 O12 N0 P1
+1604        C47 H78 O13 N0 P1
+1605        C43 H78 O14 N0 P1
+1606        C48 H86 O13 N0 P1
+1607        C48 H84 O13 N0 P1
+1608        C44 H82 O13 N0 P1
+1609        C46 H86 O13 N0 P1
+1610        C46 H84 O13 N0 P1
+1612        C48 H82 O13 N0 P1
+1613        C49 H78 O13 N0 P1
+1614        C47 H82 O15 N0 P1
+1615        C51 H80 O13 N0 P1
+1618        C41 H76 O14 N0 P1
+1619        C43 H82 O13 N0 P1
+1621        C48 H84 O15 N0 P1
+1622        C50 H82 O15 N0 P1
+1623        C47 H85 O15 N0 P2
+1624        C47 H87 O15 N0 P2
+1625        C44 H87 O15 N0 P2
+1626        C40 H68 O18 N0 P3
+1627        C38 H72 O10 N0 P1
+2080               C27 H43 O0
+Warning: The "FA4" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

@@ -1,12 +1,40 @@
 Validation Log
-2025-12-07 09:44:57.507476
-mwtab Python Library Version: 1.2.5
+2025-12-15 03:20:07.004932
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006913/mwtab/txt
 Study ID:      ST004164
 Analysis ID:   AN006913
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 5
 
-Error Log:
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {''} found in MS_METABOLITE_DATA section.
+Number of Warnings: 4
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "40℃", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1     C9 H10 Cl N O2
+7         C3 H7 N O2
+11        C4 H7 N O4
+14      C3 H7 N O2 S
+27        C5 H9 N O4
+28        C2 H5 N O2
+30       C6 H13 N O2
+35       C6 H13 N O2
+39     C5 H11 N O2 S
+42       C9 H11 N O2
+43        C5 H9 N O2
+48        C3 H7 N O3
+50        C4 H9 N O3
+54       C9 H11 N O3
+60       C5 H11 N O2
+Warning: The "CAS ID" column at position 5 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS ID" column at position 5 in the METABOLITES table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+20    643-13-0 / 59-56-3
+Warning: The "RT" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

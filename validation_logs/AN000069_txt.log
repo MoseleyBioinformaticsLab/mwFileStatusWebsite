@@ -1,8 +1,227 @@
 Validation Log
-2025-12-07 01:11:09.760475
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:01:35.835821
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000069/mwtab/txt
 Study ID:      ST000044
 Analysis ID:   AN000069
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 25
+
+Number of Warnings: 12
+
+Number of Value Errors: 17
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "ADDRESS", in the "PROJECT" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "SAMPLEPREP_SUMMARY", in the "SAMPLEPREP" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"11-BETA-HYDROXYANDROST-4-ENE-3_17-DIONE"
+	"11-BETA-HYDROXYANDROST-4-ENE-3_17-DIONE_1"
+	"1_2-DIDECANOYL-SN-GLYCERO-3-PHOSPHOCHOLINE"
+	"2_3-DIPHOSPHO-D-GLYCERIC ACID"
+	"2`_4`-DIHYDROXYACETOPHENONE"
+	"2_6-DIHYDROXYPYRIDINE"
+	"2-CARBOXY-2_3-DIHYDRO-5_6-DIHYDROXYINDOLE (*)"
+	"3_4-DIHYDROXYBENZOATE"
+	"3_4-DIHYDROXYPHENYLACETATE"
+	"3_4-DIHYDROXYPHENYL GLYCOL"
+	"3ALPHA_7ALPHA_12ALPHA_26-TETRAHYDROXY-5BETA-CHOLESTANE (*)"
+	"3-CARBOXY-4-METHYL-5-PROPYL-2-FURANPROPANOATE_1"
+	"3-METHYL-2-OXOVALERIC ACID_1"
+	"4-(2-AMINOPHENYL)-2_4-DIOXOBUTANOATE (*)"
+	"4-METHYL-2-OXO-PENTANOIC ACID_1"
+	"5_6-DIHYDROURACIL"
+	"5-HYDROXY-L-TRYPTOPHAN_1"
+	"6-PHOSPHOGLUCONIC ACID_1"
+	"ACETYLENEDICARBOXYLATE_1"
+	"ADENINE_1"
+	"ADENOSINE_1"
+	"ADENOSINE 3`_5`-CYCLIC MONOPHOSPHATE"
+	"ADENOSINE-5`-DIPHOSPHOGLUCOSE_1"
+	"ADENOSINE 5`-MONOPHOSPHATE_1"
+	"ADENOSINE 5`-TRIPHOSPHATE_1"
+	"ANANDAMIDE_1"
+	"ANDROSTERONE GLUCURONIDE (*)_1"
+	"ANDROSTERONE SULFATE (*)_1"
+	"ARACHIDONATE_1"
+	"ARACHIDONOYLGLYCEROPHOSPHOETHANOLAMINE (*)_1"
+	"ARACHIDONOYLGLYCEROPHOSPHOINOSITOL (*)_1"
+	"BOC-ASN_1"
+	"BOC-HIS-OH_1"
+	"BOC-SER-OH_1"
+	"CHOLESTEROL SULFATE_1"
+	"CINNAMOYLGLYCINE (*)_1"
+	"CIS-7_10_13_16-DOCOSATETRAENOIC ACID"
+	"CORTISOL 21-ACETATE_1"
+	"CYTIDINE 5`-DIPHOSPHOCHOLINE_1"
+	"DIHEXOSE_1"
+	"DIMETHYLURATE (*)_1"
+	"DODECENOATE (*)_1"
+	"FRUCTOSE 1_6-BIPHOSPHATE"
+	"FUMARIC ACID_1"
+	"GLYCEROL PHOSPHATE_1"
+	"GLYCOCHOLATE_1"
+	"GLYCODEOXYCHOLATE / GLYCOCHENODEOXYCHOLATE  (*)_1"
+	"GLYCOLITHOCHOLIC ACID ETHYL ESTER_1"
+	"GUANOSINE_1"
+	"GUANOSINE 3`_5`-CYCLIC MONOPHOSPHATE"
+	"HYDROXYACETAMINOPHEN SULFATE (*)_1"
+	"HYDROXYDECANOATE (*)_1"
+	"HYDROXYISOVALERATE (*)_1"
+	"INOSINE_1"
+	"LEUCENOL_1"
+	"LINOLEOYLGLYCEROPHOSPHOETHANOLAMINE (*)_1"
+	"MYO-INOSITOL_1"
+	"N-ACETYL-DL-METHIONINE_1"
+	"N-BENZYLOXYCARBONYLGLYCINE_1"
+	"N-CYCLOHEXYLSULFAMIC ACID_1"
+	"NICOTINAMIDE ADENINE DINUCLEOTIDE_1"
+	"N_N`-DIACETYL-CYSTINE"
+	"OCTADECANEDIOATE (*)_1"
+	"OLEOYLGLYCEROPHOSPHOETHANOLAMINE (*)_1"
+	"O-PHOSPHONOHEXOPYRANOSE_1"
+	"P-ACETAMIDOPHENYLGLUCURONIDE (*)_1"
+	"PALMITOLEIC ACID_1"
+	"PALMITOYLGLYCEROPHOSPHOETHANOLAMINE  / PALMITOYLPLASMENYLETHANOLAMINE  (*)_1"
+	"PALMITOYLGLYCEROPHOSPHOINOSITOL (*)_1"
+	"PANTOTHENIC ACID_1"
+	"PHOSPHATE_1"
+	"PHOSPHO(ENOL)PYRUVIC ACID_1"
+	"PHOSPHOGLYCERIC ACID_1"
+	"PROSTAGLANDIN G2 (*)_1"
+	"PYRIDINE-2_3-DICARBOXYLATE"
+	"PYRUVATE_1"
+	"RAFFINOSE_1"
+	"RIBOSE 5-PHOSPHATE_1"
+	"RIBULOSE 1_5-BISPHOSPHATE"
+	"RIBULOSE 1_5-BISPHOSPHATE_1"
+	"SALICYLURIC GLUCURONIDE (*)_1"
+	"SN-GLYCERO-3-PHOSPHOCHOLINE_1"
+	"STEAROYLGLYCEROPHOSPHOETHANOLAMINE (*)_1"
+	"TAURINE_1"
+	"THREONATE (*)_1"
+	"TRYPTOPHAN (*)_1"
+	"URATE_1"
+	"URIDINE_1"
+	"URIDINE 5`-DIPHOSPHATE_1"
+	"URIDINE 5`-DIPHOSPHOGLUCURONIC ACID_1"
+	"URIDINE-5-MONOPHOSPHATE_1"
+	"XANTHINE_1"
+Warning: The following metabolites in the MS_METABOLITE_DATA table appear more than once in the table:
+	"2`-DEOXYURIDINE 5`-MONOPHOSPHATE"
+	"N-ACETYL-D-GALACTOSAMINE"
+	"URIDINE 5`-DIPHOSPHO-N-ACETYLGLUCOSAMINE"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"3-CARBOXY-4-METHYL-5-PROPYL-2-FURANPROPANOATE_4"
+	"3-METHYL-2-OXOVALERIC ACID_2"
+	"4-METHYL-2-OXO-PENTANOIC ACID_2"
+	"5-HYDROXY-L-TRYPTOPHAN_2"
+	"6-PHOSPHOGLUCONIC ACID_2"
+	"ACETYLENEDICARBOXYLATE_2"
+	"ADENINE_2"
+	"ADENOSINE_2"
+	"ADENOSINE-5`-DIPHOSPHOGLUCOSE_2"
+	"ADENOSINE 5`-MONOPHOSPHATE_3"
+	"ADENOSINE 5`-TRIPHOSPHATE_2"
+	"ANANDAMIDE_2"
+	"ANDROSTERONE GLUCURONIDE (*)_2"
+	"ANDROSTERONE SULFATE (*)_2"
+	"ARACHIDONATE_2"
+	"ARACHIDONOYLGLYCEROPHOSPHOETHANOLAMINE (*)_2"
+	"ARACHIDONOYLGLYCEROPHOSPHOINOSITOL (*)_2"
+	"BOC-ASN_2"
+	"BOC-HIS-OH_2"
+	"BOC-SER-OH_2"
+	"CHOLESTEROL SULFATE_2"
+	"CINNAMOYLGLYCINE (*)_2"
+	"CORTISOL 21-ACETATE_2"
+	"CYTIDINE 5`-DIPHOSPHOCHOLINE_2"
+	"DIHEXOSE_2"
+	"DIMETHYLURATE (*)_2"
+	"DODECENOATE (*)_2"
+	"FUMARIC ACID_2"
+	"GLYCEROL PHOSPHATE_2"
+	"GLYCOCHOLATE_2"
+	"GLYCODEOXYCHOLATE / GLYCOCHENODEOXYCHOLATE  (*)_2"
+	"GLYCOLITHOCHOLIC ACID ETHYL ESTER_2"
+	"GUANOSINE_2"
+	"HYDROXYACETAMINOPHEN SULFATE (*)_2"
+	"HYDROXYDECANOATE (*)_2"
+	"HYDROXYISOVALERATE (*)_2"
+	"INOSINE_2"
+	"LEUCENOL_2"
+	"LINOLEOYLGLYCEROPHOSPHOETHANOLAMINE (*)_2"
+	"MYO-INOSITOL_4"
+	"N-ACETYL-DL-METHIONINE_2"
+	"N-BENZYLOXYCARBONYLGLYCINE_3"
+	"N-CYCLOHEXYLSULFAMIC ACID_2"
+	"NICOTINAMIDE ADENINE DINUCLEOTIDE_2"
+	"OCTADECANEDIOATE (*)_2"
+	"OLEOYLGLYCEROPHOSPHOETHANOLAMINE (*)_2"
+	"O-PHOSPHONOHEXOPYRANOSE_2"
+	"P-ACETAMIDOPHENYLGLUCURONIDE (*)_2"
+	"PALMITOLEIC ACID_2"
+	"PALMITOYLGLYCEROPHOSPHOETHANOLAMINE  / PALMITOYLPLASMENYLETHANOLAMINE  (*)_2"
+	"PALMITOYLGLYCEROPHOSPHOINOSITOL (*)_2"
+	"PANTOTHENIC ACID_3"
+	"PHOSPHATE_2"
+	"PHOSPHO(ENOL)PYRUVIC ACID_2"
+	"PHOSPHOGLYCERIC ACID_2"
+	"PROSTAGLANDIN G2 (*)_2"
+	"PYRUVATE_2"
+	"RAFFINOSE_4"
+	"RIBOSE 5-PHOSPHATE_2"
+	"SALICYLURIC GLUCURONIDE (*)_2"
+	"SN-GLYCERO-3-PHOSPHOCHOLINE_2"
+	"STEAROYLGLYCEROPHOSPHOETHANOLAMINE (*)_4"
+	"TAURINE_2"
+	"THREONATE (*)_2"
+	"TRYPTOPHAN (*)_2"
+	"URATE_2"
+	"URIDINE_5"
+	"URIDINE 5`-DIPHOSPHATE_2"
+	"URIDINE 5`-DIPHOSPHOGLUCURONIC ACID_2"
+	"URIDINE-5-MONOPHOSPHATE_2"
+	"XANTHINE_2"
+Warning: The following metabolites in the METABOLITES table appear more than once in the table:
+	"2`-DEOXYURIDINE 5`-MONOPHOSPHATE"
+	"N-ACETYL-D-GALACTOSAMINE"
+	"URIDINE 5`-DIPHOSPHO-N-ACETYLGLUCOSAMINE"
+Warning: The "inchi_key" column at position 6 in the METABOLITES table, matches a standard column name, "inchi_key", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+473    C02630
+474    C00365
+475    C05645
+476    C14825
+477    CA1350
+478    C05640
+479    C13690
+480    C03451
+481    C01132
+482    C08362
+483    C06124
+484    C00043
+485    C05470
+Warning: The "kegg_id" column at position 7 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+133    BOCASN
+Warning: The "ri" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "moverz_quant" column at position 2 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 3 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 4 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 6 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "other_id_type" column at position 9 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

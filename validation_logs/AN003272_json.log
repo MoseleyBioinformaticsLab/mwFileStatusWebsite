@@ -1,8 +1,70 @@
 Validation Log
-2025-12-07 05:25:05.612832
-mwtab Python Library Version: 1.2.5
+2025-12-15 00:04:44.170185
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003272/mwtab/json
 Study ID:      ST002008
 Analysis ID:   AN003272
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 51
+
+Number of Warnings: 45
+
+Number of Value Errors: 46
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The value in ["TREATMENT"]["TREATMENT_DOSEDURATION"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['h', 'weeks', 'days']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "m/z ratio" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem CID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG entry" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Retention time in min" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "MS polarity" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "polarity". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "200605_Smp_GBTFate1MT0-IS_A_pos_HILIC" column at position 2 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT0-IS_B_pos_HILIC" column at position 3 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT0-IS_C_pos_HILIC" column at position 4 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT12-IS_A_pos_HILIC" column at position 5 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT12-IS_B_pos_HILIC" column at position 6 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT12-IS_C_pos_HILIC" column at position 7 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT36-IS_A_pos_HILIC" column at position 8 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT36-IS_B_pos_HILIC" column at position 9 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT36-IS_C_pos_HILIC" column at position 10 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT4-IS_A_pos_HILIC" column at position 11 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT4-IS_B_pos_HILIC" column at position 12 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT4-IS_C_pos_HILIC" column at position 13 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT50-IS_A_pos_HILIC" column at position 14 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT50-IS_B_pos_HILIC" column at position 15 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT50-IS_C_pos_HILIC" column at position 16 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT8-IS_A_pos_HILIC" column at position 17 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT8-IS_B_pos_HILIC" column at position 18 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MT8-IS_C_pos_HILIC" column at position 19 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MTlong-IS_A_pos_HILIC" column at position 20 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MTlong-IS_B_pos_HILIC" column at position 21 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate1MTlong-IS_C_pos_HILIC" column at position 22 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MT0-IS_A_pos_HILIC" column at position 23 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MT0-IS_B_pos_HILIC" column at position 24 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MT0-IS_C_pos_HILIC" column at position 25 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MT12-IS_A_pos_HILIC" column at position 26 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MT12-IS_B_pos_HILIC" column at position 27 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MT12-IS_C_pos_HILIC" column at position 28 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MT24-IS_A_pos_HILIC" column at position 29 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MT24-IS_B_pos_HILIC" column at position 30 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MT24-IS_C_pos_HILIC" column at position 31 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MT48-IS_A_pos_HILIC" column at position 32 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MT48-IS_B_pos_HILIC" column at position 33 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MT48-IS_C_pos_HILIC" column at position 34 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MT5-IS_A_pos_HILIC" column at position 35 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MT5-IS_B_pos_HILIC" column at position 36 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MT5-IS_C_pos_HILIC" column at position 37 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MTlong-IS_A_pos_HILIC" column at position 38 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MTlong-IS_B_pos_HILIC" column at position 39 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200605_Smp_GBTFate2MTlong-IS_C_pos_HILIC" column at position 40 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "PubChem CID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

@@ -1,8 +1,99 @@
 Validation Log
-2025-12-07 08:17:03.297249
-mwtab Python Library Version: 1.2.5
+2025-12-15 02:17:36.539529
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005508/mwtab/txt
 Study ID:      ST003362
 Analysis ID:   AN005508
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 6
+
+Number of Warnings: 4
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "FACTORS".
+Warning: The "M/Z" column at position 2 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InHouse_CAS" column at position 4 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InHouse_CAS" column at position 4 in the METABOLITES table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     Standard database
+1     Standard database
+2     Standard database
+3     Standard database
+4     Standard database
+5     Standard database
+6     Standard database
+7     Standard database
+8     Standard database
+9     Standard database
+10    Standard database
+11    Standard database
+12    Standard database
+13    Standard database
+14    Standard database
+15    Standard database
+16    Standard database
+17    Standard database
+18    Standard database
+19    Standard database
+20    Standard database
+21    Standard database
+22    Standard database
+23    Standard database
+24    Standard database
+25    Standard database
+26    Standard database
+27    Standard database
+28    Standard database
+29    Standard database
+30    Standard database
+31    Standard database
+32    Standard database
+33    Standard database
+34    Standard database
+35    Standard database
+36    Standard database
+37    Standard database
+38    Standard database
+39    Standard database
+40    Standard database
+41    Standard database
+42    Standard database
+43    Standard database
+44    Standard database
+45    Standard database
+46    Standard database
+47    Standard database
+48    Standard database
+49    Standard database
+50    Standard database
+51    Standard database
+52    Standard database
+53    Standard database
+54    Standard database
+55    Standard database
+56    Standard database
+57    Standard database
+58    Standard database
+59    Standard database
+60    Standard database
+61    Standard database
+62    Standard database
+63    Standard database
+64    Standard database
+65    Standard database
+66    Standard database
+67    Standard database
+68    Standard database
+69    Standard database
+70    Standard database
+71    Standard database
+72    Standard database
+73    Standard database
+Warning: The "RT_min" column at position 3 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

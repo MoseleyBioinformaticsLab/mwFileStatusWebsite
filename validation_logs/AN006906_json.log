@@ -1,8 +1,186 @@
 Validation Log
-2025-12-07 09:44:30.179388
-mwtab Python Library Version: 1.2.5
+2025-12-15 03:19:44.711945
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006906/mwtab/json
 Study ID:      ST004161
 Analysis ID:   AN006906
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 14
+
+Number of Warnings: 10
+
+Number of Value Errors: 14
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value in ["SUBJECT"]["WEIGHT_OR_WEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value in ["SUBJECT"]["HEIGHT_OR_HEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['cm', 'in']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key.
+Warning: The "Exact mass" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Plasma MS Compounds" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "compound". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "refmet". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      RM0047891
+1      RM0162041
+2      RM0156409
+3      RM0156067
+4      RM0028125
+5      RM0138952
+6      RM0030166
+7      RM0030628
+8      RM0139553
+9      RM0040741
+10     RM0138920
+11     RM0153208
+12     RM0053117
+13     RM0156087
+14     RM0128522
+15     RM0135880
+16     RM0135879
+17     RM0139552
+18     RM0033028
+19     RM0136067
+20     RM0156410
+21     RM0156417
+22     RM0154009
+23     RM0041817
+24     RM0135870
+25     RM0136100
+26     RM0135898
+27     RM0136154
+28     RM0153225
+29     RM0135907
+30     RM0135963
+31     RM0135871
+32     RM0135724
+33     RM0135905
+34     RM0021629
+35     RM0135869
+36     RM0041307
+37     RM0136810
+38     RM0135953
+39     RM0150157
+40     RM0032992
+41     RM0135874
+42     RM0008606
+43     RM0135868
+44     RM0138946
+45     RM0135791
+46     RM0028739
+47     RM0040469
+48     RM0135876
+49     RM0028430
+50     RM0157972
+51     RM0129784
+52     RM0137513
+53     RM0135906
+54     RM0138922
+55     RM0050550
+56     RM0136342
+57     RM0042978
+58     RM0131870
+59     RM0135883
+60     RM0138924
+61     RM0046981
+62     RM0161012
+63     RM0040238
+64     RM0138943
+65     RM0135886
+66     RM0049636
+67     RM0161368
+68     RM0135893
+69     RM0012560
+70     RM0153962
+71     RM0110472
+72     RM0135888
+73     RM0033601
+74     RM0018303
+75     RM0156423
+76     RM0042526
+77     RM0129894
+78     RM0135972
+79     RM0138931
+80     RM0136837
+81     RM0128618
+82     RM0136027
+83     RM0136178
+84     RM0009104
+85     RM0135985
+86     RM0135908
+87     RM0134975
+88     RM0154016
+89     RM0134971
+90     RM0136379
+91     RM0132226
+92     RM0135903
+93     RM0161726
+94     RM0050489
+95     RM0109596
+96     RM0136278
+97     RM0135910
+98     RM0009124
+99     RM0132228
+100    RM0136214
+101    RM0136156
+102    RM0133217
+103    RM0157850
+104    RM0029599
+105    RM0009959
+106    RM0156450
+107    RM0135913
+108    RM0108640
+109    RM0135912
+110    RM0135897
+111    RM0009827
+112    RM0007522
+113    RM0132196
+114    RM0135981
+115    RM0135899
+116    RM0139715
+117    RM0136099
+118    RM0135924
+119    RM0042985
+120    RM0118412
+121    RM0135919
+122    RM0138941
+123    RM0136025
+124    RM0136008
+125    RM0135925
+126    RM0031733
+127    RM0136259
+128    RM0032433
+129    RM0050344
+130    RM0012952
+131    RM0041813
+132    RM0033343
+133    RM0154186
+134    RM0118223
+135    RM0136238
+136    RM0159435
+137    RM0135917
+138    RM0159438
+139    RM0135900
+140    RM0135922
+141    RM0136017
+142    RM0136020
+143    RM0156066
+144    RM0049799
+145    RM0136024
+146    RM0135807
+147    RM0135896
+148    RM0118478
+149    RM0135929
+150    RM0135933
+151    RM0136018
+152    RM0135433
+Warning: The "Super class" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Main class" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Sub class" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LM_ID" column at position 13 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

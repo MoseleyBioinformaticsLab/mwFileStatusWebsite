@@ -1,8 +1,84 @@
 Validation Log
-2025-12-07 08:51:57.286174
-mwtab Python Library Version: 1.2.5
+2025-12-15 02:39:45.503828
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005967/mwtab/txt
 Study ID:      ST003634
 Analysis ID:   AN005967
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 9
+
+Number of Warnings: 8
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "2", for the subsection, "ACQUISITION_TIME", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s']. Ignore this when more complicated descriptions are required.
+Warning: The "Standardized name" column at position 2 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 12 in the METABOLITES table, matches a standard column name, "refmet". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 12 in the METABOLITES table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     RM0153572
+1     RM0135901
+2     RM0135901
+3     RM0135898
+4     RM0135898
+5     RM0138921
+6     RM0135905
+7     RM0138930
+8     RM0138930
+13    RM0028739
+14    RM0135876
+15    RM0028430
+17    RM0135892
+18    RM0135891
+19    RM0135893
+20    RM0135888
+21    RM0049797
+22    RM0135889
+23    RM0136084
+24    RM0136084
+25    RM0129894
+26    RM0134975
+27    RM0135908
+28    RM0135904
+30    RM0135904
+31    RM0136379
+32    RM0004841
+33    RM0161726
+34    RM0133217
+35    RM0133217
+36    RM0133217
+37    RM0133217
+38    RM0133217
+39    RM0133216
+40    RM0133216
+41    RM0007522
+42    RM0135897
+43    RM0032433
+44    RM0032433
+45    RM0118223
+46    RM0135900
+47    RM0136024
+48    RM0135896
+49    RM0160954
+50    RM0135928
+54    RM0136018
+55    RM0135901
+56    RM0135898
+57    RM0138921
+58    RM0138930
+60    RM0135893
+61    RM0135893
+62    RM0135889
+63    RM0136084
+64    RM0135904
+66    RM0133217
+Warning: The "Super class" column at position 3 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Main class" column at position 4 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Sub class" column at position 5 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 6 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LM_ID" column at position 9 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

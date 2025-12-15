@@ -1,8 +1,278 @@
 Validation Log
-2025-12-07 02:02:29.410785
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:35:07.924586
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000642/mwtab/json
 Study ID:      ST000403
 Analysis ID:   AN000642
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 18
+
+Number of Warnings: 7
+
+Number of Value Errors: 17
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected in ["PROJECT"]["PROJECT_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["PROJECT"]["PHONE"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["STUDY"]["PHONE"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: The value, "320°C", in ["MS"]["CAPILLARY_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "+50V", in ["MS"]["CAPILLARY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["MS"]["FRAGMENTATION_METHOD"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "3.5kV", in ["MS"]["SPRAY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "+20 V", in ["MS"]["SKIMMER_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["MS"]["MS_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "25°C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "quantified m/z" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+59     0
+69     0
+84     0
+142    0
+143    0
+144    0
+146    0
+148    0
+150    0
+151    0
+153    0
+155    0
+157    0
+158    0
+160    0
+161    0
+163    0
+165    0
+166    0
+167    0
+168    0
+169    0
+172    0
+173    0
+175    0
+176    0
+179    0
+180    0
+181    0
+182    0
+184    0
+185    0
+187    0
+189    0
+191    0
+192    0
+193    0
+194    0
+196    0
+199    0
+200    0
+201    0
+203    0
+204    0
+205    0
+206    0
+207    0
+208    0
+210    0
+211    0
+212    0
+213    0
+214    0
+216    0
+217    0
+218    0
+219    0
+220    0
+221    0
+223    0
+225    0
+228    0
+229    0
+231    0
+232    0
+233    0
+235    0
+236    0
+237    0
+238    0
+239    0
+240    0
+245    0
+246    0
+248    0
+251    0
+252    0
+253    0
+254    0
+257    0
+258    0
+261    0
+264    0
+267    0
+269    0
+270    0
+271    0
+272    0
+273    0
+274    0
+276    0
+277    0
+279    0
+280    0
+281    0
+283    0
+284    0
+285    0
+286    0
+287    0
+288    0
+290    0
+292    0
+293    0
+294    0
+297    0
+299    0
+303    0
+305    0
+306    0
+307    0
+308    0
+310    0
+311    0
+312    0
+313    0
+314    0
+316    0
+318    0
+319    0
+320    0
+321    0
+322    0
+323    0
+324    0
+325    0
+328    0
+423    0
+425    0
+427    0
+429    0
+430    0
+431    0
+435    0
+438    0
+439    0
+441    0
+442    0
+443    0
+444    0
+445    0
+446    0
+448    0
+450    0
+451    0
+452    0
+454    0
+455    0
+456    0
+457    0
+458    0
+460    0
+461    0
+463    0
+464    0
+465    0
+467    0
+468    0
+469    0
+470    0
+471    0
+472    0
+474    0
+475    0
+477    0
+478    0
+479    0
+480    0
+481    0
+485    0
+486    0
+487    0
+488    0
+489    0
+490    0
+491    0
+492    0
+493    0
+496    0
+498    0
+501    0
+502    0
+503    0
+504    0
+505    0
+507    0
+509    0
+511    0
+514    0
+515    0
+516    0
+517    0
+518    0
+519    0
+524    0
+525    0
+526    0
+527    0
+528    0
+529    0
+530    0
+532    0
+533    0
+536    0
+537    0
+538    0
+539    0
+540    0
+542    0
+543    0
+545    0
+546    0
+547    0
+548    0
+549    0
+551    0
+552    0
+553    0
+556    0
+558    0
+560    0
+563    0
+565    0
+566    0
+567    0
+568    0
+569    0
+571    0
+572    0
+573    0
+574    0
+577    0
+578    0
+579    0
+580    0
+581    0
+582    0
+583    0
+584    0
+588    0
+589    0
+Warning: The "retention index" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "retention index" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
+Warning: The "PubChem ID" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

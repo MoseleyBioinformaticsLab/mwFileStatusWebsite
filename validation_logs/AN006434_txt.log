@@ -1,8 +1,81 @@
 Validation Log
-2025-12-07 09:23:11.051963
-mwtab Python Library Version: 1.2.5
+2025-12-15 03:00:42.230813
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006434/mwtab/txt
 Study ID:      ST003918
 Analysis ID:   AN006434
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 14
+
+Number of Warnings: 9
+
+Number of Value Errors: 13
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection.
+Error: The value, "1.52mL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_A", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_B", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection.
+Warning: The "Characteristic_m/z" column at position 6 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Characteristic_m/z" column at position 6 in the METABOLITES table, matches a standard column name, "moverz_quant", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+5                  sum
+14                 sum
+19                 sum
+30                 sum
+54                 sum
+64                 sum
+76                 sum
+77                 sum
+78                 sum
+84                 sum
+86                 sum
+106                sum
+110                sum
+119                sum
+219    2803.7/204(479)
+228    2932.3/204(479)
+230    2974.4/204(479)
+Warning: The "Samplename" column at position 2 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem" column at position 3 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 4 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Retention Index" column at position 5 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Mode" column at position 8 in the METABOLITES table, matches a standard column name, "ionization_mode". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Mode" column at position 8 in the METABOLITES table, matches a standard column name, "ionization_mode", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+11                 S60
+13     SplitlessFLAVOS
+24     SplitlessFLAVOS
+28                 S60
+29                 S60
+33                 S60
+41     SplitlessFLAVOS
+58                 S60
+60                 S60
+61                 S60
+78                 S60
+80                 S60
+83                 S60
+89                 S60
+99                 S60
+104    SplitlessFLAVOS
+107                S60
+112                S60
+123               S120
+124    SplitlessFLAVOS
+162       Splitlessspe
+172       Splitlessspe
+181                S60
+216                S60
+218    SplitlessFLAVOS
+222               S120
+223                S60
+224               S120
+225                S60
+226       Splitlessspe
+242    SplitlessFLAVOS
+Warning: The column "Retention Index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.

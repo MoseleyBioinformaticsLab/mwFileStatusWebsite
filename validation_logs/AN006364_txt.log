@@ -1,8 +1,87 @@
 Validation Log
-2025-12-07 09:14:24.053671
-mwtab Python Library Version: 1.2.5
+2025-12-15 02:56:18.391815
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006364/mwtab/txt
 Study ID:      ST003873
 Analysis ID:   AN006364
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 9
+
+Number of Warnings: 6
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "NUM_MALES", in the "STUDY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "NUM_FEMALES", in the "STUDY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "40 Celsius", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Mass Accuracy Score" column at position 3 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Molecular Weight" column at position 9 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Molecular Formula" column at position 8 in the METABOLITES table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Molecular Formula" column at position 8 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0          C 4H 7NO 2
+1           C 5H 13NO
+2         C 9H 17NO 4
+3          C 5H 14N 4
+4       C 6H 14N 4O 2
+5        C 4H 8N 2O 3
+6         C 5H 11NO 2
+7          C 5H 14N 2
+8         C 7H 15NO 3
+9       C 6H 13N 3O 3
+10      C 5H 10N 2O 3
+11         C 4H 9NO 2
+12       C 6H 9N 3O 2
+13        C 6H 13NO 2
+14        C 6H 13NO 2
+15         C 5H 9NO 4
+16      C 6H 14N 2O 2
+17       C 5H 11NO 2S
+18         C 6H 6N 2O
+19         C 6H 6N 2O
+20         C 6H 6N 2O
+21         C 6H 6N 2O
+22         C 6H 6N 2O
+23        C 9H 17NO 5
+24        C 9H 11NO 2
+25           C 8H 11N
+26         C 5H 9NO 2
+27        C 8H 11NO 3
+28        C 8H 11NO 3
+29         C 4H 9NO 3
+30     C 11H 12N 2O 2
+31        C 9H 11NO 3
+32        C 5H 11NO 2
+33        C 5H 11NO 2
+34        C 4H 11NO 2
+35        C 4H 11NO 2
+36          C 5H 8O 2
+37          C 6H 9NOS
+38         C 5H 9NO 4
+39      C 5H 10N 2O 3
+40          C 8H 11NO
+41          C 8H 11NO
+42         C 5H 10O 3
+43       C 7H 15NO 4S
+44         C 22H 43NO
+45       C 11H 11NO 3
+46        C 6H 13NO 5
+47           C 10H 9N
+48    C 17H 18FN 3O 3
+49         C 6H 6N 2O
+50         C 4H 7N 3O
+51          C 5H 5N 5
+52       C 4H 9N 3O 2
+53       C 10H 13NO 4
+54          C 4H 6O 2
+55         C 5H 5N 5O
+56           C 8H 10O
+57         C 8H 10O 2
+58          C 4H 11NO
+Warning: The "Retention Time (min)" column at position 10 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Method" column at position 11 in the METABOLITES table, matches a standard column name, "ms_method". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

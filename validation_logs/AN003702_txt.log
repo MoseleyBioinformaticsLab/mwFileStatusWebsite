@@ -1,9 +1,34 @@
 Validation Log
-2025-12-07 06:04:32.049882
-mwtab Python Library Version: 1.2.5
+2025-12-15 00:34:37.229794
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003702/mwtab/txt
 Study ID:      ST002266
 Analysis ID:   AN003702
 File format:   txt
-Status:Parsing Error
-('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\tSmp_S2C2D5_A\\tSampling_Date:7/13/2018 | Latitude:19.415 | Longitude:154.8416667 | Station:S2 | Cast:C2 | Depth:5 | sample_vol_filtered_L:10\\tRAW_FILE_NAME=181004_Smp_S2C2D5_A;181004_Smp_S2C2D5_A;181008_Smp_S2C2D5_A; Notes=Sampled filtrate (1L)'", IndexError('list index out of range'))
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 9
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 6
+
+Issue Log:
+Error: The required property, "SUBJECT_SPECIES", in the "SUBJECT" section  is missing.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "mz" column at position 2 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Empirical_Formula" column at position 4 in the METABOLITES table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem_Formula" column at position 5 in the METABOLITES table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem_Code" column at position 6 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_Code" column at position 7 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT_minute" column at position 3 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Smp_S6C3D5_B" column at position 28 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Smp_S6C3D5_C" column at position 29 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Blk_MQBlk_1" column at position 30 in the MS_METABOLITE_DATA table has all null values.

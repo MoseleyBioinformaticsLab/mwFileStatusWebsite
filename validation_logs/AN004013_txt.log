@@ -1,8 +1,14 @@
 Validation Log
-2025-12-07 06:23:31.058908
-mwtab Python Library Version: 1.2.5
+2025-12-15 00:50:35.933685
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004013/mwtab/txt
 Study ID:      ST002459
 Analysis ID:   AN004013
 File format:   txt
-Status: Passing
+Status:Parsing Error
+Traceback (most recent call last):
+  File "/tmp/mwFileStatusWebsite/venv/lib/python3.10/site-packages/mwtab/tokenizer.py", line 149, in tokenizer
+    raise ValueError(message)
+ValueError: Either a semicolon ('; ') separating 2 items is missing or there is an extra equal sign ('=') in the additional data key value pair, 'RAW_FILE_NAME=GD_B1_014_matrixD_22S100_ZHP_Reinject.mzML  RAW_FILE_NAME=GD_B1_014_matrixD_22S100_RPP.mzML  RAW_FILE_NAME'
+LINE WITH ERROR:
+	'SUBJECT_SAMPLE_FACTORS           \t-\tmatrixD1\tSampleType:matrix | Sampler:plasma\tInjectionNumber=14; Hemoglobin=-; SampleName=matrix_22S100; RAW_FILE_NAME=GD_B1_014_matrixD_22S100_ZHP_Reinject; RPPFileName=GD_B1_014_matrixD_22S100_RPP; RPNFileName=GD_B1_014_matrixD_22S100_RPN; RAW_FILE_NAME=GD_B1_014_matrixD_22S100_ZHP_Reinject.mzML  RAW_FILE_NAME=GD_B1_014_matrixD_22S100_RPP.mzML  RAW_FILE_NAME=GD_B1_014_matrixD_22S100_RPN.mzML'

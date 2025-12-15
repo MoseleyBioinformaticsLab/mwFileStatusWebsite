@@ -1,8 +1,58 @@
 Validation Log
-2025-12-07 06:53:00.676051
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:12:10.094696
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004397/mwtab/json
 Study ID:      ST002713
 Analysis ID:   AN004397
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 5
+
+Number of Warnings: 3
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "see gradient", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "45", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "IonFormula" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "IonFormula" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+80     C27 H52 O12 N0 P1
+87      C35 H68 O8 N0 P1
+88      C35 H66 O8 N0 P1
+89      C37 H70 O8 N0 P1
+90      C39 H72 O8 N0 P1
+186    C38 H74 O10 N0 P1
+187    C38 H72 O10 N0 P1
+188    C39 H74 O10 N0 P1
+189    C40 H76 O10 N0 P1
+190    C40 H74 O10 N0 P1
+191    C42 H80 O10 N0 P1
+192    C42 H78 O10 N0 P1
+193    C46 H76 O10 N0 P1
+194    C50 H74 O10 N0 P1
+195    C41 H76 O13 N0 P1
+196    C43 H78 O13 N0 P1
+197    C44 H82 O13 N0 P1
+198    C44 H80 O13 N0 P1
+199    C45 H82 O13 N0 P1
+200    C45 H78 O13 N0 P1
+201    C46 H84 O13 N0 P1
+202    C46 H80 O13 N0 P1
+203    C47 H86 O13 N0 P1
+204    C47 H84 O13 N0 P1
+205    C47 H82 O13 N0 P1
+206    C47 H80 O13 N0 P1
+207    C47 H78 O13 N0 P1
+208    C48 H86 O13 N0 P1
+209    C48 H82 O13 N0 P1
+210    C49 H86 O13 N0 P1
+211    C49 H84 O13 N0 P1
+212    C49 H82 O13 N0 P1
+213    C49 H80 O13 N0 P1
+214    C38 H73 O16 N0 P2

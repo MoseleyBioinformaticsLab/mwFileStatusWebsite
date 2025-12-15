@@ -1,8 +1,52 @@
 Validation Log
-2025-12-07 08:10:49.603539
-mwtab Python Library Version: 1.2.5
+2025-12-15 02:13:22.358722
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005434/mwtab/json
 Study ID:      ST003320
 Analysis ID:   AN005434
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 7
+
+Number of Warnings: 6
+
+Number of Value Errors: 7
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "45", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Exact mass" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Exact mass" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     C40H80NO8P
+1     C40H78NO8P
+2     C40H78NO8P
+3     C42H82NO8P
+4     C42H80NO8P
+5     C44H86NO8P
+6     C44H84NO8P
+7     C44H82NO8P
+8     C44H80NO8P
+9     C46H84NO8P
+10    C46H82NO8P
+11    C46H82NO8P
+12    C46H80NO8P
+Warning: The "Formula" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     733.5622
+1     731.5465
+2     731.5465
+3     759.5778
+4     757.5622
+5     787.6091
+6     785.5935
+7     783.5778
+8     781.5622
+9     809.5935
+10    807.5778
+11    807.5778
+12    805.5622
+Warning: The "Standardized name" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Super class" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Main class" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

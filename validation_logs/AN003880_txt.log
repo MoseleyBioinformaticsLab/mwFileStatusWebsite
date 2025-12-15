@@ -1,8 +1,347 @@
 Validation Log
-2025-12-07 06:14:14.584735
-mwtab Python Library Version: 1.2.5
+2025-12-15 00:43:31.704387
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003880/mwtab/txt
 Study ID:      ST002381
 Analysis ID:   AN003880
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 328
+
+Number of Warnings: 327
+
+Number of Value Errors: 326
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: Unknown or invalid section, "CHROMATOGRAPHY".
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "455" column at position 12 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "456" column at position 13 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "476" column at position 14 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "477" column at position 15 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "543" column at position 16 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "544" column at position 17 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "545" column at position 18 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "588" column at position 19 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "589" column at position 20 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "590" column at position 21 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "105" column at position 22 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "106" column at position 23 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "169" column at position 24 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "170" column at position 25 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "120" column at position 26 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "121" column at position 27 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "122" column at position 28 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "132" column at position 29 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "133" column at position 30 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "134" column at position 31 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "261" column at position 32 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "273" column at position 33 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "302" column at position 34 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "501" column at position 35 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "502" column at position 36 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "453" column at position 60 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "454" column at position 61 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "474" column at position 64 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "475" column at position 65 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "540" column at position 68 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "541" column at position 69 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "542" column at position 70 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "585" column at position 74 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "586" column at position 75 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "587" column at position 76 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "331" column at position 83 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "332" column at position 84 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "333" column at position 85 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "346" column at position 86 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "347" column at position 87 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "348" column at position 88 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "370" column at position 89 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "371" column at position 90 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "372" column at position 91 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "323" column at position 93 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "336" column at position 129 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "503" column at position 147 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "504" column at position 148 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "505" column at position 149 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "506" column at position 150 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "507" column at position 151 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "508" column at position 152 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "509" column at position 153 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "510" column at position 154 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "511" column at position 155 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "512" column at position 156 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "522" column at position 157 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "523" column at position 158 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "524" column at position 159 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "564" column at position 160 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "565" column at position 161 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "566" column at position 162 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "316" column at position 163 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "145" column at position 180 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "262" column at position 221 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "403" column at position 269 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "404" column at position 270 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "417" column at position 273 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "418" column at position 274 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "307" column at position 277 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "308" column at position 278 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "309" column at position 279 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "268" column at position 283 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "280" column at position 284 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "386" column at position 285 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "388" column at position 289 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "389" column at position 290 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "390" column at position 291 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "253" column at position 2 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "254" column at position 3 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "259" column at position 4 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "260" column at position 5 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "263" column at position 6 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "275" column at position 7 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "326" column at position 8 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "267" column at position 9 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "279" column at position 10 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "374" column at position 11 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "447" column at position 37 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "448" column at position 38 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "468" column at position 39 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "469" column at position 40 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "531" column at position 41 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "532" column at position 42 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "533" column at position 43 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "576" column at position 44 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "577" column at position 45 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "578" column at position 46 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "405" column at position 47 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "406" column at position 48 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "419" column at position 49 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "420" column at position 50 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "310" column at position 51 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "311" column at position 52 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "312" column at position 53 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "379" column at position 54 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "380" column at position 55 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "381" column at position 56 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "382" column at position 57 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "383" column at position 58 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "384" column at position 59 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "103" column at position 62 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "104" column at position 63 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "166" column at position 66 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "167" column at position 67 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "117" column at position 71 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "118" column at position 72 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "119" column at position 73 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "129" column at position 77 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "130" column at position 78 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "131" column at position 79 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "249" column at position 80 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "250" column at position 81 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "255" column at position 82 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "322" column at position 92 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "324" column at position 94 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "391" column at position 95 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "392" column at position 96 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "393" column at position 97 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "439" column at position 98 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "440" column at position 99 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "461" column at position 100 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "462" column at position 101 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "516" column at position 102 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "517" column at position 103 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "518" column at position 104 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "555" column at position 105 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "556" column at position 106 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "557" column at position 107 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "558" column at position 108 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "559" column at position 109 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "560" column at position 110 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "457" column at position 111 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "458" column at position 112 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "478" column at position 113 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "546" column at position 114 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "547" column at position 115 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "548" column at position 116 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "591" column at position 117 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "592" column at position 118 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "593" column at position 119 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "594" column at position 120 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "595" column at position 121 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "596" column at position 122 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "413" column at position 123 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "414" column at position 124 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "427" column at position 125 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "428" column at position 126 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "334" column at position 127 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "335" column at position 128 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "376" column at position 130 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "377" column at position 131 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "378" column at position 132 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "411" column at position 133 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "412" column at position 134 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "425" column at position 135 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "426" column at position 136 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "328" column at position 137 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "329" column at position 138 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "330" column at position 139 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "394" column at position 140 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "395" column at position 141 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "396" column at position 142 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "407" column at position 143 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "408" column at position 144 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "421" column at position 145 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "422" column at position 146 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "317" column at position 164 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "318" column at position 165 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "340" column at position 166 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "341" column at position 167 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "342" column at position 168 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "352" column at position 169 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "353" column at position 170 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "354" column at position 171 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "364" column at position 172 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "365" column at position 173 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "366" column at position 174 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "107" column at position 175 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "108" column at position 176 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "175" column at position 177 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "176" column at position 178 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "144" column at position 179 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "146" column at position 181 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "156" column at position 182 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "157" column at position 183 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "158" column at position 184 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "443" column at position 185 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "444" column at position 186 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "465" column at position 187 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "466" column at position 188 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "525" column at position 189 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "526" column at position 190 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "527" column at position 191 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "567" column at position 192 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "568" column at position 193 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "569" column at position 194 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "401" column at position 195 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "402" column at position 196 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "415" column at position 197 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "416" column at position 198 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "304" column at position 199 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "305" column at position 200 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "306" column at position 201 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "358" column at position 202 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "359" column at position 203 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "360" column at position 204 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "445" column at position 205 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "446" column at position 206 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "467" column at position 207 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "528" column at position 208 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "529" column at position 209 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "530" column at position 210 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "570" column at position 211 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "571" column at position 212 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "572" column at position 213 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "573" column at position 214 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "574" column at position 215 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "575" column at position 216 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "251" column at position 217 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "252" column at position 218 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "257" column at position 219 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "258" column at position 220 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "274" column at position 222 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "314" column at position 223 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "264" column at position 224 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "276" column at position 225 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "338" column at position 226 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "265" column at position 227 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "277" column at position 228 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "350" column at position 229 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "266" column at position 230 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "278" column at position 231 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "362" column at position 232 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "449" column at position 233 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "450" column at position 234 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "470" column at position 235 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "471" column at position 236 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "534" column at position 237 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "535" column at position 238 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "536" column at position 239 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "579" column at position 240 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "580" column at position 241 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "581" column at position 242 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "451" column at position 243 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "452" column at position 244 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "472" column at position 245 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "473" column at position 246 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "537" column at position 247 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "538" column at position 248 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "539" column at position 249 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "582" column at position 250 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "583" column at position 251 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "584" column at position 252 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "409" column at position 253 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "410" column at position 254 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "423" column at position 255 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "424" column at position 256 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "319" column at position 257 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "320" column at position 258 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "321" column at position 259 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "343" column at position 260 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "344" column at position 261 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "345" column at position 262 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "355" column at position 263 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "356" column at position 264 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "357" column at position 265 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "367" column at position 266 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "368" column at position 267 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "369" column at position 268 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "101" column at position 271 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "102" column at position 272 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "162" column at position 275 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "163" column at position 276 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "114" column at position 280 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "115" column at position 281 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "116" column at position 282 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "126" column at position 286 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "127" column at position 287 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "128" column at position 288 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "138" column at position 292 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "139" column at position 293 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "140" column at position 294 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "437" column at position 295 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "438" column at position 296 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "459" column at position 297 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "460" column at position 298 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "513" column at position 299 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "514" column at position 300 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "515" column at position 301 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "549" column at position 302 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "550" column at position 303 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "551" column at position 304 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "552" column at position 305 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "553" column at position 306 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "554" column at position 307 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "441" column at position 308 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "442" column at position 309 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "463" column at position 310 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "464" column at position 311 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "519" column at position 312 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "520" column at position 313 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "521" column at position 314 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "561" column at position 315 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "562" column at position 316 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "563" column at position 317 in the NMR_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "pubchem_id" column at position 2 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "kegg_id" column at position 4 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 7 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.

@@ -1,8 +1,64 @@
 Validation Log
-2025-12-07 07:46:51.910537
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:53:33.372683
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005042/mwtab/txt
 Study ID:      ST003084
 Analysis ID:   AN005042
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 11
+
+Number of Value Errors: 12
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.150mL/minute", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "25", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"1_4-Dimethylimidazole"
+	"1-(beta-D-Ribofuranosyl)-1_3_4_7-tetrahydro-2H-1_3-diazepin-2-one"
+	"2_3_6-Pyridinetriol"
+	"2_4-Diacetamido-2_4_6-trideoxy-alpha-D-mannopyranose (RT = 6.642)"
+	"2_4-Diacetamido-2_4_6-trideoxy-alpha-D-mannopyranose (RT = 8.138)"
+	"2_4-Diamino-6-nitrotoluene (1)"
+	"2_4-Diamino-6-nitrotoluene (2)"
+	"2_6-Diamino-4-methyleneheptanedioic acid"
+	"2_6-Diamino-7-hydroxynonanedioic acid"
+	"3-[(1S_4R)-4-Hydroxy-2-cyclohexen-1-yl]-L-alanine"
+	"Cyclohexane-1_2-diaminetetraacetic acid"
+	"DL-2_6-Diaminopimelic acid"
+	"N_N-dimethylarginine (RT = 13.597)"
+	"N_N_N-TRIMETHYLLYSINE"
+	"Norspermidine-2_3-dihydroxybenzoate"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"1,4-Dimethylimidazole"
+	"1-(beta-D-Ribofuranosyl)-1,3,4,7-tetrahydro-2H-1,3-diazepin-2-one"
+	"2,3,6-Pyridinetriol"
+	"2,4-Diacetamido-2,4,6-trideoxy-alpha-D-mannopyranose (RT = 6.642)"
+	"2,4-Diacetamido-2,4,6-trideoxy-alpha-D-mannopyranose (RT = 8.138)"
+	"2,4-Diamino-6-nitrotoluene (1)"
+	"2,4-Diamino-6-nitrotoluene (2)"
+	"2,6-Diamino-4-methyleneheptanedioic acid"
+	"2,6-Diamino-7-hydroxynonanedioic acid"
+	"3-[(1S,4R)-4-Hydroxy-2-cyclohexen-1-yl]-L-alanine"
+	"Cyclohexane-1,2-diaminetetraacetic acid"
+	"DL-2,6-Diaminopimelic acid"
+	"N,N-dimethylarginine (RT = 13.597)"
+	"N,N,N-TRIMETHYLLYSINE"
+	"Norspermidine-2,3-dihydroxybenzoate"
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "pubchem_id" column at position 2 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "kegg_id" column at position 4 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 7 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.

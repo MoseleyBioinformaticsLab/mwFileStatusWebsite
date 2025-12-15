@@ -1,8 +1,76 @@
 Validation Log
-2025-12-07 09:54:34.441892
-mwtab Python Library Version: 1.2.5
+2025-12-15 03:28:12.463822
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007140/mwtab/txt
 Study ID:      ST004294
 Analysis ID:   AN007140
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 9
+
+Number of Value Errors: 10
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "60°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 2 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 4 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+5         C7 H13 N O3 S
+6         C7 H13 N O3 S
+7         C7 H13 N O3 S
+9           C8 H15 N O4
+10          C8 H15 N O4
+13        C9 H19 N O4 S
+22            C9 H7 N O
+23            C9 H7 N O
+24           C5 H7 N O3
+25           C5 H7 N O3
+33     C6 H4 Cl F N2 O2
+34          C10 H9 N O3
+49         C10 H19 N O3
+58          C6 H13 N O2
+64         C26 H43 N O6
+65         C26 H43 N O5
+74          C10 H9 N O2
+75          C10 H9 N O2
+77           C4 H7 N O4
+78          C9 H11 N O4
+82          C9 H11 N O2
+83          C9 H11 N O2
+85          C9 H11 N O3
+86          C9 H11 N O3
+87          C9 H11 N O3
+89         C21 H39 N O6
+92           C5 H9 N O3
+93          C8 H15 N O3
+94          C8 H15 N O3
+95          C8 H15 N O3
+96          C8 H15 N O3
+97          C7 H11 N O5
+98         C11 H13 N O3
+99         C11 H13 N O4
+100        C11 H13 N O4
+102        C19 H27 N O3
+103       C6 H11 N O3 S
+104          C6 H5 N O2
+105         C7 H13 N O3
+106         C7 H13 N O3
+107         C7 H13 N O3
+108         C7 H11 N O3
+109          C5 H9 N O4
+112         C9 H17 N O5
+113         C9 H17 N O5
+114         C9 H17 N O5
+125          C4 H9 N O3
+Warning: The "RT [min]" column at position 3 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "NEG-F1" column at position 8 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "NEG-F2" column at position 9 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "NEG-F3" column at position 10 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "NEG-F4" column at position 11 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "NEG-F5" column at position 12 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "NEG-F6" column at position 13 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

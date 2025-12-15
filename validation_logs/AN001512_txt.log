@@ -1,8 +1,55 @@
 Validation Log
-2025-12-07 03:28:03.131675
-mwtab Python Library Version: 1.2.5
+2025-12-14 22:33:06.138996
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001512/mwtab/txt
 Study ID:      ST000922
 Analysis ID:   AN001512
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 14
+
+Number of Warnings: 10
+
+Number of Value Errors: 13
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "50", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "2 ul", for the subsection, "SAMPLE_INJECTION", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Warning: The "quantified m/z" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 6 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0        C6 H9 N O5
+4       C10 H7 N O3
+5       C10 H7 N O3
+6        C9 H7 N O2
+7        C9 H7 N O2
+10     C16 H17 N O9
+17    C5 H11 N O4 S
+19      C6 H11 N O6
+21    C5 H13 N O4 S
+22    C5 H13 N O4 S
+26     C11 H21 N O3
+28     C4 H9 N O5 S
+30     C12 H11 N O6
+31     C13 H25 N O3
+32      C9 H17 N O5
+33     C6 H7 N O3 S
+36    C5 H11 N O5 S
+37    C8 H11 N O4 S
+38    C8 H11 N O4 S
+40      C10 H7 N O4
+41      C10 H7 N O4
+42      C10 H7 N O4
+Warning: The "PubChem ID" column at position 4 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 5 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention index" column at position 2 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "retention index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
+Warning: The "MC" column at position 4 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "OB" column at position 7 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "PubChem ID" column at position 4 in the METABOLITES table has all null values.
+Warning: The "KEGG ID" column at position 5 in the METABOLITES table has all null values.

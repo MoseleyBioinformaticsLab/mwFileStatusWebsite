@@ -1,12 +1,77 @@
 Validation Log
-2025-12-07 09:31:32.112675
-mwtab Python Library Version: 1.2.5
+2025-12-15 03:08:27.394582
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006603/mwtab/json
 Study ID:      ST004004
 Analysis ID:   AN006603
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 57
 
-Error Log:
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {''} found in MS_METABOLITE_DATA section.
+Number of Warnings: 53
+
+Number of Value Errors: 56
+
+Number of Consistency Errors: 1
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.25-mL/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "60", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: SUBJECT_SAMPLE_FACTORS section missing sample ID(s). The following IDs were found in the ["MS_METABOLITE_DATA"]["Data"] section but not in the SUBJECT_SAMPLE_FACTORS:
+	""
+Warning: The "m/z" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Data"] table.
+Warning: The "" column at position 50 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "20240304_pos_mock_choline_EtOH_24_a" column at position 2 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_mock_choline_EtOH_24_b" column at position 3 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_TB40E_choline_EtOH_24_a" column at position 4 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_TB40E_choline_EtOH_24_b" column at position 5 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_mock_choline_10uM_24_a" column at position 6 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_mock_choline_10uM_24_b" column at position 7 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_TB40E_choline_10uM_24_a" column at position 8 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_TB40E_choline_10uM_24_b" column at position 9 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_mock_choline_EtOH_48_a" column at position 10 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_mock_choline_EtOH_48_b" column at position 11 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_TB40E_choline_EtOH_48_a" column at position 12 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_TB40E_choline_EtOH_48_b" column at position 13 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_mock_choline_10uM_48_a" column at position 14 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_mock_choline_10uM_48_b" column at position 15 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_TB40E_choline_10uM_48_a" column at position 16 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_TB40E_choline_10uM_48_b" column at position 17 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_mock_choline_EtOH_72_a" column at position 18 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_mock_choline_EtOH_72_b" column at position 19 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_TB40E_choline_EtOH_72_a_20240305114922" column at position 20 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_TB40E_choline_EtOH_72_b" column at position 21 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_mock_choline_10uM_72_a" column at position 22 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_mock_choline_10uM_72_b" column at position 23 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_TB40E_choline_10uM_72_a" column at position 24 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240304_pos_TB40E_choline_10uM_72_b" column at position 25 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_mock_EtOH_24_a" column at position 26 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_mock_EtOH_24_b_20240417091559" column at position 27 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_TB4E_EtOH_24_a" column at position 28 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_TB4E_EtOH_24_b" column at position 29 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_mock_10uM_24_a" column at position 30 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_mock_10uM_24_b" column at position 31 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_TB4E_10uM_24_a" column at position 32 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_TB4E_10uM_24_b" column at position 33 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_mock_EtOH_48_a" column at position 34 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_mock_EtOH_48_b" column at position 35 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_TB4E_EtOH_48_a" column at position 36 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_TB4E_EtOH_48_b" column at position 37 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_mock_10uM_48_a" column at position 38 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_mock_10uM_48_b" column at position 39 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_TB4E_10uM_48_a" column at position 40 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_TB4E_10uM_48_b" column at position 41 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_mock_EtOH_72_a" column at position 42 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_mock_EtOH_72_b" column at position 43 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_TB4E_EtOH_72_a" column at position 44 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_TB4E_EtOH_72_b" column at position 45 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_mock_10uM_72_a" column at position 46 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_mock_10uM_72_b" column at position 47 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_TB4E_10uM_72_a" column at position 48 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "20240411_LPC17d5_R3_pos_choline_TB4E_10uM_72_b" column at position 49 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "m/z" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "RT" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

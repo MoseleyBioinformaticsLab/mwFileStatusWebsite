@@ -1,8 +1,130 @@
 Validation Log
-2025-12-07 07:33:19.514062
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:43:32.605231
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004853/mwtab/txt
 Study ID:      ST002956
 Analysis ID:   AN004853
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 11
+
+Number of Value Errors: 12
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "8wks and 32 wks", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "35", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"GcGM2(34:1_2-OH)_16.791_[M-H]-_209"
+	"GcGM2(34:1_2-OH)_17.931_[M+Na]+_3647"
+	"GcGM2(36:1_2-OH)_18.771_[M-H]-_232"
+	"GcGM2(38:1_2-OH)_23.658_[M+Na]+_4553"
+	"GcGM2(40:1_2-OH)_24.985_[M-H]-_100"
+	"GcGM2(40:1_2-OH)_29.306_[M+Na]+_4095"
+	"GcGM2(42:1_2-OH)_34.35_[M+Na]+_4173"
+	"GcGM2(42:2_2-OH)_28.02_[M+Na]+_4078"
+	"LacCer(34:2_2-OH)_17.807_[M+Na]+_3644"
+	"LacCer(34:2_3-OH)_17.309_[M+Na]+_3630"
+	"PE(18:1e/11_12-EET)_20.811_[M-H]-_280"
+	"PE(18:2e/16_17-EpDPE)_20.26_[M-H]-_278"
+	"SM(32:1_2-OH)_17.163_[M+FA-H]-_130"
+	"SM(32:1_2-OH)_18.217_[M+K]+_3659"
+	"SM(32:1_3-OH)_17.324_[M+H]+_3632"
+	"SM(34:0_3-OH)_18.023_[M+FA-H]-_225"
+	"SM(34:0_3-OH)_19.317_[M+H]+_3725"
+	"SM(34:1_2-OH)_20.389_[M+H]+_3795"
+	"SM(34:1_2-OH)_20.897_[M+H]+_3818"
+	"SM(34:1_2-OH)_20.906_[M+Na]+_3817"
+	"SM(34:1_3-OH)_18.369_[M+FA-H]-_205"
+	"SM(34:2_2-OH)_17.39_[M+FA-H]-_48"
+	"SM(34:2_2-OH)_18.519_[M+H]+_3675"
+	"SM(34:2_3-OH)_16.647_[M+FA-H]-_262"
+	"SM(34:2_3-OH)_17.605_[M+H]+_3637"
+	"SM(34:2_4-OH)_18.989_[M+H]+_3697"
+	"SM(34:3_4-OH)_18.989_[M+Na]+_3698"
+	"SM(36:2_2-OH)_19.837_[M+FA-H]-_164"
+	"SM(36:3_2-OH)_17.598_[M+FA-H]-_239"
+	"SM(36:3_2-OH)-2_17.808_[M+FA-H]-_249"
+	"SM(38:5_4-OH)_19.656_[M+Na]+_3745"
+	"SM(38:6_4-OH)_19.508_[M+Na]+_3734"
+	"SM(39:1_2-OH)_29.373_[M+FA-H]-_187"
+	"SM(39:1_4-OH)_17.728_[M+H]+_3641"
+	"SM(39:5_1-OH)_22.365_[M+H]+_3892"
+	"SM(40:1_2-OH)_31.921_[M+FA-H]-_30"
+	"SM(40:2_2-OH)-2_25.293_[M+FA-H]-_143"
+	"SM(40:2_2-OH)_25.983_[M+FA-H]-_80"
+	"SM(40:5_2-OH)_19.984_[M+H]+_3772"
+	"SM(41:1_2-OH)_34.482_[M+FA-H]-_44"
+	"SM(42:1_2-OH)_34.742_[M+H]+_4210"
+	"SM(42:3_2-OH)_32.144_[M+Na]+_4138"
+	"SM(42:4_4-OH)_34.184_[M+Na]+_4172"
+	"SM(42:5_2-OH)_22.953_[M+H]+_3920"
+	"SM(42:6_3-OH)_27.316_[M+Na]+_4059"
+	"SM(42:8_2-OH)_18.698_[M+Na]+_3684"
+	"SM(42:8_2-OH)_18.699_[M+H]+_3683"
+	"SM(43:2_2-OH)_34.903_[M+H]+_4218"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"GcGM2(34:1,2-OH)_16.791_[M-H]-_209"
+	"GcGM2(34:1,2-OH)_17.931_[M+Na]+_3647"
+	"GcGM2(36:1,2-OH)_18.771_[M-H]-_232"
+	"GcGM2(38:1,2-OH)_23.658_[M+Na]+_4553"
+	"GcGM2(40:1,2-OH)_24.985_[M-H]-_100"
+	"GcGM2(40:1,2-OH)_29.306_[M+Na]+_4095"
+	"GcGM2(42:1,2-OH)_34.35_[M+Na]+_4173"
+	"GcGM2(42:2,2-OH)_28.02_[M+Na]+_4078"
+	"LacCer(34:2,2-OH)_17.807_[M+Na]+_3644"
+	"LacCer(34:2,3-OH)_17.309_[M+Na]+_3630"
+	"PE(18:1e/11,12-EET)_20.811_[M-H]-_280"
+	"PE(18:2e/16,17-EpDPE)_20.26_[M-H]-_278"
+	"SM(32:1,2-OH)_17.163_[M+FA-H]-_130"
+	"SM(32:1,2-OH)_18.217_[M+K]+_3659"
+	"SM(32:1,3-OH)_17.324_[M+H]+_3632"
+	"SM(34:0,3-OH)_18.023_[M+FA-H]-_225"
+	"SM(34:0,3-OH)_19.317_[M+H]+_3725"
+	"SM(34:1,2-OH)_20.389_[M+H]+_3795"
+	"SM(34:1,2-OH)_20.897_[M+H]+_3818"
+	"SM(34:1,2-OH)_20.906_[M+Na]+_3817"
+	"SM(34:1,3-OH)_18.369_[M+FA-H]-_205"
+	"SM(34:2,2-OH)_17.39_[M+FA-H]-_48"
+	"SM(34:2,2-OH)_18.519_[M+H]+_3675"
+	"SM(34:2,3-OH)_16.647_[M+FA-H]-_262"
+	"SM(34:2,3-OH)_17.605_[M+H]+_3637"
+	"SM(34:2,4-OH)_18.989_[M+H]+_3697"
+	"SM(34:3,4-OH)_18.989_[M+Na]+_3698"
+	"SM(36:2,2-OH)_19.837_[M+FA-H]-_164"
+	"SM(36:3,2-OH)_17.598_[M+FA-H]-_239"
+	"SM(36:3,2-OH)-2_17.808_[M+FA-H]-_249"
+	"SM(38:5,4-OH)_19.656_[M+Na]+_3745"
+	"SM(38:6,4-OH)_19.508_[M+Na]+_3734"
+	"SM(39:1,2-OH)_29.373_[M+FA-H]-_187"
+	"SM(39:1,4-OH)_17.728_[M+H]+_3641"
+	"SM(39:5,1-OH)_22.365_[M+H]+_3892"
+	"SM(40:1,2-OH)_31.921_[M+FA-H]-_30"
+	"SM(40:2,2-OH)-2_25.293_[M+FA-H]-_143"
+	"SM(40:2,2-OH)_25.983_[M+FA-H]-_80"
+	"SM(40:5,2-OH)_19.984_[M+H]+_3772"
+	"SM(41:1,2-OH)_34.482_[M+FA-H]-_44"
+	"SM(42:1,2-OH)_34.742_[M+H]+_4210"
+	"SM(42:3,2-OH)_32.144_[M+Na]+_4138"
+	"SM(42:4,4-OH)_34.184_[M+Na]+_4172"
+	"SM(42:5,2-OH)_22.953_[M+H]+_3920"
+	"SM(42:6,3-OH)_27.316_[M+Na]+_4059"
+	"SM(42:8,2-OH)_18.698_[M+Na]+_3684"
+	"SM(42:8,2-OH)_18.699_[M+H]+_3683"
+	"SM(43:2,2-OH)_34.903_[M+H]+_4218"
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "pubchem_id" column at position 2 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "kegg_id" column at position 4 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 7 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.

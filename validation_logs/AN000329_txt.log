@@ -1,8 +1,55 @@
 Validation Log
-2025-12-07 01:28:04.412447
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:13:23.537399
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000329/mwtab/txt
 Study ID:      ST000221
 Analysis ID:   AN000329
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 16
+
+Number of Warnings: 7
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 1
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "ADDRESS", in the "STUDY" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"10-alpha-methoxy-9,10-dihydrolysergol"
+	"11-Chloro-8E,10E-undecadien-1-ol"
+	"1',2'-Dihydro-1,1'-dimethyl-2'-oxo-4,4'-bipyridinium(1+)"
+	"14,15-HxA3-D(11S)"
+	"1,9-Nonanedithiol"
+	"24,24-difluoro-1alpha,25-dihydroxy-26,27-dimethyl-24a-homovitamin D3 / 24,24-difluoro-1alpha,25-dihydroxy-26,27-dimethyl-24a-homocholecalciferol"
+	"24,25-epoxy-cholesterol(d6)"
+	"2,4-Dodecadienoic acid pyrrolidide"
+	"2,6-Diisopropylnaphthalene"
+	"(3R,7R)-1,3,7-Octanetriol"
+	"5'-(3',4'-Dihydroxyphenyl)-gamma-valerolactone sulfate"
+	"5,7,3',4',5'-Pentahydroxy-3,6,8-trimethoxyflavone"
+	"9,10,12,13-tetrabromo-stearic acid"
+	"cholesta-5,7,8(14),22E-tetraen-3-one"
+	"Furano[2'',3'':6,7]aurone"
+	"N1,N8-Diacetylspermidine"
+	"PI(P-16:0/17:2(9Z,12Z))"
+	"Polypropylene glycol (m w 1,200-3,000)"
+	"Quercetagetin 7-methyl ether 3-(2'''-caffeoylglucosyl)-(1->2)-glucuronide"
+	"Quercetin 3-(2''-caffeoylglucoside)-(1->2)-(6''-malonylglucoside)"
+Warning: The "ri" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "pubchem_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 6 in the METABOLITES table has all null values.
+Warning: The "kegg_id" column at position 7 in the METABOLITES table has all null values.

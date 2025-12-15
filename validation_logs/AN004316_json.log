@@ -1,12 +1,139 @@
 Validation Log
-2025-12-07 06:44:13.160508
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:06:16.727256
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004316/mwtab/json
 Study ID:      ST002644
 Analysis ID:   AN004316
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 9
 
-Error Log:
-SCHEMA: Section "COLLECTION" does not match the allowed schema. Missing key: 'COLLECTION_SUMMARY'
+Number of Warnings: 5
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The required property, "COLLECTION_SUMMARY", in ["COLLECTION"] is missing.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: The value, "0.4 ml/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "50C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "mz" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "neutral_mass" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "formula" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+2       C38 H67 D7 N O8 P
+3       C23 H39 D7 N O7 P
+4      C42 H75 D7 N O10 P
+5       C27 H47 D7 N O9 P
+6      C39 H67 D7 N O10 P
+7      C42 H75 D7 N O13 P
+8         C48 H93 N O12 S
+9         C48 H93 N O11 S
+18         C48 H82 N O9 P
+19        C46 H78 N O10 P
+20        C46 H78 N O10 P
+21        C46 H80 N O10 P
+22        C46 H80 N O10 P
+23        C46 H82 N O10 P
+24        C44 H74 N O10 P
+25        C44 H78 N O10 P
+26        C42 H78 N O10 P
+27        C42 H80 N O10 P
+36         C45 H76 N O7 P
+37         C45 H78 N O7 P
+38         C45 H78 N O7 P
+39         C45 H80 N O7 P
+40         C45 H80 N O7 P
+41         C45 H82 N O7 P
+42         C44 H76 N O7 P
+43         C43 H74 N O7 P
+44         C43 H76 N O7 P
+45         C43 H76 N O7 P
+46         C43 H78 N O7 P
+47         C43 H78 N O7 P
+48         C41 H74 N O7 P
+49         C41 H80 N O7 P
+50         C41 H76 N O7 P
+51         C41 H82 N O7 P
+52         C41 H78 N O7 P
+53         C39 H74 N O7 P
+54         C39 H76 N O7 P
+55         C39 H78 N O7 P
+56         C37 H74 N O7 P
+57         C45 H74 N O8 P
+58         C45 H76 N O8 P
+59         C45 H78 N O8 P
+60         C45 H80 N O8 P
+61         C45 H80 N O8 P
+62         C45 H82 N O8 P
+63         C44 H76 N O8 P
+64         C43 H74 N O8 P
+65         C43 H74 N O8 P
+66         C43 H76 N O8 P
+67         C43 H76 N O8 P
+68         C43 H78 N O8 P
+69         C43 H80 N O8 P
+70         C42 H76 N O8 P
+71         C41 H74 N O8 P
+72         C41 H74 N O8 P
+73         C41 H76 N O8 P
+74         C41 H78 N O8 P
+75         C41 H78 N O8 P
+76         C41 H80 N O8 P
+77         C39 H74 N O8 P
+78         C39 H76 N O8 P
+79         C45 H82 N O9 P
+80         C43 H86 N O9 P
+81         C41 H82 N O9 P
+82        C49 H82 N O10 P
+83        C49 H84 N O10 P
+84        C49 H84 N O10 P
+85        C49 H86 N O10 P
+86        C49 H90 N O10 P
+87        C47 H82 N O10 P
+88        C47 H82 N O10 P
+89        C47 H84 N O10 P
+90        C47 H84 N O10 P
+91        C47 H86 N O10 P
+92        C47 H86 N O10 P
+93        C47 H88 N O10 P
+94        C46 H84 N O10 P
+95        C45 H80 N O10 P
+96        C45 H80 N O10 P
+97        C45 H82 N O10 P
+98        C45 H82 N O10 P
+99        C45 H84 N O10 P
+100       C45 H84 N O10 P
+101       C45 H86 N O10 P
+102       C45 H88 N O10 P
+103       C44 H80 N O10 P
+104       C44 H84 N O10 P
+105       C43 H78 N O10 P
+106       C43 H80 N O10 P
+107       C43 H80 N O10 P
+108       C43 H82 N O10 P
+109       C43 H84 N O10 P
+110       C43 H86 N O10 P
+111       C41 H80 N O10 P
+112       C41 H82 N O10 P
+113       C39 H78 N O10 P
+114        C20 H44 N O6 P
+115        C27 H56 N O9 P
+116        C25 H52 N O9 P
+117         C49 H93 N O10
+118         C49 H95 N O10
+119         C48 H93 N O11
+120          C46 H89 N O9
+121         C47 H91 N O10
+122         C52 H95 N O13
+125          C43 H83 N O5
+126          C43 H85 N O5
+127          C42 H83 N O5
+128          C39 H77 N O5
+129          C37 H71 N O5
+130          C35 H69 N O5
+Warning: The "refmet_name" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "rt" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

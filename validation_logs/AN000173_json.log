@@ -1,8 +1,63 @@
 Validation Log
-2025-12-07 01:21:08.993874
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:07:48.486851
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000173/mwtab/json
 Study ID:      ST000105
 Analysis ID:   AN000173
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 18
+
+Number of Warnings: 7
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 1
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected in ["STUDY"]["PHONE"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["COLLECTION"]["COLLECTION_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLEPREP_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["MS"]["MS_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"11-BETA-HYDROXYANDROST-4-ENE-3_17-DIONE"
+	"1_2-DIDECANOYL-SN-GLYCERO-3-PHOSPHOCHOLINE"
+	"1_2-DIPALMITOYL-SN-GLYCEROL"
+	"2`_4`-DIHYDROXYACETOPHENONE"
+	"2_6-DIHYDROXYPYRIDINE"
+	"3_4-DIHYDROXYBENZOATE"
+	"3_4-DIHYDROXY-L-PHENYLALANINE"
+	"3_4-DIHYDROXYPHENYLACETATE"
+	"3_4-DIHYDROXYPHENYL GLYCOL"
+	"3-ALPHA_11-BETA_17-ALPHA_21-TETRAHYDROXY- 5-ALPHA-PREGNAN-20-ONE"
+	"6_7-DIHYDROBIOPTERIN"
+	"ADENOSINE 3`_5`-CYCLIC MONOPHOSPHATE"
+	"CIS-7_10_13_16-DOCOSATETRAENOIC ACID"
+	"CYCLOHEXANE-1_3-DIONE"
+	"D-GLUCONO-1_5-LACTONE"
+	"ENKEPHALINE_ (D-ALA)2-LEU"
+	"GULONO-1_4-LACTONE"
+	"LL-2_6-DIAMINOHEPTANEDIOATE"
+	"N_N_N-TRIMETHYLLYSINE"
+	"PYRIDINE-2_3-DICARBOXYLATE"
+	"TRANS-CYCLOHEXANE-1_2-DIOL"
+	"11-BETA-HYDROXYANDROST-4-ENE-3,17-DIONE_2"
+	"11-BETA-HYDROXYANDROST-4-ENE-3,17-DIONE_3"
+	"2,6-DIHYDROXYPYRIDINE_2"
+	"3,4-DIHYDROXYBENZOATE_2"
+	"CYCLOHEXANE-1,3-DIONE_2"
+Warning: The "ri" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "moverz_quant" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

@@ -1,8 +1,118 @@
 Validation Log
-2025-12-07 01:11:58.921447
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:02:02.104491
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000078/mwtab/json
 Study ID:      ST000046
 Analysis ID:   AN000078
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 16
+
+Number of Warnings: 6
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected in ["STUDY"]["ADDRESS"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["STUDY"]["PHONE"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"1-(13Z-docosenoyl)-2-(7Z_10Z_13Z_16Z_19Z-docosapentaenoyl)-sn-glycerol"
+	"1_2-di-(8Z_11Z_14Z-eicosatrienoyl)-sn-glycerol"
+	"1_3-Dimethyluricacid"
+	"13E_17-octadecadienoicacid"
+	"17-alpha_21-dihydroxy-11_20-dioxo-5-beta-pregnan-3-alpha-yl-beta-d-glucuronide"
+	"1alpha_25-dihydroxy-11alpha-phenylvitaminD3/1alpha_25-dihydroxy-11alpha-phenylcholecalciferol"
+	"1alpha_25-dihydroxy-11alpha-phenylvitaminD3/1alpha_25-dihydroxy-11alpha-phenylcholecalciferol-14.324497"
+	"1alpha_25-dihydroxy-26_27-dimethyl-22-oxavitaminD3/1alpha_25-dihydroxy-26_27-dimethyl-22-oxachole"
+	"1alpha_25-dihydroxy-26_27-dimethyl-22-oxavitaminD3/1alpha_25-dihydroxy-26_27-dimethyl-22-oxachole-13.7853775"
+	"1alpha_25-dihydroxy-2beta-(5-hydroxypentoxy)vitaminD3/1alpha_25-dihydroxy-2beta-(5-hydroxypentoxy"
+	"2_2-Dimethylsuccinicacid"
+	"(22S)-1alpha_22_25-trihydroxy-23_24-tetradehydro-24a_24b-dihomo-20-epivitaminD3/(22S)-1alpha_22_2"
+	"2_3-Diaminopropionicacid"
+	"2_3-Dihydroxybenzoicacid"
+	"2_3-Dioxogulonicacid"
+	"2_4-dihydroxy-2-heptenediocacid"
+	"2_4-DINITROPHENOL"
+	"2-amino-4^-hydroxy-Propiophenone"
+	"2-Naphthaleneaceticacid_6-hydroxy-"
+	"3_9_15-Docosatriynoicacid"
+	"3E_5E-tridecadienoicacid"
+	"4_7_10_13_16-docosapentaenoicacid"
+	"4_7_10_13_16-docosapentaenoicacid-13.522585"
+	"4_8-dimethyl-dodecanoicacid"
+	"_4-Dihydroxyphenylpropionicacid"
+	"4Z_7Z_10Z_13Z-eicosatetraenoicacid"
+	"5-(4-hydroxy-2_5-dimethylphenoxy)-2_2-dimethyl-Pentanoicacid(GemfibrozilM1)"
+	"5H-Oxireno[4_5]furo[3_2-g][1]benzopyran-5-one_1a_8b-dihydro-3-methoxy-"
+	"5Z_11Z_14Z-eicosatrienoicacid"
+	"6b_11b_16a_17a_21-Pentahydroxypregna-1_4-diene-3_20-dione16_17-acetonide"
+	"6b_11b_16a_17a_21-Pentahydroxypregna-1_4-diene-3_20-dione16_17-acetonide-10.120011"
+	"6b_11b_16a_17a_21-Pentahydroxypregna-1_4-diene-3_20-dione16_17-acetonide-10.308402"
+	"9_12_14-octadecatrienoicacid"
+	"9-deoxy-9-methylene-16_16-dimethyl-PGE2"
+	"b-D-Glucopyranosiduronicacid_(3b_5b)-17-oxoestran-3-yl"
+	"Benzenemethanol_2-(2-aminopropoxy)-3-methyl-"
+	"Erythrono-1_4-lactone"
+	"Erythrono-1_4-lactone-1.9339892"
+	"Furan2_5-dicarboxylicacid"
+	"Furan2_5-dicarboxylicacid-1.2302623"
+	"GPEtn(16:0/22:6(4Z_7Z_10Z_13Z_16Z_19Z))"
+	"GPSer(18:0/22:6(4Z_7Z_10Z_13Z_16Z_19Z))"
+	"IdebenoneMetabolite(Benzenebutanoicacid_2-hydroxy-3_4-dimethoxy-6-methyl-5-(sulfooxy)-)"
+	"methyl9_11-epidioxy-12_15-dihydroperoxy-5_7_13-eicosatrienoate"
+	"ROTENONICACID_METHYLETHER"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"1,3-Dimethyluricacid"
+	"13E,17-octadecadienoicacid"
+	"17-alpha,21-dihydroxy-11,20-dioxo-5-beta-pregnan-3-alpha-yl-beta-d-glucuronide"
+	"1alpha,25-dihydroxy-11alpha-phenylvitaminD3/1alpha,25-dihydroxy-11alpha-phenylcholecalciferol"
+	"1alpha,25-dihydroxy-11alpha-phenylvitaminD3/1alpha,25-dihydroxy-11alpha-phenylcholecalciferol-14.324497"
+	"1alpha,25-dihydroxy-26,27-dimethyl-22-oxavitaminD3/1alpha,25-dihydroxy-26,27-dimethyl-22-oxachole"
+	"1alpha,25-dihydroxy-26,27-dimethyl-22-oxavitaminD3/1alpha,25-dihydroxy-26,27-dimethyl-22-oxachole-13.7853775"
+	"1alpha,25-dihydroxy-2beta-(5-hydroxypentoxy)vitaminD3/1alpha,25-dihydroxy-2beta-(5-hydroxypentoxy"
+	"2,2-Dimethylsuccinicacid"
+	"(22S)-1alpha,22,25-trihydroxy-23,24-tetradehydro-24a,24b-dihomo-20-epivitaminD3/(22S)-1alpha,22,2"
+	"2,3-Diaminopropionicacid"
+	"2,3-Dihydroxybenzoicacid"
+	"2,3-Dioxogulonicacid"
+	"2,4-dihydroxy-2-heptenediocacid"
+	"2-Naphthaleneaceticacid,6-hydroxy-"
+	"3,9,15-Docosatriynoicacid"
+	"3E,5E-tridecadienoicacid"
+	"4,7,10,13,16-docosapentaenoicacid"
+	"4,7,10,13,16-docosapentaenoicacid-13.522585"
+	"4,8-dimethyl-dodecanoicacid"
+	",4-Dihydroxyphenylpropionicacid"
+	"4Z,7Z,10Z,13Z-eicosatetraenoicacid"
+	"5-(4-hydroxy-2,5-dimethylphenoxy)-2,2-dimethyl-Pentanoicacid(GemfibrozilM1)"
+	"5H-Oxireno[4,5]furo[3,2-g][1]benzopyran-5-one,1a,8b-dihydro-3-methoxy-"
+	"5Z,11Z,14Z-eicosatrienoicacid"
+	"6b,11b,16a,17a,21-Pentahydroxypregna-1,4-diene-3,20-dione16,17-acetonide"
+	"6b,11b,16a,17a,21-Pentahydroxypregna-1,4-diene-3,20-dione16,17-acetonide-10.120011"
+	"6b,11b,16a,17a,21-Pentahydroxypregna-1,4-diene-3,20-dione16,17-acetonide-10.308402"
+	"9,12,14-octadecatrienoicacid"
+	"9-deoxy-9-methylene-16,16-dimethyl-PGE2"
+	"b-D-Glucopyranosiduronicacid,(3b,5b)-17-oxoestran-3-yl"
+	"Benzenemethanol,2-(2-aminopropoxy)-3-methyl-"
+	"Erythrono-1,4-lactone-1.9339892"
+	"Furan2,5-dicarboxylicacid"
+	"Furan2,5-dicarboxylicacid-1.2302623"
+	"IdebenoneMetabolite(Benzenebutanoicacid,2-hydroxy-3,4-dimethoxy-6-methyl-5-(sulfooxy)-)"
+	"methyl9,11-epidioxy-12,15-dihydroperoxy-5,7,13-eicosatrienoate"
+	"ROTENONICACID,METHYLETHER"
+Warning: The "ri" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "inchi_key" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

@@ -1,8 +1,192 @@
 Validation Log
-2025-12-07 01:34:42.769154
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:18:27.398980
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000392/mwtab/txt
 Study ID:      ST000248
 Analysis ID:   AN000392
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 19
+
+Number of Warnings: 6
+
+Number of Value Errors: 10
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "ADDRESS", in the "PROJECT" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "SAMPLEPREP_SUMMARY", in the "SAMPLEPREP" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"10_16-Dihydroxyhexadecanoic acid_R1"
+	"10_16-Dihydroxyhexadecanoic acid_R2"
+	"10_16-Dihydroxyhexadecanoic acid_R3"
+	"1-(4-carboxybutanamido)-1^-(dimethylcarbamoyl)ferrocene"
+	"1_6-Naphthalenedisulfonic acid"
+	"(1R_2R)-3-oxo-2-pentyl-cyclopentanehexanoic acid_R1"
+	"(1R_2R)-3-oxo-2-pentyl-cyclopentanehexanoic acid_R2"
+	"(1R_2R)-3-oxo-2-pentyl-cyclopentanehexanoic acid_R3"
+	"2_2-Dimethyl-3-[4-(acetyloxy)phenyl]-4-ethyl-2H-1-benzopyran-7-ol acetate"
+	"2_3-Dihydroxycyclopentaneundecanoic acid"
+	"2_3-Dihydroxy-p-cumate"
+	"2_3-Dimethylmaleate"
+	"2_4-Dichlorobenzoate"
+	"2_4-Dinitrophenol"
+	"2_5-Dioxopentanoate_R1"
+	"2_5-Dioxopentanoate_R2"
+	"2-Chloro-1_4-naphthoquinone"
+	"2-Hydroxy-2_4-pentadienoate_R1"
+	"2-Hydroxy-2_4-pentadienoate_R2"
+	"2^^-O-Galloylisovitexin"
+	"3-[(3aS_4S_7aS)-7a-Methyl-1_5-dioxo-octahydro-1H-inden-4-yl]propanoate"
+	"3_4-Dihydroxyphenylethyleneglycol"
+	"3_5_6_7_2^_3^_4^-Heptahydroxyflavone"
+	"3_5-Dinitroguaiacol"
+	"3_6-dioxo-decanoic acid_R1"
+	"3_6-dioxo-decanoic acid_R2"
+	"3_6-dioxo-decanoic acid_R3"
+	"3^-Bromo-6^-hydroxy-2^_4_4^-trimethoxychalcone_R1"
+	"3^-Bromo-6^-hydroxy-2^_4_4^-trimethoxychalcone_R2"
+	"3^-CMP"
+	"3E_5E-tridecadienoic acid_R1"
+	"3E_5E-tridecadienoic acid_R2"
+	"3-Hydroxy-2-methylpyridine-4_5-dicarboxylate"
+	"4_4^-Diaminostilbene dihydrochloride_R1"
+	"4_4^-Diaminostilbene dihydrochloride_R2"
+	"4_7-dioxo-octanoic acid"
+	"4^-Methoxychalcone"
+	"5-Amino-6-(5^-phosphoribosylamino)uracil"
+	"5-hydroperoxy-7-[3_5-epidioxy-2-(2-octenyl)-cyclopentyl]-6-heptenoic acid"
+	"5-Oxo-1_2-campholide_R1"
+	"5-Oxo-1_2-campholide_R2"
+	"5-Oxo-1_2-campholide_R3"
+	"5^^-Phosphoribostamycin"
+	"(6S_9R)-Vomifoliol_R1"
+	"(6S_9R)-Vomifoliol_R2"
+	"9_12_13-TriHOME_R1"
+	"9_12_13-TriHOME_R2"
+	"9-Hydroxybenzo[a]pyrene-4_5-oxide"
+	"(9R_10R)-Dihydroxyoctadecanoic acid_R1"
+	"(9R_10R)-Dihydroxyoctadecanoic acid_R2"
+	"(9R_10R)-Dihydroxyoctadecanoic acid_R3"
+	"(9Z_12Z)-(8R)-Hydroxyoctadeca-9_12-dienoic acid"
+	"(9Z)-(7S_8S)-Dihydroxyoctadecenoic acid_R1"
+	"(9Z)-(7S_8S)-Dihydroxyoctadecenoic acid_R2"
+	"ADENOSINE 5^-MONOPHOSPHATE"
+	"alpha_beta-Didehydrotryptophan"
+	"Benzyl (2R_3S)-2-methyl-3-hydroxybutanoate"
+	"Catechin 5_7_3^-trimethyl ether"
+	"cis-1_2-Dihydro-3-ethylcatechol"
+	"cis-2_3-Dihydroxy-2_3-dihydro-p-cumate_R1"
+	"cis-2_3-Dihydroxy-2_3-dihydro-p-cumate_R2"
+	"D-Arabinono-1_4-lactone"
+	"D-Glucono-1_5-lactone"
+	"Dihydro-4_4-dimethyl-2_3-furandione_R1"
+	"Dihydro-4_4-dimethyl-2_3-furandione_R2"
+	"Dihydro-4_4-dimethyl-2_3-furandione_R3"
+	"D-myo-Inositol 1_2-cyclic phosphate"
+	"Ethyl(E_Z)-decadienoate"
+	"INOSINE 5^-PHOSPHATE"
+	"L-2_3-Dihydrodipicolinate"
+	"PC(15:0/18:2(9Z_12Z))"
+	"PE(18:2(9Z_12Z)/0:0)"
+	"PE(20:3(8Z_11Z_14Z)/0:0)"
+	"PS(20:3(8Z_11Z_14Z)/0:0)"
+	"PS(20:4(5Z_8Z_11Z_14Z)/0:0)"
+	"Tryptophan-2_3_3-D3"
+	"Xanthosine 5^-phosphate"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"10,16-Dihydroxyhexadecanoic acid_R1"
+	"10,16-Dihydroxyhexadecanoic acid_R2"
+	"10,16-Dihydroxyhexadecanoic acid_R3"
+	"1-(4-carboxybutanamido)-1'-(dimethylcarbamoyl)ferrocene"
+	"1,6-Naphthalenedisulfonic acid"
+	"(1R,2R)-3-oxo-2-pentyl-cyclopentanehexanoic acid_R1"
+	"(1R,2R)-3-oxo-2-pentyl-cyclopentanehexanoic acid_R2"
+	"(1R,2R)-3-oxo-2-pentyl-cyclopentanehexanoic acid_R3"
+	"2,2-Dimethyl-3-[4-(acetyloxy)phenyl]-4-ethyl-2H-1-benzopyran-7-ol acetate"
+	"2,3-Dihydroxycyclopentaneundecanoic acid"
+	"2,3-Dihydroxy-p-cumate"
+	"2,3-Dimethylmaleate"
+	"2,4-Dichlorobenzoate"
+	"2,4-Dinitrophenol"
+	"2,5-Dioxopentanoate_R1"
+	"2,5-Dioxopentanoate_R2"
+	"2-Chloro-1,4-naphthoquinone"
+	"2-Hydroxy-2,4-pentadienoate_R1"
+	"2-Hydroxy-2,4-pentadienoate_R2"
+	"2''-O-Galloylisovitexin"
+	"3-[(3aS,4S,7aS)-7a-Methyl-1,5-dioxo-octahydro-1H-inden-4-yl]propanoate"
+	"3,4-Dihydroxyphenylethyleneglycol"
+	"3,5,6,7,2',3',4'-Heptahydroxyflavone"
+	"3,5-Dinitroguaiacol"
+	"3,6-dioxo-decanoic acid_R1"
+	"3,6-dioxo-decanoic acid_R2"
+	"3,6-dioxo-decanoic acid_R3"
+	"3'-Bromo-6'-hydroxy-2',4,4'-trimethoxychalcone_R1"
+	"3'-Bromo-6'-hydroxy-2',4,4'-trimethoxychalcone_R2"
+	"3'-CMP"
+	"3E,5E-tridecadienoic acid_R1"
+	"3E,5E-tridecadienoic acid_R2"
+	"3-Hydroxy-2-methylpyridine-4,5-dicarboxylate"
+	"4,4'-Diaminostilbene dihydrochloride_R1"
+	"4,4'-Diaminostilbene dihydrochloride_R2"
+	"4,7-dioxo-octanoic acid"
+	"4'-Methoxychalcone"
+	"5-Amino-6-(5'-phosphoribosylamino)uracil"
+	"5-hydroperoxy-7-[3,5-epidioxy-2-(2-octenyl)-cyclopentyl]-6-heptenoic acid"
+	"5-Oxo-1,2-campholide_R1"
+	"5-Oxo-1,2-campholide_R2"
+	"5-Oxo-1,2-campholide_R3"
+	"5''-Phosphoribostamycin"
+	"(6S,9R)-Vomifoliol_R1"
+	"(6S,9R)-Vomifoliol_R2"
+	"9,12,13-TriHOME_R1"
+	"9,12,13-TriHOME_R2"
+	"9-Hydroxybenzo[a]pyrene-4,5-oxide"
+	"(9R,10R)-Dihydroxyoctadecanoic acid_R1"
+	"(9R,10R)-Dihydroxyoctadecanoic acid_R2"
+	"(9R,10R)-Dihydroxyoctadecanoic acid_R3"
+	"(9Z,12Z)-(8R)-Hydroxyoctadeca-9,12-dienoic acid"
+	"(9Z)-(7S,8S)-Dihydroxyoctadecenoic acid_R1"
+	"(9Z)-(7S,8S)-Dihydroxyoctadecenoic acid_R2"
+	"ADENOSINE 5'-MONOPHOSPHATE"
+	"alpha,beta-Didehydrotryptophan"
+	"Benzyl (2R,3S)-2-methyl-3-hydroxybutanoate"
+	"Catechin 5,7,3'-trimethyl ether"
+	"cis-1,2-Dihydro-3-ethylcatechol"
+	"cis-2,3-Dihydroxy-2,3-dihydro-p-cumate_R1"
+	"cis-2,3-Dihydroxy-2,3-dihydro-p-cumate_R2"
+	"D-Arabinono-1,4-lactone"
+	"D-Glucono-1,5-lactone"
+	"Dihydro-4,4-dimethyl-2,3-furandione_R1"
+	"Dihydro-4,4-dimethyl-2,3-furandione_R2"
+	"Dihydro-4,4-dimethyl-2,3-furandione_R3"
+	"D-myo-Inositol 1,2-cyclic phosphate"
+	"Ethyl(E,Z)-decadienoate"
+	"INOSINE 5'-PHOSPHATE"
+	"L-2,3-Dihydrodipicolinate"
+	"PC(15:0/18:2(9Z,12Z))"
+	"PE(18:2(9Z,12Z)/0:0)"
+	"PE(20:3(8Z,11Z,14Z)/0:0)"
+	"PS(20:3(8Z,11Z,14Z)/0:0)"
+	"PS(20:4(5Z,8Z,11Z,14Z)/0:0)"
+	"Tryptophan-2,3,3-D3"
+	"Xanthosine 5'-phosphate"
+Warning: The "ri" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "other_id" and "other_id_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "inchi_key" column at position 6 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 8 in the METABOLITES table has all null values.

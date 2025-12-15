@@ -1,8 +1,128 @@
 Validation Log
-2025-12-07 01:33:50.054452
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:17:46.865516
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000377/mwtab/txt
 Study ID:      ST000242
 Analysis ID:   AN000377
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 19
+
+Number of Warnings: 10
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "ADDRESS", in the "STUDY" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"1^H-5alpha-Cholest-2-eno[3_2-b]indole"
+	"20_21_21-Trifluoro-3-methoxy-19-nor-17alpha-pregna-1_3_5(10)_20-tetraen-17-ol"
+	"3-(7^-Methylthio)heptylmalic acid"
+	"6-Imino-5-oxocyclohexa-1_3-dienecarboxylate"
+	"alpha_beta-Dihydroxyethyl-TPP"
+	"CerP(d18:1/20:0)_1"
+	"DG(17:2(9Z_12Z)/20:5(5Z_8Z_11Z_14Z_17Z)/0:0)[iso2]"
+	"Erythrono-1_4-lactone"
+	"Ingenol 3_20-dibenzoate"
+	"Luteolin 7_3^-digalacturonide"
+	"methyl 10_12_13_15-bisepidioxy-16-hydroperoxy-8E-octadecenoate"
+	"MID42085:(6RS)-6_19-epidioxy-24_24-difluoro-25-hydroxy-6_19-dihydrovitamin D3 / (6RS)-6_19-epidioxy-"
+	"MID42333:24_24-difluoro-1?_25-dihydroxy-26_27-dimethylvitamin D3 / 24_24-difluoro-1?_25-dihydroxy-26"
+	"MID42395:26_27-diethyl-1?_25-dihydroxy-22-thiavitamin D3 / 26_27-diethyl-1?_25-dihydroxy-22-thiachol"
+	"MID42466:11?-(4-dimethylaminophenyl)-1?_25-dihydroxyvitamin D3 / 11?-(4-dimethylaminophenyl)-1?_25-d"
+	"N-acyl capnines_1"
+	"N_N-Dimethyltryptamine (DMT)"
+	"Patuletin 3-(6^^-(E)-feruloylglucoside)"
+	"Patuletin 3-(6^^-(E)-feruloylglucoside)_1"
+	"PE(14:0/22:2(13Z_16Z))"
+	"PE(17:2(9Z_12Z)/20:0)"
+	"PE(17:2(9Z_12Z)/20:0)_1"
+	"PG(20:5(5Z_8Z_11Z_14Z_17Z)/0:0)"
+	"PI(20:4(5Z_8Z_11Z_14Z)/0:0)"
+	"Pratensin A_1"
+	"PS(18:3(6Z_9Z_12Z)/19:1(9Z))"
+	"PS(22:0/20:2(11Z_14Z))"
+	"PS(22:6(4Z_7Z_10Z_13Z_16Z_19Z)/19:0)"
+	"PS(O-16:0/12:0)_1"
+	"Quercetin 3-(6^^-malonylglucoside)-7-glucoside"
+	"Tricetin 3^-methyl ether 7_5^-diglucuronide"
+	"Tyrphostin B44 (-)_1"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"1'H-5alpha-Cholest-2-eno[3,2-b]indole"
+	"3-(7'-Methylthio)heptylmalic acid"
+	"CerP(d18:1/20:0)_2"
+	"Luteolin 7,3'-digalacturonide"
+	"N-acyl capnines_2"
+	"Patuletin 3-(6''-(E)-feruloylglucoside)"
+	"Patuletin 3-(6''-(E)-feruloylglucoside)_2"
+	"PE(17:2(9Z,12Z)/20:0)_2"
+	"Pratensin A_2"
+	"PS(O-16:0/12:0)_2"
+	"Quercetin 3-(6''-malonylglucoside)-7-glucoside"
+	"Tricetin 3'-methyl ether 7,5'-diglucuronide"
+	"Tyrphostin B44 (-)_2"
+Warning: The "inchi_key" column at position 6 in the METABOLITES table, matches a standard column name, "inchi_key", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+257     C05551
+287     C08673
+303     C08673
+353     C05551
+370     C16672
+427     C09521
+435     C00431
+437     C00350
+443     C00837
+457     C05551
+471     C00431
+502     C12381
+503     C16672
+505     C00350
+523     C11012
+525     C18363
+554     C15758
+557     C12244
+589     C18873
+600     C17231
+615     C00431
+620     C05306
+654     C00413
+760     C08673
+771     C17708
+790     C01683
+805     C00780
+850     C17708
+896     C06540
+917     C00413
+932     C05551
+959     C15733
+979     C00413
+1181    C00242
+1256    C02420
+1300    C14308
+1542    C15445
+1611    C08302
+1706    C00246
+1828    C00350
+1976    C09869
+2102    C14758
+2117    C00380
+2119    C00380
+2126    C04663
+Warning: The "ri" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "other_id" and "other_id_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "pubchem_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 8 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 6 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "kegg_id" column at position 7 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

@@ -1,12 +1,32 @@
 Validation Log
-2025-12-07 07:28:49.656599
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:39:43.360424
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004787/mwtab/txt
 Study ID:      ST002917
 Analysis ID:   AN004787
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 13
 
-Error Log:
-SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Wrong key 'SOLVENT_C' in OrderedDict([('CHROMATOGRAPHY_SUMMARY', 'For each sample, a 20 µL aliquot of AWF was lyophilized to dryness and resuspended in 10 µL of 30 mg/mL methoxyamine hydrochloride (Sigma-Aldrich) in pyridine (Sigma-Aldrich). The resuspended sample was incubated at 37°C and shaken at 1800 rpm for 90 minutes. After adding 20 µL of N-methyl-N-(trimethylsilyl)trifluoroacetamide (MSTFA) with 1% trimethylchlorosilane (CovaChem), the sample was incubated at 37°C and shaken at 1800 rpm for 30 minutes. Each derivatized sample was injected with a 10:1 split into an Agilent 7890B GC system with a 30 m +10 m Duraguard x 0.25 mm x 0.25 μm DB-5MS+DG Agilent column. The oven temperature was kept at 60°C for 1 minute, then ramped to 300°C at a rate of 10°C/min and held at 300°C for 10 minutes. Analytes were detected with an Agilent 5977B MSD in EI mode scanning from 50 m/z to 600 m/z. Mass spectrum analysis, component identification and peak area quantification were performed with AMDIS (http://www.amdis.net/). To reduce erroneous identifications during automated feature identification, the FiehnLib library was used to create a custom library that included both identified compounds along with unidentified prominent peaks that were recorded as unknowns and designated by their respective retention times72. Statistics were performed with MetaboAnalyst73 and MetaboAnalystR74. An in house perl script was used to collate AMDIS-generated peak areas into an Excel spreadsheet. Peaks that were present in blank samples containing derivatization chemicals only were removed from the data set. Two to three technical replicates were analyzed for each sample and averaged to produce a single sample value. MetaboAnalyst settings were selected to replace missing values by 1/5 of the minimum positive value for each feature and normalize the peak areas of the features by the peak area of the internal ribitol standard in each respective sample.'), ('CHROMATOGRAPHY_TYPE', 'GC'), ('INSTRUMENT_NAME', 'Agilent 7890B'), ('COLUMN_NAME', 'Agilent DB5-MS (30m x 0.25mm, 0.25um)'), ('SOLVENT_A', 'NA'), ('SOLVENT_B', 'NA'), ('SOLVENT_C', 'NA'), ('FLOW_GRADIENT', 'NA'), ('FLOW_RATE', '.52 mL/min helium gas'), ('COLUMN_TEMPERATURE', '60 ramped to 300'), ('INJECTION_TEMPERATURE', '250'), ('INTERNAL_STANDARD', 'ribitol')])
+Number of Warnings: 5
+
+Number of Value Errors: 10
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 2
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection.
+Error: The value, ".52 mL/min helium gas", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "60 ramped to 300", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_A", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_B", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection.
+Error: The value, "250", for the subsection, "INJECTION_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid subsection, "SOLVENT_C", in the "CHROMATOGRAPHY" section .
+Error: Unknown or invalid section, "FACTORS".
+Warning: The "m/z" column at position 5 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 4 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Retention time" column at position 3 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Retention index" column at position 2 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "Retention index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.

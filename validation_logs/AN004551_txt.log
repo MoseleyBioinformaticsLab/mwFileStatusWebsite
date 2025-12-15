@@ -1,8 +1,58 @@
 Validation Log
-2025-12-07 07:03:42.204403
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:21:06.047531
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004551/mwtab/txt
 Study ID:      ST002797
 Analysis ID:   AN004551
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 5
+
+Number of Warnings: 4
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "25", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "KEGG" column at position 6 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 6 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+20     0
+35     0
+36     0
+37     0
+38     0
+55     0
+78     0
+79     0
+80     0
+81     0
+83     0
+88     0
+94     0
+97     0
+102    0
+103    0
+104    0
+105    0
+111    0
+112    0
+122    0
+127    0
+130    0
+132    0
+147    0
+148    0
+149    0
+150    0
+151    0
+152    0
+153    0
+154    0
+215    0
+217    0
+Warning: The "CAS ID" column at position 5 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

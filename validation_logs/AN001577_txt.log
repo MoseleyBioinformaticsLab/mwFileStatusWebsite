@@ -1,8 +1,168 @@
 Validation Log
-2025-12-07 03:32:32.273507
-mwtab Python Library Version: 1.2.5
+2025-12-14 22:37:08.607743
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001577/mwtab/txt
 Study ID:      ST000963
 Analysis ID:   AN001577
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 11
+
+Number of Warnings: 2
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "10-week-old", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "not measured", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "not measured", for the subsection, "HEIGHT_OR_HEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['cm', 'in']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "SPECIES_GROUP", in the "SUBJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "310ºC (negative mode) or 350ºC (positive mode)", for the subsection, "CAPILLARY_TEMPERATURE", in the "MS" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "260 µL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "30 (negative mode)/45 (positive mode)", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "5 µL", for the subsection, "SAMPLE_INJECTION", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Warning: The "CalcMass" column at position 2 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 3 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+25      C32 H55 O8 N0 P1
+26      C41 H71 O8 N0 P1
+27      C37 H69 O7 N0 P1
+28      C39 H73 O7 N0 P1
+29      C41 H71 O7 N0 P1
+30      C43 H77 O8 N0 P1
+31      C43 H75 O8 N0 P1
+32      C45 H79 O8 N0 P1
+33      C45 H77 O8 N0 P1
+34      C43 H73 O8 N0 P1
+35      C41 H77 O7 N0 P1
+36      C43 H75 O7 N0 P1
+37      C39 H71 O7 N0 P1
+38      C41 H75 O7 N0 P1
+39      C43 H81 O7 N0 P1
+40      C43 H79 O7 N0 P1
+41      C43 H75 O7 N0 P1
+42      C43 H73 O7 N0 P1
+43      C45 H83 O7 N0 P1
+44      C45 H81 O7 N0 P1
+45      C45 H79 O7 N0 P1
+46      C45 H77 O7 N0 P1
+47      C45 H75 O7 N0 P1
+48      C49 H73 O8 N0 P1
+194     C19 H37 O6 N0 P1
+318    C27 H53 O12 N0 P1
+319    C29 H49 O12 N0 P1
+347     C35 H69 O8 N0 P1
+348     C37 H71 O8 N0 P1
+349     C39 H69 O8 N0 P1
+350     C39 H75 O8 N0 P1
+351     C41 H79 O8 N0 P1
+352     C41 H73 O8 N0 P1
+353     C43 H77 O8 N0 P1
+354     C39 H73 O8 N0 P1
+355     C43 H83 O8 N0 P1
+356     C43 H81 O8 N0 P1
+357     C45 H87 O8 N0 P1
+358     C45 H85 O8 N0 P1
+359     C41 H77 O8 N0 P1
+575     C38 H75 O8 N0 P1
+576     C39 H75 O8 N0 P1
+577     C39 H73 O8 N0 P1
+578     C41 H79 O8 N0 P1
+579     C42 H83 O8 N0 P1
+580     C43 H77 O8 N0 P1
+581     C41 H73 O8 N0 P1
+582    C38 H75 O10 N0 P1
+583    C38 H73 O10 N0 P1
+584    C40 H77 O10 N0 P1
+585    C40 H75 O10 N0 P1
+586    C42 H79 O10 N0 P1
+587    C44 H75 O10 N0 P1
+588    C42 H81 O10 N0 P1
+589    C44 H85 O10 N0 P1
+590    C44 H79 O10 N0 P1
+591    C42 H79 O10 N0 P1
+592    C42 H77 O10 N0 P1
+593    C44 H79 O10 N0 P1
+594    C44 H77 O10 N0 P1
+595    C46 H81 O10 N0 P1
+596    C46 H77 O10 N0 P1
+597    C42 H75 O10 N0 P1
+598    C44 H75 O10 N0 P1
+599    C46 H75 O10 N0 P1
+600    C48 H75 O10 N0 P1
+601    C46 H79 O10 N0 P1
+602    C50 H81 O10 N0 P1
+603    C50 H79 O10 N0 P1
+604    C48 H77 O10 N0 P1
+605    C50 H79 O10 N0 P1
+606    C50 H77 O10 N0 P1
+607    C50 H75 O10 N0 P1
+608    C43 H75 O13 N0 P1
+609    C44 H77 O13 N0 P1
+610    C41 H79 O13 N0 P1
+611    C41 H77 O13 N0 P1
+612    C43 H81 O13 N0 P1
+613    C43 H79 O13 N0 P1
+614    C43 H77 O13 N0 P1
+615    C45 H81 O13 N0 P1
+616    C45 H79 O13 N0 P1
+617    C45 H77 O13 N0 P1
+618    C47 H79 O13 N0 P1
+619    C45 H81 O12 N0 P1
+620    C43 H79 O13 N0 P1
+621    C45 H77 O13 N0 P1
+622    C46 H81 O13 N0 P1
+623    C44 H81 O13 N0 P1
+624    C43 H83 O13 N0 P1
+625    C45 H85 O13 N0 P1
+626    C45 H83 O13 N0 P1
+627    C47 H87 O13 N0 P1
+628    C47 H85 O13 N0 P1
+629    C47 H83 O13 N0 P1
+630    C47 H81 O13 N0 P1
+631    C49 H89 O13 N0 P1
+632    C49 H87 O13 N0 P1
+633    C49 H85 O13 N0 P1
+634    C49 H83 O13 N0 P1
+635    C47 H85 O12 N0 P1
+636    C47 H83 O12 N0 P1
+637    C49 H87 O12 N0 P1
+638    C41 H75 O13 N0 P1
+639    C45 H83 O13 N0 P1
+640    C45 H81 O13 N0 P1
+641    C47 H85 O13 N0 P1
+642    C47 H81 O13 N0 P1
+643    C49 H85 O13 N0 P1
+644    C49 H83 O13 N0 P1
+645    C49 H81 O13 N0 P1
+646    C47 H79 O13 N0 P1
+647    C47 H77 O13 N0 P1
+648    C48 H85 O13 N0 P1
+649    C49 H87 O13 N0 P1
+650    C49 H83 O13 N0 P1
+651    C49 H83 O13 N0 P1
+652    C49 H81 O13 N0 P1
+653    C49 H79 O13 N0 P1
+654    C51 H79 O13 N0 P1
+655    C51 H81 O13 N0 P1
+656    C53 H79 O13 N0 P1
+657     C34 H67 O8 N0 P1
+658     C36 H71 O8 N0 P1
+659     C36 H69 O8 N0 P1
+660     C38 H73 O8 N0 P1
+661     C40 H71 O8 N0 P1
+662     C42 H71 O8 N0 P1
+663     C34 H65 O8 N0 P1
+664     C36 H67 O8 N0 P1
+665     C38 H71 O8 N0 P1
+666     C38 H75 O8 N0 P1
+667     C40 H77 O8 N0 P1
+668     C42 H83 O8 N0 P1
+669     C42 H75 O8 N0 P1
+670     C44 H75 O8 N0 P1
+671     C40 H75 O8 N0 P1
+672     C40 H73 O8 N0 P1

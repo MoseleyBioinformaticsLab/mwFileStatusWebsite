@@ -1,8 +1,107 @@
 Validation Log
-2025-12-07 01:13:49.644534
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:02:55.769705
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000096/mwtab/txt
 Study ID:      ST000058
 Analysis ID:   AN000096
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 27
+
+Number of Warnings: 8
+
+Number of Value Errors: 20
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 3
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "SAMPLEPREP_SUMMARY", in the "SAMPLEPREP" section. A legitimate value should be provided for this required subsection.
+Error: The value, "250°C", for the subsection, "ION_SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "70eV", for the subsection, "IONIZATION_ENERGY", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['eV']. Ignore this when more complicated descriptions are required.
+Error: The value, "250°C", for the subsection, "SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "1 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "50 - 330C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.5l", for the subsection, "SAMPLE_INJECTION", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "7.7 PSI (initial condition)", for the subsection, "COLUMN_PRESSURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['psi', 'bar']. Ignore this when more complicated descriptions are required.
+Error: The value, "50C ramped to 250C by 12C/s", for the subsection, "INJECTION_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Error: The value, "230C", for the subsection, "TRANSFERLINE_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "30 m length x 0.25 mm internal diameter", for the subsection, "SAMPLE_LOOP_SIZE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"5^-deoxy-5^-methylthioadenosine"
+	"butane-2_3-diol"
+	"cytidine-5^-diphosphate"
+	"fructose-1_6-bisphosphate"
+	"inosine 5^-monophosphate"
+	"pyrazine 2_5-dihydroxy  NIST"
+	"uridine-5^-monophosphate"
+Warning: The following metabolites in the MS_METABOLITE_DATA table appear more than once in the table:
+	"urea"
+	"N-acetylaspartic acid"
+	"fructose"
+	"CMP"
+	"2-ketoisocaproic acid"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"5'-deoxy-5'-methylthioadenosine"
+	"cytidine-5'-diphosphate"
+	"inosine 5'-monophosphate"
+	"pyrazine 2,5-dihydroxy  NIST"
+	"uridine-5'-monophosphate"
+Warning: The following metabolites in the METABOLITES table appear more than once in the table:
+	"urea"
+	"N-acetylaspartic acid"
+	"fructose"
+	"CMP"
+	"2-ketoisocaproic acid"
+Warning: The "inchi_key" column at position 6 in the METABOLITES table, matches a standard column name, "inchi_key", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+141    C00310
+142    C00105
+145    C01712
+146    C01042
+148    C01835
+149    C00208
+151    C00130
+154    C00092
+155    C00446
+156    C01235
+157    C00122
+158    C00095
+159    C00022
+160    C00112
+161    C00055
+162    C00170
+163    C00233
+Warning: The "ri" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index_type", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+141     5289590
+142        6030
+144    23368901
+145     5282749
+146       65065
+147       10465
+148       92146
+149        6255
+151        8582
+152      193325
+153    16639161
+154        5958
+155       99058
+156      439451
+157      444972
+158        5984
+159        1060
+160         290
+161        6131
+162      439176
+163          70
+164       14900
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.

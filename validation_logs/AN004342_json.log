@@ -1,12 +1,187 @@
 Validation Log
-2025-12-07 06:46:23.684647
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:07:59.665011
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004342/mwtab/json
 Study ID:      ST002670
 Analysis ID:   AN004342
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 9
 
-Error Log:
-SCHEMA: Section "COLLECTION" does not match the allowed schema. Missing key: 'COLLECTION_SUMMARY'
+Number of Warnings: 5
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The required property, "COLLECTION_SUMMARY", in ["COLLECTION"] is missing.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: The value, "0.4 ml/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "50C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "mz" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "neutral_mass" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "formula" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+2       C38 H67 D7 N O8 P
+3       C23 H39 D7 N O7 P
+4      C42 H75 D7 N O10 P
+5       C27 H47 D7 N O9 P
+24         C48 H82 N O9 P
+25         C46 H78 N O9 P
+26         C46 H78 N O9 P
+27        C46 H78 N O10 P
+28        C46 H78 N O10 P
+29        C46 H80 N O10 P
+30        C46 H80 N O10 P
+31        C46 H82 N O10 P
+32        C44 H76 N O10 P
+33        C44 H78 N O10 P
+34        C44 H78 N O10 P
+35        C44 H80 N O10 P
+36        C44 H82 N O10 P
+37        C42 H78 N O10 P
+38        C42 H80 N O10 P
+39     C40 H77 N Na O10 P
+68         C47 H84 N O7 P
+69         C47 H86 N O7 P
+70         C45 H76 N O7 P
+71         C45 H78 N O7 P
+72         C45 H80 N O7 P
+73         C45 H80 N O7 P
+74         C45 H80 N O7 P
+75         C45 H82 N O7 P
+76         C45 H84 N O7 P
+77         C44 H80 N O7 P
+78         C44 H80 N O7 P
+79         C44 H80 N O7 P
+80         C44 H80 N O7 P
+81         C43 H74 N O7 P
+82         C43 H74 N O7 P
+83         C43 H76 N O7 P
+84         C43 H76 N O7 P
+85         C43 H78 N O7 P
+86         C43 H78 N O7 P
+87         C43 H78 N O7 P
+88         C43 H80 N O7 P
+89         C43 H80 N O7 P
+90         C43 H82 N O7 P
+91         C43 H84 N O7 P
+92         C41 H74 N O7 P
+93         C41 H80 N O7 P
+94         C41 H76 N O7 P
+95         C41 H76 N O7 P
+96         C41 H76 N O7 P
+97         C41 H82 N O7 P
+98         C41 H78 N O7 P
+99         C40 H78 N O7 P
+100        C40 H78 N O7 P
+101        C42 H76 N O7 P
+102        C42 H76 N O7 P
+103        C39 H74 N O7 P
+104        C39 H76 N O7 P
+105        C39 H78 N O7 P
+106        C37 H72 N O7 P
+107        C37 H74 N O7 P
+108        C47 H84 N O8 P
+109        C47 H86 N O8 P
+110        C45 H78 N O8 P
+111        C45 H80 N O8 P
+112        C45 H82 N O8 P
+113        C45 H82 N O8 P
+114        C45 H86 N O8 P
+115        C45 H88 N O8 P
+116        C43 H74 N O8 P
+117        C43 H74 N O8 P
+118        C43 H76 N O8 P
+119        C43 H76 N O8 P
+120        C43 H78 N O8 P
+121        C43 H78 N O8 P
+122        C43 H80 N O8 P
+123        C43 H84 N O8 P
+124        C42 H76 N O8 P
+125        C41 H72 N O8 P
+126        C41 H74 N O8 P
+127        C41 H76 N O8 P
+128        C41 H78 N O8 P
+129        C41 H78 N O8 P
+130        C41 H80 N O8 P
+131        C41 H80 N O8 P
+132        C39 H72 N O8 P
+133        C39 H74 N O8 P
+134        C39 H76 N O8 P
+135        C39 H78 N O8 P
+136        C37 H72 N O8 P
+137        C47 H86 N O9 P
+138        C45 H82 N O9 P
+139        C45 H84 N O9 P
+140        C43 H86 N O9 P
+141        C43 H86 N O9 P
+142        C41 H82 N O9 P
+143        C41 H84 N O9 P
+144       C51 H82 N O10 P
+145      C51 H100 N O10 P
+146       C49 H82 N O10 P
+147       C49 H88 N O10 P
+148       C49 H90 N O10 P
+149       C49 H94 N O10 P
+150       C49 H96 N O10 P
+151       C47 H82 N O10 P
+152       C47 H82 N O10 P
+153       C47 H84 N O10 P
+154       C47 H84 N O10 P
+155       C47 H86 N O10 P
+156       C47 H86 N O10 P
+157       C47 H88 N O10 P
+158       C47 H90 N O10 P
+159       C47 H90 N O10 P
+160       C46 H84 N O10 P
+161       C45 H80 N O10 P
+162       C45 H80 N O10 P
+163       C45 H82 N O10 P
+164       C45 H82 N O10 P
+165       C45 H84 N O10 P
+166       C45 H86 N O10 P
+167       C45 H88 N O10 P
+168       C45 H90 N O10 P
+169       C44 H84 N O10 P
+170       C43 H78 N O10 P
+171       C43 H78 N O10 P
+172       C43 H80 N O10 P
+173       C43 H80 N O10 P
+174       C43 H82 N O10 P
+175       C43 H84 N O10 P
+176       C43 H86 N O10 P
+177       C41 H78 N O10 P
+178       C41 H80 N O10 P
+179       C41 H82 N O10 P
+180       C39 H78 N O10 P
+181        C23 H48 N O6 P
+182        C20 H44 N O6 P
+183        C25 H52 N O7 P
+184        C23 H48 N O7 P
+185        C21 H44 N O7 P
+186        C27 H52 N O9 P
+187         C49 H93 N O10
+188         C49 H95 N O10
+189         C47 H91 N O10
+193          C45 H89 N O5
+194          C42 H81 N O3
+195          C43 H83 N O5
+196          C43 H85 N O5
+197          C42 H83 N O3
+198          C43 H87 N O6
+199          C43 H87 N O5
+200          C42 H83 N O5
+201          C41 H79 N O5
+202          C40 H79 N O3
+203          C39 H77 N O5
+204          C35 H69 N O5
+205        C29 H52 N O9 P
+206        C27 H54 N O9 P
+207        C27 H56 N O9 P
+208        C26 H54 N O9 P
+209        C25 H52 N O9 P
+Warning: The "refmet_name" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "rt" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

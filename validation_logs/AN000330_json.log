@@ -1,8 +1,53 @@
 Validation Log
-2025-12-07 01:28:09.622112
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:13:27.931703
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000330/mwtab/json
 Study ID:      ST000221
 Analysis ID:   AN000330
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 16
+
+Number of Warnings: 6
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected in ["STUDY"]["ADDRESS"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["STUDY"]["PHONE"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"1-(2E_6E-phytadienyl)-2-(2E_6E-phytadienyl)-sn-glycero-3-phosphocholine"
+	"1-(2-Hydroxyphenylamino)-1-deoxy-beta-D-gentiobioside 1_2-carbamate"
+	"27-nor-campestan-3beta_4beta_5alpha_6alpha_7beta_8beta_14alpha_15alpha_24-nonol"
+	"3^-N-Acetyl-4^-O-(10_12-octadecadienoyl)fusarochromanone"
+	"5-Ethynyl-5^-(1-propynyl)-2_2^-bithiophene"
+	"PG(O-20:0/22:6(4Z_7Z_10Z_13Z_16Z_19Z))"
+	"PS(20:3(8Z_11Z_14Z)/0:0)"
+	"PS(P-20:0/17:2(9Z_12Z))"
+	"S-(2_5-Dimethyl-3-furanyl) 2-furancarbothioate"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"1-(2E,6E-phytadienyl)-2-(2E,6E-phytadienyl)-sn-glycero-3-phosphocholine"
+	"1-(2-Hydroxyphenylamino)-1-deoxy-beta-D-gentiobioside 1,2-carbamate"
+	"27-nor-campestan-3beta,4beta,5alpha,6alpha,7beta,8beta,14alpha,15alpha,24-nonol"
+	"3'-N-Acetyl-4'-O-(10,12-octadecadienoyl)fusarochromanone"
+	"5-Ethynyl-5'-(1-propynyl)-2,2'-bithiophene"
+	"PG(O-20:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))"
+	"PS(20:3(8Z,11Z,14Z)/0:0)"
+	"PS(P-20:0/17:2(9Z,12Z))"
+	"S-(2,5-Dimethyl-3-furanyl) 2-furancarbothioate"
+Warning: The "ri" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "pubchem_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "kegg_id" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

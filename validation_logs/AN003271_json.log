@@ -1,8 +1,66 @@
 Validation Log
-2025-12-07 05:25:01.206221
-mwtab Python Library Version: 1.2.5
+2025-12-15 00:04:40.314978
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003271/mwtab/json
 Study ID:      ST002008
 Analysis ID:   AN003271
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 47
+
+Number of Warnings: 41
+
+Number of Value Errors: 42
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The value in ["TREATMENT"]["TREATMENT_DOSEDURATION"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['h', 'weeks', 'days']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "mz" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "pubchemcode" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "keggcode" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "rt" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "190730_Blk_Blk_1" column at position 85 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_10" column at position 86 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_11" column at position 87 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_12" column at position 88 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_13" column at position 89 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_14" column at position 90 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_15" column at position 91 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_16" column at position 92 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_17" column at position 93 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_18" column at position 94 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_19" column at position 95 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_2" column at position 96 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_20" column at position 97 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_21" column at position 98 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_22" column at position 99 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_23" column at position 100 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_24" column at position 101 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_25" column at position 102 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_26" column at position 103 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_27" column at position 104 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_28" column at position 105 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_29" column at position 106 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_3" column at position 107 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_30" column at position 108 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_31" column at position 109 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_32" column at position 110 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_33" column at position 111 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_34" column at position 112 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_4" column at position 113 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_5" column at position 114 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_6" column at position 115 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_7" column at position 116 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_8" column at position 117 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Blk_Blk_9" column at position 118 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Std_HILICMix3-H2O_1" column at position 119 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "190730_Std_HILICMix3-H2O_2" column at position 120 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "pubchemcode" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

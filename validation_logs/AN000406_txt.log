@@ -1,8 +1,164 @@
 Validation Log
-2025-12-07 01:35:24.198042
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:19:08.129250
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000406/mwtab/txt
 Study ID:      ST000257
 Analysis ID:   AN000406
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 113
+
+Number of Warnings: 101
+
+Number of Value Errors: 109
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection.
+Error: The value, "See protocol file", for the subsection, "CAPILLARY_TEMPERATURE", in the "MS" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "Negative", for the subsection, "CAPILLARY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "CHROMATOGRAPHY_TYPE", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "COLUMN_NAME", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection.
+Error: The value, "0.25", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "5 L", for the subsection, "SAMPLE_INJECTION", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "600 L", for the subsection, "WEAK_WASH_VOLUME", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "600 L", for the subsection, "STRONG_WASH_VOLUME", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "17 L", for the subsection, "SAMPLE_LOOP_SIZE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Warning: There are duplicate samples in the MS_METABOLITE_DATA section.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"11_12_15-THET"
+	"11_12-DiHETrE_1"
+	"12_13-DiHODE_1"
+	"12_13-DiHOME_1"
+	"14_15-DiHETE_1"
+	"14_15-DiHETrE_1"
+	"15_16-DiHODE_1"
+	"17_18-DiHETE_1"
+	"19_20-DiHDoPA_1"
+	"5_15-DiHETE_1"
+	"5_6-DiHETrE_1"
+	"8_15-DiHETE_1"
+	"8_9-DiHETrE_1"
+	"9_10-DiHODE_1"
+	"9_10-DiHOME_1"
+	"9_12_13-TriHOME_1"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"11,12,15-THET"
+	"11,12-DiHETrE"
+	"12,13-DiHODE"
+	"12,13-DiHOME"
+	"14,15-DiHETE"
+	"14,15-DiHETrE"
+	"15,16-DiHODE"
+	"17,18-DiHETE"
+	"19,20-DiHDoPA"
+	"5,15-DiHETE"
+	"5,6-DiHETrE"
+	"8,15-DiHETE"
+	"8,9-DiHETrE"
+	"9,10-DiHODE"
+	"9,10-DiHOME"
+	"9,12,13-TriHOME"
+Warning: The "ri" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "other_id" and "other_id_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "LF liv 6" column at position 92 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "LF liv 6" column at position 93 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "LF liv 7" column at position 94 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "LF liv 7" column at position 95 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "LF liv 8" column at position 96 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "LF liv 8" column at position 97 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "LF mus 1" column at position 98 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "LF mus 1" column at position 99 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "LF mus 2" column at position 100 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "LF mus 2" column at position 101 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "LF mus 3" column at position 102 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "LF mus 3" column at position 103 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "LF mus 6" column at position 104 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "LF mus 6" column at position 105 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "LF mus 7" column at position 106 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "LF mus 7" column at position 107 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "LF mus 8" column at position 108 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "LF mus 8" column at position 109 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "LF plasma 1" column at position 110 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "LF plasma 1" column at position 111 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "LF plasma 2" column at position 112 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "LF plasma 2" column at position 113 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "LF plasma 3" column at position 114 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "LF plasma 3" column at position 115 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "LF plasma 6" column at position 116 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "LF plasma 6" column at position 117 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "LF plasma 7" column at position 118 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "LF plasma 7" column at position 119 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "LF plasma 8" column at position 120 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "LF plasma 8" column at position 121 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW epi 2" column at position 122 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW epi 2" column at position 123 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW epi 3" column at position 124 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW epi 3" column at position 125 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW epi 4" column at position 126 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW epi 4" column at position 127 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW epi 5" column at position 128 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW epi 5" column at position 129 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW epi 7" column at position 130 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW epi 7" column at position 131 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW epi 8" column at position 132 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW epi 8" column at position 133 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW Hypo 2" column at position 134 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW Hypo 2" column at position 135 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW Hypo 3" column at position 136 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW Hypo 3" column at position 137 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW Hypo 4" column at position 138 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW Hypo 4" column at position 139 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW Hypo 5" column at position 140 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW Hypo 5" column at position 141 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW Hypo 7" column at position 142 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW Hypo 7" column at position 143 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW Hypo 8" column at position 144 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW Hypo 8" column at position 145 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW liv 2" column at position 146 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW liv 2" column at position 147 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW liv 3" column at position 148 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW liv 3" column at position 149 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW liv 4" column at position 150 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW liv 4" column at position 151 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW liv 5" column at position 152 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW liv 5" column at position 153 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW liv 7" column at position 154 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW liv 7" column at position 155 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW liv 8" column at position 156 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW liv 8" column at position 157 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW mus 2" column at position 158 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW mus 2" column at position 159 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW mus 3" column at position 160 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW mus 3" column at position 161 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW mus 4" column at position 162 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW mus 4" column at position 163 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW mus 5" column at position 164 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW mus 5" column at position 165 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW mus 7" column at position 166 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW mus 7" column at position 167 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW mus 8" column at position 168 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW mus 8" column at position 169 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW plasma 2" column at position 170 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW plasma 2" column at position 171 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW plasma 3" column at position 172 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW plasma 3" column at position 173 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW plasma 4" column at position 174 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW plasma 4" column at position 175 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW plasma 5" column at position 176 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW plasma 5" column at position 177 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW plasma 7" column at position 178 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW plasma 7" column at position 179 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "SW plasma 8" column at position 180 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "SW plasma 8" column at position 181 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "moverz_quant" column at position 2 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 3 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 4 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 6 in the METABOLITES table has all null values.
+Warning: The "kegg_id" column at position 7 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 8 in the METABOLITES table has all null values.

@@ -1,449 +1,149 @@
 Validation Log
-2025-12-07 02:02:52.720086
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:35:23.153336
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000647/mwtab/txt
 Study ID:      ST000407
 Analysis ID:   AN000647
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 438
+Status: Contains Validation Issues
+Number of Issues: 130
 
-Error Log:
-SUBJECT_SAMPLE_FACTORS: Entry #1 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #2 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #3 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #4 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #5 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #6 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #7 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #8 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #9 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #10 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #11 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #12 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #13 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #14 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #15 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #16 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #17 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #18 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #19 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #20 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #21 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #22 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #23 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #24 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #25 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #26 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #27 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #28 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #29 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #30 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #30 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #31 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #32 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #33 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #33 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #34 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #35 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #35 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #36 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #37 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #37 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #38 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #39 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #40 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #41 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #42 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #43 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #43 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #44 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #45 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #45 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #46 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #46 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #47 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #48 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #49 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #50 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #51 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #52 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #53 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #54 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #55 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #56 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #56 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #57 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #58 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #58 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #59 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #60 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #60 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #61 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #62 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #62 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #63 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #64 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #65 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #66 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #66 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #67 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #68 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #69 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #70 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #71 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #72 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #73 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #74 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #75 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #75 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #76 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #77 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #78 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #79 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #79 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #80 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #81 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #82 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #83 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #84 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #84 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #85 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #85 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #86 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #86 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #87 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #88 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #89 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #89 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #90 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #90 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #91 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #91 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #92 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #93 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #93 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #94 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #95 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #96 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #97 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #98 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #98 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #99 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #99 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #100 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #101 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #102 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #102 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #103 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #104 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #104 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #105 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #105 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #106 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #106 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #107 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #108 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #108 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #109 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #109 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #110 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #110 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #111 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #111 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #112 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #113 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #113 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #114 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #114 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #115 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #116 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #116 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #117 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #117 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #118 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #118 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #119 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #120 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #121 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #122 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #123 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #124 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #125 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #125 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #126 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #127 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #128 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #128 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #129 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #129 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #130 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #130 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #131 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #131 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #132 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #133 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #133 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #134 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #135 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #135 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #136 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #136 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #137 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #137 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #138 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #139 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #139 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #140 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #141 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #142 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #143 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #143 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #144 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #145 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #145 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #146 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #147 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #148 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #148 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #149 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #149 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #150 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #151 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #152 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #153 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #154 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #155 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #156 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #156 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #157 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #157 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #158 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #158 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #159 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #160 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #161 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #161 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #162 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #163 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #164 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #164 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #165 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #166 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #167 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #168 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #168 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #169 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #169 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #170 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #170 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #171 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #172 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #173 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #174 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #175 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #175 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #176 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #177 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #178 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #178 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #179 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #180 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #181 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #182 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #182 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #183 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #183 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #184 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #184 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #185 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #186 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #187 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #188 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #188 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #189 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #189 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #190 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #190 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #191 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #192 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #192 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #193 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #193 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #194 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #195 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #195 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #196 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #197 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #197 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #198 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #198 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #199 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #199 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #200 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #200 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #201 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #201 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #202 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #202 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #203 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #203 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #204 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #204 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #205 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #205 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #206 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #206 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #207 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #207 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #208 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #209 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #210 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #210 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #211 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #211 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #212 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #213 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #213 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #214 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #214 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #215 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #216 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #216 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #217 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #217 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #218 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #218 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #219 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #219 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #220 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #220 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #221 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #221 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #222 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #222 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #223 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #223 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #224 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #224 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #225 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #226 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #226 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #227 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #227 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #228 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #229 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #230 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #230 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #231 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #232 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #232 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #233 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #234 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #235 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #236 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #237 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #237 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #238 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #239 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #239 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #240 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #241 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #242 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #243 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #244 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #244 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #245 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #245 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #246 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #246 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #247 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #247 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #248 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #249 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #250 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #250 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #251 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #252 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #253 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #254 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #255 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #256 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #257 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #258 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #259 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #260 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #261 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #261 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #262 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #262 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #263 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #263 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #264 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #265 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #265 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #266 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #267 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #267 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #268 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #268 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #269 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #270 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #271 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #271 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #272 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #273 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #273 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #274 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #275 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #275 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #276 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #277 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #278 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #279 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #280 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #281 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #281 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #282 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #282 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #283 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #283 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #284 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #284 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #285 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #285 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #286 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #286 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #287 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #287 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #288 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #289 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #289 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #290 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #291 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #292 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #292 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #293 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #293 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #294 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #295 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #296 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #297 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #297 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #298 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #299 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #299 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #300 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #301 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #301 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #302 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #302 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #303 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #304 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #305 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #306 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #307 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #307 missing value for Additional sample data Pool_Info.
-SUBJECT_SAMPLE_FACTORS: Entry #308 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #309 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #310 missing Subject ID.
+Number of Warnings: 128
+
+Number of Value Errors: 129
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 30 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 33 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 35 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 37 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 43 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 45 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 46 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 56 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 58 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 60 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 62 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 66 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 75 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 79 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 84 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 85 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 86 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 89 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 90 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 91 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 93 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 98 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 99 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 102 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 104 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 105 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 106 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 108 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 109 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 110 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 111 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 113 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 114 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 116 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 117 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 118 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 125 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 128 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 129 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 130 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 131 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 133 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 135 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 136 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 137 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 139 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 143 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 145 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 148 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 149 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 156 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 157 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 158 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 161 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 164 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 168 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 169 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 170 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 175 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 178 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 182 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 183 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 184 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 188 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 189 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 190 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 192 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 193 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 195 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 197 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 198 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 199 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 200 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 201 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 202 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 203 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 204 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 205 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 206 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 207 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 210 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 211 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 213 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 214 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 216 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 217 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 218 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 219 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 220 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 221 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 222 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 223 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 224 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 226 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 227 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 230 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 232 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 237 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 239 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 244 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 245 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 246 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 247 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 250 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 261 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 262 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 263 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 265 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 267 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 268 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 271 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 273 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 275 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 281 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 282 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 283 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 284 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 285 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 286 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 287 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 289 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 292 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 293 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 297 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 299 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 301 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 302 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Warning: The value, "", for the "Pool_Info" in "Additional sample data" in entry 307 of the "SUBJECT_SAMPLE_FACTORS" section is missing a value.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection.
+Error: Unknown or invalid section, "CHROMATOGRAPHY".

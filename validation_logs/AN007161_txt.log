@@ -1,12 +1,39 @@
 Validation Log
-2025-12-07 09:55:35.286096
-mwtab Python Library Version: 1.2.5
+2025-12-15 03:29:00.987359
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007161/mwtab/txt
 Study ID:      ST004304
 Analysis ID:   AN007161
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 20
 
-Error Log:
-SCHEMA: Section "STUDY" does not match the allowed schema. Wrong key 'DISEASE_ASSOCIATION' in OrderedDict([('STUDY_TITLE', 'Untargeted UHPLC-Q-Orbitrap Metabolomic Profiling of Cattle Serum after Testosterone Propionate Administration'), ('STUDY_TYPE', 'Untargeted Metabolomics'), ('STUDY_SUMMARY', 'This study presents an untargeted metabolomic analysis of cattle serum using UHPLC-Q-Orbitrap mass spectrometry to investigate metabolic alterations following testosterone propionate administration. The data include raw and processed MS files, feature tables, and statistical analyses supporting biomarker discovery and pathway elucidation.'), ('INSTITUTE', 'Universidade Federal de Minas Gerais'), ('DEPARTMENT', 'Department of Chemistry'), ('LABORATORY', '261A'), ('LAST_NAME', 'Rocha'), ('FIRST_NAME', 'Diego'), ('ADDRESS', 'Av. Antônio Carlos 6627, Belo Horizonte, MG, 31270-901, Brazil'), ('EMAIL', 'diegogr.ufmg@gmail.com'), ('PHONE', '553134095734'), ('NUM_GROUPS', '-'), ('TOTAL_SUBJECTS', '-'), ('NUM_MALES', '-'), ('NUM_FEMALES', '-'), ('STUDY_COMMENTS', '-'), ('PUBLICATIONS', '-'), ('DISEASE_ASSOCIATION', '-')])
+Number of Warnings: 0
+
+Number of Value Errors: 19
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "NUM_GROUPS", in the "STUDY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "TOTAL_SUBJECTS", in the "STUDY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "NUM_MALES", in the "STUDY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "NUM_FEMALES", in the "STUDY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "STUDY_COMMENTS", in the "STUDY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "PUBLICATIONS", in the "STUDY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: Unknown or invalid subsection, "DISEASE_ASSOCIATION", in the "STUDY" section .
+Error: An empty value or a null value was detected for the subsection, "GENOTYPE_STRAIN", in the "SUBJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "-", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "-", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "-", for the subsection, "HEIGHT_OR_HEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['cm', 'in']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "ANIMAL_ANIMAL_SUPPLIER", in the "SUBJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "ANIMAL_HOUSING", in the "SUBJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "ANIMAL_LIGHT_CYCLE", in the "SUBJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "ANIMAL_FEED", in the "SUBJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "ANIMAL_WATER", in the "SUBJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "ANIMAL_INCLUSION_CRITERIA", in the "SUBJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "SPECIES_GROUP", in the "SUBJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "0.3 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.

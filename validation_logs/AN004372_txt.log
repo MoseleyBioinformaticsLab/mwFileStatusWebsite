@@ -1,8 +1,76 @@
 Validation Log
-2025-12-07 06:48:39.307731
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:09:43.803378
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004372/mwtab/txt
 Study ID:      ST002698
 Analysis ID:   AN004372
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 25
+
+Number of Warnings: 10
+
+Number of Value Errors: 21
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "NA", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "NA", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "NA", for the subsection, "HEIGHT_OR_HEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['cm', 'in']. Ignore this when more complicated descriptions are required.
+Error: The value, "Not applicable", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "SAMPLE_RESUSPENSION", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "SAMPLE_DERIVATIZATION", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "COLLISION_ENERGY", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "NA", for the subsection, "COLLISION_GAS", in the "MS" section should be one of "Nitrogen" or "Argon". Ignore this when more complicated descriptions are required.
+Error: The value, "50", for the subsection, "DRY_GAS_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "120", for the subsection, "DRY_GAS_TEMP", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.3 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "60 bar at starting conditions. 180 bar at %A", for the subsection, "COLUMN_PRESSURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['psi', 'bar']. Ignore this when more complicated descriptions are required.
+Error: The value, "50% IPA", for the subsection, "STRONG_WASH_VOLUME", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"1_6_8-trimethylallantoate"
+	"(1R_2R)-2-amino-1-(4-aminophenyl)propane-1_3-diol"
+	"2_3-Diaminosalicylic acid"
+	"2_7-Anhydro-alpha-N-acetylneuraminic acid"
+	"2-{[hydroxy(4-hydroxy-3_5-dimethoxyphenyl)methylidene]amino}acetic acid"
+	"2^-hydroxypyridoxol"
+	"3_4_5-trihydroxy-6-[(3-methoxy-3-oxopropanoyl)oxy]oxane-2-carboxylic acid"
+	"5-Methyl-2^-deoxycytidine"
+	"6-[4-(5_7-dihydroxy-6-{4-hydroxy-6-methyl-5-oxo-3-[(3_4_5-trihydroxy-6-methyloxan-2-yl)oxy]oxan-2-yl}-4-oxo-4H-chromen-2-yl)phenoxy]-3_4_5-trihydroxyoxane-2-carboxylic acid"
+	"6-Acetyl-1_2_3_4-tetrahydropyridine"
+	"(alpha-keto-dimethyl-delta-N_N-Dimethylguanidynol) valeric acid"
+	"D_D-diaminopimelate"
+	"N6_N6_N6-Trimethyl-L-lysine"
+	"Ne_Ne dimethyllysine"
+	"N_N^-Diacetylchitobiosyldiphosphodolichol"
+	"p-nitroso-N_N-dimethylaniline"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"1,6,8-trimethylallantoate"
+	"(1R,2R)-2-amino-1-(4-aminophenyl)propane-1,3-diol"
+	"2,3-Diaminosalicylic acid"
+	"2,7-Anhydro-alpha-N-acetylneuraminic acid"
+	"2-{[hydroxy(4-hydroxy-3,5-dimethoxyphenyl)methylidene]amino}acetic acid"
+	"2'-hydroxypyridoxol"
+	"3,4,5-trihydroxy-6-[(3-methoxy-3-oxopropanoyl)oxy]oxane-2-carboxylic acid"
+	"5-Methyl-2'-deoxycytidine"
+	"6-[4-(5,7-dihydroxy-6-{4-hydroxy-6-methyl-5-oxo-3-[(3,4,5-trihydroxy-6-methyloxan-2-yl)oxy]oxan-2-yl}-4-oxo-4H-chromen-2-yl)phenoxy]-3,4,5-trihydroxyoxane-2-carboxylic acid"
+	"6-Acetyl-1,2,3,4-tetrahydropyridine"
+	"(alpha-keto-dimethyl-delta-N,N-Dimethylguanidynol) valeric acid"
+	"D,D-diaminopimelate"
+	"N6,N6,N6-Trimethyl-L-lysine"
+	"Ne,Ne dimethyllysine"
+	"N,N'-Diacetylchitobiosyldiphosphodolichol"
+	"p-nitroso-N,N-dimethylaniline"
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "pubchem_id" column at position 2 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.

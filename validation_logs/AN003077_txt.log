@@ -1,8 +1,27 @@
 Validation Log
-2025-12-07 05:11:48.067223
-mwtab Python Library Version: 1.2.5
+2025-12-14 23:54:32.617175
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003077/mwtab/txt
 Study ID:      ST001896
 Analysis ID:   AN003077
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 8
+
+Number of Warnings: 0
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "000000", for "PROJECT_ID" in the file header must be the letters "PR" followed by 6 numbers. Ex. "PR001405".
+Error: The value, "Not applicable", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 6 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 7 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 18 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 19 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 22 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 30 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.

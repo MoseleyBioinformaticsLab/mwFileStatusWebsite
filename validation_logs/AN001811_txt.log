@@ -1,8 +1,130 @@
 Validation Log
-2025-12-07 03:48:18.632111
-mwtab Python Library Version: 1.2.5
+2025-12-14 22:49:32.105248
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001811/mwtab/txt
 Study ID:      ST001115
 Analysis ID:   AN001811
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 8
+
+Number of Warnings: 2
+
+Number of Value Errors: 3
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "Calc Mass" column at position 3 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 4 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+8       C25 H41 O7 N0 P1
+9       C39 H67 O8 N0 P1
+10      C41 H71 O8 N0 P1
+11      C43 H75 O8 N0 P1
+12      C43 H73 O8 N0 P1
+13      C37 H69 O8 N0 P1
+14      C41 H69 O8 N0 P1
+15      C37 H71 O7 N0 P1
+16      C41 H73 O7 N0 P1
+17      C41 H71 O7 N0 P1
+18      C43 H75 O7 N0 P1
+19      C43 H77 O8 N0 P1
+20      C43 H75 O8 N0 P1
+21      C45 H79 O8 N0 P1
+22      C45 H77 O8 N0 P1
+23      C41 H77 O8 N0 P1
+24      C41 H75 O8 N0 P1
+25      C43 H73 O8 N0 P1
+26      C45 H77 O8 N0 P1
+27      C45 H75 O8 N0 P1
+28      C39 H75 O7 N0 P1
+29      C41 H77 O7 N0 P1
+30      C43 H75 O7 N0 P1
+31      C45 H81 O7 N0 P1
+32      C39 H73 O7 N0 P1
+33      C41 H77 O7 N0 P1
+34      C41 H75 O7 N0 P1
+35      C43 H81 O7 N0 P1
+36      C43 H79 O7 N0 P1
+37      C43 H73 O7 N0 P1
+38      C45 H85 O7 N0 P1
+39      C45 H83 O7 N0 P1
+40      C45 H79 O7 N0 P1
+41      C45 H77 O7 N0 P1
+42      C45 H75 O7 N0 P1
+43      C45 H73 O7 N0 P1
+44      C22 H43 O8 N0 P1
+247     C21 H43 O7 N0 P1
+248     C23 H47 O7 N0 P1
+249     C26 H45 O9 N0 P1
+250    C25 H49 O12 N0 P1
+251    C27 H53 O12 N0 P1
+252    C27 H51 O12 N0 P1
+253    C29 H49 O12 N0 P1
+254    C31 H49 O12 N0 P1
+281     C35 H69 O8 N0 P1
+282     C35 H67 O8 N0 P1
+283     C37 H71 O8 N0 P1
+284     C39 H69 O8 N0 P1
+285     C41 H69 O8 N0 P1
+286     C37 H69 O8 N0 P1
+287     C39 H75 O8 N0 P1
+288     C41 H73 O8 N0 P1
+289     C43 H73 O8 N0 P1
+290     C39 H73 O8 N0 P1
+291     C41 H71 O8 N0 P1
+537     C34 H67 O8 N0 P1
+538     C35 H69 O8 N0 P1
+539     C37 H71 O8 N0 P1
+540     C38 H75 O8 N0 P1
+541     C39 H75 O8 N0 P1
+542     C41 H73 O8 N0 P1
+543     C43 H73 O8 N0 P1
+544     C35 H67 O8 N0 P1
+545     C39 H73 O8 N0 P1
+546     C42 H83 O8 N0 P1
+547     C39 H69 O8 N0 P1
+548     C41 H73 O8 N0 P1
+549    C40 H77 O10 N0 P1
+550    C42 H75 O10 N0 P1
+551    C50 H75 O10 N0 P1
+552    C43 H81 O13 N0 P1
+553    C43 H79 O13 N0 P1
+554    C45 H81 O13 N0 P1
+555    C45 H79 O13 N0 P1
+556    C45 H77 O13 N0 P1
+557    C47 H79 O13 N0 P1
+558    C45 H77 O13 N0 P1
+559    C46 H81 O13 N0 P1
+560    C45 H85 O13 N0 P1
+561    C47 H85 O13 N0 P1
+562    C47 H83 O13 N0 P1
+563    C47 H81 O13 N0 P1
+564    C49 H83 O13 N0 P1
+565    C50 H95 O13 N0 P1
+566    C45 H83 O13 N0 P1
+567    C47 H81 O13 N0 P1
+568    C47 H79 O13 N0 P1
+569    C49 H81 O13 N0 P1
+570    C49 H79 O13 N0 P1
+571    C44 H86 O16 N0 P2
+572     C35 H69 O8 N0 P1
+573     C35 H67 O8 N0 P1
+574     C37 H71 O8 N0 P1
+575     C39 H69 O8 N0 P1
+576     C41 H69 O8 N0 P1
+577     C39 H75 O8 N0 P1
+578     C41 H73 O8 N0 P1
+579     C43 H73 O8 N0 P1
+580     C37 H71 O8 N0 P1
+581     C39 H73 O8 N0 P1
+582     C38 H75 O8 N0 P1
+583     C42 H83 O8 N0 P1

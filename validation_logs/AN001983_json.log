@@ -1,12 +1,46 @@
 Validation Log
-2025-12-07 03:56:06.203419
-mwtab Python Library Version: 1.2.5
+2025-12-14 22:56:02.518938
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001983/mwtab/json
 Study ID:      ST001191
 Analysis ID:   AN001983
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 15
 
-Error Log:
-SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Missing key: 'COLUMN_NAME'
+Number of Warnings: 9
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 2
+
+Issue Log:
+Error: The value, "25 ° C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The required property, "COLUMN_NAME", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"12_13-EODE"
+	"1H-Isoindole-1_3(2H)-dione"
+	"2^-Deoxyinosine"
+	"Cytidine 5^-diphosphocholine"
+	"D-Fructose 1_6-bisphosphate"
+	"Uridine 5^-diphosphoglucuronic acid (UDP-D-glucuronate)"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"12,13-EODE"
+	"1H-Isoindole-1,3(2H)-dione"
+	"2'-Deoxyinosine"
+	"Cytidine 5'-diphosphocholine"
+	"D-Fructose 1,6-bisphosphate"
+	"Uridine 5'-diphosphoglucuronic acid (UDP-D-glucuronate)"
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

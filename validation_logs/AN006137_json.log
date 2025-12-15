@@ -1,8 +1,20 @@
 Validation Log
-2025-12-07 09:01:33.520840
-mwtab Python Library Version: 1.2.5
+2025-12-15 02:47:22.089735
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006137/mwtab/json
 Study ID:      ST003738
 Analysis ID:   AN006137
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 1
+
+Number of Warnings: 0
+
+Number of Value Errors: 1
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "60", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.

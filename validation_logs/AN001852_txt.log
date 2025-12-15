@@ -1,8 +1,176 @@
 Validation Log
-2025-12-07 03:49:14.012972
-mwtab Python Library Version: 1.2.5
+2025-12-14 22:50:18.493212
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001852/mwtab/txt
 Study ID:      ST001127
 Analysis ID:   AN001852
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 11
+
+Number of Warnings: 6
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "quantified m/z" column at position 2 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ChEBI ID" column at position 5 in the METABOLITES table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ChEBI ID" column at position 5 in the METABOLITES table, matches a standard column name, "chebi_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+51      CHEBI:64483
+52      CHEBI:72736
+53      CHEBI:64563
+54      CHEBI:72737
+55      CHEBI:64561
+56      CHEBI:64566
+57      CHEBI:64567
+60      CHEBI:90452
+62      CHEBI:64576
+63      CHEBI:64575
+64      CHEBI:91296
+65      CHEBI:64569
+66      CHEBI:72734
+68      CHEBI:16175
+69     CHEBI:116314
+70      CHEBI:16393
+71      CHEBI:16113
+72      CHEBI:85564
+73      CHEBI:65294
+74     CHEBI:134575
+75      CHEBI:65303
+76      CHEBI:65302
+77     CHEBI:134487
+78      CHEBI:72426
+79      CHEBI:66850
+80      CHEBI:66848
+81      CHEBI:86472
+82      CHEBI:66855
+83      CHEBI:64517
+84      CHEBI:64516
+85     CHEBI:134273
+86      CHEBI:85766
+87      CHEBI:66858
+88      CHEBI:66857
+89      CHEBI:64433
+90      CHEBI:64523
+91      CHEBI:64520
+92     CHEBI:134648
+93      CHEBI:66860
+94      CHEBI:66859
+95      CHEBI:64526
+96      CHEBI:66865
+97      CHEBI:67077
+98      CHEBI:67076
+99      CHEBI:67066
+101     CHEBI:71704
+103     CHEBI:71711
+106    CHEBI:134446
+108     CHEBI:71720
+109    CHEBI:134264
+110    CHEBI:136160
+112    CHEBI:134451
+116    CHEBI:134265
+117     CHEBI:71734
+120    CHEBI:134240
+130     CHEBI:91065
+134     CHEBI:91066
+136     CHEBI:91067
+137     CHEBI:91068
+157     CHEBI:87249
+158     CHEBI:87251
+159     CHEBI:87253
+161     CHEBI:87255
+162     CHEBI:87256
+163     CHEBI:86397
+167     CHEBI:85683
+168     CHEBI:85722
+171     CHEBI:85688
+172     CHEBI:85687
+173     CHEBI:85686
+174     CHEBI:85685
+175     CHEBI:85690
+176     CHEBI:86974
+177     CHEBI:85694
+178     CHEBI:85693
+179     CHEBI:85692
+180     CHEBI:85697
+181     CHEBI:85696
+182     CHEBI:85695
+183     CHEBI:86987
+184     CHEBI:86980
+185     CHEBI:85701
+186     CHEBI:85700
+187     CHEBI:85699
+190     CHEBI:85707
+191     CHEBI:86984
+192     CHEBI:85706
+193     CHEBI:85705
+194     CHEBI:85704
+195     CHEBI:85703
+200     CHEBI:85709
+201     CHEBI:85689
+202     CHEBI:85857
+203     CHEBI:90293
+205     CHEBI:90296
+206     CHEBI:90297
+207     CHEBI:90300
+210     CHEBI:85868
+211     CHEBI:85869
+212     CHEBI:77447
+213    CHEBI:132009
+214     CHEBI:85822
+215     CHEBI:85724
+216    CHEBI:132731
+217     CHEBI:85870
+218     CHEBI:85726
+219     CHEBI:85725
+220     CHEBI:85871
+221     CHEBI:85825
+222     CHEBI:85826
+223     CHEBI:85728
+224     CHEBI:85828
+225     CHEBI:85874
+226     CHEBI:84665
+227     CHEBI:84662
+228     CHEBI:85729
+229     CHEBI:85832
+231     CHEBI:85733
+232     CHEBI:85732
+233     CHEBI:85731
+236     CHEBI:90302
+237     CHEBI:85736
+238     CHEBI:84661
+239     CHEBI:84660
+240     CHEBI:85734
+241     CHEBI:85875
+243     CHEBI:85739
+244     CHEBI:85738
+245     CHEBI:85737
+248     CHEBI:90305
+249     CHEBI:85743
+250     CHEBI:84659
+251     CHEBI:85742
+252     CHEBI:85741
+253     CHEBI:85876
+254     CHEBI:85740
+256    CHEBI:132032
+257    CHEBI:132033
+258     CHEBI:85746
+259    CHEBI:132034
+260     CHEBI:85843
+261     CHEBI:85842
+262     CHEBI:85751
+263     CHEBI:85752
+265    CHEBI:132035
+266    CHEBI:132036
+Warning: The "rtimes" column at position 3 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Detailed Annotation" column at position 6 in the METABOLITES table, matches a standard column name, "annotations". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Detailed Annotation" column at position 6 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

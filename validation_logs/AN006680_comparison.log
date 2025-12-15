@@ -1,12 +1,11 @@
 Comparison Log
-2025-12-07 09:34:05.387573
-mwtab Python Library Version: 1.2.5
+2025-12-15 03:10:37.562483
+mwtab Python Library Version: 2.0.0
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006680/mwtab/...
 Study ID:    ST004041
 Analysis ID: AN006680
 Status:      Inconsistent
 
-Sections "STUDY" contain missmatched items: {('INSTITUTE', "Muséum Nationale d''Histoire Naturelle"), ('INSTITUTE', "Muséum Nationale d'Histoire Naturelle")}
-Sections "PROJECT" contain missmatched items: {('INSTITUTE', "Muséum Nationale d''Histoire Naturelle"), ('INSTITUTE', "Muséum Nationale d'Histoire Naturelle")}
+Sections "PROJECT" contain missmatched items: {'INSTITUTE': ["Muséum Nationale d'Histoire Naturelle", "Muséum Nationale d''Histoire Naturelle"]}
+Sections "STUDY" contain missmatched items: {'INSTITUTE': ["Muséum Nationale d'Histoire Naturelle", "Muséum Nationale d''Histoire Naturelle"]}
 mwTab files contain different 'SUBJECT_SAMPLE_FACTORS' sections.
-Unable to find '_DATA' block in given files.

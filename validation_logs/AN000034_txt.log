@@ -1,8 +1,140 @@
 Validation Log
-2025-12-07 01:09:21.145817
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:00:07.823703
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000034/mwtab/txt
 Study ID:      ST000017
 Analysis ID:   AN000034
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 7
+
+Number of Value Errors: 12
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "ADDRESS", in the "PROJECT" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "ADDRESS", in the "STUDY" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "SAMPLEPREP_SUMMARY", in the "SAMPLEPREP" section. A legitimate value should be provided for this required subsection.
+Error: The value, "3500V", for the subsection, "CAPILLARY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "40C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"11-BETA-HYDROXYANDROST-4-ENE-3_17-DIONE"
+	"1_2-DIPALMITOYL-SN-GLYCEROL"
+	"2^_4^-DIHYDROXYACETOPHENONE"
+	"2_4-DIHYDROXYPTERIDINE"
+	"2_5-DIMETHYLPYRAZINE"
+	"2_6-DIHYDROXYPYRIDINE"
+	"2^-DEOXYADENOSINE"
+	"2^-DEOXYADENOSINE 5^-MONOPHOSPHATE"
+	"2^-DEOXYCYTIDINE"
+	"2^-DEOXYCYTIDINE 5^-MONOPHOSPHATE"
+	"2^-DEOXYGUANOSINE 5^-DIPHOSPHATE"
+	"2-HYDROXYBUTYRIC ACID_1"
+	"3_3^_5-TRIIODO-L-THYRONINE"
+	"3_3^-DITHIODIVALINE"
+	"3_4-DICHLOROANILINE"
+	"3_4-DIHYDROXYBENZOATE"
+	"3_4-DIHYDROXY-L-PHENYLALANINE"
+	"3_4-DIHYDROXYPHENYLACETATE"
+	"3-ALPHA_11-BETA_17-ALPHA_21-TETRAHYDROXY- 5-ALPHA-PREGNAN-20-ONE"
+	"3^-CMP"
+	"3-(CYSTEIN-S-YL)ACETAMINOPHEN_1"
+	"3^-DEPHOSPHO COA"
+	"5^-DEOXYADENOSINE"
+	"5-METHYLCYTOSINE_1"
+	"6_7-DIHYDROBIOPTERIN"
+	"ADENOSINE 2^_3^-CYCLIC MONOPHOSPHATE"
+	"ADENOSINE 5^-MONOPHOSPHATE"
+	"ALPHA-KETO-GLUTARATE_1"
+	"CHOLESTA-5_7-DIEN-3BETA-OL"
+	"CORTISOL 21-ACETATE_1"
+	"CYCLOHEXANE-1_3-DIONE"
+	"CYS-GLY_ OXIDIZED"
+	"CYSTINE_1"
+	"CYTIDINE 5^-DIPHOSPHOCHOLINE"
+	"D-GLUCONO-1_5-LACTONE"
+	"DIHYDROFOLATE_1"
+	"DIMETHYL MALEATE_1"
+	"DOCOSAHEXAENOYLGLYCEROPHOSPHOCHOLINE_1"
+	"ENKEPHALINE_ (D-ALA)2-LEU"
+	"FRUCTOSE 1_6-BIPHOSPHATE"
+	"GLUTAMINE_1"
+	"GLUTATHIONE OXIDIZED_1"
+	"GUANOSINE 3`_5`-CYCLIC MONOPHOSPHATE"
+	"GUANOSINE 5^-DIPHOSPHATE"
+	"GUANOSINE 5^ MONOPHOSPHATE"
+	"INOSINE 5^-DIPHOSPHATE"
+	"INOSINE 5^-MONOPHOSPHATE"
+	"LL-2_6-DIAMINOHEPTANEDIOATE"
+	"METHYL JASMONATE_1"
+	"MYRISTOYLGLYCEROPHOSPHOCHOLINE_1"
+	"N-ACETYL-DL-METHIONINE_1"
+	"N-ACETYL-L-ASPARTIC ACID_1"
+	"N-CYCLOHEXYLFORMAMIDE_1"
+	"N_N-DIMETHYL-1_4-PHENYLENEDIAMINE"
+	"N_N_N-TRIMETHYLLYSINE"
+	"OROTIDINE 5^-MONOPHOSPHATE"
+	"POSSIBLY C42H80NO7P_ Na ADDUCT"
+	"PROMETRYN_1"
+	"RIBULOSE 1_5-BISPHOSPHATE"
+	"S-ADENOSYL-L-HOMOCYSTEINE_1"
+	"SUCCINATE_1"
+	"TRANS-CYCLOHEXANE-1_2-DIOL"
+	"URATE_1"
+	"UREA_1"
+	"URIDINE 5^-DIPHOSPHO-N-ACETYLGALACTOSAMINE"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"2',4'-DIHYDROXYACETOPHENONE"
+	"2'-DEOXYADENOSINE"
+	"2'-DEOXYADENOSINE 5'-MONOPHOSPHATE"
+	"2'-DEOXYCYTIDINE"
+	"2'-DEOXYCYTIDINE 5'-MONOPHOSPHATE"
+	"2'-DEOXYGUANOSINE 5'-DIPHOSPHATE"
+	"2-HYDROXYBUTYRIC ACID_2"
+	"3,3',5-TRIIODO-L-THYRONINE"
+	"3,3'-DITHIODIVALINE"
+	"3'-CMP"
+	"3-(CYSTEIN-S-YL)ACETAMINOPHEN_2"
+	"3'-DEPHOSPHO COA"
+	"5'-DEOXYADENOSINE"
+	"5-METHYLCYTOSINE_2"
+	"ADENOSINE 2',3'-CYCLIC MONOPHOSPHATE"
+	"ADENOSINE 5'-MONOPHOSPHATE"
+	"ALPHA-KETO-GLUTARATE_2"
+	"CORTISOL 21-ACETATE_2"
+	"CYSTINE_2"
+	"CYTIDINE 5'-DIPHOSPHOCHOLINE"
+	"DIHYDROFOLATE_2"
+	"DIMETHYL MALEATE_2"
+	"DOCOSAHEXAENOYLGLYCEROPHOSPHOCHOLINE_2"
+	"GLUTAMINE_2"
+	"GLUTATHIONE OXIDIZED_2"
+	"GUANOSINE 5'-DIPHOSPHATE"
+	"GUANOSINE 5' MONOPHOSPHATE"
+	"INOSINE 5'-DIPHOSPHATE"
+	"INOSINE 5'-MONOPHOSPHATE"
+	"METHYL JASMONATE_2"
+	"MYRISTOYLGLYCEROPHOSPHOCHOLINE_2"
+	"N-ACETYL-DL-METHIONINE_2"
+	"N-ACETYL-L-ASPARTIC ACID_2"
+	"N-CYCLOHEXYLFORMAMIDE_2"
+	"OROTIDINE 5'-MONOPHOSPHATE"
+	"PROMETRYN_2"
+	"S-ADENOSYL-L-HOMOCYSTEINE_2"
+	"SUCCINATE_2"
+	"URATE_2"
+	"UREA_2"
+	"URIDINE 5'-DIPHOSPHO-N-ACETYLGALACTOSAMINE"
+Warning: The "ri" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "moverz_quant" column at position 2 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 3 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 4 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 6 in the METABOLITES table has all null values.

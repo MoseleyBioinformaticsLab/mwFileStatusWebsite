@@ -1,8 +1,36 @@
 Validation Log
-2025-12-07 05:00:28.821318
-mwtab Python Library Version: 1.2.5
+2025-12-14 23:45:45.764891
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002935/mwtab/txt
 Study ID:      ST001811
 Analysis ID:   AN002935
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 17
+
+Number of Warnings: 0
+
+Number of Value Errors: 16
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "10 day old seedlings", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Not applicable", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 49 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 50 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 51 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 52 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 53 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 54 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 55 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 56 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 57 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 58 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 59 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 60 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "0.3 mL min-1", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "35", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.

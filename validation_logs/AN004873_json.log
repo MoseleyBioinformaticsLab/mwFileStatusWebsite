@@ -1,8 +1,221 @@
 Validation Log
-2025-12-07 07:34:48.676532
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:44:41.877552
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004873/mwtab/json
 Study ID:      ST002966
 Analysis ID:   AN004873
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 14
+
+Number of Warnings: 13
+
+Number of Value Errors: 14
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "40°C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][0] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][1] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][2] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][3] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][4] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][5] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][6] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][7] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][8] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][9] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][10] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][11] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The "PubChem_ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      C02294
+1      C01746
+2      C00134
+3      C19524
+4      C01672
+5      C00334
+6      C01026
+8      C03665
+9      C00114
+10     C00065
+11     C06772
+13     C00148
+14     C00719
+15     C00183
+16     C00188
+17     C00263
+19     C06463
+20     C20782
+21     C09815
+22     C05332
+23     C00153
+24     C05853
+25     C00253
+26     C07446
+27     C11101
+29     C00408
+30     C03969
+32     C02714
+33     C00179
+34     C00430
+36     C00407
+37     C02378
+38     C00123
+39     C01933
+40     C00152
+41     C00077
+42     C22040
+44     C00147
+45     C15561
+46     C00262
+47     C00568
+48     C01004
+49     C02918
+50     C02735
+51     C00483
+52     C00870
+53     C00860
+54     C10172
+55     C21514
+56     C02946
+57     C01035
+58     C00315
+59     C00064
+60     C00047
+61     C01996
+62     C00025
+63     C00979
+65     C00073
+66     C17883
+67     C00242
+68     C16666
+69     C00135
+70     C00956
+71     C10475
+72     C17213
+73     C02989
+74     C00079
+75     C16614
+76     C05831
+77     C00250
+78     C04548
+79     C00314
+80     C00062
+81     C17203
+82     C00780
+83     C00329
+84     C10575
+85     C00082
+89     C00588
+90     C21283
+93     C02727
+94     C02155
+97     C01924
+98     C03884
+99     C02427
+100    C00355
+101    C03626
+103    C00750
+105    C05660
+106    C05944
+108    C00864
+109    C01132
+110    C00140
+111    C02029
+113    C18326
+115    C00214
+116    C02961
+117    C00475
+118    C00120
+121    C03002
+122    C00559
+123    C05841
+124    C00670
+125    C10497
+128    C00330
+129    C00212
+131    C06346
+136    C08364
+141    C19670
+142    C00387
+144    C06161
+148    C00170
+150    C20674
+152    C09340
+154    C05176
+155    C05243
+162    C16984
+163    C02717
+169    C09342
+170    C17567
+171    C16991
+173    C12144
+174    C11347
+177    C05175
+184    C05174
+185    C20792
+188    C17591
+189    C09541
+191    C09365
+192    C12326
+200    C02105
+202    C00360
+203    C03996
+204    C06196
+205    C12226
+206    C05191
+207    C00455
+208    C09430
+219    C09553
+223    C17426
+224    C06533
+226    C19985
+228    C03329
+235    C09549
+243    C17046
+244    C09581
+253    C08680
+255    C00020
+260    C09360
+265    C05315
+267    C09024
+270    C05189
+271    C12242
+274    C10882
+282    C09341
+285    C02890
+286    C09446
+294    C00144
+295    C09643
+296    C17790
+305    C02134
+306    C15530
+308    C10190
+309    C00255
+312    C16443
+315    C00021
+319    C03690
+321    C10112
+331    C10025
+333    C01750
+340    C05623
+342    C10073
+381    C10020
+402    C17563
+404    C17910
+409    C00003

@@ -1,8 +1,67 @@
 Validation Log
-2025-12-07 04:18:08.112644
-mwtab Python Library Version: 1.2.5
+2025-12-14 23:14:15.133265
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002323/mwtab/json
 Study ID:      ST001393
 Analysis ID:   AN002323
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 4
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The value, "Not applicable", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "quantitated m/z" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGGNAME" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHEBI" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHEBI" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "chebi_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     CHEBI:16708
+1     CHEBI:16680
+2     CHEBI:15414
+3     CHEBI:16977
+4     CHEBI:16865
+5     CHEBI:15682
+6     CHEBI:17196
+7     CHEBI:17053
+8     CHEBI:17126
+9     CHEBI:15354
+10    CHEBI:16349
+11    CHEBI:16283
+12    CHEBI:17724
+13    CHEBI:82766
+14    CHEBI:16856
+15    CHEBI:17858
+16    CHEBI:16235
+17    CHEBI:16750
+18    CHEBI:15971
+19    CHEBI:69061
+20    CHEBI:15699
+21    CHEBI:16668
+22    CHEBI:17191
+23    CHEBI:15603
+24    CHEBI:18019
+25    CHEBI:16811
+26    CHEBI:17016
+27    CHEBI:17752
+28    CHEBI:15729
+29    CHEBI:15611
+30    CHEBI:17115
+31     CHEBI:9532
+32    CHEBI:16857
+33    CHEBI:18095
+34    CHEBI:18123
+35    CHEBI:17895
+36    CHEBI:16414
+37    CHEBI:15940

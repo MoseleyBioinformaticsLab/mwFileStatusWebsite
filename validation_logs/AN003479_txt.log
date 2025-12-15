@@ -1,8 +1,103 @@
 Validation Log
-2025-12-07 05:47:37.257868
-mwtab Python Library Version: 1.2.5
+2025-12-15 00:21:53.898219
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003479/mwtab/txt
 Study ID:      ST002126
 Analysis ID:   AN003479
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 18
+
+Number of Warnings: 11
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"[13C_ 15N]Alanine_ 2TBDMS"
+	"[13C_ 15N]Aspartic acid_ 3TBDMS"
+	"[13C_ 15N]Glutamic acid_ 3TBDMS"
+	"[13C_ 15N]Glycine_ 2TBDMS"
+	"[13C_ 15N]Histidine_ 3TBDMS"
+	"[13C_ 15N]Isoleucine_ 2TBDMS"
+	"[13C_ 15N]Leucine_ 2TBDMS"
+	"[13C_ 15N]Lysine_ 3TBDMS"
+	"[13C_ 15N]Methionine_ 2TBDMS"
+	"[13C_ 15N]Phenylalanine_ 2TBDMS"
+	"[13C_ 15N]Proline_ 2TBDMS"
+	"[13C_ 15N]Serine_ 3TBDMS"
+	"[13C_ 15N]Threonine_ 3TBDMS"
+	"[13C_ 15N]Tyrosine_ 3TBDMS"
+	"[13C_ 15N]Valine_ 2TBDMS"
+	"Alanine_ 2TBDMS"
+	"Aspartic acid_ 3TBDMS"
+	"Glutamic acid_ 3TBDMS"
+	"Glutamine_ 3TBDMS"
+	"Glycine_ 2TBDMS"
+	"Histidine_ 3TBDMS"
+	"Hydroxyproline_ (E)-_ 3TBDMS"
+	"Isoleucine_ 2TBDMS"
+	"L-Cysteine_ 3TBDMS"
+	"Leucine_ 2TBDMS"
+	"Lysine_ 3TBDMS"
+	"Methionine_ 2TBDMS"
+	"Phenylalanine_ 2TBDMS"
+	"Proline_ 2TBDMS"
+	"Serine_ 3TBDMS"
+	"Threonine_ 3TBDMS"
+	"Tyrosine_ 3TBDMS"
+	"Valine_ 2TBDMS"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"[13C, 15N]Alanine, 2TBDMS"
+	"[13C, 15N]Aspartic acid, 3TBDMS"
+	"[13C, 15N]Glutamic acid, 3TBDMS"
+	"[13C, 15N]Glycine, 2TBDMS"
+	"[13C, 15N]Histidine, 3TBDMS"
+	"[13C, 15N]Isoleucine, 2TBDMS"
+	"[13C, 15N]Leucine, 2TBDMS"
+	"[13C, 15N]Lysine, 3TBDMS"
+	"[13C, 15N]Methionine, 2TBDMS"
+	"[13C, 15N]Phenylalanine, 2TBDMS"
+	"[13C, 15N]Proline, 2TBDMS"
+	"[13C, 15N]Serine, 3TBDMS"
+	"[13C, 15N]Threonine, 3TBDMS"
+	"[13C, 15N]Tyrosine, 3TBDMS"
+	"[13C, 15N]Valine, 2TBDMS"
+	"Alanine, 2TBDMS"
+	"Aspartic acid, 3TBDMS"
+	"Glutamic acid, 3TBDMS"
+	"Glutamine, 3TBDMS"
+	"Glycine, 2TBDMS"
+	"Histidine, 3TBDMS"
+	"Hydroxyproline, (E)-, 3TBDMS"
+	"Isoleucine, 2TBDMS"
+	"L-Cysteine, 3TBDMS"
+	"Leucine, 2TBDMS"
+	"Lysine, 3TBDMS"
+	"Methionine, 2TBDMS"
+	"Phenylalanine, 2TBDMS"
+	"Proline, 2TBDMS"
+	"Serine, 3TBDMS"
+	"Threonine, 3TBDMS"
+	"Tyrosine, 3TBDMS"
+	"Valine, 2TBDMS"
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "pubchem_id" column at position 2 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "kegg_id" column at position 4 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.

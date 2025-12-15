@@ -1,8 +1,127 @@
 Validation Log
-2025-12-07 05:09:11.601207
-mwtab Python Library Version: 1.2.5
+2025-12-14 23:52:19.583225
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003038/mwtab/txt
 Study ID:      ST001876
 Analysis ID:   AN003038
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 16
+
+Number of Warnings: 10
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 3
+
+Issue Log:
+Error: The value, "50", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"1_3-Diphenylguanidine"
+	"2_2^-(Tetradecylimino)diethanol"
+	"[2_3-di(heptadecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate"
+	"2_8-Quinolinediol"
+	"2_8-Quinolinediol; AIF; CE30; CorrDec"
+	"2-Hydroxycinnamic acid_ predominantly trans"
+	"2-((R)-4-((3R_5R_6S_7R_8S_9S_10R_13R_14S_17R)-3_6_7-trihydroxy-10_13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pent-2-enamido)ethane-1-sulfonic acid"
+	"2-((R)-4-((3R_5S_7S_8R_9S_10S_12R_13R_14S_17R)-3_7_12-trihydroxy-10_13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanamido)ethane-1-sulfonic acid"
+	"(2S_3S_4S_5R_6R)-6-[[(3S_4S_6aR_6bS_8aR_9R_12aS_14bR)-9-hydroxy-4-(hydroxymethyl)-4_6a_6b_8a_11_11_14b-heptamethyl-1_2_3_4a_5_6_7_8_9_10_12_12a_14_14a-tetradecahydropicen-3-yl]oxy]-5-[(2S_3R_4S_5R_6R)-4_5-dihydroxy-6-(hydroxymethyl)-3-[(2S_3R_4R_5R_6S)-3_4_5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]oxy-3_4-dihydroxyoxane-2-carboxylic acid"
+	"(2S_3S_4S_5R_6S)-3_4_5-trihydroxy-6-(5-hydroxy-4-oxo-2-phenylchromen-7-yl)oxyoxane-2-carboxylic acid"
+	"4_6-Di-tert-butyl-m-cresol"
+	"(4R)-4-((3R_5R_6S_7R_9S_10R_13R_14S_17R)-3_6_7-trihydroxy-10_13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"(4R)-4-((3R_5S_6S_7R_8R_9S_10R_12S_13R_17R)-3_6_7_12-tetrahydroxy-10_13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"(4R)-4-((3R_5S_7S_8R_9S_10S_12R_13R_17R)-3_7_12-trihydroxy-10_13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"(4R)-4-((3S_5S_7S_9S_10S_13R_14S_17R)-3_7-dihydroxy-10_13-dimethyl-12-oxohexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"5_6-Benzoflavone"
+	"6-Ethoxy-2_3_4-trimethyl-1_2_3_4-tetrahydroquinoline"
+	"6-(gamma_gamma-Dimethylallylamino)purine riboside"
+	"(8S_9S_10R_11S_13S_14S_17R)-11_17-dihydroxy-17-(2-hydroxyacetyl)-10_13-dimethyl-2_6_7_8_9_11_12_14_15_16-decahydro-1H-cyclopenta[a]phenanthren-3-one"
+	"Cholest-4_6-Dien-3-One"
+	"Flavone base + 3O_ O-HexA"
+	"IS_PHENYLALANINE-2_3_4_5_6-D5"
+	"IS_TRYPTOPHAN-2_4_5_6_7-D5"
+	"N-[1_3-dihydroxyoctadec-4-en-2-yl]tetracos-15-enamide"
+	"N-(1_3-dihydroxyoctadec-4-en-2-yl)tetradecanamide"
+	"N-(2_4-Dimethylphenyl)formamide"
+	"N2_N2-Dimethylguanosine"
+	"NCGC00169296-02!(2S_3S_4S_5R_6S)-3_4_5-trihydroxy-6-(5-hydroxy-8-methoxy-4-oxo-2-phenylchromen-7-yl)oxyoxane-2-carboxylic acid"
+	"NCGC00385291-01_C19H30O8_3-Buten-2-one_ 4-[4-(beta-D-glucopyranosyloxy)-2-hydroxy-2_6_6-trimethylcyclohexylidene]-"
+	"NCGC00385316-01_C20H32O3_1-Naphthalenepentanoic acid_ 3_4_4a_5_6_7_8_8a-octahydro-beta_2_5_5_8a-pentamethyl-3-oxo-_ (8aS)-"
+	"NCGC00385353-01!(2S_3S_4S_5R_6S)-3_4_5-trihydroxy-6-(5-hydroxy-4-oxo-2-phenylchromen-7-yl)oxyoxane-2-carboxylic acid"
+	"NCGC00385536-01!(2E_4E)-N-(1_3-dihydroxy-3-methylpentan-2-yl)-2-methylhexa-2_4-dienamide [IIN-based on: CCMSLIB00000845102]"
+	"NEPSILON_NEPSILON_NEPSILON-TRIMETHYLLYSINE"
+	"N_N-Dimethyldecylamine"
+	"N_N-Dimethyldecylamine oxide"
+	"N_N-Dimethyldodecylamine"
+	"N_N-Dimethyldodecylamine N-oxide"
+	"N_N-Dimethylguanosine; LC-tDDA; CE40"
+	"Phytosphingosine (not validated_ isomer of 1696)"
+	"(R)-4-((3R_5R_6R_7R_8S_9S_10R_13R_14S_17R)-3_6_7-trihydroxy-10_13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"(R)-4-((3R_5R_8R_9S_10S_12S_13R_14S_17R)-3_12-dihydroxy-10_13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pent-2-enoic acid"
+	"(R)-4-((3R_5R_8S_9S_10R_13R_14S_17R)-3-hydroxy-10_13-dimethyl-6-oxohexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"(R)-4-((3S_5S_7R_8R_9S_10S_12S_13R_14S_17R)-3_7_12-trihydroxy-10_13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"(R)-4-((3S_5S_7S_8R_9S_10S_13R_14S_17R)-3_7-dihydroxy-10_13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"(R)-4-((5S_8S_9S_10R_13R_14S_17R)-10_13-dimethyl-3_6-dioxohexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"(Z)-9_12_13-trihydroxyoctadec-15-enoic acid"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"1,3-Diphenylguanidine"
+	"2,2'-(Tetradecylimino)diethanol"
+	"[2,3-di(heptadecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate"
+	"2,8-Quinolinediol"
+	"2,8-Quinolinediol; AIF; CE30; CorrDec"
+	"2-Hydroxycinnamic acid, predominantly trans"
+	"2-((R)-4-((3R,5R,6S,7R,8S,9S,10R,13R,14S,17R)-3,6,7-trihydroxy-10,13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pent-2-enamido)ethane-1-sulfonic acid"
+	"2-((R)-4-((3R,5S,7S,8R,9S,10S,12R,13R,14S,17R)-3,7,12-trihydroxy-10,13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanamido)ethane-1-sulfonic acid"
+	"(2S,3S,4S,5R,6R)-6-[[(3S,4S,6aR,6bS,8aR,9R,12aS,14bR)-9-hydroxy-4-(hydroxymethyl)-4,6a,6b,8a,11,11,14b-heptamethyl-1,2,3,4a,5,6,7,8,9,10,12,12a,14,14a-tetradecahydropicen-3-yl]oxy]-5-[(2S,3R,4S,5R,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]oxy-3,4-dihydroxyoxane-2-carboxylic acid"
+	"(2S,3S,4S,5R,6S)-3,4,5-trihydroxy-6-(5-hydroxy-4-oxo-2-phenylchromen-7-yl)oxyoxane-2-carboxylic acid"
+	"4,6-Di-tert-butyl-m-cresol"
+	"(4R)-4-((3R,5R,6S,7R,9S,10R,13R,14S,17R)-3,6,7-trihydroxy-10,13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"(4R)-4-((3R,5S,6S,7R,8R,9S,10R,12S,13R,17R)-3,6,7,12-tetrahydroxy-10,13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"(4R)-4-((3R,5S,7S,8R,9S,10S,12R,13R,17R)-3,7,12-trihydroxy-10,13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"(4R)-4-((3S,5S,7S,9S,10S,13R,14S,17R)-3,7-dihydroxy-10,13-dimethyl-12-oxohexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"5,6-Benzoflavone"
+	"6-Ethoxy-2,3,4-trimethyl-1,2,3,4-tetrahydroquinoline"
+	"6-(gamma,gamma-Dimethylallylamino)purine riboside"
+	"(8S,9S,10R,11S,13S,14S,17R)-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-2,6,7,8,9,11,12,14,15,16-decahydro-1H-cyclopenta[a]phenanthren-3-one"
+	"Cholest-4,6-Dien-3-One"
+	"Flavone base + 3O, O-HexA"
+	"IS_PHENYLALANINE-2,3,4,5,6-D5"
+	"IS_TRYPTOPHAN-2,4,5,6,7-D5"
+	"N-[1,3-dihydroxyoctadec-4-en-2-yl]tetracos-15-enamide"
+	"N-(1,3-dihydroxyoctadec-4-en-2-yl)tetradecanamide"
+	"N-(2,4-Dimethylphenyl)formamide"
+	"N2,N2-Dimethylguanosine"
+	"NCGC00169296-02!(2S,3S,4S,5R,6S)-3,4,5-trihydroxy-6-(5-hydroxy-8-methoxy-4-oxo-2-phenylchromen-7-yl)oxyoxane-2-carboxylic acid"
+	"NCGC00385291-01_C19H30O8_3-Buten-2-one, 4-[4-(beta-D-glucopyranosyloxy)-2-hydroxy-2,6,6-trimethylcyclohexylidene]-"
+	"NCGC00385316-01_C20H32O3_1-Naphthalenepentanoic acid, 3,4,4a,5,6,7,8,8a-octahydro-beta,2,5,5,8a-pentamethyl-3-oxo-, (8aS)-"
+	"NCGC00385353-01!(2S,3S,4S,5R,6S)-3,4,5-trihydroxy-6-(5-hydroxy-4-oxo-2-phenylchromen-7-yl)oxyoxane-2-carboxylic acid"
+	"NCGC00385536-01!(2E,4E)-N-(1,3-dihydroxy-3-methylpentan-2-yl)-2-methylhexa-2,4-dienamide [IIN-based on: CCMSLIB00000845102]"
+	"NEPSILON,NEPSILON,NEPSILON-TRIMETHYLLYSINE"
+	"N,N-Dimethyldecylamine"
+	"N,N-Dimethyldecylamine oxide"
+	"N,N-Dimethyldodecylamine"
+	"N,N-Dimethyldodecylamine N-oxide"
+	"N,N-Dimethylguanosine; LC-tDDA; CE40"
+	"Phytosphingosine (not validated, isomer of 1696)"
+	"(R)-4-((3R,5R,6R,7R,8S,9S,10R,13R,14S,17R)-3,6,7-trihydroxy-10,13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"(R)-4-((3R,5R,8R,9S,10S,12S,13R,14S,17R)-3,12-dihydroxy-10,13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pent-2-enoic acid"
+	"(R)-4-((3R,5R,8S,9S,10R,13R,14S,17R)-3-hydroxy-10,13-dimethyl-6-oxohexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"(R)-4-((3S,5S,7R,8R,9S,10S,12S,13R,14S,17R)-3,7,12-trihydroxy-10,13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"(R)-4-((3S,5S,7S,8R,9S,10S,13R,14S,17R)-3,7-dihydroxy-10,13-dimethylhexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"(R)-4-((5S,8S,9S,10R,13R,14S,17R)-10,13-dimethyl-3,6-dioxohexadecahydro-1H-cyclopenta[a]phenanthren-17-yl)pentanoic acid"
+	"(Z)-9,12,13-trihydroxyoctadec-15-enoic acid"
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "pubchem_id" column at position 2 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "kegg_id" column at position 4 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.

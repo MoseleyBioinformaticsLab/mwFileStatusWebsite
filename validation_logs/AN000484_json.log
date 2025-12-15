@@ -1,25 +1,41 @@
 Validation Log
-2025-12-07 01:48:28.059466
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:25:08.774516
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000484/mwtab/json
 Study ID:      ST000305
 Analysis ID:   AN000484
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 14
+Status: Contains Validation Issues
+Number of Issues: 22
 
-Error Log:
-SCHEMA: Section "Data" does not match the allowed schema. 'Data'
-SUBJECT_SAMPLE_FACTORS: Entry #8 missing value for Additional sample data Result Code.
-SUBJECT_SAMPLE_FACTORS: Entry #9 missing value for Additional sample data Result Code.
-SUBJECT_SAMPLE_FACTORS: Entry #10 missing value for Additional sample data Result Code.
-SUBJECT_SAMPLE_FACTORS: Entry #11 missing value for Additional sample data Result Code.
-SUBJECT_SAMPLE_FACTORS: Entry #12 missing value for Additional sample data Result Code.
-SUBJECT_SAMPLE_FACTORS: Entry #13 missing value for Additional sample data Result Code.
-SUBJECT_SAMPLE_FACTORS: Entry #14 missing value for Additional sample data Result Code.
-SUBJECT_SAMPLE_FACTORS: Entry #15 missing value for Additional sample data Result Code.
-SUBJECT_SAMPLE_FACTORS: Entry #16 missing value for Additional sample data Result Code.
-SUBJECT_SAMPLE_FACTORS: Entry #17 missing value for Additional sample data Result Code.
-SUBJECT_SAMPLE_FACTORS: Entry #18 missing value for Additional sample data Result Code.
-SUBJECT_SAMPLE_FACTORS: Entry #19 missing value for Additional sample data Result Code.
-DATA: Missing either NMR_METABOLITE_DATA or NMR_BINNED_DATA section or NMR_RESULTS_FILE item in NM secction.
+Number of Warnings: 12
+
+Number of Value Errors: 20
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 2
+
+Issue Log:
+Error: An empty value or a null value was detected in ["PROJECT"]["ADDRESS"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["PROJECT"]["PHONE"]. A legitimate value should be provided for this required key.
+Warning: The value, "", in ["SUBJECT_SAMPLE_FACTORS"][7]["Additional sample data"]["Result Code"] is missing a value.
+Warning: The value, "", in ["SUBJECT_SAMPLE_FACTORS"][8]["Additional sample data"]["Result Code"] is missing a value.
+Warning: The value, "", in ["SUBJECT_SAMPLE_FACTORS"][9]["Additional sample data"]["Result Code"] is missing a value.
+Warning: The value, "", in ["SUBJECT_SAMPLE_FACTORS"][10]["Additional sample data"]["Result Code"] is missing a value.
+Warning: The value, "", in ["SUBJECT_SAMPLE_FACTORS"][11]["Additional sample data"]["Result Code"] is missing a value.
+Warning: The value, "", in ["SUBJECT_SAMPLE_FACTORS"][12]["Additional sample data"]["Result Code"] is missing a value.
+Warning: The value, "", in ["SUBJECT_SAMPLE_FACTORS"][13]["Additional sample data"]["Result Code"] is missing a value.
+Warning: The value, "", in ["SUBJECT_SAMPLE_FACTORS"][14]["Additional sample data"]["Result Code"] is missing a value.
+Warning: The value, "", in ["SUBJECT_SAMPLE_FACTORS"][15]["Additional sample data"]["Result Code"] is missing a value.
+Warning: The value, "", in ["SUBJECT_SAMPLE_FACTORS"][16]["Additional sample data"]["Result Code"] is missing a value.
+Warning: The value, "", in ["SUBJECT_SAMPLE_FACTORS"][17]["Additional sample data"]["Result Code"] is missing a value.
+Warning: The value, "", in ["SUBJECT_SAMPLE_FACTORS"][18]["Additional sample data"]["Result Code"] is missing a value.
+Error: An empty value or a null value was detected in ["COLLECTION"]["COLLECTION_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: The value, "3299.5", in ["NM"]["OFFSET_FREQUENCY"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm', 'Hz']. Ignore this when more complicated descriptions are required.
+Error: The value, "3.893", in ["NM"]["ACQUISITION_TIME"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s']. Ignore this when more complicated descriptions are required.
+Error: The value, "12.0227 ppm, 8.417 Hz", in ["NM"]["SPECTRAL_WIDTH"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm', 'Hz']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.04", in ["NM"]["BINNED_INCREMENT"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid sections, "CHROMATOGRAPHY", "Data".
+Error: There must be either a "NMR_METABOLITE_DATA" section, a "NMR_BINNED_DATA" section or a "NMR_RESULTS_FILE" subsection in the "NM" section. Neither were found.

@@ -1,8 +1,143 @@
 Validation Log
-2025-12-07 07:57:47.878382
-mwtab Python Library Version: 1.2.5
+2025-12-15 02:02:41.431333
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005219/mwtab/json
 Study ID:      ST003178
 Analysis ID:   AN005219
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 18
+
+Number of Warnings: 17
+
+Number of Value Errors: 16
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "40-50", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "INCHIKEY" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "INCHIKEY" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      DUUGKQCEGZLZNO-UHFFFAOYAY
+1      YNOXCRMFGMSKIJ-DFZHHIFOAQ
+2      FGSBNBBHOZHUBO-UHFFFAOYAU
+3      QRMZSPFSDQBLIX-REWHXWOFAT
+4      BHQCQFFYRZLCQQ-OELDTZBJBZ
+5      PYUSHNKNPOHWEZ-YFKPBYRVBS
+6      IVOMOUWHDPKRLL-UHFFFAOYAA
+7      JVGVDSSUAVXRDY-UHFFFAOYAV
+8      IWIJFUQFXLWZIA-UHFFFAOYAP
+9      KXGVEGMKQFWNSR-LLQZFEROBK
+10     JYGXADMDTFJGBT-VWUMJDOOBO
+11     MXHRCPNRJAMMIM-SHYZEUOFBK
+12     QIVBCDIJIAJPQS-VIFPVBQEBP
+13     ISAKRJDGNUQOIC-UHFFFAOYAV
+14     UHDGCWIWMRVCDJ-XVFCMESIBD
+15     LRFVTYWOQMYALW-UHFFFAOYAT
+16     ODHCTXKNWHHXJC-VKHMYHEABY
+17     WXNXCEHXYPACJF-ZETCQYMHBF
+18     XUYPXLNMDZIRQH-LURJTMIEBN
+19     IHYJTAOFMMMOPX-LURJTMIEBI
+20     KTHDTJVBEPMMGL-VKHMYHEABO
+22     KRKNYBCHXYNGOX-UHFFFAOYAM
+23     OIVLITBTBDPEFK-UHFFFAOYAM
+24     LEHOTFFKMJEONL-UHFFFAOYAN
+25     KKADPXVIOXHVKN-UHFFFAOYAH
+26     FERIUCNNQQJTOY-UHFFFAOYAP
+27     CVSVTCORWBXHQV-UHFFFAOYAV
+28     ZNOVTXRBGFNYRX-UHFFFAOYAM
+29     PEDCQBHIVMGVHV-UHFFFAOYAF
+30     MYFMARDICOWMQP-YUMQZZPRBM
+31     RZVAJINKPMORJF-UHFFFAOYAA
+32     KJADKKWYZYXHBB-XBWDGYHZBQ
+33                          4000
+34     IGTYILLPRJOVFY-UHFFFAOYAN
+35     WPYMKLBDIGXBTP-UHFFFAOYAD
+36     XMIIGOLPHOKFCH-UHFFFAOYAR
+37     WLJVXDMOQOGPHL-UHFFFAOYAR
+38     QIAFMBKCNZACKA-UHFFFAOYAD
+39     JVQYSWDUAOAHFM-UHFFFAOYAW
+40     JDHILDINMRGULE-LURJTMIEBU
+41     IPROLSVTVHAQLE-UHFFFAOYAX
+42     FEWJPZIEWOKRBE-UHFFFAOYAZ
+43     UBORTCNDUKBEOP-UUOKFMHZBM
+44     ZFXYFBGIUFBOJW-UHFFFAOYAT
+45     QUNWUDVFRNGTCO-UHFFFAOYAS
+46     XGILAAMKEQUXLS-UHFFFAOYAH
+47     BXFFHSIDQOFMLE-UHFFFAOYAB
+48     XHHOHZPNYFQJKL-QWRGUYRKBO
+49     BKAJNAXTPSGJCU-UHFFFAOYAG
+50     MPCAJMNYNOGXPB-SLPGGIOYBT
+51     LVRFTAZAXQPQHI-YFKPBYRVBW
+52     GWYFCOCPABKNJV-UHFFFAOYAV
+53     NDPLAKGOSZHTPH-UHFFFAOYAI
+54     VOXXWSYKYCBWHO-UHFFFAOYAI
+55     NOKPBJYHPHHWAN-REOHCLBHBK
+56     ROBFUDYVXSDBQM-UHFFFAOYAD
+57     MUBZPKHOEPUJKR-UHFFFAOYAQ
+58     FYSSBMZUBSBFJL-UHFFFAOYAJ
+59     GMSNIKWWOQHZGF-UHFFFAOYAL
+60     ZMZQVAUJTDKQGE-UHFFFAOYAZ
+61     WMCQWXZMVIETAO-UHFFFAOYAJ
+62     CBQJSKKFNMDLON-JTQLQIEIBY
+63     IHNKQIMGVNPMTC-RUZDIDTEBJ
+64     JDTWZSUNGHMMJM-MSZQBOFLBT
+65     KBOJOGQFRVVWBH-ZETCQYMHBN
+66     WGNAKZGUSRVWRH-REWHXWOFAB
+68     MVOYJPOZRLFTCP-UHFFFAOYAI
+69     NIDVTARKFBZMOT-PEBGCTIMBU
+70     JFLIEFSWGNOPJJ-UHFFFAOYAD
+71     ZPTBLXKRQACLCR-XVFCMESIBI
+72     YXNIEZJFCGTDKV-JANFQQFMBG
+73     DWRXFEITVBNRMK-JXOAFFINBW
+74     SLEHROROQDYRAW-KQYNXXCUBZ
+75     JLQSXXWTCJPCBC-UHFFFAOYAD
+76     CTYRPMDGLDAWRQ-UHFFFAOYAC
+77     RILPIWOPNGRASR-UHFFFAOYAI
+78     MZPWKJZDOCIALD-UHFFFAOYAC
+79     SATGKQGFUDXGAX-MYWFJNCABU
+81     DTERQYGMUDWYAZ-ZETCQYMHBE
+82     NODSEPOUFZPJEQ-UHFFFAOYAU
+84     LJLLAWRMBZNPMO-UHFFFAOYAA
+85     JOXIMZWYDAKGHI-UHFFFAOYAG
+86     QAOWNCQODCNURD-UHFFFAOYAC
+87     IDIDJDIHTAOVLG-VKHMYHEABD
+88     RMHBODZVODTFAH-UHFFFAOYAP
+89     GAQNUGISBQJMKO-UHFFFAOYAK
+90     SGZFJWQQBHYNNF-UHFFFAOYAL
+92     AQTYXAPIHMXAAV-UHFFFAOYAZ
+93     AKVBCGQVQXPRLD-UHFFFAOYAX
+94     VSTZVCJQGSLNLL-UHFFFAOYAM
+95     FZXCPFJMYOQZCA-UHFFFAOYAC
+96     SRXKAYJJGAAOBP-UHFFFAOYAF
+97     OAUYENAPBFTAQT-UHFFFAOYAN
+98     ORZHQEJEAKXCJA-UHFFFAOYAN
+99     CIQHWLTYGMYQQR-QMMMGPOBBK
+100    CXJAAWRLVGAKDV-UHFFFAOYAS
+102    NZKRYJGNYPYXJZ-UHFFFAOYAU
+103    HPMGFDVTYHWBAG-UHFFFAOYAJ
+105    HXHZGHRLVRFQDR-HZJYTTRNBB
+106    WYUFTYLVLQZQNH-JAJWTYFOBO
+Warning: The "PLOT_NAME" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "SUPER_PATHWAY" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "SUB_PATHWAY" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PUBCHEM" column at position 16 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 15 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHEMSPIDER" column at position 13 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "chemspider_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 12 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 12 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+21        474-25-9,474-24-9
+24         120K5305,69-93-2
+28    68792-52-9,68703-91-3
+34    32113-41-0,10066-90-7
+39     51829-07-3,1460-34-0
+42        87-69-4,6106-24-7
+Warning: The "CHEM_ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LIB_ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "COMP_ID" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHRO_LIB_ENTRY_ID" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "CHEM_ID" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "CHEM_ID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.

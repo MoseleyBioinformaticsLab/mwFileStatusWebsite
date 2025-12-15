@@ -1,8 +1,129 @@
 Validation Log
-2025-12-07 09:48:52.663975
-mwtab Python Library Version: 1.2.5
+2025-12-15 03:23:09.102286
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006991/mwtab/txt
 Study ID:      ST004204
 Analysis ID:   AN006991
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 11
+
+Number of Warnings: 5
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "12 hours", for the subsection, "TREATMENT_DOSEDURATION", in the "TREATMENT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['h', 'weeks', 'days']. Ignore this when more complicated descriptions are required.
+Error: The value, "320℃", for the subsection, "CAPILLARY_TEMPERATURE", in the "MS" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "35psi", for the subsection, "DRY_GAS_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "3.5kV", for the subsection, "SPRAY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.2mL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40℃", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 5 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Molecular Weight" column at position 3 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+2                C11 H13 N O3
+3                 C8 H15 N O3
+10                 C9 H9 N O3
+25                 C6 H9 N O5
+28               C26 H43 N O5
+38               C11 H13 N O4
+43               C11 H19 N O9
+44             C26 H45 N O6 S
+47              C7 H13 N O3 S
+51                C7 H11 N O5
+53               C10 H11 N O3
+54               C26 H43 N O6
+58               C21 H17 N O3
+61               C10 H19 N O3
+75             C26 H45 N O7 S
+76                C7 H13 N O3
+78               C10 H13 N O2
+79               C11 H11 N O3
+82               C10 H11 N O3
+85                C9 H11 N O2
+87                C9 H11 N O3
+89              C23 H39 N O19
+96                 C5 H9 N O2
+98                C5 H11 N O2
+99                 C6 H5 N O3
+104                C8 H7 N O2
+106              C23 H27 N O9
+108              C24 H21 N O3
+111             C8 H16 N O9 P
+113               C6 H13 N O3
+118             C7 H13 N O3 S
+120               C10 H9 N O2
+121              C15 H17 N O2
+129            C22 H24 Cl N O
+132              C14 H19 N O4
+134           C17 H18 F N3 O4
+135           C15 H12 N2 O S2
+142              C11 H21 N O4
+143              C11 H13 N O5
+145         C21 H18 [2]H9 N O
+146             C8 H10 N O6 P
+157         C17 H20 F N3 O2 S
+165             C11 H19 N O10
+170                C4 H9 N O2
+173              C10 H11 N O2
+176           C11 H12 Cl N3 O
+184        C10 H14 N5 O10 P S
+188              C22 H23 N O2
+189    C15 H6 [2]H4 Cl F N2 O
+195               C9 H17 N O4
+197              C20 H39 N O3
+198             C8 H16 N O9 P
+204              C15 H13 N O3
+207                C3 H7 N O3
+212             C41 H73 N O18
+224          C21 H15 Cl N4 O3
+227              C16 H17 N O8
+239            C20 H36 N O7 P
+246              C4 H9 N O5 S
+248         C11 H12 [2]H3 N O
+255               C10 H9 N O2
+256               C9 H13 N O3
+277              C17 H21 N O4
+280               C10 H7 N O4
+282              C23 H27 N O9
+285            C26 H45 N O7 S
+287            C40 H80 N O8 P
+313              C3 H7 N O4 S
+323            C21 H42 N O7 P
+333              C3 H8 N O6 P
+342          C6 H12 N Na O8 S
+346           C15 H12 Cl N O3
+369            C24 H50 N O7 P
+370            C23 H46 N O7 P
+377            C23 H46 N O7 P
+383              C12 H15 N O4
+385              C10 H13 N O3
+386              C13 H17 N O3
+391               C8 H11 N O3
+394                C6 H9 N O5
+396                C8 H9 N O4
+397                C7 H7 N O3
+401              C10 H15 N O3
+406              C12 H23 N O4
+407                C5 H9 N O5
+409              C10 H13 N O4
+410              C10 H19 N O4
+411               C9 H11 N O4
+413                C9 H9 N O2
+414              C10 H15 N O2
+416              C11 H13 N O6
+422                C7 H7 N O2
+431               C7 H11 N O4
+448              C11 H17 N O3
+461               C6 H11 N O4
+465              C8 H7 N O4 S
+472                C7 H5 N O4
+475             C8 H15 N O S2
+478               C10 H7 N O3
+Warning: The "Lipidmaps_ID" column at position 8 in the METABOLITES table, matches a standard column name, "lm_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT [min]" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

@@ -1,8 +1,35 @@
 Validation Log
-2025-12-07 07:29:09.018545
-mwtab Python Library Version: 1.2.5
+2025-12-15 01:40:02.429367
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004793/mwtab/json
 Study ID:      ST002923
 Analysis ID:   AN004793
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 16
+
+Number of Warnings: 13
+
+Number of Value Errors: 16
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "infant", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Not applicable", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "35", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "annotation" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "annotations". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "AD_20" column at position 21 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "AD_FA_2" column at position 33 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "AD_FA_12" column at position 43 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "AD_FA_13" column at position 44 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "AD_FA_16" column at position 47 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "AD_FA_35" column at position 66 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "AD_FA_57" column at position 88 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "AD_FA_66" column at position 97 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "AD_FA_70" column at position 101 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Con_19" column at position 133 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Con_29" column at position 143 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Con_41" column at position 155 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.

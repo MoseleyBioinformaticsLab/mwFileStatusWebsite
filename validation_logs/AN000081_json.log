@@ -1,8 +1,122 @@
 Validation Log
-2025-12-07 01:12:45.345463
-mwtab Python Library Version: 1.2.5
+2025-12-14 21:02:17.027309
+mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000081/mwtab/json
 Study ID:      ST000047
 Analysis ID:   AN000081
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 17
+
+Number of Warnings: 7
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected in ["STUDY"]["ADDRESS"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["STUDY"]["PHONE"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"10-hydroxy-8E-Decene-2_4_6-triynoicacid"
+	"11alpha-(chloromethyl)-1alpha_25-dihydroxyvitaminD3/11alpha-(chloromethyl)-1alpha_25-dihydroxycho"
+	"12-oxo-14_18-dihydroxy-9Z_13E_15Z-octadecatrienoicacid"
+	"1-(7Z_10Z_13Z_16Z-docosatetraenoyl)-2-(7Z_10Z_13Z_16Z_19Z-docosapentaenoyl)-sn-glycerol"
+	"(17Z)-1alpha_25-dihydroxy-26_27-dimethyl-17_20_22_22_23_23-hexadehydrovitaminD3/(17Z)-1alpha_25-d"
+	"1-(9Z_12Z-octadecadienoyl)-rac-glycerol"
+	"1a_1b-dihomo-PGJ2"
+	"1alpha_18-dihydroxyvitaminD_3/1alpha_18-dihydroxycholecalciferol"
+	"1alpha_25-dihydroxy-24-oxovitaminD_3/1alpha_25-dihydroxy-24-oxocholecalciferol"
+	"1alpha_25-dihydroxy-2beta-(2-hydroxyethoxy)vitaminD3/1alpha_25-dihydroxy-2beta-(2-hydroxyethoxy)c"
+	"(22E_24E_26E)-1alpha_26b-dihydroxy-22_23_24_25_26_26a-hexadehydro-26a_26b-dihomo-27-norvitaminD3/"
+	"2_3-Dihydroxyvalericacid"
+	"2_3-Dihydroxyvalericacid+2.514446"
+	"(24S)-1alpha_24-dihydroxy-22-oxavitaminD3/(24S)-1alpha_24-dihydroxy-22-oxacholecalciferol"
+	"(24S)-1alpha_24-dihydroxy-22-oxavitaminD3/(24S)-1alpha_24-dihydroxy-22-oxacholecalciferol+2.0631058"
+	"(24S)-1alpha_24-dihydroxy-22-oxavitaminD3/(24S)-1alpha_24-dihydroxy-22-oxacholecalciferol+2.8750935"
+	"25_26-epoxy-1alpha-hydroxy-23_23_24_24-tetradehydro-19-norvitaminD3/25_26-epoxy-1alpha-hydroxy-23"
+	"2-Heptenedioicacid_4-oxo-"
+	"3_3_45-Tetrahydroxystilbene"
+	"3_4-Dehydrochlorambucil"
+	"3_5-hexadienoicacid"
+	"3a_6b_7a_12a-Tetrahydroxy-5b-cholanoicacid"
+	"3E_5E-tridecadienoicacid"
+	"3-Hydroxy-N-glycyl-2_6-xylidine(3-Hydroxyglycinexylidide)"
+	"3-Methylamino-1_2-propandiol"
+	"4_6-Diamino-5-formamidopyrimidine"
+	"5_6-DiHETrE-EA"
+	"5_6-Dihydrouridine"
+	"5_7-nonadienoicacid"
+	"5_7-nonadienoicacid+1.1411649"
+	"5-amino-1-[3_4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]imidazole-4-carboxamide"
+	"5^-Methylthioadenosine"
+	"5^-Methylthioadenosine+2.0272343"
+	"6_8-dihydroxy-octanoicacid"
+	"6-Formylindolo[3_2-B]carbazole"
+	"8-methoxy-13-hydroxy-9_11-octadecadienoicacid"
+	"(9R_13R)-1a_1b-dihomo-jasmonicacid"
+	"Anandamide(20:2_n-6)"
+	"Anandamide(20:2_n-6)+1.2057526"
+	"DALBERGIONE_4-METHOXY-4^-HYDROXY-"
+	"GPEtn(20:4(5Z_8Z_11Z_14Z)/20:4(5Z_8Z_11Z_14Z))[U]"
+	"LEVULINICACID_3-BENZYLIDENYL-"
+	"N-(1_1-dimethyl-2-hydroxy-ethyl)arachidonoylamine"
+	"N1_N4-Diacetylsulfanilamide"
+	"N2_N2-Dimethylguanosine"
+	"N_N-Didemethylchlorpromazine"
+	"N_N-dimethylhistidine"
+	"N_N-Dimethyltryptamine(DMT)"
+	"N-propyl-16_16-dimethyl-5Z_8Z_11Z_14Z-docosatetraenoylamine"
+	"QUERCETINTETRAMETHYL(5_7_3^_4^)ETHER"
+	"sn-1_2-Dioctanoylglycerol"
+	"TG(17:2(9Z_12Z)/18:0/22:3(10Z_13Z_16Z))[iso6]"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"10-hydroxy-8E-Decene-2,4,6-triynoicacid"
+	"11alpha-(chloromethyl)-1alpha,25-dihydroxyvitaminD3/11alpha-(chloromethyl)-1alpha,25-dihydroxycho"
+	"12-oxo-14,18-dihydroxy-9Z,13E,15Z-octadecatrienoicacid"
+	"(17Z)-1alpha,25-dihydroxy-26,27-dimethyl-17,20,22,22,23,23-hexadehydrovitaminD3/(17Z)-1alpha,25-d"
+	"1alpha,18-dihydroxyvitaminD_3/1alpha,18-dihydroxycholecalciferol"
+	"1alpha,25-dihydroxy-24-oxovitaminD_3/1alpha,25-dihydroxy-24-oxocholecalciferol"
+	"1alpha,25-dihydroxy-2beta-(2-hydroxyethoxy)vitaminD3/1alpha,25-dihydroxy-2beta-(2-hydroxyethoxy)c"
+	"(22E,24E,26E)-1alpha,26b-dihydroxy-22,23,24,25,26,26a-hexadehydro-26a,26b-dihomo-27-norvitaminD3/"
+	"2,3-Dihydroxyvalericacid"
+	"2,3-Dihydroxyvalericacid+2.514446"
+	"(24S)-1alpha,24-dihydroxy-22-oxavitaminD3/(24S)-1alpha,24-dihydroxy-22-oxacholecalciferol"
+	"(24S)-1alpha,24-dihydroxy-22-oxavitaminD3/(24S)-1alpha,24-dihydroxy-22-oxacholecalciferol+2.0631058"
+	"(24S)-1alpha,24-dihydroxy-22-oxavitaminD3/(24S)-1alpha,24-dihydroxy-22-oxacholecalciferol+2.8750935"
+	"25,26-epoxy-1alpha-hydroxy-23,23,24,24-tetradehydro-19-norvitaminD3/25,26-epoxy-1alpha-hydroxy-23"
+	"2-Heptenedioicacid,4-oxo-"
+	"3,5-hexadienoicacid"
+	"3a,6b,7a,12a-Tetrahydroxy-5b-cholanoicacid"
+	"3E,5E-tridecadienoicacid"
+	"3-Hydroxy-N-glycyl-2,6-xylidine(3-Hydroxyglycinexylidide)"
+	"5,7-nonadienoicacid"
+	"5,7-nonadienoicacid+1.1411649"
+	"5'-Methylthioadenosine+2.0272343"
+	"6,8-dihydroxy-octanoicacid"
+	"6-Formylindolo[3,2-B]carbazole"
+	"8-methoxy-13-hydroxy-9,11-octadecadienoicacid"
+	"(9R,13R)-1a,1b-dihomo-jasmonicacid"
+	"Anandamide(20:2,n-6)"
+	"Anandamide(20:2,n-6)+1.2057526"
+	"DALBERGIONE,4-METHOXY-4'-HYDROXY-"
+	"LEVULINICACID,3-BENZYLIDENYL-"
+	"N-(1,1-dimethyl-2-hydroxy-ethyl)arachidonoylamine"
+	"N,N-Dimethyltryptamine(DMT)"
+	"N-propyl-16,16-dimethyl-5Z,8Z,11Z,14Z-docosatetraenoylamine"
+	"QUERCETINTETRAMETHYL(5,7,3',4')ETHER"
+Warning: The "ri" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "inchi_key" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "kegg_id" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
