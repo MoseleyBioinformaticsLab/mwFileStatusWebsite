@@ -1,0 +1,450 @@
+Validation Log
+2025-12-21 09:23:01.963383
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007399/mwtab/txt
+Study ID:      ST004422
+Analysis ID:   AN007399
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 8
+
+Number of Value Errors: 10
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the "Sample ID" in entry 1 of the "SUBJECT_SAMPLE_FACTORS" section. A legitimate value should be provided for this required subsection.
+Error: The value, "35°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Calc. MW" column at position 8 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+11          C10 H13 N O3
+13            C9 H7 N O2
+14     C22 H25 Cl F N3 O
+29            C8 H9 N O3
+33           C7 H5 N O S
+34            C7 H5 N S2
+35             C2 H6 O S
+38           C10 H11 N O
+44             C6 H7 N O
+45       C8 H10 F N O2 S
+46            C7 H7 N O2
+48           C12 H19 N O
+50             C9 H7 N O
+53           C6 H9 N O S
+59             C7 H9 N O
+60          C15 H17 N O3
+63          C18 H23 N O4
+67          C18 H33 N O4
+74           C9 H13 N O2
+75           C8 H13 N O2
+76          C14 H21 N O4
+80            C6 H11 N O
+83            C5 H13 N O
+88            C5 H9 N O2
+89            C5 H7 N O3
+90           C10 H21 N O
+95            C3 H7 N O3
+96           C9 H19 N O4
+97           C9 H15 N O3
+98          C10 H17 N O3
+99          C16 H25 N O4
+105          C16 H33 N O
+106          C11 H17 N O
+114        C5 H11 N O2 S
+117          C6 H13 N O2
+118          C6 H13 N O2
+119          C9 H11 N O2
+120          C5 H11 N O2
+124         C15 H25 N O3
+128          C8 H15 N O3
+129         C10 H13 N O2
+130         C17 H27 N O4
+131           C6 H5 N O3
+133            C5 H9 N O
+134           C7 H13 N O
+137    C15 H10 Cl F N2 O
+138         C16 H17 N O3
+139         C10 H15 N O3
+146          C18 H35 N O
+153          C6 H11 N O2
+155           C5 H9 N O2
+158          C8 H11 N O3
+164        C45 H73 N O15
+165          C27 H43 N O
+166          C18 H37 N O
+173          C11 H9 N O2
+174           C5 H9 N O3
+178           C8 H15 N O
+179           C8 H13 N O
+182           C8 H17 N O
+184         C13 H19 N O3
+186    C18 H13 Cl F N3 O
+Warning: The "Annot. Source: ChemSpider Search" column at position 6 in the METABOLITES table, matches a standard column name, "chemspider_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "# ChemSpider Results" column at position 11 in the METABOLITES table, matches a standard column name, "chemspider_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Annot. Source: ChemSpider Search" column at position 6 in the METABOLITES table, matches a standard column name, "chemspider_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0           Full match
+1        Partial match
+2           Full match
+3        Partial match
+4           No results
+5             No match
+6        Partial match
+7           No results
+8        Partial match
+9        Partial match
+10       Partial match
+11       Partial match
+12          No results
+13       Partial match
+14          No results
+15          Full match
+16     Not the top hit
+17          Full match
+18          No results
+19       Partial match
+20          Full match
+21     Not the top hit
+22          No results
+23          No results
+24          Full match
+25       Partial match
+26       Partial match
+27       Partial match
+28          No results
+29          Full match
+30          Full match
+31          Full match
+32          Full match
+33       Partial match
+34          Full match
+35     Not the top hit
+36       Partial match
+37          Full match
+38          Full match
+39          Full match
+40       Partial match
+41          Full match
+42     Not the top hit
+43     Not the top hit
+44       Partial match
+45          No results
+46     Not the top hit
+47       Partial match
+48       Partial match
+49     Not the top hit
+50       Partial match
+51     Not the top hit
+52       Partial match
+53          Full match
+54          Full match
+55       Partial match
+56       Partial match
+57     Not the top hit
+58     Not the top hit
+59       Partial match
+60       Partial match
+61     Not the top hit
+62       Partial match
+63       Partial match
+64       Partial match
+65       Partial match
+66     Not the top hit
+67          Full match
+68          Full match
+69          Full match
+70       Partial match
+71          Full match
+72          Full match
+73          Full match
+74       Partial match
+75          Full match
+76       Partial match
+77          No results
+78       Partial match
+79          Full match
+80          Full match
+81     Not the top hit
+82          No results
+83          No results
+84     Not the top hit
+85          Full match
+86          Full match
+87     Not the top hit
+88          Full match
+89          Full match
+90       Partial match
+91       Partial match
+92          No results
+93          Full match
+94       Partial match
+95          Full match
+96          Full match
+97       Partial match
+98          Full match
+99          Full match
+100         Full match
+101         Full match
+102         Full match
+103         Full match
+104         Full match
+105         Full match
+106      Partial match
+107      Partial match
+108      Partial match
+109         Full match
+110         Full match
+111      Partial match
+112      Partial match
+113         Full match
+114         Full match
+115         Full match
+116         Full match
+117    Not the top hit
+118    Not the top hit
+119         Full match
+120         Full match
+121         Full match
+122         No results
+123    Not the top hit
+124         Full match
+125      Partial match
+126      Partial match
+127      Partial match
+128         Full match
+129      Partial match
+130         Full match
+131      Partial match
+132      Partial match
+133         Full match
+134      Partial match
+135         No results
+136      Partial match
+137         Full match
+138         Full match
+139      Partial match
+140      Partial match
+141      Partial match
+142      Partial match
+143      Partial match
+144         No results
+145    Not the top hit
+146      Partial match
+147         Full match
+148         No results
+149         Full match
+150         Full match
+151         Full match
+152         Full match
+153         Full match
+154         Full match
+155         Full match
+156      Partial match
+157    Not the top hit
+158         Full match
+159      Partial match
+160      Partial match
+161      Partial match
+162         Full match
+163         Full match
+164         Full match
+165         Full match
+166      Partial match
+167         Full match
+168      Partial match
+169         Full match
+170         Full match
+171         Full match
+172         Full match
+173         Full match
+174         Full match
+175         Full match
+176         No results
+177         Full match
+178         Full match
+179      Partial match
+180         Full match
+181         Full match
+182         Full match
+183    Not the top hit
+184      Partial match
+185         Full match
+186         Full match
+187         Full match
+188      Partial match
+189      Partial match
+Warning: The "mzCloud Best Match Confidence" column at position 14 in the METABOLITES table, matches a standard column name, "mzcloud_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "mzCloud Best Match Confidence" column at position 14 in the METABOLITES table, matches a standard column name, "mzcloud_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      83.2
+1      88.1
+2      83.1
+3      73.1
+4      48.8
+5      75.9
+6      68.4
+7      43.3
+8       9.9
+9      47.5
+10     75.3
+12      8.4
+13     66.1
+15     79.6
+17     82.9
+18      8.4
+19     66.3
+20     97.8
+21     91.1
+22     52.3
+23     49.3
+24     53.7
+25     44.7
+26      9.2
+28     43.1
+29      9.1
+30     49.2
+31     90.1
+33     54.8
+35      9.9
+36     42.7
+37      9.8
+38     49.4
+39     76.9
+40     62.9
+41      8.1
+42     81.3
+43     53.5
+44      8.5
+45     53.1
+46     71.1
+49      8.8
+50     55.1
+51     80.9
+52     66.4
+53     69.6
+55     65.3
+56     54.1
+57     55.6
+58     75.6
+59     49.1
+60     71.6
+61     45.1
+62      8.9
+63     46.6
+64     74.7
+65     68.8
+66     75.7
+67     43.9
+68     74.8
+69     65.6
+71      9.9
+72      9.8
+73     80.9
+75      8.8
+76     46.5
+77     62.1
+79     81.4
+80     60.6
+81     43.3
+82      9.3
+83      9.8
+84     70.4
+85     55.1
+86     82.8
+87     76.6
+88      9.9
+89      8.9
+91      9.6
+92      8.5
+93      9.9
+95     50.1
+96     52.7
+97     52.5
+98     49.5
+99     65.9
+100    98.4
+101    97.2
+103    58.5
+104    68.4
+105    90.9
+106    75.8
+107    80.5
+108     9.9
+109     8.5
+110     8.4
+111    47.9
+112    65.7
+113    67.4
+114    80.2
+115    63.9
+116    78.9
+117     9.9
+119    90.8
+120     9.9
+121    74.5
+122    46.3
+123    52.4
+125    86.4
+126     8.9
+127    64.2
+128    86.2
+129    83.2
+131    55.1
+132     9.8
+133    42.7
+135    61.7
+136    96.8
+137     9.6
+138     8.7
+139    73.5
+140    70.2
+141    66.2
+142    70.6
+143    66.9
+144    62.1
+145    77.7
+146    98.4
+147     8.5
+148    98.9
+149    95.4
+150    97.3
+151    96.9
+152     9.5
+154     8.3
+155     8.2
+156     9.1
+157    71.2
+158    43.8
+159    46.5
+160    81.7
+161    75.7
+162    65.7
+163    71.8
+164    80.9
+165     9.9
+166    88.2
+167    81.7
+168     9.3
+169    74.4
+170    54.7
+171    80.9
+172    46.9
+173    67.6
+174     8.8
+175    51.9
+176    46.5
+177    85.1
+178     9.7
+179    52.1
+180    79.9
+181    52.4
+183    65.3
+184    47.3
+185    94.5
+186    48.3
+187    48.6
+188    71.7
+189    47.4
+Warning: The "RT [min]" column at position 9 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

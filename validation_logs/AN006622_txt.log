@@ -1,0 +1,146 @@
+Validation Log
+2025-12-21 08:50:50.623349
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006622/mwtab/txt
+Study ID:      ST004017
+Analysis ID:   AN006622
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 7
+
+Number of Warnings: 5
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.200 mL/minute", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "30", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "chemical formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem id" column at position 3 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem id" column at position 3 in the METABOLITES table, matches a standard column name, "pubchem_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1                    C00629
+3                    C00197
+4                    C01005
+5                    C00334
+6                    C01134
+7                    C03492
+8                    C00847
+9                    C00119
+10                   C00345
+12                   C00024
+13            C00417|C02341
+14                   C00498
+15                   C00026
+16                   C00062
+17                   C00152
+18                   C00049
+23                   C00112
+24                   C00307
+25                   C00570
+27                   C06907
+28                   C02226
+29            C00158|C00311
+30                   C00055
+31                   C00010
+32                   C00300
+33                   C00063
+34                   C00491
+35                   C00475
+36                   C00360
+37                   C00131
+38                   C00705
+39                   C00239
+40                   C00458
+41                   C05274
+42                   C00279
+43                   C00008
+44                   C00767
+45                   C00257
+46            C00111|C00661
+47                   C00362
+48                   C00002
+49                   C00337
+50                   C00408
+51     C00281|C05382|C06222
+52                   C00363
+53                   C00364
+54                   C00459
+55                   C00365
+56                   C00016
+57                   C00061
+58                   C00504
+60                   C00122
+61                   C00035
+62                   C00341
+63                   C00198
+64                   C00103
+65                   C00025
+66                   C00064
+67                   C00051
+68                   C00127
+69                   C06193
+70                   C00044
+71                   C00242
+73                   C00085
+74                   C00135
+76                   C01157
+77                   C00262
+78                   C00104
+80                   C00130
+81                   C16074
+83            C00328|C01718
+84     C00186|C00256|C01432
+85                   C03406
+87                   C00123
+88                   C00047
+89     C00149|C00497|C00711
+90                   C01384
+92                   C00073
+93                   C00137
+94                   C02593
+95            C04256|C00357
+96                   C00624
+97                HMDB06029
+98                   C01073
+99                   C00003
+100                  C00004
+101                  C00006
+102                  C00005
+103                  C00438
+105                  C00253
+109                  C00077
+110                  C00295
+111                  C00864
+113                  C00079
+114                  C00074
+119                  C00148
+121                  C00314
+122                  C01879
+123                  C00013
+124                  C00255
+127                  C00117
+129                  C00021
+133                  C00065
+134                  C00093
+135                  C02170
+136    C00091|C00683|C02557
+137                  C00378
+138                  C00068
+139                  C00263
+140    C00078|C00525|C00806
+141                  C00082
+142                  C00015
+143                  C00029
+144                  C00167
+145                  C00043
+146                  C00105
+147                  C00075
+150                  C00183
+151                  C01762
+152                  C00655
+Warning: The "retention index" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "retention index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
