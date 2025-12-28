@@ -1,0 +1,72 @@
+Validation Log
+2025-12-28 10:26:40.573840
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006791/mwtab/txt
+Study ID:      ST004096
+Analysis ID:   AN006791
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 14
+
+Number of Warnings: 9
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection.
+Error: The value, "-", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "60 to 340 over a 16 minute period", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_A", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_B", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection.
+Warning: The "PUBCHEM" column at position 6 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 7 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 5 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 5 in the METABOLITES table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                   542-44-9;
+1                 40951-21-1;
+2                 70195-25-4;
+3                 80731-10-8;
+4                 94249-01-1;
+5                    73-24-5;
+6                    56-41-7;
+7                    97-59-6;
+8                    70-47-3;
+9                    56-84-8;
+10                   65-85-0;
+11          56-41-7;107-95-9;
+12                   57-88-5;
+13                   77-92-9;
+14           52-90-4;56-89-3;
+15                19246-18-5;
+16                  112-84-5;
+17                  100-17-8;
+18                   50-99-7;
+19               103192-55-8;
+20                29849-82-9;
+21                   56-40-6;
+22               106032-59-1;
+23                   79-33-4;
+24                 6915-15-7;
+25    70442-25-0;104872-94-8;
+26                 7023-27-0;
+27                   87-89-8;
+28                 3184-13-2;
+30                7664-38-2 ;
+31                10526-80-4;
+32                 1071-23-4;
+33                 1466-09-3;
+34                  127-17-3;
+35                   56-45-1;
+36     85187-10-6;85187-10-6;
+37                70753-61-6;
+38          69-93-2;120K5305;
+39                   57-13-6;
+Warning: The "COMP ID" column at position 2 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RI" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "COMP ID" was found in the METABOLITES table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The column "RI" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "COMP ID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.

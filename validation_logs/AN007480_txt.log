@@ -1,0 +1,20 @@
+Validation Log
+2025-12-28 10:47:46.308444
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007480/mwtab/txt
+Study ID:      ST004463
+Analysis ID:   AN007480
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 1
+
+Number of Warnings: 0
+
+Number of Value Errors: 1
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "25", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
