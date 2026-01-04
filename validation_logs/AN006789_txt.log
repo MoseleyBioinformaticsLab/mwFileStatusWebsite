@@ -1,113 +1,50 @@
 Validation Log
-2025-12-28 10:26:34.379915
+2026-01-04 07:23:47.979113
 mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006789/mwtab/txt
 Study ID:      ST004096
 Analysis ID:   AN006789
 File format:   txt
 Status: Contains Validation Issues
-Number of Issues: 11
+Number of Issues: 13
 
 Number of Warnings: 9
 
-Number of Value Errors: 8
+Number of Value Errors: 9
 
-Number of Consistency Errors: 0
+Number of Consistency Errors: 2
 
 Number of Format Errors: 0
 
 Issue Log:
 Error: The value, "350 microL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
 Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
-Warning: The "PUBCHEM" column at position 6 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
-Warning: The "KEGG" column at position 7 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
-Warning: The "CAS" column at position 5 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
-Warning: The "CAS" column at position 5 in the METABOLITES table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
-1             19420-56-5;
-2             17364-16-8;
-3             19420-57-6;
-4     542-32-5;1118-90-7;
-10            31023-25-3;
-16            10457-99-5;
-17              462-88-4;
-18             2457-80-9;
-19               98-79-3;
-20             5080-50-2;
-21            20398-34-9;
-22           149022-20-8;
-23              107-43-7;
-24            22150-76-1;
-25            25576-40-3;
-26              461-05-2;
-27               67-48-1;
-28            98930-66-6;
-29              372-75-8;
-30               57-00-1;
-31               60-27-5;
-32               65-46-3;
-33               63-37-6;
-34            1492-27-9 ;
-35             6249-56-5;
-36            58511-63-0;
-37            26993-30-6;
-38              636-58-8;
-39             1116-22-9;
-41             2566-39-4;
-42             5652-48-2;
-43             2746-34-1;
-44           103301-72-0;
-45           103301-73-1;
-46               56-86-0;
-47            1499-55-4 ;
-48               56-85-9;
-49           103239-24-3;
-50               70-18-8;
-51            28319-77-9;
-52             5550-12-9;
-53            14875-96-8;
-54             6920-35-0;
-55             1195-94-4;
-56            99159-87-2;
-57             4691-65-0;
-58               73-32-5;
-61               61-90-5;
-62               56-87-1;
-64            23284-33-5;
-65              131-48-6;
-66             6205-08-9;
-67              923-37-5;
-68               98-92-0;
-69               53-84-9;
-70    53-59-8 ;1184-16-3;
-71             1094-61-7;
-72             2625-49-2;
-73              321-02-8;
-74             1116-21-8;
-75             3671-77-0;
-77              495-27-2;
-78             6865-14-1;
-79              137-08-6;
-80               63-91-2;
-81             4043-87-2;
-82              147-85-3;
-83           17298-37-2 ;
-84              153-98-0;
-85             2922-56-7;
-86              124-20-9;
-87             3102-56-5;
-88              123-78-4;
-89             4136-37-2;
-90            18822-91-8;
-92              107-35-7;
-93               72-19-5;
-94               51-35-4;
-95            6138-41-6 ;
-96               73-22-3;
-97               60-18-4;
-98               72-18-4;
-99               69-89-6;
-Warning: The "COMP ID" column at position 2 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
-Warning: The "RI" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
-Warning: The column "COMP ID" was found in the METABOLITES table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
-Warning: The column "RI" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
-Warning: The standard column, "other_id", was found in the METABOLITES table as "COMP ID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"adenosine 5^-diphosphate (ADP)"
+	"adenosine 5^-monophosphate (AMP)"
+	"cytidine 5^-monophosphate (5^-CMP)"
+	"glutamate_ gamma-methyl ester"
+	"glutathione_ oxidized (GSSG)"
+	"glutathione_ reduced (GSH)"
+	"guanosine 5^- monophosphate (5^-GMP)"
+	"inosine 5^-monophosphate (IMP)"
+	"trigonelline (N^-methylnicotinate)"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"adenosine 5'-diphosphate (ADP)"
+	"adenosine 5'-monophosphate (AMP)"
+	"cytidine 5'-monophosphate (5'-CMP)"
+	"glutamate, gamma-methyl ester"
+	"glutathione, oxidized (GSSG)"
+	"glutathione, reduced (GSH)"
+	"guanosine 5'- monophosphate (5'-GMP)"
+	"inosine 5'-monophosphate (IMP)"
+	"trigonelline (N'-methylnicotinate)"
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.

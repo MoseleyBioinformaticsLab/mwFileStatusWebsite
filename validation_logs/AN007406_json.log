@@ -1,0 +1,78 @@
+Validation Log
+2026-01-04 07:45:11.063401
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007406/mwtab/json
+Study ID:      ST004427
+Analysis ID:   AN007406
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 11
+
+Number of Warnings: 9
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Male and female", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "25°C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Exact mass" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Standardized name" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "refmet". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     RM0033207
+2     RM0135874
+3     RM0073686
+4     RM0049281
+5     RM0135870
+6     RM0135875
+7     RM0138921
+8     RM0135963
+9     RM0138930
+10    RM0138946
+11    RM0138923
+12    RM0157849
+13    RM0135876
+14    RM0135881
+15    RM0156433
+16    RM0028587
+17    RM0136074
+18    RM0049845
+19    RM0009096
+20    RM0136101
+21    RM0136085
+22    RM0032432
+23    RM0138943
+24    RM0033168
+25    RM0135889
+26    RM0033601
+27    RM0136084
+28    RM0018303
+29    RM0156423
+30    RM0135895
+31    RM0043289
+32    RM0000534
+33    RM0135908
+34    RM0156013
+35    RM0133217
+36    RM0136399
+37    RM0133216
+38    RM0157850
+39    RM0139022
+41    RM0159451
+42    RM0032432
+43    RM0040235
+44    RM0135932
+45    RM0135929
+46    RM0135934
+47    RM0135933
+48    RM0161017
+49    RM0010946
+Warning: The "Super class" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Main class" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Sub class" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LM_ID" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

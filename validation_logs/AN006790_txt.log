@@ -1,62 +1,38 @@
 Validation Log
-2025-12-28 10:26:37.547528
+2026-01-04 07:23:51.076875
 mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006790/mwtab/txt
 Study ID:      ST004096
 Analysis ID:   AN006790
 File format:   txt
 Status: Contains Validation Issues
-Number of Issues: 11
+Number of Issues: 13
 
 Number of Warnings: 9
 
-Number of Value Errors: 8
+Number of Value Errors: 9
 
-Number of Consistency Errors: 0
+Number of Consistency Errors: 2
 
 Number of Format Errors: 0
 
 Issue Log:
 Error: The value, "350 microL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
 Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
-Warning: The "PUBCHEM" column at position 6 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
-Warning: The "KEGG" column at position 7 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
-Warning: The "CAS" column at position 5 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
-Warning: The "CAS" column at position 5 in the METABOLITES table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
-0      29743-97-3;
-1       2485-71-4;
-6      69747-55-3;
-8     102783-53-9;
-9       2091-25-0;
-10       506-32-1;
-11      1119-34-2;
-12       112-37-8;
-13       142-62-1;
-14       124-07-2;
-15        81-25-4;
-16      2091-39-6;
-18    102783-56-2;
-19      6217-54-5;
-20     2234-74-4 ;
-22       495-69-2;
-23      5934-29-2;
-24        68-94-0;
-25        58-63-9;
-28       143-07-7;
-29        60-33-3;
-31       544-63-8;
-32      544-64-9 ;
-33       646-30-0;
-34       112-80-1;
-35        57-10-3;
-36       112-05-0;
-37      1002-84-2;
-38       500-98-1;
-39       110-15-6;
-40       334-48-5;
-41        58-96-8;
-Warning: The "COMP ID" column at position 2 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
-Warning: The "RI" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
-Warning: The column "COMP ID" was found in the METABOLITES table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
-Warning: The column "RI" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
-Warning: The standard column, "other_id", was found in the METABOLITES table as "COMP ID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"2_3-diphosphoglycerate"
+	"Isobar: 2-propylpentanoic acid_ 2-ethylhexanoic acid"
+	"Isobar: fructose 1_6-diphosphate_ glucose 1_6-diphosphate"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"2,3-diphosphoglycerate"
+	"Isobar: 2-propylpentanoic acid, 2-ethylhexanoic acid"
+	"Isobar: fructose 1,6-diphosphate, glucose 1,6-diphosphate"
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.

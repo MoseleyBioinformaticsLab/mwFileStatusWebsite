@@ -1,0 +1,70 @@
+Validation Log
+2026-01-04 07:46:20.461247
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007535/mwtab/txt
+Study ID:      ST004493
+Analysis ID:   AN007535
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 9
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "45°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z ratio" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InChI Key" column at position 8 in the METABOLITES table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1              C2 H5 N O2
+4              C3 H7 N O2
+9              C4 H9 N O2
+11             C3 H7 N O3
+16            C5 H11 N O2
+19             C4 H9 N O3
+20           C2 H7 N O3 S
+21             C5 H7 N O3
+25            C6 H13 N O2
+27             C4 H7 N O4
+31             C6 H5 N O3
+35             C5 H9 N O4
+36             C5 H9 N O4
+38             C8 H7 N O2
+41             C8 H9 N O2
+42             C7 H7 N O3
+47            C7 H6 Cl N3
+49           C3 H7 N O5 S
+59          C6 H11 N O3 S
+64             C7 H5 N O5
+65             C8 H9 N O4
+68          C7 H13 N O3 S
+70           C10 H11 N O3
+75           C10 H19 N O3
+76            C9 H17 N O4
+83           C8 H7 N O4 S
+85            C9 H17 N O5
+88          C11 H8 F3 N O
+98        C11 H12 Cl N O4
+99        C14 H11 Cl N2 O
+102     C10 H12 Cl N O3 S
+106        C15 H11 N O2 S
+114         C8 H16 N O9 P
+117          C18 H11 N O4
+119            C5 H9 N O3
+121          C11 H19 N O9
+128         C17 H23 Br O3
+134      C19 H24 Cl N5 O2
+138    C10 H14 N5 O10 P S
+140          C26 H43 N O5
+143        C26 H45 N O6 S
+Warning: The "Classification Category" column at position 10 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 5 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 6 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB ID" column at position 7 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention index" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "retention index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
