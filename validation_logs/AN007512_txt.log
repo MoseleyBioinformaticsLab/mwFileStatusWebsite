@@ -1,0 +1,28 @@
+Validation Log
+2026-01-11 07:51:39.837245
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007512/mwtab/txt
+Study ID:      ST004479
+Analysis ID:   AN007512
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 9
+
+Number of Warnings: 0
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The required property, "SUBJECT_SPECIES", in the "SUBJECT" section  is missing.
+Error: An empty value or a null value was detected for the subsection, "ADDITIVES", in the "COLLECTION" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT", in the "TREATMENT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "EXTRACT_ENRICHMENT", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "SAMPLE_DERIVATIZATION", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "SAMPLE_SPIKING", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "350℃", for the subsection, "CAPILLARY_TEMPERATURE", in the "MS" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "300°C", for the subsection, "ION_SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "40°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.

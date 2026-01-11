@@ -1,5 +1,5 @@
 Comparison Log
-2026-01-04 04:37:45.140359
+2026-01-11 04:32:36.711553
 mwtab Python Library Version: 2.0.0
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003582/mwtab/...
 Study ID:    ST002188
@@ -7,5 +7,5 @@ Analysis ID: AN003582
 Status:      Inconsistent
 
 Sections "TREATMENT" contain missmatched keys: ['ANIMAL_ENDP_TISSUE_PROC_METHOD']
-Sections "NM" contain missmatched keys: ['BINNED_DATA_CHEMICAL_SHIFT_RANGE', 'BINNED_DATA_NORMALIZATION_METHOD']
+Sections "NM" contain missmatched keys: ['BINNED_DATA_NORMALIZATION_METHOD', 'BINNED_DATA_CHEMICAL_SHIFT_RANGE']
 'Metabolites' section of 'NMR_METABOLITE_DATA' block do not match.

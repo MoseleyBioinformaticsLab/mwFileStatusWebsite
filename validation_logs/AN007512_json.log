@@ -1,0 +1,28 @@
+Validation Log
+2026-01-11 07:51:41.108733
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007512/mwtab/json
+Study ID:      ST004479
+Analysis ID:   AN007512
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 9
+
+Number of Warnings: 0
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The required property, "SUBJECT_SPECIES", in ["SUBJECT"] is missing.
+Error: An empty value or a null value was detected in ["COLLECTION"]["ADDITIVES"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["EXTRACT_ENRICHMENT"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLE_DERIVATIZATION"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLE_SPIKING"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "350℃", in ["MS"]["CAPILLARY_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "300°C", in ["MS"]["ION_SOURCE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "40°C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
