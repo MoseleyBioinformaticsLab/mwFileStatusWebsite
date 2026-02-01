@@ -1,0 +1,121 @@
+Validation Log
+2026-02-01 07:35:23.870601
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005661/mwtab/json
+Study ID:      ST003445
+Analysis ID:   AN005661
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 102
+
+Number of Warnings: 101
+
+Number of Value Errors: 102
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "55", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Exact mass" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Metabolite name" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "220422_sample-E5" column at position 6 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E13" column at position 14 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E14" column at position 15 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E15" column at position 16 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E16" column at position 17 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E17" column at position 18 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E18" column at position 19 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E19" column at position 20 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E20" column at position 21 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E21" column at position 22 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E22" column at position 23 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E23" column at position 24 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E24" column at position 25 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E25" column at position 26 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E26" column at position 27 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E27" column at position 28 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E28" column at position 29 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E29" column at position 30 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E30" column at position 31 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E31" column at position 32 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E32" column at position 33 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E33" column at position 34 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E34" column at position 35 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E35" column at position 36 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E36" column at position 37 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P13" column at position 50 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P14" column at position 51 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P15" column at position 52 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P16" column at position 53 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P17" column at position 54 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P18" column at position 55 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P19" column at position 56 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P20" column at position 57 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P21" column at position 58 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P22" column at position 59 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P23" column at position 60 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P24" column at position 61 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P25" column at position 62 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P26" column at position 63 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P27" column at position 64 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P28" column at position 65 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P29" column at position 66 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P30" column at position 67 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P31" column at position 68 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P32" column at position 69 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P33" column at position 70 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P34" column at position 71 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P35" column at position 72 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P36" column at position 73 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E42" column at position 79 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E49" column at position 86 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E50" column at position 87 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E51" column at position 88 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E52" column at position 89 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E53" column at position 90 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E54" column at position 91 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E55" column at position 92 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E56" column at position 93 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E57" column at position 94 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E58" column at position 95 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E59" column at position 96 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E60" column at position 97 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E61" column at position 98 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E62" column at position 99 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E63" column at position 100 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E64" column at position 101 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E65" column at position 102 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E66" column at position 103 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E67" column at position 104 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E68" column at position 105 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E69" column at position 106 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E70" column at position 107 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E71" column at position 108 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-E72" column at position 109 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P49" column at position 122 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P50" column at position 123 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P51" column at position 124 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P52" column at position 125 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P53" column at position 126 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P54" column at position 127 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P55" column at position 128 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P56" column at position 129 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P57" column at position 130 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P58" column at position 131 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P59" column at position 132 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P60" column at position 133 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P61" column at position 134 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P62" column at position 135 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P63" column at position 136 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P64" column at position 137 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P65" column at position 138 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P66" column at position 139 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P67" column at position 140 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P68" column at position 141 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P69" column at position 142 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P70" column at position 143 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P71" column at position 144 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "220422_sample-P72" column at position 145 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.

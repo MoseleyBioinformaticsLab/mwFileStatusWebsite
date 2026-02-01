@@ -1,0 +1,47 @@
+Validation Log
+2026-02-01 07:35:29.017369
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005663/mwtab/txt
+Study ID:      ST003447
+Analysis ID:   AN005663
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 28
+
+Number of Warnings: 24
+
+Number of Value Errors: 27
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "18-65", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "55", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "FACTORS".
+Warning: The "Exact mass" column at position 4 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Metabolite name" column at position 2 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 5 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "230224_M2+ASA_40" column at position 41 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_41" column at position 42 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_42" column at position 43 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_50" column at position 51 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_57" column at position 58 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_58" column at position 59 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_59" column at position 60 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_74" column at position 73 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_75" column at position 74 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_76" column at position 75 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_79" column at position 78 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_91" column at position 90 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_92" column at position 91 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_93" column at position 92 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_96" column at position 95 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_108" column at position 107 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_109" column at position 108 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_110" column at position 109 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_125" column at position 124 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_126" column at position 125 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "230224_M2+ASA_127" column at position 126 in the MS_METABOLITE_DATA table has all null values.

@@ -1,0 +1,1089 @@
+Validation Log
+2026-02-01 08:55:24.958647
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006749/mwtab/txt
+Study ID:      ST004078
+Analysis ID:   AN006749
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 34
+
+Number of Warnings: 33
+
+Number of Value Errors: 31
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "25", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 4 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Mass Error (ppm)" column at position 2 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 3 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0              C6 H13 N O2
+1               C5 H9 N O4
+4              C16 H17 N O
+5              C16 H31 N O
+9              C9 H17 N O5
+10            C20 H35 N O2
+19               C5 H9 N O
+23              C4 H9 N O3
+25            C22 H39 N O2
+26            C18 H39 N O2
+35            C20 H37 N O2
+37             C6 H11 N O4
+38              C8 H9 N O4
+39             C21 H35 N O
+48             C20 H33 N O
+50             C9 H17 N O7
+51             C11 H15 N O
+56              C5 H9 N O2
+60            C22 H37 N O2
+61             C10 H21 N O
+62              C9 H19 N O
+63     C13 H12 Cl F N2 O S
+67            C18 H37 N O2
+68             C6 H11 N O2
+74             C24 H39 N O
+75            C11 H19 N O9
+80             C10 H9 N O2
+85            C23 H39 N O2
+88             C9 H11 N O3
+91            C18 H39 N O3
+95        C22 H23 Cl N2 O8
+100            C9 H11 N O4
+102           C20 H33 N O2
+107         C21 H44 N O7 P
+108            C13 H17 N O
+110            C22 H43 N O
+122           C17 H27 N O3
+123           C21 H35 N O2
+126     C18 H15 Cl F2 N2 O
+127           C20 H41 N O2
+131            C5 H11 N O2
+132            C14 H17 N O
+135        C26 H29 F N4 O2
+141           C10 H11 N O2
+143    C23 H16 Cl N3 O3 S2
+144           C27 H39 N O7
+145            C14 H23 N O
+152           C15 H17 N O5
+153            C18 H37 N O
+159           C27 H39 N O2
+163            C16 H33 N O
+164           C18 H33 N O4
+168           C18 H25 N O6
+170        C15 H12 Cl N5 O
+180            C6 H11 N O3
+183            C15 H15 N O
+185            C9 H21 N O3
+193           C29 H41 N O4
+195           C12 H19 N O5
+196            C20 H39 N O
+197             C7 H15 N O
+203            C7 H11 N O2
+211      C19 H15 Cl N2 O S
+213         C14 H17 N3 O S
+214         C21 H28 Br N O
+216     C15 H16 F5 N O2 S2
+217            C6 H13 N O2
+221           C23 H35 N O3
+223           C10 H13 N O3
+225       C24 H21 Cl F N O
+227            C16 H19 N O
+229            C22 H45 N O
+232           C23 H45 N O4
+234          C5 H11 N O4 S
+238          C16 H21 N O S
+246          C19 H19 N O S
+249        C23 H30 Cl N3 O
+250            C11 H9 N O2
+252           C22 H47 N O5
+256        C11 H11 F2 N O2
+259           C14 H21 N O4
+264           C28 H41 N O3
+268             C3 H7 N O2
+274            C15 H23 N O
+283             C5 H7 N O3
+285        C25 H22 Cl N O3
+287           C19 H33 N O2
+288    C20 H20 Cl N5 O2 S2
+289              C8 H9 N O
+290           C12 H17 N O3
+291           C15 H18 F N3
+292     C16 H17 Cl N4 O2 S
+293         C15 H16 N2 O S
+295         C14 H17 N O2 S
+296        C23 H30 F N3 O3
+299         C22 H27 F N2 O
+302           C10 H11 N O3
+303     C18 H16 Cl N3 O2 S
+304           C10 H19 N O4
+307             C9 H7 N O2
+308           C12 H17 N O4
+314            C12 H27 N O
+317           C16 H23 N O6
+318        C15 H14 Cl N O3
+322        C23 H20 F N3 O2
+323         C18 H20 I N O4
+324             C6 H11 N O
+325           C18 H37 N O2
+326         C9 H10 Cl N O2
+328       C18 H20 N O3 P S
+331           C9 H11 Cl O3
+332         C15 H15 N O2 S
+334         C26 H52 N O7 P
+336         C46 H82 N O7 P
+338              C8 Br F17
+339         C24 H50 N O7 P
+340           C18 H15 N O2
+341          C2 H6 Cl O3 P
+343           C21 H31 N O8
+346        C29 H33 F N2 O4
+351          C21 H27 N O15
+355        C17 H17 Cl2 N O
+356           C11 H19 N O4
+358         C19 H42 N O5 P
+359         C26 H54 N O7 P
+363            C9 H11 N O2
+365            C11 H16 O S
+366        C48 H91 N O11 S
+368       C12 H23 N O10 S3
+371           C27 H35 N O4
+372           C34 H55 N O3
+373           C18 H35 N O2
+374        C22 H24 F N5 O4
+375         C23 H48 N O7 P
+379         C23 H46 N O7 P
+381         C24 H48 N O7 P
+385         C25 H44 N O7 P
+390           C10 H21 N O7
+392            C9 H11 N O3
+395           C25 H50 N O4
+396             C7 H5 N O3
+397         C28 H50 N O7 P
+399          C9 H5 Cl2 N O
+400           C22 H21 N O3
+401            C14 H19 N S
+405         C17 H29 N O3 S
+411           C24 H31 F O4
+412           C20 H41 N O2
+413        C38 H74 N O10 P
+415           C25 H48 N O4
+416     C14 H14 Cl N3 O2 S
+418       C23 H22 Cl N3 O2
+419        C12 H10 F N3 O4
+423          C5 H11 N O2 S
+427           C32 H45 N O9
+431           C12 H24 N O4
+437       C19 H17 Cl N2 O4
+440           C25 H33 F O4
+443    C18 H12 Cl F3 N4 O4
+444        C12 H10 Cl N3 O
+450         C16 H15 N3 O S
+451          C27 H29 N O10
+452       C24 H33 Cl2 N O5
+453           C31 H45 N O8
+454           C35 H55 N O3
+460           C11 H22 N O4
+462         C28 H52 N O7 P
+467          C20 H27 N O12
+469           C25 H41 N O2
+470         C17 H36 N O7 P
+471        C28 H19 F N4 O8
+474       C22 H21 Cl N2 O6
+475         C26 H45 N O7 S
+476          C27 H31 N O11
+480         C18 H23 N O3 S
+482            C12 H23 N O
+484         C18 H22 N2 O S
+485         C16 H21 N O4 S
+487        C12 H22 N O12 P
+489         C28 H56 N O7 P
+490           C29 H37 N O4
+493             C5 H13 N O
+494            C12 H9 N O6
+495         C18 H40 N O6 P
+496         C26 H45 N O8 S
+497          C37 H61 N O11
+501         C18 H24 N O2 S
+505          C20 H27 Cl O3
+508          C33 H45 N O10
+510           C20 H23 N O2
+512         C12 H18 Cl N O
+516        C32 H53 N O11 S
+519           C17 H15 N O6
+520         C27 H44 N O7 P
+522          C14 H23 N O10
+523            C23 H25 N O
+525            C18 H35 N O
+526            C8 H11 N O3
+527         C33 H58 N O9 P
+529            C22 H45 N O
+535        C10 H19 N O2 S2
+537            C9 H19 N O4
+540           C22 H29 N O2
+545         C19 H27 N O7 S
+546         C27 H46 N O7 P
+549         C27 H48 N O7 P
+551       C21 H22 Cl N3 O2
+552         C26 H52 N O7 P
+562         C17 H20 N2 O S
+563           C27 H52 N O4
+571      C14 H24 N O4 P S3
+574          C39 H65 N O12
+579         C25 H52 N O7 P
+582           C21 H20 N O4
+585       C16 H23 Br N2 O3
+588           C14 H17 N O8
+589         C23 H37 N O6 S
+591         C12 H13 N O2 S
+594     C14 H16 Cl N5 O5 S
+597         C41 H74 N O7 P
+599           C29 H37 N O5
+603           C24 H37 N O2
+604            C14 H25 N S
+606           C26 H37 N O3
+607            C21 H35 N O
+608          C22 H27 Cl O4
+609            C12 H17 N O
+610           C20 H18 N O5
+614           C20 H18 N O4
+619       C22 H20 F N3 O S
+621         C27 H44 N O7 P
+622          C37 H65 N O14
+624         C23 H44 N O7 P
+626       C24 H29 Cl2 F O5
+629           C37 H53 N O8
+630         C39 H70 N O7 P
+636     C22 H23 Cl F N5 O2
+639      C10 H19 Cl N O5 P
+641       C15 H17 Cl N2 O2
+646     C28 H28 Cl F2 N3 O
+648        C12 H7 Cl N2 O3
+663      C11 H23 N2 O7 P S
+665        C13 H21 N O15 S
+667           C19 H21 N O8
+668        C12 H12 Cl N7 O
+669            C8 H17 N O2
+673           C21 H18 N O4
+674     C22 H24 Cl F N4 O3
+681           C22 H29 N O3
+682     C12 H12 Cl N5 O4 S
+687          C22 H29 Cl O5
+695          C20 H19 Cl O9
+696    C21 H15 Cl F4 N4 O3
+699           C18 H25 N O5
+707           C19 H13 N O6
+710    C14 H16 Cl N3 O4 S2
+713           C13 H13 N O6
+714         C20 H24 N2 O S
+719       C16 H13 Cl N2 O3
+720          C19 H17 N O S
+722            C9 H17 N O4
+725              C5 H9 N O
+727           C20 H39 N O2
+735            C19 H39 N O
+736            C7 H15 N O3
+Warning: The "MAIN_CLASS(lipidmaps)" column at position 10 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "SUB_CLASS" column at position 11 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "super_class(HMDB)" column at position 15 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "sub_class(HMDB)" column at position 17 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_pathway_annotation" column at position 7 in the METABOLITES table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_annotation" column at position 6 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_pathway_annotation" column at position 7 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_pathway_annotation" column at position 7 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1      Arginine biosynthesis(ko00220);;Alanine, aspar...
+9      beta-Alanine metabolism(ko00410);;Pantothenate...
+13     Pyrimidine metabolism(ko00240);;Metabolic path...
+23     Glycine, serine and threonine metabolism(ko002...
+32     Cysteine and methionine metabolism(ko00270);;M...
+38     Vitamin B6 metabolism(ko00750);;Metabolic path...
+42     One carbon pool by folate(ko00670);;Folate bio...
+43                 Steroid hormone biosynthesis(ko00140)
+47     Arginine and proline metabolism(ko00330);;D-Am...
+58     Steroid hormone biosynthesis(ko00140);;Metabol...
+68     Lysine degradation(ko00310);;Metabolic pathway...
+75     Amino sugar and nucleotide sugar metabolism(ko...
+77     Purine metabolism(ko00230);;Metabolic pathways...
+80     Tryptophan metabolism(ko00380);;Metabolic path...
+88     Ubiquinone and other terpenoid-quinone biosynt...
+95                           Metabolic pathways(ko01100)
+100    Tyrosine metabolism(ko00350);;Metabolic pathwa...
+131    Glycine, serine and threonine metabolism(ko002...
+148    Steroid hormone biosynthesis(ko00140);;Metabol...
+212    Purine metabolism(ko00230);;Metabolic pathways...
+261    Purine metabolism(ko00230);;Metabolic pathways...
+268    Pyrimidine metabolism(ko00240);;beta-Alanine m...
+283    Glutathione metabolism(ko00480);;Metabolic pat...
+311    Arachidonic acid metabolism(ko00590);;Metaboli...
+327    Glycine, serine and threonine metabolism(ko002...
+333    Phosphonate and phosphinate metabolism(ko00440...
+342    Purine metabolism(ko00230);;Metabolic pathways...
+345    Lysine biosynthesis(ko00300);;Lysine degradati...
+360                          Metabolic pathways(ko01100)
+361                          Metabolic pathways(ko01100)
+362                          Metabolic pathways(ko01100)
+363    Phenylalanine metabolism(ko00360);;Phenylalani...
+386    Ubiquinone and other terpenoid-quinone biosynt...
+389    Ubiquinone and other terpenoid-quinone biosynt...
+391             2-Oxocarboxylic acid metabolism(ko01210)
+424                              Bile secretion(ko04976)
+435    Glycine, serine and threonine metabolism(ko002...
+459                          Metabolic pathways(ko01100)
+488                          Metabolic pathways(ko01100)
+493    Glycine, serine and threonine metabolism(ko002...
+497                          Metabolic pathways(ko01100)
+514    Pyrimidine metabolism(ko00240);;Metabolic path...
+526    Vitamin B6 metabolism(ko00750);;Metabolic path...
+537           Pantothenate and CoA biosynthesis(ko00770)
+559    Metabolism of xenobiotics by cytochrome P450(k...
+570    Caffeine metabolism(ko00232);;Metabolic pathwa...
+590    Steroid hormone biosynthesis(ko00140);;Metabol...
+605                          Metabolic pathways(ko01100)
+614                      AMPK signaling pathway(ko04152)
+647    Histidine metabolism(ko00340);;Metabolic pathw...
+663    Pantothenate and CoA biosynthesis(ko00770);;Me...
+689    Arginine and proline metabolism(ko00330);;Meta...
+702    Polyketide sugar unit biosynthesis(ko00523);;M...
+707                          Metabolic pathways(ko01100)
+711    Purine metabolism(ko00230);;Caffeine metabolis...
+723    Pyrimidine metabolism(ko00240);;beta-Alanine m...
+731    Nicotinate and nicotinamide metabolism(ko00760...
+732    Purine metabolism(ko00230);;Metabolic pathways...
+733    Arginine and proline metabolism(ko00330);;Meta...
+734    Purine metabolism(ko00230);;Metabolic pathways...
+738    Purine metabolism(ko00230);;Metabolic pathways...
+739    Steroid hormone biosynthesis(ko00140);;Metabol...
+Warning: The "kingdom(HMDB)" column at position 14 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB_taxonomy" column at position 16 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "kingdom(HMDB)" column at position 14 in the METABOLITES table, matches a standard column name, "hmdb_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      Organic compounds
+1      Organic compounds
+7      Organic compounds
+9      Organic compounds
+10     Organic compounds
+13     Organic compounds
+16     Organic compounds
+17     Organic compounds
+21     Organic compounds
+22     Organic compounds
+23     Organic compounds
+24     Organic compounds
+26     Organic compounds
+27     Organic compounds
+29     Organic compounds
+30     Organic compounds
+32     Organic compounds
+35     Organic compounds
+37     Organic compounds
+38     Organic compounds
+41     Organic compounds
+42     Organic compounds
+43     Organic compounds
+44     Organic compounds
+47     Organic compounds
+50     Organic compounds
+52     Organic compounds
+53     Organic compounds
+55     Organic compounds
+56     Organic compounds
+58     Organic compounds
+62     Organic compounds
+65     Organic compounds
+66     Organic compounds
+67     Organic compounds
+68     Organic compounds
+70     Organic compounds
+72     Organic compounds
+75     Organic compounds
+77     Organic compounds
+80     Organic compounds
+82     Organic compounds
+83     Organic compounds
+84     Organic compounds
+85     Organic compounds
+88     Organic compounds
+92     Organic compounds
+93     Organic compounds
+94     Organic compounds
+95     Organic compounds
+100    Organic compounds
+103    Organic compounds
+104    Organic compounds
+106    Organic compounds
+108    Organic compounds
+110    Organic compounds
+111    Organic compounds
+113    Organic compounds
+115    Organic compounds
+120    Organic compounds
+121    Organic compounds
+127    Organic compounds
+131    Organic compounds
+136    Organic compounds
+138    Organic compounds
+142    Organic compounds
+147    Organic compounds
+148    Organic compounds
+153    Organic compounds
+154    Organic compounds
+159    Organic compounds
+163    Organic compounds
+165    Organic compounds
+168    Organic compounds
+179    Organic compounds
+180    Organic compounds
+186    Organic compounds
+187    Organic compounds
+188    Organic compounds
+190    Organic compounds
+191    Organic compounds
+193    Organic compounds
+194    Organic compounds
+203    Organic compounds
+205    Organic compounds
+212    Organic compounds
+217    Organic compounds
+218    Organic compounds
+223    Organic compounds
+224    Organic compounds
+228    Organic compounds
+229    Organic compounds
+232    Organic compounds
+234    Organic compounds
+235    Organic compounds
+246    Organic compounds
+247    Organic compounds
+250    Organic compounds
+260    Organic compounds
+261    Organic compounds
+263    Organic compounds
+268    Organic compounds
+277    Organic compounds
+280    Organic compounds
+283    Organic compounds
+285    Organic compounds
+287    Organic compounds
+289    Organic compounds
+294    Organic compounds
+299    Organic compounds
+302    Organic compounds
+304    Organic compounds
+306    Organic compounds
+307    Organic compounds
+309    Organic compounds
+311    Organic compounds
+313    Organic compounds
+315    Organic compounds
+316    Organic compounds
+317    Organic compounds
+318    Organic compounds
+320    Organic compounds
+321    Organic compounds
+324    Organic compounds
+325    Organic compounds
+327    Organic compounds
+328    Organic compounds
+332    Organic compounds
+333    Organic compounds
+335    Organic compounds
+338    Organic compounds
+341    Organic compounds
+342    Organic compounds
+345    Organic compounds
+346    Organic compounds
+347    Organic compounds
+348    Organic compounds
+350    Organic compounds
+353    Organic compounds
+354    Organic compounds
+356    Organic compounds
+358    Organic compounds
+360    Organic compounds
+363    Organic compounds
+364    Organic compounds
+365    Organic compounds
+367    Organic compounds
+368    Organic compounds
+374    Organic compounds
+377    Organic compounds
+378    Organic compounds
+382    Organic compounds
+386    Organic compounds
+389    Organic compounds
+390    Organic compounds
+391    Organic compounds
+392    Organic compounds
+393    Organic compounds
+396    Organic compounds
+399    Organic compounds
+401    Organic compounds
+409    Organic compounds
+412    Organic compounds
+416    Organic compounds
+417    Organic compounds
+421    Organic compounds
+422    Organic compounds
+423    Organic compounds
+424    Organic compounds
+425    Organic compounds
+426    Organic compounds
+435    Organic compounds
+436    Organic compounds
+437    Organic compounds
+438    Organic compounds
+443    Organic compounds
+444    Organic compounds
+446    Organic compounds
+447    Organic compounds
+449    Organic compounds
+451    Organic compounds
+452    Organic compounds
+457    Organic compounds
+458    Organic compounds
+461    Organic compounds
+466    Organic compounds
+468    Organic compounds
+471    Organic compounds
+475    Organic compounds
+480    Organic compounds
+481    Organic compounds
+488    Organic compounds
+490    Organic compounds
+493    Organic compounds
+494    Organic compounds
+499    Organic compounds
+508    Organic compounds
+510    Organic compounds
+514    Organic compounds
+515    Organic compounds
+524    Organic compounds
+525    Organic compounds
+526    Organic compounds
+528    Organic compounds
+530    Organic compounds
+532    Organic compounds
+537    Organic compounds
+538    Organic compounds
+540    Organic compounds
+544    Organic compounds
+547    Organic compounds
+553    Organic compounds
+559    Organic compounds
+561    Organic compounds
+565    Organic compounds
+567    Organic compounds
+568    Organic compounds
+569    Organic compounds
+570    Organic compounds
+575    Organic compounds
+577    Organic compounds
+581    Organic compounds
+583    Organic compounds
+584    Organic compounds
+585    Organic compounds
+589    Organic compounds
+590    Organic compounds
+591    Organic compounds
+592    Organic compounds
+595    Organic compounds
+596    Organic compounds
+597    Organic compounds
+598    Organic compounds
+599    Organic compounds
+601    Organic compounds
+602    Organic compounds
+603    Organic compounds
+604    Organic compounds
+605    Organic compounds
+606    Organic compounds
+607    Organic compounds
+609    Organic compounds
+611    Organic compounds
+614    Organic compounds
+619    Organic compounds
+623    Organic compounds
+627    Organic compounds
+629    Organic compounds
+632    Organic compounds
+634    Organic compounds
+635    Organic compounds
+637    Organic compounds
+647    Organic compounds
+654    Organic compounds
+656    Organic compounds
+657    Organic compounds
+658    Organic compounds
+660    Organic compounds
+663    Organic compounds
+668    Organic compounds
+669    Organic compounds
+672    Organic compounds
+673    Organic compounds
+674    Organic compounds
+678    Organic compounds
+681    Organic compounds
+682    Organic compounds
+687    Organic compounds
+688    Organic compounds
+689    Organic compounds
+690    Organic compounds
+691    Organic compounds
+694    Organic compounds
+696    Organic compounds
+699    Organic compounds
+701    Organic compounds
+702    Organic compounds
+706    Organic compounds
+708    Organic compounds
+709    Organic compounds
+710    Organic compounds
+711    Organic compounds
+712    Organic compounds
+715    Organic compounds
+716    Organic compounds
+718    Organic compounds
+720    Organic compounds
+721    Organic compounds
+722    Organic compounds
+723    Organic compounds
+724    Organic compounds
+726    Organic compounds
+727    Organic compounds
+729    Organic compounds
+730    Organic compounds
+731    Organic compounds
+732    Organic compounds
+733    Organic compounds
+734    Organic compounds
+735    Organic compounds
+736    Organic compounds
+738    Organic compounds
+739    Organic compounds
+Warning: The "HMDB_taxonomy" column at position 16 in the METABOLITES table, matches a standard column name, "hmdb_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0              Carboxylic acids and derivatives
+1              Carboxylic acids and derivatives
+7              Carboxylic acids and derivatives
+9                        Organooxygen compounds
+10                     Organonitrogen compounds
+13                                     Diazines
+16             Carboxylic acids and derivatives
+17                       Organooxygen compounds
+21             Steroids and steroid derivatives
+22                                      Phenols
+23             Carboxylic acids and derivatives
+24     Organic phosphoric acids and derivatives
+26                     Organonitrogen compounds
+27                     Organonitrogen compounds
+29                                Isoflavonoids
+32                                     Lactones
+35                     Organonitrogen compounds
+37             Carboxylic acids and derivatives
+38                    Pyridines and derivatives
+41                                  Fatty Acyls
+42                                      Phenols
+43             Steroids and steroid derivatives
+44                                Prenol lipids
+47                     Organonitrogen compounds
+50                       Organooxygen compounds
+52                                  Fatty Acyls
+53                       Organooxygen compounds
+55                          Triphenyl compounds
+56             Carboxylic acids and derivatives
+58             Steroids and steroid derivatives
+62                                  Piperidines
+65                              Cinnamaldehydes
+66                      Indoles and derivatives
+67           Carboximidic acids and derivatives
+68             Carboxylic acids and derivatives
+70          Benzene and substituted derivatives
+72          Benzene and substituted derivatives
+75                       Organooxygen compounds
+77                           Purine nucleosides
+80                      Indoles and derivatives
+82                                  Fatty Acyls
+83                                  Benzopyrans
+84          Benzene and substituted derivatives
+85                                  Fatty Acyls
+88             Carboxylic acids and derivatives
+92          Benzene and substituted derivatives
+93                                   Flavonoids
+94                                Prenol lipids
+95                                Tetracyclines
+100            Carboxylic acids and derivatives
+103                               Prenol lipids
+104            Carboxylic acids and derivatives
+106                                  Flavonoids
+108         Benzene and substituted derivatives
+110                                 Fatty Acyls
+111            Carboxylic acids and derivatives
+113                                 Fatty Acyls
+115         Benzene and substituted derivatives
+120                                 Fatty Acyls
+121                                 Fatty Acyls
+127                    Organonitrogen compounds
+131            Carboxylic acids and derivatives
+136                               Prenol lipids
+138         Benzene and substituted derivatives
+142                     5'-deoxyribonucleosides
+147                               Phenol ethers
+148            Steroids and steroid derivatives
+153          Carboximidic acids and derivatives
+154                    Organonitrogen compounds
+159                                   Fluorenes
+163                                 Fatty Acyls
+165            Carboxylic acids and derivatives
+168                    Macrolides and analogues
+179                              Benzimidazoles
+180            Carboxylic acids and derivatives
+186         Benzene and substituted derivatives
+187         Benzene and substituted derivatives
+188                               Glycerolipids
+190                                 Fatty Acyls
+191         Benzene and substituted derivatives
+193               Phenanthrenes and derivatives
+194                          Imidazopyrimidines
+203            Carboxylic acids and derivatives
+205                               Phenol ethers
+212                          Purine nucleosides
+217            Carboxylic acids and derivatives
+218              Cinnamic acids and derivatives
+223                                     Phenols
+224                   Pyridines and derivatives
+228                               Prenol lipids
+229                                 Fatty Acyls
+232                                 Fatty Acyls
+234      Organic sulfonic acids and derivatives
+235         Benzene and substituted derivatives
+246                        Cycloheptathiophenes
+247         Benzene and substituted derivatives
+250                     Indoles and derivatives
+260                      Organooxygen compounds
+261                          Imidazopyrimidines
+263         Benzene and substituted derivatives
+268            Carboxylic acids and derivatives
+277                                      Furans
+280                                Naphthalenes
+283            Carboxylic acids and derivatives
+285                                 Fatty Acyls
+287                    Organonitrogen compounds
+289         Benzene and substituted derivatives
+294                                 Fatty Acyls
+299                                 Piperidines
+302            Carboxylic acids and derivatives
+304                                 Fatty Acyls
+306                  Pteridines and derivatives
+307                  Quinolines and derivatives
+309                    Organonitrogen compounds
+311                                 Fatty Acyls
+313                                 Fatty Acyls
+315                      Organooxygen compounds
+316                                  Flavonoids
+317                                Pyrrolizines
+318                      Organooxygen compounds
+320         Benzene and substituted derivatives
+321                              Benzimidazoles
+324                                     Lactams
+325                    Organonitrogen compounds
+327                      Organooxygen compounds
+328                              Benzothiazoles
+332         Benzene and substituted derivatives
+333    Organic phosphonic acids and derivatives
+335                                 Fatty Acyls
+338                               Organoiodides
+341    Organic phosphonic acids and derivatives
+342                          Purine nucleosides
+345            Carboxylic acids and derivatives
+346                               Naphthofurans
+347                                     Lactams
+348                               Dihydrofurans
+350                    Macrolides and analogues
+353            Carboxylic acids and derivatives
+354      Organic carbonic acids and derivatives
+356                                 Fatty Acyls
+358                               Sphingolipids
+360                               Prenol lipids
+363            Carboxylic acids and derivatives
+364                                Benzoxazines
+365                      Organooxygen compounds
+367                                     Pyrenes
+368                      Organooxygen compounds
+374            Carboxylic acids and derivatives
+377                               Prenol lipids
+378    Organic phosphoric acids and derivatives
+382                      Organooxygen compounds
+386         Benzene and substituted derivatives
+389                               Prenol lipids
+390                      Organooxygen compounds
+391               Hydroxy acids and derivatives
+392            Carboxylic acids and derivatives
+393                        Glycerophospholipids
+396         Benzene and substituted derivatives
+399                  Quinolines and derivatives
+401                              Benzothiazoles
+409            Carboxylic acids and derivatives
+412                    Organonitrogen compounds
+416                                  Thioethers
+417                                  Flavonoids
+421                        Glycerophospholipids
+422         Benzene and substituted derivatives
+423            Carboxylic acids and derivatives
+424            Carboxylic acids and derivatives
+425                                   Stilbenes
+426                  Pteridines and derivatives
+435            Carboxylic acids and derivatives
+436         Benzene and substituted derivatives
+437                  Quinolines and derivatives
+438                      Organooxygen compounds
+443                  Quinolines and derivatives
+444                   Pyridines and derivatives
+446                                     Indanes
+447                               Prenol lipids
+449            Carboxylic acids and derivatives
+451                              Anthracyclines
+452         Benzene and substituted derivatives
+457                              Benzimidazoles
+458                      Organooxygen compounds
+461    Organic phosphoric acids and derivatives
+466                               Prenol lipids
+468                                    Diazines
+471         Benzene and substituted derivatives
+475            Steroids and steroid derivatives
+480                               Phenol ethers
+481                             Peptidomimetics
+488                                  Flavonoids
+490                      Organooxygen compounds
+493                    Organonitrogen compounds
+494                  Quinolines and derivatives
+499                                    Dioxanes
+508                               Prenol lipids
+510                         6,6a-secoaporphines
+514                      Pyrimidine nucleosides
+515         Benzene and substituted derivatives
+524                              Benzothiazines
+525                                 Fatty Acyls
+526                   Pyridines and derivatives
+528         Benzene and substituted derivatives
+530                              Benzothiazines
+532                      Organooxygen compounds
+537                      Organooxygen compounds
+538                            Benzothiazepines
+540                                   Stilbenes
+544            Steroids and steroid derivatives
+547                          Imidazopyrimidines
+553                                  Flavonoids
+559                   Pyridines and derivatives
+561                             Peptidomimetics
+565               Phenanthrenes and derivatives
+567                                  Flavonoids
+568                   Coumarins and derivatives
+569            Carboxylic acids and derivatives
+570                          Imidazopyrimidines
+575                            Benzothiazepines
+577    Organic phosphoric acids and derivatives
+581         Benzene and substituted derivatives
+583                                 Benzopyrans
+584                      Pyrimidine nucleotides
+585         Benzene and substituted derivatives
+589                                 Fatty Acyls
+590            Steroids and steroid derivatives
+591         Benzene and substituted derivatives
+592         Benzene and substituted derivatives
+595            Carboxylic acids and derivatives
+596         Benzene and substituted derivatives
+597                        Glycerophospholipids
+598            Carboxylic acids and derivatives
+599                               Cytochalasans
+601         Benzene and substituted derivatives
+602                      Pyrimidine nucleosides
+603                    Organonitrogen compounds
+604                                      Azoles
+605                                  Flavonoids
+606         Benzene and substituted derivatives
+607         Benzene and substituted derivatives
+609         Benzene and substituted derivatives
+611                              Benzothiazines
+614    Protoberberine alkaloids and derivatives
+619                             Benzodiazepines
+623                                 Benzopyrans
+627                     Indoles and derivatives
+629                    Macrolides and analogues
+632                      Organooxygen compounds
+634                               Prenol lipids
+635                                  Flavonoids
+637                                 Anthracenes
+647                                      Azoles
+654                               Prenol lipids
+656                    Organonitrogen compounds
+657            Steroids and steroid derivatives
+658         Benzene and substituted derivatives
+660                                 Benzopyrans
+663            Carboxylic acids and derivatives
+668                                    Diazines
+669                    Organonitrogen compounds
+672                               Prenol lipids
+673                  Quinolines and derivatives
+674                           Diazanaphthalenes
+678                               Prenol lipids
+681                               Benzodioxoles
+682                    Organonitrogen compounds
+687            Steroids and steroid derivatives
+688                                  Diazinanes
+689            Carboxylic acids and derivatives
+690         Benzene and substituted derivatives
+691            Carboxylic acids and derivatives
+694            Carboxylic acids and derivatives
+696                      Organooxygen compounds
+699                    Macrolides and analogues
+701                      Organooxygen compounds
+702                      Pyrimidine nucleotides
+706            Steroids and steroid derivatives
+708                                Isocoumarans
+709                                  Azolidines
+710                                Thiadiazines
+711                          Imidazopyrimidines
+712                                 Anthracenes
+715            Steroids and steroid derivatives
+716                   Pyridines and derivatives
+718         Benzene and substituted derivatives
+720                                Naphthalenes
+721                     Indoles and derivatives
+722                                 Fatty Acyls
+723                                    Diazines
+724                                 Fatty Acyls
+726         Benzene and substituted derivatives
+727                    Organonitrogen compounds
+729          Carboximidic acids and derivatives
+730                                 Fatty Acyls
+731                   Pyridines and derivatives
+732                          Imidazopyrimidines
+733            Carboxylic acids and derivatives
+734                          Purine nucleosides
+735                                  Oxazinanes
+736                    Organonitrogen compounds
+738                          Imidazopyrimidines
+739            Steroids and steroid derivatives
+Warning: The "LM_ID(lipidmaps)" column at position 8 in the METABOLITES table, matches a standard column name, "lm_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CATEGORY(lipidmaps)" column at position 9 in the METABOLITES table, matches a standard column name, "lm_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "MAIN_CLASS(lipidmaps)" column at position 10 in the METABOLITES table, matches a standard column name, "lm_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CATEGORY(lipidmaps)" column at position 9 in the METABOLITES table, matches a standard column name, "lm_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+29              Polyketides [PK]
+43            Sterol Lipids [ST]
+52              Fatty Acyls [FA]
+58            Sterol Lipids [ST]
+61              Fatty Acyls [FA]
+67              Fatty Acyls [FA]
+94            Prenol Lipids [PR]
+95              Polyketides [PK]
+110             Fatty Acyls [FA]
+127           Sphingolipids [SP]
+148           Sterol Lipids [ST]
+153             Fatty Acyls [FA]
+163             Fatty Acyls [FA]
+229             Fatty Acyls [FA]
+232             Fatty Acyls [FA]
+253             Polyketides [PK]
+264             Fatty Acyls [FA]
+301             Polyketides [PK]
+304             Fatty Acyls [FA]
+311             Fatty Acyls [FA]
+335             Fatty Acyls [FA]
+350             Polyketides [PK]
+356             Fatty Acyls [FA]
+360           Prenol Lipids [PR]
+361           Prenol Lipids [PR]
+362           Prenol Lipids [PR]
+389           Prenol Lipids [PR]
+413    Glycerophospholipids [GP]
+417             Polyketides [PK]
+451             Polyketides [PK]
+459           Prenol Lipids [PR]
+466           Prenol Lipids [PR]
+473             Polyketides [PK]
+475           Sterol Lipids [ST]
+488             Polyketides [PK]
+525             Fatty Acyls [FA]
+531             Polyketides [PK]
+536             Polyketides [PK]
+553             Polyketides [PK]
+567             Polyketides [PK]
+589             Fatty Acyls [FA]
+590           Sterol Lipids [ST]
+599             Polyketides [PK]
+603             Fatty Acyls [FA]
+634           Prenol Lipids [PR]
+645             Polyketides [PK]
+676             Polyketides [PK]
+722             Fatty Acyls [FA]
+730             Fatty Acyls [FA]
+739           Sterol Lipids [ST]
+Warning: The "MAIN_CLASS(lipidmaps)" column at position 10 in the METABOLITES table, matches a standard column name, "lm_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+29                             Flavonoids [PK12]
+43                               Steroids [ST02]
+52             Fatty Acids and Conjugates [FA01]
+58                               Steroids [ST02]
+61                           Fatty amides [FA08]
+67                           Fatty amides [FA08]
+94                            Isoprenoids [PR01]
+95                   Linear tetracyclines [PK07]
+110                          Fatty amides [FA08]
+127                       Sphingoid bases [SP01]
+148                              Steroids [ST02]
+153                          Fatty amides [FA08]
+163                          Fatty amides [FA08]
+229                          Fatty amides [FA08]
+232                          Fatty esters [FA07]
+253                            Flavonoids [PK12]
+264                          Fatty amides [FA08]
+301                            Flavonoids [PK12]
+304                          Fatty esters [FA07]
+311                           Eicosanoids [FA03]
+335            Fatty Acids and Conjugates [FA01]
+350    Macrolides and lactone polyketides [PK04]
+356                          Fatty esters [FA07]
+360                           Isoprenoids [PR01]
+361                           Isoprenoids [PR01]
+362                           Isoprenoids [PR01]
+389                           Polyprenols [PR03]
+413                 Glycerophosphoserines [GP03]
+417                            Flavonoids [PK12]
+451                  Aromatic polyketides [PK13]
+459                           Isoprenoids [PR01]
+466                           Isoprenoids [PR01]
+473                            Flavonoids [PK12]
+475                    Steroid conjugates [ST05]
+488                            Flavonoids [PK12]
+525                          Fatty amides [FA08]
+531                            Flavonoids [PK12]
+536                            Flavonoids [PK12]
+553                            Flavonoids [PK12]
+567                            Flavonoids [PK12]
+589                           Eicosanoids [FA03]
+590                              Steroids [ST02]
+599                         Cytochalasins [PK11]
+603                          Fatty amides [FA08]
+634                           Isoprenoids [PR01]
+645                            Flavonoids [PK12]
+676                            Flavonoids [PK12]
+722                          Fatty esters [FA07]
+730                        Fatty alcohols [FA05]
+739                              Steroids [ST02]
+Warning: The "CAS" column at position 13 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 13 in the METABOLITES table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+223    2494/12/4
+559    1954/11/5
+570     1958/8/2
+687     5534/9/8
+Warning: The "Retention time (min)" column at position 5 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_annotation" column at position 6 in the METABOLITES table, matches a standard column name, "annotations". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_pathway_annotation" column at position 7 in the METABOLITES table, matches a standard column name, "annotations". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column, "MAIN_CLASS(lipidmaps)", in the METABOLITES table was matched to multiple standard names, ['class', 'lm_id']. This is a good indication that the values in that column should be split into the appropriate individual columns.
+Warning: The column, "KEGG_pathway_annotation", in the METABOLITES table was matched to multiple standard names, ['pathway', 'kegg_id', 'annotations']. This is a good indication that the values in that column should be split into the appropriate individual columns.
+Warning: The column, "KEGG_annotation", in the METABOLITES table was matched to multiple standard names, ['kegg_id', 'annotations']. This is a good indication that the values in that column should be split into the appropriate individual columns.
+Warning: The "KEGG_pathway_annotation" column at position 7 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "LM_ID(lipidmaps)" column at position 8 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "CATEGORY(lipidmaps)" column at position 9 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "MAIN_CLASS(lipidmaps)" column at position 10 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "SUB_CLASS" column at position 11 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
