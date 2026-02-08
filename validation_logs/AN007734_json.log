@@ -1,0 +1,109 @@
+Validation Log
+2026-02-08 07:58:12.890516
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007734/mwtab/json
+Study ID:      ST004594
+Analysis ID:   AN007734
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 14
+
+Number of Warnings: 11
+
+Number of Value Errors: 14
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "8-10 weeks old", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.3ml/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "OriginalName" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "OGName" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Lipidmaps" column at position 16 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "lm_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Chebi" column at position 13 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Chebi" column at position 13 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "chebi_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+3                                          chebiId:15698
+4                                           chebiId:1157
+6                                          chebiId:15793
+10                                         chebiId:27596
+13                                         chebiId:15887
+16                           chebiId:15960;chebiId:57589
+17                                         chebiId:15355
+18                           chebiId:17172;chebiId:16335
+20                                         chebiId:28918
+21                           chebiId:16586;chebiId:32396
+22                                         chebiId:18323
+23                                         chebiId:15843
+24                           chebiId:15816;chebiId:16467
+25                           chebiId:29073;chebiId:38290
+27                           chebiId:23858;chebiId:28941
+28                           chebiId:17750;chebiId:16414
+29              chebiId:16347;chebiId:3424;chebiId:11060
+45                                         chebiId:28867
+50                                         chebiId:18102
+52                                         chebiId:15727
+53                                         chebiId:15354
+54                                         chebiId:18132
+55                                         chebiId:16737
+56                                         chebiId:16283
+57                                         chebiId:17562
+59                                         chebiId:17929
+60                                         chebiId:17724
+61                                         chebiId:75117
+62                                         chebiId:28125
+63                                         chebiId:76319
+64                                         chebiId:53488
+65                                         chebiId:80549
+66                                          chebiId:4676
+67                                        chebiId:545687
+69                                         chebiId:28364
+70                                         chebiId:53460
+72                                         chebiId:17620
+77                                         chebiId:33198
+78     chebiId:33830;chebiId:47954;chebiId:12952;cheb...
+80                                         chebiId:16856
+81                                         chebiId:16870
+82                                         chebiId:17201
+83                                         chebiId:16750
+84                                         chebiId:76235
+85                                         chebiId:45571
+87                                         chebiId:73722
+89                                         chebiId:15699
+90                                        chebiId:545959
+93                                         chebiId:16881
+96                           chebiId:17282;chebiId:24813
+99                                         chebiId:30805
+101                                        chebiId:27432
+103                                        chebiId:16899
+106                          chebiId:28875;chebiId:30807
+107                          chebiId:16953;chebiId:21547
+108                          chebiId:17533;chebiId:44337
+109                                        chebiId:17008
+110                                        chebiId:29025
+111                          chebiId:35704;chebiId:17752
+112                                        chebiId:73688
+113                                        chebiId:17154
+114                                        chebiId:39246
+115                                        chebiId:37527
+116                                        chebiId:29019
+118                                        chebiId:17858
+139                                        chebiId:42504
+142                                        chebiId:17287
+143                                        chebiId:35280
+144                                        chebiId:16675
+145                                        chebiId:17015
+146                                        chebiId:16680
+147                                        chebiId:37550
+148                                        chebiId:32389
+150                                        chebiId:15891
+151                                        chebiId:17311
+154                                        chebiId:16695
+Warning: The "RT" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Method" column at position 17 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ms_method". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Lipidmaps" column at position 16 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "myQC_Sum_Height&gt;0" column at position 21 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

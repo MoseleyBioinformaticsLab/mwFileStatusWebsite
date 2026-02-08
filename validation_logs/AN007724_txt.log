@@ -1,0 +1,109 @@
+Validation Log
+2026-02-08 07:57:34.565105
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007724/mwtab/txt
+Study ID:      ST004592
+Analysis ID:   AN007724
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 14
+
+Number of Warnings: 11
+
+Number of Value Errors: 14
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "8-10 weeks old", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.3ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "OriginalName" column at position 6 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "OGName" column at position 14 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 11 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 10 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Lipidmaps" column at position 16 in the METABOLITES table, matches a standard column name, "lm_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Chebi" column at position 13 in the METABOLITES table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Chebi" column at position 13 in the METABOLITES table, matches a standard column name, "chebi_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1                                          chebiId:34146
+3                                           chebiId:1157
+5                                          chebiId:15793
+7                                          chebiId:17445
+10                                         chebiId:27596
+17                                         chebiId:34499
+18                           chebiId:15960;chebiId:57589
+19                                         chebiId:15355
+20                           chebiId:17172;chebiId:16335
+21                                         chebiId:28918
+22                                         chebiId:15678
+23                           chebiId:16586;chebiId:32396
+24                                         chebiId:15843
+25                           chebiId:15816;chebiId:16467
+27                           chebiId:17750;chebiId:16414
+28                                         chebiId:30776
+29              chebiId:16347;chebiId:3424;chebiId:11060
+39                                         chebiId:28867
+44                                         chebiId:18102
+46                                         chebiId:15727
+47                                         chebiId:15354
+48                                         chebiId:18132
+49                           chebiId:17561;chebiId:16375
+50                                         chebiId:16283
+51                                         chebiId:17562
+53                                         chebiId:17929
+54                                         chebiId:28125
+55                                         chebiId:53488
+56                                          chebiId:4676
+57                                        chebiId:545687
+59                                         chebiId:28364
+60                                         chebiId:53460
+62                                         chebiId:16238
+63                                         chebiId:17621
+68                                         chebiId:33198
+69     chebiId:33830;chebiId:47954;chebiId:12952;cheb...
+71                                         chebiId:16856
+72                                         chebiId:16870
+73                                         chebiId:17201
+74                                         chebiId:16750
+75                                         chebiId:45571
+77                                         chebiId:73722
+79                                         chebiId:15699
+80                                        chebiId:545959
+84                                         chebiId:16881
+86                                         chebiId:16411
+88                           chebiId:17282;chebiId:24813
+90                           chebiId:17191;chebiId:15603
+92                                         chebiId:30805
+94                                         chebiId:27432
+97                                         chebiId:16899
+99                           chebiId:28875;chebiId:30807
+100                          chebiId:17533;chebiId:44337
+101                                        chebiId:17008
+102                                        chebiId:29025
+103                          chebiId:35704;chebiId:17752
+104                                        chebiId:15846
+105                                        chebiId:17154
+107                                        chebiId:37527
+108                                        chebiId:29019
+109                                        chebiId:18357
+111                                        chebiId:17858
+117                                        chebiId:42504
+119                                        chebiId:17287
+120                                        chebiId:15811
+121                                        chebiId:35280
+124                                        chebiId:16675
+125                                        chebiId:17015
+126                                        chebiId:17115
+127                                        chebiId:37550
+128                                        chebiId:32389
+131                                        chebiId:17748
+132                                        chebiId:18123
+133                                        chebiId:17311
+136                                        chebiId:16695
+140                                        chebiId:16704
+Warning: The "RT" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Method" column at position 17 in the METABOLITES table, matches a standard column name, "ms_method". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Lipidmaps" column at position 16 in the METABOLITES table has all null values.
+Warning: The "myQC_Sum_Height&gt;0" column at position 21 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

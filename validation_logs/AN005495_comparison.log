@@ -1,14 +1,14 @@
 Comparison Log
-2026-02-01 07:18:16.286468
+2026-02-08 06:23:24.571225
 mwtab Python Library Version: 2.0.0
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005495/mwtab/...
 Study ID:    ST003354
 Analysis ID: AN005495
 Status:      Inconsistent
 
-Sections "MS" contain missmatched items: {'MS_COMMENTS': ['Long-chain base (LCB) species were analyzed by multiple reaction monitoring of the transition from precursor to product ions at associated optimized collision energies, and fragmentor voltages using Agilent Masshunter. The m/z values of the precursor and product ions are provided in the metabolite metadata section.', 'Agilent Masshunter']}
-Sections "PROJECT" contain missmatched keys: ['DOI']
 Sections "CHROMATOGRAPHY" contain missmatched items: {'COLUMN_TEMPERATURE': ['40°C', '40'], 'FLOW_RATE': ['0.2 mL/min', '0.2 ml/min'], 'SOLVENT_A': ['60% methanol/40% water; 0.1% formic acid; 5 mM ammonium formate', '60% methanol 40% water; 0.1% formic acid; 5 mM ammonium formate']}
+Sections "PROJECT" contain missmatched keys: ['DOI']
 Sections "STUDY" contain missmatched keys: ['SUBMIT_DATE']
+Sections "MS" contain missmatched items: {'MS_COMMENTS': ['Long-chain base (LCB) species were analyzed by multiple reaction monitoring of the transition from precursor to product ions at associated optimized collision energies, and fragmentor voltages using Agilent Masshunter. The m/z values of the precursor and product ions are provided in the metabolite metadata section.', 'Agilent Masshunter']}
 'Metabolites' section of 'MS_METABOLITE_DATA' block do not match.
 'Data' section of 'MS_METABOLITE_DATA' block do not match.
