@@ -1,0 +1,102 @@
+Validation Log
+2026-02-15 07:56:01.018964
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007631/mwtab/txt
+Study ID:      ST004542
+Analysis ID:   AN007631
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 8
+
+Number of Value Errors: 14
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "N/A", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", for the subsection, "HEIGHT_OR_HEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['cm', 'in']. Ignore this when more complicated descriptions are required.
+Error: The value, "Not applicable", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "CELL_PRIMARY_IMMORTALIZED", in the "SUBJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The required property, "ANALYSIS_TYPE", in the "ANALYSIS" section  is missing.
+Error: The value, "0.5 mM DSS", for the subsection, "STANDARD_CONCENTRATION", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mM']. Ignore this when more complicated descriptions are required.
+Warning: The "Exact mass" column at position 3 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 13 in the METABOLITES table, matches a standard column name, "refmet". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 13 in the METABOLITES table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     RM0162502
+1     RM0153654
+2     RM0135977
+3     RM0136217
+4     RM0153572
+5     RM0049281
+6     RM0135870
+7     RM0032913
+8     RM0135898
+9     RM0138921
+10    RM0135963
+11    RM0135905
+12    RM0138930
+13    RM0135869
+14    RM0150157
+15    RM0153468
+16    RM0028739
+17    RM0050550
+18    RM0032432
+19    RM0118067
+20    RM0040238
+21    RM0135892
+22    RM0136734
+23    RM0034731
+24    RM0135901
+25    RM0135893
+26    RM0012560
+27    RM0135889
+28    RM0135902
+29    RM0135887
+30    RM0135888
+31    RM0136958
+32    RM0009959
+33    RM0136084
+34    RM0156423
+35    RM0129894
+36    RM0135895
+37    RM0135908
+38    RM0050098
+39    RM0134975
+40    RM0136007
+41    RM0135904
+42    RM0136379
+43    RM0135903
+44    RM0161726
+45    RM0156450
+46    RM0156700
+47    RM0041817
+48    RM0007522
+49    RM0060581
+50    RM0136730
+51    RM0135897
+52    RM0135899
+53    RM0139715
+54    RM0135924
+55    RM0006551
+56    RM0136025
+57    RM0032433
+58    RM0159895
+59    RM0135900
+60    RM0040235
+61    RM0155980
+62    RM0135896
+63    RM0135929
+64    RM0135934
+65    RM0135933
+66    RM0136018
+67    RM0135930
+Warning: The "Super class" column at position 4 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Main class" column at position 5 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Sub class" column at position 6 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 7 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LM_ID" column at position 10 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
