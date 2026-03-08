@@ -1,0 +1,98 @@
+Validation Log
+2026-03-08 09:02:20.158161
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007788/mwtab/txt
+Study ID:      ST004616
+Analysis ID:   AN007788
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 13
+
+Number of Warnings: 12
+
+Number of Value Errors: 13
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Molecular weight (Da)" column at position 6 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Mass error" column at position 9 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 4 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+304        C14H30N2O4+2
+753            C5H4O5-2
+939        C10H17O7P2-3
+949        C22H13N3O4-2
+958    C26H35N7O19P3S-5
+959        C8H13N2O9P-2
+970          C9H11NO6-2
+987        C20H46N5O9+5
+988       C18H21N6O8P-2
+Warning: The "Class I" column at position 2 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Class II" column at position 3 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem CID" column at position 15 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "kegg_map" column at position 19 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 16 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Metlin" column at position 17 in the METABOLITES table, matches a standard column name, "metlin_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 14 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 14 in the METABOLITES table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+39                                  6027-14-1 | 454-28-4
+43                    616-07-9 | 128551-39-3 | 7006-33-9
+133                     6735-59-7 | 94-63-3 | 25615-00-3
+143                              10257-34-8 | 10257-35-9
+168                95233-18-4 | 94015-53-9 | 137732-39-9
+181      480-18-2 | 24198-97-8 | 17654-26-1 | 20254-28-8
+196    12001-79-5 | 81818-54-4 | 10485-69-5 | 27696-10-2
+199                               315-22-0 | 109525-74-8
+225    38194-50-2 | 53933-60-1 | 49627-22-7 | 32004-68-5
+233                   28371-16-6 | 8015-61-0 | 5133-19-7
+255                              9063-57-4 | 112592-90-2
+259                                  8003-22-3 | 83-08-9
+289                               5104-49-4 | 51543-38-5
+294                               1115-70-4 | 15537-72-1
+324                                  70-54-2 | 6899-06-5
+510                29836-26-8 | 144388-20-5 | 78168-20-4
+511    961-07-9 | 663615-45-0 | 38559-49-8 | 116002-2...
+518                              7689-03-4 | 251316-95-7
+524                                1509-35-9 | 3107-04-8
+526       26761-40-0 | 89-16-7 | 68515-49-1 | 19269-67-1
+527                              86390-77-4 | 92282-11-6
+528                              24144-92-1 | 20578-92-1
+533                                              1915211
+538                55123-66-5 | 103476-89-7 | 24365-47-7
+551                              18467-77-1 | 68539-16-2
+554    62989-33-7 | 17528-72-2 | 103130-44-5 | 27070-...
+562    106168-20-1 | 106809-03-4 | 117148-05-7 | 1251...
+565                               4947-75-5 | 35319-91-6
+573                                485-49-4 | 56083-00-2
+585                              71030-36-9 | 73836-87-0
+613    123-94-4 | 31566-31-1 | 22610-63-5 | 83138-62-...
+615                   532-16-1 | 30413-87-7 | 23838-17-7
+617                            146426-40-6 | 131740-09-5
+618                               530-43-8 | 125637-16-3
+627                     56-04-2 | 1123-10-0 | 91795-77-6
+642                               24034-73-9 | 7614-21-3
+647                               27885-92-3 | 5318-76-3
+648                               1113-21-9 | 68931-30-6
+655                                              1583974
+657                               598-50-5 | 608090-15-9
+660                     121-54-0 | 5929-09-9 | 1313-08-2
+674                                3055-99-0 | 9043-30-5
+689                   872-35-5 | 82358-15-4 | 49556-19-6
+701                              82419-52-1 | 97791-27-0
+720                              4792-15-8 | 113894-92-1
+740                             55455-92-0 | 435345-43-0
+747                                946-99-6 | 88738-86-7
+750                               19120-01-5 | 5697-57-4
+755                              38883-84-0 | 26307-17-5
+778                              94805-52-4 | 95891-30-8
+784                              13184-14-0 | 25988-63-0
+791                               6632-68-4 | 58537-55-6
+793                              36115-93-2 | 63957-22-2
+796                                154-69-8 | 22306-05-4
+798    40596-69-8 | 36557-27-4 | 41205-06-5 | 52020-07-2
+820                                 84-75-3 | 68515-50-4
+837              397864-44-7 | 779352-12-4 | 911210-90-7
+Warning: The "RT (min)" column at position 7 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

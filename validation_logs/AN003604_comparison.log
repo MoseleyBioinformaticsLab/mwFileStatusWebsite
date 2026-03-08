@@ -1,13 +1,13 @@
 Comparison Log
-2026-03-01 04:41:19.988194
+2026-03-08 05:34:15.882293
 mwtab Python Library Version: 2.0.0
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003604/mwtab/...
 Study ID:    ST002201
 Analysis ID: AN003604
 Status:      Inconsistent
 
-Sections "PROJECT" contain missmatched keys: ['DOI', 'PUBLICATIONS']
-Sections "STUDY" contain missmatched keys: ['SUBMIT_DATE', 'NUM_GROUPS', 'TOTAL_SUBJECTS']
 Sections "CHROMATOGRAPHY" contain missmatched items: {'COLUMN_NAME': ['Restek Rxi-5Sil (30m x 0.25mm,0.25m) with 10m precolumn', 'Restek Rxi-5Sil MS (30m x 0.25mm,0.25µm) with 10m precolumn']}
+Sections "PROJECT" contain missmatched keys: ['PUBLICATIONS', 'DOI']
+Sections "STUDY" contain missmatched keys: ['SUBMIT_DATE', 'NUM_GROUPS', 'TOTAL_SUBJECTS']
 'Metabolites' section of 'MS_METABOLITE_DATA' block do not match.
 'Data' section of 'MS_METABOLITE_DATA' block do not match.
