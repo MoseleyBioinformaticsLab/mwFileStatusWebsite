@@ -1,0 +1,258 @@
+Validation Log
+2026-03-15 06:52:58.225948
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005737/mwtab/json
+Study ID:      ST003496
+Analysis ID:   AN005737
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 11
+
+Number of Warnings: 9
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Male and female", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "45", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RefMet" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                                 Ciliatine
+1        1-Aminocyclopropanecarboxylic acid
+2                         1-Methylhistidine
+3                         1-Methyladenosine
+4           N-Acetyl-beta-glucosaminylamine
+5                            Quinaldic acid
+6                     2,6-Dihydroxypyridine
+7                3-Hydroxyphenylacetic acid
+8                         3-Methoxytyramine
+9                         3-Methylhistidine
+10                          3-Methyladenine
+11                  3-Methylbut-2-enoyl-CoA
+12                        3-Sulfino-alanine
+13                        Hydroxykynurenine
+14                 4-Acetamidobutanoic acid
+15                 4-Guanidinobutanoic acid
+16                   4-Hydroxyphenylglycine
+17                     Imidazoleacetic acid
+18                         4-Pyridoxic acid
+19               4-Quinolinecarboxylic acid
+20                   5-Amino-levulinic acid
+21                    5-Aminopentanoic acid
+22                     5-Hydroxy-tryptophan
+23               5-Hydroxyindoleacetic acid
+24                         5-Methylcytosine
+25                          5-Valerolactone
+26                       5''-Deoxyadenosine
+27                                  Adenine
+28                                Adenosine
+29                       2'',3'' cyclic AMP
+30            Adenosine 3'',5''-diphosphate
+31                                      ADP
+32                               ADP-ribose
+33                                      ATP
+34                                      AMP
+35                                    AICAR
+36                                  Alanine
+37                            Allothreonine
+38                         Aminoadipic acid
+39                                 Anserine
+40                                 Arginine
+41                    Argininosuccinic acid
+42                               Asparagine
+43                            Aspartic acid
+44                              Benzylamine
+45                             beta-Alanine
+46                                      NAD
+47                                  Betaine
+48                                Bilirubin
+49                               Biliverdin
+50                                   Biotin
+51                                Carnosine
+52                         CDP-Ethanolamine
+53                  cis-4-Hydroxy-D-proline
+54                              CDP-choline
+55                               Citrulline
+56                                 Cortisol
+57                      Cortisol 21-acetate
+58                                 Creatine
+59                               Creatinine
+60                       3'',5'' cyclic AMP
+61                            Cystathionine
+62                                 Cytidine
+63                       2'',3'' cyclic CMP
+64                                 Cytosine
+65                                D-Alanine
+66                2-Amino-2-deoxy-D-mannose
+67                           Deoxyadenosine
+68                                     dAMP
+69                                     dATP
+70                     3-Dehydroxycarnitine
+71                            Deoxycytidine
+72                                     dCMP
+73                                     dCDP
+74                           Deoxyguanosine
+75                                     dGMP
+76                  2,6-Diaminopimelic acid
+77                                 LPC 12:0
+78                           Diethanolamine
+79     4a-Carbinolamine tetrahydrobiopterin
+80                              Epinephrine
+81                    Ethyl 3-indoleacetate
+82                                      FAD
+83                               Folic acid
+84                            Galactosamine
+85                  gamma-Aminobutyric acid
+86                                Glutamine
+87                        Glucosaminic acid
+88                              Glucosamine
+89                  Glucosamine 6-phosphate
+90                            Glutamic acid
+91                                Glutamine
+92                                CAR DC5:0
+93                              Glutathione
+94                                  Glycine
+95                              Glutathione
+96                     Oxidized glutathione
+97                       Guanidoacetic acid
+98                   Guanidinosuccinic acid
+99                                  Guanine
+100                               Guanosine
+101                                     GMP
+102                               Histamine
+103                               Histidine
+104                            L-Histidinol
+105                            Homocysteine
+106              L-Homocysteine thiolactone
+107                              Homoserine
+108                       Hydroxykynurenine
+109                             Hypotaurine
+110                            Hypoxanthine
+111                   1H-Indole-3-acetamide
+112                       Indoleacetic acid
+113                            Tryptophanol
+114                 Indole-3-methyl acetate
+115                                 Inosine
+116                                     IMP
+117                              Isoleucine
+118                          Kynurenic acid
+119                              Kynurenine
+120                               Carnitine
+121                         Tryptophanamide
+122                                 Lactose
+123                                CAR 12:0
+124                                 Leucine
+125                               Lipoamide
+126                              Lumichrome
+127                                  Lysine
+128                               Maleimide
+129                               Melatonin
+130                              Methionine
+131                  Methionine sulfoximine
+132                 Methyl 4-aminobutanoate
+133                     Methylthioadenosine
+134                      N-Acetylasparagine
+135                   N-Acetylgalactosamine
+136                     N-Acetylglucosamine
+137                   N-Acetylglutamic acid
+138                    N-Acetyl-mannosamine
+139                 N-Acetylneuraminic acid
+140                   N-Acetylphenylalanine
+141                        N-Acetyl-proline
+142                      N-Acetylputrescine
+143                       N-Acetylserotonin
+144                     N-Acetyl-tryptophan
+145                       N(2)-Acetyllysine
+146                N-Methyl-D-aspartic acid
+147                  N-Methyl-glutamic acid
+148                      N-Methyltryptamine
+149                        Dimethylarginine
+150                     N-6-Trimethyllysine
+151                   N6-Isopentenyladenine
+152                                     NAD
+153                                    NADH
+154                                    NADP
+155                                   NADPH
+156                             Niacinamide
+157    Nicotinamide purin-6-ol-dinucleotide
+158                   Nicotinamide ribotide
+159                          Nicotinic acid
+160                              Norleucine
+161                         Normetanephrine
+162                               Norvaline
+163                                 CAR 2:0
+164                     Phosphoethanolamine
+165                      DL-O-Phosphoserine
+166                    o-Succinylhomoserine
+167                         Ophthalmic acid
+168                               Ornithine
+169                                CAR 16:0
+170                        Pantothenic acid
+171                            Paraxanthine
+172                           Phenylalanine
+173                           Phosphoserine
+174                          Pipecolic acid
+175                         Porphobilinogen
+176                                 Proline
+177                                  Pterin
+178                                  Purine
+179                               Pyridoxal
+180                            Pyridoxamine
+181                              Pyridoxine
+182                              Riboflavin
+183                  S-Adenosylhomocysteine
+184                    S-Adenosylmethionine
+185                  S-Adenosylhomocysteine
+186                    S-Adenosylmethionine
+187                S-Carboxymethyl-cysteine
+188                              Salsolinol
+189                               Sarcosine
+190                                  Serine
+191                               Serotonin
+192                                 Taurine
+193                             Theobromine
+194                            Theophylline
+195                  Thiamine monophosphate
+196                    Thiamine diphosphate
+197                      6-Methylthiopurine
+198                                Thiourea
+199                               Threonine
+200                                 Thymine
+201           Thyrotropin releasing hormone
+202                  trans-4-Hydroxyproline
+203                          Cinnamaldehyde
+204                            Trigonelline
+205                              Tryptamine
+206                              Tryptophan
+207                                Tyramine
+208                                Tyrosine
+209                    Ureidopropionic acid
+210                           Urocanic acid
+211                                  Valine
+212                              Xanthosine
+213                        Xanthurenic acid
+Warning: The "PubChem_CID" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS_ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS_ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+3      5063510
+5        34249
+22      895096
+24     -491605
+29     -462388
+57       18325
+67     -343801
+74     -342766
+75     -364411
+85       20791
+132      20791
+157     -17709
+165    5838619
+203    4555222
+Warning: The "ChEBI" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
