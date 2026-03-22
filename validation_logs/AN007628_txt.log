@@ -1,0 +1,113 @@
+Validation Log
+2026-03-22 08:05:11.137477
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007628/mwtab/txt
+Study ID:      ST004540
+Analysis ID:   AN007628
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 94
+
+Number of Warnings: 93
+
+Number of Value Errors: 94
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "45°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "exactmass" column at position 4 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "metaboite name (ID in Analyst file)" column at position 2 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "super_class" column at position 5 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "main_class" column at position 6 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "sub_class" column at position 7 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "200823_LW_Magauer_L1" column at position 90 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L2" column at position 91 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L3" column at position 92 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L4" column at position 93 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L5" column at position 94 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L6" column at position 95 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L7" column at position 96 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L8" column at position 97 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L9" column at position 98 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L10" column at position 99 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L11" column at position 100 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L12" column at position 101 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L13" column at position 102 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L14" column at position 103 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L15" column at position 104 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L16" column at position 105 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L17" column at position 106 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L18" column at position 107 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L19" column at position 108 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L20" column at position 109 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L21" column at position 110 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L22" column at position 111 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L25" column at position 112 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L26" column at position 113 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L27" column at position 114 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L28" column at position 115 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L29" column at position 116 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L33" column at position 117 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L34" column at position 118 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "200823_LW_Magauer_L35" column at position 119 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L36" column at position 120 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L37" column at position 121 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L38" column at position 122 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L39" column at position 123 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L40" column at position 124 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L41" column at position 125 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L42" column at position 126 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L43" column at position 127 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L44" column at position 128 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L45" column at position 129 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L46" column at position 130 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L47" column at position 131 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L48" column at position 132 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L49" column at position 133 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L50" column at position 134 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L51" column at position 135 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L52" column at position 136 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L53" column at position 137 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L54" column at position 138 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L55" column at position 139 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L56" column at position 140 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L57" column at position 141 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L58" column at position 142 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L59" column at position 143 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L60" column at position 144 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L61" column at position 145 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L62" column at position 146 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L63" column at position 147 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210129_DAG_I_Magauer_1-15_L36-65_1_2_L64" column at position 148 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L66" column at position 149 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L67" column at position 150 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L68" column at position 151 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L69" column at position 152 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L70" column at position 153 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L71" column at position 154 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L72" column at position 155 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L73" column at position 156 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L74" column at position 157 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L75" column at position 158 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L76" column at position 159 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L77" column at position 160 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L78" column at position 161 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L79" column at position 162 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L80" column at position 163 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L81" column at position 164 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L82" column at position 165 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L83" column at position 166 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L84" column at position 167 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L85" column at position 168 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L86" column at position 169 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L87" column at position 170 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L88" column at position 171 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L89" column at position 172 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L90" column at position 173 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L91" column at position 174 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L92" column at position 175 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L93" column at position 176 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "210201_DAG_I_Mono_Magauer_L66-99_n3_1_2_sample_L94" column at position 177 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

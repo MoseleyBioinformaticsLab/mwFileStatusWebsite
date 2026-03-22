@@ -1,0 +1,231 @@
+Validation Log
+2026-03-22 07:11:30.334527
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006309/mwtab/json
+Study ID:      ST003840
+Analysis ID:   AN006309
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 8
+
+Number of Warnings: 7
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "55C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "mz" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InCHiKey_14" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+6            C9 H9 N O4
+10          C10 H9 N O3
+11         C14 H17 N O8
+12           C9 H9 N O4
+19           C6 H5 N O3
+20           C6 H9 N O3
+23         C11 H11 N O3
+26         C26 H43 N O5
+31           C9 H9 N O3
+33          C10 H9 N O2
+34         C8 H7 N O4 S
+36          C10 H7 N O3
+39          C8 H15 N O3
+40           C5 H9 N O3
+41          C8 H15 N O3
+42           C5 H9 N O4
+48           C9 H9 N O4
+51          C9 H11 N O3
+52          C6 H11 N O4
+54          C6 H11 N O3
+55           C5 H7 N O3
+56           C8 H9 N O4
+57          C10 H9 N O3
+61           C3 H7 N O2
+64          C9 H11 N O2
+68         C11 H19 N O9
+72         C2 H7 N O3 S
+82      C13 H11 Cl N2 O
+83         C10 H17 N O3
+84         C10 H11 N O4
+89           C7 H7 N O4
+90          C9 H11 N O3
+94           C8 H9 N O2
+97          C7 H11 N O3
+103           C9 H7 N O
+106    C19 H18 Cl N3 O2
+109        C4 H5 N O4 S
+111        C12 H17 N O3
+112        C10 H19 N O3
+114        C12 H15 N O3
+117        C26 H43 N O6
+118         C10 H9 N O4
+128        C11 H13 N O4
+129         C7 H13 N O3
+130    C9 H5 Cl F3 N3 S
+138          C8 H9 N O2
+143        C7 H5 N O3 S
+147     C20 H21 F N4 O2
+150          C4 H7 N O2
+153        C11 H13 N O3
+156        C11 H11 N O3
+159          C5 H9 N O3
+160         C8 H15 N O3
+161           C6 H7 N O
+164        C6 H11 Cl O6
+165        C10 H11 N O3
+169          C4 H7 N O4
+171          C4 H5 N O3
+177        C10 H11 N O3
+179         C8 H13 N O6
+183         C9 H17 N O5
+186         C6 H11 F O6
+Warning: The "RefMet" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                        1,3,7-Trimethyluric acid
+2                           2-Hydroxybutyric acid
+3                      2-Hydroxyphenylacetic acid
+4               2-Dehydro-3-deoxy-D-gluconic acid
+5                                 Citraconic acid
+6                          3-Hydroxyhippuric acid
+7                    3-Hydroxymethylglutaric acid
+8                           Vanillylmandelic acid
+9                                3-Methylxanthine
+11                   p-Acetamidophenylglucuronide
+13                          4-Hydroxybenzaldehyde
+14                          4-Hydroxybenzoic acid
+17     5-Acetylamino-6-formylamino-3-methyluracil
+18                                   Pimelic acid
+21                                        Acetoin
+22                                   Azelaic acid
+23                               Cinnamoylglycine
+24                                Citramalic acid
+25                                Erythronic acid
+26                          Glycodeoxycholic acid
+27                           Dimethylmalonic acid
+28                         Ferulic acid 4-sulfate
+29                                 Glyceraldehyde
+30                                  Glyceric acid
+31                                  Hippuric acid
+32                            Dihydroferulic acid
+33                              Indoleacetic acid
+34                                Indoxyl sulfate
+35                                 Isocitric acid
+36                                 Kynurenic acid
+37                                     Malic acid
+40                                N-Acetylalanine
+41                                N-Acetylleucine
+42                                 N-Acetylserine
+45                                  Pseudouridine
+46                                     Riboflavin
+47                                 Salicylic acid
+48                               Salicyluric acid
+49                                   Suberic acid
+50                                  Tartaric acid
+51                                       Tyrosine
+52                         alpha-Aminoadipic acid
+53                             2-Oxoglutaric acid
+54                       4-Acetamidobutanoic acid
+55                                  4-Oxo-proline
+56                               4-Pyridoxic acid
+57                     5-Hydroxyindoleacetic acid
+58                              cis-Aconitic acid
+59                                       Creatine
+60                                       D-Fucose
+61                                        Alanine
+62                                     Erythritol
+63                                      Histidine
+64                                  Phenylalanine
+66                                Methylhistidine
+67                                Methyluric acid
+68                        N-Acetylneuraminic acid
+69                                Pelargonic acid
+70                                     Oleic acid
+71                                  Succinic acid
+72                                        Taurine
+73                                     Tryptophan
+74                                      Uric acid
+75                                       Xanthine
+76                                        Xylitol
+87                      2,4-Dihydroxybenzoic acid
+89                                2-Furoylglycine
+90                         2-Hydroxyphenylalanine
+91                          2-Isopropylmalic acid
+95                        3-Hydroxybenzyl alcohol
+96                          3-Hydroxybutyric acid
+97                        3-Methylcrotonylglycine
+98                                   Sebacic acid
+100                          4-Aminohippuric acid
+103                       Indole-4-carboxaldehyde
+104                                      p-Cresol
+105                 4-Hydroxybenzenesulfonic acid
+107                         5-Sulfosalicylic acid
+109                                    Acesulfame
+110                              N-Acetylarginine
+111                                     Bufexamac
+113                                  Pyrocatechol
+114                                   Chloridazon
+115                    Cyclohexanecarboxylic acid
+116                                 2-Furoic acid
+117                              Glycocholic acid
+118                             Hydroxykynurenine
+119                          Imidazolelactic acid
+123                                  Malonic acid
+124                           Methylglutaric acid
+128                              N-Acetyltyrosine
+129                             Isovalerylglycine
+131                             2-Methylguanosine
+132                             N4-Acetylcytidine
+138                                 Acetaminophen
+139                                        Phenol
+141                       1,2,3-Trihydroxybenzene
+142                                  Pyruvic acid
+143                                     Saccharin
+144                                  Secobarbital
+145                    Succinic acid semialdehyde
+146                      Testosterone glucuronide
+147                          Testosterone sulfate
+149                          beta-Muricholic acid
+150            1-Aminocyclopropanecarboxylic acid
+151                        3-Dehydroshikimic acid
+152                    3-Hydroxyphenylacetic acid
+153                      3-Phenylpropionylglycine
+154            4-Hydroxycyclohexylcarboxylic acid
+155                          5-Hydroxy-tryptophan
+156                    5-Methoxyindoleacetic acid
+157                        7-Ketodeoxycholic acid
+158                        8-Hydroxyoctanoic acid
+159                               N-Acetylalanine
+160                               N-Acetylleucine
+161                                   Aminophenol
+162                                  Benzoic acid
+163                                     Carnosine
+164                       Deoxyribose 5-phosphate
+167                        Hydroxyisocaproic acid
+168                                  Hypoxanthine
+169                                 Aspartic acid
+170                                     Glutamine
+171                                 Maleamic acid
+173                                Mevalonic acid
+174                             N-Acetylcarnosine
+175                            N-Acetylasparagine
+176                            N-Acetyltryptophan
+177                         N-Formylphenylalanine
+178            N1-Methyl-2-pyridone-5-carboxamide
+179                          o-Succinylhomoserine
+180                               Ophthalmic acid
+181                              2-Oxoadipic acid
+182                    4-Hydroxyphenylacetic acid
+183                              Pantothenic acid
+184                                  Sebacic acid
+185                                Sumiki''s acid
+186                                 Syringic acid
+187                                       Tyrosol
+188                                        Uracil
+189                                 Urocanic acid
+190                                      Vanillin
+Warning: The "RT_sec" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "MS1_RT_std" column at position 12 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Adduct" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

@@ -1,0 +1,99 @@
+Validation Log
+2026-03-22 08:02:21.449128
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007521/mwtab/txt
+Study ID:      ST004485
+Analysis ID:   AN007521
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 80
+
+Number of Warnings: 79
+
+Number of Value Errors: 80
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "55", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "exactmass" column at position 4 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "metabolite names" column at position 2 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "super_class" column at position 5 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "main_class" column at position 6 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "sub_class" column at position 7 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "200820_SPM_Mac_LW_n1_sample_8" column at position 9 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_49" column at position 26 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_50" column at position 27 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_51" column at position 28 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_52" column at position 29 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_53" column at position 30 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_54" column at position 31 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_55" column at position 32 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_56" column at position 33 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_57" column at position 34 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_58" column at position 35 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_59" column at position 36 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_60" column at position 37 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_61" column at position 38 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_62" column at position 39 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_63" column at position 40 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_64" column at position 41 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_65" column at position 42 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_66" column at position 43 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_67" column at position 44 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_68" column at position 45 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_69" column at position 46 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_70" column at position 47 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_71" column at position 48 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200820_SPM_Mac_LW_n1_sample_72" column at position 49 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_73" column at position 50 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_74" column at position 51 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_75" column at position 52 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_76" column at position 53 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_77" column at position 54 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_78" column at position 55 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_79" column at position 56 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_80" column at position 57 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_81" column at position 58 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_82" column at position 59 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_83" column at position 60 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_84" column at position 61 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_85" column at position 62 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_86" column at position 63 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_87" column at position 64 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_88" column at position 65 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_89" column at position 66 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_90" column at position 67 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_91" column at position 68 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_92" column at position 69 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_93" column at position 70 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_94" column at position 71 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_95" column at position 72 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_96" column at position 73 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_97" column at position 74 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_98" column at position 75 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_99" column at position 76 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_100" column at position 77 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_101" column at position 78 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_102" column at position 79 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_103" column at position 80 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_104" column at position 81 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_105" column at position 82 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_106" column at position 83 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_107" column at position 84 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_Magauer_sample_108" column at position 85 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_magauer_sample124" column at position 101 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "200907_SPM_Mac_magauer_sample157" column at position 134 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Sample248" column at position 225 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Sample341" column at position 318 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Sample345" column at position 322 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Sample379" column at position 356 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Sample380" column at position 357 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Sample405" column at position 382 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Sample442" column at position 419 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "443" column at position 420 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "444" column at position 421 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "445" column at position 422 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "446" column at position 423 in the MS_METABOLITE_DATA table has all null values.

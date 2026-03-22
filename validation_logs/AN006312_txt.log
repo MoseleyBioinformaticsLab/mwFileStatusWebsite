@@ -1,0 +1,320 @@
+Validation Log
+2026-03-22 07:11:46.928571
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006312/mwtab/txt
+Study ID:      ST003840
+Analysis ID:   AN006312
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 8
+
+Number of Value Errors: 10
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "mz" column at position 6 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InCHiKey_14" column at position 3 in the METABOLITES table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 4 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+8           C9 H9 N O3
+9          C6 H11 N O3
+10          C7 H7 N O2
+13          C8 H9 N O4
+17          C4 H9 N O3
+18         C6 H11 N O4
+19          C4 H9 N O2
+20        C6 H7 N O3 S
+31          C3 H7 N O2
+43          C5 H9 N O4
+47          C9 H9 N O3
+52         C10 H9 N O2
+53        C8 H7 N O4 S
+55         C10 H7 N O3
+63          C5 H9 N O3
+64        C5 H9 N O3 S
+65         C7 H11 N O5
+66          C4 H7 N O3
+67         C8 H15 N O3
+68        C11 H19 N O9
+69          C5 H9 N O4
+74         C9 H17 N O5
+75         C9 H11 N O2
+77          C7 H5 N O4
+81          C3 H7 N O3
+86        C2 H7 N O3 S
+87          C4 H9 N O3
+90          C7 H7 N O2
+92         C9 H11 N O3
+94         C5 H11 N O2
+96         C10 H7 N O4
+99          C5 H9 N O3
+106         C5 H9 N O4
+113       C10 H11 N O4
+121         C7 H7 N O4
+122         C9 H9 N O4
+126        C9 H17 N O4
+127    C14 H9 Cl N2 O3
+129       C10 H11 N O3
+135          C9 H7 N O
+137         C5 H7 N O3
+142        C7 H6 Cl N3
+145       C4 H5 N O4 S
+146       C14 H17 N O8
+150       C12 H17 N O3
+155         C4 H9 N O2
+156        C6 H13 N O2
+159        C8 H15 N O3
+164      C3 H7 N O5 S2
+168      C9 H11 N O4 S
+174      C8 H15 N O9 S
+176        C6 H11 N O3
+177        C7 H13 N O3
+179        C7 H11 N O3
+187         C8 H9 N O2
+190       C10 H11 N O3
+195       C7 H5 N O3 S
+215       C11 H13 N O3
+218         C9 H9 N O4
+226         C6 H9 N O3
+229        C9 H17 N O4
+231          C8 H7 N O
+234       C11 H11 N O3
+237    C14 H10 F3 N O5
+242        C6 H11 N O2
+250         C4 H9 N O3
+251      C5 H11 N O2 S
+253         C5 H9 N O3
+254         C6 H9 N O5
+259         C5 H9 N O2
+264         C5 H9 N O3
+Warning: The "RefMet" column at position 2 in the METABOLITES table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                                   2-Pyrocatechuic acid
+1                                  2-Hydroxybutyric acid
+2                                    Protocatechuic acid
+3                            4-Hydroxyphenylpyruvic acid
+4                                  3-Hydroxybenzaldehyde
+5                           3-Hydroxymethylglutaric acid
+6                             3-Hydroxyphenylacetic acid
+7                                      3-Methylhistidine
+8                                4-Acetamidobenzoic acid
+9                               4-Acetamidobutanoic acid
+10                                   p-Aminobenzoic acid
+11                              4-Guanidinobutanoic acid
+12                                  Imidazoleacetic acid
+13                                      4-Pyridoxic acid
+14                                      Acetoacetic acid
+15                                           Adipic acid
+16                                             Allantoin
+17                                         Allothreonine
+18                                      Aminoadipic acid
+19                               3-Aminoisobutanoic acid
+20                           2-Aminobenzenesulfonic acid
+21                                              Anserine
+22                                              Arginine
+23                                            Asparagine
+24                                   Aspartylglycosamine
+25                                          Azelaic acid
+26                                             Carnosine
+27                                       Citramalic acid
+28                                              Creatine
+29                                            Creatinine
+30                                              Cytosine
+31                                               Alanine
+32                                      Glucuronolactone
+34                                            Erythritol
+35                                     Ethylmalonic acid
+36                                    trans-Ferulic acid
+37                                                Fucose
+38                                            Galactitol
+40                                         Gluconic acid
+41                                        Gluconolactone
+42                                       Glucuronic acid
+43                                         Glutamic acid
+44                                             Glutamine
+45                                    Guanidoacetic acid
+46                                Guanidinosuccinic acid
+47                                         Hippuric acid
+48                                             Histidine
+49                                     Homovanillic acid
+51                                          Hypoxanthine
+52                                     Indoleacetic acid
+53                                       Indoxyl sulfate
+54                                               Inosine
+55                                        Kynurenic acid
+56                                           Maleic acid
+57                                              Mannitol
+58                                Methylacetoacetic acid
+59                                        Mevalonic acid
+60                                          Myo-inositol
+61                                      Dimethylarginine
+62                                     N-Acetylcarnosine
+63                                       N-Acetylalanine
+64                                      N-Acetylcysteine
+65                                 N-Acetylglutamic acid
+66                                       N-Acetylglycine
+67                                       N-Acetylleucine
+68                               N-Acetylneuraminic acid
+69                                        N-Acetylserine
+70                                     N(2)-Acetyllysine
+71                                           Oxalic acid
+72                                      2-Oxoadipic acid
+73                            4-Hydroxyphenylacetic acid
+74                                      Pantothenic acid
+75                                         Phenylalanine
+76                                           Quinic acid
+77                                       Quinolinic acid
+78                                               Ribitol
+79                                        Salicylic acid
+80                                          Sebacic acid
+81                                                Serine
+82                                              Sorbitol
+83                                               Sorbose
+84                                               Sucrose
+85                                         Tartaric acid
+86                                               Taurine
+87                                             Threonine
+88                                   trans-Aconitic acid
+89                                             Trehalose
+90                                          Trigonelline
+91                                            Tryptophan
+92                                              Tyrosine
+93                                         Urocanic acid
+94                                                Valine
+95                                              Xanthine
+96                                      Xanthurenic acid
+97                                               Xylitol
+98                                 4-Hydroxybenzaldehyde
+99                               cis-4-Hydroxy-D-proline
+100                                          Citric acid
+102                                       Isocitric acid
+103                            Isoferulic acid 3-sulfate
+104                                              Cystine
+105                                       Mevalonic acid
+106                                       O-Acetylserine
+107                                              Xylitol
+112                                  1,5-Anhydrosorbitol
+114                                      1-Methyladenine
+115                                      1-Methylguanine
+116                                    1-Methyluric acid
+119                              Deoxyribose 5-phosphate
+120                                        2-Furoic acid
+121                                      2-Furoylglycine
+122                                     Salicyluric acid
+123                                2-Isopropylmalic acid
+124                                3,7-Dimethyluric acid
+129                                3-Methylhippuric acid
+130                                     3-Methylxanthine
+131                                         Sebacic acid
+132                        4-Dodecylbenzenesulfonic acid
+135                              Indole-4-carboxaldehyde
+136                                             p-Cresol
+137                                        4-Oxo-proline
+143                                6-Hydroxycaproic acid
+144           7-Hydroxy-6-methyl-8-(1-D-ribityl)lumazine
+145                                           Acesulfame
+146                         p-Acetamidophenylglucuronide
+147                                     N-Acetylarginine
+148                                Argininosuccinic acid
+149                                         Benzoic acid
+150                                            Bufexamac
+151                                         Pyrocatechol
+152    3-Carboxy-4-methyl-5-propyl-2-furanpropanoic acid
+153                                   Ribose 1-phosphate
+154                                        Glucaric acid
+155                              3-Aminoisobutanoic acid
+156                                         beta-Leucine
+158                                              Gly-Leu
+159                                           NA-Gly 6:0
+160                                      Isobutyric acid
+161                                      Isoferulic acid
+162                                          Lactic acid
+164                                   Cysteine-S-sulfate
+165                                          Lauric acid
+166                                       Levulinic acid
+167                                       Mesaconic acid
+169                                  Methylsuccinic acid
+173                                     N-Acetyl-Asp-Glu
+174                      N-Acetylgalactosamine 4-sulfate
+175                                    N-Acetylglutamine
+176                                    Isobutyrylglycine
+177                                    Isovalerylglycine
+182                                    2-Methylguanosine
+185                                           Oleic acid
+186                                            Orotidine
+187                                        Acetaminophen
+188                                    Pentadecylic acid
+189                                               Phenol
+190                                  Phenylacetylglycine
+191                                        Pseudouridine
+192                              1,2,3-Trihydroxybenzene
+193                                         Pyruvic acid
+194                                             Rhamnose
+195                                            Saccharin
+196                                         Secobarbital
+197                                         Stearic acid
+198                                         Suberic acid
+199                                        Succinic acid
+200                           Succinic acid semialdehyde
+201                             trans-trans-Muconic acid
+202                                               Uracil
+203                                            Uric acid
+204                                        Vanillic acid
+207                                              Lactose
+208                                      Glucuronic acid
+210                             2-Ethyl-hydracrylic acid
+211                    2-Dehydro-3-deoxy-D-gluconic acid
+213                             3-Hydroxyisovaleric acid
+214                           3-Methyl-2-oxovaleric acid
+215                             3-Phenylpropionylglycine
+216                                4-Hydroxybenzoic acid
+217                   4-Hydroxycyclohexylcarboxylic acid
+218                               4-Hydroxyhippuric acid
+219                           4-Methoxyphenylacetic acid
+220                                       4-Nitroaniline
+221                        4-Hydroxybenzenesulfonic acid
+222           5-Acetylamino-6-formylamino-3-methyluracil
+226                    6-oxopiperidine-2-carboxylic acid
+228                                    9-Methyluric acid
+229                                              CAR 2:0
+230                                    cis-Aconitic acid
+232                                   2-Oxoglutaric acid
+233                                            Vitamin C
+234                                     Cinnamoylglycine
+235                   cis-4-Hydroxycyclohexylacetic acid
+236                                      Citraconic acid
+237                                     3',5' cyclic AMP
+238                                         D-Malic acid
+239                                               Xylose
+240                                         D-Asparagine
+241                                              Glucose
+242                                     D-Pipecolic acid
+243                                 Dimethylmalonic acid
+244                                              Ectoine
+245                                      Erythronic acid
+246                               Ferulic acid 4-sulfate
+248                                 Imidazoleacetic acid
+250                                           Homoserine
+251                                           Methionine
+252                                  Methylglutaric acid
+253                                N-Acetyl-beta-alanine
+254                                N-Acetylaspartic acid
+255                                   N-Acetyltryptophan
+256                   N1-Methyl-2-pyridone-5-carboxamide
+257                                     p-Cresol sulfate
+258                                   Phenylacetaldehyde
+259                                              Proline
+261                                           Riboflavin
+262                                        Shikimic acid
+263                                        Syringic acid
+264                               trans-4-Hydroxyproline
+265                                           Xanthosine
+Warning: The "RT_sec" column at position 7 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "MS1_RT_std" column at position 12 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "H-4DDQ0-U-00" column at position 404 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "H-7MLY2-U-00" column at position 425 in the MS_METABOLITE_DATA table has all null values.
