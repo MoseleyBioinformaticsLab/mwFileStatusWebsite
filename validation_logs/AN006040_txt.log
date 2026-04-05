@@ -1,80 +1,33 @@
 Validation Log
-2026-03-29 06:44:27.952244
+2026-04-05 06:41:41.739484
 mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006040/mwtab/txt
 Study ID:      ST003679
 Analysis ID:   AN006040
 File format:   txt
 Status: Contains Validation Issues
-Number of Issues: 44
+Number of Issues: 14
 
-Number of Warnings: 11
+Number of Warnings: 12
 
-Number of Value Errors: 10
+Number of Value Errors: 13
 
-Number of Consistency Errors: 2
+Number of Consistency Errors: 0
 
-Number of Format Errors: 31
+Number of Format Errors: 0
 
 Issue Log:
-Error: The required property, "PROJECT_TITLE", in the "PROJECT" section  is missing.
-Error: The required property, "PROJECT_SUMMARY", in the "PROJECT" section  is missing.
-Error: The required property, "INSTITUTE", in the "PROJECT" section  is missing.
-Error: The required property, "LAST_NAME", in the "PROJECT" section  is missing.
-Error: The required property, "FIRST_NAME", in the "PROJECT" section  is missing.
-Error: The required property, "ADDRESS", in the "PROJECT" section  is missing.
-Error: The required property, "EMAIL", in the "PROJECT" section  is missing.
-Error: The required property, "PHONE", in the "PROJECT" section  is missing.
-Error: The required property, "STUDY_TITLE", in the "STUDY" section  is missing.
-Error: The required property, "STUDY_SUMMARY", in the "STUDY" section  is missing.
-Error: The required property, "INSTITUTE", in the "STUDY" section  is missing.
-Error: The required property, "LAST_NAME", in the "STUDY" section  is missing.
-Error: The required property, "FIRST_NAME", in the "STUDY" section  is missing.
-Error: The required property, "ADDRESS", in the "STUDY" section  is missing.
-Error: The required property, "EMAIL", in the "STUDY" section  is missing.
-Error: The required property, "PHONE", in the "STUDY" section  is missing.
-Error: The required property, "SUBJECT_TYPE", in the "SUBJECT" section  is missing.
-Error: The required property, "SUBJECT_SPECIES", in the "SUBJECT" section  is missing.
-Error: The value, "{}", in the "SUBJECT_SAMPLE_FACTORS" section  is not of type "array".
-Error: The required property, "COLLECTION_SUMMARY", in the "COLLECTION" section  is missing.
-Error: The required property, "TREATMENT_SUMMARY", in the "TREATMENT" section  is missing.
-Error: The required property, "SAMPLEPREP_SUMMARY", in the "SAMPLEPREP" section  is missing.
-Error: The required property, "ANALYSIS_TYPE", in the "ANALYSIS" section  is missing.
-Error: The required property, "CHROMATOGRAPHY_TYPE", in the "CHROMATOGRAPHY" section  is missing.
-Error: The required property, "INSTRUMENT_NAME", in the "CHROMATOGRAPHY" section  is missing.
-Error: The required property, "COLUMN_NAME", in the "CHROMATOGRAPHY" section  is missing.
-Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
-Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
-Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
-Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
-Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
-Error: The factors in the METABOLITE_DATA section and SUBJECT_SAMPLE_FACTORS section do not match.
-Error: SUBJECT_SAMPLE_FACTORS section missing sample ID(s). The following IDs were found in the MS_METABOLITE_DATA section but not in the SUBJECT_SAMPLE_FACTORS:
-	"KD_11"
-	"KD_12"
-	"KD_13"
-	"KD_21"
-	"KD_22"
-	"KD_23"
-	"KD_24"
-	"KD_25"
-	"SD_1"
-	"SD_16"
-	"SD_17"
-	"SD_18"
-	"SD_19"
-	"SD_2"
-	"SD_20"
-	"SD_3"
-	"SD_4"
-Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
-Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Error: The value, "200 ÂµL/mL", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "50Â°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "refmet_name" column at position 2 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 9 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
 Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
-Warning: The "pubchem_id" column at position 2 in the METABOLITES table has all null values.
-Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
-Warning: The "kegg_id" column at position 4 in the METABOLITES table has all null values.
-Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
-Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
-Warning: The "ri" column at position 7 in the METABOLITES table has all null values.
-Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
-Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.
+Warning: The "pubchem_id" column at position 3 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 4 in the METABOLITES table has all null values.
+Warning: The "kegg_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 6 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 7 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 8 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 9 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 10 in the METABOLITES table has all null values.

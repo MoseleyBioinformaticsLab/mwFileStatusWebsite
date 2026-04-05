@@ -1,9 +1,94 @@
 Validation Log
-2026-03-29 06:48:42.175513
+2026-04-05 06:46:15.305681
 mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006128/mwtab/json
 Study ID:      ST003735
 Analysis ID:   AN006128
 File format:   json
-Status:Parsing Error
-Unknown file format
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 6
+
+Number of Value Errors: 10
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected in ["PROJECT"]["PHONE"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["STUDY"]["PHONE"]. A legitimate value should be provided for this required key.
+Error: The value, "0.25mL/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Average Mz" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "INCHIKEY" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "INCHIKEY" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     MXHRCPNRJAMMIM-SHYZEUOFBK
+2     GLDQAMYCGOIJDV-UHFFFAOYAE
+3     QWCKQJZIFLGMSD-UHFFFAOYAG
+5     TYEYBOSBBBHJIV-UHFFFAOYAT
+6     GXIURPTVHJPJLF-UHFFFAOYAQ
+7     VOXXWSYKYCBWHO-UHFFFAOYAI
+9     FOGRQMPFHUHIGU-XVFCMESIBZ
+10    IVOMOUWHDPKRLL-HMEJCUHCBO
+11    XTWYTFMLZFPYCI-KQYNXXCUBP
+13    UDMBCSSLTHHNCD-KQYNXXCUBP
+14    ZKHQWZAMYRWXGA-KQYNXXCUBG
+15    QHKABHOOEWYVLI-UHFFFAOYAY
+16    OYIFNHCXNCRBQI-BYPYZUCNBJ
+17    CKLJMWTZIZZHCS-REOHCLBHBW
+18    BDJRBEYXGGNYIS-UHFFFAOYAK
+19    GTZCVFVGUGFEME-IWQZZHSRBS
+20    HNEGQIOMVPPMNR-IHWYPQMZBK
+21    XFTRTWQBIOMVPK-UHFFFAOYAT
+22    UHDGCWIWMRVCDJ-XVFCMESIBD
+23    IERHLVCPSMICTF-XVFCMESIBY
+24    ZWIADYZPOWUWEW-XVFCMESIBF
+25    PCDQPRRSZKQHHS-XVFCMESIBL
+26    KHWCHTKSEGGWEX-RRKCRQDMBS
+27    LTFMZDNNPPEQNG-KVQBGUIXBV
+28    VGONTNSXDCQUGY-RRKCRQDMBC
+29    UFIVEPVSAGBUSI-UHFFFAOYAI
+30    RNBGYGVWRKECFJ-ARQDHWQXBZ
+32    VZCYOOQTPOCHFL-OWOJBTEDBF
+33    XHMJOUIAFHJHBW-VFUOTHLCBT
+35    WHUUTDBJXJRKMK-VKHMYHEABN
+37    YPZRWBKMTBYPTK-BJDJZHNGBD
+40    DHMQDGOQFOQNFH-UHFFFAOYAW
+41    QGWNDRXFNXRZMB-UUOKFMHZBH
+42    RQFCJASXJCIDSX-UUOKFMHZBU
+46    RSTKLPZEZYGQPY-UHFFFAOYAO
+47    UGQMRVRMYYASKQ-KQYNXXCUBA
+48    GRSZFWQUAKGDAV-KQYNXXCUBU
+49    KPGXRSRHYNQIFN-UHFFFAOYAN
+53    VZCYOOQTPOCHFL-UPHRSURJBG
+54    ZIYVHBGGAOATLY-UHFFFAOYAT
+56    OTCCIMWXFLJLIA-BYPYZUCNBM
+57    KSMRODHGGIIXDV-YFKPBYRVBV
+58    WXNXCEHXYPACJF-UHFFFAOYAT
+59    XUYPXLNMDZIRQH-UHFFFAOYAQ
+60    SQVRNKJHWKZAKO-PFQGKNLYBI
+61    BOPGDPNILDQYTO-NNYOXOHSBA
+62    XJLXINKUBYWONI-NNYOXOHSBN
+64    PXQPEWDEAKTCGB-UHFFFAOYAD
+69    KTVPXOYAKDPRHY-AIHAYLRMBX
+70    BTNMPGBKDVTSJY-UHFFFAOYAU
+73    ODHCTXKNWHHXJC-VKHMYHEABY
+74    LCTONWCANYUPML-UHFFFAOYAJ
+75    KTVPXOYAKDPRHY-AIHAYLRMBX
+76    HMFHBZSHGGEWLO-SOOFDHNKBV
+77    MTCFGRXMJLQNBG-REOHCLBHBX
+80    KDYFGRWQOYBRFD-UHFFFAOYAC
+81    AYFVYJQAPQTCCC-GBXIJSLDBG
+82    IQFYYKKMVGJFEH-XLPZGREQBQ
+83    RWQNBRDOKXIBIV-UHFFFAOYAL
+84    GTZCVFVGUGFEME-HNQUOIGGBQ
+87    HLKXYZVTANABHZ-UHFFFAOYAH
+88    DRTQHJPVMGBUCF-XVFCMESIBG
+89    XCCTYIAWTASOJW-XVFCMESIBB
+90    HSCJRCZFDFQWRP-JZMIEXBBBU
+91    LRFVTYWOQMYALW-UHFFFAOYAT
+Warning: The "Adduct type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "adduct". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Average Rt(min)" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Adduct type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

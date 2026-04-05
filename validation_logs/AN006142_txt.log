@@ -1,14 +1,100 @@
 Validation Log
-2026-03-29 06:49:24.280226
+2026-04-05 06:46:56.744025
 mwtab Python Library Version: 2.0.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006142/mwtab/txt
 Study ID:      ST003741
 Analysis ID:   AN006142
 File format:   txt
-Status:Parsing Error
-Traceback (most recent call last):
-  File "/tmp/mwFileStatusWebsite/venv/lib/python3.10/site-packages/mwtab/tokenizer.py", line 104, in tokenizer
-    colon_split = line_items[3].split(":")
-IndexError: list index out of range
-LINE WITH ERROR:
-	'SUBJECT_SAMPLE_FACTORS           \tHuman\tneg'
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 6
+
+Number of Value Errors: 10
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "PROJECT" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection.
+Error: The value, "0.25mL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Average Mz" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "INCHIKEY" column at position 7 in the METABOLITES table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "INCHIKEY" column at position 7 in the METABOLITES table, matches a standard column name, "inchi_key", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     GXIURPTVHJPJLF-UHFFFAOYAQ
+3     BIRSGZKFKXLSJQ-SQOUGZDYBT
+5     GFFGJBXGBJISGV-UHFFFAOYAT
+6     OIRDTQYFTABQOQ-KQYNXXCUBX
+7     XTWYTFMLZFPYCI-KQYNXXCUBP
+9     UDMBCSSLTHHNCD-KQYNXXCUBP
+10    ZKHQWZAMYRWXGA-KQYNXXCUBG
+11    QNAYBMKLOCPYGJ-REOHCLBHBS
+12    ODKSFYDXXFIFQN-BYPYZUCNBA
+14    CKLJMWTZIZZHCS-REOHCLBHBW
+15    BPYKTIZUTYGOLE-IFADSCNNBS
+16    PHIQHXFUZVPYII-UHFFFAOYAT
+18    GTZCVFVGUGFEME-IWQZZHSRBS
+19    RHGKLRLOHDJJDR-UHFFFAOYAQ
+20    DDRJAANPRJIHGJ-UHFFFAOYAV
+21    ZWIADYZPOWUWEW-XVFCMESIBF
+22    IERHLVCPSMICTF-XVFCMESIBY
+23    UFIVEPVSAGBUSI-UHFFFAOYAI
+24    RNBGYGVWRKECFJ-ARQDHWQXBZ
+27    VZCYOOQTPOCHFL-OWOJBTEDBF
+31    WHUUTDBJXJRKMK-VKHMYHEABN
+32    ZDXPYRJPNDTMRX-UHFFFAOYAL
+34    YPZRWBKMTBYPTK-BJDJZHNGBD
+37    UYTPUPDQBNUYGX-UHFFFAOYAE
+38    QGWNDRXFNXRZMB-UUOKFMHZBH
+39    RQFCJASXJCIDSX-UUOKFMHZBU
+42    PLVPPLCLBIEYEA-AATRIKPKBL
+43    RSTKLPZEZYGQPY-UHFFFAOYAO
+44    GRSZFWQUAKGDAV-KQYNXXCUBU
+45    HAEJPQIATWHALX-KQYNXXCUBI
+47    AGPKZVBTJJNPAG-WHFBIAKZBB
+49    ROHFNLRQFUQHCH-YFKPBYRVBU
+50    KDXKERNSBIXSRK-YFKPBYRVBE
+51    NBSCHQHZLSJFNQ-RWOPYEJCBI
+53    FFEARJCKVFRZRR-BYPYZUCNBW
+55    KTHDTJVBEPMMGL-UHFFFAOYAE
+56    OTCCIMWXFLJLIA-BYPYZUCNBM
+57    XUYPXLNMDZIRQH-UHFFFAOYAQ
+58    JJIHLJJYMXLCOY-UHFFFAOYAF
+60    XJLXINKUBYWONI-NNYOXOHSBN
+61    VEYYWZRYIYDQJM-UHFFFAOYAQ
+62    VZXPDPZARILFQX-UHFFFAOYAG
+63    SUHOOTKUPISOBE-UHFFFAOYAT
+65    AHLPHDHHMVZTML-BYPYZUCNBZ
+66    KPGXRSRHYNQIFN-UHFFFAOYAN
+67    GHOKWGTUZJEAQD-ZETCQYMHBS
+68    COLNVLDHVKWLRT-QMMMGPOBBC
+69    DRBBFCLWYRJSJZ-UHFFFAOYAF
+71    HXEACLLIILLPRG-UHFFFAOYAL
+72    ONIBWKKTOPOVIA-BYPYZUCNBZ
+74    ODHCTXKNWHHXJC-VKHMYHEABY
+75    LCTONWCANYUPML-UHFFFAOYAJ
+76    AUNGANRZJHBGPY-SCRDCRAPBG
+77    KTVPXOYAKDPRHY-AIHAYLRMBX
+78    ZJUKTBDSGOFHSH-WFMPWKQPBX
+80    MTCFGRXMJLQNBG-REOHCLBHBX
+81    KDYFGRWQOYBRFD-UHFFFAOYAC
+82    CZMRCDWAGMRECN-UGDNZRGBBE
+83    XOAAWQZATWQOTB-UHFFFAOYAA
+84    JPIJQSOTBSSVTP-STHAYSLIBB
+85    AYFVYJQAPQTCCC-GBXIJSLDBG
+86    IQFYYKKMVGJFEH-XLPZGREQBQ
+87    QIVBCDIJIAJPQS-VIFPVBQEBP
+88    OUYCCCASQSFEME-QMMMGPOBBZ
+89    HLKXYZVTANABHZ-UHFFFAOYAH
+90    DRTQHJPVMGBUCF-XVFCMESIBG
+91    FOGRQMPFHUHIGU-XVFCMESIBZ
+92    XCCTYIAWTASOJW-XVFCMESIBB
+93    HSCJRCZFDFQWRP-JZMIEXBBBU
+94    HSCJRCZFDFQWRP-ABVWGUQPBC
+95    KZSNJWFQEVHDMF-BYPYZUCNBW
+Warning: The "Adduct type" column at position 4 in the METABOLITES table, matches a standard column name, "adduct". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Average Rt(min)" column at position 2 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Adduct type" column at position 4 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
