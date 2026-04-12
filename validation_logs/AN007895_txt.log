@@ -1,0 +1,96 @@
+Validation Log
+2026-04-12 09:32:28.814467
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007895/mwtab/txt
+Study ID:      ST004675
+Analysis ID:   AN007895
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 6
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "16-26g", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "7-9cm", for the subsection, "HEIGHT_OR_HEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['cm', 'in']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "45℃", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "quantified m/z" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 4 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 5 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention index" column at position 2 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention index" column at position 2 in the METABOLITES table, matches a standard column name, "retention_index", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     in raw data
+1     in raw data
+2     in raw data
+3     in raw data
+4     in raw data
+5     in raw data
+6     in raw data
+7     in raw data
+8     in raw data
+9     in raw data
+10    in raw data
+11    in raw data
+12    in raw data
+13    in raw data
+14    in raw data
+15    in raw data
+16    in raw data
+17    in raw data
+18    in raw data
+19    in raw data
+20    in raw data
+21    in raw data
+22    in raw data
+23    in raw data
+24    in raw data
+25    in raw data
+26    in raw data
+27    in raw data
+28    in raw data
+29    in raw data
+30    in raw data
+31    in raw data
+32    in raw data
+33    in raw data
+34    in raw data
+35    in raw data
+36    in raw data
+37    in raw data
+38    in raw data
+39    in raw data
+40    in raw data
+41    in raw data
+42    in raw data
+43    in raw data
+44    in raw data
+45    in raw data
+46    in raw data
+47    in raw data
+48    in raw data
+49    in raw data
+50    in raw data
+51    in raw data
+52    in raw data
+53    in raw data
+54    in raw data
+55    in raw data
+56    in raw data
+57    in raw data
+58    in raw data
+59    in raw data
+60    in raw data
+61    in raw data
+62    in raw data
+63    in raw data
+64    in raw data
+65    in raw data
+66    in raw data
+Warning: The column "retention index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
