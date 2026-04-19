@@ -1,6 +1,6 @@
 Validation Log
-2026-04-12 01:56:44.824029
-mwtab Python Library Version: 2.0.0
+2026-04-19 01:47:13.885574
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000668/mwtab/json
 Study ID:      ST000422
 Analysis ID:   AN000668
@@ -19,7 +19,7 @@ Number of Format Errors: 5
 Issue Log:
 Error: The value, "300°C", in ["MS"]["CAPILLARY_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
 Error: An empty value or a null value was detected in ["MS"]["MS_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
-Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["COLUMN_NAME"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["COLUMN_NAME"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
 Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
 Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.

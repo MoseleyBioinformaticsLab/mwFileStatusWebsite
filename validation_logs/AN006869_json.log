@@ -1,16 +1,16 @@
 Validation Log
-2026-04-12 08:45:03.825007
-mwtab Python Library Version: 2.0.0
+2026-04-19 07:26:00.317614
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006869/mwtab/json
 Study ID:      ST004144
 Analysis ID:   AN006869
 File format:   json
 Status: Contains Validation Issues
-Number of Issues: 69
+Number of Issues: 9
 
-Number of Warnings: 68
+Number of Warnings: 8
 
-Number of Value Errors: 69
+Number of Value Errors: 9
 
 Number of Consistency Errors: 0
 
@@ -889,63 +889,3 @@ Warning: The "Super class" column at position 5 in the ["MS_METABOLITE_DATA"]["M
 Warning: The "Main class" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
 Warning: The "Sub class" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
 Warning: The "Pubchem CID" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
-Warning: The "SB05-001" column at position 97 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-002" column at position 98 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-003" column at position 99 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-004" column at position 100 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-005" column at position 101 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-006" column at position 102 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-007" column at position 103 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-008" column at position 104 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-009" column at position 105 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-010" column at position 106 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-011" column at position 107 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-012" column at position 108 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-013" column at position 109 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-014" column at position 110 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-015" column at position 111 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-016" column at position 112 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-017" column at position 113 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-018" column at position 114 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-019" column at position 115 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-020" column at position 116 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-021" column at position 117 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-022" column at position 118 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-023" column at position 119 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-024" column at position 120 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-025" column at position 121 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-026" column at position 122 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-027" column at position 123 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-028" column at position 124 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-029" column at position 125 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-030" column at position 126 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-031" column at position 127 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-032" column at position 128 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-033" column at position 129 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-034" column at position 130 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-035" column at position 131 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-036" column at position 132 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-037" column at position 133 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-038" column at position 134 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-039" column at position 135 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-040" column at position 136 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-041" column at position 137 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-042" column at position 138 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-043" column at position 139 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-044" column at position 140 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-045" column at position 141 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-076" column at position 142 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-077" column at position 143 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-078" column at position 144 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-079" column at position 145 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-080" column at position 146 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-081" column at position 147 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-082" column at position 148 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-083" column at position 149 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-084" column at position 150 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-085" column at position 151 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-086" column at position 152 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-087" column at position 153 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-088" column at position 154 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-089" column at position 155 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "SB05-090" column at position 156 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

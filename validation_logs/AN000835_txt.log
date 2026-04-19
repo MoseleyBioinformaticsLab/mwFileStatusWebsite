@@ -1,6 +1,6 @@
 Validation Log
-2026-04-12 02:16:30.235600
-mwtab Python Library Version: 2.0.0
+2026-04-19 02:05:14.351296
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000835/mwtab/txt
 Study ID:      ST000547
 Analysis ID:   AN000835
@@ -17,8 +17,8 @@ Number of Consistency Errors: 0
 Number of Format Errors: 1
 
 Issue Log:
-Error: An empty value or a null value was detected for the subsection, "PHONE", in the "PROJECT" section. A legitimate value should be provided for this required subsection.
-Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "PROJECT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: The value, "900 L/h", for the subsection, "DESOLVATION_GAS_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
 Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
 Error: The value, "400 µL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.

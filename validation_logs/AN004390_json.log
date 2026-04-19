@@ -1,16 +1,16 @@
 Validation Log
-2026-04-12 06:08:59.059241
-mwtab Python Library Version: 2.0.0
+2026-04-19 05:21:00.234771
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004390/mwtab/json
 Study ID:      ST002708
 Analysis ID:   AN004390
 File format:   json
 Status: Contains Validation Issues
-Number of Issues: 50
+Number of Issues: 10
 
-Number of Warnings: 48
+Number of Warnings: 8
 
-Number of Value Errors: 50
+Number of Value Errors: 10
 
 Number of Consistency Errors: 0
 
@@ -27,43 +27,3 @@ Warning: The "KEGG" column at position 6 in the ["MS_METABOLITE_DATA"]["Metaboli
 Warning: The "HMDB" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
 Warning: The "retention time" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
 Warning: The "RF80" column at position 33 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
-Warning: The "RF17" column at position 42 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF18" column at position 43 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF21" column at position 44 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF22" column at position 45 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF25" column at position 46 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF26" column at position 47 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF29" column at position 48 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF30" column at position 49 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF33" column at position 50 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF34" column at position 51 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF37" column at position 52 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF38" column at position 53 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF41" column at position 54 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF42" column at position 55 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF45" column at position 56 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF46" column at position 57 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF49" column at position 58 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF50" column at position 59 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF53" column at position 60 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF54" column at position 61 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF57" column at position 62 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF58" column at position 63 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF61" column at position 64 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF62" column at position 65 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF65" column at position 66 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF66" column at position 67 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF69" column at position 68 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF70" column at position 69 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF73" column at position 70 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF74" column at position 71 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF77" column at position 72 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF78" column at position 73 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF84_A" column at position 74 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF84_B" column at position 75 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF84_C" column at position 76 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF84_D" column at position 77 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF84" column at position 78 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF85" column at position 79 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF86_A" column at position 80 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "RF86_B" column at position 81 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

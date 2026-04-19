@@ -1,16 +1,16 @@
 Validation Log
-2026-04-12 07:35:29.402170
-mwtab Python Library Version: 2.0.0
+2026-04-19 06:28:13.803799
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005660/mwtab/txt
 Study ID:      ST003444
 Analysis ID:   AN005660
 File format:   txt
 Status: Contains Validation Issues
-Number of Issues: 112
+Number of Issues: 104
 
-Number of Warnings: 109
+Number of Warnings: 101
 
-Number of Value Errors: 111
+Number of Value Errors: 103
 
 Number of Consistency Errors: 0
 
@@ -122,11 +122,3 @@ Warning: The "210723_SPM_STP_sample-1116" column at position 1065 in the MS_META
 Warning: The "210723_SPM_STP_sample-1120" column at position 1069 in the MS_METABOLITE_DATA table has all null values.
 Warning: The "210723_SPM_STP_sample-1126" column at position 1075 in the MS_METABOLITE_DATA table has all null values.
 Warning: The "210723_SPM_STP_sample-1128" column at position 1077 in the MS_METABOLITE_DATA table has all null values.
-Warning: The "201204_SPM_SonasT3_sample_276" column at position 224 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "201218_SPM_sonasT3-sample_A_380" column at position 378 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "201218_SPM_sonasT3-sample_440" column at position 439 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "210222_SonasT3_544" column at position 507 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "210222_SonasT3_588" column at position 551 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "210306_DIVE_STP_677" column at position 621 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "210312_STP_sonas-T_sample_758" column at position 729 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "210312_STP_sonas-T_sample_759" column at position 730 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

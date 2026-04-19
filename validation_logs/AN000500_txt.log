@@ -1,6 +1,6 @@
 Validation Log
-2026-04-12 01:43:32.048471
-mwtab Python Library Version: 2.0.0
+2026-04-19 01:35:35.306512
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000500/mwtab/txt
 Study ID:      ST000314
 Analysis ID:   AN000500
@@ -17,7 +17,7 @@ Number of Consistency Errors: 0
 Number of Format Errors: 1
 
 Issue Log:
-Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: The value, "3299.5", for the subsection, "OFFSET_FREQUENCY", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm', 'Hz']. Ignore this when more complicated descriptions are required.
 Error: The value, "3.893", for the subsection, "ACQUISITION_TIME", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s']. Ignore this when more complicated descriptions are required.
 Error: The value, "12.0227 ppm, 8.417 Hz", for the subsection, "SPECTRAL_WIDTH", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm', 'Hz']. Ignore this when more complicated descriptions are required.

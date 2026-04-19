@@ -1,16 +1,16 @@
 Validation Log
-2026-04-12 02:58:56.688978
-mwtab Python Library Version: 2.0.0
+2026-04-19 02:36:54.993580
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001459/mwtab/json
 Study ID:      ST000897
 Analysis ID:   AN001459
 File format:   json
 Status: Contains Validation Issues
-Number of Issues: 10
+Number of Issues: 9
 
-Number of Warnings: 4
+Number of Warnings: 3
 
-Number of Value Errors: 4
+Number of Value Errors: 3
 
 Number of Consistency Errors: 0
 
@@ -26,4 +26,3 @@ Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
 Warning: The "CAS" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
 Warning: The "Fiehn_reten_Index" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
 Warning: The column "Fiehn_reten_Index" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
-Warning: The "H29" column at position 38 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

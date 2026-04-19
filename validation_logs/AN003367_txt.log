@@ -1,6 +1,6 @@
 Validation Log
-2026-04-12 04:59:59.307623
-mwtab Python Library Version: 2.0.0
+2026-04-19 04:19:17.576118
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003367/mwtab/txt
 Study ID:      ST002067
 Analysis ID:   AN003367
@@ -17,7 +17,7 @@ Number of Consistency Errors: 0
 Number of Format Errors: 4
 
 Issue Log:
-Error: An empty value or a null value was detected for the "Sample ID" in entry 356 of the "SUBJECT_SAMPLE_FACTORS" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the "Sample ID" in entry 356 of the "SUBJECT_SAMPLE_FACTORS" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 356 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
 Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
 Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.

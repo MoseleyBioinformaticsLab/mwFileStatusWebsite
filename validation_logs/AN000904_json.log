@@ -1,16 +1,16 @@
 Validation Log
-2026-04-12 02:26:42.198379
-mwtab Python Library Version: 2.0.0
+2026-04-19 02:11:36.296636
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000904/mwtab/json
 Study ID:      ST000589
 Analysis ID:   AN000904
 File format:   json
 Status: Contains Validation Issues
-Number of Issues: 21
+Number of Issues: 16
 
-Number of Warnings: 15
+Number of Warnings: 10
 
-Number of Value Errors: 16
+Number of Value Errors: 11
 
 Number of Consistency Errors: 0
 
@@ -30,11 +30,6 @@ Warning: The "CAS" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolit
 Warning: The "retention index" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
 Warning: The column "retention index" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
 Warning: The "4-0C" column at position 4 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
-Warning: The "4-0A" column at position 2 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "4-0B" column at position 3 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "8-0C" column at position 16 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "10-0B" column at position 21 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "13-0B" column at position 30 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
 Warning: The "quantified m/z" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
 Warning: The "PubChem ID" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
 Warning: The "KEGG ID" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

@@ -1,6 +1,6 @@
 Validation Log
-2026-04-12 02:04:10.883116
-mwtab Python Library Version: 2.0.0
+2026-04-19 01:53:35.945540
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000740/mwtab/txt
 Study ID:      ST000475
 Analysis ID:   AN000740
@@ -17,7 +17,7 @@ Number of Consistency Errors: 0
 Number of Format Errors: 5
 
 Issue Log:
-Error: An empty value or a null value was detected for the subsection, "PHONE", in the "PROJECT" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "PROJECT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
 Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
 Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.

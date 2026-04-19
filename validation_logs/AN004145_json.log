@@ -1,16 +1,16 @@
 Validation Log
-2026-04-12 05:55:45.857259
-mwtab Python Library Version: 2.0.0
+2026-04-19 05:07:47.623936
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004145/mwtab/json
 Study ID:      ST002517
 Analysis ID:   AN004145
 File format:   json
 Status: Contains Validation Issues
-Number of Issues: 141
+Number of Issues: 140
 
-Number of Warnings: 136
+Number of Warnings: 135
 
-Number of Value Errors: 138
+Number of Value Errors: 137
 
 Number of Consistency Errors: 2
 
@@ -536,7 +536,6 @@ Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] ta
 Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
 Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
 Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
-Warning: The "Intra_BK_2" column at position 62 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
 Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
 Warning: The "pubchem_id" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
 Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

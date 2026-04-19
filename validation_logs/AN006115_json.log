@@ -1,16 +1,16 @@
 Validation Log
-2026-04-12 08:04:00.094058
-mwtab Python Library Version: 2.0.0
+2026-04-19 06:50:25.535813
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006115/mwtab/json
 Study ID:      ST003728
 Analysis ID:   AN006115
 File format:   json
 Status: Contains Validation Issues
-Number of Issues: 7
+Number of Issues: 3
 
-Number of Warnings: 6
+Number of Warnings: 2
 
-Number of Value Errors: 7
+Number of Value Errors: 3
 
 Number of Consistency Errors: 0
 
@@ -118,7 +118,3 @@ Warning: The "Mass_Transition" column at position 2 in the ["MS_METABOLITE_DATA"
 95    413.1 -&gt; 136.1
 96    413.1 -&gt; 281.2
 97    259.1 -&gt; 113.0
-Warning: The "TS559_rep1-40x" column at position 4 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "TK0008_rep1-40x" column at position 7 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "TS559_rep2-20x" column at position 9 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "TK0008_rep2-20x" column at position 11 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

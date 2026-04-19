@@ -1,6 +1,6 @@
 Validation Log
-2026-04-12 06:10:20.551567
-mwtab Python Library Version: 2.0.0
+2026-04-19 05:22:18.089147
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004407/mwtab/txt
 Study ID:      ST002718
 Analysis ID:   AN004407
@@ -21,7 +21,7 @@ Error: An empty value or a null value was detected for the subsection, "NUM_GROU
 Error: An empty value or a null value was detected for the subsection, "TOTAL_SUBJECTS", in the "STUDY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
 Error: An empty value or a null value was detected for the subsection, "NUM_MALES", in the "STUDY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
 Error: An empty value or a null value was detected for the subsection, "NUM_FEMALES", in the "STUDY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
-Error: An empty value or a null value was detected for the subsection, "SAMPLEPREP_SUMMARY", in the "SAMPLEPREP" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "SAMPLEPREP_SUMMARY", in the "SAMPLEPREP" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: The value, "600 MHZ", for the subsection, "SPECTROMETER_FREQUENCY", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['MHz']. Ignore this when more complicated descriptions are required.
 Error: The value, "24.85", for the subsection, "TEMPERATURE", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.
 Error: The value, "4s", for the subsection, "RELAXATION_DELAY", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s', 'ms', 'us', 'μs']. Ignore this when more complicated descriptions are required.

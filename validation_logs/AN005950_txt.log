@@ -1,16 +1,16 @@
 Validation Log
-2026-04-12 07:53:50.052814
-mwtab Python Library Version: 2.0.0
+2026-04-19 06:42:23.640077
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005950/mwtab/txt
 Study ID:      ST003622
 Analysis ID:   AN005950
 File format:   txt
 Status: Contains Validation Issues
-Number of Issues: 9
+Number of Issues: 6
 
-Number of Warnings: 8
+Number of Warnings: 5
 
-Number of Value Errors: 9
+Number of Value Errors: 6
 
 Number of Consistency Errors: 0
 
@@ -103,6 +103,3 @@ Warning: The "REFMET_ID" column at position 5 in the METABOLITES table, matches 
 84    RM0027240
 85    RM0000954
 Warning: The "RT" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
-Warning: The "IEI_Blank01" column at position 2 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "IEI_Blank02" column at position 3 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "IEI_Blank03" column at position 4 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

@@ -1,6 +1,6 @@
 Validation Log
-2026-04-12 01:18:11.371211
-mwtab Python Library Version: 2.0.0
+2026-04-19 01:15:53.693441
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000151/mwtab/txt
 Study ID:      ST000095
 Analysis ID:   AN000151
@@ -17,7 +17,7 @@ Number of Consistency Errors: 0
 Number of Format Errors: 0
 
 Issue Log:
-Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: The value, "From 11.5 days post coitus to postnatal day 5", for the subsection, "TREATMENT_DOSEDURATION", in the "TREATMENT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['h', 'weeks', 'days']. Ignore this when more complicated descriptions are required.
 Error: The value, "See protocol/methods file", for the subsection, "ION_SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
 Error: The value, "See protocol/methods file", for the subsection, "ION_SPRAY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.

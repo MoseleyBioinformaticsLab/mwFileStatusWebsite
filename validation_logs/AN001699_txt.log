@@ -1,6 +1,6 @@
 Validation Log
-2026-04-12 03:15:41.007275
-mwtab Python Library Version: 2.0.0
+2026-04-19 02:50:52.940937
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001699/mwtab/txt
 Study ID:      ST001038
 Analysis ID:   AN001699
@@ -17,9 +17,9 @@ Number of Consistency Errors: 0
 Number of Format Errors: 1
 
 Issue Log:
-Error: An empty value or a null value was detected for the subsection, "PHONE", in the "PROJECT" section. A legitimate value should be provided for this required subsection.
-Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection.
-Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "PROJECT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: The value, "2.5963e-05 W", for the subsection, "PRESATURATION_POWER_LEVEL", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['W', 'dB']. Ignore this when more complicated descriptions are required.
 Error: The value, "1.817 sec", for the subsection, "ACQUISITION_TIME", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s']. Ignore this when more complicated descriptions are required.
 Error: The value, "4 sec", for the subsection, "RELAXATION_DELAY", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s', 'ms', 'us', 'μs']. Ignore this when more complicated descriptions are required.

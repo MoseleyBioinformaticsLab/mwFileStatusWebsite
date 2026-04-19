@@ -1,6 +1,6 @@
 Validation Log
-2026-04-12 06:44:45.598970
-mwtab Python Library Version: 2.0.0
+2026-04-19 05:51:39.831651
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004946/mwtab/json
 Study ID:      ST003013
 Analysis ID:   AN004946
@@ -17,4 +17,4 @@ Number of Consistency Errors: 0
 Number of Format Errors: 0
 
 Issue Log:
-Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.

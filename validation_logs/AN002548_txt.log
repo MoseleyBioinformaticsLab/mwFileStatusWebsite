@@ -1,16 +1,16 @@
 Validation Log
-2026-04-12 04:09:38.455629
-mwtab Python Library Version: 2.0.0
+2026-04-19 03:33:14.969630
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002548/mwtab/txt
 Study ID:      ST001527
 Analysis ID:   AN002548
 File format:   txt
 Status: Contains Validation Issues
-Number of Issues: 9
+Number of Issues: 7
 
-Number of Warnings: 2
+Number of Warnings: 0
 
-Number of Value Errors: 3
+Number of Value Errors: 1
 
 Number of Consistency Errors: 0
 
@@ -24,5 +24,3 @@ Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" sect
 Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
 Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
 Error: Unknown or invalid section, "FACTORS".
-Warning: The "CDSR00861_01_neg" column at position 2 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "N004_neg" column at position 23 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

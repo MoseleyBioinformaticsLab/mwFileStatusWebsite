@@ -1,9 +1,58 @@
 Validation Log
-2026-04-12 09:26:09.524255
-mwtab Python Library Version: 2.0.0
+2026-04-19 07:56:18.728961
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007728/mwtab/txt
 Study ID:      ST004593
 Analysis ID:   AN007728
 File format:   txt
-Status:Missing/Blank
-Blank input string retrieved from source.
+Status: Contains Validation Issues
+Number of Issues: 14
+
+Number of Warnings: 11
+
+Number of Value Errors: 14
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "8-10 weeks old", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.7 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "OriginalName" column at position 6 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "OGName" column at position 14 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 11 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 10 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Lipidmaps" column at position 16 in the METABOLITES table, matches a standard column name, "lm_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Chebi" column at position 13 in the METABOLITES table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Chebi" column at position 13 in the METABOLITES table, matches a standard column name, "chebi_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1                            chebiId:1148;chebiId:50613
+2                                         chebiId:30915
+3             chebiId:10983;chebiId:17066;chebiId:20067
+5                                         chebiId:18095
+6                           chebiId:13705;chebiId:15344
+7                           chebiId:15570;chebiId:16977
+8                                         chebiId:17196
+9                           chebiId:17364;chebiId:17053
+10                                        chebiId:30769
+11                                         chebiId:2181
+12                                        chebiId:18012
+13    chebiId:4139;chebiId:28061;chebiId:28260;chebi...
+14            chebiId:16015;chebiId:15966;chebiId:18327
+15                          chebiId:17138;chebiId:29052
+16                                        chebiId:32398
+17                                        chebiId:18089
+19                          chebiId:17191;chebiId:15603
+20                chebiId:341;chebiId:42111;chebiId:422
+21                           chebiId:30797;chebiId:6650
+22                                        chebiId:30794
+23                                        chebiId:30860
+25             chebiId:29032;chebiId:46905;chebiId:7916
+26                                        chebiId:17295
+27                          chebiId:16313;chebiId:17203
+28                                        chebiId:15741
+Warning: The "RT" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Method" column at position 17 in the METABOLITES table, matches a standard column name, "ms_method". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Lipidmaps" column at position 16 in the METABOLITES table has all null values.
+Warning: The "myQC_Sum_SBR&gt;5" column at position 20 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

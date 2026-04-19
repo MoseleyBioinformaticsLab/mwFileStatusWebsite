@@ -1,6 +1,6 @@
 Validation Log
-2026-04-12 01:44:17.030455
-mwtab Python Library Version: 2.0.0
+2026-04-19 01:36:20.546262
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000513/mwtab/txt
 Study ID:      ST000322
 Analysis ID:   AN000513
@@ -17,7 +17,7 @@ Number of Consistency Errors: 0
 Number of Format Errors: 0
 
 Issue Log:
-Error: An empty value or a null value was detected for the subsection, "SAMPLEPREP_SUMMARY", in the "SAMPLEPREP" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "SAMPLEPREP_SUMMARY", in the "SAMPLEPREP" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: The value, "3500", for the subsection, "CAPILLARY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
 Error: The value, "8 l/min", for the subsection, "DRY_GAS_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
 Error: The value, "325", for the subsection, "DRY_GAS_TEMP", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
@@ -28,7 +28,7 @@ Error: The value, "Pos", for the subsection, "IONIZATION", in the "MS" section s
 Error: The value, "11 l/min", for the subsection, "DESOLVATION_GAS_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
 Error: The value, "750", for the subsection, "OCTPOLE_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
 Error: The value, "65", for the subsection, "SKIMMER_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
-Error: An empty value or a null value was detected for the subsection, "INSTRUMENT_NAME", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "INSTRUMENT_NAME", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: The value, "3500", for the subsection, "CAPILLARY_VOLTAGE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
 Error: The value, "5 seconds", for the subsection, "WEAK_WASH_VOLUME", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
 Error: The value, "Autosampler temp 4 C", for the subsection, "TARGET_SAMPLE_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.

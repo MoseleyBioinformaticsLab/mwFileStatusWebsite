@@ -1,6 +1,6 @@
 Validation Log
-2026-04-12 01:22:41.311637
-mwtab Python Library Version: 2.0.0
+2026-04-19 01:18:19.075473
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000204/mwtab/txt
 Study ID:      ST000122
 Analysis ID:   AN000204
@@ -17,14 +17,14 @@ Number of Consistency Errors: 2
 Number of Format Errors: 1
 
 Issue Log:
-Error: An empty value or a null value was detected for the subsection, "PROJECT_SUMMARY", in the "PROJECT" section. A legitimate value should be provided for this required subsection.
-Error: An empty value or a null value was detected for the subsection, "ADDRESS", in the "PROJECT" section. A legitimate value should be provided for this required subsection.
-Error: An empty value or a null value was detected for the subsection, "STUDY_SUMMARY", in the "STUDY" section. A legitimate value should be provided for this required subsection.
-Error: An empty value or a null value was detected for the subsection, "ADDRESS", in the "STUDY" section. A legitimate value should be provided for this required subsection.
-Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "PROJECT_SUMMARY", in the "PROJECT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "ADDRESS", in the "PROJECT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "STUDY_SUMMARY", in the "STUDY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "ADDRESS", in the "STUDY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: An empty value or a null value was detected for the subsection, "NUM_GROUPS", in the "STUDY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
-Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection.
-Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: The value, "N2", for the subsection, "COLLISION_GAS", in the "MS" section should be one of "Nitrogen" or "Argon". Ignore this when more complicated descriptions are required.
 Error: The value, "150C", for the subsection, "SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
 Error: The value, "600 L/h", for the subsection, "DESOLVATION_GAS_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.

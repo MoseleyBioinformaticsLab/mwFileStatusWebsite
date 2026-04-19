@@ -1,6 +1,6 @@
 Validation Log
-2026-04-12 01:23:12.178369
-mwtab Python Library Version: 2.0.0
+2026-04-19 01:18:33.328697
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000219/mwtab/txt
 Study ID:      ST000137
 Analysis ID:   AN000219
@@ -23,7 +23,7 @@ Error: The required property, "PHONE", in the "PROJECT" section  is missing.
 Error: The required property, "ADDRESS", in the "STUDY" section  is missing.
 Error: The required property, "PHONE", in the "STUDY" section  is missing.
 Error: The required property, "COLLECTION_SUMMARY", in the "COLLECTION" section  is missing.
-Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: Unknown or invalid section, "CHROMATOGRAPHY".
 Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
 Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

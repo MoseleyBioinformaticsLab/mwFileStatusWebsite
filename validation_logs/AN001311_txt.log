@@ -1,23 +1,23 @@
 Validation Log
-2026-04-12 02:51:24.118313
-mwtab Python Library Version: 2.0.0
+2026-04-19 02:30:39.121157
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001311/mwtab/txt
 Study ID:      ST000825
 Analysis ID:   AN001311
 File format:   txt
 Status: Contains Validation Issues
-Number of Issues: 27
+Number of Issues: 23
 
-Number of Warnings: 16
+Number of Warnings: 12
 
-Number of Value Errors: 23
+Number of Value Errors: 19
 
 Number of Consistency Errors: 0
 
 Number of Format Errors: 3
 
 Issue Log:
-Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: The value, "Medium", for the subsection, "COLLISION_GAS", in the "MS" section should be one of "Nitrogen" or "Argon". Ignore this when more complicated descriptions are required.
 Error: The value, "500Â°C", for the subsection, "ION_SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
 Error: The value, "5500", for the subsection, "ION_SPRAY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
@@ -32,10 +32,6 @@ Warning: The "ri" column at position 7 in the METABOLITES table, matches a stand
 Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
 Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
 Warning: The "PBS_03_plate1701" column at position 280 in the MS_METABOLITE_DATA table has all null values.
-Warning: The "PBS_01_plate1701" column at position 274 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "PBS_02_plate1701" column at position 277 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "PBS_02_plate1702" column at position 278 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "PBS_03_plate1702" column at position 281 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
 Warning: The "pubchem_id" column at position 2 in the METABOLITES table has all null values.
 Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
 Warning: The "kegg_id" column at position 4 in the METABOLITES table has all null values.

@@ -1,30 +1,30 @@
 Validation Log
-2026-04-12 01:09:41.500382
-mwtab Python Library Version: 2.0.0
+2026-04-19 01:09:41.602750
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000031/mwtab/json
 Study ID:      ST000014
 Analysis ID:   AN000031
 File format:   json
 Status: Contains Validation Issues
-Number of Issues: 32
+Number of Issues: 27
 
-Number of Warnings: 19
+Number of Warnings: 14
 
-Number of Value Errors: 25
+Number of Value Errors: 20
 
 Number of Consistency Errors: 0
 
 Number of Format Errors: 5
 
 Issue Log:
-Error: An empty value or a null value was detected in ["PROJECT"]["PROJECT_SUMMARY"]. A legitimate value should be provided for this required key.
-Error: An empty value or a null value was detected in ["PROJECT"]["PHONE"]. A legitimate value should be provided for this required key.
-Error: An empty value or a null value was detected in ["STUDY"]["PHONE"]. A legitimate value should be provided for this required key.
-Error: An empty value or a null value was detected in ["COLLECTION"]["COLLECTION_SUMMARY"]. A legitimate value should be provided for this required key.
-Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key.
-Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLEPREP_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["PROJECT"]["PROJECT_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["PROJECT"]["PHONE"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["STUDY"]["PHONE"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["COLLECTION"]["COLLECTION_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLEPREP_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: An empty value or a null value was detected in ["MS"]["MS_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
-Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["COLUMN_NAME"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["COLUMN_NAME"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
 Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
 Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
@@ -43,11 +43,6 @@ Warning: The "103977" column at position 57 in the ["MS_METABOLITE_DATA"]["Data"
 Warning: The "103992" column at position 60 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
 Warning: The "104106" column at position 64 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
 Warning: The "104230" column at position 70 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
-Warning: The "104049" column at position 47 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "103977" column at position 57 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "103992" column at position 60 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "104106" column at position 64 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "104230" column at position 70 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
 Warning: The "inchi_key" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
 Warning: The "ri_type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
 Warning: The "other_id_type" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

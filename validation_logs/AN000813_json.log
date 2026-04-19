@@ -1,6 +1,6 @@
 Validation Log
-2026-04-12 02:14:59.961435
-mwtab Python Library Version: 2.0.0
+2026-04-19 02:04:11.354753
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000813/mwtab/json
 Study ID:      ST000534
 Analysis ID:   AN000813
@@ -17,7 +17,7 @@ Number of Consistency Errors: 0
 Number of Format Errors: 1
 
 Issue Log:
-Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: The value, "1mM", in ["NM"]["STANDARD_CONCENTRATION"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mM']. Ignore this when more complicated descriptions are required.
 Error: The value, "25.119W", in ["NM"]["POWER_LEVEL"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['W', 'dB']. Ignore this when more complicated descriptions are required.
 Error: The value, "300K", in ["NM"]["TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.

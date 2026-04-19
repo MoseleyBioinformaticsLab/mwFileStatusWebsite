@@ -1,16 +1,16 @@
 Validation Log
-2026-04-12 05:55:17.322584
-mwtab Python Library Version: 2.0.0
+2026-04-19 05:07:16.919104
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004143/mwtab/json
 Study ID:      ST002516
 Analysis ID:   AN004143
 File format:   json
 Status: Contains Validation Issues
-Number of Issues: 599
+Number of Issues: 593
 
-Number of Warnings: 594
+Number of Warnings: 588
 
-Number of Value Errors: 596
+Number of Value Errors: 590
 
 Number of Consistency Errors: 2
 
@@ -2614,12 +2614,6 @@ Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] ta
 Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
 Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
 Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
-Warning: The "2243_0_TP5_3" column at position 19 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "2243_10L_TP4_3" column at position 97 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "AB8_0_TP6_3" column at position 156 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "c_0_TP5_3" column at position 288 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "c_10L_TP4_3" column at position 366 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "c_10L_TP5_3" column at position 369 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
 Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
 Warning: The "pubchem_id" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
 Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

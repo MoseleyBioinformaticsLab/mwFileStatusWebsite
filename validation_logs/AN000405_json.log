@@ -1,6 +1,6 @@
 Validation Log
-2026-04-12 01:33:54.600611
-mwtab Python Library Version: 2.0.0
+2026-04-19 01:27:04.180625
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000405/mwtab/json
 Study ID:      ST000256
 Analysis ID:   AN000405
@@ -26,8 +26,8 @@ Error: The value, "males and females (see study design)", in ["SUBJECT"]["GENDER
 Error: An empty value or a null value was detected in ["SUBJECT"]["HUMAN_MEDICATIONS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
 Error: An empty value or a null value was detected in ["SUBJECT"]["HUMAN_PRESCRIPTION_OTC"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
 Error: An empty value or a null value was detected in ["SUBJECT"]["HUMAN_ALCOHOL_DRUG_USE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
-Error: An empty value or a null value was detected in ["COLLECTION"]["COLLECTION_SUMMARY"]. A legitimate value should be provided for this required key.
-Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLEPREP_SUMMARY"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["COLLECTION"]["COLLECTION_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLEPREP_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: An empty value or a null value was detected in ["SAMPLEPREP"]["EXTRACTION_METHOD"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
 Error: An empty value or a null value was detected in ["SAMPLEPREP"]["EXTRACT_ENRICHMENT"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
 Error: An empty value or a null value was detected in ["SAMPLEPREP"]["EXTRACT_CLEANUP"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
@@ -39,7 +39,7 @@ Error: The value, "5mm", in ["NM"]["TEMPERATURE"] should be a number followed by
 Error: The value in ["NM"]["NUMBER_OF_SCANS"] should be a unitless number. Ignore this when more complicated descriptions are required.
 Error: The value, "saturation at 80 Hz induced field strength", in ["NM"]["ACQUISITION_TIME"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s']. Ignore this when more complicated descriptions are required.
 Error: The value, "5.5ms", in ["NM"]["RELAXATION_DELAY"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s', 'ms', 'us', 'μs']. Ignore this when more complicated descriptions are required.
-Error: An empty value or a null value was detected in ["NMR_METABOLITE_DATA"]["Units"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["NMR_METABOLITE_DATA"]["Units"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: Unknown or invalid section, "CHROMATOGRAPHY".
 Error: The following metabolites in the, ["NMR_METABOLITE_DATA"]["Data"] table were not found in the ["NMR_METABOLITE_DATA"]["Metabolites"] table:
 	"1_6-Anhydro-B-D-glucose"

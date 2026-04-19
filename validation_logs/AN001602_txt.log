@@ -1,16 +1,16 @@
 Validation Log
-2026-04-12 03:08:37.051973
-mwtab Python Library Version: 2.0.0
+2026-04-19 02:45:00.941080
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001602/mwtab/txt
 Study ID:      ST000978
 Analysis ID:   AN001602
 File format:   txt
 Status: Contains Validation Issues
-Number of Issues: 45
+Number of Issues: 36
 
-Number of Warnings: 27
+Number of Warnings: 18
 
-Number of Value Errors: 39
+Number of Value Errors: 30
 
 Number of Consistency Errors: 0
 
@@ -19,7 +19,7 @@ Number of Format Errors: 3
 Issue Log:
 Error: The value, ">30", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
 Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
-Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: The value, "0.736ml/min", for the subsection, "HELIUM_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mL/min']. Ignore this when more complicated descriptions are required.
 Error: The value, "70ev", for the subsection, "IONIZATION_ENERGY", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['eV']. Ignore this when more complicated descriptions are required.
 Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
@@ -52,13 +52,4 @@ Warning: The "294" column at position 292 in the MS_METABOLITE_DATA table has al
 Warning: The "296" column at position 294 in the MS_METABOLITE_DATA table has all null values.
 Warning: The "297" column at position 295 in the MS_METABOLITE_DATA table has all null values.
 Warning: The "312" column at position 310 in the MS_METABOLITE_DATA table has all null values.
-Warning: The "121" column at position 120 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "122" column at position 121 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "143" column at position 142 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "149" column at position 148 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "246" column at position 245 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "294" column at position 292 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "296" column at position 294 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "297" column at position 295 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
-Warning: The "312" column at position 310 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
 Warning: The "quantified m/z" column at position 3 in the METABOLITES table has all null values.

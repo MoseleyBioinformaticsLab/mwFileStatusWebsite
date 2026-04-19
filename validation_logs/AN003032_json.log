@@ -1,16 +1,16 @@
 Validation Log
-2026-04-12 04:38:40.810323
-mwtab Python Library Version: 2.0.0
+2026-04-19 03:59:48.858104
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003032/mwtab/json
 Study ID:      ST001870
 Analysis ID:   AN003032
 File format:   json
 Status: Contains Validation Issues
-Number of Issues: 14
+Number of Issues: 13
 
-Number of Warnings: 7
+Number of Warnings: 6
 
-Number of Value Errors: 7
+Number of Value Errors: 6
 
 Number of Consistency Errors: 1
 
@@ -62,4 +62,3 @@ Warning: The "CAS" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolit
 Warning: The "RI" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
 Warning: The column "RI" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
 Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Data"] table.
-Warning: The "" column at position 32 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

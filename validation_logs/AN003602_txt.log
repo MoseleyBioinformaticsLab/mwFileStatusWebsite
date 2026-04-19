@@ -1,6 +1,6 @@
 Validation Log
-2026-04-12 05:18:13.307526
-mwtab Python Library Version: 2.0.0
+2026-04-19 04:37:44.285227
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003602/mwtab/txt
 Study ID:      ST002200
 Analysis ID:   AN003602
@@ -17,7 +17,7 @@ Number of Consistency Errors: 0
 Number of Format Errors: 5
 
 Issue Log:
-Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
 Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
 Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.

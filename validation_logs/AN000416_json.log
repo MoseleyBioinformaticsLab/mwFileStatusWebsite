@@ -1,6 +1,6 @@
 Validation Log
-2026-04-12 01:34:43.237077
-mwtab Python Library Version: 2.0.0
+2026-04-19 01:27:48.782976
+mwtab Python Library Version: 2.1.0
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000416/mwtab/json
 Study ID:      ST000261
 Analysis ID:   AN000416
@@ -17,10 +17,10 @@ Number of Consistency Errors: 0
 Number of Format Errors: 1
 
 Issue Log:
-Error: An empty value or a null value was detected in ["PROJECT"]["ADDRESS"]. A legitimate value should be provided for this required key.
-Error: An empty value or a null value was detected in ["PROJECT"]["PHONE"]. A legitimate value should be provided for this required key.
-Error: An empty value or a null value was detected in ["STUDY"]["ADDRESS"]. A legitimate value should be provided for this required key.
-Error: An empty value or a null value was detected in ["STUDY"]["PHONE"]. A legitimate value should be provided for this required key.
+Error: An empty value or a null value was detected in ["PROJECT"]["ADDRESS"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["PROJECT"]["PHONE"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["STUDY"]["ADDRESS"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["STUDY"]["PHONE"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
 Error: The value, "600 MHZ", in ["NM"]["SPECTROMETER_FREQUENCY"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['MHz']. Ignore this when more complicated descriptions are required.
 Error: The value, "Deuterium", in ["NM"]["POWER_LEVEL"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['W', 'dB']. Ignore this when more complicated descriptions are required.
 Error: The value, "0.05 mM", in ["NM"]["RECEIVER_GAIN"] should be a unitless number. Ignore this when more complicated descriptions are required.
