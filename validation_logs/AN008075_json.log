@@ -1,0 +1,169 @@
+Validation Log
+2026-05-03 08:06:06.500016
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008075/mwtab/json
+Study ID:      ST004775
+Analysis ID:   AN008075
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 16
+
+Number of Warnings: 8
+
+Number of Value Errors: 16
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "20-49 grams", in ["SUBJECT"]["WEIGHT_OR_WEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "320°C", in ["MS"]["CAPILLARY_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "45 liters per min", in ["MS"]["DRY_GAS_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "320°C", in ["MS"]["DRY_GAS_TEMP"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "-2500 volts", in ["MS"]["ION_SPRAY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "250 µl /minute", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "50", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "50", in ["CHROMATOGRAPHY"]["INJECTION_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Warning: The "Exact mass" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Standardized name" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "refmet". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      RM0097397
+1      RM0036517
+2      RM0036519
+3      RM0103373
+4      RM0135486
+5      RM0135486
+6      RM0040717
+7      RM0134118
+8      RM0122188
+10     RM0185748
+11     RM0134475
+12     RM0106163
+13     RM0017276
+14     RM0134455
+15     RM0134455
+18     RM0073182
+19     RM0139802
+20     RM0170585
+21     RM0134942
+22     RM0135046
+23     RM0090011
+24     RM0011316
+25     RM0000552
+26     RM0000552
+27     RM0000544
+28     RM0011315
+29     RM0000437
+30     RM0134858
+31     RM0090134
+32     RM0090134
+34     RM0104110
+35     RM0134905
+36     RM0106675
+37     RM0098329
+38     RM0135036
+39     RM0171088
+40     RM0090053
+41     RM0014008
+42     RM0134944
+43     RM0171100
+44     RM0024950
+45     RM0171268
+46     RM0134947
+47     RM0170562
+48     RM0134946
+49     RM0134948
+50     RM0171056
+51     RM0171056
+52     RM0000944
+53     RM0134875
+54     RM0036601
+55     RM0103430
+56     RM0182537
+57     RM0095704
+59     RM0011528
+60     RM0134725
+61     RM0134725
+62     RM0055034
+64     RM0134779
+65     RM0134757
+66     RM0134802
+68     RM0134803
+69     RM0054520
+70     RM0008623
+71     RM0011551
+72     RM0011551
+73     RM0001945
+74     RM0001660
+75     RM0098044
+76     RM0134782
+77     RM0001489
+78     RM0001489
+79     RM0024389
+80     RM0008857
+81     RM0008857
+82     RM0104542
+83     RM0104542
+84     RM0098404
+85     RM0134799
+86     RM0007057
+87     RM0001961
+88     RM0134715
+89     RM0054661
+90     RM0001469
+92     RM0043843
+93     RM0043843
+94     RM0054678
+95     RM0054678
+96     RM0001146
+97     RM0054704
+98     RM0001391
+100    RM0135104
+101    RM0097814
+102    RM0097814
+103    RM0105239
+104    RM0008068
+105    RM0011928
+106    RM0012147
+107    RM0135113
+108    RM0023060
+109    RM0023060
+110    RM0023060
+111    RM0134535
+112    RM0134535
+113    RM0056674
+114    RM0138712
+115    RM0056535
+116    RM0134537
+117    RM0134537
+118    RM0134537
+119    RM0057263
+120    RM0056502
+121    RM0096682
+122    RM0027293
+123    RM0027240
+124    RM0013357
+126    RM0134659
+127    RM0058078
+128    RM0134658
+129    RM0047509
+130    RM0047509
+131    RM0134671
+132    RM0105646
+133    RM0105646
+134    RM0134672
+135    RM0057413
+136    RM0058220
+137    RM0057508
+138    RM0013826
+139    RM0105910
+140    RM0134153
+141    RM0134099
+142    RM0134100
+143    RM0134157
+Warning: The "Super class" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Main class" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Sub class" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

@@ -1,0 +1,220 @@
+Validation Log
+2026-05-03 08:06:00.025161
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008074/mwtab/txt
+Study ID:      ST004775
+Analysis ID:   AN008074
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 22
+
+Number of Warnings: 14
+
+Number of Value Errors: 22
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "20-49 grams", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "320°C", for the subsection, "CAPILLARY_TEMPERATURE", in the "MS" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "45 liters per min", for the subsection, "DRY_GAS_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "320°C", for the subsection, "DRY_GAS_TEMP", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "+3600 volts", for the subsection, "ION_SPRAY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "250 µl /minute", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "50", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "50", for the subsection, "INJECTION_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Warning: The "Exact mass" column at position 4 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Standardized name" column at position 2 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 14 in the METABOLITES table, matches a standard column name, "refmet". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 14 in the METABOLITES table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      RM0029559
+1      RM0040717
+2      RM0121226
+3      RM0184846
+4      RM0015503
+6      RM0134350
+7      RM0134377
+8      RM0134377
+9      RM0033544
+10     RM0033544
+11     RM0035365
+12     RM0134369
+13     RM0010356
+14     RM0059921
+15     RM0044103
+16     RM0134083
+17     RM0060558
+19     RM0056435
+20     RM0134475
+21     RM0134475
+22     RM0106163
+23     RM0134455
+24     RM0134455
+25     RM0025459
+26     RM0134906
+27     RM0036783
+28     RM0090089
+29     RM0134841
+30     RM0134841
+32     RM0011317
+33     RM0011317
+34     RM0052166
+35     RM0011313
+36     RM0134891
+37     RM0000544
+38     RM0000568
+39     RM0052169
+40     RM0000437
+41     RM0000437
+42     RM0134843
+43     RM0134858
+44     RM0090134
+45     RM0090134
+46     RM0090134
+47     RM0010728
+48     RM0010728
+49     RM0010728
+50     RM0025463
+51     RM0025463
+52     RM0025463
+53     RM0052177
+54     RM0134901
+55     RM0134901
+56     RM0134894
+57     RM0000877
+58     RM0000877
+59     RM0090132
+60     RM0025422
+61     RM0171088
+62     RM0171088
+63     RM0097853
+64     RM0134818
+65     RM0010754
+66     RM0010754
+67     RM0134944
+68     RM0010761
+69     RM0134821
+70     RM0171049
+71     RM0051707
+72     RM0025534
+73     RM0025534
+74     RM0134865
+75     RM0134865
+76     RM0052185
+77     RM0134900
+78     RM0134845
+79     RM0134844
+80     RM0134820
+81     RM0134946
+82     RM0010755
+83     RM0134823
+84     RM0099478
+85     RM0097851
+86     RM0097851
+87     RM0097851
+88     RM0051748
+89     RM0171051
+90     RM0171051
+91     RM0171250
+92     RM0098366
+93     RM0103428
+94     RM0134847
+95     RM0134875
+96     RM0134817
+97     RM0134824
+98     RM0171053
+99     RM0171090
+100    RM0000567
+101    RM0000569
+102    RM0171089
+103    RM0090187
+104    RM0090187
+105    RM0095704
+106    RM0135672
+107    RM0011528
+108    RM0055034
+109    RM0055034
+110    RM0055038
+111    RM0029366
+112    RM0029366
+113    RM0134757
+114    RM0134757
+115    RM0029374
+116    RM0055036
+117    RM0134702
+118    RM0134782
+119    RM0134744
+120    RM0134765
+121    RM0017454
+122    RM0008898
+123    RM0008898
+124    RM0054420
+125    RM0001619
+126    RM0001619
+127    RM0008899
+128    RM0092661
+129    RM0055077
+130    RM0134715
+131    RM0134767
+132    RM0098699
+133    RM0092655
+134    RM0001469
+135    RM0001469
+136    RM0134795
+137    RM0092660
+138    RM0098698
+139    RM0008718
+140    RM0134796
+141    RM0097814
+142    RM0008296
+143    RM0012147
+144    RM0057160
+145    RM0138712
+146    RM0134522
+147    RM0134523
+148    RM0134523
+149    RM0134537
+150    RM0134523
+151    RM0057263
+152    RM0056502
+153    RM0027240
+154    RM0138711
+155    RM0105646
+156    RM0134671
+157    RM0134672
+158    RM0026316
+159    RM0105910
+160    RM0134153
+161    RM0134099
+162    RM0134100
+163    RM0134157
+164    RM0134155
+165    RM0059426
+166    RM0014300
+167    RM0059116
+170    RM0112934
+173    RM0135025
+174    RM0003411
+175    RM0134320
+176    RM0134321
+177    RM0112573
+178    RM0134322
+179    RM0024220
+180    RM0087242
+181    RM0134295
+182    RM0113224
+183    RM0134235
+184    RM0067984
+185    RM0112841
+Warning: The "Super class" column at position 5 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Main class" column at position 6 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Sub class" column at position 7 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 8 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 8 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "CHEBI_ID" column at position 9 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "HMDB_ID" column at position 10 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "LM_ID" column at position 11 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "KEGG_ID" column at position 12 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "INCHI_KEY" column at position 13 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
