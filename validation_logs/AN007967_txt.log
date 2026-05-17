@@ -1,0 +1,814 @@
+Validation Log
+2026-05-17 07:53:29.407979
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007967/mwtab/txt
+Study ID:      ST004714
+Analysis ID:   AN007967
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 7
+
+Number of Value Errors: 13
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "GENOTYPE_STRAIN", in the "SUBJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "6-18", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Obese children", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "NA", for the subsection, "HEIGHT_OR_HEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['cm', 'in']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "HUMAN_MEDICATIONS", in the "SUBJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "HUMAN_PRESCRIPTION_OTC", in the "SUBJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "50", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 2 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG PATHWAY" column at position 4 in the METABOLITES table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG PATHWAY" column at position 4 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG PATHWAY" column at position 4 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                        ko04979 Cholesterol metabolism
+1                        ko04979 Cholesterol metabolism
+2                        ko04979 Cholesterol metabolism
+3                        ko04979 Cholesterol metabolism
+4                        ko04979 Cholesterol metabolism
+5                        ko04979 Cholesterol metabolism
+6                        ko04979 Cholesterol metabolism
+7                        ko04979 Cholesterol metabolism
+8                        ko04979 Cholesterol metabolism
+9                        ko04979 Cholesterol metabolism
+10                       ko04979 Cholesterol metabolism
+11                     map00600 Sphingolipid metabolism
+12                     map00600 Sphingolipid metabolism
+13                     map00600 Sphingolipid metabolism
+14                     map00600 Sphingolipid metabolism
+15                     map00600 Sphingolipid metabolism
+17                     map00600 Sphingolipid metabolism
+19                     map00600 Sphingolipid metabolism
+20                     map00600 Sphingolipid metabolism
+22                     map00600 Sphingolipid metabolism
+23                     map00600 Sphingolipid metabolism
+24                     map00600 Sphingolipid metabolism
+25                     map00600 Sphingolipid metabolism
+26                     map00600 Sphingolipid metabolism
+27                     map00600 Sphingolipid metabolism
+30                     map00600 Sphingolipid metabolism
+31                     map00561 Glycerolipid metabolism
+32                     map00561 Glycerolipid metabolism
+33                     map00561 Glycerolipid metabolism
+34                     map00561 Glycerolipid metabolism
+35                     map00561 Glycerolipid metabolism
+36                     map00561 Glycerolipid metabolism
+37                     map00561 Glycerolipid metabolism
+38                     map00561 Glycerolipid metabolism
+39                     map00561 Glycerolipid metabolism
+40                     map00561 Glycerolipid metabolism
+41                     map00561 Glycerolipid metabolism
+42                     map00561 Glycerolipid metabolism
+43                     map00561 Glycerolipid metabolism
+44                     map00561 Glycerolipid metabolism
+45                     map00561 Glycerolipid metabolism
+46                     map00561 Glycerolipid metabolism
+47                     map00561 Glycerolipid metabolism
+48                     map00561 Glycerolipid metabolism
+49                     map00561 Glycerolipid metabolism
+50                     map00561 Glycerolipid metabolism
+51                     map00561 Glycerolipid metabolism
+52                     map00561 Glycerolipid metabolism
+53                     map00561 Glycerolipid metabolism
+54                     map00561 Glycerolipid metabolism
+55                     map00600 Sphingolipid metabolism
+56                     map00600 Sphingolipid metabolism
+57                     map00600 Sphingolipid metabolism
+58                     map00600 Sphingolipid metabolism
+59                     map00600 Sphingolipid metabolism
+60                     map00600 Sphingolipid metabolism
+61                     map00600 Sphingolipid metabolism
+62                     map00600 Sphingolipid metabolism
+63                     map00600 Sphingolipid metabolism
+64                     map00600 Sphingolipid metabolism
+65                     map00600 Sphingolipid metabolism
+66                     map00600 Sphingolipid metabolism
+67                     map00600 Sphingolipid metabolism
+68                     map00600 Sphingolipid metabolism
+69                     map00600 Sphingolipid metabolism
+70                     map00600 Sphingolipid metabolism
+71                     map00600 Sphingolipid metabolism
+72                     map00600 Sphingolipid metabolism
+73                     map00600 Sphingolipid metabolism
+74                     map00600 Sphingolipid metabolism
+75                     map00600 Sphingolipid metabolism
+76              map00564 Glycerophospholipid metabolism
+77              map00564 Glycerophospholipid metabolism
+78              map00564 Glycerophospholipid metabolism
+79              map00564 Glycerophospholipid metabolism
+85              map00564 Glycerophospholipid metabolism
+86              map00564 Glycerophospholipid metabolism
+87                     map00600 Sphingolipid metabolism
+88                     map00600 Sphingolipid metabolism
+89                     map00600 Sphingolipid metabolism
+90                     map00600 Sphingolipid metabolism
+91                     map00600 Sphingolipid metabolism
+92                     map00600 Sphingolipid metabolism
+93                     map00600 Sphingolipid metabolism
+94                     map00600 Sphingolipid metabolism
+95                     map00600 Sphingolipid metabolism
+96                     map00600 Sphingolipid metabolism
+97                     map00600 Sphingolipid metabolism
+98                     map00600 Sphingolipid metabolism
+99                     map00561 Glycerolipid metabolism
+100                    map00561 Glycerolipid metabolism
+101                    map00561 Glycerolipid metabolism
+102                    map00561 Glycerolipid metabolism
+103                    map00561 Glycerolipid metabolism
+104                    map00561 Glycerolipid metabolism
+105                    map00561 Glycerolipid metabolism
+106                    map00561 Glycerolipid metabolism
+107                    map00561 Glycerolipid metabolism
+108                    map00561 Glycerolipid metabolism
+109                    map00561 Glycerolipid metabolism
+110                    map00561 Glycerolipid metabolism
+111                    map00561 Glycerolipid metabolism
+112                    map00561 Glycerolipid metabolism
+113                    map00561 Glycerolipid metabolism
+114                    map00561 Glycerolipid metabolism
+115                    map00561 Glycerolipid metabolism
+116                    map00561 Glycerolipid metabolism
+117                    map00561 Glycerolipid metabolism
+118                    map00561 Glycerolipid metabolism
+119                    map00561 Glycerolipid metabolism
+120                    map00561 Glycerolipid metabolism
+121                    map00561 Glycerolipid metabolism
+122                    map00561 Glycerolipid metabolism
+123                    map00561 Glycerolipid metabolism
+124                    map00561 Glycerolipid metabolism
+125                    map00561 Glycerolipid metabolism
+126                    map00561 Glycerolipid metabolism
+127                    map00561 Glycerolipid metabolism
+128                    map00561 Glycerolipid metabolism
+129                    map00561 Glycerolipid metabolism
+130                    map00561 Glycerolipid metabolism
+131                    map00561 Glycerolipid metabolism
+132                    map00561 Glycerolipid metabolism
+133                    map00561 Glycerolipid metabolism
+134                    map00561 Glycerolipid metabolism
+135                    map00561 Glycerolipid metabolism
+136                    map00561 Glycerolipid metabolism
+137                    map00561 Glycerolipid metabolism
+138                    map00561 Glycerolipid metabolism
+139                    map00561 Glycerolipid metabolism
+140                    map00561 Glycerolipid metabolism
+141                    map00561 Glycerolipid metabolism
+142                    map00561 Glycerolipid metabolism
+143                    map00561 Glycerolipid metabolism
+144                    map00561 Glycerolipid metabolism
+145                    map00561 Glycerolipid metabolism
+146                    map00561 Glycerolipid metabolism
+147                    map00561 Glycerolipid metabolism
+148                    map00561 Glycerolipid metabolism
+149                    map00561 Glycerolipid metabolism
+150                    map00561 Glycerolipid metabolism
+151                    map00561 Glycerolipid metabolism
+152                    map00561 Glycerolipid metabolism
+153                    map00561 Glycerolipid metabolism
+154                    map00561 Glycerolipid metabolism
+155                    map00561 Glycerolipid metabolism
+156                    map00561 Glycerolipid metabolism
+157                    map00561 Glycerolipid metabolism
+158                    map00561 Glycerolipid metabolism
+159                    map00561 Glycerolipid metabolism
+160                    map00561 Glycerolipid metabolism
+161                    map00561 Glycerolipid metabolism
+162                    map00561 Glycerolipid metabolism
+163                    map00561 Glycerolipid metabolism
+164                    map00561 Glycerolipid metabolism
+165                    map00561 Glycerolipid metabolism
+166                    map00561 Glycerolipid metabolism
+167                    map00561 Glycerolipid metabolism
+168                    map00561 Glycerolipid metabolism
+169                    map00561 Glycerolipid metabolism
+170                    map00561 Glycerolipid metabolism
+171                    map00561 Glycerolipid metabolism
+172                    map00561 Glycerolipid metabolism
+173                    map00561 Glycerolipid metabolism
+174                    map00561 Glycerolipid metabolism
+175                    map00561 Glycerolipid metabolism
+176                    map00561 Glycerolipid metabolism
+177                    map00561 Glycerolipid metabolism
+178                    map00561 Glycerolipid metabolism
+179                    map00561 Glycerolipid metabolism
+180                    map00561 Glycerolipid metabolism
+181                    map00561 Glycerolipid metabolism
+182                    map00561 Glycerolipid metabolism
+183                    map00561 Glycerolipid metabolism
+184                    map00561 Glycerolipid metabolism
+185                    map00561 Glycerolipid metabolism
+186                    map00561 Glycerolipid metabolism
+187                    map00561 Glycerolipid metabolism
+188                    map00561 Glycerolipid metabolism
+189                    map00561 Glycerolipid metabolism
+190                    map00561 Glycerolipid metabolism
+191                    map00561 Glycerolipid metabolism
+192                    map00561 Glycerolipid metabolism
+193                    map00561 Glycerolipid metabolism
+194                    map00561 Glycerolipid metabolism
+195                    map00561 Glycerolipid metabolism
+196                    map00561 Glycerolipid metabolism
+197                    map00561 Glycerolipid metabolism
+198                    map00561 Glycerolipid metabolism
+199                    map00561 Glycerolipid metabolism
+200                    map00561 Glycerolipid metabolism
+201                    map00561 Glycerolipid metabolism
+202                    map00561 Glycerolipid metabolism
+203                    map00561 Glycerolipid metabolism
+204                    map00561 Glycerolipid metabolism
+205                    map00561 Glycerolipid metabolism
+206                    map00561 Glycerolipid metabolism
+207                    map00561 Glycerolipid metabolism
+208                    map00561 Glycerolipid metabolism
+209                    map00561 Glycerolipid metabolism
+210                    map00561 Glycerolipid metabolism
+211                    map00561 Glycerolipid metabolism
+212                    map00561 Glycerolipid metabolism
+213                    map00561 Glycerolipid metabolism
+214                    map00561 Glycerolipid metabolism
+215                    map00561 Glycerolipid metabolism
+216                    map00561 Glycerolipid metabolism
+217                    map00561 Glycerolipid metabolism
+218                    map00561 Glycerolipid metabolism
+219                    map00561 Glycerolipid metabolism
+220                    map00561 Glycerolipid metabolism
+221                    map00561 Glycerolipid metabolism
+222                    map00561 Glycerolipid metabolism
+223                    map00561 Glycerolipid metabolism
+224                    map00561 Glycerolipid metabolism
+225                    map00561 Glycerolipid metabolism
+226                    map00561 Glycerolipid metabolism
+227                    map00561 Glycerolipid metabolism
+228                    map00561 Glycerolipid metabolism
+229                    map00561 Glycerolipid metabolism
+230                    map00561 Glycerolipid metabolism
+231                    map00561 Glycerolipid metabolism
+232                    map00561 Glycerolipid metabolism
+233                    map00561 Glycerolipid metabolism
+234                    map00561 Glycerolipid metabolism
+235                    map00561 Glycerolipid metabolism
+236                    map00561 Glycerolipid metabolism
+237                    map00561 Glycerolipid metabolism
+238                    map00561 Glycerolipid metabolism
+239                    map00561 Glycerolipid metabolism
+240                    map00561 Glycerolipid metabolism
+241                    map00561 Glycerolipid metabolism
+242                    map00561 Glycerolipid metabolism
+243                    map00561 Glycerolipid metabolism
+244                    map00561 Glycerolipid metabolism
+245                    map00561 Glycerolipid metabolism
+246                    map00561 Glycerolipid metabolism
+247                    map00561 Glycerolipid metabolism
+248                    map00561 Glycerolipid metabolism
+249                    map00561 Glycerolipid metabolism
+250                    map00561 Glycerolipid metabolism
+251                    map00561 Glycerolipid metabolism
+252                    map00561 Glycerolipid metabolism
+253                    map00561 Glycerolipid metabolism
+254                    map00561 Glycerolipid metabolism
+255                    map00561 Glycerolipid metabolism
+256                    map00561 Glycerolipid metabolism
+257                    map00561 Glycerolipid metabolism
+258                    map00561 Glycerolipid metabolism
+259                    map00561 Glycerolipid metabolism
+260                    map00561 Glycerolipid metabolism
+261                    map00561 Glycerolipid metabolism
+262                    map00561 Glycerolipid metabolism
+263                    map00561 Glycerolipid metabolism
+264                    map00561 Glycerolipid metabolism
+265                    map00561 Glycerolipid metabolism
+266                    map00561 Glycerolipid metabolism
+267                    map00561 Glycerolipid metabolism
+268                    map00561 Glycerolipid metabolism
+269                    map00561 Glycerolipid metabolism
+270                    map00561 Glycerolipid metabolism
+271                    map00561 Glycerolipid metabolism
+272                    map00561 Glycerolipid metabolism
+273                    map00561 Glycerolipid metabolism
+274                    map00561 Glycerolipid metabolism
+275                    map00561 Glycerolipid metabolism
+276                    map00561 Glycerolipid metabolism
+277                    map00561 Glycerolipid metabolism
+278                    map00561 Glycerolipid metabolism
+279                    map00561 Glycerolipid metabolism
+280                    map00561 Glycerolipid metabolism
+281                    map00561 Glycerolipid metabolism
+282                    map00561 Glycerolipid metabolism
+283                    map00561 Glycerolipid metabolism
+284                    map00561 Glycerolipid metabolism
+285                    map00561 Glycerolipid metabolism
+286                    map00561 Glycerolipid metabolism
+287                    map00561 Glycerolipid metabolism
+288                    map00561 Glycerolipid metabolism
+289                    map00561 Glycerolipid metabolism
+290                    map00561 Glycerolipid metabolism
+291                    map00561 Glycerolipid metabolism
+292                    map00561 Glycerolipid metabolism
+293                    map00561 Glycerolipid metabolism
+294                    map00561 Glycerolipid metabolism
+295                    map00561 Glycerolipid metabolism
+296                    map00561 Glycerolipid metabolism
+297                    map00561 Glycerolipid metabolism
+298                    map00561 Glycerolipid metabolism
+299                    map00561 Glycerolipid metabolism
+300                    map00561 Glycerolipid metabolism
+301                    map00561 Glycerolipid metabolism
+302                    map00561 Glycerolipid metabolism
+303                    map00561 Glycerolipid metabolism
+304                    map00561 Glycerolipid metabolism
+305                    map00561 Glycerolipid metabolism
+306                    map00561 Glycerolipid metabolism
+307                    map00561 Glycerolipid metabolism
+308                    map00561 Glycerolipid metabolism
+309                    map00561 Glycerolipid metabolism
+310                    map00561 Glycerolipid metabolism
+311                    map00561 Glycerolipid metabolism
+312                    map00561 Glycerolipid metabolism
+313                    map00561 Glycerolipid metabolism
+314                    map00561 Glycerolipid metabolism
+315                    map00561 Glycerolipid metabolism
+316                    map00561 Glycerolipid metabolism
+317                    map00561 Glycerolipid metabolism
+318                    map00561 Glycerolipid metabolism
+319                    map00561 Glycerolipid metabolism
+320                    map00561 Glycerolipid metabolism
+321                    map00561 Glycerolipid metabolism
+322                    map00561 Glycerolipid metabolism
+323                    map00561 Glycerolipid metabolism
+324                    map00561 Glycerolipid metabolism
+325                    map00561 Glycerolipid metabolism
+326                    map00561 Glycerolipid metabolism
+327                    map00561 Glycerolipid metabolism
+328                    map00561 Glycerolipid metabolism
+329                    map00561 Glycerolipid metabolism
+330                    map00561 Glycerolipid metabolism
+331                    map00561 Glycerolipid metabolism
+332                    map00561 Glycerolipid metabolism
+333                    map00561 Glycerolipid metabolism
+334                    map00561 Glycerolipid metabolism
+335                    map00561 Glycerolipid metabolism
+336                    map00561 Glycerolipid metabolism
+337                    map00561 Glycerolipid metabolism
+338                    map00561 Glycerolipid metabolism
+339                    map00561 Glycerolipid metabolism
+340                    map00561 Glycerolipid metabolism
+341                    map00561 Glycerolipid metabolism
+342                    map00561 Glycerolipid metabolism
+343                    map00561 Glycerolipid metabolism
+344                    map00561 Glycerolipid metabolism
+345                    map00561 Glycerolipid metabolism
+346                    map00561 Glycerolipid metabolism
+347                    map00561 Glycerolipid metabolism
+348                    map00561 Glycerolipid metabolism
+349                    map00561 Glycerolipid metabolism
+350                    map00561 Glycerolipid metabolism
+351                    map00561 Glycerolipid metabolism
+352                    map00561 Glycerolipid metabolism
+353                    map00561 Glycerolipid metabolism
+354                    map00561 Glycerolipid metabolism
+355                    map00561 Glycerolipid metabolism
+356                    map00561 Glycerolipid metabolism
+357                    map00561 Glycerolipid metabolism
+358                    map00561 Glycerolipid metabolism
+359                    map00561 Glycerolipid metabolism
+360                    map00561 Glycerolipid metabolism
+361                    map00561 Glycerolipid metabolism
+362                    map00561 Glycerolipid metabolism
+363                    map00561 Glycerolipid metabolism
+364                    map00561 Glycerolipid metabolism
+365                    map00561 Glycerolipid metabolism
+366                    map00561 Glycerolipid metabolism
+367                    map00561 Glycerolipid metabolism
+368                    map00561 Glycerolipid metabolism
+369                    map00561 Glycerolipid metabolism
+370                    map00561 Glycerolipid metabolism
+371                    map00561 Glycerolipid metabolism
+372                    map00561 Glycerolipid metabolism
+373                    map00561 Glycerolipid metabolism
+374                    map00561 Glycerolipid metabolism
+375                    map00561 Glycerolipid metabolism
+376                    map00561 Glycerolipid metabolism
+377                    map00561 Glycerolipid metabolism
+378                    map00561 Glycerolipid metabolism
+379                    map00561 Glycerolipid metabolism
+380                    map00561 Glycerolipid metabolism
+381                    map00561 Glycerolipid metabolism
+382                    map00561 Glycerolipid metabolism
+383                    map00561 Glycerolipid metabolism
+384                    map00561 Glycerolipid metabolism
+385                    map00561 Glycerolipid metabolism
+386                    map00561 Glycerolipid metabolism
+387                    map00561 Glycerolipid metabolism
+388                    map00561 Glycerolipid metabolism
+389                    map00561 Glycerolipid metabolism
+390                    map00561 Glycerolipid metabolism
+391                    map00561 Glycerolipid metabolism
+392                    map00561 Glycerolipid metabolism
+393                    map00561 Glycerolipid metabolism
+394                    map00561 Glycerolipid metabolism
+395                    map00561 Glycerolipid metabolism
+396                    map00561 Glycerolipid metabolism
+397                    map00561 Glycerolipid metabolism
+398                    map00561 Glycerolipid metabolism
+399                    map00561 Glycerolipid metabolism
+400                    map00561 Glycerolipid metabolism
+401                    map00561 Glycerolipid metabolism
+402                    map00561 Glycerolipid metabolism
+403                    map00561 Glycerolipid metabolism
+404                    map00561 Glycerolipid metabolism
+405                    map00561 Glycerolipid metabolism
+406                    map00561 Glycerolipid metabolism
+407                    map00561 Glycerolipid metabolism
+408                    map00561 Glycerolipid metabolism
+409                    map00561 Glycerolipid metabolism
+410                    map00561 Glycerolipid metabolism
+411                    map00561 Glycerolipid metabolism
+412                    map00561 Glycerolipid metabolism
+413                    map00561 Glycerolipid metabolism
+414                    map00561 Glycerolipid metabolism
+415                    map00561 Glycerolipid metabolism
+416                    map00561 Glycerolipid metabolism
+417                    map00561 Glycerolipid metabolism
+418                    map00561 Glycerolipid metabolism
+419                    map00561 Glycerolipid metabolism
+420                    map00561 Glycerolipid metabolism
+421                    map00561 Glycerolipid metabolism
+422                    map00561 Glycerolipid metabolism
+423                    map00561 Glycerolipid metabolism
+424                    map00561 Glycerolipid metabolism
+425                    map00561 Glycerolipid metabolism
+426                    map00561 Glycerolipid metabolism
+427                    map00561 Glycerolipid metabolism
+428                    map00561 Glycerolipid metabolism
+429                    map00561 Glycerolipid metabolism
+430                    map00561 Glycerolipid metabolism
+431                    map00561 Glycerolipid metabolism
+432                    map00561 Glycerolipid metabolism
+433                    map00561 Glycerolipid metabolism
+434                    map00561 Glycerolipid metabolism
+435                    map00561 Glycerolipid metabolism
+436                    map00561 Glycerolipid metabolism
+437                    map00561 Glycerolipid metabolism
+438                    map00561 Glycerolipid metabolism
+439                    map00561 Glycerolipid metabolism
+440                    map00561 Glycerolipid metabolism
+441                    map00561 Glycerolipid metabolism
+442                    map00561 Glycerolipid metabolism
+443                    map00561 Glycerolipid metabolism
+444                    map00561 Glycerolipid metabolism
+445                    map00561 Glycerolipid metabolism
+446                    map00561 Glycerolipid metabolism
+447                    map00561 Glycerolipid metabolism
+448                    map00561 Glycerolipid metabolism
+449                    map00561 Glycerolipid metabolism
+450                    map00561 Glycerolipid metabolism
+451                    map00561 Glycerolipid metabolism
+452                    map00561 Glycerolipid metabolism
+453                    map00561 Glycerolipid metabolism
+454                    map00561 Glycerolipid metabolism
+455                    map00561 Glycerolipid metabolism
+456                    map00561 Glycerolipid metabolism
+457                    map00561 Glycerolipid metabolism
+458                    map00561 Glycerolipid metabolism
+459                    map00561 Glycerolipid metabolism
+460                    map00561 Glycerolipid metabolism
+461                    map00561 Glycerolipid metabolism
+462                    map00561 Glycerolipid metabolism
+463                    map00561 Glycerolipid metabolism
+464                    map00561 Glycerolipid metabolism
+465                    map00561 Glycerolipid metabolism
+466                    map00561 Glycerolipid metabolism
+467                    map00561 Glycerolipid metabolism
+468                    map00561 Glycerolipid metabolism
+469                    map00561 Glycerolipid metabolism
+470                    map00561 Glycerolipid metabolism
+471                    map00561 Glycerolipid metabolism
+472                    map00561 Glycerolipid metabolism
+473                    map00561 Glycerolipid metabolism
+474                    map00561 Glycerolipid metabolism
+475                    map00561 Glycerolipid metabolism
+476                    map00561 Glycerolipid metabolism
+477                    map00561 Glycerolipid metabolism
+478                    map00561 Glycerolipid metabolism
+479                    map00561 Glycerolipid metabolism
+480                    map00561 Glycerolipid metabolism
+481                    map00561 Glycerolipid metabolism
+482                    map00561 Glycerolipid metabolism
+483                    map00561 Glycerolipid metabolism
+484                    map00561 Glycerolipid metabolism
+485                    map00561 Glycerolipid metabolism
+486                    map00561 Glycerolipid metabolism
+487                    map00561 Glycerolipid metabolism
+488                    map00561 Glycerolipid metabolism
+489                    map00561 Glycerolipid metabolism
+490                    map00561 Glycerolipid metabolism
+491                    map00561 Glycerolipid metabolism
+492                    map00561 Glycerolipid metabolism
+493                    map00561 Glycerolipid metabolism
+494                    map00561 Glycerolipid metabolism
+495                    map00561 Glycerolipid metabolism
+496                    map00561 Glycerolipid metabolism
+497                    map00561 Glycerolipid metabolism
+498                    map00561 Glycerolipid metabolism
+499                    map00561 Glycerolipid metabolism
+500                    map00561 Glycerolipid metabolism
+501                    map00561 Glycerolipid metabolism
+502                    map00561 Glycerolipid metabolism
+503                    map00561 Glycerolipid metabolism
+504                    map00561 Glycerolipid metabolism
+505                    map00561 Glycerolipid metabolism
+506                    map00561 Glycerolipid metabolism
+507                    map00561 Glycerolipid metabolism
+508                    map00561 Glycerolipid metabolism
+509                    map00561 Glycerolipid metabolism
+510                    map00561 Glycerolipid metabolism
+511                    map00561 Glycerolipid metabolism
+512                    map00561 Glycerolipid metabolism
+513                    map00561 Glycerolipid metabolism
+514                    map00561 Glycerolipid metabolism
+515                    map00561 Glycerolipid metabolism
+516                    map00561 Glycerolipid metabolism
+517                    map00561 Glycerolipid metabolism
+518                    map00561 Glycerolipid metabolism
+519                    map00561 Glycerolipid metabolism
+520                    map00561 Glycerolipid metabolism
+521                    map00561 Glycerolipid metabolism
+522    map01040 Biosynthesis of unsaturated fatty acids
+523    map01040 Biosynthesis of unsaturated fatty acids
+524    map01040 Biosynthesis of unsaturated fatty acids
+525    map01040 Biosynthesis of unsaturated fatty acids
+526    map01040 Biosynthesis of unsaturated fatty acids
+527    map01040 Biosynthesis of unsaturated fatty acids
+528    map01040 Biosynthesis of unsaturated fatty acids
+529    map01040 Biosynthesis of unsaturated fatty acids
+530    map01040 Biosynthesis of unsaturated fatty acids
+531    map01040 Biosynthesis of unsaturated fatty acids
+532    map01040 Biosynthesis of unsaturated fatty acids
+533    map01040 Biosynthesis of unsaturated fatty acids
+534    map01040 Biosynthesis of unsaturated fatty acids
+535    map01040 Biosynthesis of unsaturated fatty acids
+536    map01040 Biosynthesis of unsaturated fatty acids
+537    map01040 Biosynthesis of unsaturated fatty acids
+538    map01040 Biosynthesis of unsaturated fatty acids
+539    map01040 Biosynthesis of unsaturated fatty acids
+540    map01040 Biosynthesis of unsaturated fatty acids
+541    map01040 Biosynthesis of unsaturated fatty acids
+542             map00564 Glycerophospholipid metabolism
+543             map00564 Glycerophospholipid metabolism
+544             map00564 Glycerophospholipid metabolism
+545             map00564 Glycerophospholipid metabolism
+546             map00564 Glycerophospholipid metabolism
+547             map00564 Glycerophospholipid metabolism
+548             map00564 Glycerophospholipid metabolism
+549             map00564 Glycerophospholipid metabolism
+550             map00564 Glycerophospholipid metabolism
+551             map00564 Glycerophospholipid metabolism
+552             map00564 Glycerophospholipid metabolism
+553             map00564 Glycerophospholipid metabolism
+554             map00564 Glycerophospholipid metabolism
+555             map00564 Glycerophospholipid metabolism
+556             map00564 Glycerophospholipid metabolism
+557             map00564 Glycerophospholipid metabolism
+558             map00564 Glycerophospholipid metabolism
+559             map00564 Glycerophospholipid metabolism
+560             map00564 Glycerophospholipid metabolism
+561             map00564 Glycerophospholipid metabolism
+562             map00564 Glycerophospholipid metabolism
+563             map00564 Glycerophospholipid metabolism
+564             map00564 Glycerophospholipid metabolism
+565             map00564 Glycerophospholipid metabolism
+566             map00564 Glycerophospholipid metabolism
+567             map00564 Glycerophospholipid metabolism
+568             map00564 Glycerophospholipid metabolism
+569             map00564 Glycerophospholipid metabolism
+570             map00564 Glycerophospholipid metabolism
+571             map00564 Glycerophospholipid metabolism
+572             map00564 Glycerophospholipid metabolism
+573             map00564 Glycerophospholipid metabolism
+574             map00564 Glycerophospholipid metabolism
+575             map00564 Glycerophospholipid metabolism
+576             map00564 Glycerophospholipid metabolism
+577             map00564 Glycerophospholipid metabolism
+578             map00564 Glycerophospholipid metabolism
+579             map00564 Glycerophospholipid metabolism
+580             map00564 Glycerophospholipid metabolism
+581             map00564 Glycerophospholipid metabolism
+582             map00564 Glycerophospholipid metabolism
+583                     map00565 Ether lipid metabolism
+584                     map00565 Ether lipid metabolism
+585             map00564 Glycerophospholipid metabolism
+586             map00564 Glycerophospholipid metabolism
+587             map00564 Glycerophospholipid metabolism
+588             map00564 Glycerophospholipid metabolism
+589             map00564 Glycerophospholipid metabolism
+590             map00564 Glycerophospholipid metabolism
+591             map00564 Glycerophospholipid metabolism
+592             map00564 Glycerophospholipid metabolism
+593             map00564 Glycerophospholipid metabolism
+594             map00564 Glycerophospholipid metabolism
+595             map00564 Glycerophospholipid metabolism
+596             map00564 Glycerophospholipid metabolism
+597             map00564 Glycerophospholipid metabolism
+598             map00564 Glycerophospholipid metabolism
+599             map00564 Glycerophospholipid metabolism
+600             map00564 Glycerophospholipid metabolism
+601             map00564 Glycerophospholipid metabolism
+602             map00564 Glycerophospholipid metabolism
+603             map00564 Glycerophospholipid metabolism
+604             map00564 Glycerophospholipid metabolism
+605             map00564 Glycerophospholipid metabolism
+606             map00564 Glycerophospholipid metabolism
+607             map00564 Glycerophospholipid metabolism
+608             map00564 Glycerophospholipid metabolism
+609             map00564 Glycerophospholipid metabolism
+610             map00564 Glycerophospholipid metabolism
+612             map00564 Glycerophospholipid metabolism
+613             map00564 Glycerophospholipid metabolism
+614             map00564 Glycerophospholipid metabolism
+615             map00564 Glycerophospholipid metabolism
+616             map00564 Glycerophospholipid metabolism
+617             map00564 Glycerophospholipid metabolism
+618             map00564 Glycerophospholipid metabolism
+619             map00564 Glycerophospholipid metabolism
+620             map00564 Glycerophospholipid metabolism
+621             map00564 Glycerophospholipid metabolism
+622             map00564 Glycerophospholipid metabolism
+623             map00564 Glycerophospholipid metabolism
+624             map00564 Glycerophospholipid metabolism
+625             map00564 Glycerophospholipid metabolism
+626             map00564 Glycerophospholipid metabolism
+627             map00564 Glycerophospholipid metabolism
+628             map00564 Glycerophospholipid metabolism
+629             map00564 Glycerophospholipid metabolism
+630             map00564 Glycerophospholipid metabolism
+631             map00564 Glycerophospholipid metabolism
+632             map00564 Glycerophospholipid metabolism
+633             map00564 Glycerophospholipid metabolism
+634             map00564 Glycerophospholipid metabolism
+635             map00564 Glycerophospholipid metabolism
+636             map00564 Glycerophospholipid metabolism
+637             map00564 Glycerophospholipid metabolism
+638             map00564 Glycerophospholipid metabolism
+639             map00564 Glycerophospholipid metabolism
+640             map00564 Glycerophospholipid metabolism
+641             map00564 Glycerophospholipid metabolism
+642             map00564 Glycerophospholipid metabolism
+643             map00564 Glycerophospholipid metabolism
+644             map00564 Glycerophospholipid metabolism
+645             map00564 Glycerophospholipid metabolism
+646             map00564 Glycerophospholipid metabolism
+647             map00564 Glycerophospholipid metabolism
+648             map00564 Glycerophospholipid metabolism
+649             map00564 Glycerophospholipid metabolism
+650             map00564 Glycerophospholipid metabolism
+651             map00564 Glycerophospholipid metabolism
+652             map00564 Glycerophospholipid metabolism
+653             map00564 Glycerophospholipid metabolism
+654             map00564 Glycerophospholipid metabolism
+655             map00564 Glycerophospholipid metabolism
+656             map00564 Glycerophospholipid metabolism
+657             map00564 Glycerophospholipid metabolism
+680             map00564 Glycerophospholipid metabolism
+681             map00564 Glycerophospholipid metabolism
+682             map00564 Glycerophospholipid metabolism
+683             map00564 Glycerophospholipid metabolism
+684             map00564 Glycerophospholipid metabolism
+685             map00564 Glycerophospholipid metabolism
+686             map00564 Glycerophospholipid metabolism
+687             map00564 Glycerophospholipid metabolism
+688             map00564 Glycerophospholipid metabolism
+689             map00564 Glycerophospholipid metabolism
+690             map00564 Glycerophospholipid metabolism
+691             map00564 Glycerophospholipid metabolism
+692             map00564 Glycerophospholipid metabolism
+693             map00564 Glycerophospholipid metabolism
+694             map00564 Glycerophospholipid metabolism
+695             map00564 Glycerophospholipid metabolism
+696             map00564 Glycerophospholipid metabolism
+697             map00564 Glycerophospholipid metabolism
+698             map00564 Glycerophospholipid metabolism
+699             map00564 Glycerophospholipid metabolism
+700             map00564 Glycerophospholipid metabolism
+701             map00564 Glycerophospholipid metabolism
+702             map00564 Glycerophospholipid metabolism
+703             map00564 Glycerophospholipid metabolism
+704             map00564 Glycerophospholipid metabolism
+705             map00564 Glycerophospholipid metabolism
+706             map00564 Glycerophospholipid metabolism
+707             map00564 Glycerophospholipid metabolism
+708             map00564 Glycerophospholipid metabolism
+709             map00564 Glycerophospholipid metabolism
+710             map00564 Glycerophospholipid metabolism
+711             map00564 Glycerophospholipid metabolism
+712             map00564 Glycerophospholipid metabolism
+713             map00564 Glycerophospholipid metabolism
+714             map00564 Glycerophospholipid metabolism
+715             map00564 Glycerophospholipid metabolism
+716             map00564 Glycerophospholipid metabolism
+717             map00564 Glycerophospholipid metabolism
+718             map00564 Glycerophospholipid metabolism
+719                     map00565 Ether lipid metabolism
+720                     map00565 Ether lipid metabolism
+721                     map00565 Ether lipid metabolism
+722                     map00565 Ether lipid metabolism
+723                     map00565 Ether lipid metabolism
+724                     map00565 Ether lipid metabolism
+725                     map00565 Ether lipid metabolism
+726                     map00565 Ether lipid metabolism
+727                     map00565 Ether lipid metabolism
+728                     map00565 Ether lipid metabolism
+729                     map00565 Ether lipid metabolism
+730                     map00565 Ether lipid metabolism
+731                     map00565 Ether lipid metabolism
+732                     map00565 Ether lipid metabolism
+733                     map00565 Ether lipid metabolism
+734                     map00565 Ether lipid metabolism
+735                     map00565 Ether lipid metabolism
+736                     map00565 Ether lipid metabolism
+737                     map00565 Ether lipid metabolism
+738                     map00565 Ether lipid metabolism
+739                     map00565 Ether lipid metabolism
+740                     map00565 Ether lipid metabolism
+741                     map00565 Ether lipid metabolism
+742                     map00565 Ether lipid metabolism
+743                     map00565 Ether lipid metabolism
+744                     map00565 Ether lipid metabolism
+745                     map00565 Ether lipid metabolism
+746                     map00565 Ether lipid metabolism
+747                     map00565 Ether lipid metabolism
+748                     map00565 Ether lipid metabolism
+749                     map00565 Ether lipid metabolism
+750                     map00565 Ether lipid metabolism
+751                     map00565 Ether lipid metabolism
+752                     map00565 Ether lipid metabolism
+753                     map00565 Ether lipid metabolism
+754                     map00565 Ether lipid metabolism
+755                     map00565 Ether lipid metabolism
+756                     map00565 Ether lipid metabolism
+757                     map00565 Ether lipid metabolism
+758                     map00565 Ether lipid metabolism
+759                     map00565 Ether lipid metabolism
+760                     map00565 Ether lipid metabolism
+761                     map00565 Ether lipid metabolism
+762                     map00565 Ether lipid metabolism
+763                     map00565 Ether lipid metabolism
+764                     map00565 Ether lipid metabolism
+765                     map00565 Ether lipid metabolism
+766                     map00565 Ether lipid metabolism
+767                     map00565 Ether lipid metabolism
+768                     map00565 Ether lipid metabolism
+769                     map00565 Ether lipid metabolism
+770                     map00565 Ether lipid metabolism
+771                     map00565 Ether lipid metabolism
+772                     map00565 Ether lipid metabolism
+773                     map00565 Ether lipid metabolism
+774                     map00565 Ether lipid metabolism
+775                     map00565 Ether lipid metabolism
+776                     map00565 Ether lipid metabolism
+777                     map00565 Ether lipid metabolism
+778             map00564 Glycerophospholipid metabolism
+779             map00564 Glycerophospholipid metabolism
+780             map00564 Glycerophospholipid metabolism
+781             map00564 Glycerophospholipid metabolism
+782             map00564 Glycerophospholipid metabolism
+783             map00564 Glycerophospholipid metabolism
+784             map00564 Glycerophospholipid metabolism
+786             map00564 Glycerophospholipid metabolism
+787             map00564 Glycerophospholipid metabolism
+788             map00564 Glycerophospholipid metabolism
+789             map00564 Glycerophospholipid metabolism
+790             map00564 Glycerophospholipid metabolism
+791             map00564 Glycerophospholipid metabolism
+792             map00564 Glycerophospholipid metabolism
+794             map00564 Glycerophospholipid metabolism
+795             map00564 Glycerophospholipid metabolism
+796             map00564 Glycerophospholipid metabolism
+797             map00564 Glycerophospholipid metabolism
+798             map00564 Glycerophospholipid metabolism
+799             map00564 Glycerophospholipid metabolism
+800             map00564 Glycerophospholipid metabolism
+801             map00564 Glycerophospholipid metabolism
+802             map00564 Glycerophospholipid metabolism
+804             map00564 Glycerophospholipid metabolism
+805             map00564 Glycerophospholipid metabolism
+806             map00564 Glycerophospholipid metabolism
+807             map00564 Glycerophospholipid metabolism
+808             map00564 Glycerophospholipid metabolism
+809             map00564 Glycerophospholipid metabolism
+810             map00564 Glycerophospholipid metabolism
+811             map00564 Glycerophospholipid metabolism
+813             map00564 Glycerophospholipid metabolism
+814             map00564 Glycerophospholipid metabolism
+815             map00564 Glycerophospholipid metabolism
+816             map00564 Glycerophospholipid metabolism
+Warning: The "retention index" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "retention index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
+Warning: The column, "KEGG PATHWAY", in the METABOLITES table was matched to multiple standard names, ['pathway', 'kegg_id']. This is a good indication that the values in that column should be split into the appropriate individual columns.

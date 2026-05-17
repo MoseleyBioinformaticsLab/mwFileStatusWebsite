@@ -1,0 +1,335 @@
+Validation Log
+2026-05-17 07:53:35.212401
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007968/mwtab/json
+Study ID:      ST004715
+Analysis ID:   AN007968
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 6
+
+Number of Warnings: 5
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "50", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_PATHWAY" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_PATHWAY" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_PATHWAY" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                                      Purine Metabolism
+1                                      Purine Metabolism
+2                                      Purine Metabolism
+3        map00760 Nicotinate and nicotinamide metabolism
+4                                   Glutamate metabolism
+5      Fatty acid metabolism, Medium-Chain Fatty Acid...
+6      Fatty acid metabolism, Medium-Chain Fatty Acid...
+7                                  Nicotinate metabolism
+8      Fatty acid metabolism, Medium-Chain Fatty Acid...
+9                                      Purine Metabolism
+10              map00330 Arginine and proline metabolism
+11     Lysine metabolism, Potential marker of Diabeti...
+12     Glutamate metabolism, Lactam cyclization produ...
+13                       Arginine and Proline Metabolism
+14                           map00310 Lysine degradation
+15                                   Tyrosine Metabolism
+16                         map00340 Histidine metabolism
+17              map00330 Arginine and proline metabolism
+18              map00330 Arginine and proline metabolism
+19                           map00310 Lysine degradation
+20           map00270 Cysteine and methionine metabolism
+21                          map00730 Thiamine metabolism
+22                        map00380 Tryptophan metabolism
+23                                     Purine Metabolism
+24                          map00790 Folate biosynthesis
+25                            map00230 Purine metabolism
+26     Fatty acid metabolism, Short-chain acylcarniti...
+27                                   Arginine metabolism
+28     map00270 Cysteine and methionine metabolism;ma...
+29     Fatty acid metabolism, Long-chain acylcarnitin...
+30     Fatty acid metabolism, Long-chain acylcarnitin...
+31                                             Dipeptide
+32                                             Dipeptide
+33                                             Dipeptide
+34                                             Dipeptide
+35     map00260 Glycine, serine and threonine metabolism
+36         map00860 Porphyrin and chlorophyll metabolism
+37         map00860 Porphyrin and chlorophyll metabolism
+38         map00860 Porphyrin and chlorophyll metabolism
+39         map00860 Porphyrin and chlorophyll metabolism
+40                            map00780 Biotin metabolism
+41     Fatty acid metabolism, Short-chain acylcarniti...
+42     Fatty acid metabolism, Short-chain acylcarniti...
+43     Fatty acid metabolism; Long-chain acylcarnitin...
+44     map00260 Glycine, serine and threonine metabolism
+45                        map00220 Arginine biosynthesis
+46                 map00140 Steroid hormone biosynthesis
+47     Human Chemical Exposome, Smoking, Nicotine Met...
+48     map00260 Glycine, serine and threonine metabolism
+49                        map00240 Pyrimidine metabolism
+50                        map00240 Pyrimidine metabolism
+51     Human Chemical Exposome, Plastic chemical, Pol...
+52     Fatty acid metabolism, Medium-chain acylcarnit...
+53     Fatty acid metabolism, Medium-chain acylcarnit...
+54     Fatty acid metabolism, Medium-chain acylcarnit...
+55     Fatty acid metabolism, Medium-chain acylcarnit...
+56     Fatty acid metabolism, Medium-chain acylcarnit...
+57            Human Chemical Exposome, Food Preservative
+58     Pyrimidine Metabolism, intermediate breakdown ...
+59     Human Chemical Exposome, Plastic chemical, Pol...
+60     Fatty acid metabolism, Medium-chain acylcarnit...
+61     Fatty acid metabolism, Long-chain acylcarnitin...
+62     Fatty acid metabolism, Long-chain acylcarnitin...
+63                                             Dipeptide
+64                                             Dipeptide
+65                                             Dipeptide
+66                                             Dipeptide
+67                                             Dipeptide
+68                                             Dipeptide
+69                                             Dipeptide
+70                                             Dipeptide
+71                                             Dipeptide
+72                                             Dipeptide
+73                                             Dipeptide
+74                                             Dipeptide
+75                                             Dipeptide
+76                                             Dipeptide
+77     Fatty acid metabolism, Short-chain acylcarniti...
+78                                             Dipeptide
+79                                             Dipeptide
+80                                             Dipeptide
+81                                             Dipeptide
+82               map00564 Glycerophospholipid metabolism
+83         map00860 Porphyrin and chlorophyll metabolism
+84     Human Chemical Exposome, Plastic chemical, Pol...
+85     Fatty acid metabolism, Long-chain acylcarnitin...
+86     Fatty acid metabolism, Long-chain acylcarnitin...
+87     Fatty acid metabolism, Short-chain acylcarniti...
+88     Fatty acid metabolism, Short-chain acylcarniti...
+89                                             Dipeptide
+90                                   Arginine metabolism
+91     Human Chemical Exposome, Food Additives and In...
+92     Oligopeptide, Short polypeptide cleaved from f...
+93     Oligopeptide, Fibrinogen oligopeptide degradation
+94     Fatty acid metabolism, Short-chain acylcarniti...
+95     Human Chemical Exposome, Smoking, Nicotine Met...
+96     Fatty acid metabolism, Short-chain acylcarniti...
+97     Fatty acid metabolism, Long-chain acylcarnitin...
+98     Fatty acid metabolism, Long-chain acylcarnitin...
+99                                             Dipeptide
+100                                            Dipeptide
+101                                            Dipeptide
+102                                            Dipeptide
+103                                            Dipeptide
+104                                            Dipeptide
+105                                            Dipeptide
+106                                Tryptophan metabolism
+107                       map00380 Tryptophan metabolism
+108                           map00230 Purine metabolism
+109    Fatty acid metabolism, Short-chain acylcarniti...
+110    Fatty acid metabolism, Short-chain acylcarniti...
+111                          map04931 Insulin resistance
+112    map00250 Alanine, aspartate and glutamate meta...
+113                               map04714 Thermogenesis
+114    map00280 Valine, leucine and isoleucine degrad...
+115                       map00380 Tryptophan metabolism
+116    map00280 Valine, leucine and isoleucine degrad...
+117                         map00300 Lysine biosynthesis
+118    Endogenous N-acyl amide, N-acylathanolamine, E...
+119                                            Dipeptide
+120                                            Dipeptide
+121                                            Dipeptide
+122      Endogenous N-acyl amide, Fatty amide metabolism
+123    Fatty acid metabolism, Long-chain acylcarnitin...
+124    Endogenous N-acyl amide, N-acylathanolamine, E...
+125    Fatty acid metabolism, Long-chain acylcarnitin...
+126              map00564 Glycerophospholipid metabolism
+127              map00564 Glycerophospholipid metabolism
+128              map00564 Glycerophospholipid metabolism
+129              map00564 Glycerophospholipid metabolism
+130              map00564 Glycerophospholipid metabolism
+131              map00564 Glycerophospholipid metabolism
+132              map00564 Glycerophospholipid metabolism
+133              map00564 Glycerophospholipid metabolism
+134              map00564 Glycerophospholipid metabolism
+135              map00564 Glycerophospholipid metabolism
+136              map00564 Glycerophospholipid metabolism
+137              map00564 Glycerophospholipid metabolism
+138              map00564 Glycerophospholipid metabolism
+139                       Glycerophospholipid metabolism
+140              map00564 Glycerophospholipid metabolism
+141              map00564 Glycerophospholipid metabolism
+142              map00564 Glycerophospholipid metabolism
+143              map00564 Glycerophospholipid metabolism
+144                       Glycerophospholipid metabolism
+145              map00564 Glycerophospholipid metabolism
+146                       Glycerophospholipid metabolism
+147              map00564 Glycerophospholipid metabolism
+148              map00564 Glycerophospholipid metabolism
+149                       Glycerophospholipid metabolism
+150              map00564 Glycerophospholipid metabolism
+151                       Glycerophospholipid metabolism
+152              map00564 Glycerophospholipid metabolism
+153                      map00565 Ether lipid metabolism
+154              map00564 Glycerophospholipid metabolism
+155              map00564 Glycerophospholipid metabolism
+156              map00564 Glycerophospholipid metabolism
+157              map00564 Glycerophospholipid metabolism
+158              map00564 Glycerophospholipid metabolism
+159              map00564 Glycerophospholipid metabolism
+160              map00564 Glycerophospholipid metabolism
+161              map00564 Glycerophospholipid metabolism
+162              map00564 Glycerophospholipid metabolism
+163              map00564 Glycerophospholipid metabolism
+164              map00564 Glycerophospholipid metabolism
+165              map00564 Glycerophospholipid metabolism
+166              map00564 Glycerophospholipid metabolism
+167              map00564 Glycerophospholipid metabolism
+168              map00564 Glycerophospholipid metabolism
+169                       Glycerophospholipid metabolism
+170                       Glycerophospholipid metabolism
+171                       Glycerophospholipid metabolism
+172                       Glycerophospholipid metabolism
+173                       Glycerophospholipid metabolism
+174                       Glycerophospholipid metabolism
+175                       Glycerophospholipid metabolism
+176                       Glycerophospholipid metabolism
+177                       Glycerophospholipid metabolism
+178                       Glycerophospholipid metabolism
+179                       Glycerophospholipid metabolism
+180                       Glycerophospholipid metabolism
+181                       Glycerophospholipid metabolism
+182                       Glycerophospholipid metabolism
+183                       Glycerophospholipid metabolism
+184                       Glycerophospholipid metabolism
+185                       Glycerophospholipid metabolism
+186                       Glycerophospholipid metabolism
+187                       Glycerophospholipid metabolism
+188                       Glycerophospholipid metabolism
+189                       Glycerophospholipid metabolism
+190                                              Unknown
+191                                              Unknown
+192                                              Unknown
+193                                              Unknown
+194                                              Unknown
+195                                              Unknown
+196                                              Unknown
+197                                              Unknown
+198                                              Unknown
+199                                              Unknown
+200                                              Unknown
+201                                              Unknown
+202                                              Unknown
+203                                              Unknown
+204                                              Unknown
+205                                              Unknown
+206                                              Unknown
+207                                              Unknown
+208                                              Unknown
+209                                              Unknown
+210                                              Unknown
+211                                              Unknown
+212    Methionine, Cysteine, S-Adenosylmethionine and...
+213    Fatty acid metabolism, Short-chain acylcarniti...
+214                        map00340 Histidine metabolism
+215                                Spermidine catabolism
+216                                  Arginine metabolism
+217                    map00360 Phenylalanine metabolism
+218    map00250 Alanine, aspartate and glutamate meta...
+219                       map00220 Arginine biosynthesis
+220                                 Glutamate metabolism
+221                                 Histidine metabolism
+222            Leucine, Isoleucine and Valine Metabolism
+223                       map00220 Arginine biosynthesis
+224             map00330 Arginine and proline metabolism
+225                                Tryptophan Metabolism
+226                                  Tyrosine metabolism
+227                                            Dipeptide
+228                              Glycosylated amino acid
+229                              Glycosylated amino acid
+230                              Glycosylated amino acid
+231                              Glycosylated amino acid
+232                              Glycosylated amino acid
+233              Human Chemical Exposome, Other chemical
+234                                    Lysine metabolism
+235                                    Lysine metabolism
+236    Lysine metabolism, Trimethyllysine metabolite ...
+237    Arginine and Proline Metabolism, Potential mar...
+238                                 Polyamine metabolism
+239                                    Purine Metabolism
+240                                    Purine Metabolism
+241                          map00310 Lysine degradation
+242                                    Purine Metabolism
+243                          map00310 Lysine degradation
+244      map00760 Nicotinate and nicotinamide metabolism
+245    Fatty acid metabolism, Medium-chain acylcarnit...
+246      Endogenous N-acyl amide, Fatty amide metabolism
+247    Human Chemical Exposome, Plastic chemical, Pol...
+248    Fatty acid metabolism, Medium-chain acylcarnit...
+249    Fatty acid metabolism, Medium-chain acylcarnit...
+250    Fatty acid metabolism, Medium-chain acylcarnit...
+251      Endogenous N-acyl amide, Fatty amide metabolism
+252    Fatty acid metabolism, Long-chain acylcarnitin...
+253                       map00220 Arginine biosynthesis
+254      Endogenous N-acyl amide, Fatty amide metabolism
+255    Fatty acid metabolism, Long-chain acylcarnitin...
+256    Endogenous N-acyl amide, N-acylathanolamine, m...
+257           map00770 Pantothenate and CoA biosynthesis
+258                                            Dipeptide
+259                                            Dipeptide
+260                                            Dipeptide
+261                                            Dipeptide
+262            Endogenous N-acyl amide, Acylated glycine
+263                     map00600 Sphingolipid metabolism
+264    Human Chemical Exposome, Food Additives and In...
+265                                            Dipeptide
+266                                   Proline metabolism
+267    Human Chemical Exposome, Food Additives and In...
+268    Fatty acid metabolism, Short-chain acylcarniti...
+269                      map00480 Glutathione metabolism
+270                                 Glutamate metabolism
+271                       map00380 Tryptophan metabolism
+272    Methionine, Cysteine, S-Adenosylmethionine and...
+273                                            Dipeptide
+274                                            Dipeptide
+275                                            Dipeptide
+276                       map00380 Tryptophan metabolism
+277             map00330 Arginine and proline metabolism
+278             map00330 Arginine and proline metabolism
+279                     map00600 Sphingolipid metabolism
+280                     map00600 Sphingolipid metabolism
+281                     map00600 Sphingolipid metabolism
+282                     map00600 Sphingolipid metabolism
+283    Fatty acid metabolism, Long-chain acylcarnitin...
+284    Endogenous N-acyl amide, N-acylathanolamine, E...
+285    Fatty acid metabolism, Short-chain acylcarniti...
+286    Fatty acid metabolism, Medium-chain acylcarnit...
+287    Fatty acid metabolism, Medium-chain acylcarnit...
+288    Human Chemical Exposome, Plastic chemical, Pol...
+289    Fatty acid metabolism, Medium-chain acylcarnit...
+290    Fatty acid metabolism, Long-chain acylcarnitin...
+291    Human Chemical Exposome, Plastic chemical, Pol...
+292    Fatty acid metabolism, Short-chain acylcarniti...
+293    Fatty acid metabolism, Medium-chain acylcarnit...
+294      map00760 Nicotinate and nicotinamide metabolism
+295                          map00680 Methane metabolism
+296                                            Dipeptide
+297                       map00380 Tryptophan metabolism
+298                Potential marker of Renal dysfunction
+299                                Tryptophan Metabolism
+300                                            Dipeptide
+301    Fatty acid metabolism, Medium-chain acylcarnit...
+302                       map00240 Pyrimidine metabolism
+303                       map00220 Arginine biosynthesis
+304                           map00230 Purine metabolism
+305                       map00240 Pyrimidine metabolism
+306                        map00340 Histidine metabolism
+307                                            Dipeptide
+308                                            Dipeptide
+309    Fatty acid metabolism, Short-chain acylcarniti...
+Warning: The column, "KEGG_PATHWAY", in the ["MS_METABOLITE_DATA"]["Metabolites"] table was matched to multiple standard names, ['pathway', 'kegg_id']. This is a good indication that the values in that column should be split into the appropriate individual columns.

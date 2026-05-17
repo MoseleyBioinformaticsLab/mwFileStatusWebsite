@@ -1,0 +1,123 @@
+Validation Log
+2026-05-17 07:58:10.732050
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008187/mwtab/json
+Study ID:      ST004836
+Analysis ID:   AN008187
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 14
+
+Number of Warnings: 8
+
+Number of Value Errors: 14
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "450", in ["MS"]["ION_SOURCE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "5.5kv", in ["MS"]["ION_SPRAY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "80v", in ["MS"]["IONIZATION_ENERGY"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['eV']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.2mL/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "35", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "5ul", in ["CHROMATOGRAPHY"]["SAMPLE_INJECTION"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Warning: The "Exact mass" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Standardized name" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "refmet". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      RM0154013
+1      RM0153848
+2      RM0153934
+3      RM0153850
+4      RM0153915
+5      RM0154009
+6      RM0153847
+11     RM0013441
+12     RM0135644
+13     RM0135708
+14     RM0135709
+15     RM0134017
+16     RM0135710
+17     RM0138765
+18     RM0016397
+19     RM0010684
+20     RM0003152
+21     RM0135711
+22     RM0161424
+23     RM0009616
+24     RM0125977
+25     RM0125977
+26     RM0135712
+27     RM0030821
+28     RM0003180
+29     RM0000510
+61     RM0134377
+62     RM0034278
+63     RM0034815
+65     RM0035650
+68     RM0033861
+114    RM0175214
+115    RM0175217
+118    RM0175222
+119    RM0175224
+120    RM0175229
+121    RM0175235
+128    RM0175346
+130    RM0162066
+131    RM0201075
+133    RM0162160
+134    RM0117147
+135    RM0175353
+140    RM0162170
+141    RM0133959
+148    RM0175370
+149    RM0117148
+150    RM0175379
+151    RM0175380
+152    RM0117141
+156    RM0162087
+157    RM0201078
+158    RM0162222
+160    RM0175570
+162    RM0175699
+163    RM0117139
+164    RM0134270
+165    RM0117145
+166    RM0162263
+174    RM0162357
+175    RM0117156
+176    RM0117203
+177    RM0175757
+181    RM0117167
+182    RM0117164
+183    RM0162431
+184    RM0133975
+185    RM0134263
+186    RM0175775
+187    RM0175776
+188    RM0175776
+189    RM0117221
+190    RM0117214
+191    RM0117207
+192    RM0175780
+193    RM0175781
+194    RM0175782
+219    RM0117154
+220    RM0117168
+221    RM0117165
+222    RM0176048
+233    RM0162435
+235    RM0028568
+237    RM0117216
+238    RM0176383
+239    RM0176384
+249    RM0028562
+250    RM0117210
+251    RM0117208
+252    RM0176502
+Warning: The "Super class" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Main class" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Sub class" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
