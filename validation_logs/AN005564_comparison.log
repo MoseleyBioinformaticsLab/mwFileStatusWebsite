@@ -1,17 +1,17 @@
 Comparison Log
-2026-05-17 06:12:34.664367
+2026-05-24 06:22:05.834964
 mwtab Python Library Version: 2.1.1
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005564/mwtab/...
 Study ID:    ST003390
 Analysis ID: AN005564
 Status:      Inconsistent
 
-Sections "COLLECTION" contain missmatched items: {'COLLECTION_METHOD': ['Fasting blood samples were collected in the additive-free sterile glass and stand at room temprature for 1h. Then, serum samples were obtained by centrifugation at 3500rpm under 4 â\x84\x83 for 15min and dispensed into ep tubes, storing at -80 â\x84\x83 until analysis.', 'Fasting blood samples were collected in the additive-free sterile glass and stand at room temprature for 1h. Then, serum samples were obtained by centrifugation at 3500rpm under 4 ℃ for 15min and dispensed into ep tubes, storing at -80 ℃ until analysis.'], 'STORAGE_CONDITIONS': ['-80â\x84\x83', '-80℃']}
 Sections "MS" contain missmatched items: {'INSTRUMENT_NAME': ['ABI Sciex 5500 QTrap', 'new'], 'INSTRUMENT_TYPE': ['Triple quadrupole', 'QTRAP'], 'MS_COMMENTS': ['The metabolites were ionized by a TurboVTM heated electrospray ionization source and scheduled MRM was conducted in both positive and negative modes. Polarity switching (for MRM) was used and detail information for instrument setting parameters was shown in the uploaded file. The optimal parameters of mass spectrometer were as follows: curtain gas, 35 psi; ion source gas 1, 50 psi; ion source gas 2, 50 psi; CE in negative mode, -4.5 kV; CE in positive mode, 5.5kV; ion source temperature 550 â\x84\x83. The mass chromatogram peaks of metabolites were extracted and integrated using the in-house software OS (AB Sciex, Singapore). Each peak was automatically identified based on the retention time and MRM parameters of standards, with an overall afterward manual check. And the quantitative results for metabolites were calculated by correcting with isotopically labelled internal standards. The wiff file provided includes all the samples in the batch. The sample names and sample ID are consistent.', '-']}
+Sections "CHROMATOGRAPHY" contain missmatched keys: ['METHODS_FILENAME']
+Sections "COLLECTION" contain missmatched items: {'COLLECTION_METHOD': ['Fasting blood samples were collected in the additive-free sterile glass and stand at room temprature for 1h. Then, serum samples were obtained by centrifugation at 3500rpm under 4 â\x84\x83 for 15min and dispensed into ep tubes, storing at -80 â\x84\x83 until analysis.', 'Fasting blood samples were collected in the additive-free sterile glass and stand at room temprature for 1h. Then, serum samples were obtained by centrifugation at 3500rpm under 4 ℃ for 15min and dispensed into ep tubes, storing at -80 ℃ until analysis.'], 'STORAGE_CONDITIONS': ['-80â\x84\x83', '-80℃']}
+Sections "STUDY" contain missmatched keys: ['TOTAL_SUBJECTS', 'NUM_GROUPS', 'NUM_MALES', 'SUBMIT_DATE', 'NUM_FEMALES']
 Sections "SAMPLEPREP" contain missmatched keys: ['SAMPLEPREP_PROTOCOL_FILENAME']
 Sections "PROJECT" contain missmatched keys: ['DOI']
-Sections "STUDY" contain missmatched keys: ['NUM_GROUPS', 'NUM_FEMALES', 'TOTAL_SUBJECTS', 'SUBMIT_DATE', 'NUM_MALES']
-Sections "CHROMATOGRAPHY" contain missmatched keys: ['METHODS_FILENAME']
 mwTab files contain different 'SUBJECT_SAMPLE_FACTORS' sections.
 'Metabolites' section of 'MS_METABOLITE_DATA' block do not match.
 'Data' section of 'MS_METABOLITE_DATA' block do not match.

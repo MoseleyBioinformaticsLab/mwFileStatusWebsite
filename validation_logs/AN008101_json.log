@@ -1,0 +1,82 @@
+Validation Log
+2026-05-24 08:07:57.643917
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008101/mwtab/json
+Study ID:      ST004791
+Analysis ID:   AN008101
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 63
+
+Number of Warnings: 0
+
+Number of Value Errors: 63
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Adult", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Not applicable", in ["SUBJECT"]["WEIGHT_OR_WEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "Not applicable", in ["SUBJECT"]["HEIGHT_OR_HEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['cm', 'in']. Ignore this when more complicated descriptions are required.
+Error: The value, "Not applicable", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["COLLECTION"]["COLLECTION_DURATION"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["COLLECTION"]["VOLUMEORAMOUNT_COLLECTED"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["COLLECTION"]["ADDITIVES"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["EXTRACT_ENRICHMENT"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLE_RESUSPENSION"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLE_DERIVATIZATION"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLE_SPIKING"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["ANALYSIS"]["ACQUISITION_DATE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["ANALYSIS"]["SOFTWARE_VERSION"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["ANALYSIS"]["OPERATOR_NAME"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["ANALYSIS"]["DETECTOR_TYPE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["ANALYSIS"]["ANALYSIS_PROTOCOL_FILE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["ANALYSIS"]["ACQUISITION_PARAMETERS_FILE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["ANALYSIS"]["PROCESSING_PARAMETERS_FILE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["ANALYSIS"]["DATA_FORMAT"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "N/A", in ["MS"]["CAPILLARY_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", in ["MS"]["CAPILLARY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["MS"]["COLLISION_ENERGY"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "N/A", in ["MS"]["COLLISION_GAS"] should be one of "Nitrogen" or "Argon". Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", in ["MS"]["DRY_GAS_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", in ["MS"]["DRY_GAS_TEMP"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", in ["MS"]["FRAGMENT_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["MS"]["FRAGMENTATION_METHOD"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "N/A", in ["MS"]["GAS_PRESSURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['psi', 'psig', 'bar', 'kPa']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", in ["MS"]["HELIUM_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", in ["MS"]["ION_SOURCE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", in ["MS"]["ION_SPRAY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", in ["MS"]["IONIZATION"] is not one of ['oneOf'].
+Error: The value, "N/A", in ["MS"]["IONIZATION_ENERGY"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['eV']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["MS"]["IONIZATION_POTENTIAL"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["MS"]["MASS_ACCURACY"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["MS"]["PRECURSOR_TYPE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["MS"]["REAGENT_GAS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "N/A", in ["MS"]["SOURCE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", in ["MS"]["SPRAY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['kV']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["MS"]["ACTIVATION_PARAMETER"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "N/A", in ["MS"]["ACTIVATION_TIME"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ms']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["MS"]["ATOM_GUN_CURRENT"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["MS"]["AUTOMATIC_GAIN_CONTROL"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["MS"]["BOMBARDMENT"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["MS"]["CDL_TEMPERATURE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["MS"]["DATAFORMAT"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "N/A", in ["MS"]["DESOLVATION_GAS_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", in ["MS"]["DESOLVATION_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["MS"]["INTERFACE_VOLTAGE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["MS"]["LASER"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["MS"]["MATRIX"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["MS"]["NEBULIZER"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "N/A", in ["MS"]["OCTPOLE_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["MS"]["PROBE_TIP"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["MS"]["RESOLUTION_SETTING"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["MS"]["SAMPLE_DRIPPING"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["MS"]["SCAN_RANGE_MOVERZ"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["MS"]["SCANNING"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["MS"]["SCANNING_CYCLE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["MS"]["SCANNING_RANGE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "N/A", in ["MS"]["SKIMMER_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["MS"]["TUBE_LENS_VOLTAGE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "40", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
