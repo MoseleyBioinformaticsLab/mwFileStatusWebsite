@@ -1,13 +1,13 @@
 Comparison Log
-2026-05-24 05:39:09.249942
+2026-05-31 05:45:38.719324
 mwtab Python Library Version: 2.1.1
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004731/mwtab/...
 Study ID:    ST002884
 Analysis ID: AN004731
 Status:      Inconsistent
 
-Sections "COLLECTION" contain missmatched items: {'SAMPLE_TYPE': ['Gonadal white adipose tissue', 'White adipose tissue']}
 Sections "STUDY" contain missmatched keys: ['SUBMIT_DATE']
+Sections "COLLECTION" contain missmatched items: {'SAMPLE_TYPE': ['Gonadal white adipose tissue', 'White adipose tissue']}
 Sections "PROJECT" contain missmatched keys: ['DOI']
 mwTab files contain different 'SUBJECT_SAMPLE_FACTORS' sections.
 'Metabolites' section of 'MS_METABOLITE_DATA' block do not match.

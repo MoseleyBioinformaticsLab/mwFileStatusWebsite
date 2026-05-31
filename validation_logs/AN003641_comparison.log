@@ -1,5 +1,5 @@
 Comparison Log
-2026-05-24 04:38:39.230894
+2026-05-31 04:42:38.789706
 mwtab Python Library Version: 2.1.1
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003641/mwtab/...
 Study ID:    ST002231
@@ -7,11 +7,11 @@ Analysis ID: AN003641
 Status:      Inconsistent
 
 Sections "MS" contain missmatched items: {'MS_COMMENTS': ['Spectra were acquired with a resolving power of 60,000 full width at half maximum (FWHM), a scan range set to 80â\x80\x931,200 m/z, and polarity switching. Data-dependent MS/MS data was acquired on unlabeled pooled samples to confirm metabolite IDs when necessary. Peaks were integrated using El-Maven 0.12.0 software (Elucidata) or TraceFinder 5.1 SP2 software (Thermo Fisher). Total ion counts were quantified using Freestyle 1.7 SP1 software (Thermo Fisher). Peaks were normalized to total ion counts using the R statistical programming language.', 'Spectra were acquired with a resolving power of 60,000 full width at half maximum (FWHM), a scan range set to 80–1,200 m/z, and polarity switching. Data-dependent MS/MS data was acquired on unlabeled pooled samples to confirm metabolite IDs when necessary. Peaks were integrated using El-Maven 0.12.0 software (Elucidata) or TraceFinder 5.1 SP2 software (Thermo Fisher). Total ion counts were quantified using Freestyle 1.7 SP1 software (Thermo Fisher). Peaks were normalized to total ion counts using the R statistical programming language.']}
-Sections "CHROMATOGRAPHY" contain missmatched keys: ['SOLVENT_B', 'SOLVENT_A', 'FLOW_GRADIENT']
-Sections "TREATMENT" contain missmatched items: {'TREATMENT_SUMMARY': ['HOG cells were plated in 6-well plates (0.5 Ã\x97 10^6 cells per well). 24 hours later, HOG-EV or HOG-R132H cells were treated for 24 hours with 10 nM BAY 2402234 or DMSO.', '24 hours after plating, HOG-EV or HOG-R132H cells were treated for 24 hours with 10 nM BAY 2402234 or DMSO.']}
-Sections "STUDY" contain missmatched keys: ['TOTAL_SUBJECTS', 'NUM_GROUPS', 'SUBMIT_DATE']
 Sections "SAMPLEPREP" contain missmatched items: {'SAMPLEPREP_SUMMARY': ['Metabolites were extracted in 80% methanol, vortexed for 20 min at 4Â°C, and centrifuged (21,100 Ã\x97 g for 10 min at 4Â°C). Metabolite samples were dried using a CentriVap (Labconco) or SpeedVac (Thermo Fisher) concentrator. Dried metabolites were resuspended in 40-50 ÂµL 80% acetonitrile, vortexed for 20 min at 4Â°C, and centrifuged (21,100 Ã\x97 g for 10 min at 4Â°C). 10 ÂµL was injected and analyzed with a Q-Exactive HF-X hybrid quadrupole-orbitrap mass spectrometer (Thermo Fisher) coupled to a Vanquish Flex UHPLC system (Thermo Fisher).', 'Metabolites were extracted in 80% methanol, vortexed for 20 min at 4°C, and centrifuged (21,100 × g for 10 min at 4°C). Metabolite samples were dried using a CentriVap (Labconco) or SpeedVac (Thermo Fisher) concentrator. Dried metabolites were resuspended in 40-50 µL 80% acetonitrile, vortexed for 20 min at 4°C, and centrifuged (21,100 × g for 10 min at 4°C). 10 µL was injected and analyzed with a Q-Exactive HF-X hybrid quadrupole-orbitrap mass spectrometer (Thermo Fisher) coupled to a Vanquish Flex UHPLC system (Thermo Fisher).']}
+Sections "TREATMENT" contain missmatched items: {'TREATMENT_SUMMARY': ['HOG cells were plated in 6-well plates (0.5 Ã\x97 10^6 cells per well). 24 hours later, HOG-EV or HOG-R132H cells were treated for 24 hours with 10 nM BAY 2402234 or DMSO.', '24 hours after plating, HOG-EV or HOG-R132H cells were treated for 24 hours with 10 nM BAY 2402234 or DMSO.']}
+Sections "STUDY" contain missmatched keys: ['SUBMIT_DATE', 'NUM_GROUPS', 'TOTAL_SUBJECTS']
 Sections "SUBJECT" contain missmatched keys: ['SPECIES_GROUP']
 Sections "PROJECT" contain missmatched keys: ['DOI', 'PUBLICATION_DOI']
+Sections "CHROMATOGRAPHY" contain missmatched keys: ['SOLVENT_A', 'SOLVENT_B', 'FLOW_GRADIENT']
 'Metabolites' section of 'MS_METABOLITE_DATA' block do not match.
 'Data' section of 'MS_METABOLITE_DATA' block do not match.
