@@ -1,12 +1,12 @@
 Validation Log
-2026-05-31 07:55:10.032336
+2026-06-07 07:46:01.929835
 mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007373/mwtab/txt
 Study ID:      ST004409
 Analysis ID:   AN007373
 File format:   txt
 Status: Contains Validation Issues
-Number of Issues: 12
+Number of Issues: 14
 
 Number of Warnings: 0
 
@@ -14,7 +14,7 @@ Number of Value Errors: 12
 
 Number of Consistency Errors: 0
 
-Number of Format Errors: 0
+Number of Format Errors: 2
 
 Issue Log:
 Error: The value for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
@@ -29,3 +29,5 @@ Error: An empty value or a null value was detected for the subsection, "SAMPLEPR
 Error: The value, "0.05% (TSP concentration)", for the subsection, "STANDARD_CONCENTRATION", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mM']. Ignore this when more complicated descriptions are required.
 Error: The value, "Automatic Gain", for the subsection, "RECEIVER_GAIN", in the "NM" section should be a unitless number. Ignore this when more complicated descriptions are required.
 Error: The value, "32 K (32768)", for the subsection, "NUM_DATA_POINTS_ACQUIRED", in the "NM" section should be a unitless number. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "CHROMATOGRAPHY".
+Error: There must be either a "NMR_METABOLITE_DATA" section, a "NMR_BINNED_DATA" section or a "NMR_RESULTS_FILE" subsection in the "NM" section. Neither were found.
