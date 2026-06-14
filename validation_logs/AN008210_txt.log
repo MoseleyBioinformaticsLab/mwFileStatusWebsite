@@ -1,0 +1,96 @@
+Validation Log
+2026-06-14 08:06:24.036748
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008210/mwtab/txt
+Study ID:      ST004850
+Analysis ID:   AN008210
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 9
+
+Number of Warnings: 4
+
+Number of Value Errors: 7
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "300 ul/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: SUBJECT_SAMPLE_FACTORS section missing sample ID(s). The following IDs were found in the MS_METABOLITE_DATA section but not in the SUBJECT_SAMPLE_FACTORS:
+	""
+Warning: There are duplicate samples in the MS_METABOLITE_DATA section.
+Warning: The "m/z" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+2          C14 H16 N O11 P
+3              C7 H11 N O4
+7             C51 H77 N O2
+8            C45 H75 N O10
+11             C9 H15 N O4
+12            C29 H59 N O3
+13            C46 H77 N O7
+19            C28 H49 N O6
+32         C19 H40 N2 O P2
+51              C5 H2 O S2
+56             C22 H43 N O
+68      C18 H19 Br Cl N O2
+70            C28 H53 N O6
+71             C17 H16 O S
+73            C10 H21 N O5
+77            C5 H9 N5 O S
+83     C51 H63 Cl N2 O11 S
+86             C8 H13 N O4
+88         C27 H28 N O10 P
+91               C8 H9 N O
+93             C6 H11 N O4
+98              C4 H3 F O3
+103           C3 H5 N O2 S
+109           C28 H51 N O6
+117       C4 [13]C H9 N O2
+119           C44 H71 N O7
+120        C12 H21 N O2 S2
+125         C6 H5 Cl N4 O3
+129          C9 H5 Cl O3 S
+135           C33 H47 N O4
+138           C25 H47 N O9
+140          C43 H77 N O10
+141            C6 H11 N O4
+149            C14 H14 O S
+153           C31 H63 N O3
+154           C35 H69 N O3
+158            C10 H18 O S
+174           C44 H79 N O7
+181                F2 O Si
+187         C31 H23 N O5 S
+189            C8 H10 Cl P
+193          C8 H20 N O6 P
+202            C7 H11 N O2
+204            C18 H33 N O
+206             C5 H7 N O3
+207         C26 H50 N O7 P
+208         C24 H50 N O7 P
+209         C26 H48 N O7 P
+210         C23 H46 N O7 P
+211         C23 H44 N O7 P
+217           C26 H51 N O6
+224           C19 H39 N O4
+230           C27 H55 N O4
+241           C27 H39 N O3
+242            C20 H39 N O
+243            C7 H15 N O4
+247           C34 H67 N O3
+251            C8 H13 N O6
+253         C42 H74 N O8 P
+254         C40 H70 N O8 P
+255         C44 H74 N O8 P
+256         C41 H76 N O8 P
+257         C41 H76 N O8 P
+263          C5 H14 N O4 P
+274           C11 H17 N O7
+285             C2 H N3 O2
+289           C29 H57 N O3
+Warning: The "RT [min]" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Error: Column(s) with no name were found in the MS_METABOLITE_DATA table.
+Error: The section, MS_METABOLITE_DATA, has a mismatch between the number of headers and the number of elements in each line. Either a line(s) has more values than headers or there are too few headers.
