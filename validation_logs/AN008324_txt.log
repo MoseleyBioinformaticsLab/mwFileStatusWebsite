@@ -1,0 +1,28 @@
+Validation Log
+2026-06-21 08:22:30.552362
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008324/mwtab/txt
+Study ID:      ST004911
+Analysis ID:   AN008324
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 6
+
+Number of Warnings: 6
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Warning: There are duplicate samples in the MS_METABOLITE_DATA section.
+Warning: The "m/z" column at position 4 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Molecule Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Adduct" column at position 3 in the METABOLITES table, matches a standard column name, "adduct", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+45    [M9D+H]
+48    [M3D+H]
+59    [M3D+H]
+Warning: The "RT (min)" column at position 6 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Adduct" column at position 3 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

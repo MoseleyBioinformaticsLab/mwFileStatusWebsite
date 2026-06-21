@@ -1,5 +1,5 @@
 Comparison Log
-2026-06-14 06:01:12.188241
+2026-06-21 06:13:48.788386
 mwtab Python Library Version: 2.1.1
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005352/mwtab/...
 Study ID:    ST003267
@@ -7,7 +7,7 @@ Analysis ID: AN005352
 Status:      Inconsistent
 
 Sections "STUDY" contain missmatched keys: ['SUBMIT_DATE']
+Sections "PROJECT" contain missmatched keys: ['DOI', 'PUBLICATIONS']
 Sections "TREATMENT" contain missmatched items: {'TREATMENT_SUMMARY': ['FDX2-iKO JHOC5 cells were cultured 5 days with or without doxycycline (30 ng/ml) and collected. Metabolome data were normalized to protein amounts of cells (shown in "Study design") used for the metabolite extraction.', 'FDX2-iKO JHOC5 cells were cultured 5 days with or without doxycycline (30 ng/ml) and collected.']}
-Sections "PROJECT" contain missmatched keys: ['PUBLICATIONS', 'DOI']
 'Metabolites' section of 'MS_METABOLITE_DATA' block do not match.
 'Data' section of 'MS_METABOLITE_DATA' block do not match.
