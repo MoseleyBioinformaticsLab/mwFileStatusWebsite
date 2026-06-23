@@ -1,0 +1,414 @@
+Validation Log
+2026-06-21 08:10:28.683018
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007969/mwtab/json
+Study ID:      ST004715
+Analysis ID:   AN007969
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 5
+
+Number of Warnings: 4
+
+Number of Value Errors: 4
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "50", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "KEGG_PATHWAY" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_PATHWAY" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_PATHWAY" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0          map00860 Porphyrin and chlorophyll metabolism
+1          map00860 Porphyrin and chlorophyll metabolism
+2                  Marker of short-term glycemic control
+3                   map00590 Arachidonic acid metabolism
+4                   map00590 Arachidonic acid metabolism
+5                Long Chain Fatty Acid, Monohydroxylated
+6                      map00591 Linoleic acid metabolism
+7                      map00591 Linoleic acid metabolism
+8               map00592 alpha-Linolenic acid metabolism
+9              Medium Chain Fatty Acid, Monohydroxylated
+10                  map00590 Arachidonic acid metabolism
+11                              Linoleic acid metabolism
+12               Long Chain Fatty Acid, Monohydroxylated
+13                 Androgen steroid metabolism, Sulfated
+14                                 Pyrimidine Metabolism
+15             Leucine, Isoleucine and Valine Metabolism
+16                                 Isoleucine metabolism
+17     map00640 Propanoate metabolism; map00072 Synth...
+18             Medium Chain Fatty Acid, Monohydroxylated
+19              Short Chain Fatty Acid, Monohydroxylated
+20             Medium Chain Fatty Fcid, Monohydroxylated
+21                           map00310 Lysine degradation
+22               Long Chain Fatty Acid, Monohydroxylated
+23             Medium Chain Fatty Acid, Monohydroxylated
+24             Medium Chain Fatty Acid, Monohydroxylated
+25               Long Chain Fatty Acid, Monohydroxylated
+26                                 Propionate Metabolism
+27                              Ascorbic acid metabolism
+28            Human Chemical Exposome, Food Preservative
+29                            Methionine salvage pathway
+30                                   Benzoate Metabolism
+31                              Phenolic acid metabolism
+32                           CMPF analogue, uremic toxin
+33     Potent uremic toxin assosiated with chronic ki...
+34              Medium Chain Fatty Acid, Monounstaturate
+35                        Secondary Bile Acid Metabolism
+36     Medium Chain Fatty Acid, Monohydroxylated, Lip...
+37             Medium Chain Fatty Fcid, Monohydroxylated
+38               Long Chain Fatty Acid, Monohydroxylated
+39              Short Chain Fatty Acid, Monohydroxylated
+40         Dietary Polyphenols and Flavonoids Metabolism
+41             Leucine, Isoleucine and Valine Metabolism
+42     Medium Chain Fatty Acid, Monohydroxylated, Lip...
+43     Medium Chain Fatty Acid, Monohydroxylated, Lip...
+44               Long Chain Fatty Acid, Monohydroxylated
+45       Tryptophan metabolism, cardiotoxin&uremic toxin
+46             Leucine, Isoleucine and Valine Metabolism
+47                         Leucine Catabolism Metabolism
+48                        Secondary Bile Acid Metabolism
+49                               Fatty Acid Biosynthesis
+50           Marker of Aldehyde Dehydrogenase Deficiency
+51                 Pregnane steroid metabolism, Sulfated
+52                                Bile Acid Biosynthesis
+53                        Secondary Bile Acid Metabolism
+54                                Bile Acid Biosynthesis
+55                                Bile Acid Biosynthesis
+56               hsa00120 Primary bile acid biosynthesis
+57                              Phenolic acid metabolism
+58                              Phenolic acid metabolism
+59     Human Chemical Exposome, Pesticide, Fungicide ...
+60              map00330 Arginine and proline metabolism
+61     map00280 Valine, leucine and isoleucine degrad...
+62                              Phenolic acid metabolism
+63                        map00750 Vitamin B6 metabolism
+64                              Phenolic acid metabolism
+65                  map00590 Arachidonic acid metabolism
+66               Long Chain Fatty Acid, Monohydroxylated
+67                                 Tryptophan metabolism
+68                                 Pyrimidine Metabolism
+69                                 Pyrimidine Metabolism
+70                 Androgen steroid metabolism, Sulfated
+71                 Pregnane steroid metabolism, Sulfated
+72              Medium Chain Fatty Acid, Monounsaturated
+73                                 Tryptophan metabolism
+74                                     Lysine Metabolism
+75                                 Tryptophan metabolism
+76               map00120 Primary bile acid biosynthesis
+77               map00120 Primary bile acid biosynthesis
+78              Medium Chain Fatty Acid, Monounsaturated
+79                     map00591 Linoleic acid metabolism
+80                     map00591 Linoleic acid metabolism
+81              Glycine, Serine and Threonine Metabolism
+82     map00250 Alanine, aspartate and glutamate meta...
+83                            map00230 Purine metabolism
+84           map00270 Cysteine and methionine metabolism
+85     map00280 Valine, leucine and isoleucine degrad...
+86              map00592 alpha-Linolenic acid metabolism
+87                          map00300 Lysine biosynthesis
+88                 Androgen steroid metabolism, Sulfated
+89                 Androgen steroid metabolism, Sulfated
+90           Androgen steroid metabolism, Glucuronidated
+91                 Androgen steroid metabolism, Sulfated
+92                 Androgen steroid metabolism, Sulfated
+93                 Androgen steroid metabolism, Sulfated
+94                 Androgen steroid metabolism, Sulfated
+95                 Androgen steroid metabolism, Sulfated
+96      map01040 Biosynthesis of unsaturated fatty acids
+97                  map00590 Arachidonic acid metabolism
+98            map00053 Ascorbate and aldarate metabolism
+99            map00053 Ascorbate and aldarate metabolism
+100           Medium Chain Fatty Acid, Dicarboxylic acid
+101     map01040 Biosynthesis of unsaturated fatty acids
+102                               Arylsulfate metabolism
+103                    map00360 Phenylalanine metabolism
+104        map00860 Porphyrin and chlorophyll metabolism
+105            Human Chemical Exposome, Halogen exposure
+106                               Halogenated Tryptophan
+107                              Glycosylated Amino acid
+108                              Glycosylated Amino acid
+109                              Glycosylated Amino acid
+110                              Glycosylated Amino acid
+111                              Glycosylated Amino acid
+112                              Glycosylated Amino acid
+113                              Glycosylated Amino acid
+114                              Glycosylated Amino acid
+115                            C-Glycosylated amino acid
+116                              Glycosylated Amino acid
+117                     map00061 Fatty acid biosynthesis
+118                               Short Chain Fatty Acid
+119                     map00061 Fatty acid biosynthesis
+120            Endogenous N-acyl amide, Acylated glycine
+121              map00120 Primary bile acid biosynthesis
+122              map00120 Primary bile acid biosynthesis
+123                map00140 Steroid hormone biosynthesis
+124              map00120 Primary bile acid biosynthesis
+125                   map00020 Citrate cycle (TCA cycle)
+126                   map00020 Citrate cycle (TCA cycle)
+127                map00140 Steroid hormone biosynthesis
+128             map00330 Arginine and proline metabolism
+129          map00270 Cysteine and methionine metabolism
+130                      Oxidative stress of glutathione
+131                   map00030 Pentose phosphate pathway
+132             Medium Chain Fatty Acid, Monounsaturated
+133                map00140 Steroid hormone biosynthesis
+134            map00121 Secondary bile acid biosynthesis
+135                       Secondary Bile Acid Metabolism
+136            map00121 Secondary bile acid biosynthesis
+137            map00122 Secondary bile acid biosynthesis
+138            map00123 Secondary bile acid biosynthesis
+139     map01040 Biosynthesis of unsaturated fatty acids
+140     map01040 Biosynthesis of unsaturated fatty acids
+141     map01040 Biosynthesis of unsaturated fatty acids
+142    Alpha Linolenic Acid and Linoleic Acid Metabolism
+143           Medium Chain Fatty Acid, Dicarboxylic acid
+144                     map00061 Fatty acid biosynthesis
+145             Medium Chain Fatty Acid, Monounsaturated
+146    Human Chemical Exposome, Medicine, Chelating-a...
+147     map01040 Biosynthesis of unsaturated fatty acids
+148             Long Chain Fatty Acid, Dicarboxylic acid
+149     map01040 Biosynthesis of unsaturated fatty acids
+150                    map00591 Linoleic acid metabolism
+151               Long Chain Fatty Acid, Polyunsaturated
+152     map01040 Biosynthesis of unsaturated fatty acids
+153                            Sulfated mammalian lignan
+154     map01040 Biosynthesis of unsaturated fatty acids
+155           Human Chemical Exposome, Food Preservative
+156                        map00340 Histidine metabolism
+157                   map00020 Citrate cycle (TCA cycle)
+158                                Tocopherol Metabolism
+159                                            Dipeptide
+160                                            Dipeptide
+161                    map00591 Linoleic acid metabolism
+162                   map00030 Pentose phosphate pathway
+163                   map00030 Pentose phosphate pathway
+164    map00010 Glycolysis/Gluconeogenesis, map00052 ...
+165    map00040 Pentose and glucuronate interconversions
+166                      map00071 Fatty acid degradation
+167                                            Dipeptide
+168    map00040 Pentose and glucuronate interconversions
+169                     map00561 Glycerolipid metabolism
+170                    Glycerophosphoinositol metabolism
+171              map00564 Glycerophospholipid metabolism
+172                       Secondary Bile Acid Metabolism
+173                                 Bile acid metabolism
+174              map00120 Primary bile acid biosynthesis
+175                       Secondary Bile Acid Metabolism
+176                                 Bile acid metabolism
+177                                 Bile acid metabolism
+178                       Secondary Bile Acid Metabolism
+179                       Secondary Bile Acid Metabolism
+180             Medium Chain Fatty Acid, Polyunsaturated
+181                    Long Chain Fatty Acid, Odd Carbon
+182               Long Chain Fatty Acid, Monounsaturated
+183                  Medium Chain Fatty Acid, Odd Carbon
+184               Long Chain Fatty Acid, Polyunsaturated
+185             Long Chain Fatty Acid, Dicarboxylic acid
+186             Long Chain Fatty Acid, Dicarboxylic acid
+187          Endogenous N-acyl amide, Acylated glutamine
+188            Endogenous N-acyl amide, Acylated glycine
+189                    map00360 Phenylalanine metabolism
+190                 Oligopeptide, Fibrinogen degradation
+191                 Oligopeptide, Fibrinogen degradation
+192                 Oligopeptide, Fibrinogen degradation
+193                 Oligopeptide, Fibrinogen degradation
+194                 Oligopeptide, Fibrinogen degradation
+195                 Oligopeptide, Fibrinogen degradation
+196                 Oligopeptide, Fibrinogen degradation
+197                 Oligopeptide, Fibrinogen degradation
+198                 Oligopeptide, Fibrinogen degradation
+199                 Oligopeptide, Fibrinogen degradation
+200                    map00360 Phenylalanine metabolism
+201    Hydroxylated transformation of CMPF, a uremic ...
+202              Long Chain Fatty Acid, Monohydroxylated
+203              Long Chain Fatty Acid, Monohydroxylated
+204                                   Leucine metabolism
+205                         map00350 Tyrosine metabolism
+206                       Secondary Bile Acid Metabolism
+207                       Secondary Bile Acid Metabolism
+208                           map00230 Purine metabolism
+209                                 Histidine Metabolism
+210           Catabolite of tryptophan by gut microbiota
+211           Catabolite of tryptophan by gut microbiota
+212                       map00380 Tryptophan metabolism
+213                       map00380 Tryptophan metabolism
+214            Endogenous N-acyl amide, Acylated glycine
+215                       Secondary Bile Acid Metabolism
+216             Long Chain Fatty Acid, Dicarboxylic acid
+217            map00121 Secondary bile acid biosynthesis
+218            Endogenous N-acyl amide, Acylated glycine
+219                       map00380 Tryptophan metabolism
+220                       map00220 Arginine biosynthesis
+221                       map00220 Arginine biosynthesis
+222                                            Dipeptide
+223          map00270 Cysteine and methionine metabolism
+224                       map00220 Arginine biosynthesis
+225                       map00220 Arginine biosynthesis
+226                        map00340 Histidine metabolism
+227          map00270 Cysteine and methionine metabolism
+228                    map00360 Phenylalanine metabolism
+229             map00330 Arginine and proline metabolism
+230    map00260 Glycine, serine and threonine metabolism
+231    map00260 Glycine, serine and threonine metabolism
+232    map00260 Glycine, serine and threonine metabolism
+233                         map00350 Tyrosine metabolism
+234    map00280 Valine, leucine and isoleucine degrad...
+235                  map00010 Glycolysis/Gluconeogenesis
+236                                            Dipeptide
+237                                            Dipeptide
+238                                            Dipeptide
+239                    map00591 Linoleic acid metabolism
+240                            Phospholipid Biosynthesis
+241                                Plasmalogen Synthesis
+242                 De Novo Triacylglycerol Biosynthesis
+243                 De Novo Triacylglycerol Biosynthesis
+244                                Plasmalogen Synthesis
+245                 De Novo Triacylglycerol Biosynthesis
+246                 De Novo Triacylglycerol Biosynthesis
+247                       Glycerophospholipid metabolism
+248                       Glycerophospholipid metabolism
+249                       Glycerophospholipid metabolism
+250                       Glycerophospholipid metabolism
+251                       Glycerophospholipid metabolism
+252                       Glycerophospholipid metabolism
+253                       Glycerophospholipid metabolism
+254                       Glycerophospholipid metabolism
+255                       Glycerophospholipid metabolism
+256                                              Unknown
+257                                              Unknown
+258                                              Unknown
+259                                              Unknown
+260                                              Unknown
+261                                              Unknown
+262                                              Unknown
+263                                              Unknown
+264                                              Unknown
+265                                              Unknown
+266                                              Unknown
+267                                              Unknown
+268                                              Unknown
+269                                              Unknown
+270                                              Unknown
+271                                              Unknown
+272                                              Unknown
+273                                              Unknown
+274                                              Unknown
+275                                              Unknown
+276                                              Unknown
+277                                              Unknown
+278                                              Unknown
+279                                              Unknown
+280                                              Unknown
+281                                              Unknown
+282                                              Unknown
+283                                              Unknown
+284                                              Unknown
+285                   map00020 Citrate cycle (TCA cycle)
+286             map00051 Fructose and mannose metabolism
+287                                  Benzoate Metabolism
+288                      Long Chain Fatty Acid, Branched
+289     Methionine, Cysteine, SAM and Taurine Metabolism
+290                    Medium Chain Fatty Acid, Branched
+291                    Medium Chain Fatty Acid, Branched
+292                             Phenolic acid metabolism
+293            Leucine, Isoleucine and Valine Metabolism
+294                 Human Chemical Exposome, Plasticizer
+295                     map00061 Fatty acid biosynthesis
+296             Medium Chain Fatty Acid, Monounsaturated
+297    map00250 Alanine, aspartate and glutamate meta...
+298           Medium Chain Fatty Acid, Amino, Acetylated
+299    map00520 Amino sugar and nucleotide sugar meta...
+300            Valine, Leucine and Isoleucine metabolism
+301     Methionine, Cysteine, SAM and Taurine Metabolism
+302             Glycine, Serine and Threonine Metabolism
+303            Valine, Leucine and Isoleucine metabolism
+304            Endogenous N-acyl amide, Acylated glycine
+305          map00270 Cysteine and methionine metabolism
+306                              Glycosylated Amino acid
+307                              Glycosylated Amino acid
+308                            N-Glycosylated amino acid
+309    Endogenous N-acyl amide, Acylated serine, Endo...
+310    Endogenous N-acyl amide, Acylated serine, An e...
+311      map00760 Nicotinate and nicotinamide metabolism
+312                                  Arginine metabolism
+313     map01040 Biosynthesis of unsaturated fatty acids
+314               Long Chain Fatty Acid, Monounsaturated
+315                             Phenolic acid metabolism
+316    Potential plasma biomarker of reduced kidney f...
+317             Long Chain Fatty Acid, Dicarboxylic acid
+318             Long Chain Fatty Acid, Dicarboxylic acid
+319                    Esters of Medium Chain Fatty Acid
+320                     map00061 Fatty acid biosynthesis
+321                           map00230 Purine metabolism
+322                   map00020 Citrate cycle (TCA cycle)
+323    Tyrosine metabolite by anaerobic intestinal ba...
+324                     Bnzoate Metabolism, Uremic toxin
+325                     map00061 Fatty acid biosynthesis
+326                     map00061 Fatty acid biosynthesis
+327            Endogenous N-acyl amide, Acylated glycine
+328                     map00410 beta-Alanine metabolism
+329                  Medium Chain Fatty Acid, Odd Carbon
+330                  Medium Chain Fatty Acid, Odd Carbon
+331           Human Chemical Exposome, Perfluorochemical
+332           Human Chemical Exposome, Perfluorochemical
+333           Human Chemical Exposome, Perfluorochemical
+334                                            Dipeptide
+335                                            Dipeptide
+336                                            Dipeptide
+337                           Sulfate/Sulfite Metabolism
+338                    map00360 Phenylalanine metabolism
+339                             Phenylalanine Metabolism
+340                   map00190 Oxidative phosphorylation
+341    Oxidation of Branched Chain Fatty Acid; Phytan...
+342                          map00310 Lysine degradation
+343                Pregnane steroid metabolism, Sulfated
+344                Pregnane steroid metabolism, Sulfated
+345                Pregnane steroid metabolism, Sulfated
+346                Pregnane steroid metabolism, Sulfated
+347          Pregnane steroid metabolism, Glucuronidated
+348                Pregnane steroid metabolism, Sulfated
+349                Pregnane steroid metabolism, Sulfated
+350                Pregnane steroid metabolism, Sulfated
+351           Human Chemical Exposome, Food Preservative
+352    Human Chemical Exposome, Food Preservative met...
+353                                  Benzoate Metabolism
+354                  map00010 Glycolysis/Gluconeogenesis
+355    map00040 Pentose and glucuronate interconversions
+356                   map00030 Pentose phosphate pathway
+357                        Dietary Salicylate Metabolism
+358           Medium Chain Fatty Acid, Dicarboxylic acid
+359                     map00061 Fatty acid biosynthesis
+360             map00592 alpha-Linolenic acid metabolism
+361                         Steroid metabolism, Sulfated
+362                         Steroid metabolism, Sulfated
+363           Medium Chain Fatty Acid, Dicarboxylic acid
+364                   map00020 Citrate cycle (TCA cycle)
+365                           Sulfate/Sulfite Metabolism
+366                       Secondary Bile Acid Metabolism
+367          map00430 Taurine and hypotaurine metabolism
+368              map00120 Primary bile acid biosynthesis
+369              map00120 Primary bile acid biosynthesis
+370                       Secondary Bile Acid Metabolism
+371                              map04976 Bile secretion
+372                       Secondary Bile Acid Metabolism
+373               Long Chain Fatty Acid, Polyunsaturated
+374     map01040 Biosynthesis of unsaturated fatty acids
+375           Medium Chain Fatty Acid, Dicarboxylic acid
+376           Medium Chain Fatty Acid, Dicarboxylic acid
+377             Medium Chain Fatty Acid, Monounsaturated
+378             Medium Chain Fatty Acid, Monounsaturated
+379           map00053 Ascorbate and aldarate metabolism
+380                         map00350 Tyrosine metabolism
+381                    Long Chain Fatty Acid, Odd Carbon
+382                  Medium Chain Fatty Acid, Odd Carbon
+383                                  Benzoate Metabolism
+384                  Medium Chain Fatty Acid, Odd Carbon
+385             Medium Chain Fatty Acid, Monounsaturated
+386                       map00240 Pyrimidine metabolism
+387            map00121 Secondary bile acid biosynthesis
+388                               Short Chain Fatty Acid
+389                           map00230 Purine metabolism
+Warning: The column, "KEGG_PATHWAY", in the ["MS_METABOLITE_DATA"]["Metabolites"] table was matched to multiple standard names, ['pathway', 'kegg_id']. This is a good indication that the values in that column should be split into the appropriate individual columns.

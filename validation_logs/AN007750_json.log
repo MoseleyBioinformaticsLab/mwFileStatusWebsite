@@ -1,0 +1,21 @@
+Validation Log
+2026-06-21 08:02:53.991251
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007750/mwtab/json
+Study ID:      ST004599
+Analysis ID:   AN007750
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 2
+
+Number of Warnings: 2
+
+Number of Value Errors: 2
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Warning: The "KEGG ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

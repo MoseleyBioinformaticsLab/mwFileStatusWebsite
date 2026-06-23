@@ -1,8 +1,29 @@
 Validation Log
-2025-12-07 03:40:27.423295
-mwtab Python Library Version: 1.2.5
+2026-06-21 02:55:38.734796
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001667/mwtab/json
 Study ID:      ST001019
 Analysis ID:   AN001667
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 2
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The value, "16.5 to 18.5 weeks old", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "25 to 30 grams", in ["SUBJECT"]["WEIGHT_OR_WEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["MS"]["MS_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "Precursor Ion" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ion". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Product Ion" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ion". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

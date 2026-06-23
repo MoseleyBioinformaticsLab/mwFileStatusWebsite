@@ -1,8 +1,25 @@
 Validation Log
-2025-12-07 08:38:50.061613
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:33:05.966591
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005708/mwtab/json
 Study ID:      ST003473
 Analysis ID:   AN005708
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 6
+
+Number of Warnings: 0
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value in ["SUBJECT"]["WEIGHT_OR_WEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value in ["TREATMENT"]["TREATMENT_DOSEDURATION"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['h', 'weeks', 'days']. Ignore this when more complicated descriptions are required.
+Error: The value, "256 scans", in ["NM"]["NUMBER_OF_SCANS"] should be a unitless number. Ignore this when more complicated descriptions are required.
+Error: The value, "7,002.8 Hz", in ["NM"]["SPECTRAL_WIDTH"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm', 'Hz']. Ignore this when more complicated descriptions are required.
+Error: The value, "32 k points", in ["NM"]["NUM_DATA_POINTS_ACQUIRED"] should be a unitless number. Ignore this when more complicated descriptions are required.

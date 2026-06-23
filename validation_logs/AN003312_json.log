@@ -1,8 +1,29 @@
 Validation Log
-2025-12-07 05:28:49.591908
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:21:12.809681
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003312/mwtab/json
 Study ID:      ST002036
 Analysis ID:   AN003312
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 5
+
+Number of Value Errors: 3
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "parent" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "parent_moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CmpdID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "medRt" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "CmpdID" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "CmpdID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.

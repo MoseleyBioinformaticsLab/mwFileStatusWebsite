@@ -1,8 +1,186 @@
 Validation Log
-2025-12-07 05:00:08.006343
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:59:03.571871
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002931/mwtab/txt
 Study ID:      ST001808
 Analysis ID:   AN002931
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 12
+
+Number of Warnings: 5
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 1
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "quant mz" column at position 4 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem" column at position 2 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem" column at position 2 in the METABOLITES table, matches a standard column name, "pubchem_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      C00181
+1      C02266
+2      C02341
+3      C00379
+4      C01762
+5      C00385
+6      C00183
+7      C00299
+8      C00366
+9      C00086
+10     C00106
+11     C00043
+12     C00167
+13     C00082
+14     C00078
+16     C00376
+17     C00178
+18     C00214
+19     C00188
+20     C01620
+21     C00245
+22     C00795
+23     C00089
+24     C00042
+25     C01530
+26     C00794
+27     C08250
+28     C00065
+29     C00121
+30     C01685
+31     C00474
+32     C00492
+33     C00013
+34     C00138
+35     C02067
+36     C00148
+38     C03844
+39     C00345
+40     C00346
+41     C00009
+42     C05332
+43     C00079
+44     C12276
+45     C08362
+46     C00249
+47     C01879
+48     C00209
+49     C00077
+50     C00712
+51     C19670
+52     C00153
+53     C00645
+54     C00624
+55     C03137
+56     C03878
+57     C06424
+58     C00137
+59     C02170
+60     C02989
+61     C00073
+63     C08243
+64     C00159
+65     C01835
+67     C00208
+68     C00711
+69     C00476
+70     C00532
+71     C00047
+72     C06427
+73     C01595
+75     C00123
+76     C00243
+77     C13542
+78     C01432
+79     C00639
+81     C00252
+82     C00407
+84     C00451
+85     C03546
+86     C00130
+87     C00294
+90     C02043
+91     C00954
+92     C00262
+94     C05629
+95     C00135
+97     C02965
+98     C00392
+100    C00160
+101    C00037
+102    C03189
+103    C05401
+104    C00116
+105    C00258
+106    C00051
+107    C00489
+108    C00064
+109    C00025
+110    C00092
+111    C00103
+113    C00800
+114    C08348
+115    C01113
+116    C00880
+117    C00122
+118    C02095
+119    C05345
+120    C01094
+121    C02336
+122    C00189
+124    C06429
+125    C12978
+127    C01420
+128    C00097
+129    C00791
+131    C00327
+132    C00158
+133    C16526
+134    C00599
+135    C00187
+136    C01971
+137    C01753
+138    C02979
+139    C00099
+140    C00180
+141    C08281
+142    C00049
+143    C00152
+144    C00219
+145    C06425
+146    C01904
+147    C00216
+148    C00872
+149    C00026
+150    C00956
+151    C00499
+152    C00041
+153    C06104
+154    C00020
+155    C00212
+156    C00417
+157    C05659
+158    C00431
+159    C00989
+160    C00334
+161    C00597
+162    C01089
+163    C06474
+165    C00233
+166    C00109
+167    C02630
+169    C02721
+172    D01947
+173    C01885
+174    C07326
+Warning: The "ret.index" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "ret.index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
+Error: Column(s) with no name were found in the METABOLITES table.
+Error: The section, METABOLITES, has a mismatch between the number of headers and the number of elements in each line. Either a line(s) has more values than headers or there are too few headers.

@@ -1,8 +1,115 @@
 Validation Log
-2025-12-07 08:44:20.651490
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:38:15.675757
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005813/mwtab/txt
 Study ID:      ST003541
 Analysis ID:   AN005813
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 3
+
+Number of Warnings: 1
+
+Number of Value Errors: 3
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.35ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "35", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "KEGG_ID" column at position 2 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+4      _
+5      _
+6      _
+7      _
+9      _
+21     _
+23     _
+29     _
+33     _
+35     _
+43     _
+46     _
+51     _
+53     _
+56     _
+57     _
+59     _
+60     _
+61     _
+62     _
+64     _
+65     _
+66     _
+70     _
+71     _
+72     _
+73     _
+75     _
+76     _
+77     _
+79     _
+80     _
+81     _
+83     _
+84     _
+85     _
+86     _
+87     _
+89     _
+90     _
+95     _
+96     _
+97     _
+98     _
+100    _
+102    _
+103    _
+104    _
+105    _
+111    _
+113    _
+120    _
+121    _
+128    _
+129    _
+131    _
+135    _
+136    _
+137    _
+138    _
+139    _
+141    _
+144    _
+150    _
+156    _
+158    _
+160    _
+161    _
+162    _
+163    _
+164    _
+165    _
+166    _
+167    _
+168    _
+169    _
+170    _
+176    _
+177    _
+178    _
+180    _
+185    _
+186    _
+191    _
+193    _
+194    _
+196    _
+197    _
+198    _
+199    _
+201    _
+202    _
+203    _

@@ -1,8 +1,195 @@
 Validation Log
-2025-12-07 07:45:04.897733
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:56:01.444947
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005009/mwtab/txt
 Study ID:      ST003055
 Analysis ID:   AN005009
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 6
+
+Number of Warnings: 4
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.26ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "45°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 4 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Calc. Molecular weight" column at position 3 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0         C29 H58 N O4
+3         C40 H81 N O3
+4         C34 H67 N O3
+5         C38 H75 N O3
+6         C40 H79 N O3
+7         C40 H77 N O3
+8         C41 H81 N O3
+9         C42 H83 N O3
+10        C42 H81 N O3
+11        C40 H77 N O3
+12        C42 H81 N O3
+13        C42 H79 N O3
+34      C39 H78 N O8 P
+35      C39 H76 N O8 P
+36      C41 H80 N O8 P
+37      C41 H78 N O8 P
+38      C43 H78 N O8 P
+39      C43 H78 N O8 P
+40      C24 H50 N O7 P
+41      C24 H48 N O7 P
+42      C25 H52 N O7 P
+43      C26 H54 N O7 P
+44      C26 H52 N O7 P
+45      C26 H50 N O7 P
+46      C27 H56 N O7 P
+47      C28 H58 N O7 P
+48      C28 H56 N O7 P
+49      C28 H50 N O7 P
+50      C30 H50 N O7 P
+51      C32 H66 N O7 P
+52      C21 H44 N O7 P
+53      C23 H48 N O7 P
+54      C23 H46 N O7 P
+57      C42 H84 N O8 P
+58      C42 H82 N O8 P
+59      C42 H80 N O8 P
+60      C42 H78 N O8 P
+61      C44 H82 N O8 P
+62      C44 H80 N O8 P
+63      C44 H78 N O8 P
+64      C46 H80 N O8 P
+65      C42 H78 N O8 P
+66      C44 H78 N O8 P
+67      C43 H82 N O8 P
+68      C47 H82 N O8 P
+69      C43 H80 N O8 P
+70      C44 H84 N O8 P
+71      C46 H86 N O8 P
+72      C46 H84 N O8 P
+73      C48 H88 N O8 P
+74      C48 H86 N O8 P
+75      C44 H84 N O8 P
+76      C44 H82 N O8 P
+77      C46 H84 N O8 P
+78      C46 H82 N O8 P
+79      C44 H80 N O8 P
+80      C46 H80 N O8 P
+81      C45 H86 N O8 P
+82      C48 H88 N O8 P
+83      C50 H88 N O8 P
+84      C50 H80 N O8 P
+85      C50 H92 N O8 P
+86      C38 H76 N O8 P
+87      C38 H74 N O8 P
+88      C39 H78 N O8 P
+89      C39 H76 N O8 P
+90      C40 H80 N O8 P
+91      C40 H78 N O8 P
+92      C40 H76 N O8 P
+93      C40 H74 N O8 P
+94      C41 H82 N O8 P
+95      C41 H80 N O8 P
+96      C41 H78 N O8 P
+97      C42 H76 N O8 P
+98      C43 H84 N O8 P
+99      C43 H82 N O8 P
+100     C44 H88 N O8 P
+101     C44 H86 N O8 P
+102     C45 H88 N O8 P
+103     C45 H86 N O8 P
+104     C45 H82 N O8 P
+105     C45 H80 N O8 P
+106     C45 H78 N O8 P
+107     C46 H90 N O8 P
+108     C46 H88 N O8 P
+109     C46 H78 N O8 P
+110     C47 H88 N O8 P
+111     C47 H86 N O8 P
+112     C47 H82 N O8 P
+113     C47 H80 N O8 P
+114     C48 H94 N O8 P
+115     C48 H86 N O8 P
+116     C48 H84 N O8 P
+117     C48 H82 N O8 P
+118     C48 H80 N O8 P
+119     C48 H78 N O8 P
+120     C49 H86 N O8 P
+121     C50 H78 N O8 P
+122     C50 H96 N O8 P
+123     C50 H86 N O8 P
+124     C50 H84 N O8 P
+125     C50 H82 N O8 P
+126     C52 H80 N O8 P
+127     C52 H96 N O8 P
+128     C46 H86 N O7 P
+129     C40 H82 N O7 P
+130     C40 H80 N O7 P
+131     C42 H84 N O7 P
+132     C42 H82 N O7 P
+133     C44 H86 N O7 P
+134     C44 H82 N O7 P
+135     C46 H90 N O7 P
+136     C46 H86 N O7 P
+137     C46 H84 N O7 P
+138     C46 H80 N O7 P
+139     C48 H90 N O7 P
+140     C48 H86 N O7 P
+141     C50 H90 N O7 P
+142     C50 H88 N O7 P
+143     C37 H72 N O8 P
+144     C39 H76 N O8 P
+145     C39 H74 N O8 P
+146     C39 H72 N O8 P
+147     C41 H76 N O8 P
+148     C41 H74 N O8 P
+149     C41 H72 N O8 P
+150     C39 H72 N O8 P
+151     C41 H72 N O8 P
+152     C43 H72 N O8 P
+153     C40 H76 N O8 P
+154     C41 H80 N O8 P
+155     C41 H78 N O8 P
+156     C43 H80 N O8 P
+157     C45 H82 N O8 P
+158     C45 H80 N O8 P
+159     C45 H78 N O8 P
+160     C41 H78 N O8 P
+161     C41 H76 N O8 P
+162     C43 H82 N O8 P
+163     C43 H76 N O8 P
+164     C41 H74 N O8 P
+165     C43 H82 N O8 P
+166     C45 H82 N O8 P
+167     C47 H82 N O8 P
+168     C43 H84 N O8 P
+169     C43 H78 N O8 P
+170     C43 H76 N O8 P
+171     C43 H74 N O8 P
+172     C44 H76 N O8 P
+173     C45 H76 N O8 P
+174     C45 H74 N O8 P
+175     C39 H76 N O7 P
+176     C39 H74 N O7 P
+177     C41 H74 N O7 P
+178     C43 H78 N O7 P
+179     C41 H78 N O7 P
+180     C43 H78 N O7 P
+181     C45 H82 N O7 P
+182     C45 H78 N O7 P
+183     C45 H82 N O7 P
+184     C47 H82 N O7 P
+185     C43 H76 N O7 P
+205    C42 H80 N O10 P
+206    C44 H80 N O10 P
+207    C44 H78 N O10 P
+208    C42 H78 N O10 P
+209    C44 H76 N O10 P
+210    C46 H82 N O10 P
+211    C46 H78 N O10 P
+212    C46 H76 N O10 P
+Warning: The "RT [min]" column at position 5 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

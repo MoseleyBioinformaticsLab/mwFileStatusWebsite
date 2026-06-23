@@ -1,0 +1,49 @@
+Validation Log
+2026-06-21 07:41:18.485267
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007144/mwtab/json
+Study ID:      ST004297
+Analysis ID:   AN007144
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 23
+
+Number of Warnings: 21
+
+Number of Value Errors: 21
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "40-50", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "INCHIKEY" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PLOT_NAME" column at position 12 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "SUPER_PATHWAY" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "SUB_PATHWAY" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LIPID SPECIES LEVEL" column at position 13 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "species". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LIPID MOLECULAR SPECIES LEVEL" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "species". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PUBCHEM" column at position 20 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 19 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 18 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHEMSPIDER" column at position 17 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "chemspider_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 16 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 16 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+11           107-95-9,56-41-7
+44            56-89-3,52-90-4
+61     214139-20-5,10569-72-9
+65         3483-11-2,623-58-5
+76                     59-007
+79           463-003,463-00-3
+109       1499-55-4,1499-55-4
+Warning: The "CHEM_ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LIB_ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "COMP_ID" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHRO_LIB_ENTRY_ID" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "CHEM_ID" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "CHEM_ID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "LIPID SPECIES LEVEL" column at position 13 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "LIPID MOLECULAR SPECIES LEVEL" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "LIPID SN POSITION LEVEL" column at position 15 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

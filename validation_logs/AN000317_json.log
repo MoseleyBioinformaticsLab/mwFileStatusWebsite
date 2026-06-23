@@ -1,8 +1,182 @@
 Validation Log
-2025-12-07 01:27:30.942212
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:22:32.962221
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000317/mwtab/json
 Study ID:      ST000215
 Analysis ID:   AN000317
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 23
+
+Number of Warnings: 10
+
+Number of Value Errors: 14
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected in ["STUDY"]["PHONE"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["COLLECTION"]["COLLECTION_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLEPREP_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["MS"]["MS_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"3-Glycerophosphate_1"
+	"3-Glycerophosphate_2"
+	"3-Glycerophosphate_3"
+	"3-phosphoglyceraldehyde_1"
+	"3-phosphoglyceraldehyde_2"
+	"3-phosphoglyceraldehyde_3"
+	"Erythrose 4-phosphate_1"
+	"Erythrose 4-phosphate_2"
+	"Erythrose 4-phosphate_3"
+	"Erythrose 4-phosphate_4"
+	"Fructose 1_6-bisphosphate"
+	"Fructose 1_6-bisphosphate_1"
+	"Fructose 1_6-bisphosphate_2"
+	"Fructose 1_6-bisphosphate_3"
+	"Fructose 1_6-bisphosphate_4"
+	"Fructose 1_6-bisphosphate_5"
+	"Fructose 1_6-bisphosphate_6"
+	"Glucose 6-phosphate or fructose-6-phosphate_1"
+	"Glucose 6-phosphate or fructose-6-phosphate_2"
+	"Glucose 6-phosphate or fructose-6-phosphate_3"
+	"Glucose 6-phosphate or fructose-6-phosphate_4"
+	"Glucose 6-phosphate or fructose-6-phosphate_5"
+	"Glucose 6-phosphate or fructose-6-phosphate_6"
+	"Glutamate_1"
+	"Glutamate_2"
+	"Glutamate_3"
+	"Glutamate_4"
+	"Glutamate_5"
+	"Lactate_1"
+	"Lactate_2"
+	"Lactate_3"
+	"Malate_1"
+	"Malate_2"
+	"Malate_3"
+	"Malate_4"
+	"Malonyl-CoA_1"
+	"Malonyl-CoA_2"
+	"Malonyl-CoA_3"
+	"Nicotinamide Adenine Dinucleotide oxidized_1"
+	"Nicotinamide Adenine Dinucleotide oxidized_2"
+	"Nicotinamide Adenine Dinucleotide oxidized_3"
+	"Nicotinamide Adenine Dinucleotide oxidized_4"
+	"Nicotinamide Adenine Dinucleotide oxidized_5"
+	"Nicotinamide Adenine Dinucleotide reduced_1"
+	"Nicotinamide Adenine Dinucleotide reduced_2"
+	"Nicotinamide Adenine Dinucleotide reduced_3"
+	"Nicotinamide Adenine Dinucleotide reduced_4"
+	"Nicotinamide Adenine Dinucleotide reduced_5"
+	"Phosphoenolpyruvate_1"
+	"Phosphoenolpyruvate_2"
+	"Phosphoenolpyruvate_3"
+	"Ribose-5-phosphate or xylulose 5-phosphate_1"
+	"Ribose-5-phosphate or xylulose 5-phosphate_2"
+	"Ribose-5-phosphate or xylulose 5-phosphate_3"
+	"Ribose-5-phosphate or xylulose 5-phosphate_4"
+	"Ribose-5-phosphate or xylulose 5-phosphate_5"
+	"Sedoheptulose 7-phosphate_1"
+	"Sedoheptulose 7-phosphate_2"
+	"Sedoheptulose 7-phosphate_3"
+	"Sedoheptulose 7-phosphate_4"
+	"Sedoheptulose 7-phosphate_5"
+	"Sedoheptulose 7-phosphate_6"
+	"Sedoheptulose 7-phosphate_7"
+	"Sucrose_1"
+	"Sucrose_2"
+	"Sucrose_3"
+	"Sucrose_4"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"Fructose 1,6-bisphosphate"
+	"Fructose 1,6-bisphosphate"
+	"Fructose 1,6-bisphosphate"
+	"Fructose 1,6-bisphosphate"
+	"Fructose 1,6-bisphosphate"
+	"Fructose 1,6-bisphosphate"
+	"Fructose 1,6-bisphosphate"
+Warning: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table appear more than once in the table:
+	"3-Glycerophosphate"
+	"3-Glycerophosphate"
+	"3-Glycerophosphate"
+	"3-phosphoglyceraldehyde"
+	"3-phosphoglyceraldehyde"
+	"3-phosphoglyceraldehyde"
+	"Erythrose 4-phosphate"
+	"Erythrose 4-phosphate"
+	"Erythrose 4-phosphate"
+	"Erythrose 4-phosphate"
+	"Fructose 1,6-bisphosphate"
+	"Fructose 1,6-bisphosphate"
+	"Fructose 1,6-bisphosphate"
+	"Fructose 1,6-bisphosphate"
+	"Fructose 1,6-bisphosphate"
+	"Fructose 1,6-bisphosphate"
+	"Glucose 6-phosphate or fructose-6-phosphate"
+	"Glucose 6-phosphate or fructose-6-phosphate"
+	"Glucose 6-phosphate or fructose-6-phosphate"
+	"Glucose 6-phosphate or fructose-6-phosphate"
+	"Glucose 6-phosphate or fructose-6-phosphate"
+	"Glucose 6-phosphate or fructose-6-phosphate"
+	"Glutamate"
+	"Glutamate"
+	"Glutamate"
+	"Glutamate"
+	"Glutamate"
+	"Lactate"
+	"Lactate"
+	"Lactate"
+	"Malate"
+	"Malate"
+	"Malate"
+	"Malate"
+	"Malonyl-CoA"
+	"Malonyl-CoA"
+	"Malonyl-CoA"
+	"Nicotinamide Adenine Dinucleotide oxidized"
+	"Nicotinamide Adenine Dinucleotide oxidized"
+	"Nicotinamide Adenine Dinucleotide oxidized"
+	"Nicotinamide Adenine Dinucleotide oxidized"
+	"Nicotinamide Adenine Dinucleotide oxidized"
+	"Nicotinamide Adenine Dinucleotide reduced"
+	"Nicotinamide Adenine Dinucleotide reduced"
+	"Nicotinamide Adenine Dinucleotide reduced"
+	"Nicotinamide Adenine Dinucleotide reduced"
+	"Nicotinamide Adenine Dinucleotide reduced"
+	"Phosphoenolpyruvate"
+	"Phosphoenolpyruvate"
+	"Phosphoenolpyruvate"
+	"Ribose-5-phosphate or xylulose 5-phosphate"
+	"Ribose-5-phosphate or xylulose 5-phosphate"
+	"Ribose-5-phosphate or xylulose 5-phosphate"
+	"Ribose-5-phosphate or xylulose 5-phosphate"
+	"Ribose-5-phosphate or xylulose 5-phosphate"
+	"Sedoheptulose 7-phosphate"
+	"Sedoheptulose 7-phosphate"
+	"Sedoheptulose 7-phosphate"
+	"Sedoheptulose 7-phosphate"
+	"Sedoheptulose 7-phosphate"
+	"Sedoheptulose 7-phosphate"
+	"Sedoheptulose 7-phosphate"
+	"Sucrose"
+	"Sucrose"
+	"Sucrose"
+	"Sucrose"
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "other_id" and "other_id_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "moverz_quant" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

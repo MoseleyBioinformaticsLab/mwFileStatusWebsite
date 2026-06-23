@@ -1,8 +1,176 @@
 Validation Log
-2025-12-07 02:37:21.314871
-mwtab Python Library Version: 1.2.5
+2026-06-21 02:08:18.696297
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000834/mwtab/txt
 Study ID:      ST000547
 Analysis ID:   AN000834
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 17
+
+Number of Warnings: 7
+
+Number of Value Errors: 15
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "PROJECT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "900 L/h", for the subsection, "DESOLVATION_GAS_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "400 µL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "45C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "600 µL", for the subsection, "WEAK_WASH_VOLUME", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "200 µL", for the subsection, "STRONG_WASH_VOLUME", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "6C", for the subsection, "TARGET_SAMPLE_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "20 µL", for the subsection, "SAMPLE_LOOP_SIZE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "quantified m/z" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 4 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 4 in the METABOLITES table, matches a standard column name, "pubchem_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+26      164.0483
+31       94.0415
+62      375.1171
+71      167.0225
+72      161.0488
+73       133.054
+90      148.0538
+122     219.1116
+123      201.101
+157     344.1246
+160     145.0536
+172     238.1419
+175     375.1166
+176     315.0965
+181     187.0646
+190      119.074
+203     171.1265
+223      196.122
+271     205.0388
+276     161.0487
+277     133.0538
+278     207.0544
+280     183.1275
+283     225.1374
+284     161.1793
+295      388.222
+296     210.1381
+311     213.1376
+319     266.1646
+333     206.2139
+338     187.0649
+342     234.1109
+343     172.0745
+349     380.1677
+358     222.1977
+362     321.2066
+370     192.1159
+371     250.1577
+386     161.0487
+387     377.2321
+394     145.0537
+409     333.2061
+417     145.0537
+418     145.1771
+420      191.059
+423     488.3016
+424     541.2655
+446      261.137
+450     136.0897
+451     178.1002
+465     394.1843
+466     172.0745
+484     345.2061
+518     216.1011
+519     172.0745
+520      128.048
+521     100.0522
+522     172.2101
+551     150.1053
+576     444.2274
+582     304.1441
+590     584.2695
+593      312.101
+597      244.132
+603     372.1219
+605     306.1599
+608     372.1217
+611     318.1583
+616     197.1426
+618      152.121
+619     169.1472
+627     208.1105
+628     162.1052
+659     116.1233
+687     370.2513
+690     183.1632
+696       211.31
+700     110.0729
+709     396.1733
+721     215.1892
+722     180.1521
+737     164.1211
+740      192.116
+749     108.0576
+752     388.2617
+759      96.0572
+769     310.2154
+780     479.2711
+782      356.236
+792     243.1847
+794     197.1791
+802     225.3309
+804      96.0571
+814     108.0943
+823     296.2359
+825     370.2502
+826     423.2995
+837     178.1369
+842     386.2462
+858       294.22
+863     390.2814
+879     372.2718
+881      336.246
+883     408.2895
+884     372.4692
+896     272.2129
+919     372.2684
+920     336.2458
+922     344.2384
+923     372.4693
+929      325.226
+934     358.2511
+938     352.2397
+940      406.273
+941     270.1634
+944     278.2251
+945     812.5478
+949     390.2792
+952     372.4695
+955     354.2562
+966     406.2725
+973     192.1522
+974     227.1894
+982      372.263
+984     412.2982
+986     370.2501
+998     370.2502
+1004    370.2509
+1028    286.1424
+1031    372.2649
+1032    816.5791
+1046    372.2634
+1056    400.2465
+1059     375.254
+1062    354.2564
+1063    390.2777
+1067     388.262
+1082     372.267
+1085    356.2728
+1089    326.0719
+Warning: The "KEGG ID" column at position 5 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention index" column at position 2 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "retention index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
+Warning: The "KEGG ID" column at position 5 in the METABOLITES table has all null values.

@@ -1,8 +1,194 @@
 Validation Log
-2025-12-07 07:11:44.519499
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:34:01.796988
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004599/mwtab/json
 Study ID:      ST002822
 Analysis ID:   AN004599
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 10
+
+Number of Value Errors: 15
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["FLOW_GRADIENT"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "-", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "-", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["SOLVENT_A"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["SOLVENT_B"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Warning: The "INCHIKEY" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "INCHIKEY" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+3      ZHCKPJGJQOPTLB-UHFFFAOYAW
+4      UJCGYTCAMOHYCG-UHFFFAOYAA
+5      VJQCNCOGZPSOQZ-UHFFFAOYAR
+6      FHQDWPCFSJMNCT-UHFFFAOYAR
+7      LDHMAVIPBRSVRG-UHFFFAOYAE
+8      AHPWEWASPTZMEK-UHFFFAOYAY
+9      RDFMDVXONNIGBC-UHFFFAOYAG
+10     OLXZPDWKRNYJJZ-RRKCRQDMBK
+11     CKTSBUTUHBMZGZ-SHYZEUOFBO
+12     IHCPDBBYTYJYIL-UHFFFAOYAT
+13     XROYFEWIXXCPAW-UHFFFAOYAB
+14     ARBHXJXXVVHMET-UHFFFAOYAC
+15     YCCMTCQQDULIFE-UHFFFAOYAX
+16     QCHPKSFMDHPSNR-UHFFFAOYAN
+17     OLNJUISKUQQNIM-UHFFFAOYAL
+22     JSJWCHRYRHKBBW-UHFFFAOYAH
+23     TUHVEAJXIMEOSA-UHFFFAOYAM
+24     HBDWQSHEVMSFGY-SCQFTWEKBW
+25     PRJKNHOMHKJCEJ-UHFFFAOYAF
+26     JJMDCOVWQOJGCB-UHFFFAOYAD
+27     YSMODUONRAFBET-UHFFFAOYAX
+28     WUUGFSXJNOTRMR-IOSLPCCCBD
+29     RDHQFKQIGNGIED-MRVPVSSYBU
+31     GFFGJBXGBJISGV-UHFFFAOYAT
+32     OIRDTQYFTABQOQ-KQYNXXCUBX
+33     UDMBCSSLTHHNCD-RWLQFSFNBF
+34                          4000
+35     QNAYBMKLOCPYGJ-REOHCLBHBS
+36     RDIKFPRVLJLMER-UHFFFAOYAD
+37     MYYIAHXIVFADCU-QMMMGPOBBJ
+38     ODKSFYDXXFIFQN-UHFFFAOYAT
+39     CIWBSHSKHKDKBQ-JLAZNSOCBT
+40     DCXYFEDJOCDNAF-REOHCLBHBD
+41     CKLJMWTZIZZHCS-REOHCLBHBW
+43     UCMIRNVEIXFBKS-UHFFFAOYAL
+44     IGLHHSKNBDXCEY-UHFFFAOYAG
+45     KWIUHFFTVRNATP-UHFFFAOYAI
+47     QWYFHHGCZUCMBN-SECBINFHBA
+48     PHIQHXFUZVPYII-ZCFIWIBFBS
+49     CQOVPNPJLQNMDC-ZETCQYMHBX
+50     CPXSBHKDEPPWIX-RAYCSJGIBM
+51     CRBHXDCYXIISFC-UHFFFAOYAW
+52     YHHSONZFOIEMCP-UHFFFAOYAD
+53     RHGKLRLOHDJJDR-UHFFFAOYAQ
+54     CVSVTCORWBXHQV-UHFFFAOYAV
+55     DDRJAANPRJIHGJ-UHFFFAOYAV
+56     ILRYLPWNYFXEMH-UHFFFAOYAH
+57     XUJNEKJLAYXESH-REOHCLBHBU
+58     BNRXZEPOHPEEAS-UHFFFAOYAL
+59     ZUKPVRWZDMRIEO-UHFFFAOYAS
+60     UHDGCWIWMRVCDJ-XVFCMESIBD
+61     IERHLVCPSMICTF-FHLVPPQOBD
+62     OPTASPLRGRRNAP-UHFFFAOYAY
+63     JHPNVNIEXXLNTR-UHFFFAOYAL
+64     GNGACRATGGDKBX-NUQVWONBAJ
+65     HHVIBTZHLRERCL-UHFFFAOYAG
+66     YDGMGEXADBMOMJ-LURJTMIEBT
+67     FFDGPVCHZBVARC-UHFFFAOYAX
+68     SSISHJJTAXXQAX-UHFFFAOYAO
+69     BFSYFTQDGRDJNV-QCNRFFRDBO
+70     LNLLNTMHVMIMOG-YUMQZZPRBS
+71     JPKNLFVGUZRHOB-YUMQZZPRBM
+72     OWQDWQKWSLFFFR-WDSKDSINBR
+73     JBFYFLXEJFQWMU-WDSKDSINBP
+74     MYFMARDICOWMQP-YUMQZZPRBM
+75     GWNXFCYUJXASDX-JUZNGCLZBW
+76     SITLTJHOQZFJGG-UUEFVBAFBQ
+77     WHUUTDBJXJRKMK-UHFFFAOYAD
+78     ZGEYCCHDTIDZAE-UHFFFAOYAN
+79     ZDXPYRJPNDTMRX-VKHMYHEABV
+80     YPZRWBKMTBYPTK-BJDJZHNGBD
+81     RWSXRVCMGQZWBV-WDSKDSINBK
+82     SUHOQUVVVLNYQR-MRVPVSSYBR
+83     ZWZWYGMENQVNFU-AKGZTFGVBY
+84     DHMQDGOQFOQNFH-UHFFFAOYAW
+85     DKEXFJVMVGETOO-LURJTMIEBJ
+86     STKYPAFSDFAEPH-LURJTMIEBB
+87     BPMFZUMJYQTVII-UHFFFAOYAQ
+88     UYTPUPDQBNUYGX-UHFFFAOYAE
+89     NYHBQMYGNKIUIF-UUOKFMHZBU
+90     NTYJJOPFIAHURM-UHFFFAOYAP
+91     GPPYTCRVKHULJH-UHFFFAOYAG
+92     BXRMEWOQUXOLDH-LURJTMIEBZ
+93     XULZWQRXYTVUTE-ZETCQYMHBF
+95     ACZFBYCNAVEFLC-YFKPBYRVBI
+96     ZCKYOWGFRHAZIQ-UHFFFAOYAI
+97     GRSZFWQUAKGDAV-RWLQFSFNBK
+99     AGPKZVBTJJNPAG-UHFFFAOYAW
+100    YGPSJZOEDVAXAB-QMMMGPOBBJ
+102    HSQGMTRYSIHDAC-UHFFFAOYAG
+103    JYOAXOMPIXKMKK-UHFFFAOYAJ
+104    LESXFEZIFXFIQR-UHFFFAOYAD
+105    KDXKERNSBIXSRK-YFKPBYRVBE
+106    ZGNBLKBZJBJFDG-UHFFFAOYAY
+107    FFEARJCKVFRZRR-BYPYZUCNBW
+108    QEFRNWWLZKMPFJ-YGVKFDHGBW
+109    CDLVFVFTRQPQFU-UHFFFAOYAF
+111    QCYOIFVBYZNUNW-BYPYZUCNBG
+113    QQBGTSSELNKRID-IOSLPCCCBM
+114    MXNRLFUSFKVQSK-UHFFFAOYAO
+115    XXEWFEBMSGLYBY-ZETCQYMHBT
+116    NUXSIDPKKIEIMI-UHFFFAOYAH
+117    PQNASZJZHFPQLE-LURJTMIEBL
+118    SNEIUMQYRCDYCH-LURJTMIEBE
+119    HXFOXFJUNFFYMO-BYPYZUCNBZ
+120    OPVPGKGADVGKTG-UHFFFAOYAF
+121    YTTRPBWEMMPYSW-VFFCQLMOBE
+122    KSMRODHGGIIXDV-YFKPBYRVBV
+123    KBOJOGQFRVVWBH-ZETCQYMHBN
+124    NPIMMZJBURSMON-UHFFFAOYAA
+125    KBGAYAKRZNYFFG-BOHATCBPBL
+126    KLZGKIDSEJWEDW-UHFFFAOYAE
+127    JJIHLJJYMXLCOY-BYPYZUCNBM
+128    DFPAKSUCGFBDDF-UHFFFAOYAZ
+129    USSFUVKEHXDAPM-UHFFFAOYAT
+130    DAYLJWODMCOQEW-TURQNECABR
+132    CWLQUGTUXBXTLF-UHFFFAOYAJ
+133    NTNWOCRCBQPEKQ-YFKPBYRVBT
+134    MWZPENIJLUWBSY-UHFFFAOYAX
+135    JCMUOFQHZLPHQP-UHFFFAOYAD
+136    AHLPHDHHMVZTML-BYPYZUCNBZ
+138    ZNXZGRMVNNHPCA-VIFPVBQEBP
+139    UTYVDVLMYQPLQB-UHFFFAOYAZ
+140    COLNVLDHVKWLRT-QMMMGPOBBC
+141    MIDZLCFIAINOQN-WPRPVWTQBF
+142    GLUBLISJVJFHQS-UHFFFAOYAD
+144    ONPXCLZMBSJLSP-ALKRTJFJBT
+145    ONIBWKKTOPOVIA-BYPYZUCNBZ
+146    RNKSNIBMTUYWSH-YFKPBYRVBZ
+147    UFAHZIUFPNSHSL-UHFFFAOYAT
+148    KIDHWZJUCRJVML-UHFFFAOYAX
+149    NHZMQXZHNVQTQA-UHFFFAOYAS
+150    ZMJGSOSNSPKHNH-UHFFFAOYAM
+152    MTCFGRXMJLQNBG-REOHCLBHBX
+153    QZAYGJVTTNCVMB-UHFFFAOYAX
+154    ATHGHQPFGPMSJY-UHFFFAOYAK
+155    PFNFFQXMRSDOHW-UHFFFAOYAC
+156    CMUNUTVVOOHQPW-LURJTMIEBI
+158    XOAAWQZATWQOTB-UHFFFAOYAA
+159    JKLRIMRKZBSSED-UHFFFAOYAU
+161    DZLNHFMRPBPULJ-VKHMYHEABX
+162    AYFVYJQAPQTCCC-GBXIJSLDBG
+163    WURBQCVBQNMUQT-RMKNXTFCBN
+164    PMMYEEVYMWASQN-DMTCNVIQBF
+165    SEQKRHFRPICQDD-UHFFFAOYAK
+166    GSEJCLTVZPLZKY-UHFFFAOYAL
+167    WWNNZCOKKKDOPX-UHFFFAOYAV
+168    UYPYRKYUKCHHIB-UHFFFAOYAU
+169    PIEPQKCYPFFYMG-UHFFFAOYAE
+170    QIVBCDIJIAJPQS-VIFPVBQEBP
+171    OUYCCCASQSFEME-QMMMGPOBBZ
+172    XSQUKJJJFZCRTK-UHFFFAOYAF
+173    KZSNJWFQEVHDMF-BYPYZUCNBW
+200    LRFVTYWOQMYALW-UHFFFAOYAT
+Warning: The "SUPER_PATHWAY" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "SUB_PATHWAY" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PUBCHEM" column at position 12 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHEMSPIDER" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "chemspider_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+16               214139-20-5,10569-72-9
+23                     463-003,463-00-3
+43                     107-95-9,56-41-7
+57                      56-89-3,52-90-4
+78                  1499-55-4,1499-55-4
+151    86867-01-8,24346-00-7,86867-0108

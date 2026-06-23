@@ -1,8 +1,34 @@
 Validation Log
-2025-12-07 03:30:14.357958
-mwtab Python Library Version: 1.2.5
+2026-06-21 02:47:41.651997
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001533/mwtab/txt
 Study ID:      ST000935
 Analysis ID:   AN001533
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 0
+
+Number of Value Errors: 3
+
+Number of Consistency Errors: 7
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The value, "MS MS MS", for the subsection, "ANALYSIS_TYPE", in the "ANALYSIS" section is not one of ['MS', 'NMR'].
+Error: The value, "NEGATIVE NEGATIVE", for the subsection, "ION_MODE", in the "MS" section should be one of "Positive", "Negative", "Positive, Negative", or "Unspecified". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Error: The section, CHROMATOGRAPHY, has a sub-section, CHROMATOGRAPHY_SUMMARY, that is duplicated.
+Error: The section, CHROMATOGRAPHY, has a sub-section, CHROMATOGRAPHY_TYPE, that is duplicated.
+Error: The section, CHROMATOGRAPHY, has a sub-section, INSTRUMENT_NAME, that is duplicated.
+Error: The section, ANALYSIS, has a sub-section, ANALYSIS_TYPE, that is duplicated.
+Error: The section, MS, has a sub-section, INSTRUMENT_NAME, that is duplicated.
+Error: The section, MS, has a sub-section, MS_TYPE, that is duplicated.
+Error: The section, MS, has a sub-section, ION_MODE, that is duplicated.

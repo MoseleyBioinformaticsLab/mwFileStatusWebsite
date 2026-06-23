@@ -1,8 +1,96 @@
 Validation Log
-2025-12-07 01:07:45.029230
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:08:44.068032
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000004/mwtab/txt
 Study ID:      ST000004
 Analysis ID:   AN000004
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 29
+
+Number of Warnings: 9
+
+Number of Value Errors: 21
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "PROJECT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "40-50", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "SAMPLEPREP_SUMMARY", in the "SAMPLEPREP" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "INSTRUMENT_NAME", in the "MS" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "INSTRUMENT_TYPE", in the "MS" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "-", for the subsection, "ION_MODE", in the "MS" section should be one of "Positive", "Negative", "Positive, Negative", or "Unspecified". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "CHROMATOGRAPHY_TYPE", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "INSTRUMENT_NAME", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "COLUMN_NAME", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"11_12-DiHETrE"
+	"11_14_17-eicosatrienoic acid"
+	"11_14-eicosadienoic acid"
+	"12_13-DiHOME"
+	"13_14-dihydro-15-keto-PGD2"
+	"13_14-dihydro-15-keto-PGE2"
+	"13_14-dihydro-15-keto-PGF2alpha"
+	"13_16_19-docosatrienoic acid"
+	"13_16-docosadienoic acid"
+	"14_15-DiHETrE"
+	"14_15-EpETrE"
+	"15-deoxy-delta-12_14-PGD2"
+	"15-deoxy-delta-12_14-PGJ2"
+	"19_20-DiHDPE"
+	"2_3-dinor-11b-PGF2alpha"
+	"5_6-DiHETrE"
+	"5_6-EpETrE"
+	"5_8_11_14_17-eicosapentaenoic acid"
+	"5_8_11-eicosatrienoic acid"
+	"5S_15S-DiHETE"
+	"5S_6S-Lipoxin A4"
+	"7_10_13_16_19-docosapentaenoic acid"
+	"7Z_10Z_13Z_16Z-docosatetraenoic acid"
+	"8_9-DiHETrE"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"11,12-DiHETrE"
+	"11,14,17-eicosatrienoic acid"
+	"11,14-eicosadienoic acid"
+	"12,13-DiHOME"
+	"13,14-dihydro-15-keto-PGD2"
+	"13,14-dihydro-15-keto-PGE2"
+	"13,14-dihydro-15-keto-PGF2alpha"
+	"13,16,19-docosatrienoic acid"
+	"13,16-docosadienoic acid"
+	"14,15-DiHETrE"
+	"14,15-EpETrE"
+	"15-deoxy-delta-12,14-PGD2"
+	"15-deoxy-delta-12,14-PGJ2"
+	"19,20-DiHDPE"
+	"2,3-dinor-11b-PGF2alpha"
+	"5,6-DiHETrE"
+	"5,6-EpETrE"
+	"5,8,11,14,17-eicosapentaenoic acid"
+	"5,8,11-eicosatrienoic acid"
+	"5S,15S-DiHETE"
+	"5S,6S-Lipoxin A4"
+	"7,10,13,16,19-docosapentaenoic acid"
+	"7Z,10Z,13Z,16Z-docosatetraenoic acid"
+	"8,9-DiHETrE"
+Warning: The "ri" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "moverz_quant" column at position 2 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 3 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 4 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 6 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 8 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 9 in the METABOLITES table has all null values.

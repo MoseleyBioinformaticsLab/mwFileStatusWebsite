@@ -1,0 +1,84 @@
+Validation Log
+2026-06-21 08:13:03.844414
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008049/mwtab/txt
+Study ID:      ST004760
+Analysis ID:   AN008049
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 65
+
+Number of Warnings: 0
+
+Number of Value Errors: 63
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 2
+
+Issue Log:
+Error: Unknown or invalid subsection, "PUBLICATION_DOI", in the "PROJECT" section .
+Error: The value, "6-15", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "20-44", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "116-152", for the subsection, "HEIGHT_OR_HEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['cm', 'in']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "320Â°C", for the subsection, "CAPILLARY_TEMPERATURE", in the "MS" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "-3.8 kV (negative)", for the subsection, "CAPILLARY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "COLLISION_ENERGY", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "N/A", for the subsection, "COLLISION_GAS", in the "MS" section should be one of "Nitrogen" or "Argon". Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", for the subsection, "DRY_GAS_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", for the subsection, "DRY_GAS_TEMP", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", for the subsection, "FRAGMENT_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "FRAGMENTATION_METHOD", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "N/A", for the subsection, "GAS_PRESSURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['psi', 'psig', 'bar', 'kPa']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", for the subsection, "HELIUM_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", for the subsection, "ION_SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", for the subsection, "ION_SPRAY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", for the subsection, "IONIZATION_ENERGY", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['eV']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "IONIZATION_POTENTIAL", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "PRECURSOR_TYPE", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "REAGENT_GAS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "N/A", for the subsection, "SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "ACTIVATION_PARAMETER", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "N/A", for the subsection, "ACTIVATION_TIME", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ms']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "ATOM_GUN_CURRENT", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "BOMBARDMENT", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "CDL_TEMPERATURE", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "N/A", for the subsection, "DESOLVATION_GAS_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", for the subsection, "DESOLVATION_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "INTERFACE_VOLTAGE", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "LASER", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "MATRIX", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "NEBULIZER", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "N/A", for the subsection, "OCTPOLE_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "PROBE_TIP", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "SAMPLE_DRIPPING", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "SCANNING_CYCLE", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "TUBE_LENS_VOLTAGE", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "25Â°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "10 Î¼L", for the subsection, "SAMPLE_INJECTION", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "METHODS_ID", in the "CHROMATOGRAPHY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "N/A", for the subsection, "COLUMN_PRESSURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['psi', 'bar']. Ignore this when more complicated descriptions are required.
+Error: The value, "5Â°C", for the subsection, "INJECTION_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "INTERNAL_STANDARD", in the "CHROMATOGRAPHY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "INTERNAL_STANDARD_MT", in the "CHROMATOGRAPHY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "RETENTION_INDEX", in the "CHROMATOGRAPHY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "RETENTION_TIME", in the "CHROMATOGRAPHY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "SAMPLING_CONE", in the "CHROMATOGRAPHY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "26 minutes", for the subsection, "ANALYTICAL_TIME", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['min']. Ignore this when more complicated descriptions are required.
+Error: The value, "+3.8 kV (positive), -3.8 kV (negative)", for the subsection, "CAPILLARY_VOLTAGE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "MIGRATION_TIME", in the "CHROMATOGRAPHY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "PRECONDITIONING", in the "CHROMATOGRAPHY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "RUNNING_BUFFER", in the "CHROMATOGRAPHY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "N/A", for the subsection, "RUNNING_VOLTAGE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "SHEATH_LIQUID", in the "CHROMATOGRAPHY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "N/A", for the subsection, "TRANSFERLINE_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "WASHING_BUFFER", in the "CHROMATOGRAPHY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "WEAK_WASH_SOLVENT_NAME", in the "CHROMATOGRAPHY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "N/A", for the subsection, "WEAK_WASH_VOLUME", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "STRONG_WASH_SOLVENT_NAME", in the "CHROMATOGRAPHY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "N/A", for the subsection, "STRONG_WASH_VOLUME", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "5Â°C", for the subsection, "TARGET_SAMPLE_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", for the subsection, "SAMPLE_LOOP_SIZE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", for the subsection, "SAMPLE_SYRINGE_SIZE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid subsection, "SOLVENT_C", in the "CHROMATOGRAPHY" section .

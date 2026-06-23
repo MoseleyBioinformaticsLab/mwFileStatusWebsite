@@ -1,8 +1,38 @@
 Validation Log
-2025-12-07 01:56:04.595158
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:41:57.502938
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000602/mwtab/txt
 Study ID:      ST000368
 Analysis ID:   AN000602
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 18
+
+Number of Warnings: 5
+
+Number of Value Errors: 12
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 3
+
+Issue Log:
+Error: The value, "M/F", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "HUMAN_FASTING", in the "TREATMENT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "1 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "50-330C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "230C", for the subsection, "TRANSFERLINE_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "30 m length x 0.25 mm internal diameter", for the subsection, "SAMPLE_LOOP_SIZE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Error: SUBJECT_SAMPLE_FACTORS section missing sample ID(s). The following IDs were found in the MS_METABOLITE_DATA section but not in the SUBJECT_SAMPLE_FACTORS:
+	""
+Warning: The "quant mz" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "mass spec" column at position 5 in the METABOLITES table, matches a standard column name, "mass_spectrum". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "BB id" column at position 4 in the METABOLITES table, matches a standard column name, "binbase_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ret.index" column at position 2 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "ret.index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
+Error: Column(s) with no name were found in the MS_METABOLITE_DATA table.
+Error: The section, MS_METABOLITE_DATA, has a mismatch between the number of headers and the number of elements in each line. Either a line(s) has more values than headers or there are too few headers.

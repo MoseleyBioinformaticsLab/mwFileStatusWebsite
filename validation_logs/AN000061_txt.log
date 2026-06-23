@@ -1,8 +1,51 @@
 Validation Log
-2025-12-07 01:10:35.260545
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:10:56.692112
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000061/mwtab/txt
 Study ID:      ST000040
 Analysis ID:   AN000061
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 18
+
+Number of Warnings: 8
+
+Number of Value Errors: 15
+
+Number of Consistency Errors: 1
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "STUDY_SUMMARY", in the "STUDY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "ADDRESS", in the "STUDY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "Young Adult", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value for the subsection, "TREATMENT_DOSEDURATION", in the "TREATMENT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['h', 'weeks', 'days']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "ANIMAL_ACCLIMATION_DURATION", in the "TREATMENT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "3 ?L", for the subsection, "SAMPLE_INJECTION", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"1_2_3-Trihydroxybenzene"
+	"3-Hydroxy-2-methyl-[R-(R_S)]-butanoic acid"
+	"5^-Methylthioadenosine"
+	"Cytidine 2^_3^-cyclic phosphate"
+	"LysoPE(0:0/18:2(9Z_12Z))"
+	"LysoPE(0:0/20:2(11Z_14Z))"
+	"LysoPE(0:0/20:3(11Z_14Z_17Z))"
+	"LysoPE(0:0/20:4(5Z_8Z_11Z_14Z))"
+	"LysoPE(0:0/20:5(5Z_8Z_11Z_14Z_17Z))"
+	"N^-Formylkynurenine"
+	"Pyridoxal 5^-phosphate"
+	"Uridine 2^_3^-cyclic phosphate"
+	"Uridine 5^-monophosphate"
+Warning: The "kegg_id" column at position 7 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+107    icas#9
+Warning: The "ri" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "moverz_quant" column at position 2 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 4 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "other_id_type" column at position 9 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

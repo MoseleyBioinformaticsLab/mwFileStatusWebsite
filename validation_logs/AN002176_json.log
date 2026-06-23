@@ -1,8 +1,31 @@
 Validation Log
-2025-12-07 04:09:35.690050
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:19:55.182595
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002176/mwtab/json
 Study ID:      ST001307
 Analysis ID:   AN002176
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 12
+
+Number of Warnings: 6
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected in ["MS"]["MS_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "quantitated m/z" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Exact mass molecule" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Chemical Formula" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Retention times (sec)" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "rindex" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "rindex" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.

@@ -1,8 +1,41 @@
 Validation Log
-2025-12-07 03:51:02.508421
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:04:56.158353
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001885/mwtab/json
 Study ID:      ST001143
 Analysis ID:   AN001885
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 18
+
+Number of Warnings: 13
+
+Number of Value Errors: 10
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "SUPER_PATHWAY" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "SUB_PATHWAY" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 12 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHEMSPIDER" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "chemspider_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+3     123-94-4;31566-31-1
+6      59-02-9;10191-41-0
+9        56-41-7;107-95-9
+15        52-90-4;56-89-3
+Warning: The "COMP_ID" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHEMICAL_ID" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention index" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "COMP_ID" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The column "retention index" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "COMP_ID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.

@@ -1,8 +1,167 @@
 Validation Log
-2025-12-07 08:43:54.231099
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:37:50.934850
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005804/mwtab/json
 Study ID:      ST003533
 Analysis ID:   AN005804
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 16
+
+Number of Warnings: 11
+
+Number of Value Errors: 12
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.1mL/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "25", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"1-(1Z-Octadecenyl)-2-(5Z_8Z_11Z_14Z-eicosatetraenoyl)-sn-glycero-3-phosphoethanolamine"
+	"1_2-Di(4Z_7Z_10Z_13Z_16Z_19Z-docosahexaenoyl)-sn-glycero-3-phosphoethanolamine"
+	"1_2-Di-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine"
+	"1_2-Diamino-2-methylpropane"
+	"1_2-Didocosahexaenoyl-sn-glycero-3-phosphocholine"
+	"1_2-Dihexadecanoyl-sn-glycero-3-phosphocholine"
+	"1_2-Dioleoyl-sn-glycero-3-phosphoethanolamine-N_N-dimethyl"
+	"1_2-Dipentadecanoyl-sn-glycero-3-phosphocholine"
+	"1_2-Distearoyl-sn-glycero-3-phosphocholine"
+	"13-Docosenamide_ (Z)-"
+	"1_5-Pentanediamine"
+	"1H-1_2_4-Triazol-3-amine"
+	"1-Hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phospho-(1^-myo-inositol)"
+	"1-Octadecanoyl-2-(4Z_7Z_10Z_13Z_16Z_19Z-docosahexaenoyl)-sn-glycero-3-phosphocholine"
+	"1-Octadecanoyl-2-(4Z_7Z_10Z_13Z_16Z_19Z-docosahexaenoyl)-sn-glycero-3-phosphoethanolamine"
+	"1-Octadecanoyl-2-(4Z_7Z_10Z_13Z_16Z_19Z-docosahexaenoyl)-sn-glycero-3-phospho-L-serine"
+	"1-Octadecanoyl-2-(5Z_8Z_11Z_14Z-eicosatetraenoyl)-sn-glycero-3-phospho-(1^-myo-inositol)"
+	"1-Octadecanoyl-2-(5Z_8Z_11Z_14Z-eicosatetraenoyl)-sn-glycero-3-phosphocholine"
+	"1-Octadecanoyl-2-(5Z_8Z_11Z_14Z-eicosatetraenoyl)-sn-glycero-3-phosphoethanolamine"
+	"1-Octadecanoyl-2-(5Z_8Z_11Z_14Z-eicosatetraenoyl)-sn-glycero-3-phosphoserine"
+	"2_2^-Diaminodiphenyldisulfide"
+	"2_3-Dihydroxy-3-methylbutyric acid"
+	"2^_4^-Dihydroxy-2-methoxychalcone"
+	"2^-Hydroxy-3^_4^_4-trimethoxychalcone"
+	"2^-Hydroxy-3_4_4^-trimethoxychalcone"
+	"2^-Hydroxy-3_4_5^-trimethoxychalcone"
+	"2^-Hydroxy-5^-methylchalcone"
+	"2-Methyl-1_4-butanediol"
+	"3_2^_4^_5^_6-Pentamethoxyflavone"
+	"3_5-Dicarbethoxy-1_4-dihydrocollidine"
+	"(3-amino-1H-1_2_4-triazol-5-yl)methanol"
+	"3-Pyridinecarboxamide_ 1_6-dihydro-1-methyl-6-oxo-"
+	"4_4^-Sulfonylbisphenol"
+	"(4E_7E_10Z_13E_16E_19E)-docosa-4_7_10_13_16_19-hexaenoic acid"
+	"5^-Deoxy-5^-&lt;WBR&gt;(methylthio)adenosine"
+	"5(Z)_8(Z)_14(Z)-Eicosatrienoic Acid"
+	"8_11-eicosadiynoic acid"
+	"8-Hydroxy-2^-deoxyguanosine"
+	"9-Octadecenamide_ (Z)-"
+	"Adenine_ N6-methyl"
+	"Adenosine_ 5^-S-methyl-5^-thio-"
+	"Benzaldehyde_ 2-hydroxy-4-methoxy-"
+	"Benzoic acid_ 2_6-dihydroxy-"
+	"Benzoic acid_ 2-fluoro-"
+	"Benzoic acid_ 3-amino-"
+	".beta.-D-Glucopyranose_ 1_6-anhydro-"
+	"Butanoic acid_ 2-amino-_ (S)-"
+	"cis-4_7_10_13_16_19-Docosahexaenoic acid"
+	"Cytidine 5^-diphosphocholine"
+	"Cytidine_ 5-methyl-"
+	"D-Arabinono-1_4-lactone"
+	"DIMETHYL 4_4-o-PHENYLENE-BIS (3-THIOPHANATE)"
+	"DL-2_3-Diaminopropionic acid"
+	"DL-2_4-Diaminobutyric acid"
+	"DL-Homocysteine_ S-ethyl-"
+	"ethyl 6_7-dimethoxy-4-oxo-2_3-dihydro-1H-naphthalene-2-carboxylate"
+	"Glutathione_ oxidized"
+	"Hexanedioic acid_ 2-amino-"
+	"Kavain_ DL-"
+	"L-Histidine_ 1-methyl-"
+	"L-Histidine_ 3-methyl-"
+	"NG_NG-Dimethyl-L-arginine"
+	"S-(5^-Adenosyl)-L-homocysteine"
+	"S-(5^-Adenosyl)-L-methionine cation"
+	"Thymidine 3^_5^-cyclic monophosphate"
+	"Uridine 5^-diphosphate"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"1-(1Z-Octadecenyl)-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-3-phosphoethanolamine"
+	"1,2-Di(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-glycero-3-phosphoethanolamine"
+	"1,2-Di-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine"
+	"1,2-Diamino-2-methylpropane"
+	"1,2-Didocosahexaenoyl-sn-glycero-3-phosphocholine"
+	"1,2-Dihexadecanoyl-sn-glycero-3-phosphocholine"
+	"1,2-Dioleoyl-sn-glycero-3-phosphoethanolamine-N,N-dimethyl"
+	"1,2-Dipentadecanoyl-sn-glycero-3-phosphocholine"
+	"1,2-Distearoyl-sn-glycero-3-phosphocholine"
+	"13-Docosenamide, (Z)-"
+	"1,5-Pentanediamine"
+	"1H-1,2,4-Triazol-3-amine"
+	"1-Hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phospho-(1'-myo-inositol)"
+	"1-Octadecanoyl-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-glycero-3-phosphocholine"
+	"1-Octadecanoyl-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-glycero-3-phosphoethanolamine"
+	"1-Octadecanoyl-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-glycero-3-phospho-L-serine"
+	"1-Octadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-3-phospho-(1'-myo-inositol)"
+	"1-Octadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-3-phosphocholine"
+	"1-Octadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-3-phosphoethanolamine"
+	"1-Octadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-3-phosphoserine"
+	"2,2'-Diaminodiphenyldisulfide"
+	"2,3-Dihydroxy-3-methylbutyric acid"
+	"2',4'-Dihydroxy-2-methoxychalcone"
+	"2'-Hydroxy-3',4',4-trimethoxychalcone"
+	"2'-Hydroxy-3,4,4'-trimethoxychalcone"
+	"2'-Hydroxy-3,4,5'-trimethoxychalcone"
+	"2'-Hydroxy-5'-methylchalcone"
+	"2-Methyl-1,4-butanediol"
+	"3,2',4',5',6-Pentamethoxyflavone"
+	"3,5-Dicarbethoxy-1,4-dihydrocollidine"
+	"(3-amino-1H-1,2,4-triazol-5-yl)methanol"
+	"3-Pyridinecarboxamide, 1,6-dihydro-1-methyl-6-oxo-"
+	"4,4'-Sulfonylbisphenol"
+	"(4E,7E,10Z,13E,16E,19E)-docosa-4,7,10,13,16,19-hexaenoic acid"
+	"5'-Deoxy-5'-&lt;WBR&gt;(methylthio)adenosine"
+	"5(Z),8(Z),14(Z)-Eicosatrienoic Acid"
+	"8,11-eicosadiynoic acid"
+	"8-Hydroxy-2'-deoxyguanosine"
+	"9-Octadecenamide, (Z)-"
+	"Adenine, N6-methyl"
+	"Adenosine, 5'-S-methyl-5'-thio-"
+	"Benzaldehyde, 2-hydroxy-4-methoxy-"
+	"Benzoic acid, 2,6-dihydroxy-"
+	"Benzoic acid, 2-fluoro-"
+	"Benzoic acid, 3-amino-"
+	".beta.-D-Glucopyranose, 1,6-anhydro-"
+	"Butanoic acid, 2-amino-, (S)-"
+	"cis-4,7,10,13,16,19-Docosahexaenoic acid"
+	"Cytidine 5'-diphosphocholine"
+	"Cytidine, 5-methyl-"
+	"D-Arabinono-1,4-lactone"
+	"DIMETHYL 4,4-o-PHENYLENE-BIS (3-THIOPHANATE)"
+	"DL-2,3-Diaminopropionic acid"
+	"DL-2,4-Diaminobutyric acid"
+	"DL-Homocysteine, S-ethyl-"
+	"ethyl 6,7-dimethoxy-4-oxo-2,3-dihydro-1H-naphthalene-2-carboxylate"
+	"Glutathione, oxidized"
+	"Hexanedioic acid, 2-amino-"
+	"Kavain, DL-"
+	"L-Histidine, 1-methyl-"
+	"L-Histidine, 3-methyl-"
+	"NG,NG-Dimethyl-L-arginine"
+	"S-(5'-Adenosyl)-L-homocysteine"
+	"S-(5'-Adenosyl)-L-methionine cation"
+	"Thymidine 3',5'-cyclic monophosphate"
+	"Uridine 5'-diphosphate"
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "pubchem_id" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "kegg_id" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

@@ -1,14 +1,28 @@
 Validation Log
-2025-12-07 05:11:43.965981
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:08:04.387292
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003075/mwtab/json
 Study ID:      ST001894
 Analysis ID:   AN003075
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 9
 
-Error Log:
-SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
-Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'CL(12:0_14:0_14:0_14:0)')])
-Missing key: Or('Metabolite', 'Bin range(ppm)')
+Number of Warnings: 0
+
+Number of Value Errors: 3
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 6
+
+Issue Log:
+Error: The value, "22-25 weeks of age", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_COMPOUND"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["TREATMENT"]["ANIMAL_FASTING"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Error: The ["MS_METABOLITE_DATA"]["Metabolites"] table does not have a column for "Metabolite". It is likely misspelled or using a common incorrect substitute.

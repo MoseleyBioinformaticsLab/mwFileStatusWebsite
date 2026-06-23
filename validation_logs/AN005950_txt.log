@@ -1,8 +1,105 @@
 Validation Log
-2025-12-07 08:50:36.715002
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:44:05.504937
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005950/mwtab/txt
 Study ID:      ST003622
 Analysis ID:   AN005950
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 6
+
+Number of Warnings: 5
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "50", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "mz" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Standardized name" column at position 2 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 5 in the METABOLITES table, matches a standard column name, "refmet". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 5 in the METABOLITES table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+2     RM0134456
+3     RM0048672
+4     RM0017276
+5     RM0097815
+8     RM0135071
+9     RM0134486
+10    RM0048632
+13    RM0135485
+14    RM0135506
+15    RM0048623
+16    RM0134479
+17    RM0134489
+18    RM0135528
+19    RM0135487
+20    RM0135488
+21    RM0138865
+22    RM0134208
+23    RM0134169
+24    RM0135489
+25    RM0121957
+26    RM0011470
+27    RM0054520
+28    RM0041332
+29    RM0054646
+30    RM0135524
+31    RM0104525
+32    RM0134803
+33    RM0011593
+34    RM0001471
+35    RM0134799
+36    RM0097814
+37    RM0060201
+38    RM0098404
+39    RM0008857
+40    RM0017815
+41    RM0135573
+42    RM0135543
+43    RM0104542
+44    RM0001489
+45    RM0134782
+46    RM0001998
+47    RM0054704
+48    RM0011341
+49    RM0054678
+50    RM0054394
+51    RM0043843
+52    RM0011315
+53    RM0001469
+54    RM0103485
+55    RM0000552
+56    RM0000392
+57    RM0090135
+58    RM0000437
+59    RM0171045
+60    RM0053653
+61    RM0097845
+62    RM0056506
+63    RM0134531
+64    RM0134908
+65    RM0000021
+66    RM0138870
+67    RM0171088
+68    RM0162336
+69    RM0138712
+70    RM0106274
+71    RM0171068
+72    RM0058261
+73    RM0134946
+74    RM0170562
+75    RM0056535
+76    RM0122625
+77    RM0060142
+78    RM0056502
+79    RM0057263
+80    RM0134537
+81    RM0106376
+82    RM0036601
+83    RM0134875
+84    RM0027240
+85    RM0000954
+Warning: The "RT" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

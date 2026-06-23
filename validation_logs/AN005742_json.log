@@ -1,0 +1,276 @@
+Validation Log
+2026-06-21 06:34:44.434865
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005742/mwtab/json
+Study ID:      ST003498
+Analysis ID:   AN005742
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 12
+
+Number of Warnings: 10
+
+Number of Value Errors: 12
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Not applicable", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "45", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "SMILES" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "smiles", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+17                             C1=CC(=C(C=C1C(=O)O)N)O''
+96                          C1(C(C(OC(C1O)O)C(=O)O)O)O''
+148    O[C@H]1[C@H](O)[C@@H](O)[C@H](O)[C@H](O)[C@@H]...
+149    O[C@H]1[C@H](O)[C@@H](O)[C@H](O)[C@H](O)[C@@H]...
+Warning: The "RefMet" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                              2-Aminophenol
+1                            2-Deoxy-glucose
+2                            2-Deoxy-glucose
+3      2-Hydroxy-4-(methylthio)butanoic acid
+4                      2-Hydroxybutyric acid
+5          2-Dehydro-3-deoxy-D-gluconic acid
+6                      2-Methylglutaric acid
+7                            Citraconic acid
+8                     2-Phosphoglyceric acid
+9                       2-Pyrocatechuic acid
+10                                  Lumazine
+11                             Gentisic acid
+12             2'',4''-Dihydroxyacetophenone
+13                    2-Hydroxyglutaric acid
+14         3-(2-Hydroxyphenyl)propanoic acid
+15               4-Hydroxyphenylpyruvic acid
+16                        Tetrahydrocortisol
+17             3-Amino-4-hydroxybenzoic acid
+18                        3-Dehydroshikimate
+19                     3-Hydroxybenzoic acid
+20                   3-Hydroxybenzyl alcohol
+21              3-Hydroxymethylglutaric acid
+22                       Hydroxypyruvic acid
+23                     Vanillylmandelic acid
+24                          3-Methyloxindole
+25                3-Methyl-2-oxovaleric acid
+26                  3E-Methylglutaconic acid
+27                             Nitrotyrosine
+28                    3-Phosphoglyceric acid
+29                3,4-Dihydroxymandelic acid
+30                       Protocatechuic acid
+31           3,4-Dihydroxybenzeneacetic acid
+32                 3,4-Dihydroxyphenylglycol
+33                       p-Aminobenzoic acid
+34                               Vanylglycol
+35                     4-Hydroxybenzaldehyde
+36                     4-Hydroxybenzoic acid
+37                          4-Methylcatechol
+38                           5-Hydroxylysine
+39                              Pimelic acid
+40                    6-Phosphogluconic acid
+41                                   Acetoin
+42                                Acetyl-CoA
+43                               Adipic acid
+44                                       ADP
+45                               ADP-glucose
+46                        2-Oxoglutaric acid
+47                                 Allantoin
+48                                    Allose
+49                                   Glucose
+50                                       AMP
+51               2-Aminobenzenesulfonic acid
+52                                  Arabitol
+53                                       ATP
+54                              Azelaic acid
+55                              Benzoic acid
+56                    sn-Glycero-2-phosphate
+57                              Butyric acid
+58                              Caffeic acid
+59                                Cellobiose
+60                         cis-Aconitic acid
+61                           Citramalic acid
+62                               Citric acid
+63                                Coenzyme A
+64                        3'',5'' cyclic GMP
+65                                   Cys-Gly
+66                              Cysteic acid
+67                                  Cysteine
+68                                   Cystine
+69                                       CDP
+70                                       CMP
+71                          Glucuronolactone
+72                                   Pinitol
+73                        Ribose 5-phosphate
+74                             Sedoheptulose
+75                    L-Dehydroascorbic acid
+76                              Deoxyuridine
+77                                      dUTP
+78                                      dUMP
+79                              Dethiobiotin
+80                                      dGDP
+81                    4,5-Dihydroorotic acid
+82                             Dihydrouracil
+83                Dihydroxyacetone phosphate
+84                              dTDP-glucose
+85                                Erythritol
+86                         Ethylmalonic acid
+87                        trans-Ferulic acid
+88                                  Fructose
+89                 Fructose 1,6-bisphosphate
+90                      Fructose 6-phosphate
+91                              Fumaric acid
+92                           Galactaric acid
+93                                Galactitol
+94                                 Galactose
+95                     Galactose 1-phosphate
+96                         Galacturonic acid
+97                                       GDP
+98                       Geranyl diphosphate
+99                             Gluconic acid
+100                           Gluconolactone
+101                    Glucosamine 6-sulfate
+102                                  Glucose
+103                      Glucose 1-phosphate
+104                      Glucose 6-phosphate
+105                          Glucuronic acid
+106                            Glutaric acid
+107                            Glyceric acid
+108                   sn-Glycero-3-phosphate
+109               Glycochenodeoxycholic acid
+110                         Glycocholic acid
+111                                      GMP
+112                                      GTP
+113                                      GDP
+114                              GDP-mannose
+115                                   Gulose
+116                            Hippuric acid
+117                        Homogentisic acid
+118                        Homovanillic acid
+119                 Hydroxyphenyllactic acid
+120                             Hydroquinone
+121                 Hydroxyphenyllactic acid
+122                      Hydroxypyruvic acid
+123                                      IMP
+124                           Indolepyruvate
+125                       Indoleacetaldehyde
+126                          Indoxyl sulfate
+127                                  Indican
+128                           Isocitric acid
+129                  Isopentenyl-diphosphate
+130                            Itaconic acid
+131                          L-Gulonolactone
+132                              Lactic acid
+133                               Malic acid
+134                              Maleic acid
+135                             Malonic acid
+136                                  Maltose
+137                                 Mannitol
+138                                  Mannose
+139                      Mannose 6-phosphate
+140                                Melibiose
+141                   3-Mercaptopyruvic acid
+142                           Mesoxalic acid
+143                      Methylglutaric acid
+144                Methyl beta-D-galactoside
+145                       Methylmalonic acid
+146                           Mevalonic acid
+147                 Monomethyl glutaric acid
+148                             Myo-inositol
+149                             Myo-inositol
+150                          N-Acetylalanine
+151                    N-Acetylaspartic acid
+152                         N-Acetylcysteine
+153                          N-Acetylglycine
+154                          N-Acetylleucine
+155                       N-Acetylmethionine
+156                           N-Acetylserine
+157                       N-Formylmethionine
+158                          N-Formylglycine
+159                           Nicotinic acid
+160                           O-Acetylserine
+161                              Orotic acid
+162                              Oxalic acid
+163                         2-Oxoadipic acid
+164                       2-Oxoglutaric acid
+165                               Oxoproline
+166               4-Hydroxyphenylacetic acid
+167                               Palatinose
+168                            Palmitic acid
+169                         Palmitoleic acid
+170                  Phosphoenolpyruvic acid
+171                     Pregnenolone sulfate
+172                                  Psicose
+173                  Pyridoxal 5''-phosphate
+174                             Pyrocatechol
+175                        Pyroglutamic acid
+176                Pyrrole-2-carboxylic acid
+177                             Pyruvic acid
+178                              Quinic acid
+179                          Quinolinic acid
+180                                Raffinose
+181                                  Ribitol
+182                       Ribose 5-phosphate
+183                       Ribose 5-phosphate
+184                     Ribulose 5-phosphate
+185                            Glucaric acid
+186                             Salicylamide
+187                           Salicylic acid
+188                             Sebacic acid
+189                Sedoheptulose 7-phosphate
+190                            Shikimic acid
+191                              Sorbic acid
+192                                 Sorbitol
+193                                  Sorbose
+194                                Stachyose
+195                             Suberic acid
+196                            Succinic acid
+197                                  Sucrose
+198                               D-Tagatose
+199                            Tartaric acid
+200                                 Threitol
+201                                Thymidine
+202                                     dTMP
+203                      trans-Aconitic acid
+204                                Trehalose
+205                                      UDP
+206                  UDP-N-acetylglucosamine
+207                                      UMP
+208                                   Uracil
+209                 Uracil-5-carboxylic acid
+210                                Uric acid
+211                                  Uridine
+212                                      UDP
+213                              UDP-glucose
+214                      UDP-glucuronic acid
+215                UDP-N-acetylgalactosamine
+216                  UDP-N-acetylglucosamine
+217                            UDP-galactose
+218                                      UMP
+219                                      UTP
+220                                 Xanthine
+221                                      XMP
+222                                  Xylitol
+223                     Xylulose 5-phosphate
+Warning: The "PubChem_CID" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS_ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS_ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+16       19391
+19       36320
+23       20369
+24     -144465
+28     -394151
+29     -410884
+43     -648571
+80      582078
+82     -509690
+105    1700908
+108      20883
+118    -581982
+124    -550448
+131    1615286
+145    -505370
+202    -560463
+216    -501018
+Warning: The "ChEBI" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

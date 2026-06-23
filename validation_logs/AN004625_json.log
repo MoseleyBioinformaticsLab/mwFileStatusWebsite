@@ -1,8 +1,115 @@
 Validation Log
-2025-12-07 07:15:33.988027
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:35:49.214375
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004625/mwtab/json
 Study ID:      ST002832
 Analysis ID:   AN004625
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 16
+
+Number of Warnings: 11
+
+Number of Value Errors: 12
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.4 mL/min.", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "45C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"2_2^_2^^-Nitrilotriethanol"
+	"2_3_5_6-Tetramethylpyrazine"
+	"2_6-Diaminopimelic acid"
+	"2^-Deoxyadenosine"
+	"2^-Deoxycytidine 5^-monophosphate"
+	"2^-Deoxyguanosine"
+	"2^-O-Methyladenosine"
+	"3-(1H-Imidazol-4-ylmethyl)-6-(1H-indol-3-ylmethyl)-2_5-piperazinedione"
+	"3_4-Dihydroxyacetophenone"
+	"3_4-Dimethylbenzaldehyde"
+	"3^-O-Methylcytidine"
+	"3^-O-Methylguanosine"
+	"3^-O-Methylinosine"
+	"4_6-Diamino-5-formamidopyrimidine"
+	"5_6-Dihydrouracil"
+	"5_6-Dimethylbenzimidazole"
+	"5^-DEOXYADENOSINE"
+	"5-Methyl-5_6-Dihydrouracil"
+	"5^-Methylthioadenosine"
+	"5^-O-Acetyladenosine"
+	"6-(gamma_gamma-Dimethylallylamino)purine riboside"
+	"Adenosine 3^_5^-cyclic monophosphate"
+	"Adenosine 3^-monophosphate"
+	"Cytidine 2^_3^-cyclic monophosphoric acid"
+	"Cytidine 5^-diphosphocholine"
+	"Cytidine 5^-monophosphate"
+	"Guanosine 3^_5^-cyclic monophosphate"
+	"Guanosine 5^-monophosphate"
+	"L-Tyrosine_ ethyl ester"
+	"N1_N12-Diacetylspermine"
+	"N6_N6-dimethyllysine"
+	"NEPSILON_NEPSILON_NEPSILON-TRIMETHYLLYSINE"
+	"N_N-Diethyl-2-aminoethanol"
+	"N_N-Dimethylarginine"
+	"N_N-Dimethyldodecylamine N-oxide"
+	"N_N-Dimethylguanosine"
+	"Pyrrolo[1_2-a]pyrazine-1_4-dione_ hexahydro-3-(1-methylethyl)-"
+	"Pyrrolo[1_2-a]pyrazine-1_4-dione_ hexahydro-3-[(4-hydroxyphenyl)methyl]-"
+	"Quinoline-2_8-diol"
+	"Uridine 5^-monophosphate"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"2,2',2''-Nitrilotriethanol"
+	"2,3,5,6-Tetramethylpyrazine"
+	"2,6-Diaminopimelic acid"
+	"2'-Deoxyadenosine"
+	"2'-Deoxycytidine 5'-monophosphate"
+	"2'-Deoxyguanosine"
+	"2'-O-Methyladenosine"
+	"3-(1H-Imidazol-4-ylmethyl)-6-(1H-indol-3-ylmethyl)-2,5-piperazinedione"
+	"3,4-Dihydroxyacetophenone"
+	"3,4-Dimethylbenzaldehyde"
+	"3'-O-Methylcytidine"
+	"3'-O-Methylguanosine"
+	"3'-O-Methylinosine"
+	"4,6-Diamino-5-formamidopyrimidine"
+	"5,6-Dihydrouracil"
+	"5,6-Dimethylbenzimidazole"
+	"5'-DEOXYADENOSINE"
+	"5-Methyl-5,6-Dihydrouracil"
+	"5'-Methylthioadenosine"
+	"5'-O-Acetyladenosine"
+	"6-(gamma,gamma-Dimethylallylamino)purine riboside"
+	"Adenosine 3',5'-cyclic monophosphate"
+	"Adenosine 3'-monophosphate"
+	"Cytidine 2',3'-cyclic monophosphoric acid"
+	"Cytidine 5'-diphosphocholine"
+	"Cytidine 5'-monophosphate"
+	"Guanosine 3',5'-cyclic monophosphate"
+	"Guanosine 5'-monophosphate"
+	"L-Tyrosine, ethyl ester"
+	"N1,N12-Diacetylspermine"
+	"N6,N6-dimethyllysine"
+	"NEPSILON,NEPSILON,NEPSILON-TRIMETHYLLYSINE"
+	"N,N-Diethyl-2-aminoethanol"
+	"N,N-Dimethylarginine"
+	"N,N-Dimethyldodecylamine N-oxide"
+	"N,N-Dimethylguanosine"
+	"Pyrrolo[1,2-a]pyrazine-1,4-dione, hexahydro-3-(1-methylethyl)-"
+	"Pyrrolo[1,2-a]pyrazine-1,4-dione, hexahydro-3-[(4-hydroxyphenyl)methyl]-"
+	"Quinoline-2,8-diol"
+	"Uridine 5'-monophosphate"
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "pubchem_id" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "kegg_id" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

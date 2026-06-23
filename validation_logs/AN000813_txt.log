@@ -1,17 +1,39 @@
 Validation Log
-2025-12-07 02:36:08.746136
-mwtab Python Library Version: 1.2.5
+2026-06-21 02:07:17.714048
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000813/mwtab/txt
 Study ID:      ST000534
 Analysis ID:   AN000813
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 6
+Status: Contains Validation Issues
+Number of Issues: 20
 
-Error Log:
-SUBJECT_SAMPLE_FACTORS: Entry #1 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #2 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #3 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #4 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #5 missing Subject ID.
-SUBJECT_SAMPLE_FACTORS: Entry #6 missing Subject ID.
+Number of Warnings: 15
+
+Number of Value Errors: 16
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "1mM", for the subsection, "STANDARD_CONCENTRATION", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mM']. Ignore this when more complicated descriptions are required.
+Error: The value, "25.119W", for the subsection, "POWER_LEVEL", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['W', 'dB']. Ignore this when more complicated descriptions are required.
+Error: The value, "300K", for the subsection, "TEMPERATURE", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "CHROMATOGRAPHY".
+Warning: The "Moverz Quant" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "mass spectrum" column at position 7 in the METABOLITES table, matches a standard column name, "mass_spectrum". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem CID" column at position 5 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 6 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Local ID" column at position 4 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Retention Index" column at position 2 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "Local ID" was found in the METABOLITES table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The column "Retention Index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "Local ID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "Retention Index" column at position 2 in the METABOLITES table has all null values.
+Warning: The "Moverz Quant" column at position 3 in the METABOLITES table has all null values.
+Warning: The "Local ID" column at position 4 in the METABOLITES table has all null values.
+Warning: The "PubChem CID" column at position 5 in the METABOLITES table has all null values.
+Warning: The "KEGG ID" column at position 6 in the METABOLITES table has all null values.
+Warning: The "mass spectrum" column at position 7 in the METABOLITES table has all null values.

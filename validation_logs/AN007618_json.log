@@ -1,0 +1,36 @@
+Validation Log
+2026-06-21 07:57:40.512831
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007618/mwtab/json
+Study ID:      ST004535
+Analysis ID:   AN007618
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 17
+
+Number of Warnings: 15
+
+Number of Value Errors: 15
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "55°C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "BT_B1_P" column at position 2 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "BT_B2_P" column at position 3 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "BT_B3_P" column at position 4 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "BT_B4_P" column at position 5 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "BT_B5_P" column at position 6 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "kegg_id" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

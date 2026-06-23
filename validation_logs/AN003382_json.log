@@ -1,8 +1,79 @@
 Validation Log
-2025-12-07 05:32:57.246645
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:24:42.097521
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003382/mwtab/json
 Study ID:      ST002075
 Analysis ID:   AN003382
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 16
+
+Number of Warnings: 11
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "Male and female", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"12_13-Dihydroxy-9Z-octadecenoic acid"
+	"13-Keto-9Z_11E-octadecadienoic acid"
+	"1_4-Cyclohexanedicarboxylic acid"
+	"1_4-Dihydroxy-2-naphthoic acid"
+	"1_5-Isoquinolinediol"
+	"17(18)-Epoxy-5Z_8Z_11Z_14Z-eicosatetraenoic acid"
+	"2_3_5-Trimethylpyrazine"
+	"2_8-Quinolinediol"
+	"2^-Deoxyadenosine"
+	"2^-Deoxyguanosine"
+	"2^-Deoxyinosine"
+	"2^-O-Methylinosine"
+	"3^-O-Methylcytidine"
+	"3^-O-Methylinosine"
+	"5-Methyl-5_6-Dihydrouracil"
+	"5^-Methylthioadenosine"
+	"9-Oxo-10E_12Z-octadecadienoic acid"
+	"cis-5_8_11_14_17-Eicosapentaenoic acid"
+	"Monolinolenin (9c_12c_15c)"
+	"N2_N2-Dimethylguanosine"
+	"N6_N6_N6-Trimethyl-L-lysine"
+	"N_N-Dimethylarginine ADMA and SDMA"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"12,13-Dihydroxy-9Z-octadecenoic acid"
+	"13-Keto-9Z,11E-octadecadienoic acid"
+	"1,4-Cyclohexanedicarboxylic acid"
+	"1,4-Dihydroxy-2-naphthoic acid"
+	"1,5-Isoquinolinediol"
+	"17(18)-Epoxy-5Z,8Z,11Z,14Z-eicosatetraenoic acid"
+	"2,3,5-Trimethylpyrazine"
+	"2,8-Quinolinediol"
+	"2'-Deoxyadenosine"
+	"2'-Deoxyguanosine"
+	"2'-Deoxyinosine"
+	"2'-O-Methylinosine"
+	"3'-O-Methylcytidine"
+	"3'-O-Methylinosine"
+	"5-Methyl-5,6-Dihydrouracil"
+	"5'-Methylthioadenosine"
+	"9-Oxo-10E,12Z-octadecadienoic acid"
+	"cis-5,8,11,14,17-Eicosapentaenoic acid"
+	"Monolinolenin (9c,12c,15c)"
+	"N2,N2-Dimethylguanosine"
+	"N6,N6,N6-Trimethyl-L-lysine"
+	"N,N-Dimethylarginine ADMA and SDMA"
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "pubchem_id" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "kegg_id" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

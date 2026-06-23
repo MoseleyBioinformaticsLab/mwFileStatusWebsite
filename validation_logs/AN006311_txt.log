@@ -1,0 +1,195 @@
+Validation Log
+2026-03-22 07:11:40.630495
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006311/mwtab/txt
+Study ID:      ST003840
+Analysis ID:   AN006311
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 8
+
+Number of Warnings: 7
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "40C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "mz" column at position 6 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InCHiKey_14" column at position 3 in the METABOLITES table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 4 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+2            C7 H7 N O3
+3           C6 H11 N O3
+4           C5 H11 N O2
+7           C6 H11 N O4
+15          C6 H13 N O5
+16          C6 H13 N O5
+17           C5 H9 N O4
+18         C12 H21 N O6
+21           C9 H9 N O3
+24          C7 H15 N O3
+25          C6 H13 N O2
+27        C5 H11 N O2 S
+33          C8 H15 N O6
+34          C8 H15 N O6
+36          C5 H11 N O2
+37          C9 H17 N O4
+39          C9 H11 N O2
+40           C5 H9 N O2
+41           C5 H7 N O3
+43           C3 H7 N O3
+44         C2 H7 N O3 S
+45           C4 H9 N O3
+47          C9 H11 N O3
+50          C5 H11 N O2
+54         C11 H11 N O3
+59         C10 H19 N O4
+60       C12 H16 N4 O S
+61         C10 H13 N O3
+62          C16 H31 N O
+64          C10 H9 N O2
+67            C8 H7 N O
+68            C6 H7 N O
+69           C7 H7 N O2
+70           C7 H7 N O2
+72          C6 H13 N O2
+76          C8 H17 N O2
+81           C6 H11 N O
+82     C21 H25 Cl N2 O3
+84         C17 H33 N O4
+85          C7 H15 N O3
+86          C7 H13 N O2
+87          C9 H15 N O3
+88          C22 H43 N O
+91          C10 H7 N O3
+92           C9 H11 N O
+96         C10 H13 N O2
+109         C6 H15 N O3
+113          C9 H9 N O4
+116          C6 H9 N O3
+123       C8 H20 N O6 P
+125         C10 H11 N O
+126        C12 H23 N O4
+127         C8 H15 N O3
+130          C7 H7 N O2
+Warning: The "RefMet" column at position 2 in the METABOLITES table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                                      1-Methylhistidine
+1                                      1-Methyladenosine
+2                              3-Hydroxyanthranilic acid
+3                               4-Acetamidobutanoic acid
+4                                  5-Aminopentanoic acid
+5                                        5-Hydroxylysine
+6                                              Adenosine
+7                                       Aminoadipic acid
+8                                               Anserine
+9                                             Asparagine
+10                                   Aspartylglycosamine
+11                                             Carnosine
+12                                              Creatine
+13                                            Creatinine
+14                                      3',5' cyclic AMP
+15                             2-Amino-2-deoxy-D-mannose
+16                                           Glucosamine
+17                                         Glutamic acid
+18                                             CAR DC5:0
+19                                    Guanidoacetic acid
+20                                Guanidinosuccinic acid
+21                                         Hippuric acid
+22                                             Histidine
+23                                          Hypoxanthine
+24                                             Carnitine
+25                                               Leucine
+26                                                Lysine
+27                                            Methionine
+28                                   Methylthioadenosine
+29                                   N-6-Trimethyllysine
+30                                      Dimethylarginine
+31                                     N-Acetylcarnosine
+32                                    N-Acetylasparagine
+33                                 N-Acetylgalactosamine
+34                                  N-Acetyl-mannosamine
+35                                     N(2)-Acetyllysine
+36                                             Norvaline
+37                                               CAR 2:0
+38                                          Paraxanthine
+39                                         Phenylalanine
+40                                               Proline
+41                                     Pyroglutamic acid
+42                                            Riboflavin
+43                                                Serine
+44                                               Taurine
+45                                             Threonine
+46                                            Tryptophan
+47                                              Tyrosine
+48                                  Ureidopropionic acid
+49                                         Urocanic acid
+50                                                Valine
+51                                            Xanthosine
+52                                      3-Methylxanthine
+53                                       7-Methylguanine
+54                                      Cinnamoylglycine
+55                                             Glutamine
+56                                               Cystine
+57                            Methylimidazoleacetic acid
+58                                      N-Acetyl-Asp-Glu
+59                                               CAR 3:0
+60                                              Thiamine
+63                                  2,5-Dimethylpyrazine
+64                                     Indoleacetic acid
+65                            2-Amino-4-methylpyrimidine
+66                                 2-Aminonicotinic acid
+67                                         Indolin-2-one
+69                                   p-Aminobenzoic acid
+72                                   6-Aminocaproic acid
+74                                     7-Methylguanosine
+75                                      7-Methylxanthine
+77                                      N-Acetylarginine
+78                                      3',5' cyclic AMP
+79                                           Allopurinol
+80                                              Caffeine
+81                                   Epsilon-caprolactam
+82                                            Cetirizine
+84                                              CAR 10:0
+85                                             Carnitine
+86                                           Stachydrine
+87                                              Ecgonine
+88                                      13Z-Docosenamide
+89                                               Gly-Pro
+90                                          Taurocyamine
+91                                        Kynurenic acid
+94                                     N-Acetylhistamine
+95                                    N-Acetylputrescine
+98                                     1-Methylhistamine
+100                                    N4-Acetylcytidine
+101                                   N6-Methyladenosine
+102                                            Neopterin
+107                                           Pirbuterol
+108                                         trans-Zeatin
+109                                      Triethanolamine
+110                                            Uric acid
+111                                    1-Methyluric acid
+112    3-Carboxy-4-methyl-5-propyl-2-furanpropanoic acid
+113                               3-Hydroxyhippuric acid
+114                 5-Acetylamino-6-amino-3-methyluracil
+115                                     5-Methylcytidine
+116                    6-oxopiperidine-2-carboxylic acid
+117                                            Allantoin
+119                                             Arginine
+120                                       Dihydrothymine
+121                                              Ectoine
+122                                            Glutamine
+123                          sn-Glycero-3-phosphocholine
+124                                         Homoarginine
+125                                         Tryptophanol
+126                                          CAR 4:0;3Me
+127                                      N-Acetylleucine
+128                   N1-Methyl-2-pyridone-5-carboxamide
+129                                        Pseudouridine
+130                                         Trigonelline
+131                                           Tryptamine
+Warning: The "RT_sec" column at position 7 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "MS1_RT_std" column at position 12 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "H-7MLY2-U-00" column at position 425 in the MS_METABOLITE_DATA table has all null values.

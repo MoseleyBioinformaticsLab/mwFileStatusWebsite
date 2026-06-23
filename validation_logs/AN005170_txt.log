@@ -1,8 +1,102 @@
 Validation Log
-2025-12-07 07:54:53.238529
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:04:35.777690
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005170/mwtab/txt
 Study ID:      ST003151
 Analysis ID:   AN005170
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 56
+
+Number of Warnings: 41
+
+Number of Value Errors: 55
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "60", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "EXTRACT_ENRICHMENT", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "EXTRACT_CLEANUP", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "SAMPLE_RESUSPENSION", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "SAMPLE_DERIVATIZATION", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "SAMPLE_SPIKING", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "350", for the subsection, "CAPILLARY_TEMPERATURE", in the "MS" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "350", for the subsection, "ION_SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "3300", for the subsection, "ION_SPRAY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "Both", for the subsection, "IONIZATION", in the "MS" section should not be "positive" or "negative". "ION_MODE" is where that should be indicated.
+Error: The value, "350", for the subsection, "SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "65", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "20", for the subsection, "INJECTION_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "FACTORS".
+Warning: SUBJECT_SAMPLE_FACTORS entry #1 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #2 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #3 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #4 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #5 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #6 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #7 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #8 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #9 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #10 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #11 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #12 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #13 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #14 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #15 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #16 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #17 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #18 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #19 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #20 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #21 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #22 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #23 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #24 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #25 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #26 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #27 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: The "quantified m/z" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "parent" column at position 4 in the METABOLITES table, matches a standard column name, "parent_moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "pubchem id" column at position 5 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "kegg id" column at position 6 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "regno" column at position 7 in the METABOLITES table, matches a standard column name, "mw_regno". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention time" column at position 2 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "comments" column at position 8 in the METABOLITES table, matches a standard column name, "comment". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "01_FFA_Blank" column at position 2 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "09_FFA_D2O_BT474_Fasnall05" column at position 10 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "10_FFA_D2O_BT474_Fasnall40" column at position 11 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "16_FFA_D2O_BT474_Fasnall05" column at position 17 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "17_FFA_D2O_BT474_Fasnall40" column at position 18 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "23_FFA_D2O_BT474_Fasnall05" column at position 24 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "24_FFA_D2O_BT474_Fasnall40" column at position 25 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

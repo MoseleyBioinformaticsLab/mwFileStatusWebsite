@@ -1,8 +1,60 @@
 Validation Log
-2025-12-07 01:13:44.972024
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:12:40.955961
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000095/mwtab/txt
 Study ID:      ST000057
 Analysis ID:   AN000095
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 23
+
+Number of Warnings: 4
+
+Number of Value Errors: 17
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 3
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "SAMPLEPREP_SUMMARY", in the "SAMPLEPREP" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "250°C", for the subsection, "ION_SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "70eV", for the subsection, "IONIZATION_ENERGY", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['eV']. Ignore this when more complicated descriptions are required.
+Error: The value, "250°C", for the subsection, "SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "1 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "50 - 330C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.5l", for the subsection, "SAMPLE_INJECTION", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "7.7 PSI (initial condition)", for the subsection, "COLUMN_PRESSURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['psi', 'bar']. Ignore this when more complicated descriptions are required.
+Error: The value, "50C ramped to 250C by 12C/s", for the subsection, "INJECTION_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Error: The value, "230C", for the subsection, "TRANSFERLINE_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "30 m length x 0.25 mm internal diameter", for the subsection, "SAMPLE_LOOP_SIZE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"1_5-anhydroglucitol"
+	"2_3_5-trihydroxypyrazine NIST"
+	"2_3-dihydroxybutanoic acid NIST"
+	"2_3-dihydroxypyridine"
+	"3_6-anhydrogalactose"
+	"3_6-dihydro-3_6-dimethyl-2_5-bishydroxypyrazine NIST"
+	"cytidine-5^-diphosphate"
+	"propane-1_3-diol NIST"
+	"pyrazine 2_5-dihydroxy  NIST"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"1,5-anhydroglucitol"
+	"2,3,5-trihydroxypyrazine NIST"
+	"2,3-dihydroxybutanoic acid NIST"
+	"2,3-dihydroxypyridine"
+	"3,6-anhydrogalactose"
+	"3,6-dihydro-3,6-dimethyl-2,5-bishydroxypyrazine NIST"
+	"cytidine-5'-diphosphate"
+	"propane-1,3-diol NIST"
+	"pyrazine 2,5-dihydroxy  NIST"
+Warning: The "ri" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "inchi_key" column at position 6 in the METABOLITES table has all null values.

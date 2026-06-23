@@ -1,8 +1,159 @@
 Validation Log
-2025-12-07 08:15:53.486154
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:22:18.934291
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005491/mwtab/txt
 Study ID:      ST003350
 Analysis ID:   AN005491
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 16
+
+Number of Warnings: 11
+
+Number of Value Errors: 13
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "0.25mL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"14_15-Dehydrocrepenynic acid"
+	"18-Nor-4_15-dihydroxyabieta-8_11_13-trien-7-one"
+	"2_2^_2^^-Nitrilotriethanol"
+	"2^-Deoxyadenosine-5^-monophosphate"
+	"2^-Deoxyadenosine monohydrate"
+	"2^-Deoxycytidine-5^-diphosphate"
+	"2^-O-methyladenosine"
+	"2^-O-methylguanosine"
+	"2^-O-methyluridine"
+	"(2S_3R)-2-{[{9-[(2R_3R_4S_5R)-3_4-Dihydroxy-5-(hydroxymethyl)tetrahydro-2-furanyl]-9H-purin-6-yl}(methyl)carbamoyl]amino}-3-hydroxybutanoic acid (non-preferred name)"
+	"3(2^-Chlorophenyl)-7-hydroxy-4-phenylcoumarin"
+	"3’_4’_5’-Tricetin 5-O-hexoside"
+	"3’_4’_5’-Tricetin O-malonylhexoside"
+	"3_4-Dihydroxybenzaldehyde"
+	"3_4-Dihydroxybenzoic acid"
+	"3_4-Dimethoxycinnamic acid"
+	"4_6-Dihydroxyquinoline O-hexoside"
+	"5^-Deoxy-5^-Methylthioadenosine"
+	"5^-Deoxy-5^-(methylthio)adenosine_1"
+	"5^-Deoxy-5^-(methylthio)adenosine_2"
+	"5-Ethyl-2^-deoxyuridine"
+	"9_17-Octadecadiene-12_14-diyne-1_11_16-triol"
+	"9S-hydroxy-10E_12Z-octadecadienoic acid (9(S)-HODE)"
+	"Adenosine 3^-monophosphate_1"
+	"Adenosine 3^-monophosphate_2"
+	"Adenosine 3^-monophosphate_3"
+	"Cytidine-5^-diphosphate"
+	"di-C_C-hexosyl-apigenin"
+	"di-C_C-hexosyl-apigenin derivative"
+	"di-C_C-hexosyl-methylluteolin"
+	"di-C_C-pentosyl-apigenin"
+	"di-C_C-pentosyl-luteolin"
+	"DL-alpha_epsilon-Diaminopimelic acid"
+	"E-3_4_5^-Trihydroxy-3^-glucopyranosylstilbene"
+	"Ethyl 3_ 4-Dihydroxybenzoate"
+	"Guanosine-3^_5^-cyclic monophosphate"
+	"Guanosine 5^-monophosphate"
+	"Inosine 5^-monophosphate"
+	"N2_ N2-Dimethylguanosine"
+	"N^_ N^^-DiFeruloylagamtine-N-arabinoside"
+	"N^_ N^^-DiFeruloylspermidine"
+	"N^_ N^^-Di-p-Coumaroylspermidine"
+	"N^_ N^^-Di-p-Coumaroylspermine"
+	"N^_ N^^-DiSinapoylspermidine"
+	"N^_ N^^-Feruloyl_ Caffeoylspermidine"
+	"N^_ N^^_ N^^^-DiFeruloyl_ p-Cinnamoylagamtine"
+	"N^_ N^^_ N^^^-DiFeruloyl_Sinapoylspermidine"
+	"N^_ N^^-p-Coumaroyl_ Feruloylspermidine"
+	"Quercetin 3_5_3^-trimethyl ether"
+	"Riboflavin-5^-monophosphate"
+	"Tricin 4^-O-(syringyl alcohol)ether"
+	"Tricin 4^-O-(syringyl alcohol)ether_2"
+	"Tricin 4^-O-(syringyl alcohol) ether 5-O-hexoside"
+	"Tricin 4^-O-(syringyl alcohol)ether derivative"
+	"Tricin 4^-O-(syringyl alcohol) ether O-hexoside"
+	"Tricin 4^-O-(syringyl alcohol)ether O-hexoside"
+	"Tricin 4^-O-(β-guaiacylglyceryl) ether"
+	"Tricin 4^-O-(β-guaiacylglyceryl) ether 5-O-hexoside_1"
+	"Tricin 4^-O-(β-guaiacylglyceryl) ether 5-O-hexoside_2"
+	"Tricin 4^-O-(β-guaiacylglyceryl) ether 5-O-hexosyl-O-hexoside"
+	"Tricin 4^-O-(β-guaiacylglyceryl) ether O-hexoside"
+	"Tricin 4^-O-(β-guaiacylglyceryl) ether O-hexoside derivative"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"14,15-Dehydrocrepenynic acid"
+	"18-Nor-4,15-dihydroxyabieta-8,11,13-trien-7-one"
+	"2,2',2''-Nitrilotriethanol"
+	"2'-Deoxyadenosine-5'-monophosphate"
+	"2'-Deoxyadenosine monohydrate"
+	"2'-Deoxycytidine-5'-diphosphate"
+	"2'-O-methyladenosine"
+	"2'-O-methylguanosine"
+	"2'-O-methyluridine"
+	"(2S,3R)-2-{[{9-[(2R,3R,4S,5R)-3,4-Dihydroxy-5-(hydroxymethyl)tetrahydro-2-furanyl]-9H-purin-6-yl}(methyl)carbamoyl]amino}-3-hydroxybutanoic acid (non-preferred name)"
+	"3(2'-Chlorophenyl)-7-hydroxy-4-phenylcoumarin"
+	"3’,4’,5’-Tricetin 5-O-hexoside"
+	"3’,4’,5’-Tricetin O-malonylhexoside"
+	"3,4-Dihydroxybenzaldehyde"
+	"3,4-Dihydroxybenzoic acid"
+	"3,4-Dimethoxycinnamic acid"
+	"4,6-Dihydroxyquinoline O-hexoside"
+	"5'-Deoxy-5'-Methylthioadenosine"
+	"5'-Deoxy-5'-(methylthio)adenosine_1"
+	"5'-Deoxy-5'-(methylthio)adenosine_2"
+	"5-Ethyl-2'-deoxyuridine"
+	"9,17-Octadecadiene-12,14-diyne-1,11,16-triol"
+	"9S-hydroxy-10E,12Z-octadecadienoic acid (9(S)-HODE)"
+	"Adenosine 3'-monophosphate_1"
+	"Adenosine 3'-monophosphate_2"
+	"Adenosine 3'-monophosphate_3"
+	"Cytidine-5'-diphosphate"
+	"di-C,C-hexosyl-apigenin"
+	"di-C,C-hexosyl-apigenin derivative"
+	"di-C,C-hexosyl-methylluteolin"
+	"di-C,C-pentosyl-apigenin"
+	"di-C,C-pentosyl-luteolin"
+	"DL-alpha,epsilon-Diaminopimelic acid"
+	"E-3,4,5'-Trihydroxy-3'-glucopyranosylstilbene"
+	"Ethyl 3, 4-Dihydroxybenzoate"
+	"Guanosine-3',5'-cyclic monophosphate"
+	"Guanosine 5'-monophosphate"
+	"Inosine 5'-monophosphate"
+	"N2, N2-Dimethylguanosine"
+	"N', N''-DiFeruloylagamtine-N-arabinoside"
+	"N', N''-DiFeruloylspermidine"
+	"N', N''-Di-p-Coumaroylspermidine"
+	"N', N''-Di-p-Coumaroylspermine"
+	"N', N''-DiSinapoylspermidine"
+	"N', N''-Feruloyl, Caffeoylspermidine"
+	"N', N'', N'''-DiFeruloyl, p-Cinnamoylagamtine"
+	"N', N'', N'''-DiFeruloyl,Sinapoylspermidine"
+	"N', N''-p-Coumaroyl, Feruloylspermidine"
+	"Quercetin 3,5,3'-trimethyl ether"
+	"Riboflavin-5'-monophosphate"
+	"Tricin 4'-O-(syringyl alcohol)ether"
+	"Tricin 4'-O-(syringyl alcohol)ether_2"
+	"Tricin 4'-O-(syringyl alcohol) ether 5-O-hexoside"
+	"Tricin 4'-O-(syringyl alcohol)ether derivative"
+	"Tricin 4'-O-(syringyl alcohol) ether O-hexoside"
+	"Tricin 4'-O-(syringyl alcohol)ether O-hexoside"
+	"Tricin 4'-O-(β-guaiacylglyceryl) ether"
+	"Tricin 4'-O-(β-guaiacylglyceryl) ether 5-O-hexoside_1"
+	"Tricin 4'-O-(β-guaiacylglyceryl) ether 5-O-hexoside_2"
+	"Tricin 4'-O-(β-guaiacylglyceryl) ether 5-O-hexosyl-O-hexoside"
+	"Tricin 4'-O-(β-guaiacylglyceryl) ether O-hexoside"
+	"Tricin 4'-O-(β-guaiacylglyceryl) ether O-hexoside derivative"
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "pubchem_id" column at position 2 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "kegg_id" column at position 4 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 7 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.

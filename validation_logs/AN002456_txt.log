@@ -1,8 +1,70 @@
 Validation Log
-2025-12-07 04:29:10.802105
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:35:10.197813
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002456/mwtab/txt
 Study ID:      ST001480
 Analysis ID:   AN002456
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 9
+
+Number of Warnings: 4
+
+Number of Value Errors: 4
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "quantitated m/z" column at position 2 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGGNAME" column at position 5 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHEBI" column at position 4 in the METABOLITES table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHEBI" column at position 4 in the METABOLITES table, matches a standard column name, "chebi_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      CHEBI:1941
+1     CHEBI:17191
+2     CHEBI:16680
+3     CHEBI:15414
+4     CHEBI:16977
+5     CHEBI:16865
+6     CHEBI:16467
+7     CHEBI:82392
+8     CHEBI:17196
+9     CHEBI:17053
+10    CHEBI:17750
+11    CHEBI:85533
+12    CHEBI:17126
+13    CHEBI:15354
+14    CHEBI:17724
+15     CHEBI:4623
+16    CHEBI:16457
+17    CHEBI:27592
+18    CHEBI:82766
+19    CHEBI:16015
+20    CHEBI:18050
+21    CHEBI:15428
+23    CHEBI:15971
+24    CHEBI:69061
+25    CHEBI:15699
+26    CHEBI:49432
+27    CHEBI:16668
+28    CHEBI:18019
+29    CHEBI:16811
+30    CHEBI:17752
+31    CHEBI:15729
+32    CHEBI:17203
+33    CHEBI:15611
+34    CHEBI:17115
+35    CHEBI:35280
+36    CHEBI:16857
+37    CHEBI:18095
+38    CHEBI:18123
+39    CHEBI:15724
+40    CHEBI:28825
+41    CHEBI:17895
+42    CHEBI:16414

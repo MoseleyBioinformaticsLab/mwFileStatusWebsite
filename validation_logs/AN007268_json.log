@@ -1,0 +1,36 @@
+Validation Log
+2026-06-21 07:45:00.635821
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007268/mwtab/json
+Study ID:      ST004353
+Analysis ID:   AN007268
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 17
+
+Number of Warnings: 15
+
+Number of Value Errors: 16
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The required property, "SUBJECT_SPECIES", in ["SUBJECT"] is missing.
+Error: The value, "30", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "mz" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "stable_isotope_version" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "isotopologue_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "230717_Smp_G5_Hom1_C_B" column at position 3 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "230717_Smp_G5_Hom1_T0_C" column at position 7 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "230717_Smp_G5_Hom1_T6_A" column at position 8 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "230717_Smp_G5_Hom1_T6_C" column at position 10 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "230717_Smp_G5_Hom1_T12_B" column at position 12 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "230717_Smp_G5_Hom1_T24_A" column at position 14 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "230717_Smp_G5_Hom1_T24_B" column at position 15 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "230717_Smp_G5_Hom1_T24_C" column at position 16 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "230717_Smp_G5_Hom2_T12_A" column at position 32 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "230717_Smp_G5_Hom2_T12_B" column at position 33 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "230717_Smp_G5_Hom2_T24_A" column at position 35 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "230717_Smp_G5_Hom2_T48_B" column at position 39 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "stable_isotope_version" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

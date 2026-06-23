@@ -1,8 +1,44 @@
 Validation Log
-2025-12-07 08:00:53.444259
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:09:57.032018
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005269/mwtab/json
 Study ID:      ST003213
 Analysis ID:   AN005269
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 5
+
+Number of Warnings: 3
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.4 ml/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "HMDB" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1                             13739-02-1 | 112118-18-0
+729                            14930-96-2 | 11032-95-4
+760                  51-42-3 | 24351-82-4 | 16536-89-3
+763                           83799-24-0 | 138452-21-8
+808                            52691-62-0 | 97288-09-0
+850                          333963-40-9 | 136790-76-6
+862              29836-26-8 | 144388-20-5 | 78168-20-4
+894                             1883-13-2 | 53941-38-1
+928                   1197-18-8 | 701-54-2 | 1197-17-7
+960     59-31-4 | 1321-40-0 | 70254-42-1 | 104534-80-7
+968                   58-05-9 | 22350-60-3 | 6035-45-6
+975                            13230-97-2 | 51953-05-0
+983                                66-81-9 | 1154-57-0
+1013                             636-01-1 | 38489-67-7
+1019             10538-51-9 | 38489-74-6 | 161282-95-7
+1029              20350-15-6 | 60132-23-2 | 11006-23-8
+1038                            30636-90-9 | 6892-79-1
+1110              69176-52-9 | 82467-52-5 | 61281-37-6
+1161                            8004-92-0 | 83711-72-2
+1211                             14113-05-4 | 765-01-5

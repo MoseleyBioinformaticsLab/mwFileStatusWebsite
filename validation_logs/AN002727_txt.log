@@ -1,8 +1,25 @@
 Validation Log
-2025-12-07 04:45:00.151203
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:46:48.139509
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002727/mwtab/txt
 Study ID:      ST001671
 Analysis ID:   AN002727
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 6
+
+Number of Warnings: 0
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "4000", for the subsection, "CAPILLARY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "250C", for the subsection, "DRY_GAS_TEMP", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "140V", for the subsection, "FRAGMENT_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "4000", for the subsection, "CAPILLARY_VOLTAGE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.

@@ -1,0 +1,128 @@
+Validation Log
+2026-06-21 08:15:20.613623
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008107/mwtab/txt
+Study ID:      ST004795
+Analysis ID:   AN008107
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 11
+
+Number of Warnings: 6
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "450 µL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "MZ" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB_ID" column at position 5 in the METABOLITES table, matches a standard column name, "hmdb_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+209    redundant ion - omit
+210    redundant ion - omit
+211    redundant ion - omit
+212    redundant ion - omit
+213    redundant ion - omit
+214    redundant ion - omit
+215    redundant ion - omit
+216    redundant ion - omit
+217    redundant ion - omit
+218    redundant ion - omit
+219    redundant ion - omit
+220    redundant ion - omit
+221    redundant ion - omit
+222    redundant ion - omit
+223    redundant ion - omit
+224    redundant ion - omit
+225    redundant ion - omit
+226    redundant ion - omit
+227    redundant ion - omit
+228    redundant ion - omit
+229    redundant ion - omit
+230    redundant ion - omit
+231    redundant ion - omit
+232    redundant ion - omit
+233    redundant ion - omit
+234    redundant ion - omit
+235    redundant ion - omit
+236    redundant ion - omit
+237    redundant ion - omit
+238    redundant ion - omit
+239    redundant ion - omit
+240    redundant ion - omit
+241    redundant ion - omit
+242    redundant ion - omit
+243    redundant ion - omit
+244    redundant ion - omit
+245    redundant ion - omit
+246    redundant ion - omit
+247    redundant ion - omit
+248    redundant ion - omit
+249    redundant ion - omit
+250    redundant ion - omit
+251    redundant ion - omit
+252    redundant ion - omit
+253    redundant ion - omit
+254    redundant ion - omit
+255    redundant ion - omit
+256    redundant ion - omit
+257    redundant ion - omit
+258    redundant ion - omit
+259    redundant ion - omit
+260    redundant ion - omit
+261    redundant ion - omit
+262    redundant ion - omit
+263    redundant ion - omit
+264    redundant ion - omit
+265    redundant ion - omit
+266    redundant ion - omit
+267    redundant ion - omit
+268    redundant ion - omit
+269    redundant ion - omit
+270    redundant ion - omit
+271    redundant ion - omit
+272    redundant ion - omit
+273    redundant ion - omit
+274    redundant ion - omit
+275    redundant ion - omit
+276    redundant ion - omit
+277    redundant ion - omit
+278    redundant ion - omit
+279    redundant ion - omit
+280    redundant ion - omit
+281    redundant ion - omit
+282    redundant ion - omit
+283    redundant ion - omit
+284    redundant ion - omit
+285    redundant ion - omit
+286    redundant ion - omit
+287    redundant ion - omit
+288    redundant ion - omit
+289    redundant ion - omit
+290    redundant ion - omit
+291    redundant ion - omit
+292    redundant ion - omit
+293    redundant ion - omit
+294    redundant ion - omit
+295    redundant ion - omit
+296    redundant ion - omit
+297    redundant ion - omit
+298    redundant ion - omit
+299    redundant ion - omit
+300    redundant ion - omit
+301    redundant ion - omit
+302    redundant ion - omit
+303    redundant ion - omit
+304    redundant ion - omit
+305    redundant ion - omit
+306    redundant ion - omit
+Warning: The "Study_Compound_ID" column at position 2 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "Study_Compound_ID" was found in the METABOLITES table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "Study_Compound_ID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.

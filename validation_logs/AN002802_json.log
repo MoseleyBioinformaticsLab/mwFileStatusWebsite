@@ -1,8 +1,100 @@
 Validation Log
-2025-12-07 04:52:11.820863
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:51:49.260441
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002802/mwtab/json
 Study ID:      ST001720
 Analysis ID:   AN002803
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 9
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 6
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "Monoisotopic Mass" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0         C9 H17 N O2
+6          C7 H7 N O4
+9         C7 H5 N O S
+11         C9 H9 N O4
+12          C8 H7 N O
+15         C7 H7 N O3
+17       C8 H7 N O4 S
+18        C7 H11 N O3
+21          C5 H5 N O
+25         C5 H9 N O3
+26         C8 H9 N O4
+27        C10 H9 N O3
+31          C9 H7 N O
+34        C6 H11 N O4
+37        C5 H11 N O2
+41         C5 H13 N O
+57       C17 H33 N O4
+59     C18 H38 N O5 P
+63        C7 H13 N O2
+70        C9 H15 N O3
+73         C4 H9 N O2
+75        C6 H13 N O5
+78     C21 H44 N O7 P
+79         C2 H5 N O2
+80       C26 H43 N O6
+81       C26 H43 N O5
+85        C7 H11 N O2
+86       C13 H25 N O4
+87         C9 H9 N O3
+91        C10 H9 N O2
+92       C11 H11 N O3
+93        C11 H9 N O3
+96        C7 H15 N O3
+98        C9 H17 N O4
+99         C3 H7 N O2
+102        C4 H7 N O4
+103       C7 H15 N O3
+106        C5 H9 N O4
+110       C6 H13 N O2
+113       C6 H13 N O2
+115     C5 H11 N O2 S
+116       C9 H11 N O2
+117        C5 H9 N O2
+118        C3 H7 N O3
+119        C4 H9 N O3
+121       C9 H11 N O3
+122       C5 H11 N O2
+125     C5 H11 N O3 S
+126      C11 H11 N O2
+129        C8 H9 N O2
+132       C7 H11 N O5
+133        C5 H9 N O3
+135         C8 H9 N O
+145      C23 H45 N O4
+146       C9 H17 N O5
+149       C6 H11 N O2
+150      C10 H19 N O4
+152        C5 H7 N O3
+154        C7 H5 N O4
+156        C3 H7 N O2
+159      C4 H9 N O3 S
+165      C2 H7 N O3 S
+166    C26 H45 N O6 S
+170        C7 H7 N O2
+171         C3 H9 N O
+178        C4 H9 N O2
+Warning: The "Pubchem ID" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB accession" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Chemspider ID" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "chemspider_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS Number" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "mzCloud ID" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mzcloud_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Retention time [min]" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Error: The "Polarity" column in the ["MS_METABOLITE_DATA"]["Metabolites"] table indicates multiple polarities in a single analysis, and this should not be. A single mwTab file is supposed to be restricted to a single analysis. This means multiple MS runs under different settings should each be in their own file.

@@ -1,12 +1,33 @@
 Validation Log
-2025-12-07 05:54:58.607481
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:37:44.296171
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003582/mwtab/txt
 Study ID:      ST002188
 Analysis ID:   AN003582
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 14
 
-Error Log:
-SCHEMA: Section "ANALYSIS" does not match the allowed schema. Missing key: 'ANALYSIS_TYPE'
+Number of Warnings: 0
+
+Number of Value Errors: 13
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "ANIMAL_VET_TREATMENTS", in the "TREATMENT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The required property, "ANALYSIS_TYPE", in the "ANALYSIS" section  is missing.
+Error: The value, "10mM pyrazine", for the subsection, "STANDARD_CONCENTRATION", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mM']. Ignore this when more complicated descriptions are required.
+Error: The value, "799.9", for the subsection, "SPECTROMETER_FREQUENCY", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['MHz']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "WATER_SUPPRESSION", in the "NM" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "None", for the subsection, "OFFSET_FREQUENCY", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm', 'Hz']. Ignore this when more complicated descriptions are required.
+Error: The value, "25 o C", for the subsection, "TEMPERATURE", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.
+Error: The value, "128 scans", for the subsection, "NUMBER_OF_SCANS", in the "NM" section should be a unitless number. Ignore this when more complicated descriptions are required.
+Error: The value, "9523.8", for the subsection, "SPECTRAL_WIDTH", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm', 'Hz']. Ignore this when more complicated descriptions are required.
+Error: The value, "None", for the subsection, "BINNED_INCREMENT", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "BINNED_DATA_NORMALIZATION_METHOD", in the "NM" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "BINNED_DATA_CHEMICAL_SHIFT_RANGE", in the "NM" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "BINNED_DATA_EXCLUDED_RANGE", in the "NM" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.

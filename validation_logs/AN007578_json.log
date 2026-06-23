@@ -1,0 +1,62 @@
+Validation Log
+2026-01-25 08:00:10.932566
+mwtab Python Library Version: 2.0.0
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007578/mwtab/json
+Study ID:      ST004517
+Analysis ID:   AN007578
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 12
+
+Number of Warnings: 10
+
+Number of Value Errors: 12
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.3 mL min −1", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40°C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Calc. MW" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+4        C10 H9 N O3
+6        C9 H17 N O4
+7        C7 H15 N O2
+11        C4 H7 N O4
+15       C9 H17 N O5
+16       C6 H11 N O2
+17      C18 H39 N O2
+18        C5 H9 N O4
+20      C26 H43 N O5
+25       C10 H9 N O2
+26         C9 H7 N O
+27      C11 H11 N O3
+28      C11 H11 N O2
+29       C10 H7 N O3
+30       C7 H16 N O3
+32       C6 H13 N O2
+33       C6 H13 N O2
+34     C5 H11 N O2 S
+35        C5 H7 N O3
+37     C5 H11 N O3 S
+39      C21 H42 N O4
+40       C8 H15 N O6
+42        C6 H9 N O5
+43     C7 H13 N O3 S
+44        C5 H9 N O3
+49       C9 H11 N O2
+53    C26 H45 N O6 S
+54    C26 H45 N O7 S
+55    C12 H17 N4 O S
+58       C9 H11 N O3
+Warning: The "Reference Ion" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ion". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem NO." column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG NO." column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS NO." column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS NO." column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+47    70-26-8,25104-12-5
+Warning: The "RT [min]" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

@@ -1,8 +1,841 @@
 Validation Log
-2025-12-07 06:23:16.552906
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:00:08.585991
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004011/mwtab/txt
 Study ID:      ST002459
 Analysis ID:   AN004011
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 195
+
+Number of Warnings: 193
+
+Number of Value Errors: 195
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.550 mL/min flow rate", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "60", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: SUBJECT_SAMPLE_FACTORS entry #1 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #2 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #3 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #4 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #5 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #6 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #7 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #8 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #9 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #10 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #11 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #12 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #13 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #14 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #15 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #16 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #17 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #18 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #19 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #20 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #21 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #22 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #23 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #24 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #25 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #26 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #27 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #28 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #29 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #30 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #31 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #32 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #33 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #34 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #35 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #36 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #37 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #38 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #39 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #40 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #41 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #42 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #43 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #44 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #45 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #46 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #47 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #48 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #49 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #50 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #51 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #52 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #53 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #54 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #55 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #56 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #57 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #58 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #59 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #60 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #61 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #62 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #63 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #64 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #65 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #66 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #67 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #68 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #69 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #70 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #71 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #72 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #73 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #74 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #75 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #76 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #77 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #78 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #79 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #80 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #81 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #82 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #83 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #84 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #85 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #86 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #87 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #88 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #89 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #90 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #91 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #92 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #93 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #94 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #95 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #96 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #97 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #98 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #99 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #100 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #101 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #102 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #103 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #104 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #105 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #106 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #107 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #108 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #109 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #110 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #111 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #112 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #113 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #114 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #115 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #116 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #117 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #118 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #119 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #120 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #121 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #122 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #123 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #124 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #125 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #126 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #127 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #128 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #129 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #130 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #131 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #132 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #133 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #134 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #135 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #136 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #137 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #138 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #139 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #140 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #141 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #142 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #143 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #144 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #145 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #146 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #147 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #148 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #149 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #150 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #151 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #152 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #153 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #154 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #155 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #156 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #157 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #158 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #159 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #160 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #161 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #162 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #163 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #164 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #165 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #166 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #167 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #168 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #169 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #170 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #171 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #172 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #173 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #174 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #175 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #176 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #177 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #178 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #179 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #180 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #181 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #182 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #183 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #184 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #185 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #186 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #187 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The "m/z" column at position 7 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1             C5 H9 N O4
+2            C7 H15 N O3
+3              C3 H9 N O
+4             C3 H7 N O2
+5            C5 H11 N O2
+6            C8 H15 N O6
+8            C9 H17 N O4
+9             C8 H9 N O3
+10            C7 H7 N O2
+11           C9 H13 N O3
+13          C12 H21 N O6
+14           C8 H11 N O2
+17            C5 H9 N O3
+20         C4 H5 N O2 S2
+22          C10 H20 N O4
+23            C7 H7 N O3
+25          C11 H22 N O4
+26            C10 H9 N O
+28            C7 H7 N O3
+29            C8 H9 N O2
+31          C12 H24 N O4
+33            C9 H9 N O3
+35            C5 H7 N O3
+38           C10 H7 N O3
+39         C9 H17 N O4 S
+41           C10 H9 N O2
+44             C9 H9 N O
+48          C15 H29 N O4
+49       C15 H13 I2 N O4
+59       C15 H11 I4 N O4
+60       C15 H11 I4 N O4
+69          C19 H37 N O4
+70          C19 H37 N O4
+74          C26 H43 N O6
+76          C21 H42 N O4
+82          C18 H39 N O2
+87          C26 H43 N O5
+91          C23 H45 N O4
+95        C26 H45 N O6 S
+99          C25 H50 N O4
+102       C24 H50 N O7 P
+106         C18 H37 N O2
+107       C29 H56 N O9 P
+113          C18 H35 N O
+114       C26 H54 N O7 P
+115       C28 H56 N O8 P
+120       C26 H56 N O6 P
+124       C28 H58 N O7 P
+127       C30 H62 N O7 P
+130       C32 H66 N O7 P
+131         C34 H67 N O3
+132       C41 H74 N O8 P
+134         C36 H69 N O3
+135       C34 H70 N O7 P
+136       C37 H74 N O8 P
+138       C44 H80 N O8 P
+139    C40 H83 N2 O5 P S
+140       C44 H80 N O7 P
+142       C46 H82 N O7 P
+143       C44 H82 N O7 P
+144       C40 H80 N O8 P
+145       C44 H84 N O8 P
+Warning: The "CAS ID" column at position 8 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS ID" column at position 8 in the METABOLITES table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+80                      5393-19-1 / 155603-50-2
+100                      0503-07-01 / 6814-52-4
+105                         463-40-1 / 506-26-3
+118    506-17-2 / 112-79-8 / 112-80-1/ 593-39-5
+Warning: The "RT (min)" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT (sec)" column at position 5 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

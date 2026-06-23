@@ -1,8 +1,78 @@
 Validation Log
-2025-12-07 09:14:22.458384
-mwtab Python Library Version: 1.2.5
+2026-06-21 07:04:42.799168
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006361/mwtab/json
 Study ID:      ST003871
 Analysis ID:   AN006361
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 9
+
+Number of Warnings: 6
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected in ["STUDY"]["NUM_MALES"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["STUDY"]["NUM_FEMALES"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "40 Celsius", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Mass Accuracy Score" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Molecular Weight" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Molecular Formula" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Molecular Formula" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0       C 5H 4N 4O 3
+1         C 4H 9NO 3
+2          C 4H 6O 4
+3         C 3H 7NO 3
+4       C 10H 11NO 3
+5         C 5H 9NO 4
+6         C 6H 12O 3
+7         C 6H 12O 3
+8         C 6H 12O 6
+9         C 4H 7NO 4
+10         C 6H 8O 7
+11     C 6H 14N 4O 2
+12        C 5H 10O 3
+13        C 9H 12O 4
+14         C 4H 8O 3
+15    C 11H 12N 2O 2
+16      C 5H 4N 4O 2
+17         C 4H 6O 5
+18      C 6H 9N 3O 2
+19       C 9H 11NO 3
+20           H 3O 4P
+21       C 9H 11NO 2
+22     C 5H 10N 2O 3
+23         C 6H 8O 7
+24      C 4H 8N 2O 3
+25           H 2O 4S
+26         H 4O 7P 2
+27           H 3O 4P
+28           H 3O 4P
+29        C 5H 4N 4O
+30         C 5H 5N 5
+31         C 5H 5N 5
+32        C 5H 7NO 3
+33        C 9H 10O 3
+34            ClHO 4
+35         C 3H 6O 3
+36       C 7H 11NO 5
+37     C 6H 14N 2O 2
+38       C 6H 13NO 2
+39         C 3H 6O 3
+40        C 8H 9NO 3
+41        C 9H 10O 3
+42       C 8H 11NO 3
+43        C 6H 10O 5
+44        C 6H 12O 6
+45        C 5H 9NO 2
+46         C 4H 8O 4
+47        C 9H 10O 2
+48         C 3H 6O 4
+49     C 8H 15N 3O 4
+Warning: The "Retention Time (min)" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Method" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ms_method". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

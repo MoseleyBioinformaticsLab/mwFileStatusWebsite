@@ -1,8 +1,82 @@
 Validation Log
-2025-12-07 08:07:41.193695
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:15:45.968861
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005390/mwtab/txt
 Study ID:      ST003291
 Analysis ID:   AN005390
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 63
+
+Number of Warnings: 56
+
+Number of Value Errors: 63
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "INSTRUMENT_NAME", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "COLUMN_NAME", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "none", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "none", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_A", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_B", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Warning: The "ad-9-baseline" column at position 18 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "ad-9-healing" column at position 19 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "ad-10-baseline" column at position 20 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "ad-10-healing" column at position 21 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "ad-11-baseline" column at position 22 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "ad-11-healing" column at position 23 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "ad-12-baseline" column at position 24 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "ad-12-healing" column at position 25 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "ad-13-baseline" column at position 26 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "ad-13-healing" column at position 27 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "ad-19-baseline" column at position 38 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "ad-19-healing" column at position 39 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-3-baseline" column at position 46 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-3-healing" column at position 47 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-14-baseline" column at position 68 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-14-healing" column at position 69 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-15-baseline" column at position 70 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-15-healing" column at position 71 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-16-baseline" column at position 72 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-16-healing" column at position 73 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-17-baseline" column at position 74 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-17-healing" column at position 75 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-18-baseline" column at position 76 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-18-healing" column at position 77 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-19-baseline" column at position 78 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-19-healing" column at position 79 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-20-baseline" column at position 80 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-20-healing" column at position 81 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-21-baseline" column at position 82 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-21-healing" column at position 83 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-22-baseline" column at position 84 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-22-healing" column at position 85 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-23-baseline" column at position 86 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-23-healing" column at position 87 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-24-baseline" column at position 88 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-24-healing" column at position 89 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-25-baseline" column at position 90 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-25-healing" column at position 91 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-26-baseline" column at position 92 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-26-healing" column at position 93 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-27-baseline" column at position 94 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-27-healing" column at position 95 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-28-baseline" column at position 96 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-28-healing" column at position 97 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-29-baseline" column at position 98 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "hv-29-healing" column at position 99 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "pid-3-baseline" column at position 106 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "pid-3-healing" column at position 107 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "pid-4-baseline" column at position 108 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "pid-4-healing" column at position 109 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "pid-5-baseline" column at position 110 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "pid-5-healing" column at position 111 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "pid-6-baseline" column at position 112 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "pid-6-healing" column at position 113 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "pid-7-baseline" column at position 114 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "pid-7-healing" column at position 115 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

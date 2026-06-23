@@ -1,8 +1,205 @@
 Validation Log
-2025-12-07 03:42:09.184145
-mwtab Python Library Version: 1.2.5
+2026-06-21 02:57:17.083160
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001698/mwtab/json
 Study ID:      ST001037
 Analysis ID:   AN001698
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 30
+
+Number of Warnings: 10
+
+Number of Value Errors: 25
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected in ["PROJECT"]["FUNDING_SOURCE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["PROJECT"]["PROJECT_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["STUDY"]["STUDY_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SUBJECT"]["GENOTYPE_STRAIN"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "NA", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["SUBJECT"]["HUMAN_RACE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["COLLECTION"]["COLLECTION_METHOD"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLEPREP_PROTOCOL_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["EXTRACT_ENRICHMENT"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["EXTRACT_CLEANUP"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLE_RESUSPENSION"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SUBCELLULAR_LOCATION"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "1 ml/min", in ["MS"]["HELIUM_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "250", in ["MS"]["ION_SOURCE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["MS"]["MS_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "quantified m/z" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InChIKey" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Library Hit Name" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG I" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Human Metabolome Database" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LipidMAPS" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "lm_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ChEBI" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ChEBI" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "chebi_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0       CHEBI:67040
+1       CHEBI:16027
+2       CHEBI:16680
+4       CHEBI:16977
+5       CHEBI:18019
+6       CHEBI:15904
+7       CHEBI:16467
+8       CHEBI:17115
+9       CHEBI:16828
+10      CHEBI:17295
+11      CHEBI:16199
+13      CHEBI:15956
+14      CHEBI:15971
+15      CHEBI:17203
+16      CHEBI:30769
+17      CHEBI:30746
+18      CHEBI:16414
+19      CHEBI:16857
+20      CHEBI:15429
+21      CHEBI:17748
+22      CHEBI:15891
+23      CHEBI:15756
+24      CHEBI:28189
+25      CHEBI:15699
+26      CHEBI:17775
+27      CHEBI:15333
+28      CHEBI:16750
+29      CHEBI:17191
+30      CHEBI:15887
+32      CHEBI:30837
+33      CHEBI:27470
+34      CHEBI:17755
+35      CHEBI:45353
+36      CHEBI:16359
+37      CHEBI:15746
+38      CHEBI:16962
+39      CHEBI:16353
+40      CHEBI:15842
+41      CHEBI:17590
+42      CHEBI:78320
+43      CHEBI:17814
+44      CHEBI:17658
+45       CHEBI:7476
+46       CHEBI:5855
+47      CHEBI:17351
+48      CHEBI:29019
+50      CHEBI:29069
+51      CHEBI:10096
+52      CHEBI:28748
+53       CHEBI:3697
+55      CHEBI:18183
+56      CHEBI:17687
+57      CHEBI:36405
+59      CHEBI:15353
+60      CHEBI:17390
+61      CHEBI:30853
+62      CHEBI:18145
+63      CHEBI:17752
+64      CHEBI:28680
+65      CHEBI:15694
+66      CHEBI:15919
+67      CHEBI:35940
+68       CHEBI:2332
+69      CHEBI:15558
+70      CHEBI:28368
+71      CHEBI:16415
+72      CHEBI:28875
+73      CHEBI:28822
+74      CHEBI:28971
+75       CHEBI:3699
+76      CHEBI:38565
+78       CHEBI:9449
+80      CHEBI:77733
+81      CHEBI:45409
+82       CHEBI:7447
+83      CHEBI:63622
+84       CHEBI:7823
+85       CHEBI:8364
+87       CHEBI:8430
+88       CHEBI:7959
+90       CHEBI:5959
+91       CHEBI:6649
+92       CHEBI:8805
+93       CHEBI:8228
+94       CHEBI:8024
+96     CHEBI:247956
+97       CHEBI:2569
+98      CHEBI:28716
+100      CHEBI:4853
+101      CHEBI:8633
+102      CHEBI:9714
+103      CHEBI:7554
+104      CHEBI:8866
+105     CHEBI:83453
+106      CHEBI:8248
+107      CHEBI:7307
+108      CHEBI:9339
+109     CHEBI:51574
+110     CHEBI:32159
+112      CHEBI:8232
+113     CHEBI:34445
+114     CHEBI:34682
+115     CHEBI:35060
+116     CHEBI:34694
+117     CHEBI:34146
+118     CHEBI:50450
+119     CHEBI:78796
+120    CHEBI:222828
+121     CHEBI:48300
+122     CHEBI:80845
+123     CHEBI:81732
+124     CHEBI:38452
+125     CHEBI:26276
+126     CHEBI:81833
+128     CHEBI:38508
+129     CHEBI:81957
+130     CHEBI:81971
+131     CHEBI:30263
+132     CHEBI:20794
+133      CHEBI:4717
+134      CHEBI:5893
+135      CHEBI:8776
+137      CHEBI:3385
+138     CHEBI:32168
+140     CHEBI:32315
+141    CHEBI:601027
+143     CHEBI:51141
+144     CHEBI:64216
+145     CHEBI:64045
+146     CHEBI:37924
+148     CHEBI:49105
+149     CHEBI:18338
+156    CHEBI:503442
+166     CHEBI:72631
+172     CHEBI:83535
+173     CHEBI:30932
+181     CHEBI:38321
+185     CHEBI:83481
+189     CHEBI:76341
+202     CHEBI:63866
+205     CHEBI:65054
+216     CHEBI:72615
+223     CHEBI:83543
+227     CHEBI:62805
+230     CHEBI:83502
+231     CHEBI:77443
+232     CHEBI:83500
+239     CHEBI:24848
+240     CHEBI:32365
+241     CHEBI:84796
+242     CHEBI:70476
+249     CHEBI:50572
+250     CHEBI:50572
+260     CHEBI:75627
+280     CHEBI:83457
+281     CHEBI:75062
+Warning: The "retention time" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

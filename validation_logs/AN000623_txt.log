@@ -1,8 +1,35 @@
 Validation Log
-2025-12-07 01:57:52.126682
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:43:10.077244
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000623/mwtab/txt
 Study ID:      ST000387
 Analysis ID:   AN000623
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 7
+
+Number of Value Errors: 12
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "3500", for the subsection, "CAPILLARY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "1000", for the subsection, "ION_SPRAY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "Neg", for the subsection, "IONIZATION", in the "MS" section should not be "positive" or "negative". "ION_MODE" is where that should be indicated.
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "Autosampler temp 4 C", for the subsection, "TARGET_SAMPLE_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: SUBJECT_SAMPLE_FACTORS section missing sample ID(s). The following IDs were found in the MS_METABOLITE_DATA section but not in the SUBJECT_SAMPLE_FACTORS:
+	""
+Warning: The "quantified m/z" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 4 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 5 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention index" column at position 2 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "retention index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
+Error: Column(s) with no name were found in the MS_METABOLITE_DATA table.
+Warning: The "PubChem ID" column at position 4 in the METABOLITES table has all null values.
+Warning: The "KEGG ID" column at position 5 in the METABOLITES table has all null values.
+Error: The section, MS_METABOLITE_DATA, has a mismatch between the number of headers and the number of elements in each line. Either a line(s) has more values than headers or there are too few headers.

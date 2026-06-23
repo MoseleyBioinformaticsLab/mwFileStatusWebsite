@@ -1,8 +1,35 @@
 Validation Log
-2025-12-07 06:53:02.407860
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:20:45.614188
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004398/mwtab/txt
 Study ID:      ST002713
 Analysis ID:   AN004398
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 5
+
+Number of Warnings: 3
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "see gradient", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "45", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "CalcMz" column at position 2 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "IonFormula" column at position 3 in the METABOLITES table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "IonFormula" column at position 3 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+45                C27 H45 O0
+392        C40 H78 O10 N0 P1
+399    C45 H85 O13 N0 P1 Na1
+401        C45 H84 O13 N0 P1
+403    C45 H83 O13 N0 P1 Na1
+404        C45 H82 O13 N0 P1
+406        C45 H80 O13 N0 P1
+408    C46 H83 O12 N0 P1 Li1
+409    C46 H81 O12 N0 P1 Li1
+412        C47 H84 O13 N0 P1
+563               C27 H43 O0

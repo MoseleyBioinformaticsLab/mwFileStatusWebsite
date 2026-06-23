@@ -1,0 +1,53 @@
+Validation Log
+2026-06-21 07:55:19.800457
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007532/mwtab/txt
+Study ID:      ST004490
+Analysis ID:   AN007532
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 12
+
+Number of Warnings: 8
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "", for "PROJECT_ID" in the file header must be the letters "PR" followed by 6 numbers. Ex. "PR001405".
+Error: The value, "45°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"13_14-dihydro-15-keto Prostaglandin A2"
+	"(15Z)-9_12_13-Trihydroxy-15-octadecenoic acid"
+	"5_5-dimethyl-2-{[(2-phenylacetyl)amino]methyl}-1_3-thiazolane-4-carboxylic acid"
+	"5_5-Dimethylhydantoin"
+	"Adenosine 5^-monophosphate"
+	"(+/-)-CP 47_497-C8-Homolog"
+	"Thymidine 5^-triphosphate (dTTP)"
+	"Uridine 5^-diphosphate (UDP)"
+	"Uridine 5^-diphosphogalactose"
+	"Uridine 5^-diphosphoglucuronic acid"
+	"α_α-Trehalose"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"13,14-dihydro-15-keto Prostaglandin A2"
+	"(15Z)-9,12,13-Trihydroxy-15-octadecenoic acid"
+	"5,5-dimethyl-2-{[(2-phenylacetyl)amino]methyl}-1,3-thiazolane-4-carboxylic acid"
+	"5,5-Dimethylhydantoin"
+	"Adenosine 5'-monophosphate"
+	"(+/-)-CP 47,497-C8-Homolog"
+	"Thymidine 5'-triphosphate (dTTP)"
+	"Uridine 5'-diphosphate (UDP)"
+	"Uridine 5'-diphosphogalactose"
+	"Uridine 5'-diphosphoglucuronic acid"
+	"α,α-Trehalose"
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.

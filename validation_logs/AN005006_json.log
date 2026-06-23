@@ -1,8 +1,191 @@
 Validation Log
-2025-12-07 07:44:52.961552
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:55:53.379856
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005006/mwtab/json
 Study ID:      ST003053
 Analysis ID:   AN005006
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 26
+
+Number of Warnings: 11
+
+Number of Value Errors: 22
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "NA", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "NA", in ["SUBJECT"]["WEIGHT_OR_WEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "NA", in ["SUBJECT"]["HEIGHT_OR_HEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['cm', 'in']. Ignore this when more complicated descriptions are required.
+Error: The value, "Not applicable", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["MS"]["COLLISION_ENERGY"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "NA", in ["MS"]["COLLISION_GAS"] should be one of "Nitrogen" or "Argon". Ignore this when more complicated descriptions are required.
+Error: The value, "50", in ["MS"]["DRY_GAS_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "120", in ["MS"]["DRY_GAS_TEMP"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "300", in ["MS"]["SOURCE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.3 ml/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "60 bar at starting conditions. 180 bar at %A", in ["CHROMATOGRAPHY"]["COLUMN_PRESSURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['psi', 'bar']. Ignore this when more complicated descriptions are required.
+Error: The value, "50% IPA", in ["CHROMATOGRAPHY"]["STRONG_WASH_VOLUME"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"10_11-dihydro-20-trihydroxy-leukotriene B4"
+	"1_2-ditetradecanoyl-sn-glycero-3-phosphosulfocholine"
+	"1_3_8-Naphthalenertriol"
+	"1_6-anhydro-N-acetylmuramate"
+	"1-(8-[3]-ladderane-octanoyl)-2-(8-[3]-ladderane-octanyl)-sn-glycero-3-phospho-(1^-sn-glycerol)"
+	"1_8-Diazacyclotetradecane-2_9-dione"
+	"1_8-Diazacyclotetradecane-2_9-dione_1"
+	"1-Methyl-4-phenyl-1_2_3_6-tetrahydropyridine"
+	"(1R*_3R*_3^S*)-1_2_3_4-Tetrahydro-1-(2-thio-3-pyrrolidinyl)-beta-carboline-3-carboxylic acid"
+	"(1R_4S)-fenchan-2-one"
+	"(1xi_3xi)-1_2_3_4-Tetrahydro-1-methyl-beta-carboline-3-carboxylic acid"
+	"2_3_4_5-Tetrahydropyridine-2-carboxylate"
+	"2_3-Diphenyl-1-indanone"
+	"2-Acetyl-1_5_6_7-tetrahydro-6-hydroxy-7-(hydroxymethyl)-4H-azepine-4-one"
+	"2-amino-3_7-dideoxy-D-threo-hept-6-ulosonate"
+	"2-Amino-4-hydroxy-6-hydroxymethyl-7_8-dihydropteridine"
+	"2-Amino-9_10-epoxy-8-oxodecanoic acid"
+	"(2E_11Z)-5-[5-(Methylthio)-4-penten-2-ynyl]-2-furanacrolein"
+	"2-trans_4-cis-Decadienoylcarnitine"
+	"3_4-Dehydrothiomorpholine-3-carboxylate"
+	"3_4-Dimethyl-5-pentyl-2-furanundecanoic acid"
+	"3_5_7-Trimethyl-2E_4E_6E_8E-undecatetraene"
+	"3_5-dihydro-5-methylidene-4H-imidazol-4-one"
+	"3_5-Dinitro-L-tyrosine"
+	"3^-amino-3^-deoxyadenosine"
+	"(3R_7R)-1_3_7-Octanetriol"
+	"(3S_5R)-carbapenam"
+	"(3S_5R)-carbapenam_2"
+	"5_6-Dihydrothymine"
+	"5_6-Dihydrothymine_2"
+	"5beta-Pregnane-3alpha_17alpha_20alpha-triol"
+	"5-exo-Hydroxy-1_2-campholide"
+	"5^-Methylthioadenosine"
+	"5^-Oxoinosine"
+	"5^-Phosphoribosyl-N-formylglycinamide"
+	"5S_12R-dihydroxy-6Z_8E_10E_14Z-eicosatetraenoic acid-d4"
+	"5S_12R-dihydroxy-6Z_8E_10E_14Z-eicosatetraenoic acid-d4_1"
+	"5S_12R-dihydroxy-6Z_8E_10E_14Z-eicosatetraenoic acid-d4_2"
+	"(+/-)-5-[(tert-Butylamino)-2^-hydroxypropoxy]-1_2_3_4-tetrahydro-1- naphthol"
+	"6_7-Dimethyl-8-(1-D-ribityl)lumazine"
+	"6-Butyryl-5_7-dihydroxy-8-(3^_3^-dimethylallyl)-4-phenylcoumarin"
+	"(6R)-6-(L-Erythro-1_2-Dihydroxypropyl)-5_6_7_8-tetrahydro-4a-hydroxypterin"
+	"7_8-Diaminononanoate"
+	"8-(3_3-Dimethylallyl)spatheliachromene"
+	"8_8-Dimethyl-2-phenyl-4H_8H-benzo[1_2-b:3_4-b^]dipyran-4-one"
+	"alpha_alpha^-Trehalose 6-phosphate"
+	"Dihydro-4_4-dimethyl-2_3-Furandione"
+	"[FA oxo(5:1/5:0/8:0)] (1S_2S)-3-oxo-2-(2^Z-pentenyl)-cyclopentaneoctanoic acid"
+	"[Fv Tetramethoxy(4:0)] 4_6_2^_4^-Tetramethoxychalcone 2^-beta-glucoside"
+	"LL-2_6-Diaminoheptanedioate"
+	"LL-2_6-Diaminoheptanedioate_2"
+	"LL-2_6-Diaminoheptanedioate_3"
+	"L_L-Cyclo(leucylprolyl)"
+	"Methyl (2E_6E)-(10R_11S)-10_11-epoxy-3_7_11-trimethyltrideca-2_6-dienoate"
+	"N-(11Z_14Z-eicosadienoyl)-ethanolamine"
+	"N3-(4-methoxyfumaroyl)-L-2_3-diaminopropanoate"
+	"N6-(L-1_3-Dicarboxypropyl)-L-lysine"
+	"N-(9Z_12Z-octadecadienoyl)-ethanolamine"
+	"N-Acetyl-2_3-dihydro-1H-pyrrole"
+	"Nalpha_Nalpha-Dimethyl-L-histidine"
+	"Nalpha_Nalpha-Dimethyl-L-histidine_1"
+	"Ne_Ne dimethyllysine"
+	"N_N-Dimethylaniline N-oxide"
+	"Pantetheine 4^-phosphate"
+	"[PG (18:0)] 1-octadecanoyl-sn-glycero-3-phospho-(1^-sn-glycerol)"
+	"PG(18:4(6Z_9Z_12Z_15Z)/18:4(6Z_9Z_12Z_15Z))"
+	"Polypropylene glycol (m w 1_200-3_000)"
+	"Potassium 2-(1^-ethoxy) ethoxypropanoate"
+	"(R)-2_3-Dihydroxy-3-methylpentanoate"
+	"S-adenosyl-1_8-diamino-3-thiooctane"
+	"[SP hydroxy_hydroxy_methyl(10:2/2:0)] 6R-(8-hydroxydecyl)-2R-(hydroxymethyl)-piperidin-3R-ol"
+	"[SP hydroxy_hydroxy_methyl(10:2/2:0)] 6R-(8-hydroxydecyl)-2R-(hydroxymethyl)-piperidin-3R-ol_1"
+	"[ST (3:0)] (5Z_7E)-(1S_3R_16R)-16-glutaryloxy-9_10-seco-5_7_10(19)-cholestatriene-1_3_25-triol"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"10,11-dihydro-20-trihydroxy-leukotriene B4"
+	"1,2-ditetradecanoyl-sn-glycero-3-phosphosulfocholine"
+	"1,3,8-Naphthalenertriol"
+	"1,6-anhydro-N-acetylmuramate"
+	"1-(8-[3]-ladderane-octanoyl)-2-(8-[3]-ladderane-octanyl)-sn-glycero-3-phospho-(1'-sn-glycerol)"
+	"1,8-Diazacyclotetradecane-2,9-dione"
+	"1,8-Diazacyclotetradecane-2,9-dione_1"
+	"1-Methyl-4-phenyl-1,2,3,6-tetrahydropyridine"
+	"(1R*,3R*,3'S*)-1,2,3,4-Tetrahydro-1-(2-thio-3-pyrrolidinyl)-beta-carboline-3-carboxylic acid"
+	"(1R,4S)-fenchan-2-one"
+	"(1xi,3xi)-1,2,3,4-Tetrahydro-1-methyl-beta-carboline-3-carboxylic acid"
+	"2,3,4,5-Tetrahydropyridine-2-carboxylate"
+	"2,3-Diphenyl-1-indanone"
+	"2-Acetyl-1,5,6,7-tetrahydro-6-hydroxy-7-(hydroxymethyl)-4H-azepine-4-one"
+	"2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate"
+	"2-Amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine"
+	"2-Amino-9,10-epoxy-8-oxodecanoic acid"
+	"(2E,11Z)-5-[5-(Methylthio)-4-penten-2-ynyl]-2-furanacrolein"
+	"2-trans,4-cis-Decadienoylcarnitine"
+	"3,4-Dehydrothiomorpholine-3-carboxylate"
+	"3,4-Dimethyl-5-pentyl-2-furanundecanoic acid"
+	"3,5,7-Trimethyl-2E,4E,6E,8E-undecatetraene"
+	"3,5-dihydro-5-methylidene-4H-imidazol-4-one"
+	"3,5-Dinitro-L-tyrosine"
+	"3'-amino-3'-deoxyadenosine"
+	"(3R,7R)-1,3,7-Octanetriol"
+	"(3S,5R)-carbapenam"
+	"(3S,5R)-carbapenam_2"
+	"5,6-Dihydrothymine"
+	"5,6-Dihydrothymine_2"
+	"5beta-Pregnane-3alpha,17alpha,20alpha-triol"
+	"5-exo-Hydroxy-1,2-campholide"
+	"5'-Methylthioadenosine"
+	"5'-Oxoinosine"
+	"5'-Phosphoribosyl-N-formylglycinamide"
+	"5S,12R-dihydroxy-6Z,8E,10E,14Z-eicosatetraenoic acid-d4"
+	"5S,12R-dihydroxy-6Z,8E,10E,14Z-eicosatetraenoic acid-d4_1"
+	"5S,12R-dihydroxy-6Z,8E,10E,14Z-eicosatetraenoic acid-d4_2"
+	"(+/-)-5-[(tert-Butylamino)-2'-hydroxypropoxy]-1,2,3,4-tetrahydro-1- naphthol"
+	"6,7-Dimethyl-8-(1-D-ribityl)lumazine"
+	"6-Butyryl-5,7-dihydroxy-8-(3',3'-dimethylallyl)-4-phenylcoumarin"
+	"(6R)-6-(L-Erythro-1,2-Dihydroxypropyl)-5,6,7,8-tetrahydro-4a-hydroxypterin"
+	"7,8-Diaminononanoate"
+	"8-(3,3-Dimethylallyl)spatheliachromene"
+	"8,8-Dimethyl-2-phenyl-4H,8H-benzo[1,2-b:3,4-b']dipyran-4-one"
+	"alpha,alpha'-Trehalose 6-phosphate"
+	"Dihydro-4,4-dimethyl-2,3-Furandione"
+	"[FA oxo(5:1/5:0/8:0)] (1S,2S)-3-oxo-2-(2'Z-pentenyl)-cyclopentaneoctanoic acid"
+	"[Fv Tetramethoxy(4:0)] 4,6,2',4'-Tetramethoxychalcone 2'-beta-glucoside"
+	"LL-2,6-Diaminoheptanedioate"
+	"LL-2,6-Diaminoheptanedioate_2"
+	"LL-2,6-Diaminoheptanedioate_3"
+	"L,L-Cyclo(leucylprolyl)"
+	"Methyl (2E,6E)-(10R,11S)-10,11-epoxy-3,7,11-trimethyltrideca-2,6-dienoate"
+	"N-(11Z,14Z-eicosadienoyl)-ethanolamine"
+	"N3-(4-methoxyfumaroyl)-L-2,3-diaminopropanoate"
+	"N6-(L-1,3-Dicarboxypropyl)-L-lysine"
+	"N-(9Z,12Z-octadecadienoyl)-ethanolamine"
+	"N-Acetyl-2,3-dihydro-1H-pyrrole"
+	"Nalpha,Nalpha-Dimethyl-L-histidine"
+	"Nalpha,Nalpha-Dimethyl-L-histidine_1"
+	"Ne,Ne dimethyllysine"
+	"N,N-Dimethylaniline N-oxide"
+	"Pantetheine 4'-phosphate"
+	"[PG (18:0)] 1-octadecanoyl-sn-glycero-3-phospho-(1'-sn-glycerol)"
+	"PG(18:4(6Z,9Z,12Z,15Z)/18:4(6Z,9Z,12Z,15Z))"
+	"Polypropylene glycol (m w 1,200-3,000)"
+	"Potassium 2-(1'-ethoxy) ethoxypropanoate"
+	"(R)-2,3-Dihydroxy-3-methylpentanoate"
+	"S-adenosyl-1,8-diamino-3-thiooctane"
+	"[SP hydroxy,hydroxy,methyl(10:2/2:0)] 6R-(8-hydroxydecyl)-2R-(hydroxymethyl)-piperidin-3R-ol"
+	"[SP hydroxy,hydroxy,methyl(10:2/2:0)] 6R-(8-hydroxydecyl)-2R-(hydroxymethyl)-piperidin-3R-ol_1"
+	"[ST (3:0)] (5Z,7E)-(1S,3R,16R)-16-glutaryloxy-9,10-seco-5,7,10(19)-cholestatriene-1,3,25-triol"
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "pubchem_id" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "moverz_quant" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

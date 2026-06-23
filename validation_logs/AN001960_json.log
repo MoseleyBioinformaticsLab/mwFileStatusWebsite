@@ -1,15 +1,34 @@
 Validation Log
-2025-12-07 03:55:07.437706
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:08:26.978079
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001960/mwtab/json
 Study ID:      ST001182
 Analysis ID:   AN001960
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 2
+Status: Contains Validation Issues
+Number of Issues: 14
 
-Error Log:
-SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
-Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'Hex1HexNAc1')])
-Missing key: Or('Metabolite', 'Bin range(ppm)')
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {''} found in MS_METABOLITE_DATA section.
+Number of Warnings: 1
+
+Number of Value Errors: 12
+
+Number of Consistency Errors: 1
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "N2", in ["MS"]["COLLISION_GAS"] should be one of "Nitrogen" or "Argon". Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", in ["MS"]["DRY_GAS_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", in ["MS"]["DRY_GAS_TEMP"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["INSTRUMENT_NAME"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["COLUMN_NAME"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "300 nL/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "60°C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "5 µL", in ["CHROMATOGRAPHY"]["SAMPLE_INJECTION"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "RT", in ["CHROMATOGRAPHY"]["INJECTION_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Error: SUBJECT_SAMPLE_FACTORS section missing sample ID(s). The following IDs were found in the ["MS_METABOLITE_DATA"]["Data"] section but not in the SUBJECT_SAMPLE_FACTORS:
+	""
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Data"] table.
+Warning: The "" column at position 31 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Error: The ["MS_METABOLITE_DATA"]["Metabolites"] table does not have a column for "Metabolite". It is likely misspelled or using a common incorrect substitute.

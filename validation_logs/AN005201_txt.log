@@ -1,8 +1,26 @@
 Validation Log
-2025-12-07 07:56:20.372548
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:05:55.752105
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005201/mwtab/txt
 Study ID:      ST003169
 Analysis ID:   AN005201
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 7
+
+Number of Warnings: 5
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.450ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "45", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "parent" column at position 3 in the METABOLITES table, matches a standard column name, "parent_moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CmpdID" column at position 2 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "medRt" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "CmpdID" was found in the METABOLITES table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "CmpdID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.

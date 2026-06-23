@@ -1,12 +1,120 @@
 Validation Log
-2025-12-07 01:19:48.189383
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:16:12.541366
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000152/mwtab/txt
 Study ID:      ST000096
 Analysis ID:   AN000152
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 67
 
-Error Log:
-SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Missing keys: 'CHROMATOGRAPHY_TYPE', 'COLUMN_NAME', 'INSTRUMENT_NAME'
+Number of Warnings: 55
+
+Number of Value Errors: 61
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 3
+
+Issue Log:
+Error: The value, "See protocol/methods file", for the subsection, "ION_SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "See protocol/methods file", for the subsection, "ION_SPRAY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.25", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "5 L", for the subsection, "SAMPLE_INJECTION", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "600 L", for the subsection, "WEAK_WASH_VOLUME", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "600 L", for the subsection, "STRONG_WASH_VOLUME", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "17 L", for the subsection, "SAMPLE_LOOP_SIZE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The required property, "CHROMATOGRAPHY_TYPE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "INSTRUMENT_NAME", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_NAME", in the "CHROMATOGRAPHY" section  is missing.
+Warning: There are duplicate samples in the MS_METABOLITE_DATA section.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"11_12_15-THET"
+	"11_12-DiHETrE"
+	"12_13-DiHODE"
+	"12_13-DiHOME"
+	"14_15-DiHETE"
+	"14_15-DiHETrE"
+	"15_16-DiHODE"
+	"17_18-DiHETE"
+	"19_20-DiHDoPA"
+	"5_15-DiHETE"
+	"5_6-DiHETrE"
+	"8_15-DiHETE"
+	"8_9-DiHETrE"
+	"9_10-13-TriHOME"
+	"9_10-DiHODE"
+	"9_10-DiHOME"
+	"9_12_13-TriHOME"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"11,12,15-THET"
+	"11,12-DiHETrE"
+	"12,13-DiHODE"
+	"12,13-DiHOME"
+	"14,15-DiHETE"
+	"14,15-DiHETrE"
+	"15,16-DiHODE"
+	"17,18-DiHETE"
+	"19,20-DiHDoPA"
+	"5,15-DiHETE"
+	"5,6-DiHETrE"
+	"8,15-DiHETE"
+	"8,9-DiHETrE"
+	"9,10-13-TriHOME"
+	"9,10-DiHODE"
+	"9,10-DiHOME"
+	"9,12,13-TriHOME"
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The 2nd "S34C" column at position 60 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "S19C" column at position 70 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S30B" column at position 90 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "S30B" column at position 91 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S31B" column at position 92 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S31B" column at position 93 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "S31B" column at position 94 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S32B" column at position 95 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S32B" column at position 96 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "S32B" column at position 97 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S33B" column at position 98 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S33B" column at position 99 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "S33B" column at position 100 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S34B" column at position 101 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S34B" column at position 102 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "S34B" column at position 103 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S35B" column at position 104 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S35B" column at position 105 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "S35B" column at position 106 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S17B" column at position 107 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S17B" column at position 108 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "S17B" column at position 109 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S19B" column at position 110 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S19B" column at position 111 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "S19B" column at position 112 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S20B" column at position 113 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S20B" column at position 114 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "S20B" column at position 115 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S23B" column at position 116 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S23B" column at position 117 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "S23B" column at position 118 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S24B" column at position 119 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S24B" column at position 120 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "S24B" column at position 121 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S25B" column at position 122 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S25B" column at position 123 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "S25B" column at position 124 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "S26B" column at position 125 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "S26B" column at position 126 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "S26B" column at position 127 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Media blank" column at position 128 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "Media blank" column at position 129 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "Media blank" column at position 130 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Blank media" column at position 131 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "Blank media" column at position 132 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "Blank media" column at position 133 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 7 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

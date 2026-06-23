@@ -1,8 +1,59 @@
 Validation Log
-2025-12-07 03:47:25.351442
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:01:57.610650
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001798/mwtab/json
 Study ID:      ST001105
 Analysis ID:   AN001798
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 8
+
+Number of Warnings: 2
+
+Number of Value Errors: 3
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected in ["MS"]["MS_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "Calc Mass" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0       C20 H31 O8 N0 P1
+1       C22 H43 O8 N0 P1
+2       C25 H41 O8 N0 P1
+3       C31 H59 O8 N0 P1
+4       C39 H69 O8 N0 P1
+5       C45 H81 O8 N0 P1
+6       C22 H43 O8 N0 P1
+119     C37 H71 O8 N0 P1
+120     C39 H75 O8 N0 P1
+121     C37 H71 O8 N0 P1
+122     C38 H71 O8 N0 P1
+145     C38 H75 O8 N0 P1
+146     C42 H83 O8 N0 P1
+147     C39 H75 O8 N0 P1
+148    C38 H75 O10 N0 P1
+149    C38 H73 O10 N0 P1
+150    C40 H77 O10 N0 P1
+151     C22 H45 O9 N0 P1
+152     C22 H43 O9 N0 P1
+153    C40 H75 O10 N0 P1
+154    C41 H77 O10 N0 P1
+155    C42 H79 O10 N0 P1
+156    C24 H43 O10 N0 P1
+157     C24 H43 O9 N0 P1
+158    C22 H43 O10 N0 P1
+159     C22 H45 O9 N0 P1
+160    C48 H90 O15 N0 P2
+161     C38 H73 O8 N0 P1
+162     C38 H71 O8 N0 P1
+163     C39 H75 O8 N0 P1
+164     C38 H75 O8 N0 P1
+165     C42 H83 O8 N0 P1

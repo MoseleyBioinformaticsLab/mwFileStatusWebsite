@@ -1,0 +1,123 @@
+Validation Log
+2026-06-21 06:30:43.195850
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005660/mwtab/json
+Study ID:      ST003444
+Analysis ID:   AN005660
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 103
+
+Number of Warnings: 101
+
+Number of Value Errors: 103
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "18-65", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "55", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Exact mass" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Metabolite name" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+49    CCC=CCC(O)C=CC=CCC=CCC=C(O)CCCC(O)=O
+Warning: The "201023_SPM_sonas_T3_sample_70" column at position 27 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "201023_SPM_sonas_T3_sample_71" column at position 28 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "201023_SPM_sonas_T3_sample_72" column at position 29 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "201023_SPM_sonas_T3_sample_85" column at position 42 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "201025_SPM_sonas_T3_sample_125" column at position 82 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "201025_SPM_sonas_T3_sample_146" column at position 103 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "201025_SPM_sonas_T3_sample_167" column at position 124 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "201106_SPM_sonas_t3_sample_186" column at position 143 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "201106_SPM_sonas_t3_sample_a_220" column at position 182 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "201207_sonas-T3_sample_323" column at position 271 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "201207_sonas-T3_sample_335" column at position 283 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "201207_sonas-T3_sample_350" column at position 298 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "201207_sonas-T3_sample_481" column at position 327 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210222_SonasT3_518" column at position 481 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210222_SonasT3_520" column at position 483 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210222_SonasT3_533" column at position 496 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210222_SonasT3_535" column at position 498 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210222_SonasT3_548" column at position 511 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210222_SonasT3_550" column at position 513 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210222_SonasT3_552" column at position 515 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210222_SonasT3_553" column at position 516 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210222_SonasT3_563" column at position 526 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210222_SonasT3_565" column at position 528 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210222_SonasT3_578" column at position 541 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210222_SonasT3_580" column at position 543 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210222_SonasT3_593" column at position 556 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210222_SonasT3_595" column at position 558 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210306_DIVE_STP_606" column at position 569 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210306_DIVE_STP_608" column at position 571 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210306_DIVE_STP_621" column at position 584 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210306_DIVE_STP_623" column at position 586 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210306_DIVE_STP_655" column at position 599 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210306_DIVE_STP_656" column at position 600 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210306_DIVE_STP_667" column at position 611 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210306_DIVE_STP_669" column at position 613 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210306_DIVE_STP_682" column at position 626 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210306_DIVE_STP_683" column at position 627 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210308_STP_sonas-T3-sample_636" column at position 634 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210308_STP_sonas-T3-sample_638" column at position 636 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210308_STP_sonas-T3-sample_700" column at position 663 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210308_STP_sonas-T3-sample_702" column at position 665 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210312_STP_sonas-T_sample_719" column at position 693 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210312_STP_sonas-T_sample_720" column at position 694 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210312_STP_sonas-T_sample_734" column at position 708 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210312_STP_sonas-T_sample_736" column at position 710 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210312_STP_sonas-T_sample_748" column at position 722 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210312_STP_sonas-T_sample_749" column at position 723 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210312_STP_sonas-T_sample_764" column at position 735 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210312_STP_sonas-T_sample_765" column at position 736 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210312_STP_sonas-T_sample_775" column at position 746 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210312_STP_sonas-T_sample_787" column at position 758 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210330_STP_SonasT3_sample_826" column at position 775 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210330_STP_SonasT3_sample_827" column at position 776 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210330_STP_SonasT3_sample_839" column at position 788 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210330_STP_SonasT3_sample_840" column at position 789 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210330_STP_SonasT3_sample_848" column at position 797 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210330_STP_SonasT3_sample_913" column at position 823 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210413_STP_SonasT3-sample-921" column at position 831 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210413_STP_SonasT3-sample-922" column at position 832 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210413_STP_SonasT3-sample-937" column at position 847 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210416_STP_SonasT3_878" column at position 877 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210416_STP_SonasT3_879" column at position 878 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210416_STP_SonasT3_887" column at position 886 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210423_STP_SONAST3_959" column at position 908 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210423_STP_SONAST3_963" column at position 912 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210423_STP_SONAST3_964" column at position 913 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210423_STP_SONAST3_973" column at position 922 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210609_STP_SPM-PBMC_LPS-sample-1078" column at position 938 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210609_STP_SPM-PBMC_LPS-sample-1079" column at position 939 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210609_STP_SPM-PBMC_LPS-sample-1083" column at position 943 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210609_STP_SPM-PBMC_LPS-sample-1084" column at position 944 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210610_STP_M2X_sample-1019" column at position 950 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210610_STP_M2X_sample-1021" column at position 952 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210610_STP_SPM_PBMC_A23817-sample-1057" column at position 966 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210610_STP_SPM_PBMC_A23817-sample-1058" column at position 967 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210610_STP_SPM_PBMC_A23817-sample-1062" column at position 971 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210610_STP_SPM_PBMC_A23817-sample-988" column at position 986 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210610_STP_SPM_PBMC_A23817-sample-989" column at position 987 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210610_STP_SPM_PBMC_A23817-sample-993" column at position 991 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210610_STP_SPM_PBMC_A23817-sample-1008" column at position 1006 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210610_STP_SPM_PBMC_A23817-sample-1009" column at position 1007 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210610_STP_SPM_PBMC_A23817-sample-1013" column at position 1011 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210610_STP_SPM_PBMC_LPS-sample-1044" column at position 1027 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210610_STP_SPM_PBMC_LPS-sample-1045" column at position 1028 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210610_STP_SPM_PBMC_LPS-sample-1049" column at position 1032 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210610_STP_SPM_PBMC_LPS-sample-1050A" column at position 1033 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210610_STP_SPM_PBMC_LPS-sample-1050B" column at position 1034 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210723_SPM_STP_sample-1101" column at position 1050 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210723_SPM_STP_sample-1102" column at position 1051 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210723_SPM_STP_sample-1106" column at position 1055 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210723_SPM_STP_sample-1107" column at position 1056 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210723_SPM_STP_sample-1108" column at position 1057 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210723_SPM_STP_sample-1115" column at position 1064 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210723_SPM_STP_sample-1116" column at position 1065 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210723_SPM_STP_sample-1120" column at position 1069 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210723_SPM_STP_sample-1126" column at position 1075 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "210723_SPM_STP_sample-1128" column at position 1077 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.

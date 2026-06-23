@@ -1,8 +1,54 @@
 Validation Log
-2025-12-07 08:58:01.610685
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:50:13.634368
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006077/mwtab/json
 Study ID:      ST003704
 Analysis ID:   AN006077
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 4
+
+Number of Warnings: 3
+
+Number of Value Errors: 4
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "30°C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Molecular Weight" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1      C18 H37 N O2
+4         C8 H9 N O
+5       C9 H17 N O4
+9       C6 H11 N O2
+10      C5 H11 N O2
+11       C7 H7 N O2
+14     C2 H7 N O3 S
+17      C6 H11 N O4
+18       C5 H9 N O2
+19       C4 H7 N O4
+20      C6 H11 N O4
+21      C11 H9 N O2
+22    C5 H11 N O2 S
+23      C9 H11 N O3
+24       C5 H7 N O3
+27     C10 H19 N O4
+28      C8 H15 N O6
+29       C5 H9 N O4
+33      C7 H15 N O3
+34       C4 H9 N O2
+36       C4 H9 N O3
+40      C6 H13 N O2
+41       C4 H7 N O4
+43       C8 H9 N O3
+44        C3 H9 N O
+45       C3 H7 N O2
+46       C2 H5 N O2
+48      C8 H17 N O2
+49      C4 H11 N O2
+50        C3 H9 N O
+51       C5 H9 N O4
+Warning: The "RT [min]" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

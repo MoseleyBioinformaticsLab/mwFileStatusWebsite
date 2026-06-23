@@ -1,8 +1,27 @@
 Validation Log
-2025-12-07 08:49:42.438570
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:43:14.837834
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005927/mwtab/txt
 Study ID:      ST003607
 Analysis ID:   AN005927
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 6
+
+Number of Warnings: 4
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Not applicable", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "45", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 2 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 2 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+92    c00047
+93    c00047
+Warning: The "r.t." column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

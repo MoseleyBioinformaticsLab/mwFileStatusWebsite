@@ -1,8 +1,53 @@
 Validation Log
-2025-12-07 06:09:53.764295
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:49:18.312845
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003798/mwtab/txt
 Study ID:      ST002328
 Analysis ID:   AN003798
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 23
+
+Number of Warnings: 9
+
+Number of Value Errors: 19
+
+Number of Consistency Errors: 3
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "GENOTYPE_STRAIN", in the "SUBJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "19-75", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "N/A", for the subsection, "HEIGHT_OR_HEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['cm', 'in']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, ".3 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "4", for the subsection, "INJECTION_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "FACTORS".
+Error: SUBJECT_SAMPLE_FACTORS section missing sample ID(s). The following IDs were found in the MS_METABOLITE_DATA section but not in the SUBJECT_SAMPLE_FACTORS:
+	""
+Warning: The "m/z" column at position 2 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Molecular Weight" column at position 4 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Monoisotopic_Mass" column at position 7 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Monoisotopic_Mass" column at position 7 in the METABOLITES table, matches a standard column name, "mass", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+70        C9H16O3
+186     C26H43NO4
+196    C25H48NO7P
+Warning: The "Formula" column at position 6 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+70     HMDB0094711
+186    HMDB0000698
+196    HMDB0011483
+Warning: The "HMDB ID" column at position 5 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB ID" column at position 5 in the METABOLITES table, matches a standard column name, "hmdb_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+70     172.10926
+99            IS
+186    433.31523
+196    505.31776
+Warning: The "RT [min]" column at position 3 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Error: Column(s) with no name were found in the MS_METABOLITE_DATA table.
+Error: Column(s) with no name were found in the METABOLITES table.
+Warning: The "" column at position 9 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Error: The section, MS_METABOLITE_DATA, has a mismatch between the number of headers and the number of elements in each line. Either a line(s) has more values than headers or there are too few headers.
+Error: The section, METABOLITES, has a mismatch between the number of headers and the number of elements in each line. Either a line(s) has more values than headers or there are too few headers.

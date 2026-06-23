@@ -1,8 +1,128 @@
 Validation Log
-2025-12-07 09:08:28.227670
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:58:29.909651
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006446/mwtab/json
 Study ID:      ST003788
 Analysis ID:   AN006446
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 17
+
+Number of Warnings: 14
+
+Number of Value Errors: 15
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "14-87", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "450 µL/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "45℃", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "MZ" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB_ID_certainty (1=match; 2=representative)" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB_ID_certainty (1=match; 2=representative)" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     1
+1     1
+2     1
+3     1
+4     1
+5     1
+6     1
+7     2
+8     1
+9     2
+10    1
+11    1
+12    1
+13    2
+14    1
+15    1
+16    1
+17    1
+18    1
+19    1
+20    1
+21    1
+22    1
+23    1
+24    0
+25    1
+26    1
+27    1
+28    1
+29    1
+30    1
+31    1
+32    1
+33    1
+34    1
+35    1
+36    1
+37    1
+38    1
+39    1
+40    1
+41    0
+42    1
+43    1
+44    1
+45    1
+46    1
+47    1
+48    1
+49    1
+50    1
+51    1
+52    1
+53    1
+54    1
+55    0
+56    0
+57    1
+58    1
+59    1
+60    1
+61    1
+62    1
+63    1
+64    1
+65    1
+66    1
+67    1
+68    1
+69    1
+70    1
+71    1
+72    1
+73    1
+74    1
+75    0
+76    1
+77    1
+78    1
+79    1
+80    1
+81    1
+82    2
+83    1
+84    1
+85    1
+86    1
+87    1
+88    1
+89    1
+90    1
+91    1
+Warning: The "Compound_ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Method" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ms_method". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "Compound_ID" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "Compound_ID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "IN_0427" column at position 2 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "IN_0020" column at position 3 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "IN_0135" column at position 4 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "VN_0612" column at position 5 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Workbench ID" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "HMDB_ID_certainty (1=match; 2=representative)" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

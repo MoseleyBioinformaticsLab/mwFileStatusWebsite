@@ -1,0 +1,26 @@
+Validation Log
+2026-06-21 08:00:49.874732
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007700/mwtab/txt
+Study ID:      ST004582
+Analysis ID:   AN007700
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 7
+
+Number of Warnings: 6
+
+Number of Value Errors: 7
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "500 MHZ", for the subsection, "SPECTROMETER_FREQUENCY", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['MHz']. Ignore this when more complicated descriptions are required.
+Warning: There are duplicate samples in the NMR_METABOLITE_DATA section.
+Warning: The "PubChem" column at position 3 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 5 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 2 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "METLIN" column at position 6 in the METABOLITES table, matches a standard column name, "metlin_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ChEBI" column at position 4 in the METABOLITES table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

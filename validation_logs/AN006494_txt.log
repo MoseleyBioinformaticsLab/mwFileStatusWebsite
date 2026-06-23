@@ -1,8 +1,28 @@
 Validation Log
-2025-12-07 09:25:58.664154
-mwtab Python Library Version: 1.2.5
+2026-06-21 07:12:45.354525
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006494/mwtab/txt
 Study ID:      ST003951
 Analysis ID:   AN006494
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 2
+
+Number of Warnings: 1
+
+Number of Value Errors: 2
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "27ºC", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "KEGG_ID" column at position 2 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+131    HMDB0000788
+132    HMDB0000788
+133    HMDB0000788
+134    HMDB0000788
+135    HMDB0000788
+136    HMDB0000788
+137    HMDB0000788

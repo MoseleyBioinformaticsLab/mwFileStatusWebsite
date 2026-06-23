@@ -1,0 +1,63 @@
+Validation Log
+2026-06-21 08:11:04.421921
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007988/mwtab/json
+Study ID:      ST004725
+Analysis ID:   AN007988
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 18
+
+Number of Warnings: 14
+
+Number of Value Errors: 15
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "25 Â°C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"2_3-Dihydroxybenzoate"
+	"2_4-Dihydroxypteridine"
+	"2_6-Dihydroxypyridine"
+	"3_4-Dihydroxybenzoate"
+	"3_5-Diiodo-L-thyronine"
+	"3_5-Diiodo-L-tyrosine"
+	"5^-Deoxyadenosine"
+	"Adenosine 2^_3^-cyclic phosphate"
+	"Adenosine 3^_5^-diphosphate"
+	"Cytidine 2^_3^-cyclic phosphate"
+	"N_N-Dimethyl-1_4-phenylenediamine"
+	"N_N-Dimethylarginine"
+	"trans-1_2-Cyclohexanediol"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"2,3-Dihydroxybenzoate"
+	"2,4-Dihydroxypteridine"
+	"2,6-Dihydroxypyridine"
+	"3,4-Dihydroxybenzoate"
+	"3,5-Diiodo-L-thyronine"
+	"3,5-Diiodo-L-tyrosine"
+	"5'-Deoxyadenosine"
+	"Adenosine 2',3'-cyclic phosphate"
+	"Adenosine 3',5'-diphosphate"
+	"Cytidine 2',3'-cyclic phosphate"
+	"N,N-Dimethyl-1,4-phenylenediamine"
+	"N,N-Dimethylarginine"
+	"trans-1,2-Cyclohexanediol"
+Warning: The "refmet_name" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "refmet_name" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "pubchem_id" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "kegg_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "moverz_quant" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

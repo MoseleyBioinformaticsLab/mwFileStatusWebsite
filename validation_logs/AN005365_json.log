@@ -1,8 +1,85 @@
 Validation Log
-2025-12-07 08:06:08.222499
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:14:29.663029
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005365/mwtab/json
 Study ID:      ST003277
 Analysis ID:   AN005365
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 14
+
+Number of Warnings: 10
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "40-50", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"2_8-quinolinediol"
+	"2^-deoxyadenosine"
+	"2^-deoxyadenosine 5^-monophosphate"
+	"2^-deoxycytidine"
+	"2^-deoxycytidine 5^-monophosphate"
+	"2^-deoxyguanosine 5^-monophosphate (dGMP)"
+	"2^-O-methylcytidine"
+	"5-methyl-2^-deoxycytidine"
+	"adenosine 5^-monophosphate (AMP)"
+	"cytidine 2^ or 3^-monophosphate (2^ or 3^-CMP)"
+	"cytidine 5^-monophosphate (5^-CMP)"
+	"glutamate_ gamma-methyl ester"
+	"glutathione_ reduced (GSH)"
+	"guanosine 5^-monophosphate (5^-GMP)"
+	"hydroxy-N6_N6_N6-trimethyllysine*"
+	"N(^1)-acetylspermidine"
+	"N1_N10-dicoumaroylspermidine"
+	"N2_N2-dimethylguanosine"
+	"N6_N6-dimethyllysine"
+	"N6_N6_N6-trimethyllysine"
+	"N_N-dimethyl-5-aminovalerate"
+	"N_N-dimethylalanine"
+	"N_N-dimethyl-pro-pro"
+	"N_N_N-trimethyl-alanylproline betaine (TMAP)"
+	"trigonelline (N^-methylnicotinate)"
+	"uridine 5^-monophosphate (UMP)"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"2,8-quinolinediol"
+	"2'-deoxyadenosine"
+	"2'-deoxyadenosine 5'-monophosphate"
+	"2'-deoxycytidine"
+	"2'-deoxycytidine 5'-monophosphate"
+	"2'-deoxyguanosine 5'-monophosphate (dGMP)"
+	"2'-O-methylcytidine"
+	"5-methyl-2'-deoxycytidine"
+	"adenosine 5'-monophosphate (AMP)"
+	"cytidine 2' or 3'-monophosphate (2' or 3'-CMP)"
+	"cytidine 5'-monophosphate (5'-CMP)"
+	"glutamate, gamma-methyl ester"
+	"glutathione, reduced (GSH)"
+	"guanosine 5'-monophosphate (5'-GMP)"
+	"hydroxy-N6,N6,N6-trimethyllysine*"
+	"N('1)-acetylspermidine"
+	"N1,N10-dicoumaroylspermidine"
+	"N2,N2-dimethylguanosine"
+	"N6,N6-dimethyllysine"
+	"N6,N6,N6-trimethyllysine"
+	"N,N-dimethyl-5-aminovalerate"
+	"N,N-dimethylalanine"
+	"N,N-dimethyl-pro-pro"
+	"N,N,N-trimethyl-alanylproline betaine (TMAP)"
+	"trigonelline (N'-methylnicotinate)"
+	"uridine 5'-monophosphate (UMP)"
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "moverz_quant" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

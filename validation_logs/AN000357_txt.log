@@ -1,8 +1,64 @@
 Validation Log
-2025-12-07 01:29:42.849489
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:24:28.389955
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000357/mwtab/txt
 Study ID:      ST000236
 Analysis ID:   AN000357
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 39
+
+Number of Warnings: 18
+
+Number of Value Errors: 34
+
+Number of Consistency Errors: 1
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "PROJECT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "23-29 (Human)", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "220-250g (Rat)", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male/Female (Human and Rat)", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "3kV", for the subsection, "CAPILLARY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "Ar", for the subsection, "COLLISION_GAS", in the "MS" section should be one of "Nitrogen" or "Argon". Ignore this when more complicated descriptions are required.
+Error: The value, "900 L/h", for the subsection, "DRY_GAS_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "450C", for the subsection, "DRY_GAS_TEMP", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "100C", for the subsection, "ION_SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "100C", for the subsection, "SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "900 L/h", for the subsection, "DESOLVATION_GAS_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "450C", for the subsection, "DESOLVATION_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.5 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "24?", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "8?L", for the subsection, "SAMPLE_INJECTION", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "24?", for the subsection, "INJECTION_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Error: The value, "20min", for the subsection, "ANALYTICAL_TIME", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['min']. Ignore this when more complicated descriptions are required.
+Error: The value, "Positive ion mode:3kV; Negative ion mode: 2.9kV", for the subsection, "CAPILLARY_VOLTAGE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"Compound"
+Warning: The "Quant m/z" column at position 2 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Quant m/z" column at position 2 in the METABOLITES table, matches a standard column name, "moverz_quant", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0    Quant m/z
+Warning: The "Spectra" column at position 5 in the METABOLITES table, matches a standard column name, "mass_spectrum". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Spectra" column at position 5 in the METABOLITES table, matches a standard column name, "mass_spectrum", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0    Spectra
+Warning: The "PubChem" column at position 7 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem" column at position 7 in the METABOLITES table, matches a standard column name, "pubchem_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0    PubChem
+Warning: The "Kegg" column at position 6 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Kegg" column at position 6 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0    Kegg
+Warning: The "Other ID" column at position 4 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Ret. Index" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Ret. Index" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0    Ret. Index
+Warning: The column "Other ID" was found in the METABOLITES table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The column "Ret. Index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "Other ID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: The METABOLITES table does not have a column for "metabolite_name". It is likely misspelled or using a common incorrect substitute.
+Warning: The "Other ID" column at position 4 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "Spectra" column at position 5 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "Kegg" column at position 6 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "PubChem" column at position 7 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

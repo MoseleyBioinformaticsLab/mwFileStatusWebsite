@@ -1,8 +1,26 @@
 Validation Log
-2025-12-07 03:46:44.894780
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:01:19.961458
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001782/mwtab/json
 Study ID:      ST001095
 Analysis ID:   AN001782
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 7
+
+Number of Warnings: 0
+
+Number of Value Errors: 7
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "120", in ["MS"]["SOURCE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "800 l/hr", in ["MS"]["DESOLVATION_GAS_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "450 degree C", in ["MS"]["DESOLVATION_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["MS"]["MS_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.

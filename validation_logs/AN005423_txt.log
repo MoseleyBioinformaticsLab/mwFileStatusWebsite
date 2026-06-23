@@ -1,8 +1,259 @@
 Validation Log
-2025-12-07 08:09:48.340330
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:17:27.046833
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005423/mwtab/txt
 Study ID:      ST003311
 Analysis ID:   AN005423
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 12
+
+Number of Warnings: 6
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "NA", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "80 - 350", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_A", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_B", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Warning: The "Quant mass" column at position 4 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "SMILES" column at position 6 in the METABOLITES table, matches a standard column name, "smiles", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+13                                            Z artifact
+67                                            Z artifact
+129    OC(C(CC(O)=O)C(O)=O)C(O)=O & C(C(=O)O)C(CC(=O)...
+144    [H][C@@](O)(CO)[C@]([H])(O)[C@]([H])(O)C(=O)CO...
+153    [H]C1(O)O[C@]([H])(CO)[C@]([H])(O)[C@]([H])(O)...
+172    [H][C@@](O)(COP(O)(O)=O)[C@@]([H])(O)C(=O)CO &...
+Warning: The "pubchem identifier" column at position 5 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "pubchem identifier" column at position 5 in the METABOLITES table, matches a standard column name, "pubchem_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                            CRMAIVBWLODODC-UHFFFAOYSA-N
+1                            AEMRFAOFKBGASW-UHFFFAOYSA-N
+2                            AEMRFAOFKBGASW-UHFFFAOYSA-N
+3                            ZOCHHNOQQHDWHG-UHFFFAOYNA-N
+4                            QPJVMBTYPHYUOC-UHFFFAOYSA-N
+5                            QNAYBMKLOCPYGJ-REOHCLBHSA-N
+6                            AVXURJPOCDRRFD-UHFFFAOYSA-N
+7                            QNAYBMKLOCPYGJ-UHFFFAOYSA-N
+8                            HQABUPZFAYXKJW-UHFFFAOYSA-N
+9                            XNCNNDVCAUWAIT-UHFFFAOYSA-N
+10                           AFENDNXGAFYKQO-UHFFFAOYSA-N
+11                           FSYKKLYZXJSNPZ-UHFFFAOYSA-N
+12                           MUBZPKHOEPUJKR-UHFFFAOYSA-N
+13                                            Z artifact
+14                           CJEVAYSVMDKECV-UHFFFAOYSA-N
+15                           HNJBEVLQSNELDL-UHFFFAOYSA-N
+16                           WHBMMWSBFZVSSR-GSVOUGTGSA-N
+17                           GCNTZFIIOFTKIY-UHFFFAOYSA-N
+18                           WHBMMWSBFZVSSR-UHFFFAOYNA-N
+19                           CAAULPUQFIIOTL-UHFFFAOYSA-N
+20                           OFOBLEOULBTSOW-UHFFFAOYSA-N
+21                           FGTJJHCZWOVVNH-UHFFFAOYSA-N
+22                           KZSNJWFQEVHDMF-UHFFFAOYSA-N
+23                           IJXHLVMUNBOGRR-UHFFFAOYSA-N
+24                           XSQUKJJJFZCRTK-UHFFFAOYSA-N
+25                           XPPKVPWEQAFLFU-UHFFFAOYSA-N
+26                           XSQUKJJJFZCRTK-UHFFFAOYSA-N
+27                           XSQUKJJJFZCRTK-UHFFFAOYSA-N
+28                           XSQUKJJJFZCRTK-UHFFFAOYSA-N
+29                           XSQUKJJJFZCRTK-UHFFFAOYSA-N
+30                           MTCFGRXMJLQNBG-REOHCLBHSA-N
+31                           SOWBFZRMHSNYGE-UHFFFAOYSA-N
+32                           WPYMKLBDIGXBTP-UHFFFAOYSA-N
+33                           XPPKVPWEQAFLFU-UHFFFAOYSA-N
+34                           XSQUKJJJFZCRTK-UHFFFAOYSA-N
+35                           HZAXFHJVJLSVMW-UHFFFAOYSA-N
+36                           SOWBFZRMHSNYGE-UHFFFAOYSA-N
+37                           SOWBFZRMHSNYGE-UHFFFAOYSA-N
+38                           NBIIXXVUZAFLBC-UHFFFAOYSA-N
+39                           ROHFNLRQFUQHCH-YFKPBYRVSA-N
+40                           XPPKVPWEQAFLFU-UHFFFAOYSA-N
+41                           NBIIXXVUZAFLBC-UHFFFAOYSA-N
+42                           IQVAERDLDAZARL-UHFFFAOYNA-N
+43                           HZAXFHJVJLSVMW-UHFFFAOYSA-N
+44                           ROHFNLRQFUQHCH-UHFFFAOYSA-N
+45                           PEDCQBHIVMGVHV-UHFFFAOYSA-N
+46                           NBIIXXVUZAFLBC-UHFFFAOYSA-N
+47                           NBIIXXVUZAFLBC-UHFFFAOYSA-N
+48                           NBIIXXVUZAFLBC-UHFFFAOYSA-N
+49                           ZIYVHBGGAOATLY-UHFFFAOYSA-N
+50                           AGPKZVBTJJNPAG-UHFFFAOYSA-N
+51                           KDYFGRWQOYBRFD-UHFFFAOYSA-N
+52                           ONIBWKKTOPOVIA-UHFFFAOYSA-N
+53                           DHMQDGOQFOQNFH-UHFFFAOYSA-N
+54                           DHMQDGOQFOQNFH-UHFFFAOYSA-N
+55                           KDYFGRWQOYBRFD-UHFFFAOYSA-N
+56                           YRHYCMZPEVDGFQ-UHFFFAOYSA-N
+57                           VZCYOOQTPOCHFL-OWOJBTEDSA-N
+58                           MTCFGRXMJLQNBG-REOHCLBHSA-N
+59                           ISAKRJDGNUQOIC-UHFFFAOYSA-N
+60                           VZCYOOQTPOCHFL-OWOJBTEDSA-N
+61                           FBUKVWPVBMHYJY-UHFFFAOYSA-N
+62                           MTCFGRXMJLQNBG-UHFFFAOYSA-N
+63                           QNAYBMKLOCPYGJ-UHFFFAOYSA-N
+64                           LPNBBFKOUUSUDB-UHFFFAOYSA-N
+65                           AYFVYJQAPQTCCC-HRFVKAFMSA-N
+66                           UGJBHEZMOKVTIM-UHFFFAOYSA-N
+67                                            Z artifact
+68                           AYFVYJQAPQTCCC-UHFFFAOYSA-N
+69                           JFCQEDHGNNZCLN-UHFFFAOYSA-N
+70                           ZBCBWPMODOFKDW-UHFFFAOYSA-N
+71                           UCMIRNVEIXFBKS-UHFFFAOYSA-N
+72                           UCMIRNVEIXFBKS-UHFFFAOYSA-N
+73                           UKAUYVFTDYCKQA-UHFFFAOYSA-N
+74                           BJEPYKJPYRNKOW-UHFFFAOYNA-N
+75                           DFPAKSUCGFBDDF-UHFFFAOYSA-N
+76                           DFPAKSUCGFBDDF-UHFFFAOYSA-N
+77                           BJEPYKJPYRNKOW-UHFFFAOYSA-N
+78                           CKLJMWTZIZZHCS-UHFFFAOYNA-N
+79                           CKLJMWTZIZZHCS-UHFFFAOYNA-N
+80                           ODHCTXKNWHHXJC-UHFFFAOYNA-N
+81                           BTCSSZJGUNDROE-UHFFFAOYSA-N
+82                           UQDUPQYQJKYHQI-UHFFFAOYSA-N
+83                           BTCSSZJGUNDROE-UHFFFAOYSA-N
+84                           BTCSSZJGUNDROE-UHFFFAOYSA-N
+85                           FFEARJCKVFRZRR-UHFFFAOYSA-N
+86                           CKLJMWTZIZZHCS-UHFFFAOYSA-N
+87                           ODHCTXKNWHHXJC-UHFFFAOYSA-N
+88                           ODHCTXKNWHHXJC-UHFFFAOYSA-N
+89                           BTCSSZJGUNDROE-UHFFFAOYSA-N
+90                           BTCSSZJGUNDROE-UHFFFAOYSA-N
+91                           DDRJAANPRJIHGJ-UHFFFAOYSA-N
+92                           DDRJAANPRJIHGJ-UHFFFAOYSA-N
+93                           JPIJQSOTBSSVTP-UHFFFAOYSA-N
+94                           LXRUAYBIUSUULX-HRFVKAFMSA-N
+95                           WHUUTDBJXJRKMK-VKHMYHEASA-N
+96                           VHJLVAABSRFDPM-IMJSIDKUSA-N
+97                           WHUUTDBJXJRKMK-VKHMYHEASA-N
+98                           VVIUBCNYACGLLV-UHFFFAOYSA-N
+99                           WHUUTDBJXJRKMK-UHFFFAOYSA-N
+100                          FJKROLUGYXJWQN-UHFFFAOYSA-N
+101                          COLNVLDHVKWLRT-UHFFFAOYSA-N
+102                          OTCCIMWXFLJLIA-BYPYZUCNSA-N
+103                          POULHZVOKOAJMA-UHFFFAOYSA-N
+104                          FEWJPZIEWOKRBE-UHFFFAOYSA-N
+105                          OTCCIMWXFLJLIA-BYPYZUCNSA-N
+106                          JDDRRLKCWBOIEK-UHFFFAOYSA-N
+107                          OTCCIMWXFLJLIA-BYPYZUCNSA-N
+108                          XOAAWQZATWQOTB-UHFFFAOYSA-N
+109                          ADVPTQAUNPRNPO-UHFFFAOYSA-N
+110                          PYMYPHUHKUWMLA-LMVFSUKVSA-N
+111                          ZAZKJZBWRNNLDS-UHFFFAOYSA-N
+112                          ZAZKJZBWRNNLDS-UHFFFAOYSA-N
+113                          OYIFNHCXNCRBQI-UHFFFAOYSA-N
+114                          GTZCVFVGUGFEME-UHFFFAOYSA-N
+115                          DHCLVCXQIBBOPH-UHFFFAOYSA-N
+116                          HXXFSFRBOHSIMQ-VFUOTHLCSA-N
+117                          HEBKCHPVOIAQTA-QWWZWVQMSA-N
+118                          HEBKCHPVOIAQTA-UHFFFAOYSA-N
+119                          SUHOOTKUPISOBE-UHFFFAOYSA-N
+120                          OSJPPGNTCRNQQC-UHFFFAOYNA-N
+121                          JXOHGGNKMLTUBP-UHFFFAOYNA-N
+122                          ZDXPYRJPNDTMRX-UHFFFAOYSA-N
+123                          RFMMMVDNIPUKGG-UHFFFAOYSA-N
+124                          QXKAIJAYHKCRRA-NUNKFHFFSA-N
+125                          KKEYFWRCBNTPAC-UHFFFAOYSA-N
+126                          SUHOOTKUPISOBE-UHFFFAOYSA-N
+127                          FDGQSTZJBFJUBT-UHFFFAOYSA-N
+128                          VHRGRCVQAFMJIZ-UHFFFAOYSA-N
+129    ODBLHEXUDAPZAU-UHFFFAOYSA-N & KRKNYBCHXYNGOX-U...
+130                          CFFZDZCDUFSOFZ-UHFFFAOYSA-N
+131                          UZUTZCYXYDHJAT-UHFFFAOYSA-N
+132                          TUNFSRHWOTWDNC-UHFFFAOYSA-N
+133                          TUNFSRHWOTWDNC-UHFFFAOYSA-N
+134                          BZQFBWGGLXLEPQ-UHFFFAOYSA-N
+135                          ZGXJTSGNIOSYLO-UHFFFAOYSA-N
+136                          SBJKKFFYIZUCET-JLAZNSOCSA-N
+137                          WQZGKKKJIJFFOK-UHFFFAOYNA-N
+138                          MPCAJMNYNOGXPB-SLPGGIOYSA-N
+139                          GFFGJBXGBJISGV-UHFFFAOYSA-N
+140                          FBPFZTCFMRRESA-UNTFVMJOSA-N
+141                          WQZGKKKJIJFFOK-UHFFFAOYNA-N
+142                          CXMXRPHRNRROMY-UHFFFAOYSA-N
+143                          WQZGKKKJIJFFOK-SVZMEOIVSA-N
+144    BJHIKXHVCXFQLS-PQLUHFTBSA-N & BJHIKXHVCXFQLS-U...
+145                          BJHIKXHVCXFQLS-PYWDMBMJSA-N
+146                          FBPFZTCFMRRESA-UHFFFAOYNA-N
+147                          FLIACVVOZYBSBS-UHFFFAOYSA-N
+148                          WQZGKKKJIJFFOK-SVZMEOIVSA-N
+149                          KDXKERNSBIXSRK-UHFFFAOYSA-N
+150                          MSWZFWKMSRAUBD-GASJEMHNSA-N
+151                          HNDVDQJCIGZPNO-YFKPBYRVSA-N
+152                          WQEPLUUGTLDZJY-UHFFFAOYSA-N
+153    WQZGKKKJIJFFOK-SVZMEOIVSA-N & WQZGKKKJIJFFOK-G...
+154                          OUYCCCASQSFEME-UHFFFAOYSA-N
+155                          AEMOLEFTQBMNLQ-YMDCURPLSA-N
+156                          NDJKXXJCMXVBJW-UHFFFAOYSA-N
+157                          FBPFZTCFMRRESA-KVTDHHQDSA-N
+158                          RGHNJXZEOKUKBD-MBMOQRBOSA-N
+159                          CIWBSHSKHKDKBQ-JLAZNSOCSA-N
+160                          GHOKWGTUZJEAQD-ZETCQYMHSA-N
+161                          LRFVTYWOQMYALW-UHFFFAOYSA-N
+162                          IPCSVZSSVZVIGE-UHFFFAOYSA-N
+163                          IPCSVZSSVZVIGE-UHFFFAOYSA-N
+164                          IPCSVZSSVZVIGE-UHFFFAOYSA-N
+165                          RGHNJXZEOKUKBD-SQOUGZDYSA-N
+166                          CDAISMWEOUEBRE-UHFFFAOYSA-N
+167                          KTVPXOYAKDPRHY-SOOFDHNKSA-N
+168                          OVRNDRQMDRJTHS-RTRLPJTCSA-N
+169                          HPEUJPJOZXNMSJ-UHFFFAOYSA-N
+170                          CDAISMWEOUEBRE-UHFFFAOYSA-N
+171                          PPQRONHOSHZGFQ-WDCZJNDASA-N
+172    FNZLKVNUWIIPSJ-UHNVWZDZSA-N & FNZLKVNUWIIPSJ-R...
+173                          ZQPPMHVWECSIRJ-UHFFFAOYSA-N
+174                          ZMXIYERNXPIYFR-UHFFFAOYSA-N
+175                          APJYDQYYACXCRM-UHFFFAOYSA-N
+176                          QIQXTHQIDYTFRH-UHFFFAOYSA-N
+177                          QIQXTHQIDYTFRH-UHFFFAOYSA-N
+178                          QIVBCDIJIAJPQS-VIFPVBQESA-N
+179                          QGBRLVONZXHAKJ-UHFFFAOYSA-N
+180                          GACTWZZMVMUKNG-SLPGGIOYSA-N
+181                          NBSCHQHZLSJFNQ-SVZMEOIVSA-N
+182                          GSXOAOHZAIYLCY-HSUXUTPPSA-N
+183                          XHMJOUIAFHJHBW-IVMDWMLBSA-N
+184                          GSXOAOHZAIYLCY-HSUXUTPPSA-N
+185                          YZXBAPSDXZZRGB-DOFZRALJSA-N
+186                          DRTQHJPVMGBUCF-XVFCMESISA-N
+187                          VKOBVWXKNCXXDE-UHFFFAOYSA-N
+188                          DRTQHJPVMGBUCF-XVFCMESISA-N
+189                          DRTQHJPVMGBUCF-XVFCMESISA-N
+190                          ZDGJAHTZVHVLOT-YUMQZZPRSA-N
+191                          DRTQHJPVMGBUCF-XVFCMESISA-N
+192                          URKOMYMAXPYINW-UHFFFAOYSA-N
+193                          QSQLTHHMFHEFIY-UHFFFAOYSA-N
+194                          POOSGDOYLQNASK-UHFFFAOYSA-N
+195                          UGQMRVRMYYASKQ-KQYNXXCUSA-N
+196                          CZMRCDWAGMRECN-UGDNZRGBSA-N
+197                          OIRDTQYFTABQOQ-KQYNXXCUSA-N
+198                          GUBGYTABKSRVRQ-XLOQQCSPSA-N
+199                          OIRDTQYFTABQOQ-KQYNXXCUSA-N
+200                          GUBGYTABKSRVRQ-XLOQQCSPSA-N
+201                          CZMRCDWAGMRECN-UGDNZRGBSA-N
+202                          UHDGCWIWMRVCDJ-XVFCMESISA-N
+203                          XUDJZDNUVZHSKZ-UHFFFAOYSA-N
+204                          GUBGYTABKSRVRQ-PICCSMPSSA-N
+205                          DLRVVLDZNNYCBX-LIZSDCNHSA-N
+206                          IGGUPRCHHJZPBS-UHFFFAOYSA-N
+207                          NYHBQMYGNKIUIF-UUOKFMHZSA-N
+208                          JYTUSYBCFIZPBE-AMTLMPIISA-N
+209                          HDTRYLNUVZCQOY-LIZSDCNHSA-N
+210                          WUUGFSXJNOTRMR-IOSLPCCCSA-N
+211                          DLRVVLDZNNYCBX-ABXHMFFYSA-N
+212                          DLRVVLDZNNYCBX-ABXHMFFYSA-N
+213                          XCCTYIAWTASOJW-XVFCMESISA-N
+214                          VHUJBYYFFWDLNM-UHFFFAOYSA-N
+215                          GRSZFWQUAKGDAV-KQYNXXCUSA-N
+216                          ZKHOYAKAFALNQD-UHFFFAOYSA-N
+217                          HVYWMOMLDIMFJA-DPAQBDIFSA-N
+218                          HVYWMOMLDIMFJA-DPAQBDIFSA-N
+219                          HVYWMOMLDIMFJA-DPAQBDIFSA-N
+220                          QYIXCDOBOSTCEI-FBVYSKEZSA-N
+221                          BIRUBGLRQLAEFF-UHFFFAOYSA-N
+Warning: The "Retention Index" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "Retention Index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.

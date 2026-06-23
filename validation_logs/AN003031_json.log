@@ -1,8 +1,57 @@
 Validation Log
-2025-12-07 05:08:39.874938
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:05:43.704755
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003031/mwtab/json
 Study ID:      ST001869
 Analysis ID:   AN003031
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 11
+
+Number of Warnings: 6
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "PUBCHEM" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+84                26853-31-6;26853-31-6
+118               71030-37-0;73837-14-6
+136                  542-32-5;1118-90-7
+199                    463-003;463-00-3
+218                 921-62-0;53411-70-4
+246        305-72-6;328-50-7;22202-68-2
+248                  59-02-9;10191-41-0
+270                    56-41-7;107-95-9
+278               55482-27-4;55482-27-4
+291                   474-24-9;474-25-9
+303                  85-61-0;18439-24-2
+309                     52-90-4;56-89-3
+346                10-2005-9;10417-94-4
+361                 146-14-5;84366-81-4
+364              38099-82-0;103213-44-1
+386                 1499-55-4;1499-55-4
+402                   475-31-0;863-57-0
+442                573-35-3;106032-59-1
+468              141-82-2;26522-22-85-0
+477              70442-25-0;104872-94-8
+504                   997-55-7;997-55-7
+562                    11-58-0;111-58-0
+620                  50-99-7;58459-37-3
+625    24346-00-7;86867-01-8;86867-0108
+666               85187-10-6;85187-10-6
+699               28053-08-9;63700-19-6
+702                    69-93-2;120K5305
+Warning: The "RI" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "RI" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.

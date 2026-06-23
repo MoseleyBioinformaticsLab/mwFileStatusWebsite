@@ -1,8 +1,29 @@
 Validation Log
-2025-12-07 01:10:22.619115
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:10:45.031826
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000057/mwtab/txt
 Study ID:      ST000037
 Analysis ID:   AN000057
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 0
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "PROJECT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "ADDRESS", in the "STUDY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "0.5mM", for the subsection, "STANDARD_CONCENTRATION", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mM']. Ignore this when more complicated descriptions are required.
+Error: The value, "25.704w", for the subsection, "POWER_LEVEL", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['W', 'dB']. Ignore this when more complicated descriptions are required.
+Error: The value, "2.3243434", for the subsection, "ACQUISITION_TIME", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s']. Ignore this when more complicated descriptions are required.
+Error: The value, "20.1358", for the subsection, "SPECTRAL_WIDTH", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm', 'Hz']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.5", for the subsection, "LINE_BROADENING", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['Hz']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "CHROMATOGRAPHY".

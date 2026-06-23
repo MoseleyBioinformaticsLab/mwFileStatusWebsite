@@ -1,8 +1,1126 @@
 Validation Log
-2025-12-07 05:44:28.169706
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:29:08.959072
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003422/mwtab/txt
 Study ID:      ST002094
 Analysis ID:   AN003422
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 21
+
+Number of Warnings: 14
+
+Number of Value Errors: 16
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "MS1 Composite Spectrum" column at position 11 in the METABOLITES table, matches a standard column name, "composite_mass_spectrum". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 13 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+7            C12 H23 N2 O9 P S
+10               C36 H45 N O13
+14             C18 H16 N O4 S2
+15               C21 H43 Cl O4
+16               C22 H23 Cl O3
+17             C23 H47 Cl O3 S
+18                C23 H5 Cl N3
+19           C25 H35 Cl N17 O4
+20            C28 H31 Cl2 N O2
+23                 C3 H N O S3
+25           C33 H44 Cl2 N O12
+28                C6 H2 N O9 S
+29                 C8 H16 O S3
+30                 C8 H16 O S3
+31                 C9 H20 O S3
+38             C25 H38 Cl N O5
+43           C12 H15 N2 O3 P S
+50           C14 H11 F3 N2 O S
+60                   C5 H O6 S
+62                   C9 H N O2
+67                 C9 H17 N O5
+75                 C13 H O5 S2
+80                 C12 H23 N O
+92                  C5 H7 N O3
+95              C23 H4 N O25 S
+96                  C4 H4 O S4
+101          C12 H15 N2 O3 P S
+102               C7 H7 N O2 S
+109                C9 H7 Cl N2
+111      C10 H12 Br Cl2 O3 P S
+117                 C3 H2 Cl O
+118               C38 H37 N S2
+129           C24 H37 Cl N3 O3
+130               C35 H35 N S2
+134              C8 H11 N O4 S
+138            C14 H13 Cl2 N O
+141          C12 H23 N2 O9 P S
+148             C15 H3 N O2 S2
+150                C23 H8 N S3
+151            C32 H11 Cl N O4
+153              C6 H8 Cl O3 S
+167             C21 H6 N O2 S3
+169            C23 H25 Cl N7 O
+170                 C3 H2 Cl O
+183                  C9 H7 N O
+185            C23 H27 F N4 O2
+201          C12 H20 Cl3 N O11
+203              C13 H2 N O S2
+204              C24 H27 Cl O3
+205            C39 H43 N O2 S3
+206            C41 H11 Cl N2 O
+207                 C6 H5 Cl S
+209                  C7 H3 N S
+213               C15 H21 N O4
+223                 C9 H7 N O2
+224                 C9 H9 N O2
+231             C5 H7 Cl2 N O3
+232            C6 H13 N O11 S2
+240            C15 H9 Cl2 N O4
+244              C5 H11 N O4 S
+254                  C6 H O8 S
+255              C6 H4 Cl O S3
+259                C10 H9 N O3
+274               C6 H7 N O3 S
+279               C36 H63 N O5
+282                 C14 H N S2
+284             C21 H6 N O2 S3
+285              C25 H41 Cl N7
+286            C26 H45 N4 O S3
+287       C35 H12 Cl N14 O7 S2
+289          C38 H84 Cl N19 O5
+290           C46 H98 Cl N4 O5
+291          C5 H13 Cl N O5 S2
+292               C9 H11 Cl O3
+294                 C4 H7 N O2
+309               C12 H10 O S2
+314           C15 H5 Cl N5 O S
+344             C23 H4 N O25 S
+345         C24 H5 Cl N6 O16 S
+347              C31 H43 N O S
+348               C49 H22 Cl S
+349             C17 H23 N O4 S
+356             C25 H37 N O8 S
+370               C6 H7 N O4 S
+371               C15 H11 Cl O
+377           C11 H11 Cl2 N O2
+380               C10 H20 O S4
+382             C16 H3 N O2 S3
+384           C20 H26 Cl3 N S3
+385        C21 H15 Cl3 N O4 S2
+387               C23 H N2 O S
+390           C31 H20 Cl N8 S2
+391             C32 H23 N8 O S
+392           C36 H43 Cl3 N O8
+394                  C5 H O6 S
+395             C6 H6 Cl N3 O2
+401               C8 H10 Cl N5
+402             C23 H28 N8 O S
+403                C8 H13 N O5
+406                C9 H17 N O3
+424            C23 H27 F N4 O3
+427                C14 H3 N S3
+429             C15 H3 N4 O S3
+432          C21 H Cl N O13 S5
+434        C48 H38 Cl2 N O2 S2
+435           C50 H35 Cl N5 S2
+436           C53 H41 Cl N5 S3
+437              C6 H6 N4 O S4
+474             C13 H13 N O5 S
+476             C17 H7 N O4 S2
+477        C18 H2 Cl2 N O14 S5
+480               C20 H9 N O S
+481           C21 H3 Cl O18 S5
+482                C28 H9 N O7
+483              C3 H6 Cl2 N O
+485           C50 H88 Cl N7 O2
+487               C6 H7 N O5 S
+489               C7 H8 N O4 S
+490                C8 H10 N O4
+491             C9 H16 N3 O S2
+522               C6 H7 N O4 S
+525                 C9 H7 N O2
+527                 C6 H5 F O4
+538             C10 H19 Cl N16
+542           C22 H5 Cl N3 O19
+545             C25 H17 N2 O S
+547        C30 H18 Cl N8 O25 S
+553            C47 H29 Cl N5 S
+557               C12 H17 N O6
+563             C10 H8 F3 N O3
+564           C12 H11 Cl2 N O4
+570               C21 H21 N O4
+591                C9 H11 N O6
+606           C10 H Cl N3 O3 S
+609         C21 H40 Cl N O3 S4
+612               C35 H35 N S2
+613            C36 H40 N4 O S4
+615            C40 H27 N5 O S2
+618              C6 H4 Cl O S3
+630               C22 H37 N O5
+632               C11 H17 N O8
+634               C15 H23 Br O
+653              C6 H13 N O4 S
+655               C10 H11 N O5
+656                C9 H11 N O2
+671                C7 H5 Bi O4
+673                C14 H2 O S5
+674              C14 H4 N O S2
+675          C18 H Cl N O11 S5
+676                C18 H Cl N3
+677         C24 H49 Cl N O4 S2
+679              C26 H39 Cl O4
+680             C32 H23 N8 O S
+681             C4 H9 Cl2 N O5
+683            C46 H64 N4 O S3
+684               C46 H86 O S4
+685             C5 H7 Cl2 N O3
+687               C9 H11 Cl O3
+732                  C9 H9 N O
+736          C12 H23 N2 O9 P S
+748        C12 H10 Cl N O12 S4
+749              C12 H5 N O7 S
+750             C12 H9 N2 O S3
+751              C13 H4 N4 O S
+752                C15 H5 N S3
+753               C16 H N O8 S
+755             C16 H3 N O2 S3
+756              C17 H7 Cl O18
+757                 C18 H O S2
+758                C19 H N2 O4
+759       C20 H13 Cl N2 O20 S2
+760            C21 H8 Cl3 N O7
+764                 C3 H2 Cl O
+765                  C3 H8 O S
+770             C35 H35 N O S2
+771            C36 H35 N O2 S2
+773                C5 H6 Cl O4
+775             C8 H10 Cl O S3
+777              C8 H3 N O7 S2
+779        C22 H15 Cl2 F N4 O2
+781              C6 H13 N O3 S
+782               C28 H33 N O7
+787           C16 H11 Cl2 N O4
+796             C7 H17 O2 P S3
+818               C25 H37 N O5
+835         C14 H19 Cl N4 O S4
+839                C15 H3 N S2
+840              C16 H37 Cl N8
+841        C17 H18 Cl2 N2 O S5
+845              C17 H7 Cl O18
+846                C18 H Cl O3
+847           C19 H14 Cl3 N S5
+852      C33 H18 Cl N16 O11 S3
+853             C34 H31 N O8 S
+857           C50 H87 N O14 S2
+858          C54 H37 Cl N12 S2
+859                 C6 H5 Cl S
+860          C7 H13 Cl N O9 S3
+864             C8 H11 Cl2 N O
+871                  C H4 O3 S
+876               C23 H39 N O6
+877            C21 H14 F N3 O2
+880               C12 H13 N O2
+886             C29 H51 N O7 S
+912                C10 H9 N O4
+918           C8 H5 Cl N2 O4 S
+921               C16 H31 I O2
+923                 C6 H7 N O2
+924                 C9 H7 N O2
+937             C12 H2 N O2 S5
+938               C13 H19 N O6
+940             C15 H6 N O2 S2
+942                C16 H3 N S2
+943           C16 H33 Cl N2 S3
+947              C20 H N2 O5 S
+948        C20 H23 Cl3 N O4 S2
+950              C22 H9 N O8 S
+954            C31 H27 N O3 S3
+958             C36 H37 N O S2
+964            C48 H50 N O6 S2
+965             C5 H13 N O2 S2
+977              C16 H19 Br N2
+984             C27 H41 N O5 S
+987               C4 H9 N O4 S
+996                C9 H11 N O3
+1002        C13 H11 Cl N2 O4 S
+1003              C2 H7 N O3 S
+1010              C27 H43 N O7
+1013               C7 H11 N O4
+1040               C10 H7 N O3
+1047           C9 H11 Cl N4 O2
+1056       C11 H24 Cl N4 O5 S5
+1059                C14 H N S2
+1060                C15 H N O5
+1064            C15 H4 N2 O S3
+1065               C15 H7 N S4
+1066      C16 H17 Cl N5 O11 S5
+1067              C17 H N O8 S
+1070            C17 H5 N O3 S3
+1073             C21 H6 N O S3
+1077       C29 H22 Cl N4 O29 S
+1079                C3 H2 Cl O
+1081             C32 H51 N O13
+1082             C34 H27 N O14
+1083       C35 H10 Cl N2 O5 S5
+1084            C35 H69 N O6 S
+1086              C38 H35 O S4
+1094             C7 H7 Cl N5 O
+1095             C8 H17 N O6 S
+1107              C23 H31 F O6
+1118             C13 H21 Cl N2
+1128           C21 H26 N2 O S2
+1135            C17 H18 N2 O S
+1172               C10 H9 N O5
+1186             C8 H7 Cl N4 S
+1187             C8 H7 Cl N4 S
+1188              C23 H31 F O6
+1197             C5 H11 N O4 S
+1199              C23 H27 N O6
+1204            C13 H Cl2 N O4
+1205                C13 H N S3
+1209                C15 H N O5
+1210              C15 H N O7 S
+1212              C16 H N O8 S
+1213               C16 H5 N S2
+1215           C17 H4 N O20 S2
+1216            C17 H5 Cl O3 S
+1218         C20 H2 Cl N2 O2 S
+1220               C20 H7 N O4
+1222            C21 H33 N O6 S
+1224          C22 H15 Cl2 N O4
+1225            C22 H3 N O4 S3
+1232                C29 N O6 S
+1233                C3 H2 Cl O
+1235          C31 H29 Cl2 N O3
+1238          C32 H24 Cl N3 O2
+1239           C33 H69 Cl N O3
+1240            C34 H67 N O6 S
+1242            C35 H35 N O S2
+1243              C35 H39 O S5
+1245         C38 H3 Cl2 N2 O S
+1246             C4 H6 N3 O S4
+1248          C41 H25 Cl N2 O3
+1250           C47 H22 Cl N7 S
+1252            C5 H7 Cl2 N O3
+1254         C58 H8 Cl N9 O3 S
+1255            C6 H2 Cl O2 S5
+1256             C6 H4 Cl O S3
+1258             C6 H9 Cl2 N S
+1259              C7 H3 N O6 S
+1261            C8 H3 Cl N2 O2
+1262         C8 H5 Cl2 N2 O S2
+1263             C8 H6 N2 O S2
+1267            C10 H7 Cl2 N O
+1268             C29 H33 N O10
+1271              C22 H19 N O6
+1274              C23 H31 F O5
+1296                C8 H9 N O2
+1298            C25 H37 N O8 S
+1299              C23 H39 N O6
+1301            C7 H17 O2 P S3
+1310             C6 H13 O7 P S
+1311    C10 H13 Cl2 F N2 O2 S2
+1315            C15 H15 F N4 O
+1357              C10 H11 N O5
+1362              C26 H43 N O6
+1366                C9 H7 N O2
+1381        C26 H32 Cl N3 O7 S
+1382             C5 H11 N O4 S
+1384              C23 H23 N O6
+1385               C11 H9 N O3
+1392              C10 H20 O S4
+1393          C10 H9 Cl N2 O S
+1394        C11 H Cl3 N4 O8 S4
+1395            C11 H Cl3 O7 S
+1396              C12 H12 Cl N
+1401          C15 H Cl N O9 S5
+1402                C15 H N O5
+1404            C15 H4 N O2 S3
+1406             C16 H N2 O4 S
+1408            C16 H3 N O3 S3
+1409               C16 H3 N S2
+1410           C40 H77 N O12 S
+1411              C17 H2 Cl S2
+1413           C17 H35 N O15 S
+1414               C19 H N2 O4
+1415          C19 H17 Cl3 N O8
+1416             C19 H18 N O11
+1418           C20 H4 N O22 S2
+1420              C22 H10 N O6
+1421          C22 H19 Cl N2 O3
+1424       C25 H55 Cl N4 O4 S3
+1429                C3 Cl3 N S
+1430               C3 H4 Cl N3
+1434             C32 H9 N O2 S
+1436           C34 H48 N O11 S
+1438            C35 H33 N O S2
+1439            C37 H N2 O27 S
+1440           C37 H80 Cl N4 O
+1441              C40 H83 N O4
+1444          C42 H25 N24 O S2
+1447           C46 H64 N4 O S3
+1450                 C6 H2 O S
+1455             C8 H3 Cl N O2
+1465             C18 H19 Cl N4
+1469            C17 H23 N O4 S
+1479            C27 H42 N O6 P
+1480                C7 H9 N O2
+1488              C16 H21 N O3
+1490          C27 H39 Cl N2 O4
+1494              C17 H17 N O6
+1497           C6 H13 N O11 S2
+1498               C7 H11 N O5
+1499             C27 H35 N O10
+1501            C21 H44 N O7 P
+1502            C47 H74 N O8 P
+1505             C5 H12 N O7 P
+1519            C26 H45 N O6 S
+1527            C15 H17 N O4 S
+1531              C27 H37 F O6
+1572              C25 H37 N O5
+1584             C6 H11 O6 P S
+1585                C6 H9 N O3
+1598             C20 H29 Cl O2
+1599                C9 H9 N O2
+1600         C12 H23 N2 O9 P S
+1602            C26 H45 N O6 S
+1609                C9 H7 N O3
+1615         C10 H14 N5 O7 P S
+1617           C9 H11 Cl N4 O2
+1625              C21 H29 F O6
+1626              C19 H23 N O5
+1640                C10 H N3 S
+1645           C11 H7 Cl N8 O7
+1646             C12 H2 N O5 S
+1648               C12 H4 N O2
+1649               C13 H O5 S2
+1652           C13 H29 Cl N O3
+1653               C14 H N2 S2
+1654             C14 H2 N O S3
+1657       C14 H31 Cl N3 O6 S2
+1658            C14 H7 Cl N8 S
+1661      C15 H40 Cl2 N10 O S4
+1663              C16 H N O7 S
+1664             C16 H4 N O4 S
+1667            C17 H5 N O3 S3
+1673           C19 H13 Cl3 N S
+1674        C19 H15 Cl N5 O S2
+1675            C19 H3 Cl N3 O
+1679            C21 H9 N3 O S2
+1688        C26 H16 Cl2 N2 O S
+1698       C29 H22 Cl N4 O29 S
+1700              C3 H8 N O S2
+1708             C35 H26 Cl N2
+1710       C36 H39 Cl2 N4 O S3
+1711             C38 H27 N O10
+1712           C38 H43 N4 O S3
+1714             C4 H4 N3 O S3
+1715         C4 H7 Cl N2 O6 S2
+1716           C40 H58 N O16 S
+1722          C49 H98 Cl N4 O7
+1724               C5 H6 Cl O4
+1725                C5 H8 N O5
+1727          C50 H54 Cl N4 O8
+1728          C54 H55 N15 O S2
+1730          C57 H68 Cl N9 O2
+1731                 C6 H O4 S
+1737          C8 H2 Cl N O3 S4
+1740                C8 H5 N O3
+1749           C10 H13 Cl N2 O
+1763              C17 H19 N O4
+1767             C6 H13 N O2 S
+1768             C6 H13 N O2 S
+1771          C10 H19 N O10 S2
+1779          C19 H15 Cl N2 O2
+1789           C8 H10 N O5 P S
+1794               C7 H13 N O3
+1796                C5 Fe N6 O
+1798               C6 H11 N O4
+1803         C12 H15 N2 O3 P S
+1806                C8 H11 N O
+1813            C26 H43 N O7 S
+1815            C26 H45 N O6 S
+1816             C5 H11 N O5 S
+1817            C26 H45 N O7 S
+1818            C26 H45 N O7 S
+1874             C14 H25 N O11
+1894              C15 H13 F O4
+1899                C7 H7 N O3
+1902          C8 H5 Cl N2 O4 S
+1910                C9 H7 N O2
+1911                C9 H7 N O2
+1933         C10 H14 N5 O7 P S
+1934              C5 H4 N4 O S
+1937           C23 H27 F N4 O3
+1948           C23 H27 F N4 O3
+1949           C23 H27 F N4 O3
+1964          C11 H11 Cl2 N O2
+1966               C10 H O3 S2
+1968            C10 H5 N3 O S5
+1969         C11 H19 Cl O11 S2
+1970         C11 H5 Cl N2 O2 S
+1974               C12 H2 N O2
+1975            C14 H N3 O4 S2
+1979          C16 H Cl3 O13 S4
+1980            C16 H5 Cl N2 S
+1981           C17 H17 Cl N6 O
+1982         C17 H2 Cl2 N O S5
+1986         C17 H38 Cl N16 S3
+1988               C18 H2 N O2
+1989              C19 H N2 O13
+1991            C19 H4 N2 O S2
+1994          C20 H16 Cl2 N O4
+1996        C21 H16 Cl N5 O S3
+1998               C21 H8 N O6
+2000           C22 H3 Cl N2 O4
+2002                C23 H N2 S
+2003         C23 H28 Cl2 N O27
+2006           C23 H5 Cl O3 S3
+2007           C24 H15 N O3 S3
+2009        C24 H5 Cl N6 O16 S
+2011        C26 H30 Cl3 N4 O S
+2013               C26 H6 N O6
+2015                   C28 H S
+2016         C28 H33 Cl N O2 S
+2021           C29 H8 Cl N6 O4
+2022               C29 H9 N O7
+2023            C3 H11 N2 O S2
+2025        C30 H47 Cl N2 O4 S
+2026        C31 H24 Cl N O30 S
+2027         C31 H33 Cl N O5 S
+2030           C32 H27 N O3 S3
+2033           C33 H35 Cl N3 O
+2035             C35 H24 Cl O3
+2038          C39 H69 Cl N2 O2
+2039              C4 H12 N O S
+2040             C4 H3 N2 O S4
+2042                C4 H4 O S4
+2043            C4 H5 Cl2 O S4
+2052            C45 H79 N O S2
+2053            C45 H81 N O S3
+2055              C49 H68 N S2
+2056                 C5 H O6 S
+2057                 C5 H O6 S
+2059                   C5 N O3
+2060              C50 H27 N O2
+2062                 C6 H O4 S
+2063                 C6 H O4 S
+2065                C6 H6 N O3
+2066             C6 H8 Cl O3 S
+2071           C7 H9 Cl N O S3
+2075                C9 H7 N S2
+2077              C9 H8 N O4 S
+2079              C13 H15 N O5
+2098              C11 H13 N O4
+2108          C17 H33 N O10 S3
+2111        C23 H28 Cl N3 O5 S
+2113           C25 H30 F N3 O9
+2115              C17 H17 N O5
+2118                 C9 H7 N O
+2120                C8 H5 N O2
+2121         C15 H25 Br2 Cl O2
+2129            C9 H11 N O4 S2
+2139               C9 H15 N O3
+2148              C23 H39 N O6
+2153                C6 H5 N O2
+2154                C8 H11 N O
+2158              C11 H17 N O6
+2159              C16 H23 N O3
+2160              C11 H15 N O3
+2163           C50 H74 N O10 P
+2164            C41 H82 N O9 P
+2170              C12 H13 N O2
+2178                 C2 H4 O S
+2183                C8 H7 N O5
+2190           C25 H21 Cl N2 O
+2196              C27 H43 N O7
+2203                C7 H9 N O3
+2216             C16 H22 O Si2
+2217             C16 H22 O Si2
+2218              C15 H15 N O4
+2241              C18 H31 N O4
+2321          C10 H11 Cl N2 O4
+2322                C7 H9 N O5
+2323               C8 H11 N O6
+2347           C14 H13 Cl2 N O
+2348              C10 H11 N O5
+2349               C7 H13 N O5
+2353              C10 H5 Cl O2
+2381                C7 H7 N O3
+2388              C3 H7 N O4 S
+2389               C10 H9 N O4
+2391              C15 H23 N O8
+2399              C10 H11 N O5
+2402                C9 H7 N O2
+2403                C9 H7 N O2
+2404                C9 H7 N O2
+2405              C24 H37 N O9
+2406              C24 H37 N O9
+2407              C24 H37 N O9
+2408              C24 H37 N O9
+2411           C12 H23 N O6 S2
+2413                C9 H9 N O2
+2414                C9 H9 N O2
+2419              C12 H10 O S2
+2420              C12 H10 O S2
+2432                C6 H5 F O4
+2433           C19 H19 Cl N2 O
+2456              C5 H4 N4 O S
+2484              C13 H21 N O7
+2485             C25 H43 N O18
+2486              C12 H23 N O9
+2487              C4 H5 N O4 S
+2497              C15 H13 N O3
+2523             C28 H37 Cl O7
+2524         C18 H24 F N3 O3 S
+2529             C21 H27 Br O3
+2530            C49 H69 Cl O14
+2536              C10 H N O3 S
+2537           C10 H10 Cl N O4
+2542            C10 H2 N O6 S5
+2544             C10 H4 N O S4
+2545            C10 H4 N3 O S3
+2546            C10 H5 N3 O S5
+2547             C11 H11 N O S
+2549              C11 H17 N S3
+2550           C11 H2 Cl N2 O2
+2552           C11 H7 Cl N4 S3
+2554            C12 H17 N2 O S
+2555             C12 H4 N O6 S
+2558             C13 H N O2 S3
+2560        C13 H25 Cl N9 O3 S
+2561            C13 H5 N O6 S5
+2563             C14 H2 N O7 S
+2566            C14 H3 N O2 S3
+2567               C14 H3 N S3
+2569        C14 H9 Cl N7 O6 S4
+2570        C15 H10 Cl N O7 S3
+2574         C15 H2 Cl N3 O3 S
+2575               C15 H2 N O4
+2576            C15 H29 Cl O12
+2578           C15 H4 Cl N4 S3
+2579           C15 H8 N O12 S5
+2580            C15 H9 Cl N O6
+2586               C16 H8 N O3
+2587              C17 H N2 O S
+2590            C17 H2 N2 O S3
+2591           C17 H29 N O6 S3
+2592             C17 H3 N O S3
+2593           C17 H36 N13 O S
+2594               C17 H6 N O5
+2596             C17 H7 Cl O18
+2598         C18 H Cl N3 O4 S5
+2600           C18 H13 Cl N3 O
+2602                C18 H2 O S
+2603           C18 H21 N8 O S4
+2604          C18 H28 Cl3 N O4
+2605               C18 H3 N O4
+2606            C18 H3 N4 O S3
+2610               C18 H4 N O6
+2612         C18 H7 Cl N O20 S
+2613                C19 H N O7
+2614              C19 H N O8 S
+2615               C19 H N2 O4
+2619         C19 H6 Cl N3 O7 S
+2620                 C20 Cl O5
+2621                 C20 H N S
+2623          C20 H3 Cl N2 O12
+2624               C20 H3 Cl O
+2627            C20 H32 N O S3
+2628      C20 H35 Cl N2 O19 S5
+2629               C20 H5 N O7
+2632         C21 H15 Cl N5 O14
+2636       C21 H29 Cl2 N O2 S2
+2639        C22 H Cl N3 O19 S5
+2640             C22 H11 N O11
+2642           C22 H20 N2 O S5
+2643            C22 H21 N2 O S
+2644               C23 H N O S
+2645              C23 H N2 O S
+2650        C23 H40 Cl N O7 S4
+2653          C24 H18 Cl N4 O4
+2654        C24 H26 Cl N6 O5 S
+2657              C24 H51 N O4
+2659           C48 H91 N O12 S
+2664           C25 H45 N2 O S5
+2665       C25 H55 Cl N6 O2 S4
+2669             C26 H33 Cl O7
+2674         C27 H29 Cl N16 O2
+2676          C27 H39 Cl N3 O3
+2679             C27 H43 Cl N6
+2682                   C28 H S
+2683               C28 H2 Cl S
+2685           C29 H11 N O2 S2
+2693          C29 H52 Cl N O S
+2694        C29 H53 Cl N6 O S3
+2696              C3 H N O2 S3
+2698                C3 H2 Cl O
+2699             C3 H2 N4 O S2
+2702           C30 H29 N O11 S
+2704          C30 H41 Cl N2 S3
+2707               C31 H N O28
+2708      C31 H12 Cl N13 O23 S
+2714              C31 H7 Cl O5
+2716           C32 H23 Cl N8 O
+2717            C32 H23 N8 O S
+2718           C32 H26 Cl N O3
+2722             C32 H41 Cl O4
+2728              C33 H47 N S4
+2729           C33 H52 N5 O S3
+2733           C34 H30 Cl N O7
+2735            C34 H50 Cl N O
+2736               C35 H O3 S2
+2740               C35 H44 N S
+2741           C35 H56 N5 O S3
+2742           C35 H56 N5 O S3
+2743           C35 H63 Cl N O3
+2750           C37 H35 N O4 S2
+2752          C37 H75 Cl N8 O5
+2753         C38 H17 Cl N7 O S
+2758             C39 H21 Cl N8
+2761        C39 H44 Cl N4 O2 S
+2763            C39 H48 N O3 S
+2766            C4 H2 Cl N3 S3
+2769            C4 H5 Cl2 O S4
+2770             C4 H5 Cl3 N O
+2771              C4 H6 N O6 S
+2772          C4 H9 Cl2 N O5 S
+2779            C40 H9 N4 O S3
+2781          C41 H26 Cl N4 O3
+2796            C44 H35 N O S3
+2798             C44 H52 Cl N6
+2801              C44 H75 N O6
+2804           C45 H81 N O2 S3
+2812            C49 H66 N4 O S
+2813             C5 H Cl2 O5 S
+2814                 C5 H O6 S
+2815            C5 H13 N O5 S2
+2816               C5 H3 Cl O3
+2817          C5 H6 Cl N6 O3 S
+2820             C5 H6 N4 O S4
+2822          C50 H42 Cl2 N S3
+2834             C6 H4 N O4 S3
+2835                C6 H5 Cl S
+2836            C6 H8 Cl N3 S2
+2838            C7 H12 N2 O S2
+2840         C7 H16 Cl N4 O S3
+2841            C7 H2 Cl N2 S3
+2844           C7 H5 Cl N O3 S
+2845             C7 H6 Cl O S3
+2848         C8 H2 Cl N2 O4 S3
+2850                C8 H7 O S3
+2852               C9 H O12 S2
+2853               C9 H13 N S3
+2857              C9 H7 N O5 S
+2871            C20 H31 N O2 S
+2874         C6 H8 Cl N3 O4 S2
+2876          C55 H70 Mg N4 O6
+2881           C13 H15 Cl2 N O
+2882              C22 H25 N O6
+2886              C7 H10 Cl N3
+2891        C23 H19 Cl F3 N O3
+2898              C6 H10 Cl N5
+2901              C24 H39 N O7
+2916              C24 H31 N O9
+2923              C11 H13 N O4
+2931              C10 H13 N O4
+2938            C16 H21 N O6 S
+2947            C12 H15 N O5 S
+2948              C10 H11 N O4
+2953           C11 H13 F N2 O4
+2956           C17 H16 F3 N O2
+2964           C12 H16 Br Cl O
+2977          C11 H21 N O11 S3
+2978          C16 H31 N O10 S3
+2980               C5 H7 N O S
+2981           C25 H30 F N3 O9
+2989              C16 H21 N O3
+2990             C16 H27 N O12
+2998                 C9 H7 N O
+3000            C13 H21 O3 P S
+3006              C25 H25 N O2
+3008             C20 H23 N O12
+3025            C24 H39 N O5 S
+3027                C4 H7 N O2
+3028            C23 H37 N O6 S
+3039          C15 H11 Cl2 N O5
+3048             C39 H47 Cl O7
+3059             C15 H17 Cl N2
+3060                 C H4 O4 S
+3062             C24 H41 N O10
+3065               C9 H11 N O5
+3068               C8 H13 N O5
+3069             C14 H23 N O11
+3070               C9 H13 N O6
+3074               C8 H11 N O2
+3075              C14 H13 N O3
+3076              C12 H13 N O5
+3078           C9 H13 Cl N6 O2
+3083             C47 H75 N O17
+3085          C39 H43 F N2 O12
+3105             C5 H12 N O7 P
+3107              C8 H9 N O2 S
+3118             C8 H15 N O2 S
+3122             C9 H9 Cl2 N O
+3123             C9 H12 N2 O S
+3125            C22 H44 N O9 P
+3131           C12 H13 Cl N4 O
+3134          C17 H13 Cl N2 O4
+3135          C32 H31 Br N2 O2
+3156            C26 H45 N O7 S
+3157            C26 H45 N O7 S
+3158            C26 H45 N O7 S
+3159            C26 H45 N O7 S
+3160             C6 H Cl4 N O2
+3163              C25 H31 N O9
+3164         C8 H10 Cl N5 O3 S
+3171                C8 H7 N O5
+3174        C15 H15 Cl F3 N3 O
+3177             C46 H77 N O17
+3178             C46 H77 N O17
+3182          C9 H8 Br N O4 S2
+3187              C17 H27 N O7
+3194        C15 H15 Cl N2 O4 S
+3195       C21 H23 Cl N2 O10 S
+3200              C17 H27 N O3
+3203                C7 H9 N O3
+3216              C12 H11 N O3
+3243              C20 H15 N O5
+3260              C20 H31 F O3
+3283              C21 H17 N O6
+3415             C19 H21 N O S
+3416             C20 H13 Cl N2
+3421             C6 H13 N O4 S
+3422            C16 H12 Cl N O
+3483           C14 H13 Cl2 N O
+3485              C10 H11 N O5
+3486               C9 H11 N O2
+3488              C16 H31 Br O
+3489             C4 H6 Cl F3 O
+3490              C10 H5 Cl O2
+3491              C10 H5 Cl O2
+3492               C6 H7 Cl O5
+3494               C8 H17 N O5
+3512                C5 H9 N O4
+3514               C10 H9 N O5
+3556             C9 H6 Cl N O4
+3565               C6 H11 N O5
+3566              C19 H23 N O3
+3567                C7 H9 N O4
+3592             C7 H7 Br N2 S
+3594              C20 H15 N O8
+3596                C9 H7 N O2
+3599              C24 H37 N O9
+3602             C5 H11 N O S2
+3603             C5 H11 N O S2
+3610                C8 H9 N O4
+3645                C6 H5 F O4
+3648        C23 H29 Cl F N3 O5
+3650                C9 H7 N O3
+3654             C5 H12 N O7 P
+3656             C8 H7 Cl N4 S
+3658           C12 H22 N O12 P
+3673              C23 H31 F O6
+3675           C22 H22 F N3 O4
+3676                C7 H5 N O3
+3678         C11 H15 N4 O7 P S
+3690            C10 H6 Cl N O3
+3713              C19 H21 I O6
+3737             C5 H11 N O4 S
+3744            C10 H13 N3 O S
+3748              C3 H6 F N O2
+3752     C13 H13 Br F N5 O4 S2
+3754               C11 H9 N O3
+3768         C20 H34 Au O9 P S
+3769          C55 H72 Mg N4 O6
+3775             C28 H37 Cl O7
+3777             C13 H10 I N O
+3778          C11 H11 Cl2 N O2
+3779          C11 H11 Cl2 N O2
+3784         C69 H115 N O17 P2
+3785              C15 H25 Br O
+3793           C9 H13 Br N2 O2
+3794            C15 H22 Br N O
+3795     C10 H12 Br Cl2 O3 P S
+3796           C12 H19 N O2 S2
+3800           C10 H Cl2 N4 O2
+3802              C10 H20 O S4
+3803       C10 H28 Cl N12 O S3
+3805        C10 H4 Cl2 N O3 S4
+3806                C10 H4 N S
+3810            C10 H9 Cl N3 S
+3811          C11 H10 Cl O3 S2
+3813            C11 H10 N5 O S
+3817          C11 H2 Cl N2 O10
+3818        C11 H2 Cl2 N O2 S2
+3821        C11 H3 Cl3 N6 O S3
+3822            C11 H3 N O2 S2
+3823            C11 H3 N O4 S3
+3826           C11 H7 Cl N O11
+3829       C12 H13 Cl N2 O2 S4
+3830              C12 H13 N S3
+3833              C12 H2 Cl N4
+3834               C12 H2 N O2
+3835            C12 H2 N O2 S5
+3838            C12 H3 N O5 S3
+3845               C13 Cl N O3
+3847             C13 H11 Cl N5
+3857               C14 H12 N O
+3860            C14 H3 N5 O S2
+3861       C14 H35 Cl2 N15 O S
+3862        C14 H4 Cl N3 O4 S3
+3863         C14 H4 Cl N4 O3 S
+3864             C14 H9 Cl N O
+3865         C14 H9 Cl N O6 S2
+3866               C15 H Cl S3
+3867              C15 H N O6 S
+3868                C15 H N S2
+3869                C15 H N S2
+3870             C15 H N3 O2 S
+3875       C15 H31 Cl2 N O7 S2
+3876         C15 H5 Cl N2 O S2
+3877                C15 H6 N O
+3879        C16 H17 Cl N11 O10
+3882               C16 H21 N S
+3884               C16 H3 N S2
+3885               C16 H3 N S2
+3888           C16 H9 Cl2 O S2
+3889               C17 H N2 S2
+3893       C17 H13 Cl N4 O2 S5
+3894              C17 H14 Cl O
+3895               C17 H14 N S
+3897       C17 H21 Cl N5 O6 S4
+3898      C17 H25 Cl N4 O13 S3
+3901               C17 H5 N O7
+3902               C18 H2 N O2
+3903          C18 H21 Cl N2 O5
+3904      C18 H25 Cl2 N15 O S3
+3909                C19 H N S2
+3910              C19 H11 N S2
+3913              C19 H3 N O S
+3914                C19 N O5 S
+3915         C20 H Cl N O21 S3
+3916                 C20 H N S
+3917       C20 H17 Cl N2 O3 S2
+3919           C20 H18 N2 O S2
+3920             C20 H2 N O7 S
+3922       C20 H23 Cl N3 O3 S4
+3925            C20 H4 N O23 S
+3928              C21 H24 N S4
+3930            C21 H6 N O5 S2
+3933               C23 H N2 O3
+3934             C23 H N2 O3 S
+3941            C23 H4 N O25 S
+3942       C23 H41 Cl2 N O7 S4
+3943        C23 H46 Cl2 N7 O S
+3956           C25 H35 Cl N4 O
+3958         C25 H37 Cl N2 O10
+3963         C26 H Cl3 N O6 S5
+3964             C26 H N O4 S2
+3966          C26 H28 Cl3 N O2
+3971       C26 H47 Cl N20 O S4
+3974           C26 H7 Cl N6 O4
+3976         C27 H22 Cl O23 S3
+3977        C27 H26 Cl N2 O S2
+3983              C28 H N2 O17
+3984            C28 H16 Cl N12
+3992                  C29 H O2
+3994              C3 H N3 O3 S
+3995           C3 H12 Cl N5 O2
+3997           C3 H13 Cl N7 O2
+4000          C3 H5 Cl N5 O2 S
+4001             C3 H6 Cl2 N O
+4004        C30 H17 Cl3 N3 O S
+4010          C30 H51 Cl N2 O4
+4014       C31 H29 Cl N4 O9 S5
+4022       C32 H34 Cl N3 O2 S2
+4025            C32 H60 N O S5
+4028        C33 H25 Cl N3 O2 S
+4039      C35 H12 Cl N14 O7 S2
+4048          C37 H35 Cl N9 O2
+4055            C38 H7 N O6 S5
+4058              C39 H29 N O3
+4060           C39 H5 Cl N2 O2
+4062            C4 H Cl N O2 S
+4063             C4 H Cl2 O9 S
+4064              C4 H N3 O5 S
+4066              C4 H10 N O S
+4067             C4 H10 N O2 S
+4068                C4 H11 O S
+4069            C4 H14 N4 O S2
+4072               C4 H4 Cl N3
+4075          C4 H7 Cl3 N5 O S
+4079          C40 H31 Cl N2 O3
+4081       C40 H37 Cl N4 O2 S2
+4085              C40 H48 N S3
+4089           C42 H74 Cl N6 O
+4098         C45 H57 Cl N5 O18
+4108             C5 H10 N O2 S
+4110          C5 H11 Cl N O7 S
+4113                C5 H14 N S
+4114           C5 H15 Cl N4 O4
+4116              C5 H2 N O7 S
+4118          C5 H3 Cl N O4 S2
+4119                 C5 H4 N O
+4120               C5 H6 Cl O4
+4121             C5 H7 Cl N O5
+4123             C5 H9 Cl N2 O
+4124         C50 H22 Cl N15 O2
+4127           C54 H74 N O3 S5
+4132                C6 H N2 O6
+4133                 C6 H O8 S
+4135            C6 H13 Cl N8 O
+4136             C6 H2 Cl O6 S
+4137             C6 H2 Cl O6 S
+4139              C6 H2 N O6 S
+4141         C6 H3 Cl N2 O3 S5
+4146            C6 H6 Cl N3 O2
+4147               C6 H9 Cl S2
+4148        C7 H10 Cl N3 O2 S2
+4155              C7 H3 N5 O S
+4156            C7 H5 Cl N4 O6
+4157          C7 H5 Cl N5 O2 S
+4161               C8 H10 O S2
+4162           C8 H15 Cl N8 O3
+4163           C8 H17 Cl N2 S2
+4164               C8 H2 Cl O5
+4167                C8 H5 N O3
+4168         C9 H13 Cl2 N O5 S
+4169               C9 H15 N O6
+4170         C9 H16 Cl2 N3 O S
+4177             C9 H3 N2 O S3
+4178               C9 H4 Cl O4
+4182         C10 H9 Cl4 N O2 S
+4191              C24 H33 F O5
+4192          C26 H27 Cl N4 O2
+4200                   Cl H O3
+4201        C9 H10 Br Cl N2 O2
+4204           C10 H13 Cl N2 O
+4217                C6 H7 N O4
+4218           C25 H32 Cl F O5
+4219           C27 H36 Cl F O5
+4224              C16 H21 N O5
+4226              C7 H10 Cl N3
+4236             C3 H7 N O5 S2
+4238           C11 H15 Cl2 N O
+4244               C3 H4 Cl N5
+4248              C18 H21 N O9
+4251             C29 H33 N O10
+4261         C12 H21 N2 O3 P S
+4266              C15 H19 N O8
+4300               C7 H11 N O3
+4305           C13 H13 Cl N2 O
+4306            C12 H15 N O5 S
+4319              C14 H21 N O3
+4320        C12 H11 Cl N2 O5 S
+4335          C11 H21 N O11 S3
+4336          C11 H21 N O10 S2
+4337          C12 H21 N O10 S2
+4338          C12 H21 N O10 S2
+4350          C7 H5 Cl2 N O4 S
+4354               C8 H15 N O3
+4355                C9 H9 N O3
+4369                 C9 H7 N O
+4376             C27 H35 N O12
+4380         C15 H25 Br2 Cl O2
+4389             C20 H23 N O12
+4390               C9 H17 N O3
+4392              C22 H27 N O5
+4395              C11 H15 N O4
+4396               C6 H13 N O2
+4401              C25 H33 N O7
+4410             C3 H9 N O3 S2
+4411              C10 H13 N O3
+4416            C23 H37 N O6 S
+4429                 C6 H7 N O
+4430                 C6 H7 N O
+4439              C15 H21 N O4
+4440           C14 H16 Cl N3 O
+4454             C13 H21 Cl N2
+4455              C25 H36 N O6
+4458                 C H4 O4 S
+4459            C10 H13 N O4 S
+4462              C10 H11 N O6
+4463              C17 H11 N O5
+4468               C8 H15 N O6
+4469              C12 H15 N O5
+4471                 C8 H9 N O
+4472              C12 H17 N O5
+4476          C25 H32 Cl N5 O2
+4478           C9 H13 Cl N6 O2
+4480                C6 H9 N O6
+4484                C8 H9 N O2
+4485                C8 H9 N O2
+4490             C8 H11 N O6 S
+4496                C8 H9 N O3
+4502            C13 H17 N O6 S
+4509               C9 H17 N O5
+4511              C16 H13 N O3
+4518              C22 H39 N O5
+4524            C7 H17 O2 P S3
+4527              C8 H9 N O2 S
+4528              C8 H9 N O2 S
+4539              C17 H19 N O5
+4540            C10 H14 N O5 P
+4542                C8 H11 N O
+4543                C8 H11 N O
+4544                C8 H11 N O
+4549              C27 H35 N O9
+4551             C9 H9 Cl2 N O
+4554            C24 H46 N O9 P
+4555          C46 H60 N O25 P3
+4561           C12 H13 Cl N4 O
+4567             C18 H17 Cl O6
+4574           C23 H27 F N4 O2
+4575         C27 H25 F2 N3 O S
+4578              C18 H27 N O6
+4580                C9 H9 N O4
+4582             C4 H10 F O2 P
+4583              C11 H17 N O8
+4589            C5 H11 N O2 Se
+4598              C12 H13 N O2
+4599         C10 H9 Ag N4 O2 S
+4600         C10 H9 Ag N4 O2 S
+4602             C45 H73 N O16
+4604              C15 H23 Br O
+4609              C18 H13 N O4
+4616           C26 H25 F O10 S
+4617           C22 H27 F N4 O2
+4622           C26 H45 N O9 S2
+4623            C26 H45 N O7 S
+4624            C26 H45 N O7 S
+4625           C9 H13 Cl N2 O2
+4631          C8 H13 N2 O3 P S
+4632          C8 H13 N2 O3 P S
+4640          C19 H19 Cl N2 O7
+4642    C10 H13 Cl2 F N2 O2 S2
+4643        C13 H21 Cl N4 O2 S
+4644         C12 H12 Br N3 O S
+4646            C18 H22 N2 O S
+4656              C14 H19 N O7
+4657             C8 H11 N O4 S
+4669              C10 H17 N O6
+4671           C12 H9 Cl2 N O3
+4673              C12 H17 N O7
+4677              C27 H43 N O7
+Warning: The "Compound Name" column at position 5 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 10 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMP ID" column at position 15 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LMP ID" column at position 16 in the METABOLITES table, matches a standard column name, "lm_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS Number" column at position 3 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ChEBI ID" column at position 4 in the METABOLITES table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Retention Time" column at position 8 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Ionization mode" column at position 6 in the METABOLITES table, matches a standard column name, "ionization_mode". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ChEBI ID" column at position 4 in the METABOLITES table has all null values.
+Warning: The "Ionization mode" column at position 6 in the METABOLITES table has all null values.
+Warning: The "HMP ID" column at position 15 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "LMP ID" column at position 16 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

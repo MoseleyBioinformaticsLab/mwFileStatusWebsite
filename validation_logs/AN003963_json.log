@@ -1,12 +1,44 @@
 Validation Log
-2025-12-07 06:20:39.766141
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:57:53.510673
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003963/mwtab/json
 Study ID:      ST002433
 Analysis ID:   AN003963
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 17
 
-Error Log:
-SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. 'list' object has no attribute 'keys'
+Number of Warnings: 12
+
+Number of Value Errors: 13
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "37", in ["NM"]["TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "CHROMATOGRAPHY".
+Error: The following metabolites in the, ["NMR_METABOLITE_DATA"]["Data"] table were not found in the ["NMR_METABOLITE_DATA"]["Metabolites"] table:
+	"[2_3-13C_ 14N]Alanine"
+	"[2_3-13C_ 15N]Alanine"
+	"[U-13C_ 14N]Alanine"
+	"[U-13C_ 15N]Alanine"
+Error: The following metabolites in the ["NMR_METABOLITE_DATA"]["Metabolites"] table were not found in the ["NMR_METABOLITE_DATA"]["Data"] table:
+	"[2,3-13C, 14N]Alanine"
+	"[2,3-13C, 15N]Alanine"
+	"[U-13C, 14N]Alanine"
+	"[U-13C, 15N]Alanine"
+Warning: The "ri" column at position 7 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["NMR_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "pubchem_id" column at position 2 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 3 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "kegg_id" column at position 4 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 5 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 6 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri" column at position 7 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "moverz_quant" column at position 9 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.

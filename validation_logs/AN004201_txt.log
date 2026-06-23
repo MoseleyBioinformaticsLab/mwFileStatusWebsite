@@ -1,8 +1,36 @@
 Validation Log
-2025-12-07 06:37:27.125626
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:09:38.479565
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004201/mwtab/txt
 Study ID:      ST002551
 Analysis ID:   AN004201
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 14
+
+Number of Warnings: 9
+
+Number of Value Errors: 13
+
+Number of Consistency Errors: 1
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "0.5 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "35", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Exact mass" column at position 4 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Exact mass" column at position 4 in the METABOLITES table, matches a standard column name, "mass", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+206    C10H12N4O5
+Warning: The "Formula" column at position 3 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+206    Inosine
+Warning: The "Standardized name" column at position 2 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Super class" column at position 5 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Main class" column at position 6 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Sub class" column at position 7 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Super class" column at position 5 in the METABOLITES table, matches a standard column name, "class", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+206    268.0808
+Error: Column(s) with no name were found in the METABOLITES table.
+Warning: The "" column at position 8 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Error: The section, METABOLITES, has a mismatch between the number of headers and the number of elements in each line. Either a line(s) has more values than headers or there are too few headers.

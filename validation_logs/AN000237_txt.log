@@ -1,8 +1,44 @@
 Validation Log
-2025-12-07 01:24:52.920822
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:19:51.813708
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000237/mwtab/txt
 Study ID:      ST000150
 Analysis ID:   AN000237
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 17
+
+Number of Warnings: 9
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 2
+
+Issue Log:
+Error: The value, "63|27|23|43", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male|Female|Female|Male", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The required property, "TREATMENT_SUMMARY", in the "TREATMENT" section  is missing.
+Error: The value, "600 mHz", for the subsection, "OFFSET_FREQUENCY", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm', 'Hz']. Ignore this when more complicated descriptions are required.
+Error: The value, "cryoprobeTM", for the subsection, "PRESATURATION_POWER_LEVEL", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['W', 'dB']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "CHROMATOGRAPHY".
+Error: The following metabolites in the, NMR_METABOLITE_DATA table were not found in the METABOLITES table:
+	"1_3-dihydroxyacetone"
+	"1_3-dimethylurate"
+	"3_5-dibromotyrosine"
+	"N_N-dimethylformamide"
+Error: The following metabolites in the METABOLITES table were not found in the NMR_METABOLITE_DATA table:
+	"1,3-dihydroxyacetone"
+	"1,3-dimethylurate"
+	"3,5-dibromotyrosine"
+	"N,N-dimethylformamide"
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "other_id" and "other_id_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 7 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.

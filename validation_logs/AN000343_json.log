@@ -1,8 +1,51 @@
 Validation Log
-2025-12-07 01:28:34.236997
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:23:32.526188
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000343/mwtab/json
 Study ID:      ST000230
 Analysis ID:   AN000343
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 23
+
+Number of Warnings: 9
+
+Number of Value Errors: 14
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected in ["COLLECTION"]["COLLECTION_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLEPREP_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["MS"]["MS_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["CHROMATOGRAPHY_TYPE"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["INSTRUMENT_NAME"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["COLUMN_NAME"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"145.018m/z_2"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"1-Pyrroline-2-carboxylate/ (S)-1-Pyrroline-5-carboxylate/ 3,4-Dihydro-2H-Pyrrole-2-carboxylate/ Glutarimide"
+	"(1R,2S)-1-Hydroxypropane-1,2,3-tricarboxylate(0.78); 5-Dehydro-4-deoxy-D-glucarate(0.78); 2,5-Didehydro-D-gluconate(0.78);"
+	"2,3-Diphosphoglyceric acid"
+	"2,7-Anhydro-alpha-N-acetylneuraminic acid/ 2-Deoxy-2,3-dehydro-N-acetylneuraminic acid/ Sarmentosin epoxide"
+	"6-endo-Hydroxycineole(1.76); (E)-3,7-Dimethylocta-1,6-diene-3,8-diol(1.76); Limonene-1,2-diol(1.76); (+)-Neomatatabiol(1.76);"
+	"D-myo-Inositol 1,2-cyclic phosphate/ 6-Deoxy-5-ketofructose 1-phosphate"
+	"Fructose 1,6-diphosphate"
+	"Isopimpinellin/ Glycerophosphoglycerol/ 2,3',4,6-Tetrahydroxybenzophenone/ Pimpinellin"
+Warning: The "ri" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "other_id" and "other_id_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "ri" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "pubchem_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

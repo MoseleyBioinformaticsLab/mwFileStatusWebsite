@@ -1,8 +1,31 @@
 Validation Log
-2025-12-07 03:43:27.292648
-mwtab Python Library Version: 1.2.5
+2026-06-21 02:58:22.878739
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001722/mwtab/txt
 Study ID:      ST001053
 Analysis ID:   AN001722
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 12
+
+Number of Warnings: 0
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "FUNDING_SOURCE", in the "PROJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "PROJECT_COMMENTS", in the "PROJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "STUDY_COMMENTS", in the "STUDY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_METHOD", in the "COLLECTION" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "63", for the subsection, "POWER_LEVEL", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['W', 'dB']. Ignore this when more complicated descriptions are required.
+Error: The value, "20", for the subsection, "PRESATURATION_POWER_LEVEL", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['W', 'dB']. Ignore this when more complicated descriptions are required.
+Error: The value, "25", for the subsection, "TEMPERATURE", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.
+Error: The value, "3", for the subsection, "ACQUISITION_TIME", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s']. Ignore this when more complicated descriptions are required.
+Error: The value, "2", for the subsection, "RELAXATION_DELAY", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s', 'ms', 'us', 'μs']. Ignore this when more complicated descriptions are required.
+Error: The value, "9615.4", for the subsection, "SPECTRAL_WIDTH", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm', 'Hz']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "CHROMATOGRAPHY".

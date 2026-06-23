@@ -1,8 +1,45 @@
 Validation Log
-2025-12-07 04:14:35.830539
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:24:10.812063
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002258/mwtab/json
 Study ID:      ST001356
 Analysis ID:   AN002258
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 5
+
+Number of Warnings: 5
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Warning: The "quantitated m/z" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGGNAME" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHEBI" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHEBI" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "chebi_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      CHEBI:1157
+1     CHEBI:32805
+2     CHEBI:16356
+3     CHEBI:17345
+4     CHEBI:17821
+5     CHEBI:50519
+6     CHEBI:16551
+7     CHEBI:18066
+8     CHEBI:15978
+9     CHEBI:16264
+10    CHEBI:16704
+11    CHEBI:17285
+12    CHEBI:17797
+13    CHEBI:17748
+14    CHEBI:30769
+15    CHEBI:15891
+16    CHEBI:16027
+17    CHEBI:60997
+18    CHEBI:33198
+19    CHEBI:17992
+20    CHEBI:17794

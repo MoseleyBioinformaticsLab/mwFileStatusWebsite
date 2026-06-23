@@ -1,8 +1,167 @@
 Validation Log
-2025-12-07 01:11:00.394948
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:11:14.928804
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000070/mwtab/json
 Study ID:      ST000043
 Analysis ID:   AN000070
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 19
+
+Number of Warnings: 7
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected in ["STUDY"]["PHONE"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["COLLECTION"]["COLLECTION_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLEPREP_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["MS"]["MS_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"11-BETA-HYDROXYANDROST-4-ENE-3_17-DIONE"
+	"1_2-DIDECANOYL-SN-GLYCERO-3-PHOSPHOCHOLINE"
+	"1_2-DIPALMITOYL-SN-GLYCEROL"
+	"2`-DEOXYGUANOSINE_1"
+	"3_3`-DITHIODIVALINE"
+	"3_5-DIIODO-L-THYRONINE"
+	"4-ACETAMIDOBUTANOATE_1"
+	"4-AMINOBENZOYLGLUTAMIC ACID_1"
+	"5`-DEOXYADENOSINE_1"
+	"5-HYDROXYINDOLE-3-ACETIC ACID_1"
+	"5`-METHYLTHIOADENOSINE_1"
+	"6-PHOSPHOGLUCONIC ACID_1"
+	"ADENOSINE_1"
+	"ADENOSINE 3`_5`-CYCLIC MONOPHOSPHATE"
+	"ASPARAGINE_1"
+	"BIS(2-ETHYLHEXYL)PHTHALATE_1"
+	"CAFFEINE_1"
+	"CITRATE_1"
+	"CORTISOL 21-ACETATE_1"
+	"CYSTINE_1"
+	"CYTIDINE 2`_3`-CYCLIC MONOPHOSPHATE (CCMP)"
+	"CYTIDINE 5`-DIPHOSPHOCHOLINE_1"
+	"CYTIDINE 5`-MONOPHOSPHATE_1"
+	"DEOXYCHOLATE_1"
+	"DEOXYCORTICOSTERONE_1"
+	"DETHIOBIOTIN_1"
+	"DIHYDROOROTATE_1"
+	"DIMETHYLBENZIMIDAZOLE_1"
+	"DOCOSAHEXAENOIC ACID_1"
+	"ENKEPHALINE_ (D-ALA)2-LEU"
+	"ETHYL 4-OXOCYCLOHEXANECARBOXYLATE_1"
+	"FRUCTOSE 1_6-BIPHOSPHATE"
+	"FRUCTOSE 1_6-BIPHOSPHATE_1"
+	"GLUTAMINE_1"
+	"GLUTATHIONE_1"
+	"HIPPURATE_1"
+	"HYPOXANTHINE_1"
+	"INOSINE_1"
+	"LUMICHROME_1"
+	"METHYL JASMONATE_1"
+	"N6-(DELTA2-ISOPENTENYL)-ADENINE_1"
+	"N-ACETYL-D-HEXOSAMINE_1"
+	"N-ACETYL-DL-GLUTAMIC ACID_1"
+	"N-ACETYL-DL-METHIONINE_1"
+	"N-ACETYL-L-ASPARTIC ACID_1"
+	"N-ACETYLSEROTONIN_1"
+	"N-CYCLOHEXYLFORMAMIDE_1"
+	"NICOTINAMIDE ADENINE DINUCLEOTIDE_1"
+	"NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE_1"
+	"NICOTINAMIDE MONONUCLEOTIDE_1"
+	"NICOTINIC ACID ADENINE DINUCLEOTIDE PHOSPHATE_1"
+	"N_N_N-TRIMETHYLLYSINE"
+	"O-ACETYL-L-CARNITINE_1"
+	"O-PHOSPHO-DL-SERINE_1"
+	"O-PHOSPHONOHEXOPYRANOSE_1"
+	"PANTOTHENIC ACID_1"
+	"PHENYLACETIC ACID_1"
+	"PHENYLALANINE_1"
+	"PHOSPHATE_1"
+	"PHOSPHOCHOLINE_1"
+	"PHOSPHOCREATINE_1"
+	"PHOSPHO(ENOL)PYRUVIC ACID_1"
+	"RIBULOSE 1_5-BISPHOSPHATE"
+	"S-ADENOSYL-L-HOMOCYSTEINE_1"
+	"S-ADENOSYL METHIONINE_1"
+	"SPHINGANINE_1"
+	"TAURINE_1"
+	"TRANS-CYCLOHEXANE-1_2-DIOL"
+	"TRYPTOPHAN_1"
+	"URIDINE_1"
+	"VALINE_1"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"2`-DEOXYGUANOSINE_3"
+	"4-ACETAMIDOBUTANOATE_2"
+	"4-AMINOBENZOYLGLUTAMIC ACID_2"
+	"5`-DEOXYADENOSINE_2"
+	"5-HYDROXYINDOLE-3-ACETIC ACID_2"
+	"5`-METHYLTHIOADENOSINE_2"
+	"6-PHOSPHOGLUCONIC ACID_2"
+	"ADENOSINE_2"
+	"ASPARAGINE_2"
+	"BIS(2-ETHYLHEXYL)PHTHALATE_3"
+	"CAFFEINE_2"
+	"CITRATE_2"
+	"CORTISOL 21-ACETATE_2"
+	"CYSTINE_2"
+	"CYTIDINE 5`-DIPHOSPHOCHOLINE_2"
+	"CYTIDINE 5`-MONOPHOSPHATE_4"
+	"DEOXYCHOLATE_2"
+	"DEOXYCORTICOSTERONE_2"
+	"DETHIOBIOTIN_2"
+	"DIHYDROOROTATE_2"
+	"DIMETHYLBENZIMIDAZOLE_2"
+	"DOCOSAHEXAENOIC ACID_2"
+	"ETHYL 4-OXOCYCLOHEXANECARBOXYLATE_2"
+	"GLUTAMINE_2"
+	"GLUTATHIONE_3"
+	"HIPPURATE_2"
+	"HYPOXANTHINE_2"
+	"INOSINE_3"
+	"LUMICHROME_2"
+	"METHYL JASMONATE_2"
+	"N6-(DELTA2-ISOPENTENYL)-ADENINE_2"
+	"N-ACETYL-D-HEXOSAMINE_2"
+	"N-ACETYL-DL-GLUTAMIC ACID_2"
+	"N-ACETYL-DL-METHIONINE_2"
+	"N-ACETYL-L-ASPARTIC ACID_2"
+	"N-ACETYLSEROTONIN_2"
+	"N-CYCLOHEXYLFORMAMIDE_2"
+	"NICOTINAMIDE ADENINE DINUCLEOTIDE_2"
+	"NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE_2"
+	"NICOTINAMIDE MONONUCLEOTIDE_2"
+	"NICOTINIC ACID ADENINE DINUCLEOTIDE PHOSPHATE_2"
+	"O-ACETYL-L-CARNITINE_2"
+	"O-PHOSPHO-DL-SERINE_2"
+	"O-PHOSPHONOHEXOPYRANOSE_2"
+	"PANTOTHENIC ACID_2"
+	"PHENYLACETIC ACID_2"
+	"PHENYLALANINE_2"
+	"PHOSPHATE_2"
+	"PHOSPHOCHOLINE_2"
+	"PHOSPHOCREATINE_2"
+	"PHOSPHO(ENOL)PYRUVIC ACID_2"
+	"S-ADENOSYL-L-HOMOCYSTEINE_2"
+	"S-ADENOSYL METHIONINE_2"
+	"SPHINGANINE_2"
+	"TAURINE_3"
+	"TRYPTOPHAN_2"
+	"URIDINE_3"
+	"VALINE_2"
+Warning: The "ri" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "moverz_quant" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

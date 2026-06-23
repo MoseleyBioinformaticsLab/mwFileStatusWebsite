@@ -1,8 +1,33 @@
 Validation Log
-2025-12-07 04:15:05.404810
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:24:38.313928
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002268/mwtab/json
 Study ID:      ST001362
 Analysis ID:   AN002268
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 14
+
+Number of Warnings: 0
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 3
+
+Issue Log:
+Error: The value, "PND90", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value in ["TREATMENT"]["TREATMENT_DOSEDURATION"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['h', 'weeks', 'days']. Ignore this when more complicated descriptions are required.
+Error: The value, "1mL/min", in ["MS"]["HELIUM_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "230", in ["MS"]["ION_SOURCE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "70ev", in ["MS"]["IONIZATION_ENERGY"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['eV']. Ignore this when more complicated descriptions are required.
+Error: The value, "230", in ["MS"]["SOURCE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "1mL/Min of Helium gas", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "variable between 80-315", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "1:1 split injection with 1uL injection volume", in ["CHROMATOGRAPHY"]["SAMPLE_INJECTION"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "variable", in ["CHROMATOGRAPHY"]["COLUMN_PRESSURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['psi', 'bar']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.

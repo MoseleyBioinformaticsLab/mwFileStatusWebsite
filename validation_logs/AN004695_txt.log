@@ -1,8 +1,36 @@
 Validation Log
-2025-12-07 07:19:24.322982
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:39:06.591513
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004695/mwtab/txt
 Study ID:      ST002863
 Analysis ID:   AN004695
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 5
+
+Number of Warnings: 3
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "200 ul/minute", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "35", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "KEGG.ID" column at position 2 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG.ID" column at position 2 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      X00001
+1      X00002
+333    X00006
+334    X00006
+335    X00006
+336    X00006
+337    X00006
+338    X00006
+339    X00006
+340    X00006
+341    X00006
+342    X00006
+Warning: The "QC-blank1" column at position 14 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

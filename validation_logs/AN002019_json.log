@@ -1,8 +1,29 @@
 Validation Log
-2025-12-07 03:58:48.772615
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:11:25.184059
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002019/mwtab/json
 Study ID:      ST001211
 Analysis ID:   AN002019
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 3
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The value, "24 hours", in ["TREATMENT"]["TREATMENT_DOSEDURATION"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['h', 'weeks', 'days']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["TREATMENT"]["CELL_PCT_CONFLUENCE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "quantitated m/z" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InChI Key" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention times" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

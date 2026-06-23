@@ -1,8 +1,14 @@
 Validation Log
-2025-12-07 06:41:22.857902
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:13:03.783128
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004270/mwtab/txt
 Study ID:      ST002598
 Analysis ID:   AN004270
 File format:   txt
-Status: Passing
+Status:Parsing Error
+Traceback (most recent call last):
+  File "/tmp/mwFileStatusWebsite/venv/lib/python3.10/site-packages/mwtab/tokenizer.py", line 149, in tokenizer
+    raise ValueError(message)
+ValueError: Either a semicolon ('; ') separating 2 items is missing or there is an extra equal sign ('=') in the additional data key value pair, 'RAW_FILE_NAME=raw_file=04jan21_35.RAW'
+LINE WITH ERROR:
+	'SUBJECT_SAMPLE_FACTORS           \t1628FB23-6F66-47D4-8D82-63C87726F0FD\t90245015812\tGroup:Control | Timepoint:8 weeks of training or control time | Sex:Female\tRAW_FILE_NAME=raw_file=04jan21_35.RAW'

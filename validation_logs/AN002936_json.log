@@ -1,14 +1,37 @@
 Validation Log
-2025-12-07 05:00:32.880787
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:59:21.760663
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002936/mwtab/json
 Study ID:      ST001811
 Analysis ID:   AN002936
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 18
 
-Error Log:
-SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Metabolites' error:
-Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate OrderedDict([('metabolite_name', 'Succinic acid')])
-Missing key: Or('Metabolite', 'Bin range(ppm)')
+Number of Warnings: 0
+
+Number of Value Errors: 16
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 2
+
+Issue Log:
+Error: The value, "10 day old seedlings", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Not applicable", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["SUBJECT_SAMPLE_FACTORS"][48]["Additional sample data"]["RAW_FILE_NAME"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SUBJECT_SAMPLE_FACTORS"][49]["Additional sample data"]["RAW_FILE_NAME"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SUBJECT_SAMPLE_FACTORS"][50]["Additional sample data"]["RAW_FILE_NAME"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SUBJECT_SAMPLE_FACTORS"][51]["Additional sample data"]["RAW_FILE_NAME"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SUBJECT_SAMPLE_FACTORS"][52]["Additional sample data"]["RAW_FILE_NAME"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SUBJECT_SAMPLE_FACTORS"][53]["Additional sample data"]["RAW_FILE_NAME"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SUBJECT_SAMPLE_FACTORS"][54]["Additional sample data"]["RAW_FILE_NAME"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SUBJECT_SAMPLE_FACTORS"][55]["Additional sample data"]["RAW_FILE_NAME"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SUBJECT_SAMPLE_FACTORS"][56]["Additional sample data"]["RAW_FILE_NAME"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SUBJECT_SAMPLE_FACTORS"][57]["Additional sample data"]["RAW_FILE_NAME"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SUBJECT_SAMPLE_FACTORS"][58]["Additional sample data"]["RAW_FILE_NAME"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SUBJECT_SAMPLE_FACTORS"][59]["Additional sample data"]["RAW_FILE_NAME"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "0.3 mL min-1", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "35", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The ["MS_METABOLITE_DATA"]["Metabolites"] table does not have a column for "Metabolite". It is likely misspelled or using a common incorrect substitute.

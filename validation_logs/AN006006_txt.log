@@ -1,0 +1,133 @@
+Validation Log
+2026-06-21 06:46:54.808117
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006006/mwtab/txt
+Study ID:      ST003656
+Analysis ID:   AN006006
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 28
+
+Number of Warnings: 9
+
+Number of Value Errors: 27
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "GENOTYPE_STRAIN", in the "SUBJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "18-48", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "21-32.7", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_PROTOCOL_ID", in the "COLLECTION" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_PROTOCOL_FILENAME", in the "COLLECTION" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_PROTOCOL_COMMENTS", in the "COLLECTION" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_FREQUENCY", in the "COLLECTION" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_DURATION", in the "COLLECTION" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "1 hour", for the subsection, "TREATMENT_DOSEDURATION", in the "TREATMENT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['h', 'weeks', 'days']. Ignore this when more complicated descriptions are required.
+Error: The value, "325", for the subsection, "ION_SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "CHROMATOGRAPHY_SUMMARY", in the "CHROMATOGRAPHY" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "INSTRUMENT_NAME", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "COLUMN_NAME", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "n/a", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "n/a", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_A", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_B", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Warning: The "ion Mz" column at position 2 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 3 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1                C2H3O2.
+121              C7H5O3.
+435          C8H10N3O3S.
+656           (C4H5O3)3.
+726         C16H11N2O4S.
+849         C17H19N2O6S.
+881     (C14H21NO11)nH2O
+1029         C26H23N7O4.
+1083       C27H29N2O7S2.
+1095       C17H15N7O8S4.
+1125       C25H26N9O8S2.
+1131       C32H22N6O6S2.
+1206      C34H24N6O14S4.
+Warning: The "ion Mz" column at position 2 in the METABOLITES table, matches a standard column name, "ion". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 6 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 5 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 5 in the METABOLITES table, matches a standard column name, "hmdb_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+18    C00588
+Warning: The "CHEBI" column at position 4 in the METABOLITES table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHEBI" column at position 4 in the METABOLITES table, matches a standard column name, "chebi_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+6      CHEBI:132839
+9       CHEBI:16320
+10      CHEBI:18041
+11     CHEBI:132839
+15      CHEBI:61771
+16      CHEBI:89943
+19      CHEBI:34048
+20      CHEBI:53773
+30      CHEBI:66879
+39      CHEBI:18010
+43      CHEBI:16182
+47        CHEBI:669
+49      CHEBI:16182
+50      CHEBI:16562
+52      CHEBI:15348
+54       CHEBI:6151
+55      CHEBI:16182
+59     CHEBI:173382
+69      CHEBI:39066
+76      CHEBI:40131
+80      CHEBI:18010
+85      CHEBI:15401
+87      CHEBI:16164
+88       CHEBI:2030
+90      CHEBI:16310
+92      CHEBI:27565
+93      CHEBI:31128
+96      CHEBI:38506
+101     CHEBI:16327
+102     CHEBI:17549
+103     CHEBI:15603
+104     CHEBI:35907
+120    CHEBI:147331
+129     CHEBI:45807
+131     CHEBI:89195
+132     CHEBI:81026
+134     CHEBI:17237
+136    CHEBI:231990
+140     CHEBI:17920
+141     CHEBI:11951
+148     CHEBI:37872
+152          C02630
+153     CHEBI:87281
+170     CHEBI:15793
+172     CHEBI:73978
+174    CHEBI:189892
+175     CHEBI:60997
+177    CHEBI:165843
+179    CHEBI:174439
+181     CHEBI:16886
+182     CHEBI:34108
+183     CHEBI:68499
+191     CHEBI:57885
+192     CHEBI:46867
+194    CHEBI:168823
+196     CHEBI:17023
+197     CHEBI:10366
+199     CHEBI:28254
+203      CHEBI:2124
+204     CHEBI:25305
+207     CHEBI:33753
+208     CHEBI:16104
+209    CHEBI:166584
+238     CHEBI:22651
+239     CHEBI:18393
+240     CHEBI:80965
+241     CHEBI:15594
+243    CHEBI:169560
+244     CHEBI:48926
+245     CHEBI:17313
+247    CHEBI:136676
+248     CHEBI:10368
+Warning: The column, "ion Mz", in the METABOLITES table was matched to multiple standard names, ['moverz_quant', 'ion']. This is a good indication that the values in that column should be split into the appropriate individual columns.

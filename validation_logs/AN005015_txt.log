@@ -1,12 +1,23 @@
 Validation Log
-2025-12-07 07:45:26.872833
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:56:19.778962
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005015/mwtab/txt
 Study ID:      ST003060
 Analysis ID:   AN005015
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 4
 
-Error Log:
-SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Wrong key 'SOLVENT_C' in OrderedDict([('CHROMATOGRAPHY_SUMMARY', 'Ion Pairing UPLC'), ('CHROMATOGRAPHY_TYPE', 'Ion pair'), ('INSTRUMENT_NAME', 'Agilent 1290 Infinity II'), ('COLUMN_NAME', 'Agilent ZORBAX RRHD Extend-C18 (150 x 2.1mm, 1.8um, 80Å)'), ('SOLVENT_A', '97% water, 3% methanol, 5mM tributylamine, 5.5mM acetic acid, 12.5nM medronic acid'), ('SOLVENT_B', '100% methanol, 5mM tributylamine, 5.5mM acetic acid, 12.5nM medronic acid'), ('SOLVENT_C', '100% Acetonitrile'), ('FLOW_GRADIENT', '(Time PercentA PercentB PercentC Flow) (2 100 0 0 0.25) (12 1 99 0 0.25) (19.5 1 99 0 0.25) (20 5 0 95 0.5) (21 5 0 95 0.8) (22 5 0 95 0.8) (26 5 0 95 0.6) (26.1 5 0 95 0.4) (26.2 100 0 0 0.4) (31.8 100 0 0 0.25) (32 100 0 0 0.25)'), ('FLOW_RATE', '0.25 ml/min'), ('COLUMN_TEMPERATURE', '35')])
+Number of Warnings: 1
+
+Number of Value Errors: 3
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "0.25 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "35", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid subsection, "SOLVENT_C", in the "CHROMATOGRAPHY" section .
+Warning: There are duplicate samples in the MS_METABOLITE_DATA section.

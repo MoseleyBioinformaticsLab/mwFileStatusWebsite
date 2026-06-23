@@ -1,12 +1,41 @@
 Validation Log
-2025-12-07 08:52:55.217038
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:45:43.434587
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005980/mwtab/json
 Study ID:      ST003641
 Analysis ID:   AN005980
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 21
 
-Error Log:
-SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Wrong key 'SOLVENT_C' in OrderedDict([('CHROMATOGRAPHY_SUMMARY', 'Detection and separation of 7Î±-hydroxy-4-cholesten-3-one (C4) using a UHPLC gradient method. Duration = 15min. Please see ETV-Lab-C4-Methods.pdf for details.'), ('METHODS_FILENAME', 'ETV-Lab-C4-Methods.pdf'), ('INSTRUMENT_NAME', 'Thermo Dionex Ultimate 3000'), ('COLUMN_NAME', 'ACE Excel SuperC18 (150 x 2.1mm, 2um, 90Ã\x85)'), ('COLUMN_TEMPERATURE', '50'), ('FLOW_GRADIENT', '0.3 ml/min: 0min: 60% C, 40% A, 0.5min: 60% C, 40% A, 2min: 90% C, 10% A, 5min: 100% C, 9min: 100% C, 10-15min: 60% C, 40% A'), ('FLOW_RATE', '0.3 mL/min'), ('INJECTION_TEMPERATURE', '5'), ('SOLVENT_A', 'Water 80%/20% methanol; 0.1% formic acid;'), ('SOLVENT_B', '-'), ('CHROMATOGRAPHY_TYPE', 'Reversed phase'), ('SOLVENT_C', '100% Methanol')])
+Number of Warnings: 16
+
+Number of Value Errors: 19
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "50", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["SOLVENT_B"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "5", in ["CHROMATOGRAPHY"]["INJECTION_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid subsection, "SOLVENT_C", in ["CHROMATOGRAPHY"].
+Warning: The "kegg_id" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0    C05455Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â ...
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "10_L" column at position 2 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "11_L" column at position 3 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "12_L" column at position 4 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "14_L" column at position 6 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "6_L" column at position 15 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "7_L" column at position 16 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

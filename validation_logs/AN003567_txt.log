@@ -1,8 +1,28 @@
 Validation Log
-2025-12-07 05:53:32.893547
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:36:51.499165
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003567/mwtab/txt
 Study ID:      ST002178
 Analysis ID:   AN003567
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 9
+
+Number of Warnings: 3
+
+Number of Value Errors: 4
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The value, "10-week and 24-month", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "KEGG ID" column at position 3 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB ID" column at position 2 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "2020-08-17_Zang-43_Box2Redo-Blank0_NEG" column at position 55 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

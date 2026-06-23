@@ -1,8 +1,157 @@
 Validation Log
-2025-12-07 07:54:40.363356
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:04:22.445488
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005166/mwtab/txt
 Study ID:      ST003148
 Analysis ID:   AN005166
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 53
+
+Number of Warnings: 37
+
+Number of Value Errors: 51
+
+Number of Consistency Errors: 1
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "60", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "EXTRACT_CONCENTRATION_DILUTION", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "EXTRACT_ENRICHMENT", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "EXTRACT_CLEANUP", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "SAMPLE_RESUSPENSION", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "SAMPLE_DERIVATIZATION", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "SAMPLE_SPIKING", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "200", for the subsection, "ION_SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "3600", for the subsection, "ION_SPRAY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "Both", for the subsection, "IONIZATION", in the "MS" section should not be "positive" or "negative". "ION_MODE" is where that should be indicated.
+Error: The value, "200", for the subsection, "SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.2 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "FACTORS".
+Warning: SUBJECT_SAMPLE_FACTORS entry #1 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #2 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #3 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #4 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #5 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #6 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #7 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #8 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #9 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #10 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #11 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #12 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #13 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #14 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #15 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #16 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #17 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #18 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #19 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #20 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #21 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #22 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw File Name)"
+Warning: The "quantified m/z" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "parent" column at position 4 in the METABOLITES table, matches a standard column name, "parent_moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "pubchem id" column at position 5 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "kegg id" column at position 6 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "kegg id" column at position 6 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+11    65359
+12    65359
+13    65359
+14    65359
+15    65359
+16    65359
+17    65359
+18    65359
+19    65359
+20    65359
+21    65359
+22    65359
+23    65359
+24    65359
+25    65359
+26    65359
+27    65359
+28    65359
+29    65359
+30    65359
+31    65359
+Warning: The "regno" column at position 7 in the METABOLITES table, matches a standard column name, "mw_regno". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "regno" column at position 7 in the METABOLITES table, matches a standard column name, "mw_regno", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+11    C00127
+12    C00127
+13    C00127
+14    C00127
+15    C00127
+16    C00127
+17    C00127
+18    C00127
+19    C00127
+20    C00127
+21    C00127
+22    C00127
+23    C00127
+24    C00127
+25    C00127
+26    C00127
+27    C00127
+28    C00127
+29    C00127
+30    C00127
+31    C00127
+Warning: The "retention time" column at position 2 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "comments" column at position 8 in the METABOLITES table, matches a standard column name, "comment". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "comments" column at position 8 in the METABOLITES table, matches a standard column name, "comment", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+11    49863
+12    49863
+13    49863
+14    49863
+15    49863
+16    49863
+17    49863
+18    49863
+19    49863
+20    49863
+21    49863
+22    49863
+23    49863
+24    49863
+25    49863
+26    49863
+27    49863
+28    49863
+29    49863
+30    49863
+31    49863
+Warning: The "01_Blank" column at position 2 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "01_Blank_20220515015111" column at position 3 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "11_Blank" column at position 13 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "21_Blank" column at position 23 in the MS_METABOLITE_DATA table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Error: Column(s) with no name were found in the METABOLITES table.
+Warning: The "" column at position 9 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Error: The section, METABOLITES, has a mismatch between the number of headers and the number of elements in each line. Either a line(s) has more values than headers or there are too few headers.

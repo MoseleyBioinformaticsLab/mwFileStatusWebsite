@@ -1,12 +1,94 @@
 Validation Log
-2025-12-07 04:58:12.548692
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:57:21.733531
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002896/mwtab/json
 Study ID:      ST001785
 Analysis ID:   AN002896
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 19
 
-Error Log:
-SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. 'list' object has no attribute 'keys'
+Number of Warnings: 12
+
+Number of Value Errors: 15
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "18-60", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "600", in ["NM"]["SPECTROMETER_FREQUENCY"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['MHz']. Ignore this when more complicated descriptions are required.
+Error: The value, "310", in ["NM"]["TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "CHROMATOGRAPHY".
+Error: The following metabolites in the, ["NMR_METABOLITE_DATA"]["Data"] table were not found in the ["NMR_METABOLITE_DATA"]["Metabolites"] table:
+	"Lipoprotein Main Fractions_ Apo-A1_ HDL"
+	"Lipoprotein Main Fractions_ Apo-A2_ HDL"
+	"Lipoprotein Main Fractions_ Apo-B_ IDL"
+	"Lipoprotein Main Fractions_ Apo-B_ LDL"
+	"Lipoprotein Main Fractions_ Apo-B_ VLDL"
+	"Lipoprotein Main Fractions_ Cholesterol_ HDL"
+	"Lipoprotein Main Fractions_ Cholesterol_ IDL"
+	"Lipoprotein Main Fractions_ Cholesterol_ LDL"
+	"Lipoprotein Main Fractions_ Cholesterol_ VLDL"
+	"Lipoprotein Main Fractions_ Free Cholesterol_ HDL"
+	"Lipoprotein Main Fractions_ Free Cholesterol_ IDL"
+	"Lipoprotein Main Fractions_ Free Cholesterol_ LDL"
+	"Lipoprotein Main Fractions_ Free Cholesterol_ VLDL"
+	"Lipoprotein Main Fractions_ Phospholipids_ HDL"
+	"Lipoprotein Main Fractions_ Phospholipids_ IDL"
+	"Lipoprotein Main Fractions_ Phospholipids_ LDL"
+	"Lipoprotein Main Fractions_ Phospholipids_ VLDL"
+	"Lipoprotein Main Fractions_ Triglycerides_ HDL"
+	"Lipoprotein Main Fractions_ Triglycerides_ IDL"
+	"Lipoprotein Main Fractions_ Triglycerides_ LDL"
+	"Lipoprotein Main Fractions_ Triglycerides_ VLDL"
+	"Main Parameters_ Apo-A1_ Apo-A1"
+	"Main Parameters_ Apo-A2_ Apo-A2"
+	"Main Parameters_ Apo-B100_ Apo-B100"
+	"Main Parameters_ Cholesterol_ Chol"
+	"Main Parameters_ HDL Cholesterol_ HDL-Chol"
+	"Main Parameters_ LDL Cholesterol_ LDL-Chol"
+	"Main Parameters_ Triglycerides_ TG"
+Error: The following metabolites in the ["NMR_METABOLITE_DATA"]["Metabolites"] table were not found in the ["NMR_METABOLITE_DATA"]["Data"] table:
+	"Lipoprotein Main Fractions, Apo-A1, HDL"
+	"Lipoprotein Main Fractions, Apo-A2, HDL"
+	"Lipoprotein Main Fractions, Apo-B, IDL"
+	"Lipoprotein Main Fractions, Apo-B, LDL"
+	"Lipoprotein Main Fractions, Apo-B, VLDL"
+	"Lipoprotein Main Fractions, Cholesterol, HDL"
+	"Lipoprotein Main Fractions, Cholesterol, IDL"
+	"Lipoprotein Main Fractions, Cholesterol, LDL"
+	"Lipoprotein Main Fractions, Cholesterol, VLDL"
+	"Lipoprotein Main Fractions, Free Cholesterol, HDL"
+	"Lipoprotein Main Fractions, Free Cholesterol, IDL"
+	"Lipoprotein Main Fractions, Free Cholesterol, LDL"
+	"Lipoprotein Main Fractions, Free Cholesterol, VLDL"
+	"Lipoprotein Main Fractions, Phospholipids, HDL"
+	"Lipoprotein Main Fractions, Phospholipids, IDL"
+	"Lipoprotein Main Fractions, Phospholipids, LDL"
+	"Lipoprotein Main Fractions, Phospholipids, VLDL"
+	"Lipoprotein Main Fractions, Triglycerides, HDL"
+	"Lipoprotein Main Fractions, Triglycerides, IDL"
+	"Lipoprotein Main Fractions, Triglycerides, LDL"
+	"Lipoprotein Main Fractions, Triglycerides, VLDL"
+	"Main Parameters, Apo-A1, Apo-A1"
+	"Main Parameters, Apo-A2, Apo-A2"
+	"Main Parameters, Apo-B100, Apo-B100"
+	"Main Parameters, Cholesterol, Chol"
+	"Main Parameters, HDL Cholesterol, HDL-Chol"
+	"Main Parameters, LDL Cholesterol, LDL-Chol"
+	"Main Parameters, Triglycerides, TG"
+Warning: The "ri" column at position 7 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["NMR_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "pubchem_id" column at position 2 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 3 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "kegg_id" column at position 4 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 5 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 6 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri" column at position 7 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "moverz_quant" column at position 9 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table has all null values.

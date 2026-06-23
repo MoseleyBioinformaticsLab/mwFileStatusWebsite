@@ -1,8 +1,48 @@
 Validation Log
-2025-12-07 09:36:01.214142
-mwtab Python Library Version: 1.2.5
+2026-06-21 07:22:46.549825
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006737/mwtab/json
 Study ID:      ST004071
 Analysis ID:   AN006737
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 19
+
+Number of Warnings: 11
+
+Number of Value Errors: 19
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected in ["MS_METABOLITE_DATA"]["Units"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["INSTRUMENT_NAME"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["COLUMN_NAME"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["FLOW_GRADIENT"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "none", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "none", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["SOLVENT_A"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["SOLVENT_B"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][0] has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][0] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw Data Files)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][1] has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][1] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw Data Files)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][2] has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][2] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw Data Files)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][3] has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][3] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw Data Files)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][4] has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][4] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw Data Files)"
+Warning: The "mz" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

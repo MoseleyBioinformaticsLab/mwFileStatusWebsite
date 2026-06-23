@@ -1,8 +1,70 @@
 Validation Log
-2025-12-07 05:50:39.447035
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:34:46.520147
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003526/mwtab/json
 Study ID:      ST002153
 Analysis ID:   AN003526
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 12
+
+Number of Warnings: 6
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 4
+
+Issue Log:
+Error: The value, "7 months old", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "m/z" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem CID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem CID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+3               69217　7817
+9             13730　439182
+17            92136　439389
+18               6657　6119
+27         10394　91　102526
+39             64969　92105
+48            70　47　159664
+59            18986　676157
+96                264　6590
+142           439213　24154
+175       1738　348154　9378
+193        10430　7991　8314
+215          107737　440194
+224    439174　439281　35717
+255            439260　4624
+267                328　780
+273            68144　91637
+338          8629　23724458
+339        445675　23724461
+364               0　188824
+367               0　439924
+388        22885096　151023
+Warning: The "HMDB ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+9                  HMDB0000101　HMDB0001983
+18                 HMDB0000452　HMDB0001906
+27     HMDB0002199　HMDB0000375　HMDB0041683
+39                 HMDB0000479　HMDB0000001
+48     HMDB0000695　HMDB0000491　HMDB0001864
+59                 HMDB0004096　HMDB0000671
+96                 HMDB0000039　HMDB0001873
+175    HMDB0000118　HMDB0000423　HMDB0000755
+193    HMDB0000718　HMDB0000892　HMDB0002176
+215                HMDB0000213　HMDB0006814
+224    HMDB0000215　HMDB0001129　HMDB0000853
+255                HMDB0000216　HMDB0001537
+267                HMDB0000822　HMDB0000130
+273                HMDB0000821　HMDB0011723
+338                HMDB0000286　HMDB0000302
+339                HMDB0000290　HMDB0000304
+388                HMDB0011170　HMDB0011171
+Warning: The "MT/RT" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

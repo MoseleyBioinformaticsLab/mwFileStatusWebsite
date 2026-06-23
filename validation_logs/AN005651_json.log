@@ -1,8 +1,99 @@
 Validation Log
-2025-12-07 08:35:32.350245
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:30:06.042402
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005651/mwtab/json
 Study ID:      ST003438
 Analysis ID:   AN005651
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 9
+
+Number of Warnings: 6
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "400 µL/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "30C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "MZ" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB_ID_specificity (1=match,2=representative)" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass_spectrum". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB_ID_specificity (1=match,2=representative)" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB_ID_specificity (1=match,2=representative)" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+3     1
+4     1
+5     2
+6     1
+7     1
+8     2
+9     1
+10    1
+11    1
+12    1
+13    1
+14    2
+15    1
+16    1
+17    1
+18    1
+19    1
+20    1
+21    2
+22    1
+23    1
+24    1
+25    2
+26    1
+27    2
+28    1
+29    1
+30    1
+31    1
+32    1
+33    1
+34    1
+35    2
+36    2
+37    2
+38    1
+39    1
+40    1
+41    1
+42    1
+43    1
+44    1
+45    1
+46    1
+47    1
+48    1
+49    1
+50    1
+51    1
+52    1
+53    1
+54    1
+55    1
+56    1
+57    1
+58    1
+59    1
+60    1
+61    1
+62    1
+63    1
+64    1
+65    1
+66    2
+67    1
+68    1
+69    1
+70    1
+71    1
+72    1
+73    1
+Warning: The "RT" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column, "HMDB_ID_specificity (1=match,2=representative)", in the ["MS_METABOLITE_DATA"]["Metabolites"] table was matched to multiple standard names, ['mass_spectrum', 'hmdb_id']. This is a good indication that the values in that column should be split into the appropriate individual columns.

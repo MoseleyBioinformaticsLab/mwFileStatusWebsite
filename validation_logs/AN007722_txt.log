@@ -1,0 +1,101 @@
+Validation Log
+2026-06-21 08:01:21.611930
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007722/mwtab/txt
+Study ID:      ST004592
+Analysis ID:   AN007722
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 16
+
+Number of Warnings: 10
+
+Number of Value Errors: 16
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "8-10 weeks old", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "1 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_A", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_B", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Warning: The "OriginalName" column at position 6 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "OGName" column at position 14 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 11 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 10 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Lipidmaps" column at position 16 in the METABOLITES table, matches a standard column name, "lm_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Chebi" column at position 13 in the METABOLITES table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Chebi" column at position 13 in the METABOLITES table, matches a standard column name, "chebi_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                                         chebiId:37023
+1                                         chebiId:17084
+2                                         chebiId:37084
+3                                         chebiId:16388
+4                                         chebiId:15887
+5             chebiId:16010;chebiId:16924;chebiId:18183
+6                                         chebiId:16708
+7                                         chebiId:18145
+8                           chebiId:17108;chebiId:46994
+9                           chebiId:18403;chebiId:18333
+10                                        chebiId:17196
+11                                        chebiId:30746
+12                                        chebiId:16958
+13                                        chebiId:30841
+14                                        chebiId:30813
+15                                        chebiId:16113
+16                                        chebiId:16349
+17                                        chebiId:16919
+18                                        chebiId:16040
+19                                        chebiId:17724
+20                          chebiId:17113;chebiId:48299
+21                                        chebiId:17620
+22                                        chebiId:16865
+23            chebiId:16813;chebiId:16899;chebiId:17924
+24    chebiId:4139;chebiId:28061;chebiId:28260;chebi...
+25    chebiId:16084;chebiId:15946;chebiId:61553;cheb...
+26                          chebiId:18050;chebiId:17061
+27                                        chebiId:17754
+28                                        chebiId:15978
+29                                        chebiId:15428
+30                                        chebiId:16668
+31                                        chebiId:17368
+32                                        chebiId:17596
+33                          chebiId:10642;chebiId:17268
+34                                        chebiId:48430
+35                                        chebiId:16946
+36                          chebiId:16855;chebiId:18019
+37                          chebiId:17306;chebiId:16551
+38                                        chebiId:16643
+39                          chebiId:16953;chebiId:21547
+40                                        chebiId:17553
+41                          chebiId:15729;chebiId:16176
+42                                        chebiId:28716
+43             chebiId:29032;chebiId:46905;chebiId:7916
+44                                        chebiId:17295
+45                          chebiId:18021;chebiId:44897
+46                          chebiId:18367;chebiId:26078
+47                          chebiId:30744;chebiId:32816
+48                                        chebiId:16634
+49                                        chebiId:15963
+50                          chebiId:17797;chebiId:52742
+51            chebiId:47013;chebiId:17173;chebiId:16880
+52                          chebiId:17363;chebiId:17666
+53                                        chebiId:16119
+54                                        chebiId:15891
+55                          chebiId:15908;chebiId:49060
+56                                        chebiId:16857
+57                                        chebiId:17821
+58                          chebiId:16828;chebiId:27897
+59                                        chebiId:17895
+60                                        chebiId:17568
+61                                        chebiId:17775
+62                                        chebiId:16414
+63                          chebiId:17712;chebiId:48517
+64                                        chebiId:17151
+65                          chebiId:15936;chebiId:53455
+Warning: The "RT" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Method" column at position 17 in the METABOLITES table, matches a standard column name, "ms_method". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Lipidmaps" column at position 16 in the METABOLITES table has all null values.

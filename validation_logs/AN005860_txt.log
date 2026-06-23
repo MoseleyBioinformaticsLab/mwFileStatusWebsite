@@ -1,8 +1,93 @@
 Validation Log
-2025-12-07 08:46:47.474253
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:40:27.788040
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005860/mwtab/txt
 Study ID:      ST003567
 Analysis ID:   AN005860
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 16
+
+Number of Warnings: 9
+
+Number of Value Errors: 13
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "1.0mL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_A", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_B", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"9_12_15-Octadecatrienoic acid_ methyl ester_ (Z_Z_Z)"
+	"9_12-Octadecadienoic acid_ 18-(trimethylsiloxy)_ methyl ester"
+	"9_12-Octadecadienoic acid (Z_Z)_ methyl ester"
+	"9-Octadecenoic acid_ 18-(trimethylsiloxy)_ methyl ester"
+	"9-Octadecenoic acid (Z)_ methyl ester"
+	"Docosanedioic acid_ dimethyl ester"
+	"Docosanoic acid_ 22-(trimethylsiloxy)_ methyl ester"
+	"Docosanoic acid_ 2-[(trimethylsilyl)oxy]_ methyl ester"
+	"Docosanoic acid_ methyl ester"
+	"(E)-9-Octadecenoic acid_ methyl ester"
+	"Eicosanoic acid_ methyl ester"
+	"Hexacosanoic acid_ methyl ester"
+	"Hexadecanoic acid_ 16-(trimethylsiloxy)_ methyl ester"
+	"Hexadecanoic acid_ trimethylsilyl ester"
+	"Methyl 2-hydroxy-hexacosanoate_ trimethylsilyl ether"
+	"Octadecanedioic acid_ 9_10-bis(trimethylsiloxy)_ dimethyl ester"
+	"Octadecanoic acid_ 2-[(trimethylsilyl)oxy]_ methyl ester"
+	"Octadecanoic acid_ 9_10_18-tris[(trimethylsilyl)oxy]_ methyl ester"
+	"Octadecanoic acid_ methyl ester"
+	"Palmitic acid_ methyl ester"
+	"Silane_ (hexadecyloxy)trimethyl"
+	"Tetracosanoic acid_ 2-[(trimethylsilyl)oxy]_ methyl ester"
+	"Tetracosanoic acid_ methyl ester"
+	"(Z_Z)-9_12-Octadecadienoic acid"
+	"(Z_Z)-9_12-Octadecadienoic acid_1"
+	"(Z_Z_Z)-9_12_15-Octadecatrienoic acid"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"9,12,15-Octadecatrienoic acid, methyl ester, (Z,Z,Z)"
+	"9,12-Octadecadienoic acid, 18-(trimethylsiloxy), methyl ester"
+	"9,12-Octadecadienoic acid (Z,Z), methyl ester"
+	"9-Octadecenoic acid, 18-(trimethylsiloxy), methyl ester"
+	"9-Octadecenoic acid (Z), methyl ester"
+	"Docosanedioic acid, dimethyl ester"
+	"Docosanoic acid, 22-(trimethylsiloxy), methyl ester"
+	"Docosanoic acid, 2-[(trimethylsilyl)oxy], methyl ester"
+	"Docosanoic acid, methyl ester"
+	"(E)-9-Octadecenoic acid, methyl ester"
+	"Eicosanoic acid, methyl ester"
+	"Hexacosanoic acid, methyl ester"
+	"Hexadecanoic acid, 16-(trimethylsiloxy), methyl ester"
+	"Hexadecanoic acid, trimethylsilyl ester"
+	"Methyl 2-hydroxy-hexacosanoate, trimethylsilyl ether"
+	"Octadecanedioic acid, 9,10-bis(trimethylsiloxy), dimethyl ester"
+	"Octadecanoic acid, 2-[(trimethylsilyl)oxy], methyl ester"
+	"Octadecanoic acid, 9,10,18-tris[(trimethylsilyl)oxy], methyl ester"
+	"Octadecanoic acid, methyl ester"
+	"Palmitic acid, methyl ester"
+	"Silane, (hexadecyloxy)trimethyl"
+	"Tetracosanoic acid, 2-[(trimethylsilyl)oxy], methyl ester"
+	"Tetracosanoic acid, methyl ester"
+	"(Z,Z)-9,12-Octadecadienoic acid"
+	"(Z,Z)-9,12-Octadecadienoic acid_1"
+	"(Z,Z,Z)-9,12,15-Octadecatrienoic acid"
+Warning: The "kegg_id" column at position 4 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+24      C06425Â 
+32      C00249Â 
+47      C01530Â 
+66      C14641Â 
+68    C01595Â Â 
+69    C06427Â Â 
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 7 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.

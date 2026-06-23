@@ -1,12 +1,27 @@
 Validation Log
-2025-12-07 05:13:33.258184
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:09:42.118651
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003111/mwtab/txt
 Study ID:      ST001913
 Analysis ID:   AN003111
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 8
 
-Error Log:
-DATA: Missing either NMR_METABOLITE_DATA or NMR_BINNED_DATA section or NMR_RESULTS_FILE item in NM secction.
+Number of Warnings: 0
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 2
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "12.3 Watts", for the subsection, "POWER_LEVEL", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['W', 'dB']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.0000964 Watts", for the subsection, "PRESATURATION_POWER_LEVEL", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['W', 'dB']. Ignore this when more complicated descriptions are required.
+Error: The value, "3.9 seconds", for the subsection, "ACQUISITION_TIME", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s']. Ignore this when more complicated descriptions are required.
+Error: The value, "2 seconds", for the subsection, "RELAXATION_DELAY", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s', 'ms', 'us', 'μs']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.04ppm", for the subsection, "BINNED_INCREMENT", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "CHROMATOGRAPHY".
+Error: There must be either a "NMR_METABOLITE_DATA" section, a "NMR_BINNED_DATA" section or a "NMR_RESULTS_FILE" subsection in the "NM" section. Neither were found.

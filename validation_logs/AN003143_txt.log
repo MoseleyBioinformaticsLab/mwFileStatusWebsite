@@ -1,8 +1,221 @@
 Validation Log
-2025-12-07 05:15:59.893344
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:12:00.985197
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003143/mwtab/txt
 Study ID:      ST001933
 Analysis ID:   AN003143
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 8
+
+Number of Value Errors: 10
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The value, "23-73", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "InChi key" column at position 4 in the METABOLITES table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Ion Pairs" column at position 13 in the METABOLITES table, matches a standard column name, "ion". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Ion Pairs" column at position 13 in the METABOLITES table, matches a standard column name, "ion", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0        230.9&gt;143.8
+1          265&gt;136.8
+2        317.9&gt;299.9
+3            376&gt;124
+4            300&gt;210
+5         298.1&gt;99.8
+6          250&gt;113.8
+7        402.2&gt;402.1
+8          225&gt;151.8
+9        476.1&gt;235.9
+10       297.2&gt;238.2
+11         309&gt;265.9
+12         225&gt;207.9
+13       476.1&gt;457.9
+14       360.2&gt;136.8
+15        282.1&gt;83.8
+16         291&gt;273.9
+17     310.20&gt;293.00
+18      268.00&gt;70.00
+19     282.00&gt;114.00
+20           265&gt;114
+21       376.1&gt;166.1
+22       362.1&gt;314.9
+23         239&gt;151.8
+24         239&gt;221.9
+25         241&gt;205.9
+26         255&gt;219.9
+27         255&gt;237.9
+28         267&gt;113.8
+29         272&gt;117.8
+30         226&gt;153.8
+31         308&gt;126.8
+32         483&gt;135.9
+33         499&gt;151.8
+34       174.9&gt;129.8
+35         226&gt;164.8
+36         259&gt;137.8
+37         271&gt;205.8
+38           273&gt;120
+39       317.1&gt;299.9
+40       318.1&gt;164.8
+41       403.1&gt;194.8
+42       301.1&gt;283.9
+43       344.1&gt;308.9
+44       404.1&gt;386.9
+45           432&gt;415
+46       481.1&gt;327.9
+47         254&gt;235.9
+48         274&gt;120.8
+49       287.8&gt;153.8
+50       315.1&gt;161.8
+51         402&gt;248.9
+52       405.1&gt;153.8
+53       446.2&gt;292.9
+54          238&gt;56.7
+55         258&gt;104.8
+56          272&gt;78.8
+57         311&gt;129.8
+58         387&gt;233.8
+59         443&gt;245.9
+60       325.1&gt;129.8
+61       451.1&gt;297.9
+62         459.2&gt;288
+63       387.1&gt;233.9
+64       401.1&gt;247.9
+65       401.1&gt;247.9
+66       435.1&gt;281.9
+67       389.1&gt;235.8
+68         209&gt;136.8
+69           251&gt;209
+70         330&gt;209.8
+71       209.9&gt;136.8
+72         237&gt;136.8
+73       239.9&gt;136.8
+74         249&gt;136.8
+75         251&gt;136.8
+76         263&gt;136.8
+77         270&gt;136.8
+78       280.9&gt;250.9
+79       307.9&gt;136.8
+80         322&gt;126.8
+81       443.1&gt;221.9
+82       193.9&gt;136.8
+83         251&gt;136.8
+84         263&gt;136.8
+85       313.9&gt;205.8
+86       638.1&gt;559.9
+87         238&gt;193.8
+88         283&gt;136.8
+89       237.8&gt;151.8
+90       237.8&gt;151.8
+91         252&gt;193.9
+92         264&gt;219.9
+93         265&gt;136.8
+94         265&gt;136.8
+95       283.8&gt;205.8
+96         284&gt;136.8
+97         284&gt;235.9
+98         298&gt;205.8
+99       313.9&gt;235.9
+100      355.1&gt;234.9
+101        208&gt;136.8
+102      223.9&gt;205.8
+103        265&gt;136.8
+104        316&gt;151.8
+105        316&gt;193.8
+106      245.9&gt;149.8
+107        286&gt;149.8
+108        338&gt;208.9
+109        222&gt;136.8
+110        222&gt;136.8
+111        286&gt;136.8
+112        373&gt;177.8
+113      398.1&gt;279.9
+114        236&gt;136.8
+115        270&gt;149.8
+116        300&gt;281.9
+117      359.1&gt;149.8
+118        385&gt;233.9
+119        401&gt;247.9
+120        415&gt;261.9
+121        435&gt;281.9
+122        429&gt;275.9
+123        250&gt;136.8
+124      443.1&gt;151.8
+125      596.1&gt;221.9
+126      596.1&gt;233.9
+127      264.1&gt;136.8
+128      357.4&gt;136.8
+129        498.1&gt;498
+130        542&gt;541.9
+131      550.1&gt;232.9
+132        599.1&gt;599
+133        583&gt;582.9
+134      278.1&gt;136.8
+135        526.1&gt;526
+136        526&gt;526.1
+137      292.1&gt;136.8
+138     306.12&gt;136.8
+139     318.13&gt;136.8
+140        583&gt;583.1
+141        583&gt;583.1
+142      332.1&gt;136.8
+143      334.2&gt;136.8
+144      360.2&gt;136.8
+145      362.2&gt;362.1
+146     376.21&gt;376.1
+147      388.2&gt;388.1
+148      412.2&gt;412.1
+149      412.2&gt;412.1
+150      414.3&gt;414.1
+151      414.3&gt;414.1
+152      436.2&gt;436.1
+153      438.2&gt;438.1
+154      440.3&gt;440.1
+155      462.2&gt;462.1
+156      464.3&gt;464.1
+157      464.3&gt;464.1
+158      466.3&gt;466.1
+159        387&gt;233.9
+160        417&gt;221.9
+161      390.3&gt;390.1
+162      404.3&gt;404.1
+163      416.1&gt;416.1
+164      416.1&gt;416.1
+165      430.3&gt;430.1
+166          383&gt;323
+167      353.2&gt;220.1
+168      518.2&gt;220.1
+169      367.2&gt;220.1
+170      381.2&gt;220.1
+171      381.2&gt;220.1
+172      397.2&gt;220.1
+173      546.2&gt;220.1
+174      395.2&gt;220.1
+175      423.3&gt;220.1
+176      451.3&gt;220.1
+177      479.3&gt;220.1
+178      507.2&gt;220.1
+179      535.2&gt;220.1
+180      561.2&gt;220.1
+181      559.2&gt;220.1
+182      559.2&gt;220.1
+183        529&gt;231.8
+184        499&gt;231.9
+185        529&gt;231.8
+186          253&gt;236
+Warning: The "PubChem CID" column at position 3 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB ID" column at position 2 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Reference RT (min)" column at position 12 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Measured RT (min)" column at position 14 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Ionization mode" column at position 11 in the METABOLITES table, matches a standard column name, "ionization_mode". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

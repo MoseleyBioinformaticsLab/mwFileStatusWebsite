@@ -1,8 +1,147 @@
 Validation Log
-2025-12-07 05:08:19.982159
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:05:24.202625
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003025/mwtab/json
 Study ID:      ST001865
 Analysis ID:   AN003025
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 13
+
+Number of Warnings: 7
+
+Number of Value Errors: 7
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected in ["STUDY"]["STUDY_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "PUBCHEM" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                    505-52-2;
+3                   2277-28-3;
+6                  89576-29-4;
+9                    542-44-9;
+13                 69747-55-3;
+14                796963-93-4;
+15                 29743-97-3;
+16                 73033-09-7;
+17                  1333-28-4;
+18                263399-35-5;
+19                 81187-21-5;
+20                 73837-14-6;
+24                  2724-59-6;
+25                   951-78-0;
+29                   488-15-3;
+30                  5393-81-7;
+31                   617-73-2;
+32                   764-67-0;
+33                   629-22-1;
+38                  6482-98-0;
+40                  5561-87-5;
+41                 88930-08-9;
+42                  2642-37-7;
+44                  3715-29-5;
+45                 51829-07-3;
+46                   368-16-1;
+47                   501-52-0;
+48                   123-07-9;
+49                   156-39-8;
+50                   816-66-0;
+52                  2628-17-3;
+53                115538-85-7;
+54                   764-89-6;
+55                263399-34-4;
+56                  2091-25-0;
+57                 10303-64-7;
+58                   506-32-1;
+59                   123-99-9;
+60                  2393-59-1;
+61                  114-25-0 ;
+62     55482-27-4;55482-27-4 ;
+63                   112-37-8;
+64                   142-62-1;
+65                   124-07-2;
+66                   305-84-0;
+67                   120-80-9;
+68                    81-25-4;
+69                16534-24-0 ;
+70                  486-66-8 ;
+71                    83-44-3;
+72                  2091-39-6;
+73                17046-59-2 ;
+74                 7370-49-2 ;
+75                  6217-54-5;
+76                 2234-74-4 ;
+77                 25182-74-5;
+78                  693-23-2 ;
+79                  2424-92-2;
+80       10-2005-9;10417-94-4;
+84                   112-86-7;
+85                   485-72-3;
+86                  446-72-0 ;
+87                   118-00-3;
+88                   111-14-8;
+89                   505-54-4;
+90                 24003-67-6;
+91                   495-69-2;
+92                  5934-29-2;
+93                    68-94-0;
+94                  830-96-6 ;
+95                    58-63-9;
+96                   503-74-2;
+97                 16284-60-9;
+98                   492-27-3;
+99                   143-07-7;
+100                   60-33-3;
+102                  506-12-7;
+103                  709-50-2;
+104                  544-63-8;
+105                 544-64-9 ;
+106                   65-82-7;
+107                 2018-61-3;
+108                17093-74-2;
+109                 1218-34-4;
+110                 537-55-3 ;
+111                 4289-98-9;
+112                  646-30-0;
+113                  871-70-5;
+114                 3233-57-7;
+115                   57-10-3;
+116                  373-49-9;
+117                  112-05-0;
+118                  937-34-8;
+119                  500-98-1;
+120                  828-01-3;
+121                56613-60-6;
+122                 1445-07-4;
+123                  82-82-6 ;
+124                   69-72-7;
+125                  111-20-6;
+126                   57-11-4;
+127              111174-40-4 ;
+128                  505-48-6;
+130                 6009-98-9;
+131                  145-42-6;
+132               207737-97-1;
+133                14605-22-2;
+134                  821-38-5;
+135                   50-89-5;
+136                 1852-04-6;
+137                  334-48-5;
+138          69-93-2;120K5305;
+139                   58-96-8;
+140                  109-52-4;
+141                24003-66-5;
+Warning: The "RI" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "RI" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.

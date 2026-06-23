@@ -1,8 +1,63 @@
 Validation Log
-2025-12-07 05:50:43.040423
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:34:49.527856
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003527/mwtab/json
 Study ID:      ST002153
 Analysis ID:   AN003527
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 13
+
+Number of Warnings: 6
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The value, "7 months old", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "m/z" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem CID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem CID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+5              6238　6166
+6       6238　6166　440698
+11            1563　16064
+22            92810　8955
+23         439423　439577
+24         439423　439577
+25         439423　439577
+89     440707　5753　92827
+90     5754　11222　442911
+91           5754　442911
+92          92110　246983
+146        16898　3632876
+147          10465　10465
+148          10465　10465
+167            5283454　0
+168            5283454　0
+210           5757　68570
+Warning: The "HMDB ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+5                  HMDB0000374　HMDB0000016
+6      HMDB0000374　HMDB0000016　HMDB0006755
+11                 HMDB0002261　HMDB0061656
+22                 HMDB0003759　HMDB0000253
+23                 HMDB0000032　HMDB0002719
+24                 HMDB0000032　HMDB0002719
+25                 HMDB0000032　HMDB0002719
+89     HMDB0000015　HMDB0001547　HMDB0004030
+90     HMDB0000063　HMDB0000319　HMDB0034090
+91                 HMDB0000063　HMDB0034090
+92                 HMDB0036591　HMDB0001251
+147                HMDB0002259　HMDB0002259
+148                HMDB0002259　HMDB0002259
+210                HMDB0000151　HMDB0000429
+Warning: The "MT/RT" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

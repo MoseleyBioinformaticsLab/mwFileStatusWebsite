@@ -1,14 +1,34 @@
 Validation Log
-2025-12-07 01:39:39.156489
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:29:35.948489
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000418/mwtab/txt
 Study ID:      ST000262
 Analysis ID:   AN000418
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 3
+Status: Contains Validation Issues
+Number of Issues: 15
 
-Error Log:
-SCHEMA: Section "PROJECT" does not match the allowed schema. Missing key: 'PHONE'
-SCHEMA: Section "STUDY" does not match the allowed schema. Missing key: 'PHONE'
-DATA: Missing MS_METABOLITE_DATA section or MS_RESULTS_FILE item in MS section.
+Number of Warnings: 0
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 6
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "ADDRESS", in the "PROJECT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The required property, "PHONE", in the "PROJECT" section  is missing.
+Error: The required property, "PHONE", in the "STUDY" section  is missing.
+Error: The required property, "TREATMENT_SUMMARY", in the "TREATMENT" section  is missing.
+Error: The value, "3500", for the subsection, "CAPILLARY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "10 l/min", for the subsection, "DRY_GAS_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "250", for the subsection, "DRY_GAS_TEMP", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "135V", for the subsection, "FRAGMENT_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: The value, "400", for the subsection, "OCTPOLE_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: The value, "65", for the subsection, "SKIMMER_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.4 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "24 minutes", for the subsection, "ANALYTICAL_TIME", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['min']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: There must be either a "MS_METABOLITE_DATA" section or a "MS_RESULTS_FILE" subsection in the "MS" section. Neither were found.

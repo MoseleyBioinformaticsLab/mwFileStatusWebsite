@@ -1,9 +1,26 @@
 Validation Log
-2025-12-07 05:46:41.806103
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:31:06.181380
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003460/mwtab/txt
 Study ID:      ST002113
 Analysis ID:   AN003460
 File format:   txt
-Status:Parsing Error
-('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\tPDAC-1\\tPDAC.16.fid\\tAJCC_stage:IV\\tGender=female; Age=69; ALB=38.3; CA199=1000; CA125=28.69; CEA=3.7; CA242=&gt;150; CA153=28.5; RAW_FILE_NAME=16'", IndexError('list index out of range'))
+Status: Contains Validation Issues
+Number of Issues: 7
+
+Number of Warnings: 1
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "35-85", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "25", for the subsection, "TEMPERATURE", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.
+Error: The value, "32 K data points", for the subsection, "NUM_DATA_POINTS_ACQUIRED", in the "NM" section should be a unitless number. Ignore this when more complicated descriptions are required.
+Error: The value, "0.002", for the subsection, "BINNED_INCREMENT", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm']. Ignore this when more complicated descriptions are required.
+Error: The required property, "UNITS", for the subsection, "NMR_RESULTS_FILE", in the "NM" section is missing.
+Warning: The "PubChem_CID" column at position 3 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

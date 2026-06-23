@@ -1,8 +1,84 @@
 Validation Log
-2025-12-07 05:07:54.983513
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:04:59.964697
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003017/mwtab/txt
 Study ID:      ST001861
 Analysis ID:   AN003017
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 35
+
+Number of Warnings: 30
+
+Number of Value Errors: 30
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: SUBJECT_SAMPLE_FACTORS entry #1 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #2 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #3 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #4 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #5 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #6 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #7 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #8 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #9 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #10 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #11 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #12 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #13 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #14 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #15 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #16 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #17 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #18 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #19 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #20 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #21 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #22 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #23 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #24 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #25 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #26 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #27 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #28 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #29 has the following duplicate keys in its Factors:
+	"Treatment"
+Warning: SUBJECT_SAMPLE_FACTORS entry #30 has the following duplicate keys in its Factors:
+	"Treatment"

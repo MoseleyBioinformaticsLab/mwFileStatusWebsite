@@ -1,12 +1,47 @@
 Validation Log
-2025-12-07 06:48:02.564632
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:18:23.699231
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004363/mwtab/txt
 Study ID:      ST002690
 Analysis ID:   AN004363
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 16
 
-Error Log:
-SCHEMA: Section "COLLECTION" does not match the allowed schema. Missing key: 'COLLECTION_SUMMARY'
+Number of Warnings: 10
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The required property, "COLLECTION_SUMMARY", in the "COLLECTION" section  is missing.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "0.4 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "50C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"GTInternalStandard_PC(18:1(d7))>PC(18:1(9z_d7)/0:0)_and_PC(18:1(d7))>PC(0:0/18:1(9z_d7))_M+H2CO2_feature1"
+	"GTInternalStandard_PC(33:1(d7))>PC(15:0/18:1(9z_d7))_M+H2CO2_feature1"
+	"GTInternalStandard_PE(18:1(d7))>PE(18:1(9z_d7)/0:0)_and_PE(18:1(d7))>PE(0:0/18:1(9z_d7))_feature1"
+	"GTInternalStandard_PE(33:1(d7))>PE(15:0/18:1(9z_d7))_feature1"
+	"GTInternalStandard_PG(33:1(d7))>PG(15:0/18:1(9z_d7))_feature1"
+	"GTInternalStandard_SM(d36:2(d9))>SM(d18:1/18:1(9z_d9))_M+H2CO2_feature1"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"GTInternalStandard_PC(18:1(d7))>PC(18:1(9z,d7)/0:0)_and_PC(18:1(d7))>PC(0:0/18:1(9z,d7))_M+H2CO2_feature1"
+	"GTInternalStandard_PC(33:1(d7))>PC(15:0/18:1(9z,d7))_M+H2CO2_feature1"
+	"GTInternalStandard_PE(18:1(d7))>PE(18:1(9z,d7)/0:0)_and_PE(18:1(d7))>PE(0:0/18:1(9z,d7))_feature1"
+	"GTInternalStandard_PE(33:1(d7))>PE(15:0/18:1(9z,d7))_feature1"
+	"GTInternalStandard_PG(33:1(d7))>PG(15:0/18:1(9z,d7))_feature1"
+	"GTInternalStandard_SM(d36:2(d9))>SM(d18:1/18:1(9z,d9))_M+H2CO2_feature1"
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "pubchem_id" column at position 2 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "kegg_id" column at position 4 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.

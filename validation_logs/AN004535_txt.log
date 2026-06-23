@@ -1,8 +1,26 @@
 Validation Log
-2025-12-07 07:02:38.329150
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:28:37.613281
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004535/mwtab/txt
 Study ID:      ST002787
 Analysis ID:   AN004535
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 7
+
+Number of Warnings: 6
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: Unknown or invalid section, "FACTORS".
+Warning: The "Molecular Weight (Da)" column at position 2 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 4 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "keggmap" column at position 8 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Metlin" column at position 7 in the METABOLITES table, matches a standard column name, "metlin_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 5 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ChEBI" column at position 6 in the METABOLITES table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

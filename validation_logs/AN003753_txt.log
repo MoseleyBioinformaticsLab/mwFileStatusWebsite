@@ -1,9 +1,36 @@
 Validation Log
-2025-12-07 06:07:33.146866
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:47:08.491936
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003753/mwtab/txt
 Study ID:      ST002297
 Analysis ID:   AN003753
 File format:   txt
-Status:Parsing Error
-('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\tF01\\tF01_V1\\tTreatedrial arm:Treated\\tTime point=Baseline; 24h Creatinine=7.1; sTyr groups=1) &lt;701; RAW_FILE_NAME=F01_V1'", IndexError('list index out of range'))
+Status: Contains Validation Issues
+Number of Issues: 12
+
+Number of Warnings: 6
+
+Number of Value Errors: 7
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The value, "48 months total", for the subsection, "TREATMENT_DOSEDURATION", in the "TREATMENT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['h', 'weeks', 'days']. Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: There are duplicate samples in the MS_METABOLITE_DATA section.
+Warning: The "neutral mass" column at position 3 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "formula" column at position 4 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     C9 H11 N O2
+1     C9 H13 N O3
+3       C8 H9 N O
+5    C15 H19 N O9
+6      C8 H11 N O
+Warning: The "KEGG-ID" column at position 6 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS-ID" column at position 5 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention time" column at position 2 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

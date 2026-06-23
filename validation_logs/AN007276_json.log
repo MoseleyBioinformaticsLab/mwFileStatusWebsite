@@ -1,0 +1,37 @@
+Validation Log
+2026-06-21 07:45:22.009727
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007276/mwtab/json
+Study ID:      ST004357
+Analysis ID:   AN007276
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 4
+
+Number of Warnings: 1
+
+Number of Value Errors: 4
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "8- to 10-week-old", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "40-50", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "CAS_NUMBER" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+3      128946-65-6,75899-68-2
+12      34369-07-8,51963-61-2
+16         85-61-0,18439-24-2
+24        146-14-5,84366-81-4
+34         41468-25-1,54-47-7
+53       10002-84-2,1002-84-2
+61      28053-08-9,63700-19-6
+65           120K5305,69-93-2
+67           111-58-0,11-58-0
+73     38099-82-0,103213-44-1
+86       10-2005-9,10417-94-4
+97        921-62-0,53411-70-4
+102     58961-34-8,58962-34-8
+207     73837-14-6,71030-37-0

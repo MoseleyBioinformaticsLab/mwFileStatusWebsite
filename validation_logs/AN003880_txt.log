@@ -1,8 +1,109 @@
 Validation Log
-2025-12-07 06:14:14.584735
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:53:14.311968
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003880/mwtab/txt
 Study ID:      ST002381
 Analysis ID:   AN003880
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 90
+
+Number of Warnings: 89
+
+Number of Value Errors: 88
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: Unknown or invalid section, "CHROMATOGRAPHY".
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "455" column at position 12 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "456" column at position 13 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "476" column at position 14 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "477" column at position 15 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "543" column at position 16 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "544" column at position 17 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "545" column at position 18 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "588" column at position 19 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "589" column at position 20 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "590" column at position 21 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "105" column at position 22 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "106" column at position 23 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "169" column at position 24 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "170" column at position 25 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "120" column at position 26 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "121" column at position 27 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "122" column at position 28 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "132" column at position 29 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "133" column at position 30 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "134" column at position 31 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "261" column at position 32 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "273" column at position 33 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "302" column at position 34 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "501" column at position 35 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "502" column at position 36 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "453" column at position 60 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "454" column at position 61 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "474" column at position 64 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "475" column at position 65 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "540" column at position 68 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "541" column at position 69 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "542" column at position 70 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "585" column at position 74 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "586" column at position 75 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "587" column at position 76 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "331" column at position 83 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "332" column at position 84 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "333" column at position 85 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "346" column at position 86 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "347" column at position 87 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "348" column at position 88 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "370" column at position 89 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "371" column at position 90 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "372" column at position 91 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "323" column at position 93 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "336" column at position 129 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "503" column at position 147 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "504" column at position 148 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "505" column at position 149 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "506" column at position 150 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "507" column at position 151 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "508" column at position 152 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "509" column at position 153 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "510" column at position 154 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "511" column at position 155 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "512" column at position 156 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "522" column at position 157 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "523" column at position 158 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "524" column at position 159 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "564" column at position 160 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "565" column at position 161 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "566" column at position 162 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "316" column at position 163 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "145" column at position 180 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "262" column at position 221 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "403" column at position 269 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "404" column at position 270 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "417" column at position 273 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "418" column at position 274 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "307" column at position 277 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "308" column at position 278 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "309" column at position 279 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "268" column at position 283 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "280" column at position 284 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "386" column at position 285 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "388" column at position 289 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "389" column at position 290 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "390" column at position 291 in the NMR_METABOLITE_DATA table has all null values.
+Warning: The "pubchem_id" column at position 2 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "kegg_id" column at position 4 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 7 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.

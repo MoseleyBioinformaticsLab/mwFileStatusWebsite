@@ -1,9 +1,116 @@
 Validation Log
-2025-12-07 04:52:14.458860
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:51:50.958330
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002803/mwtab/txt
 Study ID:      ST001720
 Analysis ID:   AN002803
 File format:   txt
-Status:Parsing Error
-('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t44763\\t1\\tNon controllers (NC=1) or post-treatment controller (PTC=2):1 | Gender:F | Race/ethnicity:Hispanic\\tFollowed for how many days after tretament interuption=453; Days to &gt;50 Copies=40; Days to &gt;1000 Copies=47; Days to two consecutive &gt;1000 Copies=47; Duration of ART (from first ART to ATI) (years)=9.5852; Pre-ATI CD4 cells/mm3=789; Source ACTG study=A5068; Age at start of analytical treatment interuption (ATI) in years=39; Sex=Sex; RAW_FILE_NAME=Abdel-Mohsen_01.raw'", IndexError('list index out of range'))
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 9
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 6
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "Monoisotopic Mass" column at position 4 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 3 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+10                C7 H7 N O4
+15                C7 H7 N O3
+17              C8 H7 N O4 S
+19               C7 H11 N O3
+23                 C5 H5 N O
+26                 C8 H7 N O
+27                C5 H9 N O3
+29                C8 H9 N O4
+31               C9 H13 N O2
+32               C10 H9 N O3
+37                 C9 H7 N O
+49               C6 H11 N O4
+55               C5 H11 N O2
+59                C5 H13 N O
+73              C17 H33 N O4
+75            C18 H38 N O5 P
+79                C4 H9 N O2
+80                C4 H9 N O2
+82               C7 H13 N O2
+83               C8 H17 N O2
+93               C9 H15 N O3
+96                C4 H9 N O2
+99            C21 H44 N O7 P
+100               C2 H5 N O2
+101             C26 H43 N O6
+103             C26 H43 N O5
+106              C7 H11 N O2
+108       [13]C4 H7 [15]N O4
+110       [13]C5 H9 [15]N O4
+113    [13]C5 H11 [15]N O2 S
+114        C2 [13]C4 H9 N O5
+116      [13]C9 H11 [15]N O2
+117       [13]C5 H9 [15]N O2
+118       [13]C3 H7 [15]N O3
+119         [13]C2 H7 N O3 S
+120       [13]C4 H9 [15]N O3
+121      [13]C9 H11 [15]N O3
+122       C7 [13]C2 H11 N O3
+123      [13]C5 H11 [15]N O2
+125              C16 H33 N O
+126             C13 H25 N O4
+127               C9 H9 N O3
+131              C10 H9 N O2
+132             C11 H11 N O3
+133              C11 H9 N O3
+137              C9 H17 N O4
+138               C3 H7 N O2
+142               C4 H7 N O4
+143              C7 H15 N O3
+144            C3 H7 N O5 S2
+147               C5 H9 N O4
+151              C6 H13 N O2
+154              C6 H13 N O2
+156            C5 H11 N O2 S
+157              C9 H11 N O2
+158               C5 H9 N O2
+159               C3 H7 N O3
+160               C4 H9 N O3
+162              C9 H11 N O3
+163              C5 H11 N O2
+166            C5 H11 N O3 S
+167             C11 H11 N O2
+168             C4 H9 N O2 S
+172               C8 H9 N O2
+176              C7 H11 N O5
+177               C5 H9 N O3
+178               C6 H9 N O5
+180                C8 H9 N O
+183              C18 H35 N O
+192              C9 H17 N O5
+196              C6 H11 N O2
+197             C17 H19 N O3
+198             C10 H19 N O4
+199              C10 H15 N O
+201              C8 H11 N O3
+202               C5 H7 N O3
+204               C7 H5 N O4
+206               C3 H7 N O2
+214             C2 H7 N O3 S
+215           C26 H45 N O6 S
+219               C7 H7 N O2
+220                C3 H9 N O
+Warning: The "Pubchem ID" column at position 10 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 9 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB accession" column at position 6 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Chemspider ID" column at position 8 in the METABOLITES table, matches a standard column name, "chemspider_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS Number" column at position 7 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "mzCloud ID" column at position 11 in the METABOLITES table, matches a standard column name, "mzcloud_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Retention times [min]" column at position 5 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Error: The "Polarity" column in the METABOLITES table indicates multiple polarities in a single analysis, and this should not be. A single mwTab file is supposed to be restricted to a single analysis. This means multiple MS runs under different settings should each be in their own file.

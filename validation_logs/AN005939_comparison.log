@@ -1,10 +1,10 @@
 Comparison Log
-2025-12-07 08:50:19.018095
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:43:49.498128
+mwtab Python Library Version: 2.1.1
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005939/mwtab/...
 Study ID:    ST003614
 Analysis ID: AN005939
 Status:      Inconsistent
 
-Sections "MS" contain missmatched items: {('MS_COMMENTS', "The samples were run on the positive mode and the raw data were processed using LipidXplorer. Analysed data was taken relative to the internal standerd for each species and then the lipid abundance was calculated per gram of tissue. NOTE: 0 values indicate that the metabolite wasn't detected, while the NA indicates that the metabolite was detected but wasn't able to be calculated because the internal standard wasn't detected in the individual sample."), ('MS_COMMENTS', 'The samples were run on the positive mode and the raw data were processed using LipidXplorer. Analysed data was taken relative to the internal standerd for each species and then the lipid abundance was calculated per gram of tissue. NOTE: "0" values indicate that the metabolite wasn\'t detected, while the "NA" indicates that the metabolite was detected but wasn\'t able to be calculated because the internal standard wasn\'t detected in the individual sample.')}
-'Data' section of 'MS_METABOLITE_DATA' block do not match.
+Sections "MS" contain missmatched items: {'MS_COMMENTS': ['The samples were run on the positive mode and the raw data were processed using LipidXplorer. Analysed data was taken relative to the internal standerd for each species and then the lipid abundance was calculated per gram of tissue. NOTE: "0" values indicate that the metabolite wasn\'t detected, while the "NA" indicates that the metabolite was detected but wasn\'t able to be calculated because the internal standard wasn\'t detected in the individual sample.', "The samples were run on the positive mode and the raw data were processed using LipidXplorer. Analysed data was taken relative to the internal standerd for each species and then the lipid abundance was calculated per gram of tissue. NOTE: 0 values indicate that the metabolite wasn't detected, while the NA indicates that the metabolite was detected but wasn't able to be calculated because the internal standard wasn't detected in the individual sample."]}
+'Metabolites' section of 'MS_METABOLITE_DATA' block do not match.

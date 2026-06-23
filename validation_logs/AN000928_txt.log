@@ -1,8 +1,32 @@
 Validation Log
-2025-12-07 02:56:41.057185
-mwtab Python Library Version: 1.2.5
+2026-06-21 02:18:10.869988
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000928/mwtab/txt
 Study ID:      ST000607
 Analysis ID:   AN000928
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 13
+
+Number of Warnings: 1
+
+Number of Value Errors: 12
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "PROJECT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "10 weeks and 12-24 months (young & old)", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "~25 g and ~34 g", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "Whole blood", for the subsection, "BLOOD_SERUM_OR_PLASMA", in the "COLLECTION" section should be one of "Blood", "Plasma", or "Serum". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "EXTRACT_CLEANUP", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "10% (~0.5mM)", for the subsection, "STANDARD_CONCENTRATION", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mM']. Ignore this when more complicated descriptions are required.
+Error: The value, "around -178Hz", for the subsection, "OFFSET_FREQUENCY", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm', 'Hz']. Ignore this when more complicated descriptions are required.
+Error: The value, "25°C", for the subsection, "TEMPERATURE", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "CHROMATOGRAPHY".
+Warning: The "KEGG ID" column at position 2 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

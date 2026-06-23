@@ -1,8 +1,199 @@
 Validation Log
-2025-12-07 01:50:43.993096
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:37:36.162711
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000514/mwtab/json
 Study ID:      ST000323
 Analysis ID:   AN000514
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 22
+
+Number of Warnings: 7
+
+Number of Value Errors: 22
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLEPREP_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "3500", in ["MS"]["CAPILLARY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "8 l/min", in ["MS"]["DRY_GAS_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "325", in ["MS"]["DRY_GAS_TEMP"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "120", in ["MS"]["FRAGMENT_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: The value, "325", in ["MS"]["ION_SOURCE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "1000", in ["MS"]["ION_SPRAY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "Pos", in ["MS"]["IONIZATION"] should not be "positive" or "negative". "ION_MODE" is where that should be indicated.
+Error: The value, "11 l/min", in ["MS"]["DESOLVATION_GAS_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "750", in ["MS"]["OCTPOLE_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: The value, "65", in ["MS"]["SKIMMER_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["INSTRUMENT_NAME"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "3500", in ["CHROMATOGRAPHY"]["CAPILLARY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "5 seconds", in ["CHROMATOGRAPHY"]["WEAK_WASH_VOLUME"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "Autosampler temp 4 C", in ["CHROMATOGRAPHY"]["TARGET_SAMPLE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InChI key" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InChI key" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0       C25H49NO4
+1       C25H47NO4
+2        C45H76O2
+3        C45H74O2
+4       C42H83NO3
+5         C27H46O
+6      C24H50NO7P
+7      C26H54NO7P
+8      C26H52NO7P
+9      C40H80NO8P
+10     C40H78NO8P
+11     C41H82NO8P
+12     C41H80NO8P
+13     C41H78NO8P
+14     C42H84NO8P
+15     C42H82NO8P
+16     C42H80NO8P
+17     C40H80NO8P
+18     C43H84NO8P
+19     C43H82NO8P
+20     C43H80NO8P
+21     C44H86NO8P
+22     C44H84NO8P
+23     C44H82NO8P
+24     C44H80NO8P
+25     C44H78NO8P
+26     C45H86NO8P
+27     C45H82NO8P
+28     C46H88NO8P
+29     C46H86NO8P
+30     C46H84NO8P
+31     C46H84NO8P
+32     C46H82NO8P
+33     C46H80NO8P
+34     C48H88NO8P
+35     C48H86NO8P
+36     C48H84NO8P
+37     C48H82NO8P
+38     C48H80NO8P
+39     C41H80NO8P
+40     C42H80NO7P
+42     C50H94NO7P
+43     C41H80NO8P
+44     C43H78NO8P
+45     C43H74NO8P
+46     C41H74NO7P
+47     C43H78NO7P
+48     C43H76NO7P
+49     C45H80NO7P
+50    C37H75N2O6P
+51    C38H77N2O6P
+52    C39H81N2O6P
+53    C39H79N2O6P
+54    C39H77N2O6P
+55    C41H85N2O6P
+56    C41H83N2O6P
+57    C43H89N2O6P
+58    C43H87N2O6P
+59    C45H93N2O6P
+60    C45H91N2O6P
+61    C46H93N2O6P
+62    C47H97N2O6P
+63    C47H95N2O6P
+64    C47H93N2O6P
+65    C49H97N2O6P
+66       C49H94O6
+67       C49H92O6
+68       C51H98O6
+69       C51H96O6
+70       C51H94O6
+71      C52H100O6
+72       C52H98O6
+73      C53H102O6
+74      C53H100O6
+75      C54H102O6
+76      C54H100O6
+77      C55H106O6
+78      C55H104O6
+79       C55H96O6
+80      C56H106O6
+81      C57H108O6
+82       C57H98O6
+83      C59H112O6
+84      C61H116O6
+85      C61H114O6
+Warning: The "Molecular formula" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Molecular formula" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     FNPHNLNTJNMAEE-HSZRJFAPSA-N
+1     IPOLTUVFXFHAHI-SEYXRHQNSA-N
+2     NAACPBBQTFFYQB-LJAITQKLSA-N
+3     FYMCIBHUFSIWCE-WVXFKAQASA-N
+4     ZJVVOYPTFQEGPH-AUTSUKAISA-N
+5     HVYWMOMLDIMFJA-DPAQBDIFSA-N
+6     ASWBNKHCZGQVJV-UHFFFAOYSA-N
+7     IHNKQIMGVNPMTC-RUZDIDTESA-N
+8     YAMUFBLWGFFICM-PTGWMXDISA-N
+9     KILNVBDSWZSGLL-KXQOOQHDSA-N
+10    QIBZFHLFHCIUOT-NPBIGWJUSA-N
+11    SKPMPGXBXHJZPS-LDLOPFEMSA-N
+12    WUSDPFVBZAKNBL-IMZFPPOWSA-N
+13    SBNDHGBVMZMSNL-UESLNCBNSA-N
+14    PZNPLUBHRSSFHT-RRHRGVEJSA-N
+15    WTJKGGKOPKCXLL-VYOBOKEXSA-N
+16    JLPULHDHAOZNQI-ZTIMHPMXSA-N
+17    SSQFWAKSSUYHFV-YVTPCJIFSA-N
+18    VATZLDBYQIOABD-HFWGUVFESA-N
+19    LNGBVAOHJZCRIL-GPDPEMMZSA-N
+20    CWPIHLOOVWJHLK-HEQWELKFSA-N
+21    ATHVAWFAEPLPPQ-VRDBWYNSSA-N
+22    SNKAWJBJQDLSFF-NVKMUCNASA-N
+23    BXRLDROZWDUSGM-ZRYFCQOPSA-N
+24    SMNBWWUNQGASFC-MLQXCARSSA-N
+25    KKRYRHYMXROGPM-SOVKMKKSSA-N
+26    MCZUABDVGPPWPM-HJTCUGKVSA-N
+27    QRPUCJXFPYFTMB-FBFLODOBSA-N
+28    KXXLFCAPKGRXBT-FMJYHZMHSA-N
+29    KJDCENXZHMAYTN-VHWCKNCUSA-N
+30    PSVRFUPOQYJOOZ-QNPWAGBNSA-N
+31    DNYKSJQVBCVGOF-LCKGXUDJSA-N
+32    STHWQCYHQJBDDB-SYONOARRSA-N
+33    PLZBTDKJYHXIEW-DZUXOTHRSA-N
+34    YVFBVKJWPMCQQG-NRICRUJBSA-N
+35    UCKDHIBTSOLZAW-OMGITNNSSA-N
+36    UCQTXWKYRXXLSS-BLDRONNASA-N
+37    BPUROMFCPFGBOT-ZEGPSQTJSA-N
+38    GMBDNBJQWYLJGW-DKFCTBDHSA-N
+43    JQKOHRZNEOQNJE-ZZEZOPTASA-N
+44    ANRKEHNWXKCXDB-BHFWLYLHSA-N
+45    LFGBKOUQHCWBQI-BZGLIJSBSA-N
+50    KYICBZWZQPCUMO-PSALXKTOSA-N
+51    LQINJRUGTUOHGS-YPDYIYJKSA-N
+52    QHZIGNLCLJPLCU-QPPIDDCLSA-N
+53    RWKUXQNLWDTSLO-GWQJGLRPSA-N
+54    YLWSJLLZUHSIEA-CKSUKHGVSA-N
+56    LKQLRGMMMAHREN-YJFXYUILSA-N
+58    AADLTHQNYQJHQV-SVLGDMRNSA-N
+60    FJJANLYCZUNFSE-QVMKKYBKSA-N
+61    SXZWBNWTCVLZJN-ZIHSGIAZSA-N
+63    QEDPUVGSSDPBMD-XTAIVQBESA-N
+64    DACOGJMBYLZYDH-GXJPFUDISA-N
+66    JWVXCFSNEOMSHH-UHFFFAOYSA-N
+67    RSDIQTNCDWUNDP-VHXPQNKSSA-N
+68    PVNIQBQSYATKKL-UHFFFAOYSA-N
+69    FEKLSEFRUGWUOS-DLOIZKPKSA-N
+70    RUOVJPPUXXFZPC-YZEIBMOJSA-N
+71    TTWJTJMWHOYBPQ-ANFMRNGASA-N
+72    VYYGQDOPVVYUKW-UKFBYESTSA-N
+73    QRJMBNGGFSPTQP-UHFFFAOYSA-N
+74    YHMDGPZOSGBQRH-YYSBDVFPSA-N
+75    OZAXLAGNPZMZAD-BOEMPQCLSA-N
+76    NSNSZGBCOIKUBU-SZOKBDNISA-N
+77    SDNYRTVJOFMYIW-OIVUAWODSA-N
+78    NPCZZYKITFKRQZ-RFBIWTDZSA-N
+79    CQZAAIKPSLHIBC-KDJOUNIJSA-N
+80    WWJIBIGWKGFVAQ-JNSYTQKUSA-N
+81    YFFIQXNTTVSKJC-NZEOUKRFSA-N
+82    HBOQXIRUPVQLKX-BBWANDEASA-N
+83    OCYFAHIHWCVZKS-FHSLLVMSSA-N
+84    OWZMHFAFGQCCNI-FBXRAONGSA-N
+85    GXWBCAVCOMAOHT-VMCJOIRWSA-N
+Warning: The "Adducts" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "adduct". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

@@ -1,12 +1,27 @@
 Validation Log
-2025-12-07 04:09:38.866346
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:19:58.538253
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002177/mwtab/json
 Study ID:      ST001308
 Analysis ID:   AN002177
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 8
 
-Error Log:
-SCHEMA: Section "ANALYSIS" does not match the allowed schema. Missing key: 'ANALYSIS_TYPE'
+Number of Warnings: 2
+
+Number of Value Errors: 7
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: An empty value or a null value was detected in ["PROJECT"]["PHONE"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "Not applicable", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The required property, "ANALYSIS_TYPE", in ["ANALYSIS"] is missing.
+Error: The value, "600", in ["NM"]["SPECTROMETER_FREQUENCY"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['MHz']. Ignore this when more complicated descriptions are required.
+Error: The value, "1.3107200", in ["NM"]["ACQUISITION_TIME"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s']. Ignore this when more complicated descriptions are required.
+Error: The value, "2", in ["NM"]["LINE_BROADENING"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['Hz']. Ignore this when more complicated descriptions are required.
+Warning: The "REGNO" column at position 4 in the ["NMR_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mw_regno". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "media_3480 +Ile 10" column at position 21 in the ["NMR_METABOLITE_DATA"]["Data"] table has all null values.

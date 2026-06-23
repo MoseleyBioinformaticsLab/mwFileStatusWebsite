@@ -1,8 +1,177 @@
 Validation Log
-2025-12-07 04:56:42.854321
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:55:53.612864
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002882/mwtab/txt
 Study ID:      ST001775
 Analysis ID:   AN002882
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 16
+
+Number of Warnings: 9
+
+Number of Value Errors: 7
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"12_13-DiHOME"
+	"1_2_3-benzenetriol sulfate (2)"
+	"1_2-dilinoleoyl-GPC (18:2/18:2)"
+	"1_2-dilinoleoyl-GPE (18:2/18:2)*"
+	"1_2-dipalmitoyl-GPC (16:0/16:0)"
+	"1_2-dipalmitoyl-GPE (16:0/16:0)*"
+	"1_5-anhydroglucitol (1_5-AG)"
+	"2_2^-Methylenebis(6-tert-butyl-p-cresol)"
+	"2_3-dihydroxy-5-methylthio-4-pentenoate (DMTPA)*"
+	"2_3-dihydroxyisovalerate"
+	"2_6-dihydroxybenzoic acid"
+	"2_8-quinolinediol sulfate"
+	"2^-deoxycytidine"
+	"2^-deoxyuridine"
+	"2^-O-methylcytidine"
+	"2^-O-methyluridine"
+	"2S_3R-dihydroxybutyrate"
+	"3_4-dihydroxybutyrate"
+	"3_4-methylene heptanoylglycine"
+	"5_6-dihydrothymine"
+	"5_6-dihydrouracil"
+	"5_6-dihydrouridine"
+	"5-methyl-2^-deoxycytidine"
+	"9_10-DiHOME"
+	"adenosine 3^_5^-cyclic monophosphate (cAMP)"
+	"adenosine 5^-diphosphoribose (ADP-ribose)"
+	"adenosine 5^-monophosphate (AMP)"
+	"bilirubin (E_E)*"
+	"bilirubin (E_Z or Z_E)*"
+	"bilirubin (Z_Z)"
+	"ceramide (d16:1/24:1_ d18:1/22:1)*"
+	"ceramide (d18:1/14:0_ d16:1/16:0)*"
+	"ceramide (d18:1/17:0_ d17:1/18:0)*"
+	"ceramide (d18:1/20:0_ d16:1/22:0_ d20:1/18:0)*"
+	"diacylglycerol (14:0/18:1_ 16:0/16:1) [2]*"
+	"diacylglycerol (16:1/18:2 [2]_ 16:0/18:3 [1])*"
+	"glutathione_ oxidized (GSSG)"
+	"glycosyl ceramide (d18:1/20:0_ d16:1/22:0)*"
+	"glycosyl ceramide (d18:1/23:1_ d17:1/24:1)*"
+	"inosine 5^-monophosphate (IMP)"
+	"N(^1)-acetylspermidine"
+	"N1_N12-diacetylspermine"
+	"N2_N2-dimethylguanosine"
+	"N2_N5-diacetylornithine"
+	"N2_N6-diacetyllysine"
+	"N6_N6-dimethyllysine"
+	"N6_N6_N6-trimethyllysine"
+	"N_N_N-trimethyl-5-aminovalerate"
+	"N_N_N-trimethyl-alanylproline betaine (TMAP)"
+	"sphingomyelin (d17:1/14:0_ d16:1/15:0)*"
+	"sphingomyelin (d17:1/16:0_ d18:1/15:0_ d16:1/17:0)*"
+	"sphingomyelin (d18:0/18:0_ d19:0/17:0)*"
+	"sphingomyelin (d18:0/20:0_ d16:0/22:0)*"
+	"sphingomyelin (d18:1/14:0_ d16:1/16:0)*"
+	"sphingomyelin (d18:1/17:0_ d17:1/18:0_ d19:1/16:0)"
+	"sphingomyelin (d18:1/18:1_ d18:2/18:0)"
+	"sphingomyelin (d18:1/19:0_ d19:1/18:0)*"
+	"sphingomyelin (d18:1/20:0_ d16:1/22:0)*"
+	"sphingomyelin (d18:1/20:1_ d18:2/20:0)*"
+	"sphingomyelin (d18:1/20:2_ d18:2/20:1_ d16:1/22:2)*"
+	"sphingomyelin (d18:1/21:0_ d17:1/22:0_ d16:1/23:0)*"
+	"sphingomyelin (d18:1/22:1_ d18:2/22:0_ d16:1/24:1)*"
+	"sphingomyelin (d18:1/22:2_ d18:2/22:1_ d16:1/24:2)*"
+	"sphingomyelin (d18:1/24:1_ d18:2/24:0)*"
+	"sphingomyelin (d18:1/25:0_ d19:0/24:1_ d20:1/23:0_ d19:1/24:0)*"
+	"sphingomyelin (d18:2/14:0_ d18:1/14:1)*"
+	"sphingomyelin (d18:2/16:0_ d18:1/16:1)*"
+	"sphingomyelin (d18:2/21:0_ d16:2/23:0)*"
+	"sphingomyelin (d18:2/23:0_ d18:1/23:1_ d17:1/24:1)*"
+	"sphingomyelin (d18:2/24:1_ d18:1/24:2)*"
+	"trigonelline (N^-methylnicotinate)"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"12,13-DiHOME"
+	"1,2,3-benzenetriol sulfate (2)"
+	"1,2-dilinoleoyl-GPC (18:2/18:2)"
+	"1,2-dilinoleoyl-GPE (18:2/18:2)*"
+	"1,2-dipalmitoyl-GPC (16:0/16:0)"
+	"1,2-dipalmitoyl-GPE (16:0/16:0)*"
+	"1,5-anhydroglucitol (1,5-AG)"
+	"2,2'-Methylenebis(6-tert-butyl-p-cresol)"
+	"2,3-dihydroxy-5-methylthio-4-pentenoate (DMTPA)*"
+	"2,3-dihydroxyisovalerate"
+	"2,6-dihydroxybenzoic acid"
+	"2,8-quinolinediol sulfate"
+	"2'-deoxycytidine"
+	"2'-deoxyuridine"
+	"2'-O-methylcytidine"
+	"2'-O-methyluridine"
+	"2S,3R-dihydroxybutyrate"
+	"3,4-dihydroxybutyrate"
+	"3,4-methylene heptanoylglycine"
+	"5,6-dihydrothymine"
+	"5,6-dihydrouracil"
+	"5,6-dihydrouridine"
+	"5-methyl-2'-deoxycytidine"
+	"9,10-DiHOME"
+	"adenosine 3',5'-cyclic monophosphate (cAMP)"
+	"adenosine 5'-diphosphoribose (ADP-ribose)"
+	"adenosine 5'-monophosphate (AMP)"
+	"bilirubin (E,E)*"
+	"bilirubin (E,Z or Z,E)*"
+	"bilirubin (Z,Z)"
+	"ceramide (d16:1/24:1, d18:1/22:1)*"
+	"ceramide (d18:1/14:0, d16:1/16:0)*"
+	"ceramide (d18:1/17:0, d17:1/18:0)*"
+	"ceramide (d18:1/20:0, d16:1/22:0, d20:1/18:0)*"
+	"diacylglycerol (14:0/18:1, 16:0/16:1) [2]*"
+	"diacylglycerol (16:1/18:2 [2], 16:0/18:3 [1])*"
+	"glutathione, oxidized (GSSG)"
+	"glycosyl ceramide (d18:1/20:0, d16:1/22:0)*"
+	"glycosyl ceramide (d18:1/23:1, d17:1/24:1)*"
+	"inosine 5'-monophosphate (IMP)"
+	"N('1)-acetylspermidine"
+	"N1,N12-diacetylspermine"
+	"N2,N2-dimethylguanosine"
+	"N2,N5-diacetylornithine"
+	"N2,N6-diacetyllysine"
+	"N6,N6-dimethyllysine"
+	"N6,N6,N6-trimethyllysine"
+	"N,N,N-trimethyl-5-aminovalerate"
+	"N,N,N-trimethyl-alanylproline betaine (TMAP)"
+	"sphingomyelin (d17:1/14:0, d16:1/15:0)*"
+	"sphingomyelin (d17:1/16:0, d18:1/15:0, d16:1/17:0)*"
+	"sphingomyelin (d18:0/18:0, d19:0/17:0)*"
+	"sphingomyelin (d18:0/20:0, d16:0/22:0)*"
+	"sphingomyelin (d18:1/14:0, d16:1/16:0)*"
+	"sphingomyelin (d18:1/17:0, d17:1/18:0, d19:1/16:0)"
+	"sphingomyelin (d18:1/18:1, d18:2/18:0)"
+	"sphingomyelin (d18:1/19:0, d19:1/18:0)*"
+	"sphingomyelin (d18:1/20:0, d16:1/22:0)*"
+	"sphingomyelin (d18:1/20:1, d18:2/20:0)*"
+	"sphingomyelin (d18:1/20:2, d18:2/20:1, d16:1/22:2)*"
+	"sphingomyelin (d18:1/21:0, d17:1/22:0, d16:1/23:0)*"
+	"sphingomyelin (d18:1/22:1, d18:2/22:0, d16:1/24:1)*"
+	"sphingomyelin (d18:1/22:2, d18:2/22:1, d16:1/24:2)*"
+	"sphingomyelin (d18:1/24:1, d18:2/24:0)*"
+	"sphingomyelin (d18:1/25:0, d19:0/24:1, d20:1/23:0, d19:1/24:0)*"
+	"sphingomyelin (d18:2/14:0, d18:1/14:1)*"
+	"sphingomyelin (d18:2/16:0, d18:1/16:1)*"
+	"sphingomyelin (d18:2/21:0, d16:2/23:0)*"
+	"sphingomyelin (d18:2/23:0, d18:1/23:1, d17:1/24:1)*"
+	"sphingomyelin (d18:2/24:1, d18:1/24:2)*"
+	"trigonelline (N'-methylnicotinate)"
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.

@@ -1,8 +1,264 @@
 Validation Log
-2025-12-07 05:26:01.205848
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:19:18.159735
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003284/mwtab/json
 Study ID:      ST002016
 Analysis ID:   AN003284
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 5
+
+Number of Warnings: 3
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "30C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Molecular Weight" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+3           C12 H11 Cl O2
+6            C23 H43 N O4
+7             C8 H17 N O3
+11           C15 H27 N O4
+12           C23 H29 N O9
+15           C11 H21 N O5
+16           C17 H19 N O3
+17             C5 H9 N O3
+18      C8 H10 Cl N5 O3 S
+19         C24 H50 N O6 P
+25         C24 H48 N O7 P
+27           C11 H23 N O2
+28           C11 H21 N O2
+29           C12 H25 N O2
+30           C21 H17 N O6
+32             C4 H7 N O2
+33         C28 H50 N O7 P
+34         C25 H52 N O7 P
+35            C20 H39 N O
+36         C26 H50 N O7 P
+42         C26 H52 N O7 P
+43         C21 H44 N O7 P
+45         C24 H50 N O7 P
+47             C5 H7 N O2
+49         C23 H48 N O7 P
+52         C13 H20 Cl N O
+54            C6 H15 N O2
+57            C6 H11 N O4
+58             C6 H9 N O2
+63              C8 H9 N O
+66           C12 H9 Cl O2
+67              C8 H5 N O
+68             C7 H11 N O
+69             C7 H7 N O4
+70             C9 H9 N O4
+72              C5 H5 N O
+73              C9 H7 N O
+75         C23 H44 N O7 P
+76              C2 H6 O S
+77             C6 H15 N O
+80              C4 H9 N S
+82              C8 H7 N O
+86           C13 H27 N O2
+90           C21 H37 N O4
+93            C15 H21 N O
+94           C21 H23 N O2
+97             C4 H9 N O2
+99          C3 H Cl N2 O3
+101           C7 H13 N O3
+102           C7 H15 N O2
+104          C12 H23 N O5
+105            C7 H7 N O3
+106          C21 H39 N O5
+108          C19 H37 N O5
+109          C16 H29 N O4
+111          C10 H13 N O4
+112           C7 H11 N O3
+116          C14 H23 N O4
+119          C15 H13 N O2
+123           C6 H11 N O3
+124            C7 H7 N O3
+126             C6 H7 N O
+142             C9 H7 N O
+143            C10 H9 N S
+148            C8 H9 N O4
+149           C10 H7 N O2
+155            C5 H9 N O3
+156            C5 H11 N O
+158           C10 H9 N O3
+170           C9 H17 N O3
+174             C9 H7 N O
+176          C23 H41 N O4
+177          C17 H31 N O4
+178           C9 H15 N O2
+180        C14 H21 N O5 S
+181             C4 H7 N O
+182           C7 H15 N O2
+183           C9 H17 N O4
+184           C8 H17 N O2
+186          C26 H39 N O4
+188       C9 H21 N O12 P2
+192         C6 H11 N O2 S
+194          C15 H23 N O2
+195          C17 H35 N O2
+196           C9 H13 N O2
+199          C19 H29 N O4
+200            C7 H7 N O2
+202           C8 H13 N O2
+206          C10 H19 N O2
+207          C14 H21 N O4
+208       C10 H12 Cl N O2
+214            C3 H7 N O2
+215           C6 H13 N O2
+221          C17 H25 N O4
+222           C11 H17 N O
+225          C11 H21 N O4
+228            C6 H11 N O
+229          C10 H19 N O3
+232          C12 H11 N O2
+236          C12 H17 N O3
+237      C21 H25 Cl N2 O3
+240            C5 H13 N O
+242          C21 H39 N O4
+244          C16 H25 N O2
+245    C18 H33 Cl N2 O5 S
+246       C12 H14 Cl N O2
+247         C7 H7 Cl2 N O
+261         C12 H13 N O15
+265           C7 H15 N O3
+267          C17 H33 N O4
+270           C18 H25 N O
+274              C Cl2 F2
+275              C H2 Cl2
+279         C7 H15 N O2 S
+289           C17 H21 N O
+291           C7 H13 N O2
+292           C8 H17 N O2
+293           C8 H11 N O2
+294         C8 H11 N O5 S
+296          C15 H17 N O4
+297           C9 H15 N O3
+298          C10 H17 N O3
+300          C12 H21 N O2
+301           C17 H25 N O
+302           C22 H43 N O
+303        C20 H21 F N2 O
+304          C2 H8 N O4 P
+305           C5 H9 Br O2
+308          C17 H21 N O3
+309        C17 H17 N3 O S
+313          C24 H33 F O6
+316           C9 H17 N O2
+323          C12 H21 N O6
+325          C26 H43 N O5
+326          C26 H43 N O6
+331           C7 H11 N O2
+332          C13 H11 N O4
+333          C13 H25 N O4
+334           C8 H15 N O3
+338            C9 H9 N O3
+341         C6 H13 N O2 S
+342           C10 H15 N O
+345       C13 H18 Cl N O2
+346          C13 H25 N O5
+350           C9 H19 N O2
+355           C10 H9 N O2
+356          C11 H11 N O3
+357            C8 H5 N O2
+358            C10 H9 N O
+360        C10 H10 N2 O S
+365          C18 H23 N O2
+367           C6 H13 N O5
+368        C13 H16 Cl N O
+369            C3 H7 N O2
+370        C22 H46 N O7 P
+374          C21 H27 N O4
+375           C12 H25 N O
+376          C19 H37 N O4
+384            C5 H9 N O4
+388          C4 H9 N O5 S
+390           C7 H11 N O2
+394       C16 H20 F N3 O4
+395          C25 H45 N O4
+396           C6 H13 N O2
+398         C5 H11 N O2 S
+399         C5 H11 N O3 S
+400          C15 H29 N O4
+401          C11 H19 N O6
+402           C9 H11 N O2
+403            C5 H9 N O2
+404            C5 H7 N O3
+406            C4 H9 N O3
+408           C9 H11 N O3
+409          C10 H13 N O3
+415          C15 H21 N O4
+419           C21 H27 N O
+425            C7 H7 N O2
+426          C12 H23 N O4
+429          C15 H25 N O3
+435          C17 H19 N O3
+436          C23 H27 N O9
+437          C16 H25 N O3
+438           C14 H29 N O
+439          C19 H39 N O2
+441          C14 H19 N O4
+445         C8 H15 N O4 S
+449           C8 H13 N O5
+463           C7 H11 N O4
+464           C7 H11 N O5
+469             C8 H9 N O
+470           C8 H13 N O3
+472          C16 H25 N O2
+473          C12 H17 N O5
+474            C6 H13 N O
+477          C17 H21 N O2
+480             C5 H9 N O
+481          C13 H17 N O3
+483           C8 H11 N O3
+484        C12 H14 Cl N O
+485          C19 H39 N O3
+486           C15 H31 N O
+488          C13 H25 N O3
+489          C18 H35 N O4
+490          C13 H23 N O6
+492           C18 H35 N O
+503          C18 H21 N O4
+505          C23 H45 N O4
+506           C9 H17 N O5
+507            C8 H9 N O2
+508          C14 H21 N O2
+518             C7 H5 N O
+523           C6 H11 N O2
+526          C17 H19 N O3
+527       C23 H21 F N4 O3
+532        C17 H20 N2 O S
+533           C15 H19 N O
+534          C10 H19 N O4
+537            C5 H7 N O3
+539           C22 H41 N O
+547          C10 H13 N O2
+552         C8 H20 N O6 P
+554         C9 H11 N O2 S
+555          C18 H37 N O2
+556          C18 H35 N O2
+561         C6 H11 N O S2
+564        C26 H45 N O7 S
+571           C16 H23 N O
+572           C8 H15 N O2
+573          C19 H35 N O4
+574           C11 H9 N O2
+577           C9 H21 N O3
+578          C20 H27 N O3
+579            C6 H9 N O3
+581             C3 H9 N O
+582      C12 H31 N O3 Si3
+583           C18 H15 O P
+584           C4 H11 N O3
+586         C8 H11 N O4 S
+592           C5 H11 N O2
+594          C17 H27 N O2
+Warning: The "RT [min]" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

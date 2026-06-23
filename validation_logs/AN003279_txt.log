@@ -1,8 +1,165 @@
 Validation Log
-2025-12-07 05:25:30.383920
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:19:02.996212
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003279/mwtab/txt
 Study ID:      ST002011
 Analysis ID:   AN003279
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 5
+
+Number of Value Errors: 4
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "chemical formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem id" column at position 3 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem id" column at position 3 in the METABOLITES table, matches a standard column name, "pubchem_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+2                    C06907
+3                    C00213
+4      C00186|C00256|C01432
+5                    C00334
+6                    C00065
+7                    C00258
+8                    C00148
+9                    C01384
+10                   C00122
+11                   C00141
+12                   C00183
+13                   C02170
+14                   C00263
+15                   C00253
+16                   C00245
+17                   C01879
+18                   C00408
+19                   C02226
+20                   C00233
+21                   C01157
+22                   C01073
+23                   C00300
+25                   C00123
+26                   C00152
+27                HMDB00746
+28                   C00077
+29     C00149|C00497|C00711
+30                   C00155
+31                   C00147
+32                   C00262
+33                   C00108
+34                   C00568
+35            C00156|C00587
+36                   C00026
+37                   C00064
+38                   C00047
+39                   C00025
+41                   C00073
+43                   C00242
+44                   C00385
+45                   C00135
+46                   C00295
+47                   C00337
+48                   C00956
+49            C00318|C15025
+50                   C00079
+51                   C03722
+52                   C00074
+53                   C00366
+54                   C00314
+55            C00111|C00661
+56                   C00093
+57                   C00437
+58                   C00062
+60                   C00327
+61                   C00438
+62                   C00013
+63                   C00198
+65                   C00137
+66                   C00082
+67                   C00847
+68                   C01005
+69                   C00197
+70            C02727|C12989
+71                   C01717
+72                   C00624
+73            C00158|C00311
+74                   C00629
+75                   C00257
+76     C00078|C00525|C00806
+77                   C02470
+78                   C00767
+79                   C00673
+80                   C00864
+82                   C00140
+83                   C00542
+84                   C00251
+86                   C00117
+90                   C00491
+91                   C00475
+92                   C00120
+96                   C00559
+97                   C03783
+98                   C00085
+99                   C00103
+100                  C00378
+102                  C00212
+103                  C00294
+104                  C00345
+105                  C02494
+106                  C01762
+107    C00281|C05382|C06222
+108                  C03406
+109                  C00170
+110                  C03492
+111           C04256|C00357
+113                  C00239
+114                  C00051
+115                  C00341
+120                  C00364
+121                  C00055
+122                  C00105
+123                  C00360
+132                  C00362
+133                  C00130
+134                  C01134
+135                  C06193
+136                  C00655
+137                  C01103
+141                  C00021
+142                  C00119
+144                  C00112
+145                  C00015
+146               HMDB00619
+147                  C00008
+148                  C00104
+149                  C00504
+150                  C00035
+151                  C00570
+152                  C00061
+153               HMDB00653
+154                  C00460
+156                  C00075
+158                  C00307
+160                  C00002
+161                  C00029
+162                  C00167
+163                  C00498
+164                  C00043
+165                  C00127
+166                  C00003
+167                  C00004
+169                  C00006
+170                  C00005
+171                  C00016
+172                  C05274
+Warning: The "retention index" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "retention index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.

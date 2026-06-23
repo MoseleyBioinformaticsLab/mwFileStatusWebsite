@@ -1,8 +1,139 @@
 Validation Log
-2025-12-07 09:45:20.361963
-mwtab Python Library Version: 1.2.5
+2026-06-21 07:31:16.873217
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006918/mwtab/txt
 Study ID:      ST004167
 Analysis ID:   AN006918
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 6
+
+Number of Warnings: 5
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "45", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "IonFormula" column at position 8 in the METABOLITES table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "IonFormula" column at position 8 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+74     C42 H78 O10 N0 P1
+75     C46 H76 O10 N0 P1
+77     C43 H80 O13 N0 P1
+78     C45 H82 O13 N0 P1
+79     C47 H84 O13 N0 P1
+80     C47 H84 O13 N0 P1
+81     C47 H82 O13 N0 P1
+82     C47 H80 O13 N0 P1
+83     C49 H84 O13 N0 P1
+431     C22 H44 O9 N0 P1
+433     C24 H48 O9 N0 P1
+434     C24 H46 O9 N0 P1
+435     C28 H44 O9 N0 P1
+436    C25 H48 O12 N0 P1
+437    C27 H52 O12 N0 P1
+438    C27 H50 O12 N0 P1
+445     C35 H68 O8 N0 P1
+447     C36 H58 O8 N0 P1
+448     C37 H72 O8 N0 P1
+450     C37 H70 O8 N0 P1
+451     C42 H78 O8 N0 P1
+452     C45 H78 O7 N0 P1
+453     C46 H86 O8 N0 P1
+454     C47 H80 O8 N0 P1
+455     C47 H82 O7 N0 P1
+682     C30 H60 O9 N0 P1
+683    C36 H70 O10 N0 P1
+685    C38 H74 O10 N0 P1
+686    C38 H72 O10 N0 P1
+687    C39 H76 O10 N0 P1
+688    C40 H78 O10 N0 P1
+689    C40 H76 O10 N0 P1
+691    C40 H74 O10 N0 P1
+692    C40 H72 O10 N0 P1
+693    C41 H78 O10 N0 P1
+694    C41 H76 O10 N0 P1
+695    C42 H80 O10 N0 P1
+696    C42 H76 O10 N0 P1
+698    C42 H74 O10 N0 P1
+699    C42 H74 O10 N0 P1
+700    C42 H70 O10 N0 P1
+701    C43 H84 O10 N0 P1
+702    C43 H80 O10 N0 P1
+703    C44 H84 O10 N0 P1
+704    C44 H82 O10 N0 P1
+705    C44 H80 O10 N0 P1
+706    C44 H78 O10 N0 P1
+707    C44 H76 O10 N0 P1
+708    C44 H74 O10 N0 P1
+709    C44 H72 O10 N0 P1
+710    C45 H74 O10 N0 P1
+711    C46 H80 O10 N0 P1
+712    C46 H78 O10 N0 P1
+713    C46 H78 O10 N0 P1
+714    C46 H74 O10 N0 P1
+715    C46 H72 O10 N0 P1
+716    C48 H74 O10 N0 P1
+717    C48 H72 O10 N0 P1
+718    C48 H80 O10 N0 P1
+719    C48 H78 O10 N0 P1
+720    C48 H76 O10 N0 P1
+721    C50 H78 O10 N0 P1
+722    C50 H76 O10 N0 P1
+723    C50 H74 O10 N0 P1
+724    C41 H78 O13 N0 P1
+725    C41 H76 O13 N0 P1
+726    C43 H82 O13 N0 P1
+727    C43 H78 O13 N0 P1
+728    C44 H82 O13 N0 P1
+729    C44 H80 O13 N0 P1
+730    C45 H86 O13 N0 P1
+732    C45 H84 O13 N0 P1
+733    C45 H82 O13 N0 P1
+734    C45 H80 O13 N0 P1
+735    C45 H78 O13 N0 P1
+736    C45 H76 O13 N0 P1
+737    C46 H86 O13 N0 P1
+738    C46 H86 O13 N0 P1
+739    C46 H84 O13 N0 P1
+740    C46 H82 O13 N0 P1
+741    C46 H80 O13 N0 P1
+742    C47 H88 O13 N0 P1
+743    C47 H86 O13 N0 P1
+744    C47 H82 O13 N0 P1
+745    C47 H80 O13 N0 P1
+746    C47 H82 O12 N0 P1
+747    C47 H78 O13 N0 P1
+748    C48 H88 O13 N0 P1
+749    C48 H86 O13 N0 P1
+750    C48 H84 O13 N0 P1
+751    C48 H82 O13 N0 P1
+752    C48 H80 O13 N0 P1
+753    C49 H92 O13 N0 P1
+754    C49 H90 O13 N0 P1
+757    C49 H88 O13 N0 P1
+758    C49 H88 O13 N0 P1
+759    C49 H88 O13 N0 P1
+760    C49 H86 O13 N0 P1
+761    C49 H86 O13 N0 P1
+762    C49 H82 O13 N0 P1
+763    C49 H82 O13 N0 P1
+764    C49 H80 O13 N0 P1
+765    C49 H78 O12 N0 P1
+767    C51 H96 O13 N0 P1
+768    C51 H94 O13 N0 P1
+769    C51 H88 O13 N0 P1
+770    C51 H86 O13 N0 P1
+771    C31 H59 O15 N0 P2
+772    C49 H81 O15 N0 P2
+773    C51 H85 O15 N0 P2
+774    C44 H84 O19 N0 P3
+775    C45 H82 O19 N0 P3
+776    C46 H88 O18 N0 P3
+778    C46 H86 O18 N0 P3
+Warning: The "RT-(min)" column at position 10 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "FA3" column at position 6 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "FA4" column at position 7 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

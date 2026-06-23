@@ -1,8 +1,82 @@
 Validation Log
-2025-12-07 09:27:38.082905
-mwtab Python Library Version: 1.2.5
+2026-06-21 07:14:25.524978
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006531/mwtab/txt
 Study ID:      ST003970
 Analysis ID:   AN006531
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 5
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_A", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "SOLVENT_B", in the "CHROMATOGRAPHY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: Unknown or invalid section, "FACTORS".
+Warning: The "feature (m/z@RT)" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "feature (m/z@RT)" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                     259.1294@10.018
+1                      249.1337@7.825
+2                     349.1311@11.603
+3                      234.1273@7.663
+4                     320.1216@10.657
+5                     243.1171@13.696
+6                     445.1474@13.394
+7                     301.2542@14.853
+8                     315.2684@16.257
+9                     313.2462@17.817
+10                    325.2619@17.424
+11                    357.3182@21.279
+12                    356.2953@20.791
+13                    356.3055@20.911
+14                    353.2858@20.665
+15                    356.2953@20.776
+16                    385.3496@25.159
+17                    383.3340@24.630
+18                    381.3183@24.514
+19                    379.3079@24.096
+20                    378.2888@23.674
+21                    375.2714@23.785
+22                    406.3127@27.291
+23                    403.3027@27.367
+24                    401.2855@27.125
+25                    313.2935@16.549
+26                    369.3423@26.245
+27                    276.1345@10.712
+28                     Cysteine, 3TMS
+29                    409.1727@11.467
+30                     262.1413@9.042
+31                    467.2119@15.638
+32    568.267@17.072 + 568.267@17.545
+33                    277.1281@11.034
+34                       307.12@9.414
+35                     293.1402@8.976
+36                     448.137@13.837
+37                     568.267@16.403
+38                     568.267@16.453
+39                     568.267@16.771
+40                    480.2417@14.854
+41                     480.2417@15.07
+42                    188.1045@16.121
+43                    226.2157@16.131
+44                     235.0816@7.699
+45                    314.1374@10.541
+46                     613.1518@8.951
+47                     196.0788@9.219
+48                    345.1708@17.138
+49                    409.1727@11.588
+50                     257.1062@9.434
+51                      205.1187@8.51
+Warning: The "KEGG COMPOUND ID" column at position 2 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT" column at position 5 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT" column at position 5 in the METABOLITES table, matches a standard column name, "retention_time", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+28    Cysteine, 3TMS

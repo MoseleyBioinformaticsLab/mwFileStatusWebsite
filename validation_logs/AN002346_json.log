@@ -1,8 +1,160 @@
 Validation Log
-2025-12-07 04:19:41.238825
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:28:33.675585
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002346/mwtab/json
 Study ID:      ST001404
 Analysis ID:   AN002346
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 21
+
+Number of Warnings: 11
+
+Number of Value Errors: 13
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The value, "0-18 years old", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"12_13-DiHOME"
+	"1_2-dilinoleoyl-GPC (18:2/18:2)"
+	"1_2-dioleoyl-GPC (18:1/18:1)*"
+	"1_2-dioleoyl-GPE (18:1/18:1)"
+	"1_2-dioleoyl-GPG (18:1/18:1)"
+	"1_2-dipalmitoyl-GPC (16:0/16:0)"
+	"1_5-anhydroglucitol (1_5-AG)"
+	"2^-deoxyadenosine 3^-monophosphate"
+	"2^-deoxyadenosine 5^-monophosphate"
+	"2^-deoxyguanosine"
+	"2^-deoxyinosine"
+	"2^-deoxyuridine"
+	"3^-dephosphocoenzyme A"
+	"4-androsten-3beta_17beta-diol disulfate (1)"
+	"4-androsten-3beta_17beta-diol disulfate (2)"
+	"4-androsten-3beta_17beta-diol monosulfate (1)"
+	"5_6-DiHETrE"
+	"5alpha-pregn-3beta_20alpha-diol disulfate"
+	"8_9-DiHETrE"
+	"9_10-DiHOME"
+	"adenosine 2^-monophosphate (2^-AMP)"
+	"adenosine 3^_5^-cyclic monophosphate (cAMP)"
+	"adenosine 3^_5^-diphosphate"
+	"adenosine 3^-monophosphate (3^-AMP)"
+	"adenosine 5^-diphosphate (ADP)"
+	"adenosine 5^-diphosphoribose (ADP-ribose)"
+	"adenosine 5^-monophosphate (AMP)"
+	"bilirubin (Z_Z)"
+	"cytidine 3^-monophosphate (3^-CMP)"
+	"cytidine 5^-diphosphocholine"
+	"cytidine-5^-diphosphoethanolamine"
+	"cytidine 5^-monophosphate (5^-CMP)"
+	"glutamate_ gamma-methyl ester"
+	"glutathione_ oxidized (GSSG)"
+	"glutathione_ reduced (GSH)"
+	"guanosine 2^-monophosphate (2^-GMP)*"
+	"guanosine 3^-monophosphate (3^-GMP)"
+	"inosine 5^-monophosphate (IMP)"
+	"Isobar: fructose 1_6-diphosphate_ glucose 1_6-diphosphate_ myo-inositol 1_4 or 1_3-diphosphate"
+	"myo-inositol diphosphate (1_4 or 1_3)"
+	"N1_N12-diacetylspermine"
+	"N2_N2-dimethylguanosine"
+	"N2_N5-diacetylornithine"
+	"N6_N6_N6-trimethyllysine"
+	"sphingomyelin (d18:1/14:0_ d16:1/16:0)*"
+	"sphingomyelin (d18:1/15:0_ d16:1/17:0)*"
+	"sphingomyelin (d18:1/17:0_ d17:1/18:0_ d19:1/16:0)"
+	"sphingomyelin (d18:1/18:1_ d18:2/18:0)"
+	"sphingomyelin (d18:1/20:0_ d16:1/22:0)*"
+	"sphingomyelin (d18:1/20:1_ d18:2/20:0)*"
+	"sphingomyelin (d18:1/21:0_ d17:1/22:0_ d16:1/23:0)*"
+	"sphingomyelin (d18:1/22:1_ d18:2/22:0_ d16:1/24:1)*"
+	"sphingomyelin (d18:1/24:1_ d18:2/24:0)*"
+	"sphingomyelin (d18:2/16:0_ d18:1/16:1)*"
+	"sphingomyelin (d18:2/23:0_ d18:1/23:1_ d17:1/24:1)*"
+	"sphingomyelin (d18:2/24:1_ d18:1/24:2)*"
+	"trigonelline (N^-methylnicotite)"
+	"uridine 2^-monophosphate (2^-UMP)*"
+	"uridine 3^-monophosphate (3^-UMP)"
+	"uridine 5^-monophosphate (UMP)"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"12,13-DiHOME"
+	"1,2-dilinoleoyl-GPC (18:2/18:2)"
+	"1,2-dioleoyl-GPC (18:1/18:1)*"
+	"1,2-dioleoyl-GPE (18:1/18:1)"
+	"1,2-dioleoyl-GPG (18:1/18:1)"
+	"1,2-dipalmitoyl-GPC (16:0/16:0)"
+	"1,5-anhydroglucitol (1,5-AG)"
+	"2'-deoxyadenosine 3'-monophosphate"
+	"2'-deoxyadenosine 5'-monophosphate"
+	"2'-deoxyguanosine"
+	"2'-deoxyinosine"
+	"2'-deoxyuridine"
+	"3'-dephosphocoenzyme A"
+	"4-androsten-3beta,17beta-diol disulfate (1)"
+	"4-androsten-3beta,17beta-diol disulfate (2)"
+	"4-androsten-3beta,17beta-diol monosulfate (1)"
+	"5,6-DiHETrE"
+	"5alpha-pregn-3beta,20alpha-diol disulfate"
+	"8,9-DiHETrE"
+	"9,10-DiHOME"
+	"adenosine 2'-monophosphate (2'-AMP)"
+	"adenosine 3',5'-cyclic monophosphate (cAMP)"
+	"adenosine 3',5'-diphosphate"
+	"adenosine 3'-monophosphate (3'-AMP)"
+	"adenosine 5'-diphosphate (ADP)"
+	"adenosine 5'-diphosphoribose (ADP-ribose)"
+	"adenosine 5'-monophosphate (AMP)"
+	"bilirubin (Z,Z)"
+	"cytidine 3'-monophosphate (3'-CMP)"
+	"cytidine 5'-diphosphocholine"
+	"cytidine-5'-diphosphoethanolamine"
+	"cytidine 5'-monophosphate (5'-CMP)"
+	"glutamate, gamma-methyl ester"
+	"glutathione, oxidized (GSSG)"
+	"glutathione, reduced (GSH)"
+	"guanosine 2'-monophosphate (2'-GMP)*"
+	"guanosine 3'-monophosphate (3'-GMP)"
+	"inosine 5'-monophosphate (IMP)"
+	"Isobar: fructose 1,6-diphosphate, glucose 1,6-diphosphate, myo-inositol 1,4 or 1,3-diphosphate"
+	"myo-inositol diphosphate (1,4 or 1,3)"
+	"N1,N12-diacetylspermine"
+	"N2,N2-dimethylguanosine"
+	"N2,N5-diacetylornithine"
+	"N6,N6,N6-trimethyllysine"
+	"sphingomyelin (d18:1/14:0, d16:1/16:0)*"
+	"sphingomyelin (d18:1/15:0, d16:1/17:0)*"
+	"sphingomyelin (d18:1/17:0, d17:1/18:0, d19:1/16:0)"
+	"sphingomyelin (d18:1/18:1, d18:2/18:0)"
+	"sphingomyelin (d18:1/20:0, d16:1/22:0)*"
+	"sphingomyelin (d18:1/20:1, d18:2/20:0)*"
+	"sphingomyelin (d18:1/21:0, d17:1/22:0, d16:1/23:0)*"
+	"sphingomyelin (d18:1/22:1, d18:2/22:0, d16:1/24:1)*"
+	"sphingomyelin (d18:1/24:1, d18:2/24:0)*"
+	"sphingomyelin (d18:2/16:0, d18:1/16:1)*"
+	"sphingomyelin (d18:2/23:0, d18:1/23:1, d17:1/24:1)*"
+	"sphingomyelin (d18:2/24:1, d18:1/24:2)*"
+	"trigonelline (N'-methylnicotite)"
+	"uridine 2'-monophosphate (2'-UMP)*"
+	"uridine 3'-monophosphate (3'-UMP)"
+	"uridine 5'-monophosphate (UMP)"
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "pubchem_id" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "moverz_quant" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

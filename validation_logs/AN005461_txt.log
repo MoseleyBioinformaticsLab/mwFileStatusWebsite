@@ -1,8 +1,84 @@
 Validation Log
-2025-12-07 08:13:56.091807
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:20:37.339094
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005461/mwtab/txt
 Study ID:      ST003333
 Analysis ID:   AN005461
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 6
+
+Number of Warnings: 4
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "25", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 4 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Calc. MW" column at position 3 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1             C8 H7 N O4 S
+2             C8 H9 N O5 S
+3               C9 H9 N O3
+12            C16 H17 N O8
+15           C9 H15 N O5 S
+25          C17 H20 N2 O S
+38              C9 H9 N O4
+41               C8 H9 N O
+45          C26 H43 N O8 S
+52            C10 H19 N O3
+53              C8 H9 N O4
+55            C10 H17 N O3
+66              C2 H F3 O2
+70              C7 H7 N O4
+74            C12 H17 N O3
+78             C6 H11 N O3
+81            C12 H13 N O5
+83           C8 H11 N O5 S
+85         C25 H27 F N4 O3
+99           C9 H11 N O6 S
+100            C9 H17 N O5
+101           C14 H15 N O8
+106         C10 H13 N O6 S
+107           C10 H11 N O5
+112          C15 H17 N O10
+113           C26 H41 N O5
+115           C12 H13 N O3
+120          C8 H15 N O4 S
+123           C8 H9 N O6 S
+138            C9 H15 N O3
+150         C21 H22 F N5 O
+161          C11 H15 N O10
+165           C15 H15 N O8
+173          C8 H11 N O4 S
+174         C19 H14 N4 O S
+180           C15 H17 N O8
+181        C24 H25 F N4 O2
+186           C14 H17 N O8
+193          C8 H11 N O5 S
+194         C27 H29 F N4 O
+204          C16 H19 Br N2
+205         C9 H8 Cl N3 O2
+211            C7 H13 N O3
+215            C9 H13 N O5
+222       C13 H12 Cl N3 O2
+225             C6 H9 N O5
+231            C10 H7 N O4
+236           C14 H21 N O3
+244          C14 H15 Cl N4
+245          C5 H11 N O5 S
+248           C11 H13 N O4
+252           C26 H43 N O5
+253          C28 H33 Cl N2
+261             C7 H9 N O2
+271    C13 H19 Cl N2 O5 S2
+274        C30 H31 F N4 O3
+276        C12 H10 Cl N3 O
+278           C15 H19 Br O
+283           C8 H6 Cl I O
+Warning: The "RT [min]" column at position 5 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

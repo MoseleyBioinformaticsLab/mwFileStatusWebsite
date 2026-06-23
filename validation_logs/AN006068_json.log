@@ -1,8 +1,23 @@
 Validation Log
-2025-12-07 08:57:36.612348
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:49:39.771588
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006068/mwtab/json
 Study ID:      ST003698
 Analysis ID:   AN006068
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 4
+
+Number of Warnings: 0
+
+Number of Value Errors: 4
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Average 25g", in ["SUBJECT"]["WEIGHT_OR_WEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "256 scans", in ["NM"]["NUMBER_OF_SCANS"] should be a unitless number. Ignore this when more complicated descriptions are required.
+Error: The value, "7,002.8 Hz", in ["NM"]["SPECTRAL_WIDTH"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm', 'Hz']. Ignore this when more complicated descriptions are required.
+Error: The value, "32 k points", in ["NM"]["NUM_DATA_POINTS_ACQUIRED"] should be a unitless number. Ignore this when more complicated descriptions are required.

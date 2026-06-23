@@ -1,11 +1,12 @@
 Comparison Log
-2025-12-07 08:01:36.982877
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:10:35.019713
+mwtab Python Library Version: 2.1.1
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005282/mwtab/...
 Study ID:    ST003221
 Analysis ID: AN005282
 Status:      Inconsistent
 
-Sections "STUDY" contain missmatched items: {('INSTITUTE', "Cincinnati Children's Hospital Medical Center"), ('INSTITUTE', "Cincinnati Children''s Hospital Medical Center")}
-Sections "PROJECT" contain missmatched items: {('INSTITUTE', "Cincinnati Children's Hospital Medical Center"), ('INSTITUTE', "Cincinnati Children''s Hospital Medical Center")}
-'Metabolite'
+mwTab files contain different blocks: "{'FACTORS'}"
+Sections "STUDY" contain missmatched items: {'INSTITUTE': ["Cincinnati Children's Hospital Medical Center", "Cincinnati Children''s Hospital Medical Center"]}
+Sections "PROJECT" contain missmatched items: {'INSTITUTE': ["Cincinnati Children's Hospital Medical Center", "Cincinnati Children''s Hospital Medical Center"]}
+'Metabolites' section of 'NMR_METABOLITE_DATA' block do not match.

@@ -1,8 +1,121 @@
 Validation Log
-2025-12-07 01:25:03.571420
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:20:01.973635
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000246/mwtab/json
 Study ID:      ST000154
 Analysis ID:   AN000246
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 20
+
+Number of Warnings: 9
+
+Number of Value Errors: 13
+
+Number of Consistency Errors: 1
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected in ["STUDY"]["PHONE"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["COLLECTION"]["COLLECTION_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLEPREP_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"Asparagine_1"
+	"Asparagine_2"
+	"Asparagine_3"
+	"Cysteine_1"
+	"Cysteine_2"
+	"Cysteine_3"
+	"Glutamine_1"
+	"Glutamine_2"
+	"Glutamine_3"
+	"Glycine_1"
+	"Glycine_2"
+	"Isoleucine_1"
+	"Isoleucine_2"
+	"Isoleucine_3"
+	"Leucine_1"
+	"Leucine_2"
+	"Leucine_3"
+	"Lysine_1"
+	"Lysine_2"
+	"Lysine_3"
+	"Methionine_1"
+	"Methionine_2"
+	"Methionine_3"
+	"Phenylalanine_1"
+	"Phenylalanine_2"
+	"Phenylalanine_3"
+	"Proline_1"
+	"Proline_2"
+	"Serine_1"
+	"Serine_2"
+	"Serine_3"
+	"Threonine_1"
+	"Threonine_2"
+	"Threonine_3"
+	"Tryptophan_1"
+	"Tryptophan_2"
+	"Tryptophan_3"
+	"Tryptophan_4"
+	"Valine_1"
+	"Valine_2"
+	"Valine_3"
+Warning: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table appear more than once in the table:
+	"Asparagine"
+	"Asparagine"
+	"Asparagine"
+	"Cysteine"
+	"Cysteine"
+	"Cysteine"
+	"Glutamine"
+	"Glutamine"
+	"Glutamine"
+	"Glycine"
+	"Glycine"
+	"Isoleucine"
+	"Isoleucine"
+	"Isoleucine"
+	"Leucine"
+	"Leucine"
+	"Leucine"
+	"Lysine"
+	"Lysine"
+	"Lysine"
+	"Methionine"
+	"Methionine"
+	"Methionine"
+	"Phenylalanine"
+	"Phenylalanine"
+	"Phenylalanine"
+	"Proline"
+	"Proline"
+	"Serine"
+	"Serine"
+	"Serine"
+	"Threonine"
+	"Threonine"
+	"Threonine"
+	"Tryptophan"
+	"Tryptophan"
+	"Tryptophan"
+	"Tryptophan"
+	"Valine"
+	"Valine"
+	"Valine"
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "moverz_quant" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

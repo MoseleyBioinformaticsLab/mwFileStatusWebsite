@@ -1,8 +1,74 @@
 Validation Log
-2025-12-07 01:18:50.114550
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:15:24.638827
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000141/mwtab/json
 Study ID:      ST000089
 Analysis ID:   AN000141
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 49
+
+Number of Warnings: 32
+
+Number of Value Errors: 46
+
+Number of Consistency Errors: 1
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected in ["COLLECTION"]["COLLECTION_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLEPREP_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "3500", in ["MS"]["CAPILLARY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "8 l/min", in ["MS"]["DRY_GAS_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "325", in ["MS"]["DRY_GAS_TEMP"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "120", in ["MS"]["FRAGMENT_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: The value, "325", in ["MS"]["ION_SOURCE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "1000", in ["MS"]["ION_SPRAY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "Pos", in ["MS"]["IONIZATION"] should not be "positive" or "negative". "ION_MODE" is where that should be indicated.
+Error: The value, "11 l/min", in ["MS"]["DESOLVATION_GAS_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "750", in ["MS"]["OCTPOLE_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: The value, "65", in ["MS"]["SKIMMER_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V']. Ignore this when more complicated descriptions are required.
+Error: The value, "3500", in ["CHROMATOGRAPHY"]["CAPILLARY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "5 seconds", in ["CHROMATOGRAPHY"]["WEAK_WASH_VOLUME"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "Autosampler temp 4 C", in ["CHROMATOGRAPHY"]["TARGET_SAMPLE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"1-hexadecyl-2-(8Z_11Z_14Z-eicosatrienoyl)-sn-glycero-3-phosphocholine"
+	"1-hexadecyl-2-(8Z,11Z,14Z-eicosatrienoyl)-sn-glycero-3-phosphocholine_2"
+Warning: The following metabolites in the ["MS_METABOLITE_DATA"]["Data"] table appear more than once in the table:
+	"Ceramide (d18:1/23:0)"
+	"TG (52:5)"
+Warning: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table appear more than once in the table:
+	"Ceramide (d18:1/23:0)"
+	"TG (52:5)"
+Warning: The "ri" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "S17C" column at position 17 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S19C" column at position 18 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S20C" column at position 19 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S23C" column at position 20 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S24C" column at position 21 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S25C" column at position 22 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S26C" column at position 23 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S17A" column at position 24 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S19A" column at position 25 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S20A" column at position 26 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S23A" column at position 27 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S24A" column at position 28 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S25A" column at position 29 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S26A" column at position 30 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S17B" column at position 31 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S19B" column at position 32 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S20B" column at position 33 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S23B" column at position 34 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S24B" column at position 35 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S25B" column at position 36 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "S26B" column at position 37 in the ["MS_METABOLITE_DATA"]["Data"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "inchi_key" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "kegg_id" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "pubchem_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

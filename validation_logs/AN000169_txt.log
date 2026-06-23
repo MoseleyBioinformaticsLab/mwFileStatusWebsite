@@ -1,14 +1,37 @@
 Validation Log
-2025-12-07 01:20:47.698830
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:16:55.945509
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000169/mwtab/txt
 Study ID:      ST000102
 Analysis ID:   AN000169
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 3
+Status: Contains Validation Issues
+Number of Issues: 18
 
-Error Log:
-SCHEMA: Section "PROJECT" does not match the allowed schema. Missing keys: 'ADDRESS', 'PHONE'
-SCHEMA: Section "STUDY" does not match the allowed schema. Missing keys: 'ADDRESS', 'PHONE'
-SCHEMA: Section "SAMPLEPREP" does not match the allowed schema. Missing key: 'SAMPLEPREP_SUMMARY'
+Number of Warnings: 7
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 6
+
+Issue Log:
+Error: The required property, "ADDRESS", in the "PROJECT" section  is missing.
+Error: The required property, "PHONE", in the "PROJECT" section  is missing.
+Error: The required property, "ADDRESS", in the "STUDY" section  is missing.
+Error: The required property, "PHONE", in the "STUDY" section  is missing.
+Error: The value, "5-7 day-old adults (mated)", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "0.17-0.77mg", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "NA", for the subsection, "HEIGHT_OR_HEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['cm', 'in']. Ignore this when more complicated descriptions are required.
+Error: The value, "3h", for the subsection, "TREATMENT_DOSEDURATION", in the "TREATMENT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['h', 'weeks', 'days']. Ignore this when more complicated descriptions are required.
+Error: The required property, "SAMPLEPREP_SUMMARY", in the "SAMPLEPREP" section  is missing.
+Error: The value, "1 mM TMSP", for the subsection, "STANDARD_CONCENTRATION", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mM']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "CHROMATOGRAPHY".
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 7 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.

@@ -1,8 +1,30 @@
 Validation Log
-2025-12-07 03:47:36.632615
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:02:08.119685
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001802/mwtab/txt
 Study ID:      ST001108
 Analysis ID:   AN001802
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 11
+
+Number of Warnings: 1
+
+Number of Value Errors: 10
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "PROJECT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "Gestational days 125-birth", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "2824.2", for the subsection, "OFFSET_FREQUENCY", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm', 'Hz']. Ignore this when more complicated descriptions are required.
+Error: The value, "6.41E-05", for the subsection, "PRESATURATION_POWER_LEVEL", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['W', 'dB']. Ignore this when more complicated descriptions are required.
+Error: The value, "4C", for the subsection, "TEMPERATURE", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.
+Error: The value, "1.8173", for the subsection, "ACQUISITION_TIME", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s']. Ignore this when more complicated descriptions are required.
+Error: The value, "4 sec", for the subsection, "RELAXATION_DELAY", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s', 'ms', 'us', 'μs']. Ignore this when more complicated descriptions are required.
+Error: The value, "1", for the subsection, "LINE_BROADENING", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['Hz']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "CHROMATOGRAPHY".
+Warning: The "KEGG ID" column at position 2 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

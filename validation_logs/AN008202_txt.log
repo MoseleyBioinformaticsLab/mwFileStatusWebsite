@@ -1,0 +1,155 @@
+Validation Log
+2026-06-21 08:20:18.974273
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008202/mwtab/txt
+Study ID:      ST004846
+Analysis ID:   AN008202
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 14
+
+Number of Warnings: 7
+
+Number of Value Errors: 12
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "21 days old", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "600uL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "30", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "2uL", for the subsection, "SAMPLE_INJECTION", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "15min", for the subsection, "ANALYTICAL_TIME", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['min']. Ignore this when more complicated descriptions are required.
+Error: The value, "4", for the subsection, "TARGET_SAMPLE_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "medMz" column at position 5 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "parent" column at position 13 in the METABOLITES table, matches a standard column name, "parent_moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "parent" column at position 13 in the METABOLITES table, matches a standard column name, "parent_moverz_quant", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0       88,040474
+1      101,024422
+2      102,019592
+3      103,040047
+4      104,035316
+5      107,050301
+6      111,020157
+7       115,00383
+8      116,071793
+9       117,01947
+10     118,050972
+11     119,050186
+12     121,029472
+13     122,024666
+14     123,045197
+15     124,007492
+16     125,035835
+17     128,035309
+18     129,019501
+19     129,055725
+20     130,050903
+21     130,062302
+22     130,087341
+23     131,035126
+24     131,046143
+25     131,082794
+26     132,030289
+27     133,014496
+28     134,047409
+29     135,031296
+30     135,045105
+31     136,040237
+32     137,024414
+33     137,024399
+34     144,066559
+35     145,014481
+36     145,050751
+37      145,06189
+38     145,098465
+39     146,045975
+40     146,045914
+41      148,04393
+42     150,042114
+43     151,026245
+44     151,061386
+45     154,062454
+46     155,009842
+47     157,025406
+48     157,036896
+49     159,066376
+50     161,045639
+51     161,093445
+52      162,02327
+53     163,040237
+54     163,061417
+55     164,072052
+56     166,050858
+57     167,021271
+58     167,035126
+59      172,04071
+60     172,097839
+61     173,056671
+62     173,104355
+63     174,040955
+64      174,05603
+65      174,08847
+66     176,038895
+67     178,050873
+68     179,035141
+69     180,066559
+70     181,071991
+71     181,072113
+72     182,045776
+73     187,097656
+74     187,108963
+75      187,13414
+76     189,088058
+77     190,050919
+78     190,054642
+79     193,035202
+80     193,050751
+81     193,071457
+82     195,051285
+83     202,050995
+84     203,082626
+85     204,031525
+86     206,082123
+87     215,165497
+88     219,077835
+89     220,082764
+90     225,099609
+91     226,083786
+92      227,06778
+93      241,08345
+94     242,078278
+95     243,062454
+96     245,093521
+97     253,217514
+98     255,233215
+99     267,073578
+100    281,248566
+101     282,08432
+102    283,068451
+103    299,201874
+104    304,034271
+105     311,29599
+106    322,044739
+107    323,029175
+108    328,045532
+109    341,109314
+110     344,04007
+111    345,209869
+112    346,055847
+113    359,186096
+114    361,202667
+115    375,290863
+116    391,285553
+117    407,280945
+118    464,301971
+119    482,294708
+120    503,163055
+121    665,215332
+Warning: The "compoundId" column at position 9 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "medRt" column at position 6 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "compoundId" was found in the METABOLITES table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "compoundId". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.

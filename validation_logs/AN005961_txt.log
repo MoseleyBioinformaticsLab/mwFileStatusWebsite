@@ -1,8 +1,72 @@
 Validation Log
-2025-12-07 08:51:13.498952
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:44:36.133993
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005961/mwtab/txt
 Study ID:      ST003629
 Analysis ID:   AN005961
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 3
+
+Number of Warnings: 1
+
+Number of Value Errors: 3
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "300uL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "50", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Formula" column at position 5 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+68         C24 H46 O9 N0 P1
+69        C27 H52 O12 N0 P1
+70        C29 H48 O12 N0 P1
+432       C40 H76 O10 N0 P1
+433       C40 H74 O10 N0 P1
+434       C42 H78 O10 N0 P1
+435       C42 H74 O10 N0 P1
+436       C40 H74 O10 N0 P1
+437       C41 H78 O10 N0 P1
+438       C42 H80 O10 N0 P1
+439       C42 H78 O10 N0 P1
+440       C44 H82 O10 N0 P1
+441       C42 H78 O10 N0 P1
+442       C42 H76 O10 N0 P1
+443       C44 H80 O10 N0 P1
+444       C44 H78 O10 N0 P1
+445       C46 H80 O10 N0 P1
+446       C46 H76 O10 N0 P1
+447    C39 H67 O10 N0 P1 D7
+448       C42 H74 O10 N0 P1
+449       C41 H78 O10 N0 P1
+450       C44 H82 O10 N0 P1
+451       C46 H80 O10 N0 P1
+452       C44 H76 O10 N0 P1
+453       C46 H80 O10 N0 P1
+454       C43 H80 O13 N0 P1
+455       C43 H78 O13 N0 P1
+456       C45 H80 O13 N0 P1
+457       C45 H78 O13 N0 P1
+458       C46 H80 O13 N0 P1
+459       C45 H84 O13 N0 P1
+460       C45 H82 O13 N0 P1
+461       C47 H86 O13 N0 P1
+462       C47 H84 O13 N0 P1
+463       C47 H82 O13 N0 P1
+464       C47 H80 O13 N0 P1
+465       C49 H88 O13 N0 P1
+466       C49 H86 O13 N0 P1
+467       C49 H84 O13 N0 P1
+468       C49 H82 O13 N0 P1
+469       C47 H84 O12 N0 P1
+470       C45 H82 O13 N0 P1
+471       C45 H80 O13 N0 P1
+472       C47 H84 O13 N0 P1
+473       C47 H82 O13 N0 P1
+474       C47 H80 O13 N0 P1
+475    C42 H71 O13 N0 P1 D7
+476       C47 H82 O12 N0 P1
+477       C49 H84 O13 N0 P1
+478       C49 H82 O13 N0 P1

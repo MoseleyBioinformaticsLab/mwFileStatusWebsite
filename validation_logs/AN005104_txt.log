@@ -1,8 +1,204 @@
 Validation Log
-2025-12-07 07:50:18.854106
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:00:44.322497
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005104/mwtab/txt
 Study ID:      ST003114
 Analysis ID:   AN005104
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 65
+
+Number of Warnings: 43
+
+Number of Value Errors: 65
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 3 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 8 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 10 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 14 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 25 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 26 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 27 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 28 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 29 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 30 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 31 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 32 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 33 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 34 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 35 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 36 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 37 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 38 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 39 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the "RAW_FILE_NAME" in "Additional sample data" in entry 40 of the "SUBJECT_SAMPLE_FACTORS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "0.4 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "50", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: SUBJECT_SAMPLE_FACTORS entry #1 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #2 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #3 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #4 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #5 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #6 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #7 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #8 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #9 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #10 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #11 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #12 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #13 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #14 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #15 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #16 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #17 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #18 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #19 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #20 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #21 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #22 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #23 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #24 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #25 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #26 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #27 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #28 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #29 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #30 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #31 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #32 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #33 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #34 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #35 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #36 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #37 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #38 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #39 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: SUBJECT_SAMPLE_FACTORS entry #40 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The "Q1 Mass (Da)" column at position 2 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Q3 Mass (Da)" column at position 3 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT (min)" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

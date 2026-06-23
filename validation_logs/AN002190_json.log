@@ -1,12 +1,33 @@
 Validation Log
-2025-12-07 04:10:18.850183
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:20:35.612378
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002190/mwtab/json
 Study ID:      ST001315
 Analysis ID:   AN002190
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 13
 
-Error Log:
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {''} found in MS_METABOLITE_DATA section.
+Number of Warnings: 6
+
+Number of Value Errors: 7
+
+Number of Consistency Errors: 1
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Error: SUBJECT_SAMPLE_FACTORS section missing sample ID(s). The following IDs were found in the ["MS_METABOLITE_DATA"]["Data"] section but not in the SUBJECT_SAMPLE_FACTORS:
+	""
+Warning: The "InchiKEY" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB ID" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LM ID" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "lm_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Retention time" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Data"] table.
+Warning: The "" column at position 44 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.

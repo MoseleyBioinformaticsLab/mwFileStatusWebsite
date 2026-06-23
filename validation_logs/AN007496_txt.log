@@ -1,0 +1,58 @@
+Validation Log
+2026-06-21 07:54:21.331776
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007496/mwtab/txt
+Study ID:      ST004472
+Analysis ID:   AN007496
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 39
+
+Number of Warnings: 37
+
+Number of Value Errors: 39
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.15mL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "25", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "20230309_Media_37" column at position 38 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_38" column at position 39 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_39" column at position 40 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_40" column at position 41 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_41" column at position 42 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_42" column at position 43 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_43" column at position 44 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_44" column at position 45 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_45" column at position 46 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_46" column at position 47 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_47" column at position 48 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_48" column at position 49 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_49" column at position 50 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_50" column at position 51 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_51" column at position 52 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_52" column at position 53 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_53" column at position 54 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_54" column at position 55 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_55" column at position 56 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_56" column at position 57 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_57" column at position 58 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_58" column at position 59 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_59" column at position 60 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_60" column at position 61 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_61" column at position 62 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_62" column at position 63 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_63" column at position 64 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_64" column at position 65 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_65" column at position 66 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_66" column at position 67 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_67" column at position 68 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_68" column at position 69 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_69" column at position 70 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_70" column at position 71 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_71" column at position 72 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_72" column at position 73 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "20230309_Media_extraction_solution" column at position 76 in the MS_METABOLITE_DATA table has all null values.

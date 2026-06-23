@@ -1,8 +1,171 @@
 Validation Log
-2025-12-07 01:10:50.239467
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:11:06.638466
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000064/mwtab/txt
 Study ID:      ST000042
 Analysis ID:   AN000064
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 19
+
+Number of Warnings: 7
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "PHONE", in the "STUDY" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "COLLECTION_SUMMARY", in the "COLLECTION" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "SAMPLEPREP_SUMMARY", in the "SAMPLEPREP" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"10-HYDROXYDECANOATE_1"
+	"11-BETA-HYDROXYANDROST-4-ENE-3_17-DIONE"
+	"11-BETA-HYDROXYANDROST-4-ENE-3_17-DIONE_1"
+	"1_2-DIPALMITOYL-SN-GLYCEROL"
+	"2`_4`-DIHYDROXYACETOPHENONE"
+	"2_6-DIHYDROXYPYRIDINE"
+	"2`-DEOXYGUANOSINE_1"
+	"3_4-DIHYDROXYBENZOATE"
+	"3_4-DIHYDROXYPHENYLACETATE"
+	"3_5-DIIODO-L-THYRONINE"
+	"3_5-DIIODO-L-THYRONINE_1"
+	"3_5-DIIODO-L-TYROSINE"
+	"3_5-DIIODO-L-TYROSINE_1"
+	"3-ALPHA_11-BETA_17-ALPHA_21-TETRAHYDROXY- 5-ALPHA-PREGNAN-20-ONE"
+	"4-METHYL-2-OXOPENTANOATE_1"
+	"AZELAIC ACID_1"
+	"BILIVERDIN_1"
+	"BIOTIN_1"
+	"BIS(2-ETHYLHEXYL)PHTHALATE_1"
+	"BOC-ALA-OH_1"
+	"BOC-LYS-OH_1"
+	"BUTYRYLCARNITINE (*)_1"
+	"C-GLYCOSYLTRYPTOPHAN (*)_1"
+	"CHOLESTA-5_7-DIEN-3BETA-OL"
+	"CIS-7_10_13_16-DOCOSATETRAENOIC ACID"
+	"CORTICOSTERONE_1"
+	"CORTISOL_1"
+	"CORTISOL 21-ACETATE_1"
+	"CORTISONE_1"
+	"CYCLOHEXANE-1_3-DIONE"
+	"CYCLOHEXANE-1_3-DIONE_1"
+	"DEOXYCHOLATE_1"
+	"DEOXYCORTICOSTERONE_1"
+	"DEOXYURIDINE_1"
+	"DETHIOBIOTIN_1"
+	"DIMETHYL MALEATE_1"
+	"DOCOSAHEXAENOIC ACID_1"
+	"EDTA (*)_1"
+	"ETHYL 4-OXOCYCLOHEXANECARBOXYLATE_1"
+	"FERULATE_1"
+	"GLUTAMINE_1"
+	"HIPPURATE_1"
+	"HYPOXANTHINE_1"
+	"INOSINE_1"
+	"LINOLEOYLGLYCEROPHOSPHOCHOLINE (*)_1"
+	"LL-2_6-DIAMINOHEPTANEDIOATE"
+	"LUMICHROME_1"
+	"MELATONIN_1"
+	"METHYL JASMONATE_1"
+	"N1-METHYL-2-PYRIDONE-5-CARBOXAMIDE (*)_1"
+	"N6-(DELTA2-ISOPENTENYL)-ADENINE_1"
+	"N-ACETYL-L-ALANINE_1"
+	"N-ACETYL-L-CYSTEINE_1"
+	"N-ACETYL-L-PHENYLALANINE_1"
+	"N-ACETYLSEROTONIN_1"
+	"N-CYCLOHEXYLFORMAMIDE_1"
+	"N_N_N-TRIMETHYLLYSINE"
+	"OLEAMIDE_1"
+	"ORNITHINE_1"
+	"PALMITOLEOYLGLYCEROPHOSPHOCHOLINE (*)_1"
+	"PALMITOYLGLYCEROPHOSPHOCHOLINE (*)_1"
+	"PANTOLACTONE_1"
+	"PHENYLALANINE_1"
+	"PROGESTERONE_1"
+	"PROMETRYN_1"
+	"RETINAL_1"
+	"SUBERIC ACID_1"
+	"TAURINE_1"
+	"TRANS-CYCLOHEXANE-1_2-DIOL"
+	"TRYPTOPHAN_1"
+	"TRYPTOPHAN BETAINE (*)_1"
+	"UREA_1"
+	"URIDINE_1"
+	"VALINE_1"
+	"VALINE (*)_1"
+	"VITAMIN D3_1"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"10-HYDROXYDECANOATE_3"
+	"2`-DEOXYGUANOSINE_2"
+	"4-METHYL-2-OXOPENTANOATE_2"
+	"AZELAIC ACID_2"
+	"BILIVERDIN_3"
+	"BIOTIN_3"
+	"BIS(2-ETHYLHEXYL)PHTHALATE_3"
+	"BOC-ALA-OH_2"
+	"BOC-LYS-OH_2"
+	"BUTYRYLCARNITINE (*)_2"
+	"C-GLYCOSYLTRYPTOPHAN (*)_2"
+	"CORTICOSTERONE_2"
+	"CORTISOL_2"
+	"CORTISOL 21-ACETATE_3"
+	"CORTISONE_2"
+	"DEOXYCHOLATE_2"
+	"DEOXYCORTICOSTERONE_2"
+	"DEOXYURIDINE_2"
+	"DETHIOBIOTIN_2"
+	"DIMETHYL MALEATE_2"
+	"DOCOSAHEXAENOIC ACID_2"
+	"EDTA (*)_2"
+	"ETHYL 4-OXOCYCLOHEXANECARBOXYLATE_2"
+	"FERULATE_2"
+	"GLUTAMINE_2"
+	"HIPPURATE_2"
+	"HYPOXANTHINE_2"
+	"INOSINE_2"
+	"LINOLEOYLGLYCEROPHOSPHOCHOLINE (*)_3"
+	"LUMICHROME_2"
+	"MELATONIN_3"
+	"METHYL JASMONATE_2"
+	"N1-METHYL-2-PYRIDONE-5-CARBOXAMIDE (*)_3"
+	"N6-(DELTA2-ISOPENTENYL)-ADENINE_2"
+	"N-ACETYL-L-ALANINE_2"
+	"N-ACETYL-L-CYSTEINE_2"
+	"N-ACETYL-L-PHENYLALANINE_2"
+	"N-ACETYLSEROTONIN_2"
+	"N-CYCLOHEXYLFORMAMIDE_3"
+	"OLEAMIDE_2"
+	"ORNITHINE_2"
+	"PALMITOLEOYLGLYCEROPHOSPHOCHOLINE (*)_2"
+	"PALMITOYLGLYCEROPHOSPHOCHOLINE (*)_3"
+	"PANTOLACTONE_2"
+	"PHENYLALANINE_2"
+	"PROGESTERONE_2"
+	"PROMETRYN_2"
+	"RETINAL_2"
+	"SUBERIC ACID_2"
+	"TAURINE_2"
+	"TRYPTOPHAN_2"
+	"TRYPTOPHAN BETAINE (*)_4"
+	"UREA_2"
+	"URIDINE_3"
+	"VALINE_2"
+	"VALINE (*)_2"
+	"VITAMIN D3_2"
+Warning: The "ri" column at position 3 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "moverz_quant" column at position 2 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 3 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 4 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 6 in the METABOLITES table has all null values.

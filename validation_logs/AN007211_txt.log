@@ -1,0 +1,204 @@
+Validation Log
+2026-06-21 07:43:22.492411
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007211/mwtab/txt
+Study ID:      ST004327
+Analysis ID:   AN007211
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 13
+
+Number of Warnings: 10
+
+Number of Value Errors: 12
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "300 µL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "35°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 4 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Calc. MW" column at position 3 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InChIKey" column at position 9 in the METABOLITES table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1         C31 H57 N O4
+2         C13 H21 N O6
+7         C28 H51 N O4
+10          C9 H5 F N4
+18        C16 H30 O S2
+19        C28 H55 N O4
+20        C25 H49 N O5
+21         C22 H43 N O
+22        C26 H51 N O4
+26      C42 H83 N O7 P
+27        C13 H23 N O2
+29         C6 H11 N O4
+30         C6 H11 N O4
+31         C8 H15 N O4
+33        C22 H43 N O2
+35        C12 H15 N O2
+37      C40 H82 N O7 P
+38          C7 H9 N O2
+41         C7 H11 N O3
+46      C10 H17 N O4 S
+49     C9 H13 Cl N O P
+50        C13 H25 N O4
+59        C11 H13 N O2
+64      C7 H5 Br N4 O3
+65        C15 H25 N O7
+74      C17 H19 N5 O S
+75         C7 H15 N O2
+76         C9 H17 N O4
+87        C10 H11 N O3
+88        C29 H41 N O4
+90        C11 H21 N O4
+92        C33 H65 N O3
+93        C34 H69 N O3
+94        C32 H63 N O3
+95        C34 H67 N O3
+96        C36 H71 N O3
+97        C42 H83 N O3
+98        C21 H43 N O2
+101         C5 H13 N O
+102         C5 H13 N O
+103         C5 H13 N O
+111         C3 H7 N O3
+121       C22 H39 N O2
+123        C7 H15 N O3
+124     C40 H80 N O8 P
+125       C29 H57 N O4
+130        C30 H46 B F
+133       C6 H11 Cl O6
+144       C13 H25 N O4
+145        C8 H15 N O3
+150         C10 H9 N O
+154        C6 H13 N O2
+155       C15 H13 N O3
+163        C9 H11 N O2
+165         C4 H9 N O3
+166        C9 H11 N O3
+167     C24 H50 N O7 P
+168     C26 H54 N O7 P
+169     C26 H52 N O7 P
+170     C26 H50 N O7 P
+171     C26 H48 N O7 P
+172     C26 H56 N O6 P
+173     C21 H44 N O7 P
+174     C23 H44 N O7 P
+175     C23 H42 N O7 P
+176     C25 H50 N O7 P
+177     C25 H50 N O7 P
+182      C21 H41 Cl O4
+184      C8 H7 N O2 S3
+186        C8 H17 N O3
+188       C41 H79 N O3
+191       C32 H65 N O7
+192         C4 H9 N O2
+194       C34 H65 N O3
+196       C22 H45 N O4
+197       C22 H45 N O4
+199    C10 H9 Br N6 O2
+202        C8 H15 N O6
+203       C11 H13 N O3
+205    C14 H16 F3 N O4
+206       C12 H23 N O3
+208        C6 H11 N O3
+209        C9 H17 N O4
+210      C8 H15 N O4 S
+211       C12 H15 N O4
+212       C28 H53 N O4
+213       C13 H25 N O3
+221     C41 H74 N O8 P
+222     C48 H84 N O8 P
+223     C30 H52 N O9 P
+224     C52 H84 N O8 P
+225     C39 H72 N O8 P
+226     C43 H74 N O8 P
+227     C43 H72 N O8 P
+228     C45 H78 N O7 P
+229    C50 H88 N O10 P
+233      C4 H12 N O4 P
+237            C K2 O3
+238         C5 H9 N O2
+239    C40 H76 N O10 P
+240    C46 H84 N O10 P
+241    C48 H90 N O10 P
+242    C48 H90 N O10 P
+243    C48 H80 N O13 P
+252     C10 H13 N O2 S
+256       C22 H45 N O3
+257     C26 H45 N O7 S
+258     C26 H45 N O7 S
+259        C11 H21 N O
+263        C8 H15 N O2
+264         C5 H9 N O3
+265       C23 H43 N O4
+267         C7 H7 N O2
+276         C4 H9 N O2
+Warning: The "Reference Ion" column at position 5 in the METABOLITES table, matches a standard column name, "ion". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Reference Ion" column at position 5 in the METABOLITES table, matches a standard column name, "ion", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+228    [M+DMSO+H]+1
+Warning: The "KEGG ID" column at position 8 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 8 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+68     cpd+C02953
+75      dr+D00999
+77      dr:D00034
+101     dr+D02017
+103     dr+D02017
+142    cpd+C02419
+156     dr:D07706
+163     dr:D00021
+166     dr:D00022
+238     dr:D00035
+267    cpd+C01004
+269     dr+D02131
+Warning: The "RT [min]" column at position 6 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Polarity" column at position 10 in the METABOLITES table, matches a standard column name, "polarity", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+29     +/-
+33     +/-
+73     +/-
+77     +/-
+78     +/-
+80     +/-
+84     +/-
+95     +/-
+96     +/-
+100    +/-
+106    +/-
+109    +/-
+110    +/-
+134    +/-
+137    +/-
+140    +/-
+142    +/-
+147    +/-
+151    +/-
+160    +/-
+163    +/-
+165    +/-
+166    +/-
+173    +/-
+174    +/-
+178    +/-
+189    +/-
+192    +/-
+202    +/-
+204    +/-
+206    +/-
+207    +/-
+210    +/-
+213    +/-
+215    +/-
+228    +/-
+238    +/-
+248    +/-
+251    +/-
+257    +/-
+258    +/-
+262    +/-
+272    +/-
+273    +/-
+276    +/-
+Error: The "Polarity" column in the METABOLITES table indicates multiple polarities in a single analysis, and this should not be. A single mwTab file is supposed to be restricted to a single analysis. This means multiple MS runs under different settings should each be in their own file.

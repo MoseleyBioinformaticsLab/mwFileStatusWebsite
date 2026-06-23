@@ -1,12 +1,47 @@
 Validation Log
-2025-12-07 05:26:06.883017
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:19:20.234982
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003285/mwtab/txt
 Study ID:      ST002016
 Analysis ID:   AN003285
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 7
 
-Error Log:
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {'Blank_1_NEG', 'Blank_2_NEG'} found in MS_METABOLITE_DATA section.
+Number of Warnings: 3
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "30C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The factors in the METABOLITE_DATA section and SUBJECT_SAMPLE_FACTORS section do not match.
+Error: SUBJECT_SAMPLE_FACTORS section missing sample ID(s). The following IDs were found in the MS_METABOLITE_DATA section but not in the SUBJECT_SAMPLE_FACTORS:
+	"Blank_1_NEG"
+	"Blank_2_NEG"
+Warning: The "Molecular Weight" column at position 3 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0          C5 H9 N O3
+10       C12 H11 N O3
+15         C5 H7 N O3
+17       C22 H33 N O4
+25         C3 H7 N O2
+29         C8 H7 N O5
+45         C3 H7 N O3
+48         C4 H9 N O2
+55         C4 H7 N O3
+61       C17 H17 N O3
+63      C7 H12 N O8 P
+64    C11 H20 N O11 P
+65     C11 H15 N O9 P
+67          C7 H8 O S
+68      C4 H10 N O6 P
+72       C25 H45 N O9
+73          C9 H9 F O
+80      C9 H16 N4 O S
+81     C12 H17 N4 O S
+Warning: The "RT [min]" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

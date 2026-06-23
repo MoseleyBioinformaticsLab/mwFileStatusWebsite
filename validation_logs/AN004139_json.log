@@ -1,8 +1,135 @@
 Validation Log
-2025-12-07 06:31:58.980993
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:05:57.709005
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004139/mwtab/json
 Study ID:      ST002513
 Analysis ID:   AN004139
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 37
+
+Number of Warnings: 32
+
+Number of Value Errors: 34
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "400 μL per minute", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][0] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][1] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][2] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][3] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][4] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][5] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][6] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][7] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][8] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][9] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][10] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][11] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][12] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][13] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][14] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][15] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][16] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][17] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][18] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][19] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][20] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+	"RAW_FILE_NAME"
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"1_2_4-Trihydroxybenzene"
+	"1_3-Cyclohexanedicarboxylic acid"
+	"1_4-Cyclohexanedicarboxylic acid"
+	"1-Stearoyl-2-arachidonoyl-sn-glycero-3-phospho-(1^-myo-inositol)"
+	"2_6-Dihydroxybenzoic acid"
+	"2^-O-Methyluridine"
+	"(2-oxo-2_3-dihydro-1H-indol-3-yl)acetic acid"
+	"9-Hydroperoxy-10E_12Z-octadecadienoic acid"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"1,2,4-Trihydroxybenzene"
+	"1,3-Cyclohexanedicarboxylic acid"
+	"1,4-Cyclohexanedicarboxylic acid"
+	"1-Stearoyl-2-arachidonoyl-sn-glycero-3-phospho-(1'-myo-inositol)"
+	"2,6-Dihydroxybenzoic acid"
+	"2'-O-Methyluridine"
+	"(2-oxo-2,3-dihydro-1H-indol-3-yl)acetic acid"
+	"9-Hydroperoxy-10E,12Z-octadecadienoic acid"
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "pubchem_id" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "kegg_id" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

@@ -1,8 +1,54 @@
 Validation Log
-2025-12-07 06:13:31.751403
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:52:33.849486
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003866/mwtab/txt
 Study ID:      ST002371
 Analysis ID:   AN003866
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 13
+
+Number of Warnings: 9
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"11^-Carboxy-alpha-chromanol"
+	"1_3-diphosphoglycerate /2_3-diphosphoglycerate /(1_3BPG or2_3BPG)"
+	"3_5-dihydroxy-3_4-dihydro-1_4-benzothiazine"
+	"4-hydroxy-2-nonenal/3_4-epoxynonanal"
+	"4-Hydroxyphenylacetate/2-Hydroxyphenylacetate/3_4-Dihydroxyphenylacetaldehyde"
+	"5_6-dihydrothymine"
+	"8_11_14-Eicosatrienoic acid (DGLA)"
+	"9_10-hydroxyoctadec-12(Z)-enoate/12_13-hydroxyoctadec-9(Z)-enoate"
+	"beta-D-Fructose 1_6-bisphosphate"
+	"clupanodonic acid/docosa-4_7_10_13_16-pentaenoic acid"
+	"sedoheptulose 1_7-bisphosphate"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"11'-Carboxy-alpha-chromanol"
+	"1,3-diphosphoglycerate /2,3-diphosphoglycerate /(1,3BPG or2,3BPG)"
+	"3,5-dihydroxy-3,4-dihydro-1,4-benzothiazine"
+	"4-hydroxy-2-nonenal/3,4-epoxynonanal"
+	"4-Hydroxyphenylacetate/2-Hydroxyphenylacetate/3,4-Dihydroxyphenylacetaldehyde"
+	"5,6-dihydrothymine"
+	"8,11,14-Eicosatrienoic acid (DGLA)"
+	"9,10-hydroxyoctadec-12(Z)-enoate/12,13-hydroxyoctadec-9(Z)-enoate"
+	"beta-D-Fructose 1,6-bisphosphate"
+	"clupanodonic acid/docosa-4,7,10,13,16-pentaenoic acid"
+	"sedoheptulose 1,7-bisphosphate"
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 7 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.

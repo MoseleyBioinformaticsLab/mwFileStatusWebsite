@@ -1,12 +1,67 @@
 Validation Log
-2025-12-07 05:08:43.266200
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:05:46.595058
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003032/mwtab/txt
 Study ID:      ST001870
 Analysis ID:   AN003032
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 16
 
-Error Log:
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {''} found in MS_METABOLITE_DATA section.
+Number of Warnings: 7
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The value, "000000", for "PROJECT_ID" in the file header must be the letters "PR" followed by 6 numbers. Ex. "PR001405".
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Error: SUBJECT_SAMPLE_FACTORS section missing sample ID(s). The following IDs were found in the MS_METABOLITE_DATA section but not in the SUBJECT_SAMPLE_FACTORS:
+	""
+Warning: There are duplicate samples in the MS_METABOLITE_DATA section.
+Warning: The "PUBCHEM" column at position 4 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 6 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 5 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 5 in the METABOLITES table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+82                26853-31-6;26853-31-6
+117               71030-37-0;73837-14-6
+136                  542-32-5;1118-90-7
+172              10569-72-9;214139-20-5
+207                    463-003;463-00-3
+223               68703-91-3;68792-52-9
+229                 921-62-0;53411-70-4
+258        305-72-6;328-50-7;22202-68-2
+260                  59-02-9;10191-41-0
+290               55482-27-4;55482-27-4
+304                   474-24-9;474-25-9
+315                  85-61-0;18439-24-2
+321                     52-90-4;56-89-3
+360                10-2005-9;10417-94-4
+371                 146-14-5;84366-81-4
+399                 1499-55-4;1499-55-4
+414                   475-31-0;863-57-0
+456                573-35-3;106032-59-1
+492              141-82-2;26522-22-85-0
+502              70442-25-0;104872-94-8
+532                   997-55-7;997-55-7
+583                    58-68-4;606-68-8
+595                    11-58-0;111-58-0
+631                1002-84-2;10002-84-2
+662                  50-99-7;58459-37-3
+663              18265-46-8;108321-99-9
+667    24346-00-7;86867-01-8;86867-0108
+708               85187-10-6;85187-10-6
+747    2956-16-3;91183-98-1;137868-52-1
+749               28053-08-9;63700-19-6
+752                    69-93-2;120K5305
+Warning: The "RI" column at position 2 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "RI" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
+Error: Column(s) with no name were found in the MS_METABOLITE_DATA table.
+Error: The section, MS_METABOLITE_DATA, has a mismatch between the number of headers and the number of elements in each line. Either a line(s) has more values than headers or there are too few headers.

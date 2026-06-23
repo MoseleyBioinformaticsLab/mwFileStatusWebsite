@@ -1,8 +1,53 @@
 Validation Log
-2025-12-07 01:34:35.769259
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:27:43.909381
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000389/mwtab/json
 Study ID:      ST000247
 Analysis ID:   AN000389
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 34
+
+Number of Warnings: 27
+
+Number of Value Errors: 27
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected in ["STUDY"]["ADDRESS"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["STUDY"]["PHONE"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "ri" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "other_id" and "other_id_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "13A" column at position 2 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "13B" column at position 3 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "13C" column at position 4 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "9A" column at position 5 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "9B" column at position 6 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "9C" column at position 7 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "8A" column at position 11 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "8B" column at position 12 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "8C" column at position 13 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "12A" column at position 17 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "12B" column at position 18 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "12C" column at position 19 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "11A" column at position 23 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "11B" column at position 24 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "11C" column at position 25 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "10A" column at position 29 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "10B" column at position 30 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "10C" column at position 31 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "7A" column at position 35 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "7B" column at position 36 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "7C" column at position 37 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "inchi_key" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

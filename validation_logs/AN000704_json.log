@@ -1,14 +1,9 @@
 Validation Log
-2025-12-07 02:16:27.804116
-mwtab Python Library Version: 1.2.5
+2026-06-21 01:52:28.699742
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000704/mwtab/json
 Study ID:      ST000449
 Analysis ID:   AN000704
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
-
-Error Log:
-SCHEMA: Section "MS_METABOLITE_DATA" does not match the allowed schema. Key 'Data' error:
-Or({Or('Metabolite', 'Bin range(ppm)'): <class 'str'>, Optional(<class 'str'>): <class 'str'>}) did not validate False
-False should be instance of 'dict'
+Status:Parsing Error
+Given JSON contains non-dictionary values in ["MS_METABOLITE_DATA"]["Data"].

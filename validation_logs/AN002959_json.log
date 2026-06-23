@@ -1,8 +1,60 @@
 Validation Log
-2025-12-07 05:01:50.411792
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:00:29.112408
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002959/mwtab/json
 Study ID:      ST001823
 Analysis ID:   AN002959
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 8
+
+Number of Warnings: 3
+
+Number of Value Errors: 3
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "Molecular Weight" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+7             C9 H7 N O2
+11            C8 H9 N O2
+15             C9 H7 N O
+16             C8 H7 N O
+17           C10 H11 N O
+18            C9 H9 N O3
+19            C7 H7 N O3
+20     C6 H8 Cl N3 O4 S2
+21            C7 H7 N O2
+25             C9 H7 N O
+27           C10 H9 N O3
+28             C9 H9 N O
+32            C6 H5 N O3
+36             C9 H7 N O
+46          C11 H15 N O2
+47          C11 H11 N O3
+70           C10 H7 N O3
+71           C9 H11 N O2
+72           C9 H11 N O3
+73          C11 H15 N O5
+74          C11 H11 N O2
+76           C11 H15 N O
+80           C8 H15 N O3
+82          C10 H13 N O2
+83             C8 H9 N O
+84          C15 H23 N O3
+90          C10 H13 N O2
+92            C8 H5 N O2
+99          C14 H21 N O2
+100          C11 H9 N O2
+101           C8 H13 N O
+102           C8 H17 N O
+104          C10 H7 N O4
+Warning: The "RT [min]" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

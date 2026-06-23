@@ -1,8 +1,173 @@
 Validation Log
-2025-12-07 05:25:28.836706
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:19:01.569256
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003278/mwtab/json
 Study ID:      ST002011
 Analysis ID:   AN003278
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 5
+
+Number of Value Errors: 4
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "FLOW_RATE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The "chemical formula" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem id" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem id" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1                    C06907
+3                    C00213
+4      C00186|C00256|C01432
+5                    C00334
+6                    C00065
+7                    C00148
+8                    C00122
+9                    C01384
+10                   C00141
+11                   C00183
+12                   C02170
+13                   C00263
+14                   C00097
+15                   C00253
+16                   C01879
+17                   C00408
+18                   C02226
+19                   C01157
+20                   C01073
+21                   C00300
+23                   C00123
+24                   C00036
+25                   C00152
+26                   C00077
+27     C00149|C00497|C00711
+28                   C00262
+29                   C00568
+30                   C00169
+31                   C00026
+32                   C00064
+33                   C00047
+34                   C00025
+36                   C00073
+38                   C00242
+39                   C00385
+40                   C00135
+41                   C00295
+42                   C00337
+43            C00318|C15025
+44                   C00079
+45                   C00074
+46                   C00314
+47                   C00111
+48                   C00093
+49            C00417|C02341
+50                   C00437
+51                   C00062
+53                   C00438
+54                   C00013
+55                   C00198
+57                   C00137
+58                   C00082
+59                   C00847
+60                   C01005
+61                   C00197
+62                HMDB06029
+63            C02727|C12989
+64                   C01717
+65                   C00624
+66            C00158|C00311
+67                   C00629
+68                   C00257
+69                   C00279
+70     C00078|C00525|C00806
+71                   C02470
+72                   C00725
+73            C00328|C01718
+74                   C00673
+75                   C00864
+77                   C00140
+78                   C00542
+79                   C00526
+80                   C00117
+85                   C00491
+86                   C00272
+87                   C00214
+88                   C00475
+89                   C00299
+90                   C00120
+94                   C00559
+95                   C03783
+96                   C00103
+97                   C00085
+98                   C00378
+100                  C00212
+101                  C00294
+102                  C00345
+103                  C02494
+104                  C00387
+105                  C01762
+107    C00281|C05382|C06222
+108                  C03406
+109                  C00170
+110                  C03492
+111           C04256|C00357
+113                  C00239
+114                  C00051
+118                  C00364
+119                  C00055
+120                  C00105
+127                  C00362
+128                  C00130
+129                  C01134
+130                  C06193
+131                  C00655
+134                  C00255
+136                  C00024
+137                  C00021
+138                  C00705
+139                  C00119
+140                  C00019
+142                  C00363
+143                  C00112
+144                  C00015
+145                  C00068
+146                  C00008
+147                  C00104
+148                  C00504
+149                  C00035
+150                  C00570
+151                  C00458
+153                  C00459
+154                  C00063
+155                  C00075
+157                  C00307
+158                  C00131
+160                  C00002
+161                  C00044
+162                  C00029
+163                  C00167
+164                  C00498
+166                  C00043
+167                  C00127
+168                  C00003
+169                  C00004
+170                  C00882
+171                  C00006
+172                  C00005
+173                  C00010
+174                  C00016
+175    C00091|C00683|C02557
+176                  C01944
+177                  C05274
+178                  C02593
+Warning: The "retention index" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "retention index" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.

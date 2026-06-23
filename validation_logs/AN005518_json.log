@@ -1,8 +1,143 @@
 Validation Log
-2025-12-07 08:17:47.233224
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:23:54.745958
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005518/mwtab/json
 Study ID:      ST003367
 Analysis ID:   AN005518
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 72
+
+Number of Warnings: 58
+
+Number of Value Errors: 72
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "60", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["EXTRACT_ENRICHMENT"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["EXTRACT_CLEANUP"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLE_RESUSPENSION"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLE_DERIVATIZATION"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["SAMPLEPREP"]["SAMPLE_SPIKING"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "-4500", in ["MS"]["CAPILLARY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "70", in ["MS"]["DRY_GAS_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "-4500", in ["MS"]["ION_SPRAY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "-4500", in ["MS"]["SPRAY_VOLTAGE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['kV']. Ignore this when more complicated descriptions are required.
+Error: The value in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "1-5 ul", in ["CHROMATOGRAPHY"]["SAMPLE_INJECTION"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "4", in ["CHROMATOGRAPHY"]["INJECTION_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][0] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][1] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][2] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][3] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][4] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][5] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][6] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][7] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][8] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][9] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][10] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][11] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][12] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][13] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][14] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][15] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][16] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][17] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][18] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][19] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][20] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][21] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][22] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][23] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][24] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][25] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][26] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][27] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][28] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][29] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][30] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][31] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][32] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][33] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][34] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][35] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][36] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][37] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][38] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][39] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][40] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][41] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][42] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][43] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][44] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][45] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][46] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][47] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][48] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][49] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][50] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][51] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The "compound group name" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "pubchem id" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "kegg id" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "regno" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mw_regno". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "expected retention time" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention time" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

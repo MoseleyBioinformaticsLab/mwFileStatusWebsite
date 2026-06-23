@@ -1,8 +1,148 @@
 Validation Log
-2025-12-07 06:47:17.295214
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:17:47.976347
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004353/mwtab/txt
 Study ID:      ST002681
 Analysis ID:   AN004353
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 7
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "0.45", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "45", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "M.z" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_HMDB" column at position 2 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_HMDB" column at position 2 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+67     HMDB0000201
+68     HMDB0000824
+69     HMDB0002013
+70       HMDB02366
+71     HMDB0013128
+72     HMDB0013161
+73     HMDB0000705
+74     HMDB0013133
+75     HMDB0013324
+76     HMDB0000791
+77     HMDB0006320
+78     HMDB0013328
+79     HMDB0061634
+80     HMDB0000651
+81     HMDB0006202
+82     HMDB0061636
+83     HMDB0013326
+84     HMDB0002250
+85     HMDB0061637
+86     HMDB0061638
+87     HMDB0062588
+88     HMDB0005066
+89     HMDB0013330
+90     HMDB0062517
+91     HMDB0061640
+92     HMDB0013207
+93     HMDB0000222
+94     HMDB0013333
+95     HMDB0006210
+96     HMDB0061642
+97     HMDB0006463
+98     HMDB0006318
+99     HMDB0006461
+100    HMDB0013338
+101    HMDB0000848
+102    HMDB0013339
+103    HMDB0006460
+104    HMDB0006510
+105    HMDB0060158
+106    HMDB0006455
+107    HMDB0013334
+Warning: The "KEGG_HMDB" column at position 2 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_HMDB" column at position 2 in the METABOLITES table, matches a standard column name, "hmdb_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      C00041
+1      C00062
+2      C00152
+3      C00049
+4      C00097
+5      C00025
+6      C00064
+7      C00037
+8      C00135
+9      C00123
+10     C00047
+11     C00073
+12     C00079
+13     C00148
+14     C00065
+15     C00188
+16     C00078
+17     C00082
+18     C00183
+19     C00491
+20     C00212
+21     C00147
+22     C00262
+23     C00385
+24     C00499
+25     C11821
+26     C00153
+27     C00009
+28     C01879
+29     C00155
+30     C01026
+31     C01602
+32     C00327
+33     C00315
+34     C00750
+35     C00329
+36     C03626
+37     C00386
+38     C03771
+39     C02305
+40     C00300
+41     C00791
+42     C02946
+43     C00437
+44     C01157
+45     C04281
+46     C00245
+47     C00519
+48     C00606
+49     C00506
+50     C02989
+51     C05635
+52     C05834
+53     C00463
+54     C00954
+55     C05658
+56     C00977
+57     C00328
+58     C01717
+59     C00108
+60     C03453
+61     C00322
+62     C05830
+63     C00780
+64     C06772
+65     C06771
+66     C13482
+108    C00319
+109    C00500
+110    C00486
+111    C01104
+112    C03680
+113    C05607
+114    C07480
+115    C16358
+116    C07481
+117    C00255
+118    C00624
+Warning: The "Rt" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column, "KEGG_HMDB", in the METABOLITES table was matched to multiple standard names, ['kegg_id', 'hmdb_id']. This is a good indication that the values in that column should be split into the appropriate individual columns.

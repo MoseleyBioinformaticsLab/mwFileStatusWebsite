@@ -1,0 +1,92 @@
+Validation Log
+2026-06-21 06:30:55.920541
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005664/mwtab/txt
+Study ID:      ST003448
+Analysis ID:   AN005664
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 73
+
+Number of Warnings: 69
+
+Number of Value Errors: 72
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "18-65", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "55", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "FACTORS".
+Warning: The "Exact mass" column at position 4 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Metabolite name" column at position 2 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem CID" column at position 5 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "221019_M2+FA_1-48_3" column at position 4 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_9" column at position 10 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_12" column at position 13 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_13" column at position 14 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_14" column at position 15 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_15" column at position 16 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_16" column at position 17 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_17" column at position 18 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_18" column at position 19 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_21" column at position 22 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_27" column at position 28 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_31" column at position 32 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_32" column at position 33 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_33" column at position 34 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_34" column at position 35 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_35" column at position 36 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_36" column at position 37 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_41" column at position 42 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221019_M2+FA_1-48_47" column at position 48 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_51" column at position 52 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_52" column at position 53 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_53" column at position 54 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_54" column at position 55 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_55" column at position 56 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_56" column at position 57 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_59" column at position 60 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_65" column at position 66 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_69" column at position 70 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_70" column at position 71 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_71" column at position 72 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_72" column at position 73 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_73" column at position 74 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_74" column at position 75 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_79" column at position 80 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_85" column at position 86 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_86" column at position 87 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_89" column at position 90 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_90" column at position 91 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_91" column at position 92 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_92" column at position 93 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_93" column at position 94 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221028_M2+FA_94" column at position 95 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_97" column at position 98 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_103" column at position 104 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_107" column at position 108 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_108" column at position 109 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_109" column at position 110 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_110" column at position 111 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_111" column at position 112 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_112" column at position 113 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_117" column at position 118 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_123" column at position 124 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_127" column at position 128 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_128" column at position 129 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_129" column at position 130 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_130" column at position 131 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_131" column at position 132 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_132" column at position 133 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_135" column at position 136 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_141" column at position 142 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_145" column at position 146 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_146" column at position 147 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_147" column at position 148 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_148" column at position 149 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_149" column at position 150 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "221111_M2+FA_150" column at position 151 in the MS_METABOLITE_DATA table has all null values.

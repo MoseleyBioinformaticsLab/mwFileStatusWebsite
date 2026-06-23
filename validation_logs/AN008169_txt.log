@@ -1,0 +1,181 @@
+Validation Log
+2026-06-21 08:17:40.476781
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008169/mwtab/txt
+Study ID:      ST004826
+Analysis ID:   AN008169
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 12
+
+Number of Warnings: 7
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "22-55", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "41-138", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "1.53-1.85", for the subsection, "HEIGHT_OR_HEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['cm', 'in']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "40°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "quantified m/z" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChemID" column at position 8 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_MapID" column at position 6 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_MapID" column at position 6 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+7                                       map00996;map01110
+12      map00902;map00907;map01060;map01062;map01066;m...
+13                                               map00140
+14                             map00600;map01100;map04071
+17                                               map00140
+18                                               map04931
+19                                      map00340;map01100
+21                                               map00140
+22                                      map00600;map01100
+24                                               map00140
+25                             map00564;map00565;map05231
+28      map00740;map01100;map01110;map01240;map02010;m...
+33                    map00900;map00909;map00981;map01110
+34                                      map00960;map01064
+36                                      map00270;map01100
+38                                      map00945;map01110
+40                                      map00945;map01110
+51                                      map00943;map01110
+54                    map00622;map01100;map01120;map01220
+66                    map00960;map01064;map01100;map01110
+67                                      map00940;map01110
+75                    map00220;map01100;map01110;map01230
+77      map00260;map00860;map01060;map01100;map01110;m...
+83                                               map01040
+84                                               map00340
+85                                               map01040
+86      map00300;map00470;map01100;map01110;map01120;m...
+87                                      map00330;map01100
+89      map00623;map00633;map01100;map01120;map01220;m...
+90                    map00270;map00908;map01060;map01100
+91           map00600;map01100;map04071;map04210;map04217
+94                                      map00340;map01100
+95                                               map00500
+96                    map00730;map01100;map01240;map02010
+97                    map00360;map00643;map01100;map01120
+98                                               map00380
+100                                     map00073;map01100
+101          map00100;map01100;map01110;map04928;map05152
+105                            map00591;map01040;map01100
+106          map00310;map00330;map00470;map01100;map01120
+107                            map04714;map04976;map05415
+108     map00260;map00552;map00564;map00670;map01100;m...
+109                                              map00380
+110          map00760;map01100;map01240;map04212;map04977
+111                   map00591;map01040;map01060;map01100
+112     map00250;map00330;map00410;map00650;map00760;m...
+113     map00360;map00400;map00460;map00470;map00940;m...
+114     map00220;map00250;map00260;map00261;map00270;m...
+115                            map00260;map00330;map01100
+116     map00340;map00404;map00410;map00470;map00970;m...
+117     map00270;map00470;map00670;map00966;map00970;m...
+118                            map00760;map01100;map01120
+119                                     map00330;map01100
+120                   map00380;map01100;map01240;map05143
+122     map00380;map00901;map01060;map01063;map01100;m...
+132          map00130;map01100;map01110;map01240;map02020
+133                   map00830;map01100;map01240;map04977
+135     map00140;map00984;map01100;map01120;map01522;m...
+136                   map00140;map01100;map05200;map05215
+137                   map00140;map00984;map01100;map01120
+138     map00140;map01100;map01522;map04081;map04714;m...
+140                                     map00140;map01100
+141     map00140;map01100;map04913;map04925;map04927;m...
+142          map00140;map01100;map04913;map04927;map04934
+143                                     map00140;map01100
+144                                     map00100;map01100
+148                                              map01061
+149                            map00790;map01100;map01240
+153          map00052;map00520;map01100;map01250;map02060
+156          map00830;map01100;map01240;map04744;map04977
+157                                     map00624;map01120
+191                                              map00590
+211                            map00760;map01100;map04212
+219                            map00680;map01100;map01120
+223                                              map00590
+235                                     map00330;map01100
+255                            map00590;map01100;map04726
+279                                     map00363;map01120
+282                                              map01060
+283                                     map00984;map01120
+292          map00760;map00980;map01100;map01120;map05204
+297     map00908;map01060;map01070;map01100;map01110;m...
+300                                     map00996;map01063
+313                            map00909;map01062;map01110
+339                                     map00627;map01120
+366                            map00330;map00470;map01100
+378                                              map00460
+433                                              map00592
+457                                     map00960;map01110
+459                                     map00350;map01100
+464                            map00240;map01100;map01232
+469                   map00360;map00643;map01100;map01120
+479                   map00996;map01063;map01100;map01110
+493          map00232;map01060;map01100;map01110;map01120
+496                                     map00901;map01063
+498                                     map05200;map05215
+502                                     map00906;map01110
+539                            map00626;map01120;map01220
+542                            map00310;map00470;map01100
+546                                     map00965;map01110
+569                                              map00121
+578                                     map00627;map01120
+579                                              map07227
+590                            map00100;map01100;map01110
+608                                     map00440;map01110
+609     map00261;map00627;map01055;map01100;map01110;m...
+614                            map00130;map01100;map01110
+633     map00621;map00624;map00626;map00996;map01053;m...
+638                                     map00330;map01100
+653                                              map00440
+655          map00380;map00627;map01100;map01120;map01240
+662                                     map00950;map01063
+676     map00052;map00500;map01100;map01110;map02010;m...
+690                                     map00410;map01100
+704                            map00400;map01100;map01210
+711                                     map05012;map05022
+724     map00232;map01060;map01065;map01100;map01110;m...
+725                                              map07015
+738                            map00960;map01064;map01110
+744                                     map00403;map01110
+769                            map00730;map01100;map02010
+798                                     map00980;map05204
+817          map00642;map00643;map01100;map01120;map01220
+818          map00460;map00643;map01100;map01110;map01120
+864                            map00405;map01100;map01110
+869                            map00525;map01100;map01110
+870                            map00960;map01064;map01110
+873     map00624;map00980;map01120;map05204;map05207;m...
+876                                              map00600
+879     map00280;map00290;map00460;map00960;map00966;m...
+881                                     map00380;map01100
+882                            map00908;map01110;map04075
+883                                              map04075
+934                            map00760;map01100;map01120
+937                            map00240;map01100;map01232
+956                                              map00982
+960                                              map00564
+964                                              map00983
+1007                           map00410;map00340;map00350
+1061                           map00998;map01100;map01110
+1069                                    map00950;map01063
+1073                                             map00982
+1082                           map00230;map01100;map01120
+1097                                             map04750
+1110                                    map00624;map01120
+1112                                    map00760;map01120
+1119                                    map00073;map01100
+1142                  map00950;map01063;map01100;map01110
+1162                                    map00330;map01100
+1196                           map00966;map01110;map01210
+Warning: The "Lipidmaps_ID" column at position 7 in the METABOLITES table, matches a standard column name, "lm_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention index" column at position 2 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "retention index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.

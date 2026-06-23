@@ -1,8 +1,64 @@
 Validation Log
-2025-12-07 08:49:10.729041
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:42:45.861696
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006012/mwtab/json
 Study ID:      ST003601
 Analysis ID:   AN006012
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 5
+
+Number of Warnings: 4
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "35°C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Calc. MW" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+3         C7 H7 N O2
+5        C9 H17 N O4
+6        C7 H16 N O2
+7         C3 H7 N O2
+12        C4 H7 N O4
+14       C5 H11 N O2
+21       C7 H15 N O2
+27     C8 H20 N O6 P
+28        C2 H5 N O2
+30      C13 H25 N O4
+34        C5 H9 N O3
+35      C2 H7 N O2 S
+37      C8 H7 N O4 S
+39       C6 H13 N O2
+40       C10 H7 N O3
+41      C10 H13 N O3
+43      C19 H37 N O4
+44       C6 H13 N O2
+47     C5 H11 N O2 S
+49       C7 H11 N O5
+51        C4 H7 N O3
+52        C5 H9 N O4
+59       C9 H17 N O5
+60       C9 H11 N O2
+61    C40 H80 N O8 P
+62     C5 H14 N O4 P
+63        C5 H9 N O2
+64      C10 H19 N O4
+67        C8 H9 N O4
+70        C3 H7 N O3
+71       C7 H13 N O2
+73      C2 H7 N O3 S
+74    C12 H16 N4 O S
+75        C4 H9 N O3
+76        C7 H7 N O2
+78       C9 H11 N O3
+80         C H4 N2 O
+85       C5 H11 N O2
+87       C10 H7 N O4
+88       C8 H15 N O6
+Warning: The "RT [min]" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

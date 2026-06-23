@@ -1,9 +1,34 @@
 Validation Log
-2025-12-07 05:02:55.823818
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:00:56.849116
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN002967/mwtab/txt
 Study ID:      ST001828
 Analysis ID:   AN002967
 File format:   txt
-Status:Parsing Error
-('LINE WITH ERROR:\n\t', "'SUBJECT_SAMPLE_FACTORS           \\t-\\tSample0002\\tPRETERM BIRTH:YES\\tRAW_FILE_NAME=20180810-EX00864-A003-IN0026-S00035268-P;20180810-EX00864-A003-IN0026-S00035268-N'", IndexError('list index out of range'))
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 10
+
+Number of Value Errors: 10
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "Adduct type" column at position 3 in the METABOLITES table, matches a standard column name, "adduct". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 8 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB ID" column at position 5 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LipidMaps ID" column at position 6 in the METABOLITES table, matches a standard column name, "lm_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LipidMapsBulk ID" column at position 7 in the METABOLITES table, matches a standard column name, "lm_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Retention Time" column at position 2 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Sample2324" column at position 30 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "FoodDB ID" column at position 4 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "LipidMaps ID" column at position 6 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "PubChem ID" column at position 8 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

@@ -1,8 +1,219 @@
 Validation Log
-2025-12-07 03:51:59.769330
-mwtab Python Library Version: 1.2.5
+2026-06-21 03:05:46.391677
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN001903/mwtab/txt
 Study ID:      ST001153
 Analysis ID:   AN001903
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 17
+
+Number of Warnings: 12
+
+Number of Value Errors: 9
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "SUPER_PATHWAY" column at position 2 in the METABOLITES table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "SUB_PATHWAY" column at position 3 in the METABOLITES table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 9 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 10 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 11 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 8 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 8 in the METABOLITES table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                   56-41-7;
+1          56-41-7;107-95-9;
+2                 3025-95-4;
+3                 1492-24-6;
+4                   57-00-1;
+5                   60-27-5;
+6                 3347-90-8;
+7           52-90-4;56-89-3;
+8                  454-29-5;
+9                   63-68-3;
+10                  65-82-7;
+11                 107-35-7;
+12                  56-86-0;
+13                  56-85-9;
+14                  98-79-3;
+15               13081-14-6;
+16              103239-24-3;
+17                  70-18-8;
+18                 495-27-2;
+19                 107-43-7;
+20                1118-68-9;
+21                  56-40-6;
+22                 543-24-8;
+23                 107-97-1;
+24                  56-45-1;
+25                  72-19-5;
+26                5934-29-2;
+27       542-32-5;1118-90-7;
+28                  56-87-1;
+29               23284-33-5;
+30                4043-87-2;
+31                 938-96-5;
+32                6482-98-0;
+33                 501-52-0;
+34                2018-61-3;
+35                 937-34-8;
+36                 500-98-1;
+37                  63-91-2;
+38                  60-18-4;
+39                2457-80-9;
+40                 124-20-9;
+41                2642-37-7;
+43                2922-83-0;
+44                1218-34-4;
+45                 153-98-0;
+46                  73-22-3;
+47                1119-34-2;
+48                 372-75-8;
+49                1190-49-4;
+50                6205-08-9;
+51                3184-13-2;
+52                 147-85-3;
+53                  51-35-4;
+54                  57-13-6;
+55               31023-25-3;
+56                3715-29-5;
+57               51829-07-3;
+58                 816-66-0;
+59                 600-37-3;
+60                 625-08-1;
+61               99159-87-2;
+62               25518-49-4;
+63                  73-32-5;
+65               16284-60-9;
+66                  61-90-5;
+67                1188-21-2;
+68                  72-18-4;
+69               13752-84-6;
+70                 131-48-6;
+71                  57-48-7;
+72                3458-28-4;
+73                 154-58-5;
+74              102783-53-9;
+75               80731-10-8;
+76              102783-56-2;
+77                  50-99-7;
+78                 600-19-1;
+80                  79-33-4;
+81               10526-80-4;
+82                 127-17-3;
+83               70753-61-6;
+84               14875-96-8;
+85               68414-18-6;
+86                  98-92-0;
+87               6138-41-6 ;
+88                 137-08-6;
+89       59-02-9;10191-41-0;
+90                 585-84-2;
+91                  77-92-9;
+92                 100-17-8;
+93                6915-15-7;
+94                 110-15-6;
+96               94249-01-1;
+97               7664-38-2 ;
+98                1466-09-3;
+99                2393-58-0;
+100                 81-25-4;
+102                145-42-6;
+103             207737-97-1;
+104              14605-22-2;
+105              10457-99-5;
+106               5080-50-2;
+107                461-05-2;
+108               6249-56-5;
+109               6920-35-0;
+110               3671-77-0;
+112              81187-21-5;
+113              73837-14-6;
+115               6217-54-5;
+116              2234-74-4 ;
+117    10-2005-9;10417-94-4;
+118                 60-33-3;
+120              24003-67-6;
+121              25576-40-3;
+122             20208-73-5 ;
+123             17298-37-2 ;
+125               2724-59-6;
+127                123-99-9;
+129                629-22-1;
+130                 67-48-1;
+131                141-43-5;
+132              29849-82-9;
+133              28319-77-9;
+134               1071-23-4;
+135                643-12-9;
+136                 87-89-8;
+137              10284-63-6;
+138                 57-55-6;
+139                625-72-9;
+140              29743-97-3;
+141              73033-09-7;
+142               2091-25-0;
+143                506-32-1;
+144               2091-39-6;
+146                506-12-7;
+147                544-63-8;
+148               544-64-9 ;
+149                646-30-0;
+150                112-80-1;
+151                 57-10-3;
+152                373-49-9;
+153                 57-11-4;
+154            111174-40-4 ;
+161              19420-56-5;
+165              17364-16-8;
+169              19420-57-6;
+170              69747-55-3;
+178                112-37-8;
+179                142-62-1;
+180                124-07-2;
+181                111-14-8;
+182                143-07-7;
+183                112-05-0;
+184                123-94-4;
+186                474-62-4;
+187                 57-88-5;
+188               7023-27-0;
+189               4691-65-0;
+190              20398-34-9;
+191             149022-20-8;
+192               5550-12-9;
+193                 97-59-6;
+194        69-93-2;120K5305;
+195              50887-69-9;
+196               1445-07-4;
+197                 66-22-8;
+198                 58-96-8;
+199               1948-31-8;
+201               2566-39-4;
+202               7432-24-8;
+203               5652-48-2;
+204               7432-23-7;
+205               2746-34-1;
+206                 65-85-0;
+207                495-69-2;
+208                819-83-0;
+209                 79-14-1;
+210                142-73-4;
+212                 60-00-4;
+214              58511-63-0;
+215               1195-94-4;
+216               4136-37-2;
+217                149-32-6;
+Warning: The "COMP_ID" column at position 4 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention index" column at position 6 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "COMP_ID" was found in the METABOLITES table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The column "retention index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "COMP_ID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.

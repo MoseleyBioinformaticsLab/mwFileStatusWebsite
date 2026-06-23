@@ -1,8 +1,77 @@
 Validation Log
-2025-12-07 06:57:25.919465
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:24:13.968955
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004468/mwtab/json
 Study ID:      ST002754
 Analysis ID:   AN004468
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 18
+
+Number of Warnings: 10
+
+Number of Value Errors: 15
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["FLOW_GRADIENT"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "-", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "-", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["SOLVENT_A"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["SOLVENT_B"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"2^-deoxycytidine"
+	"2^-O-methylcytidine"
+	"5_6-dihydrothymine"
+	"5-methyl-2^-deoxycytidine"
+	"adenosine 5^-monophosphate (AMP)"
+	"cytidine 5^-monophosphate (5^-CMP)"
+	"glutathione_ oxidized (GSSG)"
+	"guanosine 5^-monophosphate (5^-GMP)"
+	"hydroxy-N6_N6_N6-trimethyllysine*"
+	"inosine 5^-monophosphate (IMP)"
+	"N2-acetyl_N6_N6-dimethyllysine"
+	"N2_N2-dimethylguanosine"
+	"N6_N6-dimethyllysine"
+	"N6_N6_N6-trimethyllysine"
+	"N_N-dimethylalanine"
+	"N_N-dimethyl-pro-pro"
+	"N_N_N-trimethyl-5-aminovalerate"
+	"N_N_N-trimethyl-alanylproline betaine (TMAP)"
+	"trans-3_4-methyleneheptanoylglycine"
+	"trigonelline (N^-methylnicotinate)"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"2'-deoxycytidine"
+	"2'-O-methylcytidine"
+	"5,6-dihydrothymine"
+	"5-methyl-2'-deoxycytidine"
+	"adenosine 5'-monophosphate (AMP)"
+	"cytidine 5'-monophosphate (5'-CMP)"
+	"glutathione, oxidized (GSSG)"
+	"guanosine 5'-monophosphate (5'-GMP)"
+	"hydroxy-N6,N6,N6-trimethyllysine*"
+	"inosine 5'-monophosphate (IMP)"
+	"N2-acetyl,N6,N6-dimethyllysine"
+	"N2,N2-dimethylguanosine"
+	"N6,N6-dimethyllysine"
+	"N6,N6,N6-trimethyllysine"
+	"N,N-dimethylalanine"
+	"N,N-dimethyl-pro-pro"
+	"N,N,N-trimethyl-5-aminovalerate"
+	"N,N,N-trimethyl-alanylproline betaine (TMAP)"
+	"trans-3,4-methyleneheptanoylglycine"
+	"trigonelline (N'-methylnicotinate)"
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "moverz_quant" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

@@ -1,8 +1,119 @@
 Validation Log
-2025-12-07 09:34:06.730021
-mwtab Python Library Version: 1.2.5
+2026-06-21 07:21:01.071099
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006681/mwtab/txt
 Study ID:      ST004042
 Analysis ID:   AN006681
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 14
+
+Number of Warnings: 11
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "21°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"11_12_15-THETA"
+	"11_14_15-THETA"
+	"11b_17a_21-Trihydroxypreg-nenolone"
+	"11b_21-Dihydroxy-3_20-oxo-5b-pregnan-18-al"
+	"11H-14_15-EETA"
+	"1_2-Dihydronaphthalene-1_2-diol"
+	"15H-11_12-EETA"
+	"16a-Hydroxyandrost-4-ene-3_17-dione"
+	"17alpha_21-Dihydroxypregnenolone"
+	"19-Hydroxyandrost-4-ene-3_17-dione"
+	"19-Oxoandrost-4-ene-3_17-dione"
+	"1a_11b-Dihydro-4_9-dimethylbenz[a]anthra[3_4-b]oxirene"
+	"(1aalpha_2beta_3alpha_11calpha)-1a_2_3_11c-Tetrahydro-6_11-dimethylbenzo[6_7]phenanthro[3_4-b]oxirene-2_3-diol"
+	"1-Nitronaphthalene-5_6-oxide"
+	"1-Nitronaphthalene-7_8-oxide"
+	"3_4-Dihydroxyphenylacetaldehyde"
+	"3_4-Dihydroxyphenylglycol"
+	"3a_21-Dihydroxy-5b-pregnane-11_20-dione"
+	"3a_7a_12a-Trihydroxy-5b-cholestan-26-al"
+	"3a_7a-Dihydroxycoprostanic acid"
+	"3beta_7alpha-Dihydroxy-5-cholestenoate"
+	"4a-Carboxy-4b-methyl-5a-cholesta-8_24-dien-3b-ol"
+	"5_10-Methylene-THF"
+	"5_6-Dihydro-5-fluorouracil"
+	"5_7_24(28)-Ergostatrienol"
+	"5a-Pregnane-3_20-dione"
+	"5^-Methylthioadenosine"
+	"7_12-Dimethylbenz[a]anthracene 5_6-oxide"
+	"7_8-Dihydroneopterin"
+	"ADP-ribose 2^-phosphate"
+	"Benzo[a]pyrene-4_5-oxide"
+	"Benzo[a]pyrene-7_8-dihydrodiol-9_10-oxide"
+	"Benzo[a]pyrene-7_8-diol"
+	"Benzo[a]pyrene-7_8-oxide"
+	"Benzo[a]pyrene-9_10-oxide"
+	"Biotinyl-5^-AMP"
+	"D-4^-Phosphopantothenate"
+	"Docosa-4_7_10_13_16-pentaenoyl CoA"
+	"N6_N6_N6-Trimethyl-L-lysine"
+	"Naphthalene-1_2-diol"
+	"trans-3_4-Dihydro-3_4-dihydroxy-7_12-dimethylbenz[a]anthracene"
+	"trans-5_6-Dihydro-5_6-dihydroxy-7_12-dimethylbenz[a]anthracene"
+	"Uridine 5^-monophosphate"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"11,12,15-THETA"
+	"11,14,15-THETA"
+	"11b,17a,21-Trihydroxypreg-nenolone"
+	"11b,21-Dihydroxy-3,20-oxo-5b-pregnan-18-al"
+	"11H-14,15-EETA"
+	"1,2-Dihydronaphthalene-1,2-diol"
+	"15H-11,12-EETA"
+	"16a-Hydroxyandrost-4-ene-3,17-dione"
+	"17alpha,21-Dihydroxypregnenolone"
+	"19-Hydroxyandrost-4-ene-3,17-dione"
+	"19-Oxoandrost-4-ene-3,17-dione"
+	"1a,11b-Dihydro-4,9-dimethylbenz[a]anthra[3,4-b]oxirene"
+	"(1aalpha,2beta,3alpha,11calpha)-1a,2,3,11c-Tetrahydro-6,11-dimethylbenzo[6,7]phenanthro[3,4-b]oxirene-2,3-diol"
+	"1-Nitronaphthalene-5,6-oxide"
+	"1-Nitronaphthalene-7,8-oxide"
+	"3,4-Dihydroxyphenylacetaldehyde"
+	"3,4-Dihydroxyphenylglycol"
+	"3a,21-Dihydroxy-5b-pregnane-11,20-dione"
+	"3a,7a,12a-Trihydroxy-5b-cholestan-26-al"
+	"3a,7a-Dihydroxycoprostanic acid"
+	"3beta,7alpha-Dihydroxy-5-cholestenoate"
+	"4a-Carboxy-4b-methyl-5a-cholesta-8,24-dien-3b-ol"
+	"5,10-Methylene-THF"
+	"5,6-Dihydro-5-fluorouracil"
+	"5,7,24(28)-Ergostatrienol"
+	"5a-Pregnane-3,20-dione"
+	"5'-Methylthioadenosine"
+	"7,12-Dimethylbenz[a]anthracene 5,6-oxide"
+	"7,8-Dihydroneopterin"
+	"ADP-ribose 2'-phosphate"
+	"Benzo[a]pyrene-4,5-oxide"
+	"Benzo[a]pyrene-7,8-dihydrodiol-9,10-oxide"
+	"Benzo[a]pyrene-7,8-diol"
+	"Benzo[a]pyrene-7,8-oxide"
+	"Benzo[a]pyrene-9,10-oxide"
+	"Biotinyl-5'-AMP"
+	"D-4'-Phosphopantothenate"
+	"Docosa-4,7,10,13,16-pentaenoyl CoA"
+	"N6,N6,N6-Trimethyl-L-lysine"
+	"Naphthalene-1,2-diol"
+	"trans-3,4-Dihydro-3,4-dihydroxy-7,12-dimethylbenz[a]anthracene"
+	"trans-5,6-Dihydro-5,6-dihydroxy-7,12-dimethylbenz[a]anthracene"
+	"Uridine 5'-monophosphate"
+Warning: The "ri" column at position 7 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "pubchem_id" column at position 2 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 3 in the METABOLITES table has all null values.
+Warning: The "kegg_id" column at position 4 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 6 in the METABOLITES table has all null values.
+Warning: The "ri" column at position 7 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 8 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 9 in the METABOLITES table has all null values.

@@ -1,8 +1,195 @@
 Validation Log
-2025-12-07 09:11:38.201047
-mwtab Python Library Version: 1.2.5
+2026-06-21 07:01:17.282930
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006275/mwtab/json
 Study ID:      ST003817
 Analysis ID:   AN006275
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 8
+
+Number of Warnings: 6
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.2 - 0.5 mL/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z (MS2, Da)" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+2                               8082|4880
+4                               7894|5620
+5                                239|3399
+14                       12376292|5319754
+16                               138|3720
+19                               138|3720
+21                            13387|13300
+27                              7965|3850
+29                      1738118|3344|1110
+34                             12647|3561
+37                               273|4816
+44                               617|5951
+47                            107812|3802
+53                               597|3670
+57                              1174|3406
+63                          5951|617|3365
+66                               743|3772
+68                             69217|5563
+69                           643658|10401
+76                              6287|1182
+77                              6287|3483
+82                              99289|205
+94                               243|3480
+95                               126|3906
+98                            165271|4117
+102                             1057|4340
+104                        12663|54675757
+106                             1135|3478
+119                             7047|8648
+121                          63100|439227
+123                  444539|3713|444539.0
+132                       21236|5038|9475
+134                            21236|5038
+140                      1088|3513|111314
+141               424|5960|83887|44367445
+149                              681|6517
+154                             7418|9420
+156                      978|3847|7057990
+157                    5570|4250|25046596
+158                           978|7057990
+159                      736715|1178|4043
+167                            72924|4265
+175                       776|165271|4117
+181                            10685|4206
+187                        107550|5351896
+189                           10256|10686
+193                             6038|8650
+196                        1102|3609|9539
+201                        33032|611|3327
+202                             150923|na
+207                             1050|3549
+213                           222656|3449
+225                           440266|4581
+238                           10457|10476
+243                         9750|833|3621
+262                        92136|469|4207
+271                           637540|4905
+272                          637540|11968
+278                            158980|847
+293                             1054|3608
+295                            2266|10460
+303                            70912|5673
+306                              397|5661
+313                         9750|833|3621
+315                           445858|4664
+316                            445858|709
+317                   92126|736186|445858
+318                             5202|4041
+324                       1713001|1549778
+332                            12332|3442
+338                           440311|7012
+347                             6723|4104
+348                             6723|4104
+365                           123689|4273
+367                          92907|583378
+371                             3845|4854
+378                             1826|7946
+386                           17076|13121
+395                          442356|46695
+401                          736186|12653
+405                         107126|644120
+416                            445027|643
+417                              643|5017
+418                     75619|273260|5906
+434                            64689|5793
+435                            5192|10475
+440                       439281|11096158
+442           92180|6776 CID:92180|418809
+453                            74839|2000
+469                       11622593|263469
+496                         188824|107738
+504     449093|15419|3661|3661 CID:449093
+506                            144|439280
+510                          9017|6708682
+523                          637775|10743
+529                           439224|3676
+562                       7021827|7021828
+563               5367559|5458201|5281437
+564                          605266|73285
+584                           445638|4668
+585                         445040|444475
+599                      506|4864|5326566
+607                       171548|253|3420
+623                           2002|700653
+650                           439182|7603
+651                             13730|636
+668                           445638|4668
+699                      4626626|23638286
+715                         115089|123725
+717                          5353620|3322
+721                       187790|3624|638
+730                       5280961|5280378
+741                       6537505|6439586
+761                      13917187|6439873
+776                       5316080|6246154
+790                             6175|3758
+791                     27476|260623|5506
+793                  5283387|1930|5353370
+801                            64959|1189
+813             3321899|841897 CID:644226
+826                     10469728|16061072
+848               6443013|5282947|5282948
+852                       5282945|5312830
+864                114739|123917|10685477
+881                       5280724|9966861
+882                      5283154|11976122
+900                             3238|3996
+912                      53394018|5283007
+925                           5470|444008
+939                     10236635|25320870
+940                      9966640|25320862
+1011               906|445063|439197|3568
+1083                 221493|3963|221493.0
+1085                      5283469|6436630
+1088               222528|440355|222528.0
+1094        9903|73707448|500165|11740284
+1135                      9963687|5283820
+1139               222528|440355|222528.0
+1146        6602503|440658|11458|872|7769
+1148                        5281327|86576
+1154             20849086|165243|14803430
+1192                     5282350|53394607
+1210                       53477696|91474
+1224                       5283956|159655
+1231                      131750324|92805
+1236                     5282349|53394606
+1261                         99474|234096
+1263                         6857447|8989
+1264                         8989|6857447
+1283                       53477807|65094
+1285                5282347|92161|6538275
+1286                       92094|11774029
+1297                            8343|8346
+1311                 27929|12544|22833540
+1315                          5250|442985
+1322                 219836|9874426|91439
+1343                            10140|755
+1346                       12310288|93353
+1370                     6675|8959|440567
+1372                22833541|5280458|4881
+1392                  18526330|10114|3230
+1405                   443055|3239|115196
+1443                       8959|6675|7544
+1444                      5281318|5353546
+1449                 16081932|1.6081932E7
+1463                      7850623|5283564
+1541                     10350317|6437081
+Warning: The "KEGG ID" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1282    c03968
+Warning: The "Retention time (min)" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

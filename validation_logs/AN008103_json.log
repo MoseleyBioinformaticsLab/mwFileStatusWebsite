@@ -1,0 +1,261 @@
+Validation Log
+2026-06-21 08:15:02.992333
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008103/mwtab/json
+Study ID:      ST004792
+Analysis ID:   AN008103
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 16
+
+Number of Warnings: 15
+
+Number of Value Errors: 14
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "40", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "SubClass" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_B_class" column at position 13 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_A_class" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_B_class" column at position 13 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_A_class" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_B_class" column at position 13 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      Chemical structure transformation maps;Global ...
+1      Chemical structure transformation maps;Global ...
+3      Chemical structure transformation maps;Global ...
+4              Global and overview maps;Lipid metabolism
+5                      Digestive system;Lipid metabolism
+6      Cell growth and death;Circulatory system;Endoc...
+7              Global and overview maps;Lipid metabolism
+9                                  Amino acid metabolism
+14     Digestive system;Global and overview maps;Lipi...
+16                Cell growth and death;Lipid metabolism
+18     Carbohydrate metabolism;Global and overview ma...
+19             Global and overview maps;Lipid metabolism
+22     Chemical structure transformation maps;Global ...
+23                                      Lipid metabolism
+24     Digestive system;Global and overview maps;Meta...
+29     Digestive system;Global and overview maps;Lipi...
+30                                      Lipid metabolism
+31     Global and overview maps;Membrane transport;Nu...
+36     Amino acid metabolism;Biosynthesis of other se...
+38     Carbohydrate metabolism;Digestive system;Globa...
+39     Global and overview maps;Membrane transport;Nu...
+41             Global and overview maps;Lipid metabolism
+42                                      Lipid metabolism
+43     Global and overview maps;Metabolism of terpeno...
+46     Amino acid metabolism;Cancer: overview;Global ...
+47     Biosynthesis of other secondary metabolites;Gl...
+48     Amino acid metabolism;Cancer: overview;Carbohy...
+51        Global and overview maps;Nucleotide metabolism
+52                                      Lipid metabolism
+55        Global and overview maps;Nucleotide metabolism
+56     Amino acid metabolism;Biosynthesis of other se...
+57     Amino acid metabolism;Carbohydrate metabolism;...
+63                                      Lipid metabolism
+64             Global and overview maps;Lipid metabolism
+66     Global and overview maps;Xenobiotics biodegrad...
+71     Biosynthesis of other secondary metabolites;Ch...
+72     Global and overview maps;Membrane transport;Nu...
+74     Biosynthesis of other secondary metabolites;Ch...
+77     Cancer: overview;Carbohydrate metabolism;Endoc...
+85        Amino acid metabolism;Global and overview maps
+88                     Digestive system;Lipid metabolism
+89     Amino acid metabolism;Global and overview maps...
+93                               Carbohydrate metabolism
+94                                      Lipid metabolism
+95        Amino acid metabolism;Global and overview maps
+96                                      Lipid metabolism
+98     Amino acid metabolism;Biosynthesis of other se...
+100    Global and overview maps;Xenobiotics biodegrad...
+102    Digestive system;Global and overview maps;Meta...
+109    Global and overview maps;Membrane transport;Nu...
+112                                     Lipid metabolism
+117    Biosynthesis of other secondary metabolites;Gl...
+118    Carbohydrate metabolism;Cardiovascular disease...
+121            Global and overview maps;Lipid metabolism
+131    Cancer: overview;Cancer: specific types;Global...
+139            Global and overview maps;Lipid metabolism
+142       Amino acid metabolism;Global and overview maps
+144    Global and overview maps;Metabolism of cofacto...
+155                                     Lipid metabolism
+158                                     Digestive system
+159    Biosynthesis of other secondary metabolites;Gl...
+198    Amino acid metabolism;Global and overview maps...
+202    Cancer: overview;Global and overview maps;Xeno...
+229    Amino acid metabolism;Biosynthesis of other se...
+232          Biosynthesis of other secondary metabolites
+266    Biosynthesis of other secondary metabolites;Ch...
+274    Carbohydrate metabolism;Global and overview ma...
+315    Amino acid metabolism;Cancer: overview;Cellula...
+342    Chemical structure transformation maps;Global ...
+351    Global and overview maps;Metabolism of cofacto...
+365    Biosynthesis of other secondary metabolites;Gl...
+381     Carbohydrate metabolism;Global and overview maps
+391                 Metabolism of cofactors and vitamins
+397                                Amino acid metabolism
+403    Chemical structure transformation maps;Global ...
+417    Global and overview maps;Metabolism of cofacto...
+431    Global and overview maps;Metabolism of cofacto...
+442    Carbohydrate metabolism;Digestive system;Globa...
+483    Amino acid metabolism;Biosynthesis of other se...
+491                             Global and overview maps
+507    Biosynthesis of other secondary metabolites;Gl...
+512    Biosynthesis of other secondary metabolites;Gl...
+516    Global and overview maps;Xenobiotics biodegrad...
+525     Carbohydrate metabolism;Global and overview maps
+532           Energy metabolism;Global and overview maps
+549    Global and overview maps;Metabolism of terpeno...
+554            Global and overview maps;Lipid metabolism
+558    Global and overview maps;Metabolism of terpeno...
+567    Global and overview maps;Metabolism of cofacto...
+572     Carbohydrate metabolism;Global and overview maps
+601    Biosynthesis of other secondary metabolites;Ch...
+620    Global and overview maps;Metabolism of other a...
+636    Global and overview maps;Xenobiotics biodegrad...
+672    Digestive system;Global and overview maps;Nucl...
+729       Amino acid metabolism;Global and overview maps
+730    Amino acid metabolism;Digestive system;Drug re...
+735     Carbohydrate metabolism;Global and overview maps
+737    Biosynthesis of other secondary metabolites;Gl...
+753    Global and overview maps;Metabolism of other a...
+769    Chemical structure transformation maps;Global ...
+772    Global and overview maps;Metabolism of other a...
+790    Amino acid metabolism;Carbohydrate metabolism;...
+807    Cancer: overview;Global and overview maps;Xeno...
+820                 Metabolism of cofactors and vitamins
+827    Amino acid metabolism;Drug resistance: antimic...
+844    Digestive system;Global and overview maps;Memb...
+Warning: The "KEGG_A_class" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                          Metabolism;Organismal Systems
+1                                             Metabolism
+3                                             Metabolism
+4                                             Metabolism
+5                          Metabolism;Organismal Systems
+6      Cellular Processes;Drug Development;Human Dise...
+7                                             Metabolism
+9                                             Metabolism
+14                         Metabolism;Organismal Systems
+16                         Cellular Processes;Metabolism
+18       Environmental Information Processing;Metabolism
+19                                            Metabolism
+22       Environmental Information Processing;Metabolism
+23                                            Metabolism
+24                         Metabolism;Organismal Systems
+29                         Metabolism;Organismal Systems
+30                                            Metabolism
+31       Environmental Information Processing;Metabolism
+36     Environmental Information Processing;Genetic I...
+38     Environmental Information Processing;Metabolis...
+39       Environmental Information Processing;Metabolism
+41                                            Metabolism
+42                                            Metabolism
+43                                            Metabolism
+46                             Human Diseases;Metabolism
+47                                            Metabolism
+48     Environmental Information Processing;Genetic I...
+51                                            Metabolism
+52                                            Metabolism
+55                                            Metabolism
+56                                            Metabolism
+57                                            Metabolism
+63                                            Metabolism
+64                                            Metabolism
+66                                            Metabolism
+71       Environmental Information Processing;Metabolism
+72       Environmental Information Processing;Metabolism
+74                                            Metabolism
+77     Cellular Processes;Environmental Information P...
+85                                            Metabolism
+88                         Metabolism;Organismal Systems
+89                             Human Diseases;Metabolism
+93                                            Metabolism
+94                                            Metabolism
+95                                            Metabolism
+96                                            Metabolism
+98                                            Metabolism
+100                                           Metabolism
+102                        Metabolism;Organismal Systems
+109      Environmental Information Processing;Metabolism
+112                                           Metabolism
+117                                           Metabolism
+118    Environmental Information Processing;Human Dis...
+121                                           Metabolism
+131         Human Diseases;Metabolism;Organismal Systems
+139                                           Metabolism
+142                                           Metabolism
+144                                           Metabolism
+155                                           Metabolism
+158                                   Organismal Systems
+159                                           Metabolism
+198                                           Metabolism
+202                            Human Diseases;Metabolism
+229    Environmental Information Processing;Human Dis...
+232                                           Metabolism
+266                                           Metabolism
+274      Environmental Information Processing;Metabolism
+315    Cellular Processes;Environmental Information P...
+342                                           Metabolism
+351                                           Metabolism
+365                                           Metabolism
+381                                           Metabolism
+391                                           Metabolism
+397                                           Metabolism
+403                                           Metabolism
+417                                           Metabolism
+431                                           Metabolism
+442                        Metabolism;Organismal Systems
+483                                           Metabolism
+491                                           Metabolism
+507                                           Metabolism
+512                                           Metabolism
+516                                           Metabolism
+525                                           Metabolism
+532                                           Metabolism
+549                                           Metabolism
+554                                           Metabolism
+558                                           Metabolism
+567                                           Metabolism
+572                                           Metabolism
+601                                           Metabolism
+620                                           Metabolism
+636                                           Metabolism
+672                        Metabolism;Organismal Systems
+729                                           Metabolism
+730         Human Diseases;Metabolism;Organismal Systems
+735                                           Metabolism
+737                                           Metabolism
+753                                           Metabolism
+769                                           Metabolism
+772                                           Metabolism
+790    Cellular Processes;Environmental Information P...
+807                            Human Diseases;Metabolism
+820                                           Metabolism
+827         Human Diseases;Metabolism;Organismal Systems
+844    Environmental Information Processing;Metabolis...
+Warning: The "HMDB" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+204    HMDB0240464_msms_2237394
+Warning: The "CAS" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0        21128
+3        21096
+58     1157880
+85     1572591
+192     422955
+411    2044420
+427     118617
+483     320114
+487    1911988
+663      33186
+716     173248
+790      20791
+830    1240853
+Warning: The "RT" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column, "KEGG_B_class", in the ["MS_METABOLITE_DATA"]["Metabolites"] table was matched to multiple standard names, ['class', 'kegg_id']. This is a good indication that the values in that column should be split into the appropriate individual columns.
+Warning: The column, "KEGG_A_class", in the ["MS_METABOLITE_DATA"]["Metabolites"] table was matched to multiple standard names, ['class', 'kegg_id']. This is a good indication that the values in that column should be split into the appropriate individual columns.

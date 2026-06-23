@@ -1,8 +1,564 @@
 Validation Log
-2025-12-07 05:19:01.300154
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:13:43.236766
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003169/mwtab/json
 Study ID:      ST001947
 Analysis ID:   AN003169
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 280
+
+Number of Warnings: 270
+
+Number of Value Errors: 277
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 2
+
+Issue Log:
+Error: The value, "17 day after germination", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "250", in ["MS"]["ION_SOURCE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["CHROMATOGRAPHY"]["FLOW_GRADIENT"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "1 ml/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "80", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "230", in ["CHROMATOGRAPHY"]["INJECTION_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Error: The value, "280℃", in ["CHROMATOGRAPHY"]["TRANSFERLINE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "10 µl", in ["CHROMATOGRAPHY"]["SAMPLE_SYRINGE_SIZE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The required property, "SOLVENT_A", in ["CHROMATOGRAPHY"] is missing.
+Error: The required property, "SOLVENT_B", in ["CHROMATOGRAPHY"] is missing.
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][0] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][1] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][2] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][3] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][4] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][5] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][6] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][7] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][8] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][9] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][10] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][11] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][12] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][13] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][14] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][15] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][16] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][17] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][18] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][19] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][20] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][21] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][22] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][23] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][24] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][25] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][26] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][27] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][28] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][29] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][30] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][31] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][32] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][33] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][34] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][35] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][36] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][37] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][38] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][39] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][40] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][41] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][42] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][43] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][44] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][45] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][46] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][47] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][48] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][49] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][50] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][51] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][52] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][53] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][54] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][55] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][56] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][57] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][58] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][59] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][60] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][61] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][62] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][63] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][64] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][65] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][66] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][67] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][68] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][69] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][70] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][71] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][72] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][73] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][74] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][75] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][76] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][77] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][78] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][79] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][80] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][81] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][82] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][83] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][84] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][85] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][86] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][87] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][88] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][89] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][90] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][91] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][92] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][93] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][94] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][95] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][96] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][97] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][98] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][99] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][100] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][101] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][102] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][103] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][104] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][105] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][106] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][107] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][108] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][109] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][110] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][111] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][112] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][113] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][114] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][115] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][116] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][117] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][118] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][119] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][120] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][121] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][122] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][123] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][124] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][125] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][126] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][127] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][128] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][129] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][130] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][131] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][132] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][133] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][134] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][135] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][136] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][137] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][138] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][139] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][140] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][141] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][142] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][143] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][144] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][145] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][146] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][147] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][148] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][149] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][150] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][151] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][152] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][153] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][154] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][155] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][156] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][157] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][158] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][159] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][160] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][161] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][162] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][163] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][164] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][165] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][166] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][167] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][168] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][169] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][170] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][171] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][172] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][173] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][174] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][175] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][176] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][177] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][178] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][179] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][180] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][181] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][182] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][183] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][184] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][185] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][186] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][187] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][188] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][189] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][190] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][191] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][192] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][193] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][194] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][195] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][196] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][197] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][198] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][199] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][200] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][201] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][202] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][203] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][204] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][205] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][206] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][207] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][208] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][209] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][210] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][211] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][212] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][213] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][214] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][215] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][216] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][217] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][218] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][219] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][220] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][221] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][222] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][223] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][224] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][225] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][226] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][227] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][228] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][229] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][230] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][231] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][232] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][233] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][234] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][235] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][236] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][237] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][238] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][239] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][240] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][241] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][242] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][243] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][244] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][245] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][246] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][247] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][248] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][249] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][250] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][251] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][252] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][253] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][254] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][255] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][256] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][257] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][258] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][259] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][260] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][261] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][262] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][263] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][264] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The "quantified m/z" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention index" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "retention index" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.

@@ -1,12 +1,31 @@
 Validation Log
-2025-12-07 06:55:50.682094
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:23:24.315402
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004453/mwtab/json
 Study ID:      ST002746
 Analysis ID:   AN004453
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 12
 
-Error Log:
-SCHEMA: Section "CHROMATOGRAPHY" does not match the allowed schema. Wrong key 'SOLVENT_C' in OrderedDict([('CHROMATOGRAPHY_SUMMARY', 'We use a 7890A GC coupled with a LECO TOF. 0.5 uL of derivatized sample is injected using a splitless method onto a RESTEK RTX-5SIL MS column with an Intergra-Guard at 275C with a helium flow of 1 mL/min. The GC oven is set to hold at 50C for 1 min then ramp to 20C/min to 330C and then hold for 5 min. The transferline is set to 280C while the EI ion source is set to 250C. The Mass spec parameters collect data from 85m/z to 500m/z at an acquisition rate of 17 spectra/sec.'), ('CHROMATOGRAPHY_TYPE', 'GC'), ('INSTRUMENT_NAME', 'Agilent 7890A'), ('COLUMN_NAME', 'Restek Rtx-5Sil MS (30m x 0.25mm, 0.25um)'), ('SOLVENT_A', 'N/A for GC'), ('SOLVENT_B', 'N/A for GC'), ('SOLVENT_C', 'N/A for GC'), ('FLOW_GRADIENT', 'N/A for GC'), ('FLOW_RATE', '-'), ('COLUMN_TEMPERATURE', '-')])
+Number of Warnings: 8
+
+Number of Value Errors: 10
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "Male and female", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "-", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "-", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid subsection, "SOLVENT_C", in ["CHROMATOGRAPHY"].
+Warning: The "quant mz" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "mass spec" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass_spectrum". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InChI Key" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "BB id" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "binbase_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ret.index" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "ret.index" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.

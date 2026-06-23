@@ -1,12 +1,25 @@
 Validation Log
-2025-12-07 07:47:10.889203
-mwtab Python Library Version: 1.2.5
+2026-06-21 05:57:52.470505
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005046/mwtab/json
 Study ID:      ST003086
 Analysis ID:   AN005046
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 5
 
-Error Log:
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {''} found in MS_METABOLITE_DATA section.
+Number of Warnings: 1
+
+Number of Value Errors: 4
+
+Number of Consistency Errors: 1
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.150mL/minute", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "25", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: SUBJECT_SAMPLE_FACTORS section missing sample ID(s). The following IDs were found in the ["MS_METABOLITE_DATA"]["Data"] section but not in the SUBJECT_SAMPLE_FACTORS:
+	""
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Data"] table.
+Warning: The "" column at position 16 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.

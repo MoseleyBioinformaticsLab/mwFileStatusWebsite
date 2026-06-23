@@ -1,0 +1,21 @@
+Validation Log
+2026-06-21 07:01:46.505850
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007476/mwtab/json
+Study ID:      ST003824
+Analysis ID:   AN007476
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 2
+
+Number of Warnings: 0
+
+Number of Value Errors: 1
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "25", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The ["MS_METABOLITE_DATA"]["Metabolites"] table does not have a column for "Metabolite". It is likely misspelled or using a common incorrect substitute.

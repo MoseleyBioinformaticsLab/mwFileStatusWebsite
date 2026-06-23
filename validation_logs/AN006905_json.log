@@ -1,8 +1,235 @@
 Validation Log
-2025-12-07 09:44:24.851118
-mwtab Python Library Version: 1.2.5
+2026-06-21 07:30:33.935776
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006905/mwtab/json
 Study ID:      ST004161
 Analysis ID:   AN006905
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 13
+
+Number of Warnings: 9
+
+Number of Value Errors: 13
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value in ["SUBJECT"]["WEIGHT_OR_WEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value in ["SUBJECT"]["HEIGHT_OR_HEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['cm', 'in']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Warning: The "Exact mass" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Plasma MS Compounds" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "compound". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "refmet". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      RM0041578
+1      RM0013474
+2      RM0134983
+3      RM0153554
+4      RM0139716
+5      RM0153673
+6      RM0133220
+7      RM0153706
+8      RM0074032
+9      RM0153036
+10     RM0135977
+11     RM0050309
+12     RM0135949
+13     RM0152271
+14     RM0136103
+15     RM0049546
+16     RM0152879
+17     RM0139419
+18     RM0135976
+19     RM0140414
+20     RM0155771
+21     RM0136787
+23     RM0135960
+24     RM0030084
+25     RM0135989
+27     RM0138932
+28     RM0155882
+29     RM0136104
+30     RM0049281
+31     RM0137319
+32     RM0149937
+33     RM0032913
+34     RM0118303
+35     RM0032940
+36     RM0135911
+37     RM0136116
+38     RM0135430
+39     RM0138921
+40     RM0013238
+41     RM0135975
+42     RM0153612
+43     RM0118068
+44     RM0138930
+45     RM0153048
+46     RM0159931
+47     RM0028735
+48     RM0159092
+49     RM0135803
+50     RM0135845
+51     RM0135798
+52     RM0021619
+53     RM0153097
+54     RM0042389
+55     RM0135884
+56     RM0136022
+57     RM0138923
+58     RM0135767
+59     RM0135881
+60     RM0135885
+61     RM0041317
+62     RM0028587
+63     RM0042981
+64     RM0136074
+65     RM0136028
+66     RM0126048
+67     RM0115777
+68     RM0153385
+69     RM0135878
+70     RM0156978
+71     RM0136095
+72     RM0136070
+73     RM0041611
+74     RM0171550
+75     RM0155934
+76     RM0153926
+77     RM0109018
+78     RM0136734
+79     RM0135891
+80     RM0034128
+81     RM0136106
+82     RM0153263
+83     RM0157563
+84     RM0033168
+85     RM0050559
+86     RM0158253
+87     RM0138848
+88     RM0155912
+89     RM0136090
+90     RM0135901
+91     RM0155778
+92     RM0034698
+93     RM0135902
+94     RM0160118
+95     RM0135850
+96     RM0135849
+97     RM0136958
+98     RM0136084
+99     RM0040234
+100    RM0135980
+101    RM0135890
+102    RM0042979
+103    RM0028119
+104    RM0135895
+105    RM0000534
+106    RM0189436
+107    RM0135909
+108    RM0040827
+109    RM0044363
+110    RM0136180
+111    RM0028186
+112    RM0136735
+113    RM0153214
+114    RM0152814
+115    RM0032431
+116    RM0135904
+117    RM0155925
+118    RM0149976
+119    RM0152834
+120    RM0013328
+121    RM0155949
+122    RM0135894
+123    RM0153373
+124    RM0156013
+125    RM0153291
+126    RM0155938
+127    RM0135630
+128    RM0149933
+129    RM0028432
+130    RM0152460
+131    RM0134990
+132    RM0153668
+133    RM0135967
+134    RM0153483
+135    RM0135990
+136    RM0136005
+137    RM0027165
+138    RM0135964
+139    RM0135920
+140    RM0136738
+141    RM0138125
+142    RM0161627
+143    RM0138929
+144    RM0162118
+145    RM0136012
+146    RM0136399
+147    RM0133216
+148    RM0135867
+149    RM0136031
+150    RM0156700
+151    RM0048090
+152    RM0012553
+153    RM0020531
+154    RM0060581
+155    RM0033030
+156    RM0134987
+157    RM0139022
+158    RM0156424
+159    RM0153571
+160    RM0136110
+161    RM0136730
+162    RM0060576
+163    RM0153758
+164    RM0029184
+165    RM0056200
+166    RM0012471
+168    RM0135926
+169    RM0136177
+170    RM0040766
+171    RM0155969
+172    RM0033386
+173    RM0156781
+174    RM0134967
+175    RM0135916
+176    RM0135889
+177    RM0135419
+178    RM0158596
+179    RM0020730
+180    RM0155901
+181    RM0136206
+182    RM0155940
+183    RM0134985
+184    RM0134982
+185    RM0159895
+186    RM0125951
+187    RM0033602
+188    RM0018304
+189    RM0136130
+190    RM0162751
+191    RM0135927
+192    RM0040235
+193    RM0118176
+194    RM0032432
+195    RM0135932
+196    RM0133219
+197    RM0135928
+198    RM0002833
+199    RM0135934
+200    RM0160856
+201    RM0135930
+202    RM0161017
+203    RM0032268
+204    RM0051121
+205    RM0155911
+Warning: The "Super class" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Main class" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Sub class" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

@@ -1,8 +1,43 @@
 Validation Log
-2025-12-07 06:06:03.235862
-mwtab Python Library Version: 1.2.5
+2026-06-21 04:45:55.533191
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN003729/mwtab/txt
 Study ID:      ST002283
 Analysis ID:   AN003729
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 7
+
+Number of Warnings: 3
+
+Number of Value Errors: 7
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "61-91", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "45°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "5μL", for the subsection, "SAMPLE_INJECTION", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "300°C", for the subsection, "INJECTION_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Warning: The "Molecular Weight" column at position 3 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+10         C2 H7 N O3 S
+14         C7 H5 N O3 S
+16          C8 H F15 O2
+17          C9 H F17 O2
+18          C6 H F11 O2
+19          C7 H F13 O2
+20          C9 H19 N O4
+25          C7 H13 N O3
+27           C9 H9 N O4
+36          C10 H7 N O3
+43          C6 H13 N O2
+50        C9 H19 N O4 S
+55        C5 H11 N O4 S
+63           C5 H7 N O3
+66         C8 H7 N O4 S
+69    C12 H11 Cl F N O2
+84         C18 H31 N O4
+Warning: The "RT [min]" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

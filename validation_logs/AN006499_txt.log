@@ -1,8 +1,102 @@
 Validation Log
-2025-12-07 09:26:12.664126
-mwtab Python Library Version: 1.2.5
+2026-06-21 07:12:59.086474
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006499/mwtab/txt
 Study ID:      ST003954
 Analysis ID:   AN006499
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 7
+
+Number of Warnings: 6
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "40°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "quantified m/z" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 4 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 4 in the METABOLITES table, matches a standard column name, "pubchem_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     HMDB06248
+1     HMDB02166
+2     HMDB02123
+3     HMDB00001
+5     HMDB03911
+6     HMDB01885
+7     HMDB06116
+8     HMDB00021
+9     HMDB00479
+10    HMDB03681
+11    HMDB03355
+14    HMDB01901
+15    HMDB00161
+17    HMDB00517
+18    HMDB00168
+19    HMDB00191
+20    HMDB00706
+21    HMDB00056
+22    HMDB00064
+24    HMDB00574
+25    HMDB03459
+26    HMDB00742
+28    HMDB00641
+29    HMDB00148
+31    HMDB00123
+32    HMDB00721
+33    HMDB28848
+34    HMDB03584
+35    HMDB00177
+36    HMDB00670
+38    HMDB00172
+39    HMDB00715
+40    HMDB00684
+41    HMDB00033
+42    HMDB00904
+43    HMDB00099
+44    HMDB00687
+45    HMDB00679
+46    HMDB00676
+47    HMDB00214
+48    HMDB00716
+49    HMDB34365
+50    HMDB29217
+51    HMDB00182
+52    HMDB00696
+53    HMDB02005
+54    HMDB00092
+55    HMDB00206
+56    HMDB02189
+57    HMDB00812
+58    HMDB00866
+59    HMDB00230
+60    HMDB01200
+61    HMDB00759
+62    HMDB03269
+63    HMDB04620
+64    HMDB06029
+65    HMDB00272
+66    HMDB01867
+67    HMDB00159
+69    HMDB00162
+70    HMDB00939
+71    HMDB00271
+72    HMDB00187
+73    HMDB00731
+74    HMDB00254
+75    HMDB00167
+76    HMDB00725
+77    HMDB00925
+78    HMDB00929
+79    HMDB29082
+80    HMDB00158
+81    HMDB00294
+82    HMDB00883
+84    HMDB00112
+85    HMDB01049
+Warning: The "KEGG ID" column at position 5 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention index" column at position 2 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "retention index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.

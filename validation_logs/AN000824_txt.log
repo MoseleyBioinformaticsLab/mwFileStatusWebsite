@@ -1,8 +1,51 @@
 Validation Log
-2025-12-07 02:36:43.364656
-mwtab Python Library Version: 1.2.5
+2026-06-21 02:07:50.188345
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN000824/mwtab/txt
 Study ID:      ST000542
 Analysis ID:   AN000824
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 32
+
+Number of Warnings: 26
+
+Number of Value Errors: 26
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 5
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "MS_COMMENTS", in the "MS" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The required property, "FLOW_GRADIENT", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "FLOW_RATE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_A", in the "CHROMATOGRAPHY" section  is missing.
+Error: The required property, "SOLVENT_B", in the "CHROMATOGRAPHY" section  is missing.
+Warning: The "quantified m/z" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 4 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG ID" column at position 5 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention index" column at position 2 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "retention index" was found in the METABOLITES table, but this column implies that another column, "retention_index_type", should also exist, and that column was not found.
+Warning: The "1A-180" column at position 2 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "1A-480" column at position 3 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "2A-180" column at position 6 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "3A-180" column at position 10 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "3A-480" column at position 11 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "5A-180" column at position 14 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "5A-480" column at position 15 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "8A-180" column at position 22 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "14A-180" column at position 26 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "14A-480" column at position 27 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "14B-180" column at position 28 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "14B-480" column at position 29 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "16B-180" column at position 34 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "16B-480" column at position 35 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "16C-480" column at position 37 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "18A-180" column at position 38 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "19A-180" column at position 42 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "retention index" column at position 2 in the METABOLITES table has all null values.
+Warning: The "quantified m/z" column at position 3 in the METABOLITES table has all null values.
+Warning: The "PubChem ID" column at position 4 in the METABOLITES table has all null values.
+Warning: The "KEGG ID" column at position 5 in the METABOLITES table has all null values.

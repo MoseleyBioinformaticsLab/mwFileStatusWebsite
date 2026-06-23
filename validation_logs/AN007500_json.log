@@ -1,0 +1,70 @@
+Validation Log
+2026-06-21 07:54:35.595749
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007500/mwtab/json
+Study ID:      ST004474
+Analysis ID:   AN007500
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 51
+
+Number of Warnings: 48
+
+Number of Value Errors: 50
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "0.15mL/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "25", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Media_2" column at position 50 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_3" column at position 51 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_4" column at position 52 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_5" column at position 53 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_6" column at position 54 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_7" column at position 55 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_8" column at position 56 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_9" column at position 57 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_10" column at position 58 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_11" column at position 59 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_12" column at position 60 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_13" column at position 61 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_14" column at position 62 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_15" column at position 63 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_16" column at position 64 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_17" column at position 65 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_18" column at position 66 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_19" column at position 67 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_20" column at position 68 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_21" column at position 69 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_22" column at position 70 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_23" column at position 71 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_24" column at position 72 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_25" column at position 73 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_26" column at position 74 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_27" column at position 75 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_28" column at position 76 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_29" column at position 77 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_30" column at position 78 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_31" column at position 79 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_32" column at position 80 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_33" column at position 81 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_34" column at position 82 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_35" column at position 83 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_36" column at position 84 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_37" column at position 85 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_38" column at position 86 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_39" column at position 87 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_40" column at position 88 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_41" column at position 89 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_42" column at position 90 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_43" column at position 91 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_44" column at position 92 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_45" column at position 93 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_46" column at position 94 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_47" column at position 95 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_48" column at position 96 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Media_extraction_buffer" column at position 99 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Error: The ["MS_METABOLITE_DATA"]["Metabolites"] table does not have a column for "Metabolite". It is likely misspelled or using a common incorrect substitute.

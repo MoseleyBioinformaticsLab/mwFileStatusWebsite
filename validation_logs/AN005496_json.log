@@ -1,12 +1,27 @@
 Validation Log
-2025-12-07 08:16:21.692893
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:22:44.401019
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005496/mwtab/json
 Study ID:      ST003355
 Analysis ID:   AN005496
 File format:   json
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 7
 
-Error Log:
-SUBJECT_SAMPLE_FACTORS: Section missing sample ID(s) {''} found in MS_METABOLITE_DATA section.
+Number of Warnings: 3
+
+Number of Value Errors: 6
+
+Number of Consistency Errors: 1
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.2 ml/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: SUBJECT_SAMPLE_FACTORS section missing sample ID(s). The following IDs were found in the ["MS_METABOLITE_DATA"]["Data"] section but not in the SUBJECT_SAMPLE_FACTORS:
+	""
+Warning: The "Precursor Ion" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ion". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Product Ion" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ion". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Data"] table.
+Warning: The "" column at position 17 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.

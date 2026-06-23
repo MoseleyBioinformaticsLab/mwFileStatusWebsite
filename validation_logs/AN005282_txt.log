@@ -1,12 +1,22 @@
 Validation Log
-2025-12-07 08:01:35.549312
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:10:33.593415
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005282/mwtab/txt
 Study ID:      ST003221
 Analysis ID:   AN005282
 File format:   txt
-Status: Contains Validation Errors
-Number Errors: 1
+Status: Contains Validation Issues
+Number of Issues: 3
 
-Error Log:
-SCHEMA: Section "ANALYSIS" does not match the allowed schema. Missing key: 'ANALYSIS_TYPE'
+Number of Warnings: 0
+
+Number of Value Errors: 1
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 2
+
+Issue Log:
+Error: The required property, "ANALYSIS_TYPE", in the "ANALYSIS" section  is missing.
+Error: The value, "15", for the subsection, "TEMPERATURE", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "FACTORS".

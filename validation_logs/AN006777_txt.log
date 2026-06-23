@@ -1,0 +1,3051 @@
+Validation Log
+2026-06-21 07:24:40.850937
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006777/mwtab/txt
+Study ID:      ST004088
+Analysis ID:   AN006777
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 14
+
+Number of Warnings: 8
+
+Number of Value Errors: 14
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "GENOTYPE_STRAIN", in the "SUBJECT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "We are blinded to this information", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "We are blinded to this information", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "We are blinded to this information", for the subsection, "HEIGHT_OR_HEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['cm', 'in']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "40°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Mass Accuracy Score" column at position 3 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Molecular Weight" column at position 10 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Molecular Formula" column at position 9 in the METABOLITES table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Molecular Formula" column at position 9 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                C 5H 9NO 4
+1                C 5H 9NO 4
+2               C 2H 7NO 3S
+3                C 4H 7NO 4
+4                C 5H 9NO 4
+5                C 5H 9NO 4
+6                C 4H 7NO 4
+7            C 21H 22N 2O 3
+8           C 16H 19N 3O 5S
+9                C 5H 7NO 3
+10               C 4H 9NO 2
+11           C 14H 17N 5O 8
+12           C 15H 24N 6O 5
+13               C 9H 10O 4
+14               C 9H 10O 4
+15               C 9H 10O 4
+16               C 9H 10O 4
+17               C 9H 12O 5
+18               C 8H 10O 4
+19                C 9H 8O 3
+20               C 8H 10O 3
+21               C 9H 10O 4
+22               C 9H 10O 3
+23               C 9H 10O 3
+24               C 9H 10O 3
+25               C 9H 12O 4
+26              C 9H 11NO 2
+27                  C 8H 8O
+28                C 5H 8O 5
+29                C 5H 8O 5
+30                C 5H 8O 5
+31               C 5H 10O 6
+32               C 5H 9NO 4
+33             C 11H 19NO 9
+34             C 11H 19NO 9
+35             C 11H 17NO 8
+36           C 12H 17N 5O 6
+37              C 7H 13NO 3
+38              C 7H 13NO 3
+39              C 8H 15NO 3
+40              C 7H 13NO 3
+41              C 5H 11NO 2
+42              C 8H 15NO 3
+43               C 6H 12O 6
+44               C 6H 12O 6
+45               C 6H 12O 6
+46               C 6H 12O 6
+47               C 6H 10O 5
+48                C 6H 8O 4
+49              C 6H 13NO 5
+50               C 5H 9NO 3
+51            C 7H 10N 4O 3
+52               C 6H 10O 5
+53             C 11H 11NO 3
+54             C 11H 11NO 3
+55             C 11H 13NO 4
+56           C 11H 12N 2O 2
+57           C 11H 12N 2O 2
+58           C 11H 12N 2O 2
+59              C 21H 30O 9
+60               C 9H 12O 4
+61               C 9H 12O 4
+62             C 10H 10N 4O
+63               C 9H 12O 4
+64           C 31H 42N 6O 4
+65              C 9H 17NO 4
+66          C 24H 44N 6O 6S
+67              C 8H 15NO 2
+68             C 18H 32O 15
+69             C 18H 32O 15
+70              C 19H 18O 6
+71              C 19H 18O 6
+72             C 12H 22O 11
+73             C 12H 22O 11
+74             C 12H 22O 11
+75              C 20H 20O 9
+76              C 20H 18O 8
+77              C 19H 18O 6
+78              C 20H 18O 8
+79               C 6H 12O 5
+80              C 20H 18O 8
+81              C 15H 12O 3
+82             C 11H 19NO 9
+83            C 8H 16N 2O 3
+84           C 7H 14N 2O 4S
+85               C 8H 14O 7
+86              C 20H 22O 7
+87              C 20H 22O 7
+88              C 20H 22O 7
+89             C 12H 22O 11
+90              C 20H 24O 8
+91              C 19H 18O 6
+92              C 19H 16O 5
+93           C 18H 18N 2O 4
+94              C 9H 11N 5O
+95           C 19H 20N 2O 8
+96           C 19H 20N 2O 8
+97             C 18H 32O 15
+98               C 7H 14O 7
+99              C 15H 12O 3
+100             C 15H 12O 3
+101             C 15H 12O 3
+102            C 15H 13NO 2
+103              C 6H 14O 6
+104          C 10H 18N 2O 8
+105            C 12H 22O 10
+106              C 6H 10O 4
+107              C 6H 12O 5
+108          C 10H 15N 5O 4
+109            C 18H 32O 15
+110           C 8H 16N 2O 3
+111          C 14H 25N 3O 7
+112          C 7H 14N 2O 4S
+113         C 17H 18N 4O 2S
+114               C 4H 8O 3
+115            C 26H 32O 13
+116            C 21H 16N 2O
+117          C 14H 18N 4O 8
+118             C 7H 11N 5O
+119            C 18H 32O 15
+120          C 21H 24N 4O 2
+121             C 9H 11N 5O
+122          C 19H 20N 2O 8
+123             C 10H 7NO 3
+124             C 10H 7NO 3
+125             C 10H 7NO 3
+126              C 6H 14O 5
+127              C 6H 14O 5
+128              C 6H 12O 4
+129             C 7H 13N 5O
+130             C 31H 46O 6
+131             C 31H 46O 6
+132             C 22H 32O 4
+133            C 24H 49O 8P
+134            C 22H 37NO 4
+135               C 4H 6O 5
+136               C 4H 6O 5
+137              C 5H 10S 2
+138              C 4H 7NO 4
+139            C 7H 6N 2O 3
+140            C 7H 6N 2O 3
+141            C 7H 9N 3O 3
+142              C 6H 6N 2O
+143          C 17H 24N 6O 9
+144          C 17H 24N 6O 9
+145            C 21H 30O 12
+146            C 21H 30O 12
+147              C 9H 10O 4
+148            C 5H 11NO 3S
+149             C 18H 16O 8
+150              C 9H 10O 5
+151            C 21H 30O 12
+152             C 16H 14O 3
+153             C 16H 14O 3
+154             C 16H 14O 3
+155            C 11H 9FO 3S
+156          C 8H 16N 2O 4S
+157        C 6H 12N 2O 4S 2
+158           C 5H 10N 2O 3
+159              C 6H 12O 3
+160               C 4H 6O 4
+161          C 15H 22N 2O 3
+162          C 15H 22N 2O 3
+163          C 15H 20N 2O 2
+164               C 4H 8O 4
+165               C 4H 8O 4
+166             C 8H 15NO 6
+167             C 8H 17NO 7
+168               C 4H 6O 3
+169           C 8H 16N 2O 4
+170           C 8H 16N 2O 4
+171           C 8H 14N 2O 3
+172           C 8H 16N 2O 3
+173              C 5H 10O 4
+174            C 24H 40O 8S
+175            C 24H 40O 8S
+176             C 27H 36O 8
+177             C 27H 34O 7
+178            C 20H 38O 12
+179         C 20H 39N 7O 6S
+180             C 24H 38O 5
+181           C 21H 44NO 7P
+182             C 7H 11NO 5
+183             C 7H 11NO 5
+184              C 7H 9NO 4
+185            C 8H 17NOS 2
+186              C 5H 7NO 3
+187              C 5H 7NO 3
+188               C 6H 8O 7
+189              C 6H 9NO 6
+190           C 5H 10N 2O 3
+191               C 5H 6O 4
+192               C 6H 8O 7
+193             C 9H 17NO 5
+194             C 33H 56O 9
+195             C 33H 56O 9
+196            C 33H 58O 10
+197            C 33H 57NO 8
+198              C 9H 18O 9
+199              C 9H 18O 9
+200          C 11H 16N 4O 5
+201            C 16H 15NO 4
+202          C 10H 15N 5O 4
+203             C 22H 36O 7
+204             C 22H 36O 7
+205             C 14H 26O 3
+206             C 22H 34O 6
+207              C 5H 4N 4O
+208            C 5H 4N 4O 3
+209             C 27H 44O 6
+210             C 27H 44O 6
+211             C 27H 44O 6
+212          C 16H 18N 2O 3
+213              C 5H 10O 3
+214         C 19H 23N 3O 4S
+215         C 19H 23N 3O 4S
+216         C 19H 21N 3O 3S
+217          C 20H 24N 2O 6
+218          C 13H 16N 2O 4
+219             C 8H 15NO 3
+220              C 8H 9NO 4
+221              C 8H 9NO 4
+222              C 8H 9NO 4
+223              C 7H 9NO 2
+224           C 11H 19NO 10
+225           C 11H 19NO 10
+226          C 7H 14N 2O 6S
+227            C 11H 18O 11
+228         C 20H 38N 10O 8
+229         C 20H 38N 10O 8
+230           C 26H 43NO 8S
+231            C 12H 22O 10
+232            C 12H 22O 10
+233             C 19H 18O 5
+234            C 4H 6N 2O 2
+235            C 12H 22O 10
+236            C 27H 37NO 8
+237            C 27H 37NO 8
+238          C 28H 33N 5O 4
+239            C 5H 4N 4O 2
+240            C 13H 13NO 4
+241          C 14H 23N 5O 8
+242          C 14H 23N 5O 8
+243        C 27H 35ClN 4O 6
+244          C 14H 21N 5O 7
+245          C 11H 15N 5O 5
+246          C 33H 29N 3O 5
+247          C 14H 22N 4O 9
+248         C 15H 21N 3O 3S
+249         C 15H 21N 3O 3S
+250          C 18H 14N 2O 3
+251          C 20H 20N 2O 3
+252         C 15H 20N 2O 4S
+253          C 12H 22N 2O 8
+254             C 7H 11NO 5
+255          C 13H 21N 5O 8
+256          C 13H 21N 5O 8
+257          C 13H 20N 4O 9
+258           C 16H 23NO 6S
+259            C 27H 30O 15
+260            C 27H 30O 15
+261            C 34H 26O 10
+262          C 18H 20N 2O 4
+263          C 18H 20N 2O 4
+264          C 18H 20N 2O 4
+265           C 15H 23NO 5S
+266              C 6H 5NO 2
+267            C 4H 4N 2O 2
+268            C 26H 32O 13
+269               C 4H 8S 2
+270            C 26H 30O 12
+271           C 24H 48NO 9P
+272            C 19H 20O 10
+273              C 6H 12O 6
+274            C 11H 13NO 3
+275          C 11H 20N 2O 5
+276             C 24H 38O 5
+277          C 16H 20N 2O 2
+278          C 16H 20N 2O 2
+279            C 16H 18N 2O
+280          C 15H 20N 2O 7
+281          C 15H 20N 2O 7
+282          C 15H 20N 2O 7
+283               C 7H 8O 4
+284            C 7H 8N 4O 3
+285            C 19H 20O 10
+286           C 21H 44NO 7P
+287         C 18H 18F 2N 2O
+288         C 18H 18F 2N 2O
+289          C 14H 21F 5O 2
+290          C 17H 18N 2O 3
+291          C 17H 22N 2O 5
+292          C 12H 22N 4O 7
+293          C 9H 4F 3NO 2S
+294             C 23H 26O 6
+295             C 23H 26O 6
+296             C 16H 30O 3
+297          C 24H 22N 4O 2
+298               C 5H 6O 5
+299             C 8H 9NO 5S
+300           C 23H 39NO 19
+301          C 19H 23N 3O 4
+302          C 19H 23N 3O 4
+303            C 24H 23NO 2
+304            C 24H 23NO 2
+305              C 7H 9NO 5
+306          C 12H 21N 3O 8
+307          C 12H 24N 2O 9
+308              C 4H 9NO 3
+309         C 16H 26N 2O 5S
+310          C 12H 21N 3O 8
+311            C 24H 23NO 2
+312              C 4H 9NO 3
+313          C 17H 12N 2O 3
+314          C 10H 17N 3O 7
+315             C 8H 5F 2NO
+316            C 26H 30O 13
+317            C 26H 30O 13
+318              C 6H 12O 7
+319            C 26H 32O 14
+320             C 19H 26O 8
+321             C 19H 26O 8
+322          C 25H 24N 2O 3
+323           C 23H 14D 7NO
+324         C 17H 29N 5O 4S
+325          C 13H 25N 3O 4
+326          C 29H 44N 2O 8
+327          C 29H 44N 2O 8
+328            C 27H 48O 9S
+329             C 11H 10N 6
+330        C 19H 17ClN 2O 5
+331        C 19H 17ClN 2O 5
+332        C 19H 19ClN 2O 6
+333              C 6H 10O 7
+334              C 6H 10O 7
+335              C 6H 10O 7
+336          C 18H 16N 2O 8
+337              C 6H 10O 7
+338         C 17H 18N 4O 6S
+339          C 14H 18N 2O 5
+340          C 14H 18N 2O 5
+341             C 8H 15NO 4
+342          C 14H 18N 2O 5
+343             C 24H 40O 5
+344              C 9H 16O 4
+345            C 6H 13NO 8S
+346              C 6H 10O 6
+347              C 6H 9NO 5
+348          C 15H 12N 2O 3
+349          C 15H 12N 2O 3
+350          C 10H 12N 4O 5
+351           C 16H 10FNO 2
+352             C 24H 40O 5
+353         C 13H 22N 4O 3S
+354            C 6H 9N 3O 2
+355            C 6H 9N 3O 2
+356            C 6H 9N 3O 2
+357              C 8H 18O 8
+358          C 11H 10N 4O 4
+359            C 7H 14NO 5P
+360              C 2HF 3O 2
+361         C 6H 3ClN 2O 2S
+362         C 6H 3ClN 2O 2S
+363           C 8H 6Cl 2O 3
+364           C 5H 5ClN 2OS
+365              CH 6O 6P 2
+366             C 8H 15NO 3
+367           C 6H 13N 3O 3
+368          C 29H 44N 2O 8
+369          C 29H 44N 2O 8
+370          C 20H 37N 9O 8
+371             C 20H 24O 7
+372             C 20H 24O 7
+373             C 20H 26O 8
+374          C 14H 18N 2O 3
+375          C 16H 23N 7O 5
+376          C 16H 23N 7O 2
+377          C 13H 24N 4O 3
+378          C 13H 24N 4O 3
+379            C 18H 22NO 2
+380              C 18H 21NO
+381            C 13H 23NO 4
+382            C 27H 42O 10
+383            C 25H 43NO 7
+384             C 27H 48O 7
+385              C 8H 14O 4
+386             C 27H 48O 8
+387              C 9H 14O 7
+388            C 27H 48O 8S
+389             C 17H 34O 3
+390          C 11H 22N 2O 3
+391            C 24H 40O 8S
+392          C 15H 18N 2O 2
+393             C 12H 22O 4
+394             C 10H 18O 5
+395             C 13H 20O 2
+396             C 17H 34O 3
+397            C 25H 45NO 6
+398             C 13H 24O 4
+399          C 11H 20N 2O 5
+400             C 27H 48O 9
+401             C 25H 42O 6
+402          C 23H 36N 6O 4
+403             C 28H 52O 8
+404            C 24H 40O 8S
+405            C 27H 48O 8S
+406              C 6H 12O 4
+407             C 24H 38O 5
+408             C 28H 52O 8
+409             C 28H 50O 8
+410             C 17H 28O 5
+411             C 14H 20O 6
+412              C 6H 12O 7
+413             C 30H 50O 9
+414              C 7H 12O 5
+415             C 24H 40O 6
+416            C 26H 43NO 6
+417             C 27H 44O 6
+418            C 24H 40O 7S
+419           C 19H 40NO 7P
+420              C 7H 9NO 2
+421            C 30H 48O 11
+422            C 13H 21NO 6
+423             C 27H 44O 6
+424            C 18H 39NO 3
+425             C 11H 20O 4
+426          C 17H 24N 2O 5
+427            C 14H 21NO 3
+428            C 11H 15NO 5
+429          C 16H 23N 3O 4
+430             C 24H 40O 5
+431             C 24H 40O 4
+432            C 26H 43NO 6
+433             C 15H 24O 4
+434          C 17H 31N 5O 8
+435          C 17H 34N 6O 4
+436             C 27H 44O 9
+437             C 12H 16O 3
+438            C 27H 48O 8S
+439           C 26H 43NO 9S
+440            C 6H 8N 4O 3
+441          C 17H 25N 3O 5
+442          C 17H 32N 6O 4
+443         C 10H 18N 4O 5S
+444            C 18H 32O 18
+445            C 19H 28O 6S
+446            C 19H 28O 6S
+447          C 23H 20N 4O 2
+448             C 6H 13NO 3
+449             C 20H 34O 5
+450          C 10H 14N 2O 4
+451          C 27H 28N 2O 4
+452          C 23H 36N 6O 6
+453            C 21H 34O 8S
+454            C 21H 34O 8S
+455          C 25H 26N 4O 4
+456           C 9H 15N 3O 6
+457            C 27H 44O 7S
+458            C 21H 34O 7S
+459             C 24H 40O 6
+460            C 30H 48O 11
+461             C 20H 34O 4
+462          C 11H 18N 4O 3
+463          C 14H 18N 2O 4
+464              C 6H 14O 6
+465             C 18H 32O 3
+466            C 27H 40O 11
+467             C 30H 48O 9
+468             C 27H 44O 7
+469          C 21H 40N 6O 6
+470              C 6H 12O 5
+471             C 24H 40O 5
+472            C 6H 8N 4O 4
+473          C 17H 23N 3O 5
+474           C 10H 9F 3O 3
+475             C 18H 32O 4
+476          C 16H 18N 2O 3
+477             C 27H 46O 6
+478           C 13H 21NO 10
+479           C 26H 45NO 7S
+480            C 21H 34O 7S
+481            C 21H 34O 8S
+482            C 25H 43NO 7
+483             C 13H 22O 4
+484             C 30H 50O 9
+485          C 26H 33N 3O 6
+486             C 28H 58O 9
+487             C 24H 40O 6
+488            C 27H 48O 8S
+489           C 26H 43NO 7S
+490          C 13H 16N 2O 4
+491            C 32H 44O 10
+492             C 36H 68O 6
+493             C 27H 44O 6
+494             C 28H 48O 6
+495            C 24H 42O 19
+496            C 21H 34O 7S
+497             C 28H 58O 9
+498              C 7H 10O 6
+499            C 21H 34O 8S
+500            C 22H 39NO 5
+501            C 12H 26O 13
+502             C 15H 22O 2
+503             C 36H 68O 6
+504             C 27H 48O 8
+505            C 24H 40O 7S
+506           C 18H 35ClO 3
+507            C 10H 21NO 4
+508           C 14H 25NO 11
+509            C 21H 34O 8S
+510          C 33H 42N 4O 6
+511             C 27H 48O 6
+512            C 21H 34O 7S
+513             C 16H 32O 3
+514             C 24H 38O 6
+515          C 11H 19N 3O 7
+516          C 17H 23N 3O 4
+517         C 10H 18N 2O 5S
+518             C 28H 50O 8
+519           C 24H 50NO 8P
+520             C 18H 20O 6
+521             C 24H 36O 5
+522          C 18H 20N 2O 6
+523            C 24H 40O 7S
+524            C 10H 19NO 5
+525             C 30H 50O 9
+526          C 16H 23N 3O 4
+527              C 2H 6O 4S
+528             C 27H 46O 6
+529            C 21H 34O 8S
+530           C 23H 48NO 7P
+531             C 24H 44O 8
+532             C 8H 15NO 4
+533               C 6H 6O 5
+534         C 10H 12N 2O 5S
+535             C 9H 11NO 3
+536            C 11H 17NO 8
+537          C 21H 33N 3O 5
+538         C 33H 44N 4O 10
+539            C 33H 58O 11
+540           C 32H 51NO 11
+541           C 20H 42NO 7P
+542             C 12H 22O 5
+543            C 19H 28O 6S
+544           C 9H 17N 3O 6
+545             C 14H 28O 6
+546           C 22H 46NO 7P
+547             C 24H 36O 5
+548             C 27H 48O 8
+549             C 20H 34O 5
+550          C 21H 38N 8O 6
+551            C 24H 40O 8S
+552            C 33H 58O 11
+553          C 26H 41N 5O 8
+554              C 9H 14O 7
+555            C 24H 40O 8S
+556          C 24H 31N 3O 6
+557             C 27H 44O 5
+558          C 10H 16N 2O 5
+559            C 14H 17NO 6
+560             C 22H 34O 5
+561            C 21H 34O 8S
+562           C 8H 14N 2O 4
+563             C 22H 32O 5
+564             C 28H 58O 9
+565          C 16H 22N 2O 6
+566           C 27H 54NO 9P
+567            C 25H 45NO 6
+568              C 8H 18O 5
+569             C 7H 7NO 4S
+570              C 7H 10O 7
+571          C 15H 25N 3O 6
+572            C 21H 34O 7S
+573            C 27H 48O 9S
+574         C 30H 51N 6O 10
+575              C 6H 10O 3
+576             C 27H 48O 8
+577            C 21H 36O 10
+578             C 28H 50O 8
+579          C 11H 20N 2O 4
+580             C 18H 36O 3
+581             C 18H 36O 3
+582            C 36H 71NO 4
+583             C 36H 68O 4
+584           C 32H 51NO 12
+585            C 21H 34O 7S
+586              C 7H 12O 4
+587          C 33H 42N 4O 6
+588         C 24H 33N 5O 10
+589             C 20H 34O 6
+590              C 9H 14O 7
+591            C 11H 19NO 8
+592           C 8H 14N 2O 6
+593            C 21H 41NO 3
+594             C 25H 40O 6
+595            C 27H 42O 10
+596             C 27H 48O 8
+597           C 12H 23NO 10
+598             C 23H 24O 8
+599             C 23H 24O 8
+600             C 23H 22O 7
+601          C 17H 22N 4O 8
+602         C 14H 20N 2O 5S
+603             C 22H 38O 8
+604         C 25H 46N 6O 9S
+605          C 17H 18N 2O 3
+606           C 30H 53NO 10
+607            C 32H 54O 11
+608            C 16H 31IO 2
+609            C 27H 48O 8S
+610          C 33H 52N 2O 6
+611            C 11H 17NO 8
+612             C 9H 10O 7S
+613            C 24H 40O 8S
+614          C 22H 39N 3O 3
+615             C 10H 18O 4
+616          C 17H 24N 2O 5
+617           C 6H 12N 2O 3
+618              C 5H 10O 6
+619              C 7H 12O 7
+620          C 17H 25N 3O 5
+621             C 27H 46O 6
+622             C 17H 26O 4
+623            C 10H 17NO 6
+624             C 16H 32O 3
+625             C 24H 38O 4
+626             C 18H 36O 3
+627          C 18H 25N 3O 7
+628          C 28H 44N 4O 4
+629             C 6H 11NO 3
+630             C 25H 38O 6
+631             C 16H 32O 2
+632             C 28H 50O 8
+633              C 6H 10O 4
+634             C 18H 36O 4
+635             C 6H 13NO 5
+636        C 26H 46N 6O 10S
+637             C 12H 26O 7
+638          C 33H 34N 4O 6
+639            C 21H 34O 8S
+640             C 18H 34O 5
+641          C 26H 33N 3O 6
+642           C 22H 46NO 7P
+643             C 25H 40O 8
+644             C 25H 38O 7
+645             C 5H 10O 3S
+646             C 18H 36O 5
+647            C 12H 22O 11
+648          C 26H 37N 5O 3
+649            C 27H 48O 9S
+650          C 12H 21N 3O 4
+651            C 16H 28O 12
+652             C 27H 44O 7
+653         C 20H 23FN 4O 2
+654            C 22H 41NO 7
+655             C 25H 40O 8
+656            C 32H 44O 11
+657             C 28H 46O 7
+658             C 20H 34O 5
+659         C 20H 21FN 4O 2
+660         C 27H 44N 4O 5S
+661             C 27H 48O 9
+662             C 20H 34O 4
+663           C 13H 21NO 10
+664           C 9H 16N 2O 6
+665             C 8H 15NO 3
+666         C 18H 29N 5O 11
+667              C 8H 12O 4
+668          C 10H 15N 5O 4
+669          C 28H 24N 4O 6
+670          C 33H 44N 4O 6
+671          C 11H 21N 3O 6
+672          C 16H 20N 2O 6
+673            C 26H 43NO 5
+674             C 19H 30O 5
+675          C 10H 17N 3O 7
+676          C 10H 17N 3O 7
+677             C 15H 14O 5
+678             C 22H 34O 8
+679          C 23H 28N 4O 6
+680            C 32H 44O 11
+681         C 26H 38N 10O 7
+682          C 33H 42N 4O 6
+683          C 26H 33N 3O 6
+684             C 14H 28O 3
+685             C 27H 46O 6
+686            C 21H 34O 7S
+687         C 20H 33N 7O 11
+688            C 6H 7N 5O 2
+689          C 17H 23N 5O 6
+690            C 6H 6N 4O 3
+691          C 12H 23N 5O 5
+692            C 12H 20O 12
+693            C 9H 13NO 4S
+694            C 11H 19NO 8
+695           C 27H 48NO 7P
+696         C 12H 8ClN 3O 4
+697             C 7H 13NO 3
+698            C 19H 37NO 4
+699          C 17H 28N 6O 9
+700            C 21H 37O 7P
+701         C 25H 46N 6O 9S
+702          C 10H 16N 4O 7
+703            C 11H 19NO 6
+704             C 20H 34O 3
+705            C 24H 40O 8S
+706            C 18H 32O 15
+707            C 32H 42O 10
+708               C 6H 8O 4
+709         C 20H 38N 10O 8
+710            C 25H 43NO 6
+711           C 9H 15N 3O 5
+712             C 21H 30O 6
+713           C 23H 48NO 6P
+714            C 21H 32O 5S
+715               C 4H 6O 4
+716           C 26H 45NO 7S
+717      C 11H 20N 4O 10P 2
+718              C 8H 14O 5
+719               C 7H 8O 4
+720          C 10H 21N 3O 4
+721          C 10H 21N 3O 4
+722            C 11H 16N 6O
+723             C 25H 38O 6
+724          C 21H 40N 6O 6
+725            C 10H 17NO 6
+726          C 17H 25N 3O 4
+727          C 33H 34N 4O 6
+728             C 16H 24O 5
+729         C 25H 46N 6O 9S
+730             C 4H 9NO 4S
+731             C 25H 40O 6
+732             C 6H 13NO 4
+733              C 7H 10O 6
+734           C 21H 44NO 6P
+735        C 27H 37ClN 2O 4
+736           C 25H 48NO 7P
+737          C 25H 34N 4O 2
+738          C 17H 35N 7O 4
+739          C 15H 18N 2O 3
+740          C 16H 23N 3O 5
+741          C 20H 23D 9O 5
+742            C 24H 47NO 7
+743           C 28H 54NO 8P
+744            C 24H 40O 8S
+745             C 28H 48O 9
+746             C 8H 15NO 4
+747          C 15H 16N 2O 2
+748            C 25H 43O 7P
+749          C 12H 24N 2O 9
+750         C 10H 18N 2O 6S
+751             C 18H 34O 4
+752             C 20H 34O 5
+753             C 25H 38O 8
+754            C 33H 56O 10
+755             C 16H 32O 4
+756             C 18H 34O 4
+757             C 17H 26O 5
+758             C 28H 50O 8
+759            C 21H 36O 10
+760              C 8H 16O 8
+761              C 8H 16O 8
+762          C 10H 19N 3O 7
+763          C 10H 16N 2O 7
+764          C 14H 24N 2O 9
+765            C 33H 57O 8P
+766            C 21H 36O 11
+767          C 23H 35N 5O 4
+768             C 18H 16O 7
+769          C 15H 16N 2O 2
+770           C 22H 46NO 6P
+771            C 22H 45O 8P
+772          C 33H 40N 4O 6
+773              C 6H 12O 4
+774        C 17H 13Cl 2NO 4
+775        C 17H 13Cl 2NO 4
+776              C 9H 8IN 3
+777           C 9H 16N 2O 5
+778            C 24H 40O 7S
+779              C 7H 14O 4
+780          C 17H 22N 2O 5
+781              C 6H 10O 7
+782          C 10H 12N 4O 5
+783             C 22H 34O 4
+784             C 9H 17NO 3
+785          C 25H 27N 3O 6
+786          C 14H 24N 6O 8
+787             C 27H 44O 7
+788            C 25H 47NO 6
+789        C 30H 47N 3O 10S
+790             C 18H 36O 4
+791             C 20H 34O 3
+792          C 17H 25N 3O 4
+793          C 17H 25N 3O 4
+794       C 15H 21F 3N 2O 2
+795          C 10H 18N 2O 5
+796         C 14H 26N 6O 6S
+797            C 24H 40O 7S
+798             C 22H 34O 3
+799          C 28H 28N 4O 2
+800          C 25H 39N 3O 5
+801          C 28H 28N 4O 3
+802            C 8H 15NO 9S
+803             C 28H 46O 8
+804            C 21H 39O 9P
+805            C 24H 47NO 7
+806           C 9H 17N 3O 6
+807          C 25H 27N 5O 5
+808             C 24H 34O 5
+809          C 26H 38N 4O 4
+810          C 26H 38N 4O 4
+811           C 25H 46NO 6P
+812          C 14H 17N 5O 8
+813          C 26H 38N 4O 4
+814          C 25H 31N 3O 4
+815             C 22H 34O 8
+816           C 9H 14N 2O 6
+817             C 18H 32O 4
+818             C 30H 48O 9
+819               C 5H 8O 4
+820             C 18H 36O 2
+821         C 19H 36NNaO 8S
+822          C 25H 27N 5O 4
+823             C 18H 36O 2
+824            C 33H 54O 11
+825         C 29H 41F 2N 5O
+826             C 15H 28O 5
+827         C 18H 34N 4O 12
+828            C 21H 39NO 5
+829         C 19H 36NNaO 8S
+830            C 19H 28O 6S
+831          C 15H 30N 6O 4
+832            C 7H 11NO 5S
+833          C 10H 14N 2O 6
+834            C 6H 9N 5O 2
+835            C 21H 32O 6S
+836            C 30H 48O 10
+837             C 24H 40O 4
+838            C 32H 42O 10
+839            C 21H 34O 8S
+840         C 15H 23N 5O 10
+841         C 15H 23N 5O 10
+842            C 21H 22O 10
+843            C 21H 22O 10
+844          C 14H 23N 5O 8
+845             C 25H 40O 8
+846         C 11H 19NO 9S 2
+847        C 12H 21N 2O 3PS
+848             C 22H 42O 7
+849             C 9H 17NO 8
+850           C 9H 16N 4O 5
+851           C 9H 16N 4O 5
+852             C 9H 10N 2O
+853          C 14H 18N 2O 4
+854          C 28H 33N 5O 4
+855          C 29H 46N 6O 8
+856          C 25H 29N 5O 5
+857          C 16H 21N 3O 5
+858            C 20H 39NO 6
+859          C 11H 7N 5O 2S
+860         C 20H 33N 5O 10
+861            C 13H 19NO 4
+862             C 18H 34O 4
+863              C 6H 12O 3
+864              C 9H 16O 9
+865              C 9H 16O 9
+866             C 20H 22O 7
+867            C 13H 24O 11
+868          C 21H 40N 6O 6
+869           C 8H 11N 3O 3
+870             C 9H 11NO 2
+871          C 28H 31N 2O 3
+872            C 9H 17NOS 2
+873               C 6H 8O 3
+874         C 22H 42N 8O 7S
+875           C 19H 40NO 5P
+876            C 33H 58O 10
+877            C 26H 43NO 6
+878      C 11H 20N 4O 10P 2
+879             C 34H 56O 8
+880             C 20H 32O 3
+881             C 20H 32O 3
+882             C 20H 28O 3
+883             C 24H 40O 6
+884           C 7H 12N 2O 4
+885           C 7H 12N 2O 4
+886           C 7H 14N 2O 5
+887           C 22H 46NO 6P
+888         C 20H 32N 6O 5S
+889          C 21H 40N 6O 7
+890          C 16H 21N 3O 5
+891            C 7H 13NO 3S
+892             C 8H 15NO 4
+893          C 17H 18N 2O 4
+894          C 27H 49N 7O 9
+895         C 20H 33N 7O 11
+896         C 20H 31N 5O 13
+897            C 14H 19NO 3
+898             C 27H 38O 8
+899          C 21H 28N 4O 4
+900         C 22H 35N 9O 9S
+901            C 21H 41NO 5
+902             C 26H 42O 7
+903            C 27H 48O 8S
+904         C 23H 41N 7O 7S
+905          C 28H 33N 5O 4
+906         C 18H 29N 5O 11
+907          C 25H 44N 8O 6
+908             C 16H 28O 8
+909             C 18H 34O 4
+910             C 28H 50O 8
+911             C 28H 58O 9
+912         C 17H 30N 6O 4S
+913             C 23H 38O 5
+914             C 18H 34O 3
+915          C 13H 19N 5O 7
+916            C 29H 36O 10
+917         C 15H 26N 8O 4S
+918            C 21H 41NO 4
+919         C 17H 30N 6O 4S
+920           C 20H 42NO 7P
+921             C 7H 13NO 3
+922          C 25H 27N 5O 5
+923         C 19H 36NNaO 8S
+924          C 15H 16N 2O 2
+925          C 28H 34N 6O 4
+926         C 16H 18N 4O 4S
+927          C 25H 30N 4O 4
+928          C 17H 23N 3O 4
+929            C 21H 34O 7S
+930            C 25H 41NO 3
+931          C 33H 38N 4O 8
+932          C 18H 33N 7O 4
+933            C 29H 36O 11
+934             C 25H 36O 7
+935         C 19H 36NNaO 8S
+936              C 8H 8O 8S
+937           C 9H 14N 4O 6
+938             C 20H 34O 5
+939          C 8H 3ClF 3NOS
+940          C 21H 40N 6O 6
+941              C 6H 10O 5
+942         C 19H 26FN 3O 8
+943             C 27H 40O 7
+944             C 27H 40O 7
+945          C 29H 36N 2O 4
+946          C 24H 27N 5O 2
+947            C 32H 42O 10
+948             C 30H 46O 8
+949          C 11H 16N 5O 5
+950           C 10H 13NO 5S
+951          C 25H 27N 5O 4
+952          C 25H 25N 5O 4
+953          C 13H 26N 6O 6
+954            C 24H 40O 7S
+955         C 15H 30N 6O 5S
+956         C 15H 26N 6O 4S
+957             C 27H 40O 7
+958          C 16H 27N 3O 6
+959          C 14H 26N 4O 6
+960             C 30H 46O 8
+961            C 24H 40O 7S
+962            C 10H 19NO 4
+963            C 18H 35NO 4
+964         C 20H 38N 10O 7
+965             C 24H 42O 7
+966            C 21H 39NO 5
+967          C 11H 16N 4O 4
+968         C 15H 24N 6O 5S
+969          C 26H 33N 3O 6
+970            C 32H 49NO 5
+971         C 17H 30N 6O 4S
+972            C 10H 11N 5O
+973             C 27H 36O 9
+974             C 20H 32O 5
+975             C 30H 42O 6
+976             C 24H 34O 9
+977         C 15H 26N 6O 4S
+978          C 10H 18N 2O 4
+979          C 24H 45N 7O 6
+980         C 24H 43N 5O 10
+981          C 25H 27N 5O 5
+982          C 23H 44N 6O 8
+983         C 22H 42N 8O 7S
+984             C 24H 30O 9
+985       C 4H 5ClN 2O 2S 2
+986         C 23H 44N 8O 6S
+987             C 24H 28O 9
+988          C 27H 42N 4O 4
+989            C 22H 37NO 3
+990            C 25H 43NO 7
+991          C 25H 30N 6O 2
+992           C 25H 32N 2OS
+993          C 20H 31N 7O 8
+994             C 41H 72O 3
+995              C 9H 18O 8
+996         C 27H 44N 4O 5S
+997            C 21H 41NO 5
+998          C 12H 24N 2O 7
+999          C 11H 17N 5O 5
+1000           C 9H 13NO 6S
+1001             C 7H 12O 7
+1002           C 27H 41NO 9
+1003           C 22H 41NO 4
+1004        C 22H 44N 6O 10
+1005            C 24H 32O 7
+1006          C 27H 46NO 7P
+1007         C 18H 22N 6O 4
+1008             C 8H 8O 8S
+1009        C 21H 38N 6O 8S
+1010           C 27H 44O 7S
+1011      C 11H 11N 5O 3S 2
+1012      C 15H 19F 3N 2O 3
+1013            C 7H 7NO 6S
+1014           C 33H 58O 10
+1015            C 12H 13N 5
+1016           C 33H 54O 11
+1017         C 18H 38N 8O 4
+1018            C 20H 28O 7
+1019           C 24H 30O 10
+1020         C 21H 35N 5O 4
+1021           C 6H 13NO 8S
+1022           C 24H 40O 8S
+1023            C 34H 50O 6
+1024         C 12H 19N 5O 5
+1025         C 22H 42N 6O 8
+1026           C 23H 38O 3S
+1027           C 17H 28O 13
+1028        C 12H 14ClFN 2O
+1029         C 23H 44N 6O 9
+1030           C 6H 6N 4O 3
+1031        C 16H 29N 5O 3S
+1032            C 22H 32O 2
+1033      C 4H 5ClN 2O 2S 2
+1034         C 16H 23N 3O 5
+1035            C 24H 32O 7
+1036         C 21H 24N 6O 6
+1037           C 20H 37O 5P
+1038           C 24H 40O 7S
+1039           C 32H 54O 12
+1040         C 22H 43N 9O 7
+1041         C 23H 44N 6O 6
+1042         C 24H 43N 7O 7
+1043         C 26H 44N 6O 8
+1044        C 20H 39N 7O 6S
+1045         C 23H 44N 6O 7
+1046           C 25H 43NO 7
+1047          C 20H 22FNO 3
+1048            C 8H 15NO 6
+1049          C 29H 51NO 6S
+1050         C 25H 28N 4O 5
+1051            C 24H 28O 9
+1052         C 13H 24N 6O 4
+1053            C 22H 26O 8
+1054        C 24H 40N 6O 13
+1055          C 12H 27OPS 3
+1056           C 18H 35NO 4
+1057         C 23H 45N 9O 7
+1058        C 20H 38N 8O 7S
+1059        C 20H 32N 4O 5S
+1060        C 15H 24N 6O 5S
+1061           C 33H 46O 13
+1062           C 24H 32O 5S
+1063          C 11H 26NO 6P
+1064         C 26H 50N 8O 7
+1065         C 17H 28N 8O 6
+1066         C 12H 21N 3O 6
+1067      C 15H 28N 4O 5S 2
+1068         C 17H 30N 2O 8
+1069         C 28H 24N 2O 6
+1070         C 28H 24N 2O 6
+1071         C 28H 24N 2O 6
+1072          C 8H 10N 4O 4
+1073           C 5H 11NO 3S
+1074        C 12H 21N 3O 7S
+1075      C 15H 19F 3N 2O 3
+1076          C 26H 43NO 8S
+1077           C 20H 39NO 4
+1078            C 18H 34O 3
+1079           C 32H 54O 13
+1080         C 23H 45N 9O 7
+1081            C 24H 30O 5
+1082          C 18H 35O 10P
+1083        C 23H 42N 6O 7S
+1084          C 8H 14N 4O 5
+1085          C 9H 13N 5O 6
+1086         C 18H 33N 5O 9
+1087         C 21H 40N 6O 8
+1088         C 11H 18N 4O 3
+1089      C 15H 19F 3N 2O 3
+1090        C 18H 28N 6O 11
+1091          C 17H 15N 3OS
+1092        C 15H 16N 4O 5S
+1093           C 24H 40O 6S
+1094            C 24H 40O 3
+1095           C 29H 36O 10
+1096          C 32H 51NO 12
+1097           C 12H 15NO 3
+1098         C 11H 19N 5O 6
+1099            C 20H 20O 9
+1100           C 6H 13NO 8S
+1101         C 24H 38N 8O 6
+1102         C 16H 18N 6O 4
+1103        C 21H 39N 11O 8
+1104         C 10H 19N 5O 5
+1105         C 10H 19N 5O 5
+1106         C 10H 18N 4O 6
+1107            C 22H 32O 3
+1108        C 22H 24F 3NO 8
+1109        C 23H 44N 6O 7S
+1110         C 12H 18N 2O 9
+1111            C 15H 12O 6
+1112         C 10H 14N 2O 5
+1113         C 11H 14N 2O 4
+1114        C 19H 30N 6O 7S
+1115       C 15H 11F 3N 2OS
+1116            C 30H 44O 7
+1117       C 10H 7ClF 3N 3O
+1118        C 22H 33N 5O 4S
+1119             C 9H 14O 7
+1120            C 24H 30O 6
+1121             C 5H 10O 5
+1122        C 27H 50N 6O 10
+1123     C 16H 15F 2N 3O 3S
+1124         C 23H 45N 9O 6
+1125         C 15H 24N 6O 5
+1126           C 22H 33NO 4
+1127           C 23H 30NO 7
+1128          C 23H 46NO 7P
+1129         C 12H 19N 5O 6
+1130        C 24H 21FN 2O 3
+1131         C 5H 3N 4O 5PS
+1132           C 32H 44O 11
+1133        C 35H 32N 2O 10
+1134          C 18H 36NO 9P
+1135           C 29H 39NO 9
+1136            C 7H 14OS 2
+1137        C 21H 37N 5O 10
+1138          C 9H 4F 3NO 3
+1139         C 19H 30N 6O 6
+1140         C 9H 11NO 5S 2
+1141         C 10H 15N 5O 4
+1142         C 23H 31N 7O 4
+1143            C 27H 38O 7
+1144           C 17H 17N 5O
+1145         C 28H 44N 4O 4
+1146         C 16H 26N 6O 5
+1147            C 8H 15NO 5
+1148            C 28H 38O 7
+1149         C 16H 23N 5O 8
+1150            C 20H 30O 4
+1151        C 16H 30N 6O 4S
+1152        C 18H 23N 5O 4S
+1153            C 8H 17NO 5
+1154         C 11H 7NO 3S 2
+1155            C 43H 70O 2
+1156           C 20H 25NO 4
+1157        C 11H 17N 5O 4S
+1158            C 23H 30O 7
+1159        C 12H 18ClNO 2S
+1160           C 16H 30O 10
+1161           C 25H 30NO 3
+1162           C 24H 26O 12
+1163            C 7H 13NO 3
+1164           C 21H 27NO 4
+1165          C 9H 4F 3NO 3
+1166         C 27H 29N 3O 7
+1167         C 21H 37N 5O 8
+1168            C 12H 28N 6
+1169           C 24H 35NO 5
+1170           C 5H 4N 2O 4
+1171        C 16H 21N 5O 10
+1172           C 22H 29NO 5
+1173        C 19H 30N 4O 11
+1174         C 14H 26N 4O 7
+1175           C 16H 28O 10
+1176        C 25H 46N 6O 9S
+1177              C 3H 6O 4
+1178         C 10H 12N 2O 4
+1179           C 27H 28O 10
+1180         C 20H 35N 5O 9
+1181            C 10H 6FNOS
+1182           C 22H 33NO 5
+1183         C 21H 40N 6O 6
+1184      C 15H 15N 3O 5S 2
+1185         C 13H 19N 5O 6
+1186      C 15H 19F 3N 2O 3
+1187       C 26H 46N 6O 10S
+1188           C 20H 27NO 4
+1189         C 23H 26N 4O 5
+1190            C 20H 18FNO
+1191            C 24H 30O 5
+1192         C 11H 21N 3O 4
+1193         C 25H 46O 7P 2
+1194        C 19H 36NNaO 8S
+1195          C 9H 12ClO 4P
+1196         C 23H 44N 6O 7
+1197            C 7H 13NS 2
+1198         C 20H 32N 6O 4
+1199          C 7H 5F 3O 3S
+1200           C 28H 34O 14
+1201           C 28H 30O 10
+1202         C 25H 28N 4O 6
+1203         C 13H 26N 6O 6
+1204         C 22H 26N 2O 7
+1205             C 5H 12O 5
+1206         C 12H 19N 3O 6
+1207         C 18H 36N 4O 4
+1208         C 20H 23N 7O 7
+1209           C 30H 33NO 6
+1210         C 20H 24N 4O 4
+1211           C 14H 11NO 5
+1212           C 21H 34O 7S
+1213            C 12H 9N 5O
+1214          C 25H 27NO 5S
+1215           C 13H 9ClO 4
+1216         C 17H 28N 6O 4
+1217           C 16H 19NO 6
+1218         C 15H 22N 2O 4
+1219            C 12H 22O 6
+1220           C 20H 27NO 7
+1221          C 10H 8F 2O 2
+1222         C 16H 25ClN 2O
+1223         C 21H 22ClN 3O
+1224              C 8H 6O 4
+1225         C 12H 16N 2O 5
+1226            C 27H 38O 7
+1227         C 21H 31N 7O 5
+1228          C 35H 64NO 8P
+1229        C 22H 33N 7O 11
+1230           C 22H 31NO 5
+1231          C 8H 12N 4O 3
+1232         C 13H 22N 4O 5
+1233           C 23H 25NO 9
+1234      C 10H 20N 2O 3S 2
+1235           C 10H 19NO 5
+1236        C 21H 42N 10O 6
+1237           C 14H 15NO 7
+1238         C 16H 29N 5O 6
+1239         C 12H 10N 4O 4
+1240         C 15H 26N 4O 7
+1241         C 16H 23N 5O 8
+1242           C 18H 27NO 5
+1243         C 14H 19N 3O 6
+1244            C 6H 11NO 3
+1245         C 20H 38N 6O 7
+1246         C 15H 21N 3O 2
+1247          C 34H 63O 10P
+1248            C 25H 34O 7
+1249          C 5H 12O 8P 2
+1250        C 14H 14N 2O 4S
+1251      C 14H 26N 2O 3S 2
+1252            C 35H 46O 4
+1253         C 21H 35N 5O 5
+1254        C 25H 30N 4O 4S
+1255              C 4H 8O 4
+1256          C 30H 52NO 7P
+1257           C 35H 61O 8P
+1258         C 20H 33N 5O 9
+1259         C 15H 26N 6O 8
+1260         C 25H 42N 8O 7
+1261       C 15H 17FN 6O 2S
+1262         C 16H 27N 7O 5
+1263         C 24H 38N 8O 6
+1264             C 9H 12O 5
+1265           C 17H 23NO 4
+1266              C 27H 44O
+1267         C 22H 37N 9O 7
+1268          C 12H 16ClNOS
+1269          C 24H 31O 11S
+1270           C 14H 17NO 9
+1271        C 21H 36N 6O 8S
+1272           C 26H 37NO 3
+1273         C 23H 34N 4O 8
+1274        C 14H 18N 2O 7S
+1275            C 17H 18O 6
+1276         C 13H 22N 4O 8
+1277           C 12H 15N 3S
+1278         C 13H 21N 3O 9
+1279        C 11H 15N 3O 4S
+1280          C 9H 16N 2O 4
+1281        C 20H 34N 6O 11
+1282           C 10H 14O 2S
+1283        C 22H 33N 7O 11
+1284          C 35H 62NO 8P
+1285          C 15H 7N 3O 4
+1286            C 22H 24O 7
+1287           C 10H 13ClOS
+1288         C 12H 17N 5O 6
+1289             C 5H 12S 2
+1290         C 11H 18N 4O 5
+1291      C 11H 10ClN 3O 2S
+1292             C 3H 7NO 3
+1293         C 13H 24N 6O 6
+1294         C 20H 15ClN 4O
+1295           C 13H 17NO 4
+1296           C 18H 30O 3S
+1297         C 27H 51N 9O 8
+1298           C 20H 29NO 4
+1299           C 10H 13ClOS
+1300         C 6H 15N 2O 6P
+1301             C 8H 6O 7S
+1302          C 12H 21NO 8S
+1303         C 29H 38N 5O 9
+1304            C 16H 24O 9
+1305              C 9H 10OS
+1306        C 14H 23N 6O 3S
+1307         C 8H 5ClN 2O 3
+1308        C 25H 39N 7O 11
+1309            C 9H 11N 5O
+1310         C 24H 43N 9O 5
+1311         C 28H 40N 8O 8
+1312             C 5H 10O 4
+1313           C 27H 28O 10
+1314         C 38H 42N 2O 6
+1315           C 15H 14O 8S
+1316           C 15H 13NO 3
+1317            C 23H 22O 6
+1318         C 23H 34N 8O 9
+1319         C 18H 23N 3O 8
+1320           C 26H 51O 9P
+1321         C 22H 37N 7O 6
+1322         C 11H 8N 2O 5S
+1323          C 10H 9F 9O 2
+1324            C 24H 24O 2
+1325            C 22H 30O 8
+1326         C 22H 40N 8O 7
+1327           C 22H 27NO 4
+1328           C 30H 47O 10
+1329         C 22H 40N 8O 7
+1330        C 11H 15N 3O 4S
+1331      C 15H 15ClF 3N 3O
+1332            C 6H 11NO 3
+1333              C 7H 7N 5
+1334           C 12H 13NO 9
+1335         C 25H 48N 8O 6
+1336         C 8H 5F 6NO 2S
+1337        C 10H 11F 2NO 4
+1338          C 35H 74NO 6P
+1339        C 15H 23N 5O 10
+1340         C 12H 9N 5O 2S
+1341          C 28H 52NO 6P
+1342              C 8H 8N 6
+1343          C 25H 50NO 7P
+1344         C 24H 32N 2O 2
+1345        C 10H 15N 2O 9P
+1346          C 17H 15N 3OS
+1347          C 25H 54NO 6P
+1348         C 13H 22NO 4PS
+1349         C 33H 52N 2O 6
+1350          C 14H 13NO 7S
+1351         C 10H 20N 2O 4
+1352         C 12H 18N 2O 4
+1353            C 11H 20O 6
+1354            C 11H 16O 5
+1355         C 13H 15N 5O 2
+1356          C 35H 74NO 6P
+1357           C 13H 25NO 3
+1358             C 8H 9NO 4
+1359            C 14H 28O 2
+1360            C 18H 30O 3
+1361            C 8H 15NO 4
+1362         C 13H 18N 2O 4
+1363         C 19H 24N 4O 3
+1364           C 10H 11NO 3
+1365             C 9H 14O 7
+1366         C 10H 14N 2O 6
+1367           C 10H 13NO 4
+1368       C 27H 33ClN 2O 3
+1369       C 9H 5F 3N 2O 3S
+1370          C 9H 16N 2O 6
+1371            C 16H 32O 2
+1372            C 9H 11NO 2
+1373            C 9H 11NO 2
+1374           C 17H 17NO 3
+1375            C 18H 34O 2
+1376            C 9H 13NO 3
+1377              C 8H 8O 3
+1378         C 13H 26N 4O 4
+1379           C 27H 48O 8S
+1380           C 12H 19NO 6
+1381         C 11H 22N 4O 4
+1382            C 18H 30O 4
+1383        C 16H 15F 6N 5O
+1384           C 12H 19NO 2
+1385            C 18H 32O 5
+1386              C 6H 8O 4
+1387           C 24H 45NO 8
+1388         C 10H 17N 3O 6
+1389            C 14H 20O 5
+1390         C 18H 18ClNO 5
+1391            C 9H 17NO 8
+1392           C 19H 18O 11
+1393           C 25H 47NO 6
+1394        C 13H 23NO 4S 2
+1395          C 9H 16N 2O 4
+1396           C 33H 46O 13
+1397           C 10H 11N 5O
+1398         C 15H 24N 6O 6
+1399         C 15H 17N 3O 4
+1400        C 17H 20N 4O 2S
+1401         C 15H 18N 2O 3
+1402           C 12H 13NO 9
+1403         C 13H 25N 3O 4
+1404           C 30H 33NO 6
+1405             C 2HF 3O 2
+1406         C 11H 8N 2O 5S
+1407            C 20H 38O 5
+1408          C 22H 44NO 7P
+1409            C 18H 34O 4
+1410         C 17H 30N 4O 5
+1411         C 27H 37ClO 10
+1412         C 16H 28N 4O 7
+1413            C 18H 34O 5
+1414         C 19H 18N 2O 2
+1415        C 19H 32N 8O 11
+1416         C 16H 24N 2O 5
+1417            C 20H 34O 5
+1418             C 9H 12INO
+1419         C 34H 59N 3O 9
+1420           C 27H 30O 14
+1421      C 15H 14ClN 3O 4S
+1422           C 28H 34O 13
+1423            C 29H 46O 2
+1424           C 27H 34O 14
+1425              C 2H 6OSn
+1426    C 16H 10AlN 2O 8S 2
+1427              C 9H 8N 4
+1428           C 16H 21NO 2
+1429          C 24H 48NO 7P
+1430            C 22H 16O 6
+1431        C 7H 7ClN 2O 3S
+1432         C 13H 22N 4O 7
+1433        C 8H 15NO 12S 2
+1434         C 8H 18N 2O 3S
+1435          C 23H 40NO 7P
+1436        C 10H 12BrNO 2S
+1437             C 2HF 3O 2
+1438          C 9H 7N 3O 3S
+1439         C 16H 24N 3O 8
+1440           C 22H 39O 7P
+1441        C 29H 38FN 3O 3
+1442         C 31H 50N 8O 7
+1443         C 11H 12N 2O 3
+1444         C 31H 50N 8O 7
+1445          C 26H 33NO 12
+1446          C 9H 12N 2O 3
+1447         C 12H 14N 2O 5
+1448          C 35H 74NO 6P
+1449          C 34H 47NO 11
+1450            C 28H 38O 6
+1451        C 20H 38N 10O 8
+1452          C 26H 33NO 12
+1453            C 9H 9N 9OS
+1454       C 14H 6F 6N 2O 4
+1455            C 15H 22O 2
+1456      C 25H 37N 5O 9S 2
+1457           C 25H 39NO 5
+1458            C 7H 6INO 3
+1459          C 12H 8F 4O 3
+1460         C 8H 13N 2O 5S
+1461      C 13H 14F 3N 3O 4
+1462            C 14H 22O 6
+1463         C 21H 27N 3O 6
+1464           C 28H 24O 16
+1465        C 20H 27N 5O 4S
+1466        C 24H 45N 13O 5
+1467            C 27H 44O 3
+1468        C 18H 12F 5N 3O
+1469        C 23H 39N 9O 11
+1470          C 25H 52NO 6P
+1471         C 27H 46N 8O 8
+1472           C 14H 11FO 3
+1473            C 10H 15N 5
+1474          C 9H 15N 3O 6
+1475         C 28H 53N 9O 7
+1476           C 20H 37FO 2
+1477           C 8H 11NO 3S
+1478           C 24H 45NO 8
+1479      C 9H 14N 2O 11P 2
+1480         C 11H 8N 2O 5S
+1481        C 18H 12ClN 3OS
+1482           C 22H 24O 12
+1483          C 26H 50NO 9P
+1484            C 24H 40O 3
+1485            C 22H 30O 8
+1486        C 9H 10Cl 2N 2O
+1487          C 16H 23N 3OS
+1488            C 28H 28O 9
+1489        C 21H 31N 3O 5S
+1490        C 27H 29N 5O 6S
+1491          C 15H 10O 10S
+1492         C 12H 16N 2O 3
+1493         C 24H 38N 8O 6
+1494           C 31H 41NO 3
+1495           C 29H 32O 15
+1496          C 10H 6N 4O 6
+1497       C 23H 27F 3N 2OS
+1498         C 14H 12F 3NOS
+1499           C 12H 8INO 2
+1500            C 6H 11NO 3
+1501            C 31H 44O 7
+1502           C 35H 49NO 9
+1503              C 8H 9N 5
+1504      C 19H 33N 5O 8S 2
+1505         C 20H 30N 2O 5
+1506           C 19H 13N 3O
+1507          C 8H 10F 2O 3
+1508        C 17H 26N 6O 11
+Warning: The "RT Match" column at position 7 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Retention Time (min)" column at position 11 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT Match" column at position 7 in the METABOLITES table, matches a standard column name, "retention_time", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0       FALSE
+1       FALSE
+2       FALSE
+3       FALSE
+4       FALSE
+5       FALSE
+6       FALSE
+7       FALSE
+8       FALSE
+9       FALSE
+10      FALSE
+11      FALSE
+12      FALSE
+13      FALSE
+14      FALSE
+15      FALSE
+16      FALSE
+17      FALSE
+18      FALSE
+19      FALSE
+20      FALSE
+21      FALSE
+22      FALSE
+23      FALSE
+24      FALSE
+25      FALSE
+26      FALSE
+27      FALSE
+28      FALSE
+29      FALSE
+30      FALSE
+31      FALSE
+32      FALSE
+33      FALSE
+34      FALSE
+35      FALSE
+36      FALSE
+37      FALSE
+38      FALSE
+39      FALSE
+40      FALSE
+41      FALSE
+42      FALSE
+43      FALSE
+44      FALSE
+45      FALSE
+46      FALSE
+47      FALSE
+48      FALSE
+49      FALSE
+50      FALSE
+51      FALSE
+52      FALSE
+53      FALSE
+54      FALSE
+55      FALSE
+56      FALSE
+57      FALSE
+58      FALSE
+59      FALSE
+60      FALSE
+61      FALSE
+62      FALSE
+63      FALSE
+64      FALSE
+65      FALSE
+66      FALSE
+67      FALSE
+68      FALSE
+69      FALSE
+70      FALSE
+71      FALSE
+72      FALSE
+73      FALSE
+74      FALSE
+75      FALSE
+76      FALSE
+77      FALSE
+78      FALSE
+79      FALSE
+80      FALSE
+81      FALSE
+82      FALSE
+83      FALSE
+84      FALSE
+85      FALSE
+86      FALSE
+87      FALSE
+88      FALSE
+89      FALSE
+90      FALSE
+91      FALSE
+92      FALSE
+93      FALSE
+94      FALSE
+95      FALSE
+96      FALSE
+97      FALSE
+98      FALSE
+99      FALSE
+100     FALSE
+101     FALSE
+102     FALSE
+103     FALSE
+104     FALSE
+105     FALSE
+106     FALSE
+107     FALSE
+108     FALSE
+109     FALSE
+110     FALSE
+111     FALSE
+112     FALSE
+113     FALSE
+114     FALSE
+115     FALSE
+116     FALSE
+117     FALSE
+118     FALSE
+119     FALSE
+120     FALSE
+121     FALSE
+122     FALSE
+123     FALSE
+124     FALSE
+125     FALSE
+126     FALSE
+127     FALSE
+128     FALSE
+129     FALSE
+130     FALSE
+131     FALSE
+132     FALSE
+133     FALSE
+134     FALSE
+135     FALSE
+136     FALSE
+137     FALSE
+138     FALSE
+139     FALSE
+140     FALSE
+141     FALSE
+142     FALSE
+143     FALSE
+144     FALSE
+145     FALSE
+146     FALSE
+147     FALSE
+148     FALSE
+149     FALSE
+150     FALSE
+151     FALSE
+152     FALSE
+153     FALSE
+154     FALSE
+155     FALSE
+156     FALSE
+157     FALSE
+158     FALSE
+159     FALSE
+160     FALSE
+161     FALSE
+162     FALSE
+163     FALSE
+164     FALSE
+165     FALSE
+166     FALSE
+167     FALSE
+168     FALSE
+169     FALSE
+170     FALSE
+171     FALSE
+172     FALSE
+173     FALSE
+174     FALSE
+175     FALSE
+176     FALSE
+177     FALSE
+178     FALSE
+179     FALSE
+180     FALSE
+181     FALSE
+182     FALSE
+183     FALSE
+184     FALSE
+185     FALSE
+186     FALSE
+187     FALSE
+188     FALSE
+189     FALSE
+190     FALSE
+191     FALSE
+192     FALSE
+193     FALSE
+194     FALSE
+195     FALSE
+196     FALSE
+197     FALSE
+198     FALSE
+199     FALSE
+200     FALSE
+201     FALSE
+202     FALSE
+203     FALSE
+204     FALSE
+205     FALSE
+206     FALSE
+207     FALSE
+208     FALSE
+209     FALSE
+210     FALSE
+211     FALSE
+212     FALSE
+213     FALSE
+214     FALSE
+215     FALSE
+216     FALSE
+217     FALSE
+218     FALSE
+219     FALSE
+220     FALSE
+221     FALSE
+222     FALSE
+223     FALSE
+224     FALSE
+225     FALSE
+226     FALSE
+227     FALSE
+228     FALSE
+229     FALSE
+230     FALSE
+231     FALSE
+232     FALSE
+233     FALSE
+234     FALSE
+235     FALSE
+236     FALSE
+237     FALSE
+238     FALSE
+239     FALSE
+240     FALSE
+241     FALSE
+242     FALSE
+243     FALSE
+244     FALSE
+245     FALSE
+246     FALSE
+247     FALSE
+248     FALSE
+249     FALSE
+250     FALSE
+251     FALSE
+252     FALSE
+253     FALSE
+254     FALSE
+255     FALSE
+256     FALSE
+257     FALSE
+258     FALSE
+259     FALSE
+260     FALSE
+261     FALSE
+262     FALSE
+263     FALSE
+264     FALSE
+265     FALSE
+266     FALSE
+267     FALSE
+268     FALSE
+269     FALSE
+270     FALSE
+271     FALSE
+272     FALSE
+273     FALSE
+274     FALSE
+275     FALSE
+276     FALSE
+277     FALSE
+278     FALSE
+279     FALSE
+280     FALSE
+281     FALSE
+282     FALSE
+283     FALSE
+284     FALSE
+285     FALSE
+286     FALSE
+287     FALSE
+288     FALSE
+289     FALSE
+290     FALSE
+291     FALSE
+292     FALSE
+293     FALSE
+294     FALSE
+295     FALSE
+296     FALSE
+297     FALSE
+298     FALSE
+299     FALSE
+300     FALSE
+301     FALSE
+302     FALSE
+303     FALSE
+304     FALSE
+305     FALSE
+306     FALSE
+307     FALSE
+308     FALSE
+309     FALSE
+310     FALSE
+311     FALSE
+312     FALSE
+313     FALSE
+314     FALSE
+315     FALSE
+316     FALSE
+317     FALSE
+318     FALSE
+319     FALSE
+320     FALSE
+321     FALSE
+322     FALSE
+323     FALSE
+324     FALSE
+325     FALSE
+326     FALSE
+327     FALSE
+328     FALSE
+329     FALSE
+330     FALSE
+331     FALSE
+332     FALSE
+333     FALSE
+334     FALSE
+335     FALSE
+336     FALSE
+337     FALSE
+338     FALSE
+339     FALSE
+340     FALSE
+341     FALSE
+342     FALSE
+343     FALSE
+344     FALSE
+345     FALSE
+346     FALSE
+347     FALSE
+348     FALSE
+349     FALSE
+350     FALSE
+351     FALSE
+352     FALSE
+353     FALSE
+354     FALSE
+355     FALSE
+356     FALSE
+357     FALSE
+358     FALSE
+359     FALSE
+360     FALSE
+361     FALSE
+362     FALSE
+363     FALSE
+364     FALSE
+365     FALSE
+366     FALSE
+367     FALSE
+368     FALSE
+369     FALSE
+370     FALSE
+371     FALSE
+372     FALSE
+373     FALSE
+374     FALSE
+375     FALSE
+376     FALSE
+377     FALSE
+378     FALSE
+379     FALSE
+380     FALSE
+381     FALSE
+382     FALSE
+383     FALSE
+384     FALSE
+385     FALSE
+386     FALSE
+387     FALSE
+388     FALSE
+389     FALSE
+390     FALSE
+391     FALSE
+392     FALSE
+393     FALSE
+394     FALSE
+395     FALSE
+396     FALSE
+397     FALSE
+398     FALSE
+399     FALSE
+400     FALSE
+401     FALSE
+402     FALSE
+403     FALSE
+404     FALSE
+405     FALSE
+406     FALSE
+407     FALSE
+408     FALSE
+409     FALSE
+410     FALSE
+411     FALSE
+412     FALSE
+413     FALSE
+414     FALSE
+415     FALSE
+416     FALSE
+417     FALSE
+418     FALSE
+419     FALSE
+420     FALSE
+421     FALSE
+422     FALSE
+423     FALSE
+424     FALSE
+425     FALSE
+426     FALSE
+427     FALSE
+428     FALSE
+429     FALSE
+430     FALSE
+431     FALSE
+432     FALSE
+433     FALSE
+434     FALSE
+435     FALSE
+436     FALSE
+437     FALSE
+438     FALSE
+439     FALSE
+440     FALSE
+441     FALSE
+442     FALSE
+443     FALSE
+444     FALSE
+445     FALSE
+446     FALSE
+447     FALSE
+448     FALSE
+449     FALSE
+450     FALSE
+451     FALSE
+452     FALSE
+453     FALSE
+454     FALSE
+455     FALSE
+456     FALSE
+457     FALSE
+458     FALSE
+459     FALSE
+460     FALSE
+461     FALSE
+462     FALSE
+463     FALSE
+464     FALSE
+465     FALSE
+466     FALSE
+467     FALSE
+468     FALSE
+469     FALSE
+470     FALSE
+471     FALSE
+472     FALSE
+473     FALSE
+474     FALSE
+475     FALSE
+476     FALSE
+477     FALSE
+478     FALSE
+479     FALSE
+480     FALSE
+481     FALSE
+482     FALSE
+483     FALSE
+484     FALSE
+485     FALSE
+486     FALSE
+487     FALSE
+488     FALSE
+489     FALSE
+490     FALSE
+491     FALSE
+492     FALSE
+493     FALSE
+494     FALSE
+495     FALSE
+496     FALSE
+497     FALSE
+498     FALSE
+499     FALSE
+500     FALSE
+501     FALSE
+502     FALSE
+503     FALSE
+504     FALSE
+505     FALSE
+506     FALSE
+507     FALSE
+508     FALSE
+509     FALSE
+510     FALSE
+511     FALSE
+512     FALSE
+513     FALSE
+514     FALSE
+515     FALSE
+516     FALSE
+517     FALSE
+518     FALSE
+519     FALSE
+520     FALSE
+521     FALSE
+522     FALSE
+523     FALSE
+524     FALSE
+525     FALSE
+526     FALSE
+527     FALSE
+528     FALSE
+529     FALSE
+530     FALSE
+531     FALSE
+532     FALSE
+533     FALSE
+534     FALSE
+535     FALSE
+536     FALSE
+537     FALSE
+538     FALSE
+539     FALSE
+540     FALSE
+541     FALSE
+542     FALSE
+543     FALSE
+544     FALSE
+545     FALSE
+546     FALSE
+547     FALSE
+548     FALSE
+549     FALSE
+550     FALSE
+551     FALSE
+552     FALSE
+553     FALSE
+554     FALSE
+555     FALSE
+556     FALSE
+557     FALSE
+558     FALSE
+559     FALSE
+560     FALSE
+561     FALSE
+562     FALSE
+563     FALSE
+564     FALSE
+565     FALSE
+566     FALSE
+567     FALSE
+568     FALSE
+569     FALSE
+570     FALSE
+571     FALSE
+572     FALSE
+573     FALSE
+574     FALSE
+575     FALSE
+576     FALSE
+577     FALSE
+578     FALSE
+579     FALSE
+580     FALSE
+581     FALSE
+582     FALSE
+583     FALSE
+584     FALSE
+585     FALSE
+586     FALSE
+587     FALSE
+588     FALSE
+589     FALSE
+590     FALSE
+591     FALSE
+592     FALSE
+593     FALSE
+594     FALSE
+595     FALSE
+596     FALSE
+597     FALSE
+598     FALSE
+599     FALSE
+600     FALSE
+601     FALSE
+602     FALSE
+603     FALSE
+604     FALSE
+605     FALSE
+606     FALSE
+607     FALSE
+608     FALSE
+609     FALSE
+610     FALSE
+611     FALSE
+612     FALSE
+613     FALSE
+614     FALSE
+615     FALSE
+616     FALSE
+617     FALSE
+618     FALSE
+619     FALSE
+620     FALSE
+621     FALSE
+622     FALSE
+623     FALSE
+624     FALSE
+625     FALSE
+626     FALSE
+627     FALSE
+628     FALSE
+629     FALSE
+630     FALSE
+631     FALSE
+632     FALSE
+633     FALSE
+634     FALSE
+635     FALSE
+636     FALSE
+637     FALSE
+638     FALSE
+639     FALSE
+640     FALSE
+641     FALSE
+642     FALSE
+643     FALSE
+644     FALSE
+645     FALSE
+646     FALSE
+647     FALSE
+648     FALSE
+649     FALSE
+650     FALSE
+651     FALSE
+652     FALSE
+653     FALSE
+654     FALSE
+655     FALSE
+656     FALSE
+657     FALSE
+658     FALSE
+659     FALSE
+660     FALSE
+661     FALSE
+662     FALSE
+663     FALSE
+664     FALSE
+665     FALSE
+666     FALSE
+667     FALSE
+668     FALSE
+669     FALSE
+670     FALSE
+671     FALSE
+672     FALSE
+673     FALSE
+674     FALSE
+675     FALSE
+676     FALSE
+677     FALSE
+678     FALSE
+679     FALSE
+680     FALSE
+681     FALSE
+682     FALSE
+683     FALSE
+684     FALSE
+685     FALSE
+686     FALSE
+687     FALSE
+688     FALSE
+689     FALSE
+690     FALSE
+691     FALSE
+692     FALSE
+693     FALSE
+694     FALSE
+695     FALSE
+696     FALSE
+697     FALSE
+698     FALSE
+699     FALSE
+700     FALSE
+701     FALSE
+702     FALSE
+703     FALSE
+704     FALSE
+705     FALSE
+706     FALSE
+707     FALSE
+708     FALSE
+709     FALSE
+710     FALSE
+711     FALSE
+712     FALSE
+713     FALSE
+714     FALSE
+715     FALSE
+716     FALSE
+717     FALSE
+718     FALSE
+719     FALSE
+720     FALSE
+721     FALSE
+722     FALSE
+723     FALSE
+724     FALSE
+725     FALSE
+726     FALSE
+727     FALSE
+728     FALSE
+729     FALSE
+730     FALSE
+731     FALSE
+732     FALSE
+733     FALSE
+734     FALSE
+735     FALSE
+736     FALSE
+737     FALSE
+738     FALSE
+739     FALSE
+740     FALSE
+741     FALSE
+742     FALSE
+743     FALSE
+744     FALSE
+745     FALSE
+746     FALSE
+747     FALSE
+748     FALSE
+749     FALSE
+750     FALSE
+751     FALSE
+752     FALSE
+753     FALSE
+754     FALSE
+755     FALSE
+756     FALSE
+757     FALSE
+758     FALSE
+759     FALSE
+760     FALSE
+761     FALSE
+762     FALSE
+763     FALSE
+764     FALSE
+765     FALSE
+766     FALSE
+767     FALSE
+768     FALSE
+769     FALSE
+770     FALSE
+771     FALSE
+772     FALSE
+773     FALSE
+774     FALSE
+775     FALSE
+776     FALSE
+777     FALSE
+778     FALSE
+779     FALSE
+780     FALSE
+781     FALSE
+782     FALSE
+783     FALSE
+784     FALSE
+785     FALSE
+786     FALSE
+787     FALSE
+788     FALSE
+789     FALSE
+790     FALSE
+791     FALSE
+792     FALSE
+793     FALSE
+794     FALSE
+795     FALSE
+796     FALSE
+797     FALSE
+798     FALSE
+799     FALSE
+800     FALSE
+801     FALSE
+802     FALSE
+803     FALSE
+804     FALSE
+805     FALSE
+806     FALSE
+807     FALSE
+808     FALSE
+809     FALSE
+810     FALSE
+811     FALSE
+812     FALSE
+813     FALSE
+814     FALSE
+815     FALSE
+816     FALSE
+817     FALSE
+818     FALSE
+819     FALSE
+820     FALSE
+821     FALSE
+822     FALSE
+823     FALSE
+824     FALSE
+825     FALSE
+826     FALSE
+827     FALSE
+828     FALSE
+829     FALSE
+830     FALSE
+831     FALSE
+832     FALSE
+833     FALSE
+834     FALSE
+835     FALSE
+836     FALSE
+837     FALSE
+838     FALSE
+839     FALSE
+840     FALSE
+841     FALSE
+842     FALSE
+843     FALSE
+844     FALSE
+845     FALSE
+846     FALSE
+847     FALSE
+848     FALSE
+849     FALSE
+850     FALSE
+851     FALSE
+852     FALSE
+853     FALSE
+854     FALSE
+855     FALSE
+856     FALSE
+857     FALSE
+858     FALSE
+859     FALSE
+860     FALSE
+861     FALSE
+862     FALSE
+863     FALSE
+864     FALSE
+865     FALSE
+866     FALSE
+867     FALSE
+868     FALSE
+869     FALSE
+870     FALSE
+871     FALSE
+872     FALSE
+873     FALSE
+874     FALSE
+875     FALSE
+876     FALSE
+877     FALSE
+878     FALSE
+879     FALSE
+880     FALSE
+881     FALSE
+882     FALSE
+883     FALSE
+884     FALSE
+885     FALSE
+886     FALSE
+887     FALSE
+888     FALSE
+889     FALSE
+890     FALSE
+891     FALSE
+892     FALSE
+893     FALSE
+894     FALSE
+895     FALSE
+896     FALSE
+897     FALSE
+898     FALSE
+899     FALSE
+900     FALSE
+901     FALSE
+902     FALSE
+903     FALSE
+904     FALSE
+905     FALSE
+906     FALSE
+907     FALSE
+908     FALSE
+909     FALSE
+910     FALSE
+911     FALSE
+912     FALSE
+913     FALSE
+914     FALSE
+915     FALSE
+916     FALSE
+917     FALSE
+918     FALSE
+919     FALSE
+920     FALSE
+921     FALSE
+922     FALSE
+923     FALSE
+924     FALSE
+925     FALSE
+926     FALSE
+927     FALSE
+928     FALSE
+929     FALSE
+930     FALSE
+931     FALSE
+932     FALSE
+933     FALSE
+934     FALSE
+935     FALSE
+936     FALSE
+937     FALSE
+938     FALSE
+939     FALSE
+940     FALSE
+941     FALSE
+942     FALSE
+943     FALSE
+944     FALSE
+945     FALSE
+946     FALSE
+947     FALSE
+948     FALSE
+949     FALSE
+950     FALSE
+951     FALSE
+952     FALSE
+953     FALSE
+954     FALSE
+955     FALSE
+956     FALSE
+957     FALSE
+958     FALSE
+959     FALSE
+960     FALSE
+961     FALSE
+962     FALSE
+963     FALSE
+964     FALSE
+965     FALSE
+966     FALSE
+967     FALSE
+968     FALSE
+969     FALSE
+970     FALSE
+971     FALSE
+972     FALSE
+973     FALSE
+974     FALSE
+975     FALSE
+976     FALSE
+977     FALSE
+978     FALSE
+979     FALSE
+980     FALSE
+981     FALSE
+982     FALSE
+983     FALSE
+984     FALSE
+985     FALSE
+986     FALSE
+987     FALSE
+988     FALSE
+989     FALSE
+990     FALSE
+991     FALSE
+992     FALSE
+993     FALSE
+994     FALSE
+995     FALSE
+996     FALSE
+997     FALSE
+998     FALSE
+999     FALSE
+1000    FALSE
+1001    FALSE
+1002    FALSE
+1003    FALSE
+1004    FALSE
+1005    FALSE
+1006    FALSE
+1007    FALSE
+1008    FALSE
+1009    FALSE
+1010    FALSE
+1011    FALSE
+1012    FALSE
+1013    FALSE
+1014    FALSE
+1015    FALSE
+1016    FALSE
+1017    FALSE
+1018    FALSE
+1019    FALSE
+1020    FALSE
+1021    FALSE
+1022    FALSE
+1023    FALSE
+1024    FALSE
+1025    FALSE
+1026    FALSE
+1027    FALSE
+1028    FALSE
+1029    FALSE
+1030    FALSE
+1031    FALSE
+1032    FALSE
+1033    FALSE
+1034    FALSE
+1035    FALSE
+1036    FALSE
+1037    FALSE
+1038    FALSE
+1039    FALSE
+1040    FALSE
+1041    FALSE
+1042    FALSE
+1043    FALSE
+1044    FALSE
+1045    FALSE
+1046    FALSE
+1047    FALSE
+1048    FALSE
+1049    FALSE
+1050    FALSE
+1051    FALSE
+1052    FALSE
+1053    FALSE
+1054    FALSE
+1055    FALSE
+1056    FALSE
+1057    FALSE
+1058    FALSE
+1059    FALSE
+1060    FALSE
+1061    FALSE
+1062    FALSE
+1063    FALSE
+1064    FALSE
+1065    FALSE
+1066    FALSE
+1067    FALSE
+1068    FALSE
+1069    FALSE
+1070    FALSE
+1071    FALSE
+1072    FALSE
+1073    FALSE
+1074    FALSE
+1075    FALSE
+1076    FALSE
+1077    FALSE
+1078    FALSE
+1079    FALSE
+1080    FALSE
+1081    FALSE
+1082    FALSE
+1083    FALSE
+1084    FALSE
+1085    FALSE
+1086    FALSE
+1087    FALSE
+1088    FALSE
+1089    FALSE
+1090    FALSE
+1091    FALSE
+1092    FALSE
+1093    FALSE
+1094    FALSE
+1095    FALSE
+1096    FALSE
+1097    FALSE
+1098    FALSE
+1099    FALSE
+1100    FALSE
+1101    FALSE
+1102    FALSE
+1103    FALSE
+1104    FALSE
+1105    FALSE
+1106    FALSE
+1107    FALSE
+1108    FALSE
+1109    FALSE
+1110    FALSE
+1111    FALSE
+1112    FALSE
+1113    FALSE
+1114    FALSE
+1115    FALSE
+1116    FALSE
+1117    FALSE
+1118    FALSE
+1119    FALSE
+1120    FALSE
+1121    FALSE
+1122    FALSE
+1123    FALSE
+1124    FALSE
+1125    FALSE
+1126    FALSE
+1127    FALSE
+1128    FALSE
+1129    FALSE
+1130    FALSE
+1131    FALSE
+1132    FALSE
+1133    FALSE
+1134    FALSE
+1135    FALSE
+1136    FALSE
+1137    FALSE
+1138    FALSE
+1139    FALSE
+1140    FALSE
+1141    FALSE
+1142    FALSE
+1143    FALSE
+1144    FALSE
+1145    FALSE
+1146    FALSE
+1147    FALSE
+1148    FALSE
+1149    FALSE
+1150    FALSE
+1151    FALSE
+1152    FALSE
+1153    FALSE
+1154    FALSE
+1155    FALSE
+1156    FALSE
+1157    FALSE
+1158    FALSE
+1159    FALSE
+1160    FALSE
+1161    FALSE
+1162    FALSE
+1163    FALSE
+1164    FALSE
+1165    FALSE
+1166    FALSE
+1167    FALSE
+1168    FALSE
+1169    FALSE
+1170    FALSE
+1171    FALSE
+1172    FALSE
+1173    FALSE
+1174    FALSE
+1175    FALSE
+1176    FALSE
+1177    FALSE
+1178    FALSE
+1179    FALSE
+1180    FALSE
+1181    FALSE
+1182    FALSE
+1183    FALSE
+1184    FALSE
+1185    FALSE
+1186    FALSE
+1187    FALSE
+1188    FALSE
+1189    FALSE
+1190    FALSE
+1191    FALSE
+1192    FALSE
+1193    FALSE
+1194    FALSE
+1195    FALSE
+1196    FALSE
+1197    FALSE
+1198    FALSE
+1199    FALSE
+1200    FALSE
+1201    FALSE
+1202    FALSE
+1203    FALSE
+1204    FALSE
+1205    FALSE
+1206    FALSE
+1207    FALSE
+1208    FALSE
+1209    FALSE
+1210    FALSE
+1211    FALSE
+1212    FALSE
+1213    FALSE
+1214    FALSE
+1215    FALSE
+1216    FALSE
+1217    FALSE
+1218    FALSE
+1219    FALSE
+1220    FALSE
+1221    FALSE
+1222    FALSE
+1223    FALSE
+1224    FALSE
+1225    FALSE
+1226    FALSE
+1227    FALSE
+1228    FALSE
+1229    FALSE
+1230    FALSE
+1231    FALSE
+1232    FALSE
+1233    FALSE
+1234    FALSE
+1235    FALSE
+1236    FALSE
+1237    FALSE
+1238    FALSE
+1239    FALSE
+1240    FALSE
+1241    FALSE
+1242    FALSE
+1243    FALSE
+1244    FALSE
+1245    FALSE
+1246    FALSE
+1247    FALSE
+1248    FALSE
+1249    FALSE
+1250    FALSE
+1251    FALSE
+1252    FALSE
+1253    FALSE
+1254    FALSE
+1255    FALSE
+1256    FALSE
+1257    FALSE
+1258    FALSE
+1259    FALSE
+1260    FALSE
+1261    FALSE
+1262    FALSE
+1263    FALSE
+1264    FALSE
+1265    FALSE
+1266    FALSE
+1267    FALSE
+1268    FALSE
+1269    FALSE
+1270    FALSE
+1271    FALSE
+1272    FALSE
+1273    FALSE
+1274    FALSE
+1275    FALSE
+1276    FALSE
+1277    FALSE
+1278    FALSE
+1279    FALSE
+1280    FALSE
+1281    FALSE
+1282    FALSE
+1283    FALSE
+1284    FALSE
+1285    FALSE
+1286    FALSE
+1287    FALSE
+1288    FALSE
+1289    FALSE
+1290    FALSE
+1291    FALSE
+1292    FALSE
+1293    FALSE
+1294    FALSE
+1295    FALSE
+1296    FALSE
+1297    FALSE
+1298    FALSE
+1299    FALSE
+1300    FALSE
+1301    FALSE
+1302    FALSE
+1303    FALSE
+1304    FALSE
+1305    FALSE
+1306    FALSE
+1307    FALSE
+1308    FALSE
+1309    FALSE
+1310    FALSE
+1311    FALSE
+1312    FALSE
+1313    FALSE
+1314    FALSE
+1315    FALSE
+1316    FALSE
+1317    FALSE
+1318    FALSE
+1319    FALSE
+1320    FALSE
+1321    FALSE
+1322    FALSE
+1323    FALSE
+1324    FALSE
+1325    FALSE
+1326    FALSE
+1327    FALSE
+1328    FALSE
+1329    FALSE
+1330    FALSE
+1331    FALSE
+1332    FALSE
+1333    FALSE
+1334    FALSE
+1335    FALSE
+1336    FALSE
+1337    FALSE
+1338    FALSE
+1339    FALSE
+1340    FALSE
+1341    FALSE
+1342    FALSE
+1343    FALSE
+1344    FALSE
+1345    FALSE
+1346    FALSE
+1347    FALSE
+1348    FALSE
+1349    FALSE
+1350    FALSE
+1351    FALSE
+1352    FALSE
+1353    FALSE
+1354    FALSE
+1355    FALSE
+1356    FALSE
+1357    FALSE
+1358    FALSE
+1359    FALSE
+1360    FALSE
+1361    FALSE
+1362    FALSE
+1363    FALSE
+1364    FALSE
+1365    FALSE
+1366    FALSE
+1367    FALSE
+1368    FALSE
+1369    FALSE
+1370    FALSE
+1371    FALSE
+1372    FALSE
+1373    FALSE
+1374    FALSE
+1375    FALSE
+1376    FALSE
+1377    FALSE
+1378    FALSE
+1379    FALSE
+1380    FALSE
+1381    FALSE
+1382    FALSE
+1383    FALSE
+1384    FALSE
+1385    FALSE
+1386    FALSE
+1387    FALSE
+1388    FALSE
+1389    FALSE
+1390    FALSE
+1391    FALSE
+1392    FALSE
+1393    FALSE
+1394    FALSE
+1395    FALSE
+1396    FALSE
+1397    FALSE
+1398    FALSE
+1399    FALSE
+1400    FALSE
+1401    FALSE
+1402    FALSE
+1403    FALSE
+1404    FALSE
+1405    FALSE
+1406    FALSE
+1407    FALSE
+1408    FALSE
+1409    FALSE
+1410    FALSE
+1411    FALSE
+1412    FALSE
+1413    FALSE
+1414    FALSE
+1415    FALSE
+1416    FALSE
+1417    FALSE
+1418    FALSE
+1419    FALSE
+1420    FALSE
+1421    FALSE
+1422    FALSE
+1423    FALSE
+1424    FALSE
+1425    FALSE
+1426    FALSE
+1427    FALSE
+1428    FALSE
+1429    FALSE
+1430    FALSE
+1431    FALSE
+1432    FALSE
+1433    FALSE
+1434    FALSE
+1435    FALSE
+1436    FALSE
+1437    FALSE
+1438    FALSE
+1439    FALSE
+1440    FALSE
+1441    FALSE
+1442    FALSE
+1443    FALSE
+1444    FALSE
+1445    FALSE
+1446    FALSE
+1447    FALSE
+1448    FALSE
+1449    FALSE
+1450    FALSE
+1451    FALSE
+1452    FALSE
+1453    FALSE
+1454    FALSE
+1455    FALSE
+1456    FALSE
+1457    FALSE
+1458    FALSE
+1459    FALSE
+1460    FALSE
+1461    FALSE
+1462    FALSE
+1463    FALSE
+1464    FALSE
+1465    FALSE
+1466    FALSE
+1467    FALSE
+1468    FALSE
+1469    FALSE
+1470    FALSE
+1471    FALSE
+1472    FALSE
+1473    FALSE
+1474    FALSE
+1475    FALSE
+1476    FALSE
+1477    FALSE
+1478    FALSE
+1479    FALSE
+1480    FALSE
+1481    FALSE
+1482    FALSE
+1483    FALSE
+1484    FALSE
+1485    FALSE
+1486    FALSE
+1487    FALSE
+1488    FALSE
+1489    FALSE
+1490    FALSE
+1491    FALSE
+1492    FALSE
+1493    FALSE
+1494    FALSE
+1495    FALSE
+1496    FALSE
+1497    FALSE
+1498    FALSE
+1499    FALSE
+1500    FALSE
+1501    FALSE
+1502    FALSE
+1503    FALSE
+1504    FALSE
+1505    FALSE
+1506    FALSE
+1507    FALSE
+1508    FALSE
+Warning: The "MS2 Score" column at position 5 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

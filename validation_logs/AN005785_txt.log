@@ -1,8 +1,349 @@
 Validation Log
-2025-12-07 08:42:36.521029
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:36:49.399309
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005785/mwtab/txt
 Study ID:      ST003523
 Analysis ID:   AN005785
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 11
+
+Number of Warnings: 9
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Not applicable", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "45", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 12 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RefMet" column at position 2 in the METABOLITES table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                         1-Methylhistidine
+1                         1-Methyladenosine
+2           N-Acetyl-beta-glucosaminylamine
+3                            Quinaldic acid
+4                     2,6-Dihydroxypyridine
+5                3-Hydroxyphenylacetic acid
+6                         3-Methoxytyramine
+7                         3-Methylhistidine
+8                           3-Methyladenine
+9                   3-Methylbut-2-enoyl-CoA
+10                        3-Sulfino-alanine
+11                        Hydroxykynurenine
+12                 4-Acetamidobutanoic acid
+13                 4-Guanidinobutanoic acid
+14                     Imidazoleacetic acid
+15                         4-Pyridoxic acid
+16               4-Quinolinecarboxylic acid
+17                    5-Aminopentanoic acid
+18               5-Hydroxyindoleacetic acid
+19                         5-Methylcytosine
+20                         5-Methylcytosine
+21                         5-Methylcytosine
+22                         5-Methylcytosine
+23                         5-Methylcytosine
+24                          5-Valerolactone
+25                        5'-Deoxyadenosine
+26                                  Adenine
+27                                  Adenine
+28                                  Adenine
+29                                Adenosine
+30                                      ADP
+31                               ADP-ribose
+32                                      ATP
+33                                      AMP
+34                                    AICAR
+35                                  Alanine
+36                                  Alanine
+37                                  Alanine
+38                                  Alanine
+39                            Allothreonine
+40                         Aminoadipic acid
+41                                 Anserine
+42                                 Arginine
+43                                 Arginine
+44                                 Arginine
+45                                 Arginine
+46                    Argininosuccinic acid
+47                    Argininosuccinic acid
+48                    Argininosuccinic acid
+49                    Argininosuccinic acid
+50                    Argininosuccinic acid
+51                    Argininosuccinic acid
+52                    Argininosuccinic acid
+53                    Argininosuccinic acid
+54                               Asparagine
+55                               Asparagine
+56                               Asparagine
+57                               Asparagine
+58                               Asparagine
+59                            Aspartic acid
+60                            Aspartic acid
+61                            Aspartic acid
+62                            Aspartic acid
+63                            Aspartic acid
+64                              Benzylamine
+65                             beta-Alanine
+66                                      NAD
+67                                  Betaine
+68                                   Biotin
+69                                Carnosine
+70                         CDP-Ethanolamine
+71                              CDP-choline
+72                               Citrulline
+73                                 Cortisol
+74                      Cortisol 21-acetate
+75                                 Creatine
+76                                 Creatine
+77                                 Creatine
+78                               Creatinine
+79                            Cystathionine
+80                            Cystathionine
+81                            Cystathionine
+82                                 Cytidine
+83                         2',3' cyclic CMP
+84                                 Cytosine
+85                                D-Alanine
+86                2-Amino-2-deoxy-D-mannose
+87                           Deoxyadenosine
+88                                     dAMP
+89                                     dATP
+90                            Deoxycytidine
+91                                     dCMP
+92                                     dGMP
+93                  2,6-Diaminopimelic acid
+94                           Diethanolamine
+95     4a-Carbinolamine tetrahydrobiopterin
+96                    Ethyl 3-indoleacetate
+97                                      FAD
+98                               Folic acid
+99                            Galactosamine
+100                 gamma-Aminobutyric acid
+101                 gamma-Aminobutyric acid
+102                 gamma-Aminobutyric acid
+103                 gamma-Aminobutyric acid
+104                 gamma-Aminobutyric acid
+105                               Glutamine
+106                               Glutamine
+107                               Glutamine
+108                               Glutamine
+109                               Glutamine
+110                               Glutamine
+111                       Glucosaminic acid
+112                             Glucosamine
+113                 Glucosamine 6-phosphate
+114                 Glucosamine 6-phosphate
+115                 Glucosamine 6-phosphate
+116                           Glutamic acid
+117                           Glutamic acid
+118                           Glutamic acid
+119                           Glutamic acid
+120                           Glutamic acid
+121                           Glutamic acid
+122                               Glutamine
+123                               CAR DC5:0
+124                             Glutathione
+125                             Glutathione
+126                             Glutathione
+127                             Glutathione
+128                             Glutathione
+129                             Glutathione
+130                             Glutathione
+131                             Glutathione
+132                             Glutathione
+133                             Glutathione
+134                             Glutathione
+135                                 Glycine
+136                                 Glycine
+137                                 Glycine
+138                             Glutathione
+139                             Glutathione
+140                             Glutathione
+141                             Glutathione
+142                             Glutathione
+143                             Glutathione
+144                             Glutathione
+145                             Glutathione
+146                             Glutathione
+147                    Oxidized glutathione
+148                      Guanidoacetic acid
+149                  Guanidinosuccinic acid
+150                                 Guanine
+151                               Guanosine
+152                                     GMP
+153                               Histamine
+154                               Histidine
+155                            L-Histidinol
+156                            Homocysteine
+157                            Homocysteine
+158                            Homocysteine
+159                            Homocysteine
+160                            Homocysteine
+161              L-Homocysteine thiolactone
+162                       Hydroxykynurenine
+163                             Hypotaurine
+164                             Hypotaurine
+165                             Hypotaurine
+166                            Hypoxanthine
+167                   1H-Indole-3-acetamide
+168                       Indoleacetic acid
+169                            Tryptophanol
+170                 Indole-3-methyl acetate
+171                                 Inosine
+172                                     IMP
+173                              Isoleucine
+174                              Kynurenine
+175                               Carnitine
+176                               Carnitine
+177                               Carnitine
+178                               Carnitine
+179                               Carnitine
+180                               Carnitine
+181                               Carnitine
+182                         Tryptophanamide
+183                                 Lactose
+184                                CAR 12:0
+185                                 Leucine
+186                                 Leucine
+187                                 Leucine
+188                               Lipoamide
+189                              Lumichrome
+190                                  Lysine
+191                               Maleimide
+192                               Melatonin
+193                              Methionine
+194                              Methionine
+195                              Methionine
+196                              Methionine
+197                              Methionine
+198                              Methionine
+199                              Methionine
+200                              Methionine
+201                  Methionine sulfoximine
+202                 Methyl 4-aminobutanoate
+203                     Methylthioadenosine
+204                      N-Acetylasparagine
+205                   N-Acetylgalactosamine
+206                     N-Acetylglucosamine
+207                   N-Acetylglutamic acid
+208                    N-Acetyl-mannosamine
+209                 N-Acetylneuraminic acid
+210                   N-Acetylphenylalanine
+211                       N-Acetylserotonin
+212                     N-Acetyl-tryptophan
+213                       N(2)-Acetyllysine
+214                N-Methyl-D-aspartic acid
+215                  N-Methyl-glutamic acid
+216                      N-Methyltryptamine
+217                         N-Methylalanine
+218                        Dimethylarginine
+219                     N-6-Trimethyllysine
+220                   N6-Isopentenyladenine
+221                                     NAD
+222                                    NADH
+223                                    NADP
+224                                   NADPH
+225                             Niacinamide
+226    Nicotinamide purin-6-ol-dinucleotide
+227                   Nicotinamide ribotide
+228                          Nicotinic acid
+229                              Norleucine
+230                         Normetanephrine
+231                               Norvaline
+232                                 CAR 2:0
+233                     Phosphoethanolamine
+234                      DL-O-Phosphoserine
+235                    o-Succinylhomoserine
+236                         Ophthalmic acid
+237                               Ornithine
+238                               Ornithine
+239                               Ornithine
+240                               Ornithine
+241                               Ornithine
+242                                CAR 16:0
+243                        Pantothenic acid
+244                            Paraxanthine
+245                           Phenylalanine
+246                           Phosphoserine
+247                          Pipecolic acid
+248                                 Proline
+249                                 Proline
+250                                 Proline
+251                                 Proline
+252                                 Proline
+253                                 Proline
+254                                  Pterin
+255                                  Purine
+256                               Pyridoxal
+257                            Pyridoxamine
+258                              Pyridoxine
+259                              Riboflavin
+260                  S-Adenosylhomocysteine
+261                    S-Adenosylmethionine
+262                  S-Adenosylhomocysteine
+263                    S-Adenosylmethionine
+264                              Salsolinol
+265                               Sarcosine
+266                                  Serine
+267                                  Serine
+268                                  Serine
+269                                  Serine
+270                               Serotonin
+271                                 Taurine
+272                                 Taurine
+273                                 Taurine
+274                             Theobromine
+275                            Theophylline
+276                  Thiamine monophosphate
+277                    Thiamine diphosphate
+278                      6-Methylthiopurine
+279                                Thiourea
+280                               Threonine
+281                                 Thymine
+282           Thyrotropin releasing hormone
+283                          Cinnamaldehyde
+284                            Trigonelline
+285                              Tryptamine
+286                              Tryptophan
+287                              Tryptophan
+288                              Tryptophan
+289                              Tryptophan
+290                                Tyrosine
+291                                Tyrosine
+292                                Tyrosine
+293                                Tyrosine
+294                    Ureidopropionic acid
+295                           Urocanic acid
+296                                  Valine
+297                                  Valine
+298                                  Valine
+299                              Xanthosine
+Warning: The "PubChem_CID" column at position 8 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 10 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 7 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS_ID" column at position 3 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS_ID" column at position 3 in the METABOLITES table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1      5063510
+3        34249
+19     -491605
+20     -491605
+21     -491605
+22     -491605
+23     -491605
+74       18325
+87     -343801
+92     -364411
+100      20791
+101      20791
+102      20791
+103      20791
+104      20791
+202      20791
+226     -17709
+234    5838619
+283    4555222
+Warning: The "ChEBI" column at position 9 in the METABOLITES table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT" column at position 11 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

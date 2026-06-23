@@ -1,0 +1,50 @@
+Validation Log
+2026-06-21 07:51:35.577467
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007409/mwtab/json
+Study ID:      ST004429
+Analysis ID:   AN007409
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 27
+
+Number of Warnings: 23
+
+Number of Value Errors: 24
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "55Â°C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"5_15-diHETE EicoPAF"
+	"5S_6R-diHETE"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"5,15-diHETE EicoPAF"
+	"5S,6R-diHETE"
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "Sample002" column at position 15 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Sample071" column at position 22 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Sample042" column at position 25 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Sample077" column at position 31 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Sample078" column at position 35 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Sample076" column at position 43 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Sample039" column at position 46 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Sample060" column at position 66 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Sample087" column at position 79 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Sample022" column at position 97 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Sample080" column at position 108 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "pubchem_id" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "kegg_id" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "moverz_quant" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

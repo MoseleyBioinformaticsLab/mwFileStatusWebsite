@@ -1,8 +1,22 @@
 Validation Log
-2025-12-07 09:15:57.799044
-mwtab Python Library Version: 1.2.5
+2026-06-21 07:06:05.715324
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006382/mwtab/txt
 Study ID:      ST003886
 Analysis ID:   AN006382
 File format:   txt
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 3
+
+Number of Warnings: 2
+
+Number of Value Errors: 3
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Warning: The "medMz" column at position 2 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "medRt" column at position 3 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

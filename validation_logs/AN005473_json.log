@@ -1,8 +1,70 @@
 Validation Log
-2025-12-07 08:14:35.479519
-mwtab Python Library Version: 1.2.5
+2026-06-21 06:21:17.176640
+mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005473/mwtab/json
 Study ID:      ST003339
 Analysis ID:   AN005473
 File format:   json
-Status: Passing
+Status: Contains Validation Issues
+Number of Issues: 51
+
+Number of Warnings: 48
+
+Number of Value Errors: 51
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Male and female", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "L_F_HFD_Ctrl_N45_neg" column at position 6 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_F_HFD_Ctrl_N46_neg" column at position 7 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_F_HFD_Ctrl_N47_neg" column at position 8 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_M_HFD_Ctrl_N37_neg" column at position 25 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_M_HFD_Ctrl_N5_neg" column at position 29 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_M_HFD_Ctrl_N6_neg" column at position 30 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_M_HFD_Ctrl_N7_neg" column at position 31 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_F_HFD Ctrl_A29_neg" column at position 49 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_F_HFD Ctrl_A31_neg" column at position 50 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_F_HFD Ctrl_A32_neg" column at position 51 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_F_HFD Ctrl_A61_neg" column at position 52 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_F_HFD Ctrl_A62_neg" column at position 53 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_F_HFD Ctrl_A63_neg" column at position 54 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_F_HFD Ctrl_A64_neg" column at position 55 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_F_HFD highDINCH_A47_neg" column at position 62 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_M_HFD Ctrl_A21_neg" column at position 80 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_M_HFD Ctrl_A22_neg" column at position 81 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_M_HFD Ctrl_A23_neg" column at position 82 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_M_HFD Ctrl_A24_neg" column at position 83 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_M_HFD Ctrl_A53_neg" column at position 84 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_M_HFD Ctrl_A54_neg" column at position 85 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_M_HFD Ctrl_A55_neg" column at position 86 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "L_M_HFD Ctrl_A56_neg" column at position 87 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Test_mock_extraction_1_neg" column at position 112 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Test_mock_extraction_2_neg" column at position 113 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Test_mock_extraction_3_neg" column at position 114 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "Test_mock_extraction_4_neg" column at position 115 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "scWAT_M_HFD_Ctrl_N37" column at position 131 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "scWAT_M_HFD Ctrl_A22" column at position 163 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "scWAT_M_HFD Ctrl_A23" column at position 164 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "scWAT_M_HFD Ctrl_A54" column at position 166 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "scWAT_M_HFD lowDINCH_A66" column at position 179 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "visWAT_M_HFD_Ctrl_N37" column at position 196 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "visWAT_F_HFD Ctrl_A61" column at position 212 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "visWAT_F_HFD Ctrl_A62" column at position 213 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "visWAT_F_HFD Ctrl_A63" column at position 214 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "visWAT_M_HFD Ctrl_A21" column at position 228 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "visWAT_M_HFD Ctrl_A22" column at position 229 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "visWAT_M_HFD Ctrl_A23" column at position 230 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "visWAT_M_HFD Ctrl_A53" column at position 231 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "visWAT_M_HFD Ctrl_A54" column at position 232 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "BAT_F_HFD_Ctrl_N14" column at position 249 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "BAT_F_HFD_Ctrl_N46" column at position 251 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "BAT_M_HFD_Ctrl_N37" column at position 263 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "BAT_M_HFD Ctrl_A23" column at position 297 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.
+Warning: The "BAT_M_HFD Ctrl_A54" column at position 299 in the ["MS_METABOLITE_DATA"]["Data"] table has all null values.

@@ -1,0 +1,221 @@
+Validation Log
+2026-06-21 08:13:09.995389
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008055/mwtab/txt
+Study ID:      ST004763
+Analysis ID:   AN008055
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 17
+
+Number of Warnings: 8
+
+Number of Value Errors: 17
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "20-49 grams", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "320°C", for the subsection, "CAPILLARY_TEMPERATURE", in the "MS" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "45 liters per min", for the subsection, "DRY_GAS_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "320°C", for the subsection, "DRY_GAS_TEMP", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "+3600 volts", for the subsection, "ION_SPRAY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['V', 'kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "250 µL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "50°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "50°C", for the subsection, "INJECTION_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Warning: The "Exact mass" column at position 4 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Standardized name" column at position 2 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 14 in the METABOLITES table, matches a standard column name, "refmet". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 14 in the METABOLITES table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      RM0153915
+1      RM0135507
+2      RM0135509
+3      RM0135485
+4      RM0135486
+5      RM0123335
+6      RM0028901
+7      RM0060557
+8      RM0118566
+9      RM0134197
+10     RM0121227
+11     RM0121228
+13     RM0185054
+16     RM0185127
+17     RM0185195
+25     RM0185265
+27     RM0174616
+30     RM0134083
+31     RM0134475
+32     RM0134475
+33     RM0134475
+34     RM0042845
+35     RM0048598
+36     RM0134493
+37     RM0134455
+38     RM0134455
+43     RM0171226
+44     RM0135046
+45     RM0135046
+46     RM0135046
+47     RM0000437
+48     RM0000437
+49     RM0000437
+50     RM0090134
+51     RM0090134
+52     RM0090134
+53     RM0090134
+54     RM0090134
+55     RM0104110
+56     RM0134944
+57     RM0134944
+58     RM0171088
+59     RM0171088
+60     RM0171088
+61     RM0181337
+62     RM0134946
+63     RM0134946
+64     RM0134946
+65     RM0181341
+66     RM0025459
+67     RM0134906
+68     RM0090089
+69     RM0090089
+70     RM0134841
+71     RM0134841
+72     RM0011317
+73     RM0011317
+74     RM0134891
+75     RM0134891
+76     RM0134891
+77     RM0134891
+78     RM0134843
+79     RM0134901
+80     RM0026241
+81     RM0097853
+82     RM0134818
+83     RM0134818
+84     RM0134818
+85     RM0010754
+86     RM0010761
+87     RM0134821
+88     RM0171049
+89     RM0134865
+90     RM0134880
+91     RM0134900
+92     RM0000649
+93     RM0000649
+94     RM0134845
+95     RM0134845
+96     RM0134844
+97     RM0134820
+98     RM0134820
+99     RM0010755
+100    RM0010755
+101    RM0134823
+102    RM0097851
+103    RM0097851
+104    RM0181833
+105    RM0171051
+106    RM0171051
+107    RM0098366
+108    RM0098366
+109    RM0098366
+110    RM0134817
+111    RM0134817
+112    RM0171053
+113    RM0000567
+114    RM0000569
+115    RM0090187
+116    RM0180371
+117    RM0138805
+118    RM0052166
+119    RM0134858
+120    RM0017335
+121    RM0017335
+122    RM0052186
+123    RM0052186
+124    RM0052219
+125    RM0052210
+126    RM0162130
+127    RM0052194
+128    RM0052196
+129    RM0052197
+130    RM0052198
+131    RM0052199
+132    RM0052200
+133    RM0134803
+134    RM0104542
+135    RM0001255
+136    RM0134782
+137    RM0104542
+138    RM0134729
+139    RM0182992
+140    RM0183027
+141    RM0008809
+142    RM0008829
+143    RM0017415
+144    RM0134765
+145    RM0092661
+146    RM0017454
+147    RM0134767
+148    RM0092655
+149    RM0092660
+150    RM0134783
+151    RM0008718
+152    RM0008718
+153    RM0055418
+154    RM0097814
+155    RM0183508
+156    RM0012147
+157    RM0019578
+158    RM0134537
+159    RM0027240
+160    RM0134537
+161    RM0184085
+162    RM0162512
+163    RM0134528
+164    RM0047509
+165    RM0105646
+166    RM0105646
+167    RM0057413
+168    RM0058263
+170    RM0134153
+171    RM0134099
+172    RM0134099
+173    RM0134099
+174    RM0134100
+175    RM0134157
+176    RM0134157
+177    RM0134107
+178    RM0186384
+179    RM0162339
+181    RM0135377
+182    RM0135377
+183    RM0135377
+184    RM0135428
+185    RM0135443
+186    RM0135443
+187    RM0002291
+189    RM0122191
+190    RM0137055
+191    RM0137055
+192    RM0135025
+193    RM0134320
+194    RM0134321
+195    RM0112573
+196    RM0134322
+197    RM0134340
+198    RM0112841
+199    RM0115978
+200    RM0003461
+201    RM0026558
+202    RM0113224
+203    RM0016715
+206    RM0177968
+Warning: The "Super class" column at position 5 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Main class" column at position 6 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Sub class" column at position 7 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 8 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
