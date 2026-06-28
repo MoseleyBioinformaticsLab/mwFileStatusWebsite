@@ -1,0 +1,445 @@
+Validation Log
+2026-06-28 06:15:13.909980
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN005381/mwtab/txt
+Study ID:      ST003285
+Analysis ID:   AN005381
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 16
+
+Number of Warnings: 13
+
+Number of Value Errors: 16
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Not applicable", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "0.35mL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "45°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Molecular.Weight" column at position 3 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Delta.Mass.Da" column at position 5 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Delta.Mass.ppm" column at position 6 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Delta.Mass.Da" column at position 5 in the METABOLITES table, matches a standard column name, "mass", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+10       8.4718111494908e-05
+11      9.75460423262575e-05
+44     -1.46889843222198e-05
+57     -8.56812937399809e-06
+58      5.11119072257316e-05
+61      5.61696951990598e-05
+67     -3.63805847314325e-05
+70     -7.02458414707507e-05
+72      3.91483001180859e-05
+74     -9.10530309283786e-05
+75     -1.03359593026653e-05
+76      4.26500994308299e-05
+80     -8.11403140232869e-05
+120    -2.51150730719019e-05
+128    -8.46878512561489e-05
+140     2.73244997970323e-05
+154    -1.92213651644124e-05
+157    -9.76171874640386e-05
+158     2.66681832385984e-05
+162     8.52834921261092e-06
+163     7.56656450846549e-05
+164     7.48249958917313e-05
+166     8.54073237803732e-05
+188     2.63245675569124e-05
+192     2.76057182304612e-05
+205     9.95480205148169e-05
+206     4.53815758305609e-05
+210     5.22151255495373e-05
+213    -7.14475440872775e-05
+214    -4.20352119476775e-05
+216    -1.87150959618521e-06
+218    -8.65254460222786e-05
+219     3.25603673445585e-06
+220    -5.46452059779767e-05
+221    -3.50983821135742e-05
+224     2.67430123699341e-05
+225    -4.98900112120282e-05
+226     2.13692152328804e-06
+229     6.33735525639167e-05
+231    -1.24512799857257e-05
+242    -8.37210349118322e-05
+243     9.76624515942603e-05
+250     -2.7004967364519e-05
+251     8.21513973505716e-05
+253    -6.26182817313747e-05
+267    -4.41750675577168e-05
+283     8.85863744315429e-06
+284    -2.98050962328489e-05
+295    -8.65137591290477e-05
+300       2.851360841305e-05
+308      8.7059616021179e-05
+312     5.17348511266391e-05
+318      9.9904996091027e-05
+319    -4.45082812348119e-05
+322    -3.77273437379699e-05
+332     8.16980389970468e-05
+338     9.70190461373477e-05
+339    -1.32503124632422e-05
+340     3.65587370652065e-05
+341    -3.16858291284916e-05
+346     9.58196396254607e-05
+347     6.15305657447607e-06
+349     2.76828125151951e-05
+353     2.62281253071706e-06
+356     8.03618802365236e-05
+357    -2.73363314136077e-05
+358    -3.64616405477136e-05
+364    -3.62580181558769e-05
+380     -2.7030660589844e-05
+381    -6.40614990743416e-06
+384    -9.18953639938991e-05
+386     -4.3975482640235e-05
+388     4.90179309053929e-05
+389     5.19241406209403e-05
+393    -6.17252337633545e-05
+396     1.60066406920123e-05
+400     8.86004783353656e-05
+403    -9.27483718555777e-05
+405     4.31608400504047e-05
+411     3.20180643029744e-05
+412     9.84581671445994e-05
+414    -3.72588114032624e-05
+416     3.51902344277732e-05
+418     6.27382480615779e-05
+421     6.08221546372079e-05
+426    -1.78677888698076e-05
+427     7.23683593832902e-05
+429     2.42750781467294e-05
+430     1.88175000062074e-05
+431    -4.97019531167098e-05
+433     4.76829007425295e-05
+435    -8.71066957870426e-05
+440    -5.04432507568708e-05
+447    -4.42443750330312e-05
+448    -8.31232102882495e-05
+450    -8.15559930060772e-05
+451    -6.97540057217338e-05
+452     1.87262846225167e-05
+453    -6.86640238427572e-05
+454    -7.73316821209846e-05
+456     1.62392201445982e-05
+457    -9.53265624730193e-05
+458     9.64661718967363e-05
+459     6.47749729409952e-05
+460     1.98152068833224e-05
+461    -1.99030384351317e-05
+463     -5.7200065498364e-05
+466    -4.24770992140111e-05
+470    -4.27983275699262e-05
+471     4.91343752173634e-06
+473     3.70938577702873e-05
+474     9.54609847099164e-05
+475     -2.7269008114672e-05
+476     8.58294713452779e-05
+477     5.99601565909325e-06
+478    -7.57866347953495e-05
+479    -1.06741964600587e-05
+480     3.54004202449687e-05
+481    -7.14452173724567e-05
+482     3.37377550749807e-05
+485    -6.88628222746956e-05
+487    -6.46178802412578e-05
+488     6.10268488117072e-05
+498    -1.98581481640758e-05
+505    -2.97581470363184e-05
+510    -7.64322589361655e-05
+517    -2.39678944922161e-05
+518    -8.88181392042497e-05
+521    -6.00646133079863e-05
+528    -8.58596876582851e-05
+531    -2.04746008307666e-05
+550    -3.71584998219987e-05
+555      3.9560387790516e-05
+556     5.12807977202101e-05
+581     9.02667908917465e-05
+587      4.6228105929913e-05
+592    -8.54316591585302e-05
+594    -9.71400709772752e-05
+595    -7.32728356069856e-05
+603    -9.96041062535369e-05
+605     4.61392680222161e-05
+606     7.79060508193652e-06
+615    -2.73351730015747e-05
+618    -5.45655035466552e-05
+620     9.36921884431285e-06
+Warning: The "Formula" column at position 4 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+7            C5 H9 N O4
+8          C2 H7 N O3 S
+10           C5 H9 N O2
+11          C9 H17 N O4
+12           C4 H9 N O3
+13          C6 H11 N O2
+14        C5 H11 N O2 S
+16          C8 H11 N O2
+17           C5 H7 N O3
+18          C6 H13 N O2
+21           C9 H9 N O3
+23          C10 H9 N O2
+25         C26 H43 N O6
+26         C26 H43 N O5
+29           C5 H13 N O
+30          C7 H15 N O3
+32          C7 H15 N O2
+33          C7 H13 N O2
+34           C5 H9 N O3
+36          C9 H11 N O3
+40          C6 H13 N O2
+43         C10 H19 N O4
+47       C40 H80 N O8 P
+50          C5 H11 N O2
+54            C9 H7 N O
+55          C11 H9 N O2
+61         C13 H25 N O4
+62          C8 H17 N O2
+63         C11 H11 N O3
+66         C11 H11 N O2
+70         C17 H33 N O4
+71         C18 H39 N O3
+72         C17 H19 N O3
+74         C19 H37 N O4
+75         C23 H45 N O4
+79       C21 H44 N O7 P
+82           C3 H7 N O2
+85           C4 H9 N O3
+88           C4 H9 N O2
+92          C6 H11 N O4
+94         C5 H9 N O3 S
+95       C26 H52 N O6 P
+96          C8 H15 N O3
+98         C25 H33 F O4
+100          C10 H9 N O
+103         C7 H11 N O3
+104        C15 H17 N O5
+109        C11 H13 N O4
+120      C18 H38 N O5 P
+125        C20 H39 N O2
+126        C20 H41 N O2
+127         C4 H4 Cl N3
+128           C7 H7 I O
+138         C4 H11 N O3
+140                S Se
+142       C3 H10 N O4 P
+145            C2 H Cl5
+146     C9 H12 N O5 P S
+148           C3 H9 N O
+152         C7 H13 N O3
+153         C5 H11 N O2
+154       C8 H20 N O6 P
+159           C3 H7 N O
+165          C7 H7 N O2
+177           C2 H6 O S
+182           C8 H9 N O
+185       C5 H11 N O3 S
+190          C6 H9 N O4
+193        C5 H9 N O2 S
+195           C4 H9 N S
+199        C12 H17 N O3
+207        C22 H45 N O2
+208        C21 H27 F O4
+209         C22 H41 N O
+211     C42 H80 N O10 P
+212      C28 H58 N O7 P
+218         C21 H41 N O
+219         C17 H35 N O
+221         C19 H39 N O
+228      C44 H78 N O9 P
+231      C42 H80 N O9 P
+232        C32 H65 N O5
+233         C22 H43 N O
+239      C44 H80 N O9 P
+241      C44 H84 N O9 P
+242         C22 H45 N O
+251      C42 H76 N O8 P
+252      C40 H76 N O8 P
+254      C42 H78 N O8 P
+255      C44 H78 N O8 P
+256      C46 H76 N O8 P
+257      C41 H78 N O8 P
+258      C48 H78 N O8 P
+259      C46 H80 N O8 P
+260      C38 H76 N O8 P
+261      C40 H78 N O8 P
+263      C44 H80 N O8 P
+264      C48 H80 N O8 P
+265      C46 H82 N O8 P
+266      C42 H80 N O8 P
+268      C24 H48 N O6 P
+271      C41 H76 N O8 P
+273      C46 H78 N O7 P
+274      C41 H80 N O8 P
+275      C46 H82 N O7 P
+276      C44 H82 N O8 P
+277      C41 H74 N O7 P
+278      C48 H84 N O7 P
+279      C45 H82 N O8 P
+280      C43 H76 N O7 P
+281      C42 H80 N O7 P
+282      C44 H82 N O7 P
+283      C39 H74 N O7 P
+284      C43 H82 N O8 P
+285      C45 H80 N O8 P
+287      C46 H84 N O7 P
+288      C41 H76 N O7 P
+289      C48 H84 N O8 P
+290      C42 H82 N O7 P
+292      C42 H82 N O8 P
+294      C48 H82 N O8 P
+295      C43 H78 N O8 P
+296      C48 H86 N O8 P
+297      C44 H84 N O8 P
+298      C40 H80 N O7 P
+300      C43 H84 N O8 P
+302      C43 H78 N O7 P
+303      C46 H86 N O8 P
+305      C40 H82 N O7 P
+306      C42 H84 N O7 P
+308      C44 H84 N O7 P
+309      C46 H86 N O7 P
+310      C41 H78 N O7 P
+311      C48 H88 N O8 P
+312      C44 H86 N O7 P
+313      C42 H84 N O8 P
+315      C44 H86 N O8 P
+320        C11 H21 N O4
+321        C12 H17 N O2
+326     C21 H28 B N3 O5
+338        C12 H23 N O4
+344        C27 H43 N O8
+345         C8 H15 N O4
+351           C4 H8 O S
+356      C12 H19 N O3 S
+357        C15 H29 N O5
+360           C5 H9 N S
+361       C28 H55 As O5
+362        C12 H15 N O4
+364        C15 H27 N O4
+378       C16 H20 Cl N3
+380        C17 H27 N O4
+381        C15 H29 N O4
+382        C23 H29 N O9
+383        C27 H43 N O2
+384        C17 H33 N O5
+386        C17 H31 N O4
+387        C12 H25 N O2
+390    C16 H17 Cl N2 O5
+393        C18 H33 N O4
+394        C20 H29 N O3
+395      C17 H27 N O3 S
+403        C19 H35 N O4
+405        C16 H35 N O2
+411         C14 H31 N O
+412      C12 H23 N O2 S
+413      C15 H15 N O2 S
+418        C16 H25 N O2
+419        C25 H45 N O6
+422        C26 H37 N O6
+424        C30 H45 N O8
+425        C21 H37 N O4
+426        C17 H37 N O2
+427        C26 H39 N O4
+431        C20 H39 N O4
+432        C25 H47 N O6
+433        C27 H41 N O2
+435        C21 H39 N O4
+436        C18 H37 N O3
+437        C19 H21 N O3
+440      C20 H35 N O7 S
+442        C20 H31 N O2
+444      C24 H50 N O8 P
+447        C23 H41 N O4
+450        C19 H39 N O3
+451        C21 H41 N O4
+452        C26 H39 N O3
+459         C18 H31 N O
+460        C23 H43 N O4
+461        C26 H41 N O3
+462      C20 H42 N O7 P
+463        C20 H41 N O3
+464       C9 H16 N4 O S
+466        C20 H43 N O2
+468        C14 H27 N O3
+469        C25 H45 N O4
+470        C18 H39 N O2
+473        C15 H29 N O3
+474        C25 H47 N O4
+475        C20 H37 N O4
+477        C16 H33 N O3
+487         C18 H39 N O
+488        C25 H49 N O4
+489      C22 H46 N O7 P
+490      C28 H48 N O7 P
+492        C25 H41 N O7
+493      C26 H48 N O7 P
+494      C23 H42 N O7 P
+495       C13 H19 Cl N2
+498        C16 H31 N O3
+499      C24 H48 N O7 P
+500      C26 H46 N O7 P
+501      C30 H50 N O7 P
+507      C27 H44 N O7 P
+508     C40 H80 N O13 P
+509      C28 H50 N O7 P
+510      C18 H40 N O5 P
+511      C25 H44 N O7 P
+512     C48 H94 N O18 P
+513      C26 H50 N O7 P
+515      C23 H44 N O7 P
+516      C25 H42 N O7 P
+519        C22 H41 N O2
+520        C34 H65 N O3
+523      C30 H52 N O7 P
+524      C27 H46 N O7 P
+525      C28 H52 N O7 P
+529         C18 H33 N O
+530        C21 H27 F O5
+532      C25 H46 N O7 P
+533      C24 H50 N O7 P
+534     C15 H22 Cl N O2
+536      C26 H52 N O7 P
+537      C27 H48 N O7 P
+538        C32 H41 N O5
+539      C23 H46 N O7 P
+540        C34 H69 N O3
+542        C19 H21 F O4
+543      C30 H54 N O7 P
+544       C19 H23 Cl N2
+545     C20 H24 F N3 O3
+546    C21 H27 Cl N2 O2
+548      C24 H50 N O6 P
+550        C22 H43 N O2
+551      C21 H44 N O6 P
+552      C28 H54 N O7 P
+553      C25 H52 N O7 P
+559      C24 H52 N O6 P
+561        C33 H65 N O4
+562        C22 H35 N O2
+572     C20 H24 Cl N3 O
+573      C26 H54 N O6 P
+579        C19 H23 F O4
+580     C24 H28 F N3 O3
+581     C23 H27 F N4 O3
+588      C26 H54 N O7 P
+591      C23 H48 N O7 P
+592        C22 H37 N O2
+593      C28 H56 N O7 P
+595         C22 H39 N O
+600      C23 H48 N O6 P
+601      C27 H56 N O7 P
+608       C22 H27 Cl N2
+611     C18 H26 Cl N3 O
+614      C26 H56 N O6 P
+Warning: The "Super.Class" column at position 12 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Sub.Class" column at position 13 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Final.Class" column at position 15 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Super.Pathway" column at position 16 in the METABOLITES table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Sub.Pathway" column at position 17 in the METABOLITES table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG.ID" column at position 10 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB.ID" column at position 11 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT" column at position 2 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

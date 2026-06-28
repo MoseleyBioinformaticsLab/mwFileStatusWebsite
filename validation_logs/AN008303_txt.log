@@ -1,0 +1,51 @@
+Validation Log
+2026-06-28 08:25:13.872534
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008303/mwtab/txt
+Study ID:      ST004898
+Analysis ID:   AN008303
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 10
+
+Number of Warnings: 6
+
+Number of Value Errors: 10
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Not applicable", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "12 arbitrary units", for the subsection, "DRY_GAS_FLOW", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['L/hr', 'L/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "18 minutes", for the subsection, "ANALYTICAL_TIME", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['min']. Ignore this when more complicated descriptions are required.
+Warning: The "Exact mass" column at position 4 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Standardized name" column at position 2 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 11 in the METABOLITES table, matches a standard column name, "refmet". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 11 in the METABOLITES table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     RM0135870
+1     RM0032913
+2     RM0135911
+3     RM0138921
+4     RM0138930
+5     RM0135884
+6     RM0138922
+7     RM0155934
+8     RM0135891
+9     RM0135901
+10    RM0136106
+11    RM0156423
+12    RM0135904
+13    RM0135894
+14    RM0060576
+15    RM0134967
+16    RM0006551
+17    RM0158596
+18    RM0134982
+19    RM0135932
+20    RM0135929
+21    RM0135933
+Warning: The "Pubchem CID" column at position 5 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LM_ID" column at position 8 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
