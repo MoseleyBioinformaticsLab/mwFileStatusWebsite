@@ -1,0 +1,1194 @@
+Validation Log
+2026-07-05 08:26:56.861508
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008408/mwtab/txt
+Study ID:      ST004962
+Analysis ID:   AN008408
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 13
+
+Number of Warnings: 12
+
+Number of Value Errors: 13
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "50", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Lib_MZ" column at position 14 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Exp_MZ" column at position 15 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Spectrum_Type" column at position 5 in the METABOLITES table, matches a standard column name, "mass_spectrum". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Spectrum_Type" column at position 5 in the METABOLITES table, matches a standard column name, "mass_spectrum", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      Inferred_MS1
+1      Inferred_MS1
+2      Inferred_MS1
+3      Inferred_MS1
+4      Inferred_MS1
+5      Inferred_MS1
+6      Inferred_MS1
+7          Real_MS2
+8      Inferred_MS1
+9      Inferred_MS1
+10     Inferred_MS1
+11     Inferred_MS1
+12     Inferred_MS1
+13         Real_MS2
+14     Inferred_MS1
+15     Inferred_MS1
+16     Inferred_MS1
+17     Inferred_MS1
+18     Inferred_MS1
+19     Inferred_MS1
+20     Inferred_MS1
+21     Inferred_MS1
+22     Inferred_MS1
+23     Inferred_MS1
+24     Inferred_MS1
+25         Real_MS2
+26         Real_MS2
+27     Inferred_MS1
+28         Real_MS2
+29     Inferred_MS1
+30     Inferred_MS1
+31     Inferred_MS1
+32     Inferred_MS1
+33     Inferred_MS1
+34     Inferred_MS1
+35         Real_MS2
+36         Real_MS2
+37     Inferred_MS1
+38     Inferred_MS1
+39     Inferred_MS1
+40     Inferred_MS1
+41     Inferred_MS1
+42     Inferred_MS1
+43     Inferred_MS1
+44     Inferred_MS1
+45     Inferred_MS1
+46     Inferred_MS1
+47     Inferred_MS1
+48     Inferred_MS1
+49     Inferred_MS1
+50     Inferred_MS1
+51         Real_MS2
+52         Real_MS2
+53     Inferred_MS1
+54     Inferred_MS1
+55     Inferred_MS1
+56     Inferred_MS1
+57     Inferred_MS1
+58     Inferred_MS1
+59     Inferred_MS1
+60     Inferred_MS1
+61     Inferred_MS1
+62     Inferred_MS1
+63     Inferred_MS1
+64     Inferred_MS1
+65         Real_MS2
+66         Real_MS2
+67         Real_MS2
+68     Inferred_MS1
+69     Inferred_MS1
+70     Inferred_MS1
+71     Inferred_MS1
+72     Inferred_MS1
+73     Inferred_MS1
+74     Inferred_MS1
+75     Inferred_MS1
+76     Inferred_MS1
+77     Inferred_MS1
+78     Inferred_MS1
+79     Inferred_MS1
+80     Inferred_MS1
+81     Inferred_MS1
+82     Inferred_MS1
+83     Inferred_MS1
+84         Real_MS2
+85     Inferred_MS1
+86     Inferred_MS1
+87     Inferred_MS1
+88     Inferred_MS1
+89     Inferred_MS1
+90     Inferred_MS1
+91     Inferred_MS1
+92     Inferred_MS1
+93     Inferred_MS1
+94     Inferred_MS1
+95     Inferred_MS1
+96     Inferred_MS1
+97     Inferred_MS1
+98     Inferred_MS1
+99     Inferred_MS1
+100        Real_MS2
+101    Inferred_MS1
+102    Inferred_MS1
+103    Inferred_MS1
+104    Inferred_MS1
+105    Inferred_MS1
+106    Inferred_MS1
+107        Real_MS2
+108    Inferred_MS1
+109    Inferred_MS1
+110    Inferred_MS1
+111    Inferred_MS1
+112    Inferred_MS1
+113    Inferred_MS1
+114    Inferred_MS1
+115    Inferred_MS1
+116    Inferred_MS1
+117    Inferred_MS1
+118    Inferred_MS1
+119    Inferred_MS1
+120    Inferred_MS1
+121    Inferred_MS1
+122    Inferred_MS1
+123    Inferred_MS1
+124        Real_MS2
+125    Inferred_MS1
+126    Inferred_MS1
+127    Inferred_MS1
+128    Inferred_MS1
+129    Inferred_MS1
+130        Real_MS2
+131    Inferred_MS1
+132        Real_MS2
+133    Inferred_MS1
+134    Inferred_MS1
+135    Inferred_MS1
+136        Real_MS2
+137    Inferred_MS1
+138        Real_MS2
+139    Inferred_MS1
+140    Inferred_MS1
+141    Inferred_MS1
+142    Inferred_MS1
+143    Inferred_MS1
+144    Inferred_MS1
+145    Inferred_MS1
+146    Inferred_MS1
+147        Real_MS2
+148    Inferred_MS1
+149    Inferred_MS1
+150    Inferred_MS1
+151    Inferred_MS1
+152    Inferred_MS1
+153    Inferred_MS1
+154    Inferred_MS1
+155    Inferred_MS1
+156    Inferred_MS1
+157    Inferred_MS1
+158    Inferred_MS1
+159    Inferred_MS1
+160    Inferred_MS1
+161    Inferred_MS1
+162    Inferred_MS1
+163    Inferred_MS1
+164    Inferred_MS1
+165    Inferred_MS1
+166    Inferred_MS1
+167    Inferred_MS1
+168    Inferred_MS1
+169    Inferred_MS1
+170    Inferred_MS1
+171    Inferred_MS1
+172    Inferred_MS1
+173    Inferred_MS1
+174    Inferred_MS1
+175    Inferred_MS1
+176    Inferred_MS1
+177    Inferred_MS1
+178    Inferred_MS1
+179    Inferred_MS1
+180    Inferred_MS1
+181    Inferred_MS1
+182    Inferred_MS1
+183    Inferred_MS1
+184    Inferred_MS1
+185    Inferred_MS1
+186    Inferred_MS1
+187    Inferred_MS1
+188    Inferred_MS1
+189    Inferred_MS1
+190    Inferred_MS1
+191    Inferred_MS1
+192    Inferred_MS1
+193    Inferred_MS1
+194    Inferred_MS1
+195    Inferred_MS1
+196    Inferred_MS1
+197    Inferred_MS1
+198    Inferred_MS1
+199    Inferred_MS1
+200    Inferred_MS1
+201    Inferred_MS1
+202    Inferred_MS1
+203    Inferred_MS1
+204    Inferred_MS1
+205    Inferred_MS1
+206        Real_MS2
+207    Inferred_MS1
+208    Inferred_MS1
+209    Inferred_MS1
+210    Inferred_MS1
+211    Inferred_MS1
+212    Inferred_MS1
+213    Inferred_MS1
+214    Inferred_MS1
+215    Inferred_MS1
+216        Real_MS2
+217    Inferred_MS1
+218        Real_MS2
+219    Inferred_MS1
+220    Inferred_MS1
+221    Inferred_MS1
+222    Inferred_MS1
+223    Inferred_MS1
+224    Inferred_MS1
+225    Inferred_MS1
+226    Inferred_MS1
+227    Inferred_MS1
+228    Inferred_MS1
+229        Real_MS2
+230    Inferred_MS1
+231    Inferred_MS1
+232    Inferred_MS1
+233    Inferred_MS1
+234    Inferred_MS1
+235    Inferred_MS1
+236    Inferred_MS1
+237    Inferred_MS1
+238    Inferred_MS1
+239    Inferred_MS1
+240    Inferred_MS1
+241    Inferred_MS1
+242    Inferred_MS1
+243    Inferred_MS1
+244    Inferred_MS1
+245    Inferred_MS1
+246    Inferred_MS1
+247    Inferred_MS1
+248    Inferred_MS1
+249    Inferred_MS1
+250    Inferred_MS1
+251    Inferred_MS1
+252    Inferred_MS1
+253    Inferred_MS1
+254    Inferred_MS1
+255    Inferred_MS1
+256    Inferred_MS1
+257    Inferred_MS1
+258    Inferred_MS1
+259    Inferred_MS1
+260    Inferred_MS1
+261    Inferred_MS1
+262    Inferred_MS1
+263        Real_MS2
+264    Inferred_MS1
+265    Inferred_MS1
+266        Real_MS2
+267    Inferred_MS1
+268    Inferred_MS1
+269    Inferred_MS1
+270    Inferred_MS1
+271    Inferred_MS1
+272    Inferred_MS1
+273    Inferred_MS1
+274    Inferred_MS1
+275    Inferred_MS1
+276    Inferred_MS1
+277    Inferred_MS1
+278    Inferred_MS1
+279    Inferred_MS1
+280    Inferred_MS1
+281    Inferred_MS1
+282    Inferred_MS1
+283    Inferred_MS1
+284    Inferred_MS1
+285    Inferred_MS1
+286    Inferred_MS1
+287    Inferred_MS1
+288    Inferred_MS1
+289    Inferred_MS1
+290    Inferred_MS1
+291    Inferred_MS1
+292    Inferred_MS1
+293    Inferred_MS1
+294    Inferred_MS1
+295    Inferred_MS1
+296    Inferred_MS1
+297    Inferred_MS1
+298    Inferred_MS1
+299    Inferred_MS1
+300    Inferred_MS1
+301    Inferred_MS1
+302    Inferred_MS1
+303    Inferred_MS1
+304    Inferred_MS1
+305    Inferred_MS1
+306    Inferred_MS1
+307    Inferred_MS1
+308    Inferred_MS1
+309    Inferred_MS1
+310        Real_MS2
+311    Inferred_MS1
+312    Inferred_MS1
+313    Inferred_MS1
+314    Inferred_MS1
+315    Inferred_MS1
+316    Inferred_MS1
+317    Inferred_MS1
+318    Inferred_MS1
+319    Inferred_MS1
+320    Inferred_MS1
+321    Inferred_MS1
+322    Inferred_MS1
+323    Inferred_MS1
+324    Inferred_MS1
+325    Inferred_MS1
+326    Inferred_MS1
+327    Inferred_MS1
+328    Inferred_MS1
+329    Inferred_MS1
+330    Inferred_MS1
+331    Inferred_MS1
+332    Inferred_MS1
+333    Inferred_MS1
+334    Inferred_MS1
+335    Inferred_MS1
+336    Inferred_MS1
+337    Inferred_MS1
+338    Inferred_MS1
+339    Inferred_MS1
+340    Inferred_MS1
+341    Inferred_MS1
+342    Inferred_MS1
+343    Inferred_MS1
+344    Inferred_MS1
+345    Inferred_MS1
+346    Inferred_MS1
+347    Inferred_MS1
+348    Inferred_MS1
+349    Inferred_MS1
+350    Inferred_MS1
+351    Inferred_MS1
+352    Inferred_MS1
+353    Inferred_MS1
+354    Inferred_MS1
+355    Inferred_MS1
+356    Inferred_MS1
+357    Inferred_MS1
+358    Inferred_MS1
+359    Inferred_MS1
+360    Inferred_MS1
+361    Inferred_MS1
+362    Inferred_MS1
+363    Inferred_MS1
+364    Inferred_MS1
+365    Inferred_MS1
+366    Inferred_MS1
+367    Inferred_MS1
+368    Inferred_MS1
+369    Inferred_MS1
+370    Inferred_MS1
+371    Inferred_MS1
+372    Inferred_MS1
+373    Inferred_MS1
+374    Inferred_MS1
+375    Inferred_MS1
+376    Inferred_MS1
+377    Inferred_MS1
+378    Inferred_MS1
+379    Inferred_MS1
+380    Inferred_MS1
+381    Inferred_MS1
+382    Inferred_MS1
+383    Inferred_MS1
+384    Inferred_MS1
+385    Inferred_MS1
+386    Inferred_MS1
+387    Inferred_MS1
+388    Inferred_MS1
+389    Inferred_MS1
+390    Inferred_MS1
+391    Inferred_MS1
+392    Inferred_MS1
+393    Inferred_MS1
+394    Inferred_MS1
+395    Inferred_MS1
+396    Inferred_MS1
+397    Inferred_MS1
+398    Inferred_MS1
+399    Inferred_MS1
+400    Inferred_MS1
+401    Inferred_MS1
+402    Inferred_MS1
+403    Inferred_MS1
+404    Inferred_MS1
+405    Inferred_MS1
+406    Inferred_MS1
+407    Inferred_MS1
+408    Inferred_MS1
+409    Inferred_MS1
+410    Inferred_MS1
+411    Inferred_MS1
+412    Inferred_MS1
+413    Inferred_MS1
+414    Inferred_MS1
+415    Inferred_MS1
+416    Inferred_MS1
+417    Inferred_MS1
+418    Inferred_MS1
+419    Inferred_MS1
+420    Inferred_MS1
+421    Inferred_MS1
+422    Inferred_MS1
+423    Inferred_MS1
+424    Inferred_MS1
+425    Inferred_MS1
+426    Inferred_MS1
+427    Inferred_MS1
+428    Inferred_MS1
+429    Inferred_MS1
+430    Inferred_MS1
+431    Inferred_MS1
+432    Inferred_MS1
+433    Inferred_MS1
+434    Inferred_MS1
+435    Inferred_MS1
+436    Inferred_MS1
+437    Inferred_MS1
+438    Inferred_MS1
+439    Inferred_MS1
+440    Inferred_MS1
+441    Inferred_MS1
+442    Inferred_MS1
+443    Inferred_MS1
+444    Inferred_MS1
+445    Inferred_MS1
+446    Inferred_MS1
+447    Inferred_MS1
+448    Inferred_MS1
+449    Inferred_MS1
+450    Inferred_MS1
+451    Inferred_MS1
+452    Inferred_MS1
+453    Inferred_MS1
+454    Inferred_MS1
+455    Inferred_MS1
+456    Inferred_MS1
+457    Inferred_MS1
+458    Inferred_MS1
+459    Inferred_MS1
+460    Inferred_MS1
+461    Inferred_MS1
+462    Inferred_MS1
+463    Inferred_MS1
+464    Inferred_MS1
+465    Inferred_MS1
+466    Inferred_MS1
+467    Inferred_MS1
+468    Inferred_MS1
+469    Inferred_MS1
+470    Inferred_MS1
+471    Inferred_MS1
+472    Inferred_MS1
+473    Inferred_MS1
+474    Inferred_MS1
+475    Inferred_MS1
+476    Inferred_MS1
+477    Inferred_MS1
+478    Inferred_MS1
+479    Inferred_MS1
+480    Inferred_MS1
+481    Inferred_MS1
+482    Inferred_MS1
+483    Inferred_MS1
+484    Inferred_MS1
+485    Inferred_MS1
+486    Inferred_MS1
+487    Inferred_MS1
+488    Inferred_MS1
+489    Inferred_MS1
+490    Inferred_MS1
+491    Inferred_MS1
+492    Inferred_MS1
+493    Inferred_MS1
+494    Inferred_MS1
+495    Inferred_MS1
+496    Inferred_MS1
+497    Inferred_MS1
+498    Inferred_MS1
+499    Inferred_MS1
+500    Inferred_MS1
+501    Inferred_MS1
+502    Inferred_MS1
+503    Inferred_MS1
+504    Inferred_MS1
+505    Inferred_MS1
+506    Inferred_MS1
+507    Inferred_MS1
+508    Inferred_MS1
+509    Inferred_MS1
+510    Inferred_MS1
+511    Inferred_MS1
+512    Inferred_MS1
+513    Inferred_MS1
+514    Inferred_MS1
+515    Inferred_MS1
+516    Inferred_MS1
+517    Inferred_MS1
+518    Inferred_MS1
+519    Inferred_MS1
+520    Inferred_MS1
+521    Inferred_MS1
+522    Inferred_MS1
+523    Inferred_MS1
+524    Inferred_MS1
+525    Inferred_MS1
+526    Inferred_MS1
+527    Inferred_MS1
+528    Inferred_MS1
+529    Inferred_MS1
+530    Inferred_MS1
+531    Inferred_MS1
+532    Inferred_MS1
+533    Inferred_MS1
+534    Inferred_MS1
+535    Inferred_MS1
+536    Inferred_MS1
+537    Inferred_MS1
+538    Inferred_MS1
+539    Inferred_MS1
+540    Inferred_MS1
+541    Inferred_MS1
+542    Inferred_MS1
+543    Inferred_MS1
+544    Inferred_MS1
+545    Inferred_MS1
+546    Inferred_MS1
+547    Inferred_MS1
+548    Inferred_MS1
+549    Inferred_MS1
+550    Inferred_MS1
+551    Inferred_MS1
+552    Inferred_MS1
+553    Inferred_MS1
+554    Inferred_MS1
+555    Inferred_MS1
+556    Inferred_MS1
+557    Inferred_MS1
+558    Inferred_MS1
+559    Inferred_MS1
+560    Inferred_MS1
+561    Inferred_MS1
+562    Inferred_MS1
+563    Inferred_MS1
+564    Inferred_MS1
+565    Inferred_MS1
+566    Inferred_MS1
+567    Inferred_MS1
+568    Inferred_MS1
+569    Inferred_MS1
+570    Inferred_MS1
+571    Inferred_MS1
+572    Inferred_MS1
+573    Inferred_MS1
+574    Inferred_MS1
+575    Inferred_MS1
+576    Inferred_MS1
+577    Inferred_MS1
+578    Inferred_MS1
+579    Inferred_MS1
+580    Inferred_MS1
+581    Inferred_MS1
+582    Inferred_MS1
+583    Inferred_MS1
+584    Inferred_MS1
+585    Inferred_MS1
+586    Inferred_MS1
+587    Inferred_MS1
+588    Inferred_MS1
+589    Inferred_MS1
+590    Inferred_MS1
+591    Inferred_MS1
+592    Inferred_MS1
+593    Inferred_MS1
+594    Inferred_MS1
+595    Inferred_MS1
+596    Inferred_MS1
+597    Inferred_MS1
+598    Inferred_MS1
+599    Inferred_MS1
+600    Inferred_MS1
+601    Inferred_MS1
+602    Inferred_MS1
+603    Inferred_MS1
+604    Inferred_MS1
+605    Inferred_MS1
+606    Inferred_MS1
+607    Inferred_MS1
+608    Inferred_MS1
+609    Inferred_MS1
+610    Inferred_MS1
+611    Inferred_MS1
+612    Inferred_MS1
+613    Inferred_MS1
+614    Inferred_MS1
+615    Inferred_MS1
+616    Inferred_MS1
+617    Inferred_MS1
+618    Inferred_MS1
+619    Inferred_MS1
+620    Inferred_MS1
+621    Inferred_MS1
+622    Inferred_MS1
+623    Inferred_MS1
+624    Inferred_MS1
+625    Inferred_MS1
+626    Inferred_MS1
+627    Inferred_MS1
+628    Inferred_MS1
+629    Inferred_MS1
+630    Inferred_MS1
+631    Inferred_MS1
+632    Inferred_MS1
+633    Inferred_MS1
+634    Inferred_MS1
+635    Inferred_MS1
+636    Inferred_MS1
+637    Inferred_MS1
+638    Inferred_MS1
+639    Inferred_MS1
+640    Inferred_MS1
+641    Inferred_MS1
+642    Inferred_MS1
+643    Inferred_MS1
+644    Inferred_MS1
+645    Inferred_MS1
+646    Inferred_MS1
+647    Inferred_MS1
+648    Inferred_MS1
+649    Inferred_MS1
+650    Inferred_MS1
+651    Inferred_MS1
+652    Inferred_MS1
+653    Inferred_MS1
+654    Inferred_MS1
+655    Inferred_MS1
+656    Inferred_MS1
+657    Inferred_MS1
+658    Inferred_MS1
+659    Inferred_MS1
+660    Inferred_MS1
+661    Inferred_MS1
+662    Inferred_MS1
+663    Inferred_MS1
+664    Inferred_MS1
+665    Inferred_MS1
+666    Inferred_MS1
+667    Inferred_MS1
+668    Inferred_MS1
+669    Inferred_MS1
+670    Inferred_MS1
+671    Inferred_MS1
+672    Inferred_MS1
+673    Inferred_MS1
+674    Inferred_MS1
+675    Inferred_MS1
+676    Inferred_MS1
+677    Inferred_MS1
+678    Inferred_MS1
+679    Inferred_MS1
+680    Inferred_MS1
+681    Inferred_MS1
+682    Inferred_MS1
+683    Inferred_MS1
+684    Inferred_MS1
+685    Inferred_MS1
+686    Inferred_MS1
+687    Inferred_MS1
+688    Inferred_MS1
+689    Inferred_MS1
+690    Inferred_MS1
+691    Inferred_MS1
+692    Inferred_MS1
+693    Inferred_MS1
+694    Inferred_MS1
+695    Inferred_MS1
+696    Inferred_MS1
+697    Inferred_MS1
+698    Inferred_MS1
+699    Inferred_MS1
+700    Inferred_MS1
+701    Inferred_MS1
+702    Inferred_MS1
+703    Inferred_MS1
+704    Inferred_MS1
+705    Inferred_MS1
+706    Inferred_MS1
+707    Inferred_MS1
+708    Inferred_MS1
+709    Inferred_MS1
+710    Inferred_MS1
+711    Inferred_MS1
+712    Inferred_MS1
+713    Inferred_MS1
+714    Inferred_MS1
+715    Inferred_MS1
+716    Inferred_MS1
+717    Inferred_MS1
+718    Inferred_MS1
+719    Inferred_MS1
+720    Inferred_MS1
+721    Inferred_MS1
+722    Inferred_MS1
+723    Inferred_MS1
+724    Inferred_MS1
+725    Inferred_MS1
+726    Inferred_MS1
+727    Inferred_MS1
+728    Inferred_MS1
+729    Inferred_MS1
+730    Inferred_MS1
+731    Inferred_MS1
+732    Inferred_MS1
+733    Inferred_MS1
+734    Inferred_MS1
+735    Inferred_MS1
+736    Inferred_MS1
+737    Inferred_MS1
+738    Inferred_MS1
+739    Inferred_MS1
+740    Inferred_MS1
+741    Inferred_MS1
+742    Inferred_MS1
+743    Inferred_MS1
+744    Inferred_MS1
+745    Inferred_MS1
+746    Inferred_MS1
+747    Inferred_MS1
+748    Inferred_MS1
+749    Inferred_MS1
+750    Inferred_MS1
+751    Inferred_MS1
+752    Inferred_MS1
+753    Inferred_MS1
+754    Inferred_MS1
+755    Inferred_MS1
+756    Inferred_MS1
+757    Inferred_MS1
+758    Inferred_MS1
+759    Inferred_MS1
+760    Inferred_MS1
+761    Inferred_MS1
+762    Inferred_MS1
+763    Inferred_MS1
+764    Inferred_MS1
+765    Inferred_MS1
+766    Inferred_MS1
+767    Inferred_MS1
+768    Inferred_MS1
+769    Inferred_MS1
+770    Inferred_MS1
+771    Inferred_MS1
+772    Inferred_MS1
+773    Inferred_MS1
+774    Inferred_MS1
+775    Inferred_MS1
+776    Inferred_MS1
+777    Inferred_MS1
+778    Inferred_MS1
+779    Inferred_MS1
+780    Inferred_MS1
+781    Inferred_MS1
+782    Inferred_MS1
+783    Inferred_MS1
+784    Inferred_MS1
+785    Inferred_MS1
+786    Inferred_MS1
+787    Inferred_MS1
+788    Inferred_MS1
+789    Inferred_MS1
+790    Inferred_MS1
+791    Inferred_MS1
+792    Inferred_MS1
+793    Inferred_MS1
+794    Inferred_MS1
+795    Inferred_MS1
+796    Inferred_MS1
+797    Inferred_MS1
+798    Inferred_MS1
+799    Inferred_MS1
+800    Inferred_MS1
+801    Inferred_MS1
+802    Inferred_MS1
+803    Inferred_MS1
+804    Inferred_MS1
+805    Inferred_MS1
+806    Inferred_MS1
+807    Inferred_MS1
+808    Inferred_MS1
+809    Inferred_MS1
+810    Inferred_MS1
+811    Inferred_MS1
+812    Inferred_MS1
+813    Inferred_MS1
+814    Inferred_MS1
+815    Inferred_MS1
+816    Inferred_MS1
+817    Inferred_MS1
+818    Inferred_MS1
+819    Inferred_MS1
+820    Inferred_MS1
+821    Inferred_MS1
+822    Inferred_MS1
+823    Inferred_MS1
+824    Inferred_MS1
+825    Inferred_MS1
+826    Inferred_MS1
+827    Inferred_MS1
+828    Inferred_MS1
+829    Inferred_MS1
+830    Inferred_MS1
+831    Inferred_MS1
+832    Inferred_MS1
+833    Inferred_MS1
+834    Inferred_MS1
+835    Inferred_MS1
+836    Inferred_MS1
+837    Inferred_MS1
+838    Inferred_MS1
+839    Inferred_MS1
+840    Inferred_MS1
+841    Inferred_MS1
+842    Inferred_MS1
+843    Inferred_MS1
+844    Inferred_MS1
+845    Inferred_MS1
+846    Inferred_MS1
+847    Inferred_MS1
+848    Inferred_MS1
+849    Inferred_MS1
+850    Inferred_MS1
+851    Inferred_MS1
+852    Inferred_MS1
+853    Inferred_MS1
+854    Inferred_MS1
+855    Inferred_MS1
+856    Inferred_MS1
+857    Inferred_MS1
+858    Inferred_MS1
+859    Inferred_MS1
+860    Inferred_MS1
+861    Inferred_MS1
+862    Inferred_MS1
+863    Inferred_MS1
+864    Inferred_MS1
+865    Inferred_MS1
+866    Inferred_MS1
+867    Inferred_MS1
+868    Inferred_MS1
+869    Inferred_MS1
+870    Inferred_MS1
+871    Inferred_MS1
+872    Inferred_MS1
+873    Inferred_MS1
+874    Inferred_MS1
+875    Inferred_MS1
+876    Inferred_MS1
+877    Inferred_MS1
+878    Inferred_MS1
+879    Inferred_MS1
+880    Inferred_MS1
+881    Inferred_MS1
+882    Inferred_MS1
+883    Inferred_MS1
+884    Inferred_MS1
+885    Inferred_MS1
+886    Inferred_MS1
+887    Inferred_MS1
+888    Inferred_MS1
+889    Inferred_MS1
+890    Inferred_MS1
+891    Inferred_MS1
+892    Inferred_MS1
+893    Inferred_MS1
+894    Inferred_MS1
+895    Inferred_MS1
+896    Inferred_MS1
+897    Inferred_MS1
+898    Inferred_MS1
+899    Inferred_MS1
+900    Inferred_MS1
+901    Inferred_MS1
+902    Inferred_MS1
+903    Inferred_MS1
+904    Inferred_MS1
+905    Inferred_MS1
+906    Inferred_MS1
+907    Inferred_MS1
+908    Inferred_MS1
+909    Inferred_MS1
+910    Inferred_MS1
+911    Inferred_MS1
+912    Inferred_MS1
+913    Inferred_MS1
+914    Inferred_MS1
+915    Inferred_MS1
+916    Inferred_MS1
+917    Inferred_MS1
+918    Inferred_MS1
+919    Inferred_MS1
+920    Inferred_MS1
+921    Inferred_MS1
+922    Inferred_MS1
+923    Inferred_MS1
+924    Inferred_MS1
+925    Inferred_MS1
+926    Inferred_MS1
+927    Inferred_MS1
+928    Inferred_MS1
+929    Inferred_MS1
+930    Inferred_MS1
+931    Inferred_MS1
+932    Inferred_MS1
+933    Inferred_MS1
+934    Inferred_MS1
+935    Inferred_MS1
+936    Inferred_MS1
+937    Inferred_MS1
+938    Inferred_MS1
+939    Inferred_MS1
+940    Inferred_MS1
+941    Inferred_MS1
+942    Inferred_MS1
+943    Inferred_MS1
+944    Inferred_MS1
+945    Inferred_MS1
+946    Inferred_MS1
+947    Inferred_MS1
+948    Inferred_MS1
+949    Inferred_MS1
+950    Inferred_MS1
+951    Inferred_MS1
+952    Inferred_MS1
+953    Inferred_MS1
+954    Inferred_MS1
+955    Inferred_MS1
+956    Inferred_MS1
+957    Inferred_MS1
+958    Inferred_MS1
+959    Inferred_MS1
+960    Inferred_MS1
+961    Inferred_MS1
+Warning: The "InChIKey" column at position 13 in the METABOLITES table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Super_Class" column at position 8 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Sub_Class" column at position 20 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Adduct_Matched" column at position 6 in the METABOLITES table, matches a standard column name, "adduct". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Adduct_Matched" column at position 6 in the METABOLITES table, matches a standard column name, "adduct", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+2      [M+H-H2O]+ ()
+3      [M+H-H2O]+ ()
+6      [M+H-H2O]+ ()
+21     [M+H-H2O]+ ()
+24     [M+H-H2O]+ ()
+29     [M+H-H2O]+ ()
+35     [M+H-H2O]+ ()
+38     [M+H-H2O]+ ()
+41     [M+H-H2O]+ ()
+51     [M+H-H2O]+ ()
+56     [M+H-H2O]+ ()
+57     [M+H-H2O]+ ()
+60     [M+H-H2O]+ ()
+62     [M+H-H2O]+ ()
+65     [M+H-H2O]+ ()
+67     [M+H-H2O]+ ()
+72     [M+H-H2O]+ ()
+74     [M+H-H2O]+ ()
+88     [M+H-H2O]+ ()
+90     [M+H-H2O]+ ()
+91     [M+H-H2O]+ ()
+97     [M+H-H2O]+ ()
+101    [M+H-H2O]+ ()
+105    [M+H-H2O]+ ()
+108    [M+H-H2O]+ ()
+123    [M+H-H2O]+ ()
+125    [M+H-H2O]+ ()
+129    [M+H-H2O]+ ()
+132    [M+H-H2O]+ ()
+133    [M+H-H2O]+ ()
+137    [M+H-H2O]+ ()
+143    [M+H-H2O]+ ()
+148    [M+H-H2O]+ ()
+151    [M+H-H2O]+ ()
+158    [M+H-H2O]+ ()
+162    [M+H-H2O]+ ()
+166    [M+H-H2O]+ ()
+178    [M+H-H2O]+ ()
+187    [M+H-H2O]+ ()
+196    [M+H-H2O]+ ()
+200    [M+H-H2O]+ ()
+204    [M+H-H2O]+ ()
+210    [M+H-H2O]+ ()
+213    [M+H-H2O]+ ()
+214    [M+H-H2O]+ ()
+215    [M+H-H2O]+ ()
+217    [M+H-H2O]+ ()
+219    [M+H-H2O]+ ()
+229    [M+H-H2O]+ ()
+237    [M+H-H2O]+ ()
+244    [M+H-H2O]+ ()
+251    [M+H-H2O]+ ()
+255    [M+H-H2O]+ ()
+269    [M+H-H2O]+ ()
+273    [M+H-H2O]+ ()
+279    [M+H-H2O]+ ()
+282    [M+H-H2O]+ ()
+283    [M+H-H2O]+ ()
+289    [M+H-H2O]+ ()
+292    [M+H-H2O]+ ()
+294    [M+H-H2O]+ ()
+299    [M+H-H2O]+ ()
+300    [M+H-H2O]+ ()
+305    [M+H-H2O]+ ()
+310    [M+H-H2O]+ ()
+315    [M+H-H2O]+ ()
+333    [M+H-H2O]+ ()
+335    [M+H-H2O]+ ()
+337    [M+H-H2O]+ ()
+342    [M+H-H2O]+ ()
+347    [M+H-H2O]+ ()
+348    [M+H-H2O]+ ()
+349    [M+H-H2O]+ ()
+350    [M+H-H2O]+ ()
+377    [M+H-H2O]+ ()
+389    [M+H-H2O]+ ()
+395    [M+H-H2O]+ ()
+396    [M+H-H2O]+ ()
+402    [M+H-H2O]+ ()
+404    [M+H-H2O]+ ()
+409    [M+H-H2O]+ ()
+415    [M+H-H2O]+ ()
+418    [M+H-H2O]+ ()
+421    [M+H-H2O]+ ()
+424    [M+H-H2O]+ ()
+438    [M+H-H2O]+ ()
+451    [M+H-H2O]+ ()
+456    [M+H-H2O]+ ()
+472    [M+H-H2O]+ ()
+475    [M+H-H2O]+ ()
+484    [M+H-H2O]+ ()
+490    [M+H-H2O]+ ()
+491    [M+H-H2O]+ ()
+492    [M+H-H2O]+ ()
+493    [M+H-H2O]+ ()
+494    [M+H-H2O]+ ()
+500    [M+H-H2O]+ ()
+507    [M+H-H2O]+ ()
+510    [M+H-H2O]+ ()
+512    [M+H-H2O]+ ()
+516    [M+H-H2O]+ ()
+522    [M+H-H2O]+ ()
+531    [M+H-H2O]+ ()
+533    [M+H-H2O]+ ()
+536    [M+H-H2O]+ ()
+541    [M+H-H2O]+ ()
+542    [M+H-H2O]+ ()
+545    [M+H-H2O]+ ()
+557    [M+H-H2O]+ ()
+569    [M+H-H2O]+ ()
+575    [M+H-H2O]+ ()
+576    [M+H-H2O]+ ()
+583    [M+H-H2O]+ ()
+589    [M+H-H2O]+ ()
+591    [M+H-H2O]+ ()
+595    [M+H-H2O]+ ()
+596    [M+H-H2O]+ ()
+603    [M+H-H2O]+ ()
+606    [M+H-H2O]+ ()
+609    [M+H-H2O]+ ()
+621    [M+H-H2O]+ ()
+634    [M+H-H2O]+ ()
+638    [M+H-H2O]+ ()
+640    [M+H-H2O]+ ()
+641    [M+H-H2O]+ ()
+642    [M+H-H2O]+ ()
+652    [M+H-H2O]+ ()
+653    [M+H-H2O]+ ()
+657    [M+H-H2O]+ ()
+658    [M+H-H2O]+ ()
+659    [M+H-H2O]+ ()
+660    [M+H-H2O]+ ()
+671    [M+H-H2O]+ ()
+675    [M+H-H2O]+ ()
+685    [M+H-H2O]+ ()
+703    [M+H-H2O]+ ()
+721    [M+H-H2O]+ ()
+727    [M+H-H2O]+ ()
+731    [M+H-H2O]+ ()
+733    [M+H-H2O]+ ()
+734    [M+H-H2O]+ ()
+735    [M+H-H2O]+ ()
+744    [M+H-H2O]+ ()
+745    [M+H-H2O]+ ()
+748    [M+H-H2O]+ ()
+751    [M+H-H2O]+ ()
+757    [M+H-H2O]+ ()
+761    [M+H-H2O]+ ()
+769    [M+H-H2O]+ ()
+774    [M+H-H2O]+ ()
+778    [M+H-H2O]+ ()
+779    [M+H-H2O]+ ()
+782    [M+H-H2O]+ ()
+793    [M+H-H2O]+ ()
+797    [M+H-H2O]+ ()
+798    [M+H-H2O]+ ()
+799    [M+H-H2O]+ ()
+805    [M+H-H2O]+ ()
+815    [M+H-H2O]+ ()
+816    [M+H-H2O]+ ()
+817    [M+H-H2O]+ ()
+818    [M+H-H2O]+ ()
+820    [M+H-H2O]+ ()
+823    [M+H-H2O]+ ()
+825    [M+H-H2O]+ ()
+832    [M+H-H2O]+ ()
+840    [M+H-H2O]+ ()
+844    [M+H-H2O]+ ()
+846    [M+H-H2O]+ ()
+849    [M+H-H2O]+ ()
+853    [M+H-H2O]+ ()
+854    [M+H-H2O]+ ()
+860    [M+H-H2O]+ ()
+865    [M+H-H2O]+ ()
+867    [M+H-H2O]+ ()
+871    [M+H-H2O]+ ()
+873    [M+H-H2O]+ ()
+874    [M+H-H2O]+ ()
+881    [M+H-H2O]+ ()
+887    [M+H-H2O]+ ()
+888    [M+H-H2O]+ ()
+890    [M+H-H2O]+ ()
+892    [M+H-H2O]+ ()
+893    [M+H-H2O]+ ()
+895    [M+H-H2O]+ ()
+898    [M+H-H2O]+ ()
+899    [M+H-H2O]+ ()
+902    [M+H-H2O]+ ()
+904    [M+H-H2O]+ ()
+906    [M+H-H2O]+ ()
+913    [M+H-H2O]+ ()
+922    [M+H-H2O]+ ()
+923    [M+H-H2O]+ ()
+926    [M+H-H2O]+ ()
+929    [M+H-H2O]+ ()
+934    [M+H-H2O]+ ()
+937    [M+H-H2O]+ ()
+939    [M+H-H2O]+ ()
+948    [M+H-H2O]+ ()
+952    [M+H-H2O]+ ()
+Warning: The "RT" column at position 16 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Spectrum_Type" column at position 5 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "Frag_Matched" column at position 12 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

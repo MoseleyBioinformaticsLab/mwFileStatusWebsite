@@ -1,0 +1,4186 @@
+Validation Log
+2026-07-05 08:27:22.547909
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008411/mwtab/json
+Study ID:      ST004963
+Analysis ID:   AN008411
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 47
+
+Number of Warnings: 46
+
+Number of Value Errors: 43
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "50", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Average Mz" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Reference m/z" column at position 15 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "m/z matched" column at position 24 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "m/z similarity" column at position 32 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "m/z matched" column at position 24 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      TRUE
+1      TRUE
+2      TRUE
+3      TRUE
+4      TRUE
+5      TRUE
+6      TRUE
+7      TRUE
+8      TRUE
+9      TRUE
+10     TRUE
+11     TRUE
+12     TRUE
+13     TRUE
+14     TRUE
+15     TRUE
+16     TRUE
+17     TRUE
+18     TRUE
+19     TRUE
+20     TRUE
+21     TRUE
+22     TRUE
+23     TRUE
+24     TRUE
+25     TRUE
+26     TRUE
+27     TRUE
+28     TRUE
+29     TRUE
+30     TRUE
+31     TRUE
+32     TRUE
+33     TRUE
+34     TRUE
+35     TRUE
+36     TRUE
+37     TRUE
+38     TRUE
+39     TRUE
+40     TRUE
+41     TRUE
+42     TRUE
+43     TRUE
+44     TRUE
+45     TRUE
+46     TRUE
+47     TRUE
+48     TRUE
+49     TRUE
+50     TRUE
+51     TRUE
+52     TRUE
+53     TRUE
+54     TRUE
+55     TRUE
+56     TRUE
+57     TRUE
+58     TRUE
+59     TRUE
+60     TRUE
+61     TRUE
+62     TRUE
+63     TRUE
+64     TRUE
+65     TRUE
+66     TRUE
+67     TRUE
+68     TRUE
+69     TRUE
+70     TRUE
+71     TRUE
+72     TRUE
+73     TRUE
+74     TRUE
+75     TRUE
+76     TRUE
+77     TRUE
+78     TRUE
+79     TRUE
+80     TRUE
+81     TRUE
+82     TRUE
+83     TRUE
+84     TRUE
+85     TRUE
+86     TRUE
+87     TRUE
+88     TRUE
+89     TRUE
+90     TRUE
+91     TRUE
+92     TRUE
+93     TRUE
+94     TRUE
+95     TRUE
+96     TRUE
+97     TRUE
+98     TRUE
+99     TRUE
+100    TRUE
+101    TRUE
+102    TRUE
+103    TRUE
+104    TRUE
+105    TRUE
+106    TRUE
+107    TRUE
+108    TRUE
+109    TRUE
+110    TRUE
+111    TRUE
+112    TRUE
+113    TRUE
+114    TRUE
+115    TRUE
+116    TRUE
+117    TRUE
+118    TRUE
+119    TRUE
+120    TRUE
+121    TRUE
+122    TRUE
+123    TRUE
+124    TRUE
+125    TRUE
+126    TRUE
+127    TRUE
+128    TRUE
+129    TRUE
+130    TRUE
+131    TRUE
+132    TRUE
+133    TRUE
+134    TRUE
+135    TRUE
+136    TRUE
+137    TRUE
+138    TRUE
+139    TRUE
+140    TRUE
+141    TRUE
+142    TRUE
+143    TRUE
+144    TRUE
+145    TRUE
+146    TRUE
+147    TRUE
+148    TRUE
+149    TRUE
+150    TRUE
+151    TRUE
+152    TRUE
+153    TRUE
+154    TRUE
+155    TRUE
+156    TRUE
+157    TRUE
+158    TRUE
+159    TRUE
+160    TRUE
+161    TRUE
+162    TRUE
+163    TRUE
+164    TRUE
+165    TRUE
+166    TRUE
+167    TRUE
+168    TRUE
+169    TRUE
+170    TRUE
+171    TRUE
+172    TRUE
+173    TRUE
+174    TRUE
+175    TRUE
+176    TRUE
+177    TRUE
+178    TRUE
+179    TRUE
+180    TRUE
+181    TRUE
+182    TRUE
+183    TRUE
+184    TRUE
+185    TRUE
+186    TRUE
+187    TRUE
+188    TRUE
+189    TRUE
+190    TRUE
+191    TRUE
+192    TRUE
+193    TRUE
+194    TRUE
+195    TRUE
+196    TRUE
+197    TRUE
+198    TRUE
+199    TRUE
+200    TRUE
+201    TRUE
+202    TRUE
+203    TRUE
+204    TRUE
+205    TRUE
+206    TRUE
+207    TRUE
+208    TRUE
+209    TRUE
+210    TRUE
+211    TRUE
+212    TRUE
+213    TRUE
+214    TRUE
+215    TRUE
+216    TRUE
+217    TRUE
+218    TRUE
+219    TRUE
+220    TRUE
+221    TRUE
+222    TRUE
+223    TRUE
+224    TRUE
+225    TRUE
+226    TRUE
+227    TRUE
+228    TRUE
+229    TRUE
+230    TRUE
+231    TRUE
+232    TRUE
+233    TRUE
+234    TRUE
+235    TRUE
+236    TRUE
+237    TRUE
+238    TRUE
+239    TRUE
+240    TRUE
+241    TRUE
+242    TRUE
+243    TRUE
+244    TRUE
+245    TRUE
+246    TRUE
+247    TRUE
+248    TRUE
+249    TRUE
+250    TRUE
+251    TRUE
+252    TRUE
+253    TRUE
+254    TRUE
+255    TRUE
+256    TRUE
+257    TRUE
+258    TRUE
+259    TRUE
+260    TRUE
+261    TRUE
+262    TRUE
+263    TRUE
+264    TRUE
+265    TRUE
+266    TRUE
+267    TRUE
+268    TRUE
+269    TRUE
+270    TRUE
+271    TRUE
+272    TRUE
+273    TRUE
+274    TRUE
+275    TRUE
+276    TRUE
+277    TRUE
+278    TRUE
+279    TRUE
+280    TRUE
+281    TRUE
+282    TRUE
+283    TRUE
+284    TRUE
+285    TRUE
+286    TRUE
+287    TRUE
+288    TRUE
+289    TRUE
+290    TRUE
+291    TRUE
+292    TRUE
+293    TRUE
+294    TRUE
+295    TRUE
+296    TRUE
+297    TRUE
+298    TRUE
+299    TRUE
+300    TRUE
+301    TRUE
+302    TRUE
+303    TRUE
+304    TRUE
+305    TRUE
+306    TRUE
+307    TRUE
+308    TRUE
+309    TRUE
+310    TRUE
+311    TRUE
+312    TRUE
+313    TRUE
+314    TRUE
+315    TRUE
+316    TRUE
+317    TRUE
+318    TRUE
+319    TRUE
+320    TRUE
+321    TRUE
+322    TRUE
+323    TRUE
+324    TRUE
+325    TRUE
+326    TRUE
+327    TRUE
+328    TRUE
+329    TRUE
+330    TRUE
+331    TRUE
+332    TRUE
+333    TRUE
+334    TRUE
+335    TRUE
+336    TRUE
+337    TRUE
+338    TRUE
+339    TRUE
+340    TRUE
+341    TRUE
+342    TRUE
+343    TRUE
+344    TRUE
+345    TRUE
+346    TRUE
+347    TRUE
+348    TRUE
+349    TRUE
+350    TRUE
+351    TRUE
+352    TRUE
+353    TRUE
+354    TRUE
+355    TRUE
+356    TRUE
+357    TRUE
+358    TRUE
+359    TRUE
+360    TRUE
+361    TRUE
+362    TRUE
+363    TRUE
+364    TRUE
+365    TRUE
+366    TRUE
+367    TRUE
+368    TRUE
+369    TRUE
+370    TRUE
+371    TRUE
+372    TRUE
+373    TRUE
+374    TRUE
+375    TRUE
+376    TRUE
+377    TRUE
+378    TRUE
+379    TRUE
+380    TRUE
+381    TRUE
+382    TRUE
+383    TRUE
+384    TRUE
+385    TRUE
+386    TRUE
+387    TRUE
+388    TRUE
+389    TRUE
+390    TRUE
+391    TRUE
+392    TRUE
+393    TRUE
+394    TRUE
+395    TRUE
+396    TRUE
+397    TRUE
+398    TRUE
+399    TRUE
+400    TRUE
+401    TRUE
+402    TRUE
+403    TRUE
+404    TRUE
+405    TRUE
+406    TRUE
+407    TRUE
+408    TRUE
+409    TRUE
+410    TRUE
+411    TRUE
+Warning: The "Isotope tracking weight number" column at position 30 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Spectrum reference file name" column at position 40 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass_spectrum". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "MS1 isotopic spectrum" column at position 41 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass_spectrum". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "MS/MS spectrum" column at position 42 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass_spectrum". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Spectrum reference file name" column at position 40 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass_spectrum", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                 W69
+1                 W50
+2                 W29
+3                 W53
+4      M45-DDMS-NEG-1
+5      M45-DDMS-NEG-1
+6                 W12
+7                 W59
+8                 W12
+9                 W67
+10                W61
+11     M45-DDMS-NEG-1
+12                W54
+13                 W6
+14     M45-DDMS-NEG-1
+15     M45-DDMS-NEG-2
+16                C31
+17     M45-DDMS-NEG-2
+18     M45-DDMS-NEG-1
+19                 W3
+20                W44
+21                C18
+22     M45-DDMS-NEG-2
+23     M45-DDMS-NEG-2
+24                 C4
+25     M45-DDMS-NEG-2
+26     M45-DDMS-NEG-1
+27     M45-DDMS-NEG-2
+28     M45-DDMS-NEG-2
+29     M45-DDMS-NEG-2
+30     M45-DDMS-NEG-1
+31     M45-DDMS-NEG-1
+32                W64
+33                W22
+34                W63
+35                W23
+36                W24
+37     M45-DDMS-NEG-1
+38     M45-DDMS-NEG-1
+39                C24
+40                C29
+41                 C9
+42                W53
+43            M45-QC2
+44                 W4
+45                C32
+46                W20
+47     M45-DDMS-NEG-2
+48     M45-DDMS-NEG-1
+49     M45-DDMS-NEG-2
+50     M45-DDMS-NEG-1
+51     M45-DDMS-NEG-1
+52                W24
+53     M45-DDMS-NEG-1
+54     M45-DDMS-NEG-2
+55                 W8
+56                C15
+57     M45-DDMS-NEG-2
+58     M45-DDMS-NEG-2
+59     M45-DDMS-NEG-1
+60            M45-QC5
+61     M45-DDMS-NEG-2
+62     M45-DDMS-NEG-2
+63     M45-DDMS-NEG-1
+64     M45-DDMS-NEG-1
+65                 C9
+66                C23
+67                 C6
+68                C37
+69                 C6
+70     M45-DDMS-NEG-1
+71     M45-DDMS-NEG-1
+72     M45-DDMS-NEG-1
+73     M45-DDMS-NEG-1
+74                W52
+75                C29
+76                W60
+77                W37
+78                W49
+79                W74
+80     M45-DDMS-NEG-2
+81     M45-DDMS-NEG-2
+82                C12
+83                W21
+84                W54
+85                W74
+86                C32
+87     M45-DDMS-NEG-1
+88     M45-DDMS-NEG-1
+89                W74
+90     M45-DDMS-NEG-1
+91     M45-DDMS-NEG-2
+92                W31
+93                W15
+94                C40
+95     M45-DDMS-NEG-1
+96     M45-DDMS-NEG-2
+97     M45-DDMS-NEG-2
+98     M45-DDMS-NEG-1
+99     M45-DDMS-NEG-1
+100    M45-DDMS-NEG-1
+101    M45-DDMS-NEG-1
+102    M45-DDMS-NEG-2
+103               W65
+104               W22
+105               W22
+106    M45-DDMS-NEG-2
+107               W49
+108               W29
+109    M45-DDMS-NEG-1
+110    M45-DDMS-NEG-2
+111    M45-DDMS-NEG-2
+112               W45
+113               W40
+114    M45-DDMS-NEG-1
+115    M45-DDMS-NEG-1
+116    M45-DDMS-NEG-1
+117    M45-DDMS-NEG-1
+118    M45-DDMS-NEG-2
+119    M45-DDMS-NEG-2
+120    M45-DDMS-NEG-2
+121    M45-DDMS-NEG-2
+122    M45-DDMS-NEG-2
+123    M45-DDMS-NEG-1
+124               W45
+125               W20
+126    M45-DDMS-NEG-2
+127    M45-DDMS-NEG-1
+128               C40
+129               C39
+130    M45-DDMS-NEG-1
+131    M45-DDMS-NEG-2
+132    M45-DDMS-NEG-2
+133    M45-DDMS-NEG-2
+134    M45-DDMS-NEG-2
+135    M45-DDMS-NEG-1
+136    M45-DDMS-NEG-1
+137    M45-DDMS-NEG-2
+138    M45-DDMS-NEG-1
+139               C21
+140                W8
+141    M45-DDMS-NEG-2
+142                C1
+143                C2
+144               W18
+145               W77
+146               W69
+147               C36
+148    M45-DDMS-NEG-2
+149               W53
+150                C2
+151                C2
+152    M45-DDMS-NEG-2
+153    M45-DDMS-NEG-2
+154    M45-DDMS-NEG-2
+155    M45-DDMS-NEG-1
+156    M45-DDMS-NEG-2
+157    M45-DDMS-NEG-1
+158               C26
+159               C28
+160               W71
+161    M45-DDMS-NEG-1
+162               W51
+163               W53
+164               W53
+165               W59
+166               W69
+167    M45-DDMS-NEG-2
+168    M45-DDMS-NEG-1
+169    M45-DDMS-NEG-1
+170    M45-DDMS-NEG-1
+171    M45-DDMS-NEG-1
+172    M45-DDMS-NEG-1
+173    M45-DDMS-NEG-1
+174    M45-DDMS-NEG-1
+175    M45-DDMS-NEG-1
+176    M45-DDMS-NEG-1
+177    M45-DDMS-NEG-1
+178    M45-DDMS-NEG-1
+179    M45-DDMS-NEG-1
+180    M45-DDMS-NEG-2
+181    M45-DDMS-NEG-2
+182    M45-DDMS-NEG-2
+183    M45-DDMS-NEG-1
+184    M45-DDMS-NEG-2
+185    M45-DDMS-NEG-2
+186    M45-DDMS-NEG-1
+187    M45-DDMS-NEG-1
+188                W8
+189               W45
+190    M45-DDMS-NEG-1
+191               W11
+192               C25
+193               W24
+194               C36
+195               W43
+196               W76
+197               W11
+198               W21
+199               W64
+200               W22
+201               W13
+202    M45-DDMS-NEG-2
+203    M45-DDMS-NEG-2
+204    M45-DDMS-NEG-1
+205    M45-DDMS-NEG-2
+206    M45-DDMS-NEG-2
+207    M45-DDMS-NEG-2
+208    M45-DDMS-NEG-2
+209    M45-DDMS-NEG-2
+210    M45-DDMS-NEG-1
+211               W40
+212    M45-DDMS-NEG-2
+213    M45-DDMS-NEG-1
+214    M45-DDMS-NEG-1
+215    M45-DDMS-NEG-2
+216    M45-DDMS-NEG-1
+217    M45-DDMS-NEG-1
+218    M45-DDMS-NEG-2
+219    M45-DDMS-NEG-1
+220               W72
+221    M45-DDMS-NEG-1
+222    M45-DDMS-NEG-2
+223                W8
+224                C8
+225               C37
+226               W41
+227    M45-DDMS-NEG-2
+228               C21
+229    M45-DDMS-NEG-2
+230    M45-DDMS-NEG-1
+231    M45-DDMS-NEG-1
+232    M45-DDMS-NEG-2
+233               W52
+234                W8
+235           M45-QC1
+236    M45-DDMS-NEG-1
+237    M45-DDMS-NEG-1
+238    M45-DDMS-NEG-2
+239    M45-DDMS-NEG-1
+240    M45-DDMS-NEG-1
+241                W2
+242               W69
+243               W33
+244               W19
+245               C28
+246    M45-DDMS-NEG-1
+247               W38
+248               W63
+249               W15
+250               C39
+251    M45-DDMS-NEG-2
+252    M45-DDMS-NEG-2
+253    M45-DDMS-NEG-2
+254    M45-DDMS-NEG-2
+255    M45-DDMS-NEG-1
+256    M45-DDMS-NEG-1
+257    M45-DDMS-NEG-2
+258    M45-DDMS-NEG-2
+259    M45-DDMS-NEG-2
+260               W65
+261               W14
+262               W24
+263           M45-QC4
+264               W42
+265               W56
+266               W47
+267               W44
+268               W38
+269    M45-DDMS-NEG-2
+270    M45-DDMS-NEG-2
+271                C1
+272               C27
+273               W72
+274               C13
+275    M45-DDMS-NEG-1
+276    M45-DDMS-NEG-2
+277    M45-DDMS-NEG-2
+278    M45-DDMS-NEG-1
+279    M45-DDMS-NEG-2
+280    M45-DDMS-NEG-2
+281    M45-DDMS-NEG-2
+282    M45-DDMS-NEG-2
+283    M45-DDMS-NEG-1
+284    M45-DDMS-NEG-1
+285    M45-DDMS-NEG-2
+286    M45-DDMS-NEG-1
+287    M45-DDMS-NEG-2
+288    M45-DDMS-NEG-1
+289               W56
+290    M45-DDMS-NEG-1
+291               W52
+292    M45-DDMS-NEG-1
+293               W13
+294    M45-DDMS-NEG-1
+295               W74
+296               W54
+297    M45-DDMS-NEG-1
+298    M45-DDMS-NEG-1
+299    M45-DDMS-NEG-1
+300    M45-DDMS-NEG-2
+301    M45-DDMS-NEG-1
+302                C3
+303               W41
+304    M45-DDMS-NEG-1
+305           M45-QC4
+306    M45-DDMS-NEG-1
+307    M45-DDMS-NEG-1
+308    M45-DDMS-NEG-1
+309    M45-DDMS-NEG-1
+310    M45-DDMS-NEG-1
+311    M45-DDMS-NEG-2
+312    M45-DDMS-NEG-1
+313               W39
+314               W60
+315               W21
+316    M45-DDMS-NEG-1
+317               C17
+318               C35
+319                W6
+320    M45-DDMS-NEG-2
+321    M45-DDMS-NEG-2
+322    M45-DDMS-NEG-1
+323    M45-DDMS-NEG-1
+324               W72
+325    M45-DDMS-NEG-2
+326    M45-DDMS-NEG-1
+327    M45-DDMS-NEG-1
+328    M45-DDMS-NEG-1
+329    M45-DDMS-NEG-1
+330    M45-DDMS-NEG-1
+331    M45-DDMS-NEG-1
+332               W29
+333               W45
+334    M45-DDMS-NEG-2
+335    M45-DDMS-NEG-2
+336    M45-DDMS-NEG-1
+337    M45-DDMS-NEG-2
+338               C13
+339    M45-DDMS-NEG-1
+340    M45-DDMS-NEG-1
+341    M45-DDMS-NEG-1
+342    M45-DDMS-NEG-2
+343    M45-DDMS-NEG-1
+344    M45-DDMS-NEG-1
+345    M45-DDMS-NEG-1
+346               W29
+347               C25
+348               W40
+349    M45-DDMS-NEG-2
+350    M45-DDMS-NEG-2
+351    M45-DDMS-NEG-2
+352    M45-DDMS-NEG-2
+353    M45-DDMS-NEG-2
+354    M45-DDMS-NEG-2
+355    M45-DDMS-NEG-1
+356    M45-DDMS-NEG-2
+357    M45-DDMS-NEG-1
+358    M45-DDMS-NEG-2
+359    M45-DDMS-NEG-2
+360    M45-DDMS-NEG-2
+361    M45-DDMS-NEG-2
+362               W69
+363               W11
+364                C1
+365    M45-DDMS-NEG-1
+366               C38
+367               W75
+368                W5
+369    M45-DDMS-NEG-1
+370               C14
+371               W69
+372                W7
+373               W32
+374               W74
+375    M45-DDMS-NEG-1
+376    M45-DDMS-NEG-2
+377           M45-QC4
+378    M45-DDMS-NEG-1
+379    M45-DDMS-NEG-1
+380    M45-DDMS-NEG-1
+381    M45-DDMS-NEG-2
+382    M45-DDMS-NEG-1
+383    M45-DDMS-NEG-1
+384    M45-DDMS-NEG-1
+385    M45-DDMS-NEG-1
+386    M45-DDMS-NEG-1
+387    M45-DDMS-NEG-2
+388               C32
+389               C13
+390    M45-DDMS-NEG-1
+391    M45-DDMS-NEG-1
+392    M45-DDMS-NEG-1
+393    M45-DDMS-NEG-1
+394    M45-DDMS-NEG-1
+395    M45-DDMS-NEG-1
+396    M45-DDMS-NEG-1
+397    M45-DDMS-NEG-2
+398    M45-DDMS-NEG-1
+399    M45-DDMS-NEG-1
+400    M45-DDMS-NEG-1
+401    M45-DDMS-NEG-1
+402    M45-DDMS-NEG-1
+403    M45-DDMS-NEG-1
+404    M45-DDMS-NEG-1
+405    M45-DDMS-NEG-1
+406    M45-DDMS-NEG-1
+407    M45-DDMS-NEG-1
+408    M45-DDMS-NEG-1
+409    M45-DDMS-NEG-1
+410    M45-DDMS-NEG-2
+411    M45-DDMS-NEG-2
+Warning: The "INCHIKEY" column at position 20 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Metabolite name" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Base Lipid Name" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Cleaned Lipid Name" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Spectrum reference file name" column at position 40 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Lipid Class (LIPID MAPS)" column at position 18 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Lipid Subclass (LIPID MAPS)" column at position 19 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Ion Mode" column at position 43 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ion". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Simple_Ion" column at position 46 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ion". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Ion Mode" column at position 43 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ion", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      Negative
+1      Negative
+2      Negative
+3      Negative
+4      Negative
+5      Negative
+6      Negative
+7      Negative
+8      Negative
+9      Negative
+10     Negative
+11     Negative
+12     Negative
+13     Negative
+14     Negative
+15     Negative
+16     Negative
+17     Negative
+18     Negative
+19     Negative
+20     Negative
+21     Negative
+22     Negative
+23     Negative
+24     Negative
+25     Negative
+26     Negative
+27     Negative
+28     Negative
+29     Negative
+30     Negative
+31     Negative
+32     Negative
+33     Negative
+34     Negative
+35     Negative
+36     Negative
+37     Negative
+38     Negative
+39     Negative
+40     Negative
+41     Negative
+42     Negative
+43     Negative
+44     Negative
+45     Negative
+46     Negative
+47     Negative
+48     Negative
+49     Negative
+50     Negative
+51     Negative
+52     Negative
+53     Negative
+54     Negative
+55     Negative
+56     Negative
+57     Negative
+58     Negative
+59     Negative
+60     Negative
+61     Negative
+62     Negative
+63     Negative
+64     Negative
+65     Negative
+66     Negative
+67     Negative
+68     Negative
+69     Negative
+70     Negative
+71     Negative
+72     Negative
+73     Negative
+74     Negative
+75     Negative
+76     Negative
+77     Negative
+78     Negative
+79     Negative
+80     Negative
+81     Negative
+82     Negative
+83     Negative
+84     Negative
+85     Negative
+86     Negative
+87     Negative
+88     Negative
+89     Negative
+90     Negative
+91     Negative
+92     Negative
+93     Negative
+94     Negative
+95     Negative
+96     Negative
+97     Negative
+98     Negative
+99     Negative
+100    Negative
+101    Negative
+102    Negative
+103    Negative
+104    Negative
+105    Negative
+106    Negative
+107    Negative
+108    Negative
+109    Negative
+110    Negative
+111    Negative
+112    Negative
+113    Negative
+114    Negative
+115    Negative
+116    Negative
+117    Negative
+118    Negative
+119    Negative
+120    Negative
+121    Negative
+122    Negative
+123    Negative
+124    Negative
+125    Negative
+126    Negative
+127    Negative
+128    Negative
+129    Negative
+130    Negative
+131    Negative
+132    Negative
+133    Negative
+134    Negative
+135    Negative
+136    Negative
+137    Negative
+138    Negative
+139    Negative
+140    Negative
+141    Negative
+142    Negative
+143    Negative
+144    Negative
+145    Negative
+146    Negative
+147    Negative
+148    Negative
+149    Negative
+150    Negative
+151    Negative
+152    Negative
+153    Negative
+154    Negative
+155    Negative
+156    Negative
+157    Negative
+158    Negative
+159    Negative
+160    Negative
+161    Negative
+162    Negative
+163    Negative
+164    Negative
+165    Negative
+166    Negative
+167    Negative
+168    Negative
+169    Negative
+170    Negative
+171    Negative
+172    Negative
+173    Negative
+174    Negative
+175    Negative
+176    Negative
+177    Negative
+178    Negative
+179    Negative
+180    Negative
+181    Negative
+182    Negative
+183    Negative
+184    Negative
+185    Negative
+186    Negative
+187    Negative
+188    Negative
+189    Negative
+190    Negative
+191    Negative
+192    Negative
+193    Negative
+194    Negative
+195    Negative
+196    Negative
+197    Negative
+198    Negative
+199    Negative
+200    Negative
+201    Negative
+202    Negative
+203    Negative
+204    Negative
+205    Negative
+206    Negative
+207    Negative
+208    Negative
+209    Negative
+210    Negative
+211    Negative
+212    Negative
+213    Negative
+214    Negative
+215    Negative
+216    Negative
+217    Negative
+218    Negative
+219    Negative
+220    Negative
+221    Negative
+222    Negative
+223    Negative
+224    Negative
+225    Negative
+226    Negative
+227    Negative
+228    Negative
+229    Negative
+230    Negative
+231    Negative
+232    Negative
+233    Negative
+234    Negative
+235    Negative
+236    Negative
+237    Negative
+238    Negative
+239    Negative
+240    Negative
+241    Negative
+242    Negative
+243    Negative
+244    Negative
+245    Negative
+246    Negative
+247    Negative
+248    Negative
+249    Negative
+250    Negative
+251    Negative
+252    Negative
+253    Negative
+254    Negative
+255    Negative
+256    Negative
+257    Negative
+258    Negative
+259    Negative
+260    Negative
+261    Negative
+262    Negative
+263    Negative
+264    Negative
+265    Negative
+266    Negative
+267    Negative
+268    Negative
+269    Negative
+270    Negative
+271    Negative
+272    Negative
+273    Negative
+274    Negative
+275    Negative
+276    Negative
+277    Negative
+278    Negative
+279    Negative
+280    Negative
+281    Negative
+282    Negative
+283    Negative
+284    Negative
+285    Negative
+286    Negative
+287    Negative
+288    Negative
+289    Negative
+290    Negative
+291    Negative
+292    Negative
+293    Negative
+294    Negative
+295    Negative
+296    Negative
+297    Negative
+298    Negative
+299    Negative
+300    Negative
+301    Negative
+302    Negative
+303    Negative
+304    Negative
+305    Negative
+306    Negative
+307    Negative
+308    Negative
+309    Negative
+310    Negative
+311    Negative
+312    Negative
+313    Negative
+314    Negative
+315    Negative
+316    Negative
+317    Negative
+318    Negative
+319    Negative
+320    Negative
+321    Negative
+322    Negative
+323    Negative
+324    Negative
+325    Negative
+326    Negative
+327    Negative
+328    Negative
+329    Negative
+330    Negative
+331    Negative
+332    Negative
+333    Negative
+334    Negative
+335    Negative
+336    Negative
+337    Negative
+338    Negative
+339    Negative
+340    Negative
+341    Negative
+342    Negative
+343    Negative
+344    Negative
+345    Negative
+346    Negative
+347    Negative
+348    Negative
+349    Negative
+350    Negative
+351    Negative
+352    Negative
+353    Negative
+354    Negative
+355    Negative
+356    Negative
+357    Negative
+358    Negative
+359    Negative
+360    Negative
+361    Negative
+362    Negative
+363    Negative
+364    Negative
+365    Negative
+366    Negative
+367    Negative
+368    Negative
+369    Negative
+370    Negative
+371    Negative
+372    Negative
+373    Negative
+374    Negative
+375    Negative
+376    Negative
+377    Negative
+378    Negative
+379    Negative
+380    Negative
+381    Negative
+382    Negative
+383    Negative
+384    Negative
+385    Negative
+386    Negative
+387    Negative
+388    Negative
+389    Negative
+390    Negative
+391    Negative
+392    Negative
+393    Negative
+394    Negative
+395    Negative
+396    Negative
+397    Negative
+398    Negative
+399    Negative
+400    Negative
+401    Negative
+402    Negative
+403    Negative
+404    Negative
+405    Negative
+406    Negative
+407    Negative
+408    Negative
+409    Negative
+410    Negative
+411    Negative
+Warning: The "Simple_Ion" column at position 46 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ion", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      Neg
+1      Neg
+2      Neg
+3      Neg
+4      Neg
+5      Neg
+6      Neg
+7      Neg
+8      Neg
+9      Neg
+10     Neg
+11     Neg
+12     Neg
+13     Neg
+14     Neg
+15     Neg
+16     Neg
+17     Neg
+18     Neg
+19     Neg
+20     Neg
+21     Neg
+22     Neg
+23     Neg
+24     Neg
+25     Neg
+26     Neg
+27     Neg
+28     Neg
+29     Neg
+30     Neg
+31     Neg
+32     Neg
+33     Neg
+34     Neg
+35     Neg
+36     Neg
+37     Neg
+38     Neg
+39     Neg
+40     Neg
+41     Neg
+42     Neg
+43     Neg
+44     Neg
+45     Neg
+46     Neg
+47     Neg
+48     Neg
+49     Neg
+50     Neg
+51     Neg
+52     Neg
+53     Neg
+54     Neg
+55     Neg
+56     Neg
+57     Neg
+58     Neg
+59     Neg
+60     Neg
+61     Neg
+62     Neg
+63     Neg
+64     Neg
+65     Neg
+66     Neg
+67     Neg
+68     Neg
+69     Neg
+70     Neg
+71     Neg
+72     Neg
+73     Neg
+74     Neg
+75     Neg
+76     Neg
+77     Neg
+78     Neg
+79     Neg
+80     Neg
+81     Neg
+82     Neg
+83     Neg
+84     Neg
+85     Neg
+86     Neg
+87     Neg
+88     Neg
+89     Neg
+90     Neg
+91     Neg
+92     Neg
+93     Neg
+94     Neg
+95     Neg
+96     Neg
+97     Neg
+98     Neg
+99     Neg
+100    Neg
+101    Neg
+102    Neg
+103    Neg
+104    Neg
+105    Neg
+106    Neg
+107    Neg
+108    Neg
+109    Neg
+110    Neg
+111    Neg
+112    Neg
+113    Neg
+114    Neg
+115    Neg
+116    Neg
+117    Neg
+118    Neg
+119    Neg
+120    Neg
+121    Neg
+122    Neg
+123    Neg
+124    Neg
+125    Neg
+126    Neg
+127    Neg
+128    Neg
+129    Neg
+130    Neg
+131    Neg
+132    Neg
+133    Neg
+134    Neg
+135    Neg
+136    Neg
+137    Neg
+138    Neg
+139    Neg
+140    Neg
+141    Neg
+142    Neg
+143    Neg
+144    Neg
+145    Neg
+146    Neg
+147    Neg
+148    Neg
+149    Neg
+150    Neg
+151    Neg
+152    Neg
+153    Neg
+154    Neg
+155    Neg
+156    Neg
+157    Neg
+158    Neg
+159    Neg
+160    Neg
+161    Neg
+162    Neg
+163    Neg
+164    Neg
+165    Neg
+166    Neg
+167    Neg
+168    Neg
+169    Neg
+170    Neg
+171    Neg
+172    Neg
+173    Neg
+174    Neg
+175    Neg
+176    Neg
+177    Neg
+178    Neg
+179    Neg
+180    Neg
+181    Neg
+182    Neg
+183    Neg
+184    Neg
+185    Neg
+186    Neg
+187    Neg
+188    Neg
+189    Neg
+190    Neg
+191    Neg
+192    Neg
+193    Neg
+194    Neg
+195    Neg
+196    Neg
+197    Neg
+198    Neg
+199    Neg
+200    Neg
+201    Neg
+202    Neg
+203    Neg
+204    Neg
+205    Neg
+206    Neg
+207    Neg
+208    Neg
+209    Neg
+210    Neg
+211    Neg
+212    Neg
+213    Neg
+214    Neg
+215    Neg
+216    Neg
+217    Neg
+218    Neg
+219    Neg
+220    Neg
+221    Neg
+222    Neg
+223    Neg
+224    Neg
+225    Neg
+226    Neg
+227    Neg
+228    Neg
+229    Neg
+230    Neg
+231    Neg
+232    Neg
+233    Neg
+234    Neg
+235    Neg
+236    Neg
+237    Neg
+238    Neg
+239    Neg
+240    Neg
+241    Neg
+242    Neg
+243    Neg
+244    Neg
+245    Neg
+246    Neg
+247    Neg
+248    Neg
+249    Neg
+250    Neg
+251    Neg
+252    Neg
+253    Neg
+254    Neg
+255    Neg
+256    Neg
+257    Neg
+258    Neg
+259    Neg
+260    Neg
+261    Neg
+262    Neg
+263    Neg
+264    Neg
+265    Neg
+266    Neg
+267    Neg
+268    Neg
+269    Neg
+270    Neg
+271    Neg
+272    Neg
+273    Neg
+274    Neg
+275    Neg
+276    Neg
+277    Neg
+278    Neg
+279    Neg
+280    Neg
+281    Neg
+282    Neg
+283    Neg
+284    Neg
+285    Neg
+286    Neg
+287    Neg
+288    Neg
+289    Neg
+290    Neg
+291    Neg
+292    Neg
+293    Neg
+294    Neg
+295    Neg
+296    Neg
+297    Neg
+298    Neg
+299    Neg
+300    Neg
+301    Neg
+302    Neg
+303    Neg
+304    Neg
+305    Neg
+306    Neg
+307    Neg
+308    Neg
+309    Neg
+310    Neg
+311    Neg
+312    Neg
+313    Neg
+314    Neg
+315    Neg
+316    Neg
+317    Neg
+318    Neg
+319    Neg
+320    Neg
+321    Neg
+322    Neg
+323    Neg
+324    Neg
+325    Neg
+326    Neg
+327    Neg
+328    Neg
+329    Neg
+330    Neg
+331    Neg
+332    Neg
+333    Neg
+334    Neg
+335    Neg
+336    Neg
+337    Neg
+338    Neg
+339    Neg
+340    Neg
+341    Neg
+342    Neg
+343    Neg
+344    Neg
+345    Neg
+346    Neg
+347    Neg
+348    Neg
+349    Neg
+350    Neg
+351    Neg
+352    Neg
+353    Neg
+354    Neg
+355    Neg
+356    Neg
+357    Neg
+358    Neg
+359    Neg
+360    Neg
+361    Neg
+362    Neg
+363    Neg
+364    Neg
+365    Neg
+366    Neg
+367    Neg
+368    Neg
+369    Neg
+370    Neg
+371    Neg
+372    Neg
+373    Neg
+374    Neg
+375    Neg
+376    Neg
+377    Neg
+378    Neg
+379    Neg
+380    Neg
+381    Neg
+382    Neg
+383    Neg
+384    Neg
+385    Neg
+386    Neg
+387    Neg
+388    Neg
+389    Neg
+390    Neg
+391    Neg
+392    Neg
+393    Neg
+394    Neg
+395    Neg
+396    Neg
+397    Neg
+398    Neg
+399    Neg
+400    Neg
+401    Neg
+402    Neg
+403    Neg
+404    Neg
+405    Neg
+406    Neg
+407    Neg
+408    Neg
+409    Neg
+410    Neg
+411    Neg
+Warning: The "Adduct type" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "adduct". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Lipid Class (LIPID MAPS)" column at position 18 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "lm_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Lipid Subclass (LIPID MAPS)" column at position 19 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "lm_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Lipid Class (LIPID MAPS)" column at position 18 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "lm_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                         Others
+1                         Others
+2                         Others
+3                         Others
+4                         Others
+5                         Others
+6             Sphingolipids (SP)
+7             Sphingolipids (SP)
+8             Sphingolipids (SP)
+9             Sphingolipids (SP)
+10            Sphingolipids (SP)
+11            Sphingolipids (SP)
+12            Sphingolipids (SP)
+13            Sphingolipids (SP)
+14            Sphingolipids (SP)
+15            Sphingolipids (SP)
+16                        Others
+17                  Sterols (ST)
+18                  Sterols (ST)
+19                  Sterols (ST)
+20                  Sterols (ST)
+21                  Sterols (ST)
+22                        Others
+23                        Others
+24                        Others
+25                        Others
+26                        Others
+27                        Others
+28                        Others
+29                        Others
+30                        Others
+31                        Others
+32                        Others
+33                        Others
+34                        Others
+35            Sphingolipids (SP)
+36            Sphingolipids (SP)
+37            Sphingolipids (SP)
+38            Sphingolipids (SP)
+39                        Others
+40                        Others
+41            Sphingolipids (SP)
+42                        Others
+43            Sphingolipids (SP)
+44                        Others
+45                        Others
+46            Sphingolipids (SP)
+47            Glycerolipids (GL)
+48            Glycerolipids (GL)
+49            Glycerolipids (GL)
+50            Glycerolipids (GL)
+51            Glycerolipids (GL)
+52            Glycerolipids (GL)
+53            Glycerolipids (GL)
+54            Glycerolipids (GL)
+55            Glycerolipids (GL)
+56            Glycerolipids (GL)
+57            Glycerolipids (GL)
+58            Glycerolipids (GL)
+59            Glycerolipids (GL)
+60            Glycerolipids (GL)
+61            Glycerolipids (GL)
+62                        Others
+63                        Others
+64                        Others
+65                        Others
+66                        Others
+67                        Others
+68                        Others
+69                        Others
+70                        Others
+71                        Others
+72                        Others
+73                        Others
+74                        Others
+75     Glycerophospholipids (GP)
+76     Glycerophospholipids (GP)
+77     Glycerophospholipids (GP)
+78     Glycerophospholipids (GP)
+79     Glycerophospholipids (GP)
+80     Glycerophospholipids (GP)
+81     Glycerophospholipids (GP)
+82     Glycerophospholipids (GP)
+83              Fatty Acyls (FA)
+84              Fatty Acyls (FA)
+85                        Others
+86              Fatty Acyls (FA)
+87              Fatty Acyls (FA)
+88              Fatty Acyls (FA)
+89              Fatty Acyls (FA)
+90              Fatty Acyls (FA)
+91                        Others
+92                        Others
+93                        Others
+94     Glycerophospholipids (GP)
+95     Glycerophospholipids (GP)
+96     Glycerophospholipids (GP)
+97                        Others
+98                        Others
+99                        Others
+100                       Others
+101                       Others
+102                       Others
+103           Sphingolipids (SP)
+104           Sphingolipids (SP)
+105           Sphingolipids (SP)
+106                       Others
+107                       Others
+108                       Others
+109                       Others
+110                       Others
+111                       Others
+112                       Others
+113                       Others
+114                       Others
+115                       Others
+116                       Others
+117                       Others
+118                       Others
+119                       Others
+120                       Others
+121                       Others
+122                       Others
+123                       Others
+124                       Others
+125                       Others
+126                       Others
+127                       Others
+128                       Others
+129                       Others
+130                       Others
+131                       Others
+132                       Others
+133                       Others
+134                       Others
+135                       Others
+136                       Others
+137                       Others
+138                       Others
+139           Glycerolipids (GL)
+140           Glycerolipids (GL)
+141           Glycerolipids (GL)
+142           Glycerolipids (GL)
+143           Glycerolipids (GL)
+144                       Others
+145                       Others
+146                       Others
+147                       Others
+148                       Others
+149                       Others
+150                       Others
+151             Fatty Acyls (FA)
+152             Fatty Acyls (FA)
+153             Fatty Acyls (FA)
+154             Fatty Acyls (FA)
+155             Fatty Acyls (FA)
+156             Fatty Acyls (FA)
+157             Fatty Acyls (FA)
+158             Fatty Acyls (FA)
+159             Fatty Acyls (FA)
+160             Fatty Acyls (FA)
+161             Fatty Acyls (FA)
+162             Fatty Acyls (FA)
+163             Fatty Acyls (FA)
+164                       Others
+165                       Others
+166                       Others
+167                       Others
+168                       Others
+169                       Others
+170                       Others
+171                       Others
+172                       Others
+173                       Others
+174                       Others
+175                       Others
+176                       Others
+177                       Others
+178                       Others
+179                       Others
+180                       Others
+181                       Others
+182                       Others
+183                       Others
+184                       Others
+185                       Others
+186                       Others
+187                       Others
+188                       Others
+189                       Others
+190                       Others
+191                       Others
+192                       Others
+193                       Others
+194                       Others
+195                       Others
+196                       Others
+197                       Others
+198                       Others
+199                       Others
+200                       Others
+201                       Others
+202                       Others
+203                       Others
+204                       Others
+205                       Others
+206    Glycerophospholipids (GP)
+207    Glycerophospholipids (GP)
+208    Glycerophospholipids (GP)
+209    Glycerophospholipids (GP)
+210    Glycerophospholipids (GP)
+211    Glycerophospholipids (GP)
+212    Glycerophospholipids (GP)
+213    Glycerophospholipids (GP)
+214    Glycerophospholipids (GP)
+215    Glycerophospholipids (GP)
+216                       Others
+217                       Others
+218                       Others
+219    Glycerophospholipids (GP)
+220                       Others
+221                       Others
+222                       Others
+223                       Others
+224                       Others
+225    Glycerophospholipids (GP)
+226    Glycerophospholipids (GP)
+227    Glycerophospholipids (GP)
+228    Glycerophospholipids (GP)
+229                       Others
+230                       Others
+231                       Others
+232                       Others
+233    Glycerophospholipids (GP)
+234    Glycerophospholipids (GP)
+235    Glycerophospholipids (GP)
+236                       Others
+237                       Others
+238                       Others
+239                       Others
+240                       Others
+241                       Others
+242                       Others
+243                       Others
+244                       Others
+245                       Others
+246                       Others
+247    Glycerophospholipids (GP)
+248    Glycerophospholipids (GP)
+249    Glycerophospholipids (GP)
+250    Glycerophospholipids (GP)
+251    Glycerophospholipids (GP)
+252    Glycerophospholipids (GP)
+253    Glycerophospholipids (GP)
+254    Glycerophospholipids (GP)
+255    Glycerophospholipids (GP)
+256    Glycerophospholipids (GP)
+257    Glycerophospholipids (GP)
+258    Glycerophospholipids (GP)
+259    Glycerophospholipids (GP)
+260                       Others
+261    Glycerophospholipids (GP)
+262    Glycerophospholipids (GP)
+263    Glycerophospholipids (GP)
+264    Glycerophospholipids (GP)
+265    Glycerophospholipids (GP)
+266    Glycerophospholipids (GP)
+267                       Others
+268                       Others
+269                       Others
+270                       Others
+271                       Others
+272                       Others
+273                       Others
+274                       Others
+275                       Others
+276                       Others
+277                       Others
+278                       Others
+279                       Others
+280    Glycerophospholipids (GP)
+281    Glycerophospholipids (GP)
+282    Glycerophospholipids (GP)
+283    Glycerophospholipids (GP)
+284    Glycerophospholipids (GP)
+285    Glycerophospholipids (GP)
+286    Glycerophospholipids (GP)
+287    Glycerophospholipids (GP)
+288    Glycerophospholipids (GP)
+289    Glycerophospholipids (GP)
+290    Glycerophospholipids (GP)
+291    Glycerophospholipids (GP)
+292                       Others
+293                       Others
+294                       Others
+295                       Others
+296    Glycerophospholipids (GP)
+297                       Others
+298                       Others
+299    Glycerophospholipids (GP)
+300                       Others
+301                       Others
+302                       Others
+303                       Others
+304                       Others
+305                       Others
+306    Glycerophospholipids (GP)
+307                       Others
+308                       Others
+309                       Others
+310                       Others
+311                       Others
+312                 Sterols (ST)
+313                 Sterols (ST)
+314                 Sterols (ST)
+315                 Sterols (ST)
+316                 Sterols (ST)
+317                 Sterols (ST)
+318           Sphingolipids (SP)
+319           Sphingolipids (SP)
+320           Sphingolipids (SP)
+321           Sphingolipids (SP)
+322           Sphingolipids (SP)
+323           Sphingolipids (SP)
+324           Sphingolipids (SP)
+325           Sphingolipids (SP)
+326           Sphingolipids (SP)
+327           Sphingolipids (SP)
+328           Sphingolipids (SP)
+329           Sphingolipids (SP)
+330           Sphingolipids (SP)
+331           Sphingolipids (SP)
+332           Sphingolipids (SP)
+333           Sphingolipids (SP)
+334           Sphingolipids (SP)
+335           Sphingolipids (SP)
+336           Sphingolipids (SP)
+337           Sphingolipids (SP)
+338           Sphingolipids (SP)
+339           Sphingolipids (SP)
+340           Sphingolipids (SP)
+341           Sphingolipids (SP)
+342           Sphingolipids (SP)
+343           Sphingolipids (SP)
+344           Sphingolipids (SP)
+345           Sphingolipids (SP)
+346           Sphingolipids (SP)
+347           Sphingolipids (SP)
+348           Sphingolipids (SP)
+349           Sphingolipids (SP)
+350           Sphingolipids (SP)
+351           Sphingolipids (SP)
+352           Sphingolipids (SP)
+353           Sphingolipids (SP)
+354           Sphingolipids (SP)
+355           Sphingolipids (SP)
+356           Sphingolipids (SP)
+357           Sphingolipids (SP)
+358           Sphingolipids (SP)
+359           Sphingolipids (SP)
+360           Sphingolipids (SP)
+361           Sphingolipids (SP)
+362           Sphingolipids (SP)
+363           Sphingolipids (SP)
+364           Sphingolipids (SP)
+365           Sphingolipids (SP)
+366           Sphingolipids (SP)
+367           Sphingolipids (SP)
+368           Sphingolipids (SP)
+369           Sphingolipids (SP)
+370           Sphingolipids (SP)
+371           Sphingolipids (SP)
+372           Sphingolipids (SP)
+373                       Others
+374                       Others
+375                       Others
+376                       Others
+377                       Others
+378                       Others
+379                       Others
+380                       Others
+381                       Others
+382                       Others
+383                       Others
+384                       Others
+385                       Others
+386                       Others
+387                       Others
+388                       Others
+389                       Others
+390                       Others
+391                       Others
+392                       Others
+393                       Others
+394                       Others
+395                       Others
+396                       Others
+397                       Others
+398                       Others
+399                       Others
+400                       Others
+401                       Others
+402                       Others
+403                       Others
+404                       Others
+405                       Others
+406                       Others
+407                       Others
+408                       Others
+409                       Others
+410                       Others
+411                       Others
+Warning: The "Lipid Subclass (LIPID MAPS)" column at position 19 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "lm_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                                               FAHFA
+1                                               FAHFA
+2                                               FAHFA
+3                                               FAHFA
+4                                               FAHFA
+5                                               FAHFA
+6                           Hexosylceramides (HexCer)
+7                           Hexosylceramides (HexCer)
+8                           Hexosylceramides (HexCer)
+9                           Hexosylceramides (HexCer)
+10                          Hexosylceramides (HexCer)
+11                          Hexosylceramides (HexCer)
+12                          Hexosylceramides (HexCer)
+13                          Hexosylceramides (HexCer)
+14                          Hexosylceramides (HexCer)
+15                          Hexosylceramides (HexCer)
+16                                            AHexSTS
+17                        Sterol Derivatives (ST-Der)
+18                        Sterol Derivatives (ST-Der)
+19                        Sterol Derivatives (ST-Der)
+20                        Sterol Derivatives (ST-Der)
+21                        Sterol Derivatives (ST-Der)
+22                                                 CL
+23                                                 CL
+24                                                 CL
+25                                                 CL
+26                                                 CL
+27                                                 CL
+28                                                 CL
+29                                                 CL
+30                                                 CL
+31                                                 CL
+32                                                 CL
+33                                                 CL
+34                                                 CL
+35                                    Ceramides (Cer)
+36                                    Ceramides (Cer)
+37                                    Ceramides (Cer)
+38                                    Ceramides (Cer)
+39                                            Cer_ADS
+40                                            Cer_ADS
+41                                    Ceramides (Cer)
+42                                            Cer_ADS
+43                                    Ceramides (Cer)
+44                                            Cer_ADS
+45                                             Cer_AS
+46                                    Ceramides (Cer)
+47              Galactosyldiacylglycerols (MGDG/DGDG)
+48              Galactosyldiacylglycerols (MGDG/DGDG)
+49              Galactosyldiacylglycerols (MGDG/DGDG)
+50              Galactosyldiacylglycerols (MGDG/DGDG)
+51              Galactosyldiacylglycerols (MGDG/DGDG)
+52              Galactosyldiacylglycerols (MGDG/DGDG)
+53              Galactosyldiacylglycerols (MGDG/DGDG)
+54              Galactosyldiacylglycerols (MGDG/DGDG)
+55              Galactosyldiacylglycerols (MGDG/DGDG)
+56              Galactosyldiacylglycerols (MGDG/DGDG)
+57              Galactosyldiacylglycerols (MGDG/DGDG)
+58              Galactosyldiacylglycerols (MGDG/DGDG)
+59              Galactosyldiacylglycerols (MGDG/DGDG)
+60              Galactosyldiacylglycerols (MGDG/DGDG)
+61              Galactosyldiacylglycerols (MGDG/DGDG)
+62                                               DGMG
+63                                               DGMG
+64                                               DGMG
+65                                               DLCL
+66                                               DLCL
+67                                               DLCL
+68                                               DLCL
+69                                               DLCL
+70                                               DLCL
+71                                               DLCL
+72                                               DLCL
+73                                               DLCL
+74                                               DLCL
+75                     Phosphatidylethanolamines (PE)
+76                     Phosphatidylethanolamines (PE)
+77                     Phosphatidylethanolamines (PE)
+78                     Phosphatidylethanolamines (PE)
+79                     Phosphatidylethanolamines (PE)
+80                     Phosphatidylethanolamines (PE)
+81                     Phosphatidylethanolamines (PE)
+82                     Phosphatidylethanolamines (PE)
+83                                   Fatty Acids (FA)
+84                                   Fatty Acids (FA)
+85                                               OxFA
+86                                   Fatty Acids (FA)
+87                                   Fatty Acids (FA)
+88                                   Fatty Acids (FA)
+89                                   Fatty Acids (FA)
+90                                   Fatty Acids (FA)
+91                                              FAHFA
+92                                               GD1a
+93                                               GD1a
+94                     Bisphosphatidylglycerols (BMP)
+95                     Bisphosphatidylglycerols (BMP)
+96                     Bisphosphatidylglycerols (BMP)
+97                                            Hex2Cer
+98                                            Hex2Cer
+99                                            Hex3Cer
+100                                           Hex3Cer
+101                                           Hex3Cer
+102                                           Hex3Cer
+103                         Hexosylceramides (HexCer)
+104                         Hexosylceramides (HexCer)
+105                         Hexosylceramides (HexCer)
+106                                        HexCer_EOS
+107                                            Others
+108                                               LPA
+109                                               LPA
+110                                               LPA
+111                                               LPA
+112                                          EtherLPE
+113                                               LPG
+114                                          EtherLPG
+115                                          EtherLPG
+116                                          EtherLPG
+117                                          EtherLPG
+118                                          EtherLPG
+119                                          EtherLPG
+120                                          EtherLPG
+121                                          EtherLPG
+122                                          EtherLPG
+123                                          EtherLPG
+124                                               LPI
+125                                               LPI
+126                                               LPI
+127                                               LPS
+128                                             LNAPS
+129                                             LNAPS
+130                                             LNAPS
+131                                             LNAPS
+132                                             LNAPS
+133                                             LNAPS
+134                                             LNAPS
+135                                             LNAPS
+136                                             LNAPS
+137                                             LNAPS
+138                                             LNAPS
+139             Galactosyldiacylglycerols (MGDG/DGDG)
+140             Galactosyldiacylglycerols (MGDG/DGDG)
+141             Galactosyldiacylglycerols (MGDG/DGDG)
+142             Galactosyldiacylglycerols (MGDG/DGDG)
+143             Galactosyldiacylglycerols (MGDG/DGDG)
+144                                              MIPC
+145                                              MIPC
+146                                              MIPC
+147                                              MIPC
+148                                              MMPE
+149                                              MMPE
+150                                              MMPE
+151                           N-Acyl Glycines (NAGly)
+152                           N-Acyl Glycines (NAGly)
+153                           N-Acyl Glycines (NAGly)
+154                           N-Acyl Glycines (NAGly)
+155                           N-Acyl Glycines (NAGly)
+156                           N-Acyl Glycines (NAGly)
+157                           N-Acyl Glycines (NAGly)
+158                   N-Acyl Glycylserines (NAGlySer)
+159                   N-Acyl Glycylserines (NAGlySer)
+160                   N-Acyl Glycylserines (NAGlySer)
+161                   N-Acyl Glycylserines (NAGlySer)
+162                   N-Acyl Glycylserines (NAGlySer)
+163                           N-Acyl Taurines (NATau)
+164                                                PA
+165                                                PA
+166                                                PA
+167                                                PA
+168                                                PA
+169                                                PA
+170                                                PA
+171                                                PA
+172                                                PA
+173                                                PA
+174                                                PA
+175                                                PA
+176                                                PA
+177                                                PA
+178                                              OxPC
+179                                              OxPC
+180                                              OxPC
+181                                              OxPC
+182                                              OxPC
+183                                              OxPC
+184                                              OxPC
+185                                              OxPC
+186                                              OxPC
+187                                              OxPC
+188                                              OxPC
+189                                              OxPC
+190                                              OxPC
+191                                              OxPC
+192                                              OxPC
+193                                         EtherOxPC
+194                                         EtherOxPC
+195                                         EtherOxPC
+196                                         EtherOxPC
+197                                         EtherOxPC
+198                                         EtherOxPC
+199                                         EtherOxPC
+200                                         EtherOxPC
+201                                         EtherOxPC
+202                                         EtherOxPC
+203                                         EtherOxPC
+204                                         EtherOxPC
+205                                         EtherOxPC
+206             Ether Phosphatidylcholines (Ether-PC)
+207             Ether Phosphatidylcholines (Ether-PC)
+208             Ether Phosphatidylcholines (Ether-PC)
+209             Ether Phosphatidylcholines (Ether-PC)
+210             Ether Phosphatidylcholines (Ether-PC)
+211             Ether Phosphatidylcholines (Ether-PC)
+212             Ether Phosphatidylcholines (Ether-PC)
+213             Ether Phosphatidylcholines (Ether-PC)
+214             Ether Phosphatidylcholines (Ether-PC)
+215             Ether Phosphatidylcholines (Ether-PC)
+216                                              OxPE
+217                                              OxPE
+218                                              OxPE
+219                    Phosphatidylethanolamines (PE)
+220                                              OxPE
+221                                              OxPE
+222                                              OxPE
+223                                              OxPE
+224                                              OxPE
+225        Ether Phosphatidylethanolamines (Ether-PE)
+226        Ether Phosphatidylethanolamines (Ether-PE)
+227        Ether Phosphatidylethanolamines (Ether-PE)
+228        Ether Phosphatidylethanolamines (Ether-PE)
+229                                             PEtOH
+230                                             PEtOH
+231                                             PEtOH
+232                                             PEtOH
+233                        Phosphatidylglycerols (PG)
+234                        Phosphatidylglycerols (PG)
+235                        Phosphatidylglycerols (PG)
+236                                              OxPG
+237                                              OxPG
+238                                              OxPG
+239                                              OxPG
+240                                              OxPG
+241                                              OxPG
+242                                              OxPG
+243                                              OxPG
+244                                              OxPG
+245                                              OxPG
+246                                              OxPG
+247                        Phosphatidylglycerols (PG)
+248                        Phosphatidylglycerols (PG)
+249                        Phosphatidylglycerols (PG)
+250                        Phosphatidylglycerols (PG)
+251                        Phosphatidylglycerols (PG)
+252                        Phosphatidylglycerols (PG)
+253                        Phosphatidylglycerols (PG)
+254                        Phosphatidylglycerols (PG)
+255                        Phosphatidylglycerols (PG)
+256                        Phosphatidylglycerols (PG)
+257                        Phosphatidylglycerols (PG)
+258                        Phosphatidylglycerols (PG)
+259                        Phosphatidylglycerols (PG)
+260                                              OxPG
+261                        Phosphatidylglycerols (PG)
+262                        Phosphatidylglycerols (PG)
+263                        Phosphatidylglycerols (PG)
+264                        Phosphatidylglycerols (PG)
+265                        Phosphatidylglycerols (PG)
+266                        Phosphatidylglycerols (PG)
+267                                           EtherPG
+268                                           EtherPG
+269                                           EtherPG
+270                                           EtherPG
+271                                              OxPI
+272                                              OxPI
+273                                              OxPI
+274                                              OxPI
+275                                              OxPI
+276                                              OxPI
+277                                              OxPI
+278                                              OxPI
+279                                              OxPI
+280                        Phosphatidylinositols (PI)
+281                        Phosphatidylinositols (PI)
+282                        Phosphatidylinositols (PI)
+283                        Phosphatidylinositols (PI)
+284                        Phosphatidylinositols (PI)
+285                        Phosphatidylinositols (PI)
+286                        Phosphatidylinositols (PI)
+287                        Phosphatidylinositols (PI)
+288                        Phosphatidylinositols (PI)
+289                        Phosphatidylinositols (PI)
+290                        Phosphatidylinositols (PI)
+291                        Phosphatidylinositols (PI)
+292                                           EtherPI
+293                                           EtherPI
+294                                           EtherPI
+295                                           EtherPI
+296                          Phosphatidylserines (PS)
+297                                              OxPS
+298                                              OxPS
+299                          Phosphatidylserines (PS)
+300                                              OxPS
+301                                              OxPS
+302                                              OxPS
+303                                              OxPS
+304                                              OxPS
+305                                              OxPS
+306                          Phosphatidylserines (PS)
+307                                           EtherPS
+308                                           EtherPS
+309                                           EtherPS
+310                                           EtherPS
+311                                           EtherPS
+312                       Sterol Derivatives (ST-Der)
+313                       Sterol Derivatives (ST-Der)
+314                       Sterol Derivatives (ST-Der)
+315                       Sterol Derivatives (ST-Der)
+316                       Sterol Derivatives (ST-Der)
+317                       Sterol Derivatives (ST-Der)
+318    Sulfatoglycosphingolipids (Sulfatides/SHexCer)
+319    Sulfatoglycosphingolipids (Sulfatides/SHexCer)
+320    Sulfatoglycosphingolipids (Sulfatides/SHexCer)
+321    Sulfatoglycosphingolipids (Sulfatides/SHexCer)
+322    Sulfatoglycosphingolipids (Sulfatides/SHexCer)
+323    Sulfatoglycosphingolipids (Sulfatides/SHexCer)
+324    Sulfatoglycosphingolipids (Sulfatides/SHexCer)
+325    Sulfatoglycosphingolipids (Sulfatides/SHexCer)
+326    Sulfatoglycosphingolipids (Sulfatides/SHexCer)
+327    Sulfatoglycosphingolipids (Sulfatides/SHexCer)
+328    Sulfatoglycosphingolipids (Sulfatides/SHexCer)
+329    Sulfatoglycosphingolipids (Sulfatides/SHexCer)
+330    Sulfatoglycosphingolipids (Sulfatides/SHexCer)
+331    Sulfatoglycosphingolipids (Sulfatides/SHexCer)
+332                               Saccharolipids (SL)
+333                               Saccharolipids (SL)
+334                               Saccharolipids (SL)
+335                               Saccharolipids (SL)
+336                               Saccharolipids (SL)
+337                               Saccharolipids (SL)
+338                               Saccharolipids (SL)
+339                               Saccharolipids (SL)
+340                               Saccharolipids (SL)
+341                               Saccharolipids (SL)
+342                               Saccharolipids (SL)
+343                               Saccharolipids (SL)
+344                               Saccharolipids (SL)
+345                               Saccharolipids (SL)
+346                               Saccharolipids (SL)
+347                               Saccharolipids (SL)
+348                               Saccharolipids (SL)
+349                               Saccharolipids (SL)
+350                               Saccharolipids (SL)
+351                               Saccharolipids (SL)
+352                               Saccharolipids (SL)
+353                               Saccharolipids (SL)
+354                               Saccharolipids (SL)
+355                               Saccharolipids (SL)
+356                               Saccharolipids (SL)
+357                               Saccharolipids (SL)
+358                               Saccharolipids (SL)
+359                               Saccharolipids (SL)
+360                               Saccharolipids (SL)
+361                               Saccharolipids (SL)
+362                               Sphingomyelins (SM)
+363                               Sphingomyelins (SM)
+364                               Sphingomyelins (SM)
+365                               Sphingomyelins (SM)
+366                               Sphingomyelins (SM)
+367                               Sphingomyelins (SM)
+368                               Sphingomyelins (SM)
+369                               Sphingomyelins (SM)
+370                               Sphingomyelins (SM)
+371                               Sphingomyelins (SM)
+372                               Sphingomyelins (SM)
+373                                             SMGDG
+374                                             SMGDG
+375                                             SMGDG
+376                                             SMGDG
+377                                        EtherSMGDG
+378                                        EtherSMGDG
+379                                        EtherSMGDG
+380                                        EtherSMGDG
+381                                        EtherSMGDG
+382                                        EtherSMGDG
+383                                        EtherSMGDG
+384                                        EtherSMGDG
+385                                        EtherSMGDG
+386                                        EtherSMGDG
+387                                        EtherSMGDG
+388                                        EtherSMGDG
+389                                        EtherSMGDG
+390                                        EtherSMGDG
+391                                        EtherSMGDG
+392                                        EtherSMGDG
+393                                        EtherSMGDG
+394                                        EtherSMGDG
+395                                        EtherSMGDG
+396                                        EtherSMGDG
+397                                        EtherSMGDG
+398                                        EtherSMGDG
+399                                        EtherSMGDG
+400                                        EtherSMGDG
+401                                        EtherSMGDG
+402                                        EtherSMGDG
+403                                        EtherSMGDG
+404                                        EtherSMGDG
+405                                        EtherSMGDG
+406                                        EtherSMGDG
+407                                        EtherSMGDG
+408                                        EtherSMGDG
+409                                        EtherSMGDG
+410                                        EtherSMGDG
+411                                          SSulfate
+Warning: The "Average Rt(min)" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Reference RT" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT matched" column at position 23 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT similarity" column at position 31 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT matched" column at position 23 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      FALSE
+1      FALSE
+2      FALSE
+3      FALSE
+4      FALSE
+5      FALSE
+6      FALSE
+7      FALSE
+8      FALSE
+9      FALSE
+10     FALSE
+11     FALSE
+12     FALSE
+13     FALSE
+14     FALSE
+15     FALSE
+16     FALSE
+17     FALSE
+18     FALSE
+19     FALSE
+20     FALSE
+21     FALSE
+22     FALSE
+23     FALSE
+24     FALSE
+25     FALSE
+26     FALSE
+27     FALSE
+28     FALSE
+29     FALSE
+30     FALSE
+31     FALSE
+32     FALSE
+33     FALSE
+34     FALSE
+35     FALSE
+36     FALSE
+37     FALSE
+38     FALSE
+39     FALSE
+40     FALSE
+41     FALSE
+42     FALSE
+43     FALSE
+44     FALSE
+45     FALSE
+46     FALSE
+47     FALSE
+48     FALSE
+49     FALSE
+50     FALSE
+51     FALSE
+52     FALSE
+53     FALSE
+54     FALSE
+55     FALSE
+56     FALSE
+57     FALSE
+58     FALSE
+59     FALSE
+60     FALSE
+61     FALSE
+62     FALSE
+63     FALSE
+64     FALSE
+65     FALSE
+66     FALSE
+67     FALSE
+68     FALSE
+69     FALSE
+70     FALSE
+71     FALSE
+72     FALSE
+73     FALSE
+74     FALSE
+75     FALSE
+76     FALSE
+77     FALSE
+78     FALSE
+79     FALSE
+80     FALSE
+81     FALSE
+82     FALSE
+83     FALSE
+84     FALSE
+85     FALSE
+86     FALSE
+87     FALSE
+88     FALSE
+89     FALSE
+90     FALSE
+91     FALSE
+92     FALSE
+93     FALSE
+94     FALSE
+95     FALSE
+96     FALSE
+97     FALSE
+98     FALSE
+99     FALSE
+100    FALSE
+101    FALSE
+102    FALSE
+103    FALSE
+104    FALSE
+105    FALSE
+106    FALSE
+107    FALSE
+108    FALSE
+109    FALSE
+110    FALSE
+111    FALSE
+112    FALSE
+113    FALSE
+114    FALSE
+115    FALSE
+116    FALSE
+117    FALSE
+118    FALSE
+119    FALSE
+120    FALSE
+121    FALSE
+122    FALSE
+123    FALSE
+124    FALSE
+125    FALSE
+126    FALSE
+127    FALSE
+128    FALSE
+129    FALSE
+130    FALSE
+131    FALSE
+132    FALSE
+133    FALSE
+134    FALSE
+135    FALSE
+136    FALSE
+137    FALSE
+138    FALSE
+139    FALSE
+140    FALSE
+141    FALSE
+142    FALSE
+143    FALSE
+144    FALSE
+145    FALSE
+146    FALSE
+147    FALSE
+148    FALSE
+149    FALSE
+150    FALSE
+151    FALSE
+152    FALSE
+153    FALSE
+154    FALSE
+155    FALSE
+156    FALSE
+157    FALSE
+158    FALSE
+159    FALSE
+160    FALSE
+161    FALSE
+162    FALSE
+163    FALSE
+164    FALSE
+165    FALSE
+166    FALSE
+167    FALSE
+168    FALSE
+169    FALSE
+170    FALSE
+171    FALSE
+172    FALSE
+173    FALSE
+174    FALSE
+175    FALSE
+176    FALSE
+177    FALSE
+178    FALSE
+179    FALSE
+180    FALSE
+181    FALSE
+182    FALSE
+183    FALSE
+184    FALSE
+185    FALSE
+186    FALSE
+187    FALSE
+188    FALSE
+189    FALSE
+190    FALSE
+191    FALSE
+192    FALSE
+193    FALSE
+194    FALSE
+195    FALSE
+196    FALSE
+197    FALSE
+198    FALSE
+199    FALSE
+200    FALSE
+201    FALSE
+202    FALSE
+203    FALSE
+204    FALSE
+205    FALSE
+206    FALSE
+207    FALSE
+208    FALSE
+209    FALSE
+210    FALSE
+211    FALSE
+212    FALSE
+213    FALSE
+214    FALSE
+215    FALSE
+216    FALSE
+217    FALSE
+218    FALSE
+219    FALSE
+220    FALSE
+221    FALSE
+222    FALSE
+223    FALSE
+224    FALSE
+225    FALSE
+226    FALSE
+227    FALSE
+228    FALSE
+229    FALSE
+230    FALSE
+231    FALSE
+232    FALSE
+233    FALSE
+234    FALSE
+235    FALSE
+236    FALSE
+237    FALSE
+238    FALSE
+239    FALSE
+240    FALSE
+241    FALSE
+242    FALSE
+243    FALSE
+244    FALSE
+245    FALSE
+246    FALSE
+247    FALSE
+248    FALSE
+249    FALSE
+250    FALSE
+251    FALSE
+252    FALSE
+253    FALSE
+254    FALSE
+255    FALSE
+256    FALSE
+257    FALSE
+258    FALSE
+259    FALSE
+260    FALSE
+261    FALSE
+262    FALSE
+263    FALSE
+264    FALSE
+265    FALSE
+266    FALSE
+267    FALSE
+268    FALSE
+269    FALSE
+270    FALSE
+271    FALSE
+272    FALSE
+273    FALSE
+274    FALSE
+275    FALSE
+276    FALSE
+277    FALSE
+278    FALSE
+279    FALSE
+280    FALSE
+281    FALSE
+282    FALSE
+283    FALSE
+284    FALSE
+285    FALSE
+286    FALSE
+287    FALSE
+288    FALSE
+289    FALSE
+290    FALSE
+291    FALSE
+292    FALSE
+293    FALSE
+294    FALSE
+295    FALSE
+296    FALSE
+297    FALSE
+298    FALSE
+299    FALSE
+300    FALSE
+301    FALSE
+302    FALSE
+303    FALSE
+304    FALSE
+305    FALSE
+306    FALSE
+307    FALSE
+308    FALSE
+309    FALSE
+310    FALSE
+311    FALSE
+312    FALSE
+313    FALSE
+314    FALSE
+315    FALSE
+316    FALSE
+317    FALSE
+318    FALSE
+319    FALSE
+320    FALSE
+321    FALSE
+322    FALSE
+323    FALSE
+324    FALSE
+325    FALSE
+326    FALSE
+327    FALSE
+328    FALSE
+329    FALSE
+330    FALSE
+331    FALSE
+332    FALSE
+333    FALSE
+334    FALSE
+335    FALSE
+336    FALSE
+337    FALSE
+338    FALSE
+339    FALSE
+340    FALSE
+341    FALSE
+342    FALSE
+343    FALSE
+344    FALSE
+345    FALSE
+346    FALSE
+347    FALSE
+348    FALSE
+349    FALSE
+350    FALSE
+351    FALSE
+352    FALSE
+353    FALSE
+354    FALSE
+355    FALSE
+356    FALSE
+357    FALSE
+358    FALSE
+359    FALSE
+360    FALSE
+361    FALSE
+362    FALSE
+363    FALSE
+364    FALSE
+365    FALSE
+366    FALSE
+367    FALSE
+368    FALSE
+369    FALSE
+370    FALSE
+371    FALSE
+372    FALSE
+373    FALSE
+374    FALSE
+375    FALSE
+376    FALSE
+377    FALSE
+378    FALSE
+379    FALSE
+380    FALSE
+381    FALSE
+382    FALSE
+383    FALSE
+384    FALSE
+385    FALSE
+386    FALSE
+387    FALSE
+388    FALSE
+389    FALSE
+390    FALSE
+391    FALSE
+392    FALSE
+393    FALSE
+394    FALSE
+395    FALSE
+396    FALSE
+397    FALSE
+398    FALSE
+399    FALSE
+400    FALSE
+401    FALSE
+402    FALSE
+403    FALSE
+404    FALSE
+405    FALSE
+406    FALSE
+407    FALSE
+408    FALSE
+409    FALSE
+410    FALSE
+411    FALSE
+Warning: The "Isotope tracking parent ID" column at position 29 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "isotopologue_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Isotope tracking weight number" column at position 30 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "isotopologue_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Isotope tracking parent ID" column at position 29 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "isotopologue_type", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0        656
+1        653
+2        579
+3       5002
+4       7835
+5      10608
+6      11091
+7      11092
+8      12002
+9      13703
+10     14200
+11     15604
+12     15991
+13     14905
+14     16807
+15     16826
+16     11168
+17     10740
+18     10719
+19     11646
+20      8389
+21     13733
+22      7268
+23      9022
+24      9015
+25      9039
+26      9034
+27      9042
+28      9037
+29      9041
+30      9021
+31     11414
+32     12034
+33     12040
+34     12971
+35      7172
+36      7167
+37      7171
+38      7169
+39      7599
+40      7970
+41      8221
+42      9889
+43      7859
+44     10784
+45      9106
+46     10887
+47     13147
+48     16832
+49     16842
+50     16854
+51     16853
+52     16862
+53     16851
+54     16846
+55     14607
+56     14606
+57     14595
+58     15365
+59     15366
+60     16164
+61     17032
+62     10311
+63     10314
+64     10312
+65     12511
+66     12503
+67     12995
+68     13240
+69     13746
+70     13963
+71     16843
+72     16844
+73     16845
+74     17085
+75      3518
+76      3523
+77      9674
+78      9974
+79      9972
+80     12447
+81     12961
+82     15399
+83       248
+84       247
+85      2093
+86      6718
+87      6700
+88      6717
+89      7441
+90      7439
+91       655
+92     14177
+93     14645
+94     11955
+95     15309
+96     17008
+97     15271
+98     16691
+99     16884
+100    16885
+101    16886
+102    16890
+103     9447
+104    10398
+105    10484
+106    13517
+107      166
+108     4503
+109     4508
+110     4519
+111     4504
+112     7188
+113     7425
+114     4728
+115     4710
+116     4725
+117     4709
+118     4730
+119     4724
+120     4721
+121     4706
+122     7894
+123     7905
+124     6387
+125     7016
+126    13145
+127    10722
+128    10143
+129    10153
+130    12845
+131    12843
+132    12842
+133    12867
+134    12851
+135    12853
+136    12850
+137    12848
+138    12866
+139     6332
+140     6335
+141     6341
+142     9075
+143    11063
+144    14925
+145    15419
+146    15694
+147    16589
+148     9143
+149    10677
+150    10684
+151     1536
+152     1917
+153     1918
+154     1909
+155     1928
+156     1919
+157     1924
+158     3316
+159     3073
+160     7988
+161    10321
+162    13551
+163     1700
+164     8299
+165     8896
+166     9225
+167     9412
+168     9410
+169    10323
+170    10202
+171    10219
+172    10204
+173    13466
+174    15009
+175    15564
+176    15523
+177    15484
+178    10261
+179    10258
+180    10263
+181    10266
+182    10264
+183    10262
+184    10265
+185    10336
+186    10337
+187    10338
+188    10828
+189    12196
+190    12962
+191    15402
+192    16431
+193    12384
+194    12667
+195    14217
+196    13609
+197    14349
+198    14293
+199    14292
+200    14943
+201    14458
+202    14456
+203    14477
+204    14461
+205    14479
+206    15597
+207    15616
+208    15623
+209    15611
+210    15617
+211    16907
+212    16825
+213    16809
+214    16810
+215    16801
+216     9989
+217    10714
+218    10709
+219    10744
+220    13510
+221    12854
+222    12869
+223    13761
+224    13362
+225     6304
+226    10773
+227    10583
+228    13696
+229     7891
+230    10206
+231    10212
+232    10208
+233     3932
+234     4277
+235     5083
+236     7533
+237     7531
+238     7535
+239     7539
+240     9902
+241    11753
+242    10946
+243    12781
+244    12772
+245    11574
+246    13066
+247    11310
+248    11309
+249    11560
+250    12097
+251    12011
+252    12015
+253    12018
+254    12035
+255    12017
+256    12029
+257    12032
+258    12024
+259    12036
+260    14233
+261    13386
+262    13968
+263    14772
+264    16316
+265    16330
+266    17065
+267     5786
+268     5787
+269     9934
+270     9919
+271    12749
+272    12357
+273    12341
+274    13054
+275    13146
+276    13141
+277    13140
+278    13138
+279    13148
+280    15312
+281    15297
+282    15292
+283    15298
+284    15300
+285    15290
+286    15310
+287    15304
+288    15305
+289    16379
+290    16325
+291    16910
+292    13166
+293    13623
+294    16874
+295    16875
+296     3910
+297     7584
+298     7583
+299    11132
+300    13184
+301    13179
+302    13689
+303    14263
+304    14288
+305    16107
+306    16200
+307    10742
+308    10721
+309    13100
+310    13108
+311    13101
+312     7652
+313     7911
+314     8432
+315     8477
+316     9943
+317     9942
+318    11399
+319    12703
+320    13093
+321    13183
+322    13181
+323    13180
+324    16111
+325    16689
+326    16695
+327    16708
+328    16703
+329    16704
+330    16706
+331    16707
+332     4471
+333     5242
+334     5241
+335     5245
+336     5238
+337     5239
+338     6742
+339     7497
+340     7475
+341     7496
+342     7479
+343     7488
+344     7485
+345     7491
+346     7960
+347     9580
+348    10928
+349    10743
+350    10706
+351    10712
+352    10713
+353    10707
+354    10739
+355    10735
+356    10711
+357    10734
+358    10737
+359    10728
+360    10724
+361    10701
+362     6919
+363     6920
+364     6915
+365     8128
+366     9428
+367     9424
+368    10025
+369    10505
+370    12469
+371    12050
+372    15650
+373    11656
+374    12710
+375    17026
+376    17022
+377     6639
+378     7522
+379     7527
+380     7524
+381     7525
+382     7530
+383     7534
+384     7518
+385     7537
+386     7532
+387     7536
+388     7317
+389    12520
+390    15141
+391    15102
+392    15088
+393    15103
+394    15091
+395    15084
+396    15097
+397    15089
+398    15101
+399    15099
+400    15112
+401    15109
+402    15100
+403    15085
+404    15107
+405    15094
+406    15098
+407    15116
+408    15093
+409    15092
+410    15086
+411     3873
+Warning: The "Isotope tracking weight number" column at position 30 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "isotopologue_type", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      0
+1      0
+2      0
+3      0
+4      0
+5      0
+6      0
+7      0
+8      0
+9      0
+10     0
+11     0
+12     0
+13     0
+14     0
+15     0
+16     0
+17     0
+18     0
+19     0
+20     0
+21     0
+22     0
+23     0
+24     0
+25     0
+26     0
+27     0
+28     0
+29     0
+30     0
+31     0
+32     0
+33     0
+34     0
+35     0
+36     0
+37     0
+38     0
+39     0
+40     0
+41     0
+42     0
+43     0
+44     0
+45     0
+46     0
+47     0
+48     0
+49     0
+50     0
+51     0
+52     0
+53     0
+54     0
+55     0
+56     0
+57     0
+58     0
+59     0
+60     0
+61     0
+62     0
+63     0
+64     0
+65     0
+66     0
+67     0
+68     0
+69     0
+70     0
+71     0
+72     0
+73     0
+74     0
+75     0
+76     0
+77     0
+78     0
+79     0
+80     0
+81     0
+82     0
+83     0
+84     0
+85     0
+86     0
+87     0
+88     0
+89     0
+90     0
+91     0
+92     0
+93     0
+94     0
+95     0
+96     0
+97     0
+98     0
+99     0
+100    0
+101    0
+102    0
+103    0
+104    0
+105    0
+106    0
+107    0
+108    0
+109    0
+110    0
+111    0
+112    0
+113    0
+114    0
+115    0
+116    0
+117    0
+118    0
+119    0
+120    0
+121    0
+122    0
+123    0
+124    0
+125    0
+126    0
+127    0
+128    0
+129    0
+130    0
+131    0
+132    0
+133    0
+134    0
+135    0
+136    0
+137    0
+138    0
+139    0
+140    0
+141    0
+142    0
+143    0
+144    0
+145    0
+146    0
+147    0
+148    0
+149    0
+150    0
+151    0
+152    0
+153    0
+154    0
+155    0
+156    0
+157    0
+158    0
+159    0
+160    0
+161    0
+162    0
+163    0
+164    0
+165    0
+166    0
+167    0
+168    0
+169    0
+170    0
+171    0
+172    0
+173    0
+174    0
+175    0
+176    0
+177    0
+178    0
+179    0
+180    0
+181    0
+182    0
+183    0
+184    0
+185    0
+186    0
+187    0
+188    0
+189    0
+190    0
+191    0
+192    0
+193    0
+194    0
+195    0
+196    0
+197    0
+198    0
+199    0
+200    0
+201    0
+202    0
+203    0
+204    0
+205    0
+206    0
+207    0
+208    0
+209    0
+210    0
+211    0
+212    0
+213    0
+214    0
+215    0
+216    0
+217    0
+218    0
+219    0
+220    0
+221    0
+222    0
+223    0
+224    0
+225    0
+226    0
+227    0
+228    0
+229    0
+230    0
+231    0
+232    0
+233    0
+234    0
+235    0
+236    0
+237    0
+238    0
+239    0
+240    0
+241    0
+242    0
+243    0
+244    0
+245    0
+246    0
+247    0
+248    0
+249    0
+250    0
+251    0
+252    0
+253    0
+254    0
+255    0
+256    0
+257    0
+258    0
+259    0
+260    0
+261    0
+262    0
+263    0
+264    0
+265    0
+266    0
+267    0
+268    0
+269    0
+270    0
+271    0
+272    0
+273    0
+274    0
+275    0
+276    0
+277    0
+278    0
+279    0
+280    0
+281    0
+282    0
+283    0
+284    0
+285    0
+286    0
+287    0
+288    0
+289    0
+290    0
+291    0
+292    0
+293    0
+294    0
+295    0
+296    0
+297    0
+298    0
+299    0
+300    0
+301    0
+302    0
+303    0
+304    0
+305    0
+306    0
+307    0
+308    0
+309    0
+310    0
+311    0
+312    0
+313    0
+314    0
+315    0
+316    0
+317    0
+318    0
+319    0
+320    0
+321    0
+322    0
+323    0
+324    0
+325    0
+326    0
+327    0
+328    0
+329    0
+330    0
+331    0
+332    0
+333    0
+334    0
+335    0
+336    0
+337    0
+338    0
+339    0
+340    0
+341    0
+342    0
+343    0
+344    0
+345    0
+346    0
+347    0
+348    0
+349    0
+350    0
+351    0
+352    0
+353    0
+354    0
+355    0
+356    0
+357    0
+358    0
+359    0
+360    0
+361    0
+362    0
+363    0
+364    0
+365    0
+366    0
+367    0
+368    0
+369    0
+370    0
+371    0
+372    0
+373    0
+374    0
+375    0
+376    0
+377    0
+378    0
+379    0
+380    0
+381    0
+382    0
+383    0
+384    0
+385    0
+386    0
+387    0
+388    0
+389    0
+390    0
+391    0
+392    0
+393    0
+394    0
+395    0
+396    0
+397    0
+398    0
+399    0
+400    0
+401    0
+402    0
+403    0
+404    0
+405    0
+406    0
+407    0
+408    0
+409    0
+410    0
+411    0
+Warning: The "Annotation tag (VS1.0)" column at position 22 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "annotations". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Manually modified for annotation" column at position 28 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "annotations". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Annotation tag (VS1.0)" column at position 22 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "annotations", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      530
+1      530
+2      530
+3      530
+4      530
+5      530
+6      530
+7      530
+8      530
+9      530
+10     530
+11     530
+12     530
+13     530
+14     530
+15     530
+16     530
+17     530
+18     530
+19     530
+20     530
+21     530
+22     530
+23     530
+24     530
+25     530
+26     530
+27     530
+28     530
+29     530
+30     530
+31     530
+32     530
+33     530
+34     530
+35     530
+36     530
+37     530
+38     530
+39     530
+40     530
+41     530
+42     530
+43     530
+44     530
+45     530
+46     530
+47     530
+48     530
+49     530
+50     530
+51     530
+52     530
+53     530
+54     530
+55     530
+56     530
+57     530
+58     530
+59     530
+60     530
+61     530
+62     530
+63     530
+64     530
+65     530
+66     530
+67     530
+68     530
+69     530
+70     530
+71     530
+72     530
+73     530
+74     530
+75     530
+76     530
+77     530
+78     530
+79     530
+80     530
+81     530
+82     530
+83     530
+84     530
+85     530
+86     530
+87     530
+88     530
+89     530
+90     530
+91     530
+92     530
+93     530
+94     530
+95     530
+96     530
+97     530
+98     530
+99     530
+100    530
+101    530
+102    530
+103    530
+104    530
+105    530
+106    530
+107    530
+108    530
+109    530
+110    530
+111    530
+112    530
+113    530
+114    530
+115    530
+116    530
+117    530
+118    530
+119    530
+120    530
+121    530
+122    530
+123    530
+124    530
+125    530
+126    530
+127    530
+128    530
+129    530
+130    530
+131    530
+132    530
+133    530
+134    530
+135    530
+136    530
+137    530
+138    530
+139    530
+140    530
+141    530
+142    530
+143    530
+144    530
+145    530
+146    530
+147    530
+148    530
+149    530
+150    530
+151    530
+152    530
+153    530
+154    530
+155    530
+156    530
+157    530
+158    530
+159    530
+160    530
+161    530
+162    530
+163    530
+164    530
+165    530
+166    530
+167    410
+168    410
+169    530
+170    530
+171    530
+172    410
+173    530
+174    530
+175    530
+176    530
+177    530
+178    530
+179    530
+180    530
+181    530
+182    530
+183    530
+184    530
+185    530
+186    530
+187    530
+188    530
+189    530
+190    530
+191    530
+192    530
+193    530
+194    530
+195    530
+196    530
+197    530
+198    530
+199    530
+200    530
+201    530
+202    530
+203    530
+204    530
+205    530
+206    530
+207    530
+208    530
+209    530
+210    530
+211    530
+212    530
+213    530
+214    530
+215    530
+216    530
+217    530
+218    410
+219    410
+220    530
+221    530
+222    530
+223    530
+224    530
+225    530
+226    530
+227    530
+228    530
+229    530
+230    530
+231    530
+232    530
+233    530
+234    530
+235    530
+236    530
+237    530
+238    530
+239    530
+240    530
+241    530
+242    530
+243    530
+244    530
+245    530
+246    530
+247    530
+248    530
+249    530
+250    530
+251    530
+252    530
+253    530
+254    530
+255    530
+256    530
+257    530
+258    530
+259    530
+260    530
+261    530
+262    530
+263    530
+264    530
+265    530
+266    530
+267    530
+268    530
+269    530
+270    530
+271    530
+272    530
+273    530
+274    530
+275    530
+276    530
+277    530
+278    530
+279    530
+280    530
+281    530
+282    530
+283    530
+284    530
+285    530
+286    530
+287    530
+288    530
+289    530
+290    530
+291    530
+292    530
+293    530
+294    530
+295    530
+296    530
+297    530
+298    530
+299    410
+300    530
+301    530
+302    530
+303    530
+304    530
+305    530
+306    530
+307    530
+308    530
+309    530
+310    530
+311    530
+312    530
+313    530
+314    530
+315    530
+316    530
+317    530
+318    530
+319    530
+320    530
+321    530
+322    530
+323    530
+324    530
+325    530
+326    530
+327    530
+328    530
+329    530
+330    530
+331    530
+332    530
+333    530
+334    530
+335    530
+336    530
+337    530
+338    530
+339    530
+340    530
+341    530
+342    530
+343    530
+344    530
+345    530
+346    530
+347    530
+348    530
+349    530
+350    530
+351    530
+352    530
+353    530
+354    530
+355    530
+356    530
+357    530
+358    530
+359    530
+360    530
+361    530
+362    530
+363    530
+364    530
+365    530
+366    530
+367    530
+368    530
+369    530
+370    530
+371    530
+372    530
+373    530
+374    530
+375    530
+376    530
+377    530
+378    530
+379    530
+380    530
+381    530
+382    530
+383    530
+384    530
+385    530
+386    530
+387    530
+388    530
+389    530
+390    530
+391    530
+392    530
+393    530
+394    530
+395    530
+396    530
+397    530
+398    530
+399    530
+400    530
+401    530
+402    530
+403    530
+404    530
+405    530
+406    530
+407    530
+408    530
+409    530
+410    530
+411    530
+Warning: The column, "Isotope tracking weight number", in the ["MS_METABOLITE_DATA"]["Metabolites"] table was matched to multiple standard names, ['mass', 'isotopologue_type']. This is a good indication that the values in that column should be split into the appropriate individual columns.
+Warning: The column, "Spectrum reference file name", in the ["MS_METABOLITE_DATA"]["Metabolites"] table was matched to multiple standard names, ['mass_spectrum', 'name']. This is a good indication that the values in that column should be split into the appropriate individual columns.
+Warning: The column, "Lipid Class (LIPID MAPS)", in the ["MS_METABOLITE_DATA"]["Metabolites"] table was matched to multiple standard names, ['class', 'lm_id']. This is a good indication that the values in that column should be split into the appropriate individual columns.
+Warning: The column, "Lipid Subclass (LIPID MAPS)", in the ["MS_METABOLITE_DATA"]["Metabolites"] table was matched to multiple standard names, ['class', 'lm_id']. This is a good indication that the values in that column should be split into the appropriate individual columns.
+Warning: The "Alignment ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "Post curation result" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "Annotation tag (VS1.0)" column at position 22 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "MS/MS matched" column at position 25 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
