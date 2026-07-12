@@ -1,0 +1,206 @@
+Validation Log
+2026-07-12 07:47:07.671793
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007190/mwtab/txt
+Study ID:      ST004317
+Analysis ID:   AN007190
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 50
+
+Number of Warnings: 47
+
+Number of Value Errors: 47
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: Unknown or invalid subsection, "DISEASE_ASSOCIATION", in the "STUDY" section .
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "40-50", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: SUBJECT_SAMPLE_FACTORS entry #1 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #2 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #3 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #4 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #5 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #6 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #7 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #8 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #9 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #10 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #11 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #12 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #13 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #14 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #15 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #16 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #17 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #18 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #19 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #20 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #21 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #22 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #23 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #24 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: SUBJECT_SAMPLE_FACTORS entry #25 has the following duplicate keys in its Factors:
+	"Sample source"
+Warning: The "INCHIKEY" column at position 9 in the METABOLITES table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PLOT_NAME" column at position 11 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "SUPER_PATHWAY" column at position 5 in the METABOLITES table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "SUB_PATHWAY" column at position 6 in the METABOLITES table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LIPID SPECIES LEVEL" column at position 12 in the METABOLITES table, matches a standard column name, "species". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LIPID MOLECULAR SPECIES LEVEL" column at position 13 in the METABOLITES table, matches a standard column name, "species". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LIPID SPECIES LEVEL" column at position 12 in the METABOLITES table, matches a standard column name, "species", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+89       LPS 18:1
+98        MG 16:0
+105       MG 18:1
+106       MG 18:1
+109       MG 18:2
+112       MG 18:2
+113       MG 16:0
+153       MG 14:0
+157       MG 17:0
+158       MG 15:0
+159       MG 20:4
+160       MG 18:3
+166      LPG 18:0
+169       MG 22:6
+173      LPC 18:0
+174      LPC 18:1
+175      LPC 18:2
+176      LPC 16:0
+177      LPE 20:4
+188       MG 14:0
+194      LPE 18:1
+195      LPI 16:0
+197      LPA 18:0
+198      LPE 20:4
+205      LPE 18:2
+210      LPE 22:6
+211      LPE 22:6
+212      LPE 17:0
+249      LPE 18:0
+250      LPG 18:0
+256      LPS 18:0
+262      LPE 20:5
+266      LPE 20:3
+271      LPG 18:1
+272      LPG 16:0
+273      LPG 16:0
+274      LPG 18:1
+275      LPS 16:0
+279       MG 20:3
+300       MG 16:1
+310      LPA 18:2
+311      LPG 18:2
+317       MG 20:5
+319     MGMG 18:2
+320     MGMG 16:0
+321     DGMG 18:2
+322     DGMG 16:0
+324    LPE O-16:0
+354     MGMG 16:0
+Warning: The "LIPID MOLECULAR SPECIES LEVEL" column at position 13 in the METABOLITES table, matches a standard column name, "species", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+89                LPS 18:1
+98                 MG 16:0
+105                MG 18:1
+106                MG 18:1
+109                MG 18:2
+112                MG 18:2
+113                MG 16:0
+153                MG 14:0
+157                MG 17:0
+158                MG 15:0
+159                MG 20:4
+160                MG 18:3
+166               LPG 18:0
+169                MG 22:6
+173               LPC 18:0
+174               LPC 18:1
+175               LPC 18:2
+176               LPC 16:0
+177    LPE 20:4(5,8,11,14)
+188                MG 14:0
+194               LPE 18:1
+195               LPI 16:0
+197               LPA 18:0
+198               LPE 20:4
+205               LPE 18:2
+210               LPE 22:6
+211               LPE 22:6
+212               LPE 17:0
+249               LPE 18:0
+250               LPG 18:0
+256               LPS 18:0
+262               LPE 20:5
+266               LPE 20:3
+271               LPG 18:1
+272               LPG 16:0
+273               LPG 16:0
+274               LPG 18:1
+275               LPS 16:0
+279                MG 20:3
+300                MG 16:1
+310               LPA 18:2
+311               LPG 18:2
+317                MG 20:5
+319              MGMG 18:2
+320              MGMG 16:0
+321              DGMG 18:2
+322              DGMG 16:0
+324             LPE O-16:0
+354              MGMG 16:0
+Warning: The "PUBCHEM" column at position 19 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 18 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 17 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHEMSPIDER" column at position 16 in the METABOLITES table, matches a standard column name, "chemspider_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 15 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 15 in the METABOLITES table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+6         35170-03-7,35170-0-7
+18         146-14-5,84366-81-4
+19           475-31-0,863-57-0
+41        10002-84-2,1002-84-2
+49       184901-84-6,7198-10-9
+50           474-25-9,474-24-9
+53            120K5305,69-93-2
+72        10-2005-9,10417-94-4
+78        51829-07-3,1460-34-0
+94           997-55-7,997-55-7
+111          87-51-4,6505-45-9
+121        2458-08-4,2458-08-4
+197    799268-65-8,325465-92-7
+202        94105-90-5,531-95-3
+Warning: The "CHEM_ID" column at position 2 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "COMP_ID" column at position 3 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHRO_LIB_ENTRY_ID" column at position 4 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "CHEM_ID" was found in the METABOLITES table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "CHEM_ID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "LIPID SPECIES LEVEL" column at position 12 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "LIPID MOLECULAR SPECIES LEVEL" column at position 13 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "LIPID SN POSITION LEVEL" column at position 14 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
