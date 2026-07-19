@@ -1,12 +1,12 @@
 Comparison Log
-2026-07-12 05:51:32.685930
+2026-07-19 05:48:51.376279
 mwtab Python Library Version: 2.1.1
 Source:      https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN004856/mwtab/...
 Study ID:    ST002956
 Analysis ID: AN004856
 Status:      Inconsistent
 
-Sections "STUDY" contain missmatched keys: ['NUM_GROUPS', 'TOTAL_SUBJECTS', 'NUM_MALES', 'SUBMIT_DATE']
-Sections "PROJECT" contain missmatched keys: ['PUBLICATIONS', 'DOI']
+Sections "STUDY" contain missmatched keys: ['NUM_MALES', 'TOTAL_SUBJECTS', 'NUM_GROUPS', 'SUBMIT_DATE']
+Sections "PROJECT" contain missmatched keys: ['DOI', 'PUBLICATIONS']
 'Metabolites' section of 'MS_METABOLITE_DATA' block do not match.
 'Data' section of 'MS_METABOLITE_DATA' block do not match.

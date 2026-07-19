@@ -1,0 +1,219 @@
+Validation Log
+2026-07-19 08:32:33.015629
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008357/mwtab/json
+Study ID:      ST004931
+Analysis ID:   AN008357
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 61
+
+Number of Warnings: 60
+
+Number of Value Errors: 57
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "40", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][0] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][1] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][2] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][3] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][4] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][5] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][6] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][7] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][8] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][9] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][10] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][11] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][12] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][13] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][14] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][15] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][16] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][17] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][18] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][19] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][20] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][21] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][22] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][23] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][24] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][25] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][26] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][27] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][28] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][29] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][30] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][31] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][32] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][33] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][34] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][35] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME"
+Warning: The "M/Z" column at position 17 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Mass Error" column at position 20 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "compound source" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "compound". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB Superclass" column at position 15 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB Class" column at position 16 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB Subclass" column at position 22 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG Pathway ID" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG Pathway Description" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Adducts" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "adduct". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG Pathway ID" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG Pathway Description" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG Compound ID" column at position 13 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG Pathway ID" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1           map01100;map00310;map00470;map00480;map04974
+2      map01100;map05310;map04664;map04750;map00340;m...
+5                                      map01100;map00310
+9                                      map01100;map00310
+12                                     map01100;map00330
+16                                              map00340
+17                                              map00340
+18                                     map01100;map00310
+23                                              map01100
+33                                              map00230
+35     map01100;map00561;map00040;map02010;map00052;m...
+48                                              map01100
+69                                     map01100;map00380
+72     map01100;map00564;map00563;map04136;map05167;m...
+73     map01100;map00564;map05146;map05322;map00260;m...
+80                                     map01100;map00591
+83     map01100;map00564;map00563;map04136;map05167;m...
+89     map05214;map05167;map05143;map04540;map05163;m...
+95                                              map04080
+101                           map01100;map00592;map01040
+103                                             map00592
+110    map01100;map00564;map05146;map05322;map00260;m...
+123                           map01100;map04726;map00380
+126                                             map00980
+138                                             map00770
+146                                             map01100
+147         map01100;map04080;map04974;map00350;map01240
+157                                    map01100;map00040
+160    map01100;map00480;map00330;map02010;map04976;m...
+163    map01100;map00480;map02010;map00470;map00330;m...
+Warning: The "KEGG Pathway Description" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1      Metabolic pathways;Lysine degradation;D-Amino ...
+2      Metabolic pathways;Asthma;Fc epsilon RI signal...
+5                  Metabolic pathways;Lysine degradation
+9                  Metabolic pathways;Lysine degradation
+12     Metabolic pathways;Arginine and proline metabo...
+16                                  Histidine metabolism
+17                                  Histidine metabolism
+18                 Metabolic pathways;Lysine degradation
+23                                    Metabolic pathways
+33                                     Purine metabolism
+35     Metabolic pathways;Glycerolipid metabolism;Pen...
+48                                    Metabolic pathways
+69              Metabolic pathways;Tryptophan metabolism
+72     Metabolic pathways;Glycerophospholipid metabol...
+73     Metabolic pathways;Glycerophospholipid metabol...
+80           Metabolic pathways;Linoleic acid metabolism
+83     Metabolic pathways;Glycerophospholipid metabol...
+89     Glioma;Kaposi sarcoma-associated herpesvirus i...
+95               Neuroactive ligand-receptor interaction
+101    Metabolic pathways;alpha-Linolenic acid metabo...
+103                      alpha-Linolenic acid metabolism
+110    Metabolic pathways;Glycerophospholipid metabol...
+123    Metabolic pathways;Serotonergic synapse;Trypto...
+126         Metabolism of xenobiotics by cytochrome P450
+138                    Pantothenate and CoA biosynthesis
+146                                   Metabolic pathways
+147    Metabolic pathways;Neuroactive ligand-receptor...
+157    Metabolic pathways;Pentose and glucuronate int...
+160    Metabolic pathways;Glutathione metabolism;Argi...
+163    Metabolic pathways;Glutathione metabolism;ABC ...
+Warning: The "KEGG Compound ID" column at position 13 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+19     C22223;_
+22     C21045;_
+33     C22499;_
+48     C11863;_
+56     C10698;_
+72     _;C00350
+73     _;C02737
+83     _;C00350
+89     _;C00165
+92     C06121;_
+99     C19952;_
+110    _;C02737
+116    C16871;_
+118    C16747;_
+128    C20708;_
+137    C08954;_
+Warning: The "CAS ID" column at position 21 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS ID" column at position 21 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+6                -;14278-49-0
+9          5746/2/1;5746-02-1
+12       5699-41-2;18233-70-0
+17                 -;673-49-4
+18                         _;
+19                 -;475-11-6
+22                        -;_
+23                 120-29-6;_
+28                         _;
+32     20064-19-1;;17298-37-2
+48                427-77-0;_;
+56               32434-44-9;_
+76                          0
+79               13037-86-0;_
+81                 126-73-8;_
+83                         _;
+87                          0
+92                       -;_;
+99               26934-87-2;_
+103               20290-75-9;
+105                1156-92-9;
+118              80902-43-8;_
+126                134-32-7;_
+128             220991-32-2;_
+130                100-63-0;_
+137              27013-91-8;_
+146                 95-47-6;_
+Warning: The "Library ID" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Retention time" column at position 12 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Mode" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ionization_mode". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "Library ID" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "Library ID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The column, "KEGG Pathway ID", in the ["MS_METABOLITE_DATA"]["Metabolites"] table was matched to multiple standard names, ['pathway', 'kegg_id']. This is a good indication that the values in that column should be split into the appropriate individual columns.
+Warning: The column, "KEGG Pathway Description", in the ["MS_METABOLITE_DATA"]["Metabolites"] table was matched to multiple standard names, ['pathway', 'kegg_id']. This is a good indication that the values in that column should be split into the appropriate individual columns.

@@ -1,0 +1,79 @@
+Validation Log
+2026-07-19 08:36:45.724830
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008493/mwtab/txt
+Study ID:      ST005003
+Analysis ID:   AN008493
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 5
+
+Number of Warnings: 4
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "40°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "PubChem" column at position 2 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem" column at position 2 in the METABOLITES table, matches a standard column name, "pubchem_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+21     800-73-7 (DEOXYCYTIDINE-DIPHOSPHATE)
+24                         1173-82-6 (dUTP)
+58                                6779-87-9
+71                                 124-04-9
+85                                 331-39-5
+105          63-38-7 (CYTIDINE DIPHOSPHATE)
+108                           65-47-4 (CTP)
+113         643-13-0 (FRUCTOSE 6-PHOSPHATE)
+118         3672-15-9 (MANNOSE 6-PHOSPHATE)
+120        3615-55-2 (D-RIBOSE 5-PHOSPHATE)
+130                                940-69-2
+131                                454-29-5
+133               97-31-4 (NORMETANEPHRINE)
+134                        358-72-5 (DMAPP)
+156                  7665-99-8 (CYCLIC GMP)
+157        146-91-8 (GUANOSINE DIPHOSPHATE)
+176        131-99-7 (INOSINE-MONOPHOSPHATE)
+177         132-06-9 (INOSINE TRIPHOSPHATE)
+199                               8002-43-5
+223                                616-91-1
+244                      144-62-7 (OXALATE)
+247          2364-67-2 (PALMITOYLCARNITINE)
+265                                120-80-9
+268                                589-68-4
+270                                 83-88-5
+273                          485-80-3 (SAM)
+292              2196-62-5 (DTDP-D-GLUCOSE)
+301             6061-96-7 (2-METHYLCITRATE)
+313                  133-89-1 (UDP Glucose)
+320       2255-14-3 (GALACTOSE 1-PHOSPHATE)
+321           59-56-3 (GLUCOSE 1-PHOSPHATE)
+325                                     NAD
+Warning: The "KEGG" column at position 3 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 3 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+21     C00705 (DEOXYCYTIDINE-DIPHOSPHATE)
+24                          C00460 (dUTP)
+105         C00112 (CYTIDINE DIPHOSPHATE)
+108                          C00063 (CTP)
+113         C00085 (FRUCTOSE 6-PHOSPHATE)
+118          C00275 (MANNOSE 6-PHOSPHATE)
+120         C00117 (D-RIBOSE 5-PHOSPHATE)
+133              C05589 (NORMETANEPHRINE)
+134                        C00235 (DMAPP)
+156                   C00942 (CYCLIC GMP)
+157        C00035 (GUANOSINE DIPHOSPHATE)
+176        C00130 (INOSINE-MONOPHOSPHATE)
+177         C00081 (INOSINE TRIPHOSPHATE)
+223                             CSID11540
+244                      C00209 (OXALATE)
+247           C02990 (PALMITOYLCARNITINE)
+268                             CSID71382
+273                          C00019 (SAM)
+292               C00842 (DTDP-D-GLUCOSE)
+301             CSID500 (2-METHYLCITRATE)
+313                  C00029 (UDP Glucose)
+320        C00446 (GALACTOSE 1-PHOSPHATE)
+321          C00103 (GLUCOSE 1-PHOSPHATE)
