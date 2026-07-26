@@ -1,0 +1,39 @@
+Validation Log
+2026-07-26 08:46:37.417801
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008395/mwtab/txt
+Study ID:      ST004955
+Analysis ID:   AN008395
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 19
+
+Number of Warnings: 13
+
+Number of Value Errors: 17
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "0.3 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "25", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The factors in the METABOLITE_DATA section and SUBJECT_SAMPLE_FACTORS section do not match.
+Error: SUBJECT_SAMPLE_FACTORS section missing sample ID(s). The following IDs were found in the MS_METABOLITE_DATA section but not in the SUBJECT_SAMPLE_FACTORS:
+	""
+Warning: There are duplicate samples in the MS_METABOLITE_DATA section.
+Warning: The "chem formula" column at position 3 in the METABOLITES table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Error: Column(s) with no name were found in the MS_METABOLITE_DATA table.
+Warning: The "" column at position 7 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 2nd "" column at position 14 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 3rd "" column at position 20 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 4th "" column at position 27 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 5th "" column at position 33 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 6th "" column at position 40 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 7th "" column at position 47 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 8th "" column at position 51 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 9th "" column at position 55 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 10th "" column at position 61 in the MS_METABOLITE_DATA table has all null values.
+Warning: The 11th "" column at position 67 in the MS_METABOLITE_DATA table has all null values.
