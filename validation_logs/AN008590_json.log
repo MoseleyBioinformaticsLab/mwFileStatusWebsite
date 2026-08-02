@@ -1,0 +1,144 @@
+Validation Log
+2026-08-02 08:28:23.863957
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008590/mwtab/json
+Study ID:      ST005052
+Analysis ID:   AN008590
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 18
+
+Number of Warnings: 16
+
+Number of Value Errors: 16
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.4 mL/min-0.6mL/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Mass Error (ppm)" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InChIKey" column at position 16 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InChIKey" column at position 16 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+70      Others
+116     Others
+307     Others
+708     Others
+843     Others
+848     Others
+886     Others
+906     Others
+912     Others
+928     Others
+1001    Others
+1007    Others
+1040    Others
+1050    Others
+1060    Others
+1094    Others
+1104    Others
+1110    Others
+1139    Others
+1156    Others
+1158    Others
+1171    Others
+1178    Others
+1183    Others
+1199    Others
+1210    Others
+1236    Others
+1368    Others
+1375    Others
+1401    Others
+1452    Others
+1514    Others
+1529    Others
+1534    Others
+1627    Others
+1635    Others
+1681    Others
+1714    Others
+1724    Others
+1787    Others
+1857    Others
+1883    Others
+2277    Others
+2638    Others
+2640    Others
+2641    Others
+Warning: The "SMILES" column at position 17 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "smiles", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+2436    CC(=CCNC1=NC=NC2=C1NC=N2)CO|CC(=CCNC1=C2N=CNC2...
+Warning: The "Formula" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1565    C33H32N4O6-2
+Warning: The "Adducts" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "adduct". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG Compound ID" column at position 12 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS ID" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS ID" column at position 14 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+12                     70-16-6;59-43-8
+16                   1956/12/2;56-12-2
+26                3226-65-1;62697-73-8
+64                  3105-95-1;535-75-1
+66                14215-68-0;1811-31-0
+98                    1990/2/8;90-02-8
+247                20283-92-5;537-15-5
+268              5843-65-2;106032-53-5
+295            196618-13-0;204255-11-8
+314                  1993/10/7;93-10-7
+370                   1958/8/2;58-08-2
+401                  625-72-9;300-85-6
+430                27778-66-1;610-88-8
+433       530-59-6;7362-37-0;7362-37-0
+547               2538-87-6;20711-53-9
+593                           3423/7/2
+615                29908-03-0;485-80-3
+652              23885-43-0;35796-71-5
+729                   1959/5/2;59-05-2
+736                           1950/3/3
+754                   1950/4/4;50-04-4
+775                7542-37-2;1263-89-4
+838             104033-83-2;97503-03-2
+1031            82834-16-0;107133-36-8
+1137               104-61-0;57084-16-9
+1170            97682-44-5;100286-90-6
+1197                          2222/7/3
+1262       7541-49-3;150-86-7;150-86-7
+1278                          1959/2/9
+1335                6990/6/3;6990-06-3
+1383                  124-07-2;74-81-7
+1442              1721-51-3;58864-81-6
+1451           143558-00-3;119302-91-9
+1480                  76-22-2;464-49-3
+1494             64221-86-9;74431-23-5
+1561                2751/9/9;2751-09-9
+1590             23599-75-9;37789-32-5
+1642                          1993/9/4
+1845               585-99-9;13299-20-2
+1849                508-75-8;5822-57-1
+1934                          3674/3/1
+2050              6894-38-8;59366-47-1
+2096                         1918/11/2
+2098                7143/9/1;7143-09-1
+2171             51384-51-1;37350-58-6
+2235                  1953/5/4;53-05-4
+2323               35061-50-8;577-76-4
+2388              327-97-9;202650-88-2
+2623                551-85-9;4151-19-3
+2649               1852-43-3;3602-09-3
+2650                 133-04-0;607-80-7
+2652                 6055-19-2;50-18-0
+2653                57-48-7;53188-23-1
+2658               520-18-3;80714-53-0
+2659    131-48-6;19342-33-7;21646-00-4
+2660                 1954/11/5;54-11-5
+2662                 70-26-8;3184-13-2
+2664                  1953/2/1;53-02-1
+2666             14684-37-8;17208-65-0
+Warning: The "ID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Library ID" column at position 13 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Retention time" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Mode" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "ionization_mode". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "ID" was found in the ["MS_METABOLITE_DATA"]["Metabolites"] table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "ID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.

@@ -1,0 +1,172 @@
+Validation Log
+2026-08-02 08:28:15.337983
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008548/mwtab/txt
+Study ID:      ST005032
+Analysis ID:   AN008548
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 7
+
+Number of Warnings: 6
+
+Number of Value Errors: 7
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "65", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 4 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InChiKey" column at position 3 in the METABOLITES table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ion species" column at position 2 in the METABOLITES table, matches a standard column name, "ion". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ret.time (min)" column at position 5 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ESI mode" column at position 6 in the METABOLITES table, matches a standard column name, "esi_mode". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ESI mode" column at position 6 in the METABOLITES table, matches a standard column name, "esi_mode", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      ESI neg
+1      ESI neg
+2      ESI neg
+3      ESI neg
+4      ESI neg
+5      ESI neg
+6      ESI neg
+7      ESI neg
+8      ESI neg
+9      ESI neg
+10     ESI neg
+11     ESI neg
+12     ESI neg
+13     ESI neg
+14     ESI neg
+15     ESI neg
+16     ESI neg
+17     ESI neg
+18     ESI neg
+19     ESI neg
+20     ESI neg
+21     ESI neg
+22     ESI neg
+23     ESI neg
+24     ESI neg
+25     ESI neg
+26     ESI neg
+27     ESI neg
+28     ESI neg
+29     ESI neg
+30     ESI neg
+31     ESI neg
+32     ESI neg
+33     ESI neg
+34     ESI neg
+35     ESI neg
+36     ESI neg
+37     ESI neg
+38     ESI neg
+39     ESI neg
+40     ESI neg
+41     ESI neg
+42     ESI neg
+43     ESI neg
+44     ESI neg
+45     ESI neg
+46     ESI neg
+47     ESI neg
+48     ESI neg
+49     ESI neg
+50     ESI neg
+51     ESI neg
+52     ESI neg
+53     ESI neg
+54     ESI neg
+55     ESI neg
+56     ESI neg
+57     ESI neg
+58     ESI neg
+59     ESI neg
+60     ESI neg
+61     ESI neg
+62     ESI neg
+63     ESI neg
+64     ESI neg
+65     ESI neg
+66     ESI neg
+67     ESI neg
+68     ESI neg
+69     ESI neg
+70     ESI neg
+71     ESI neg
+72     ESI neg
+73     ESI neg
+74     ESI neg
+75     ESI neg
+76     ESI neg
+77     ESI neg
+78     ESI neg
+79     ESI neg
+80     ESI neg
+81     ESI neg
+82     ESI neg
+83     ESI neg
+84     ESI neg
+85     ESI neg
+86     ESI neg
+87     ESI neg
+88     ESI neg
+89     ESI neg
+90     ESI neg
+91     ESI neg
+92     ESI neg
+93     ESI neg
+94     ESI neg
+95     ESI neg
+96     ESI neg
+97     ESI neg
+98     ESI neg
+99     ESI neg
+100    ESI neg
+101    ESI neg
+102    ESI neg
+103    ESI neg
+104    ESI neg
+105    ESI neg
+106    ESI neg
+107    ESI neg
+108    ESI neg
+109    ESI neg
+110    ESI neg
+111    ESI neg
+112    ESI neg
+113    ESI neg
+114    ESI neg
+115    ESI neg
+116    ESI neg
+117    ESI neg
+118    ESI neg
+119    ESI neg
+120    ESI neg
+121    ESI neg
+122    ESI neg
+123    ESI neg
+124    ESI neg
+125    ESI neg
+126    ESI neg
+127    ESI neg
+128    ESI neg
+129    ESI neg
+130    ESI neg
+131    ESI neg
+132    ESI neg
+133    ESI neg
+134    ESI neg
+135    ESI neg
+136    ESI neg
+137    ESI neg
+138    ESI neg
+139    ESI neg
+140    ESI neg
+141    ESI neg
+142    ESI neg
+143    ESI neg
+144    ESI neg
+145    ESI neg
