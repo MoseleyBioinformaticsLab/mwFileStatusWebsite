@@ -1,0 +1,195 @@
+Validation Log
+2026-08-16 12:59:36.364026
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007940/mwtab/txt
+Study ID:      ST004699
+Analysis ID:   AN007940
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 46
+
+Number of Warnings: 43
+
+Number of Value Errors: 46
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "0.5ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "25 ℃", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "4", for the subsection, "INJECTION_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Warning: SUBJECT_SAMPLE_FACTORS entry #1 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #2 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #3 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #4 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #5 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #6 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #7 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #8 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #9 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #10 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #11 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #12 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #13 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #14 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #15 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #16 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #17 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #18 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #19 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #20 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #21 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #22 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #23 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #24 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #25 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #26 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #27 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #28 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #29 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #30 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #31 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #32 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #33 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #34 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #35 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #36 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #37 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #38 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: SUBJECT_SAMPLE_FACTORS entry #39 has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw_FILE_NAME)"
+Warning: The "mz" column at position 4 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Molecular Weight" column at position 3 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0           C8 H7 N O4 S
+3             C5 H7 N O3
+10           C6 H11 N O3
+11          C11 H13 N O3
+14            C5 H9 N O4
+19           C7 H11 N O3
+23          C11 H13 N O4
+43        C26 H45 N O6 S
+45        C21 H44 N O7 P
+46          C11 H11 N O3
+47          C2 H7 N O3 S
+48           C9 H17 N O5
+52            C4 H7 N O3
+54            C9 H9 N O3
+56         C7 H13 N O3 S
+61        C26 H45 N O7 S
+66           C8 H15 N O3
+67     C21 H18 [2]H9 N O
+71        C25 H52 N O7 P
+75        C28 H48 N O7 P
+80        C26 H48 N O7 P
+84        C23 H46 N O7 P
+87          C10 H19 N O3
+93        C22 H46 N O7 P
+103       C46 H80 N O8 P
+113       C28 H44 N O9 P
+117          C8 H F15 O2
+135       C21 H44 N O6 P
+136           C8 H7 N O3
+137          C7 H11 N O5
+141           C6 H5 N O3
+157           C9 H9 N O2
+164         C12 H23 N O4
+173         C7 H5 N O3 S
+180       C26 H44 N O9 P
+182          C6 H11 N O4
+190         C15 H29 N O3
+191       C23 H48 N O6 P
+192          C11 H9 N O3
+194         C3 H8 N O5 P
+195            C8 H7 N O
+201     C24 H33 Cl N2 O2
+204       C23 H50 N O6 P
+206     C6 H12 N Na O8 S
+211         C5 H9 N O3 S
+218       C24 H48 N O7 P
+223        C25 H47 N O13
+227          C8 H17 N O2
+234        C11 H19 N O10
+259       C25 H50 N O7 P
+263       C25 H54 N O6 P
+264         C26 H43 N O5
+265       C21 H44 N O7 P
+278        C8 H15 N O9 S
+280       C26 H52 N O6 P
+287       C25 H52 N O6 P
+290       C40 H70 N O8 P
+295       C27 H48 N O7 P
+297          C10 H9 N O2
+299       C26 H54 N O7 P
+303       C27 H44 N O7 P
+304       C23 H48 N O7 P
+306       C25 H44 N O7 P
+311       C26 H52 N O7 P
+313       C23 H44 N O7 P
+314       C24 H50 N O7 P
+315       C26 H50 N O7 P
+317       C28 H54 N O7 P
+318           C4 H7 N O4
+320        C5 H11 N O2 S
+322         C26 H43 N O6
+323       C27 H46 N O7 P
+324       C21 H42 N O7 P
+325           C6 H9 N O5
+326       C23 H46 N O7 P
+327          C9 H17 N O4
+328       C23 H48 N O7 P
+329       C28 H52 N O7 P
+330         C12 H15 N O4
+331       C23 H42 N O7 P
+333       C25 H50 N O7 P
+334       C28 H58 N O7 P
+335       C25 H42 N O7 P
+336       C28 H50 N O7 P
+337       C30 H50 N O7 P
+338         C11 H19 N O9
+342       C23 H48 N O7 P
+343       C25 H48 N O7 P
+344       C26 H52 N O8 P
+346       C26 H54 N O7 P
+347       C25 H52 N O7 P
+Warning: The "rt" column at position 5 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

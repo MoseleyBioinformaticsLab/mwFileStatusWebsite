@@ -1,0 +1,36 @@
+Validation Log
+2026-08-16 12:53:49.889373
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007822/mwtab/json
+Study ID:      ST004637
+Analysis ID:   AN007822
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 17
+
+Number of Warnings: 0
+
+Number of Value Errors: 17
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: An empty value or a null value was detected in ["SUBJECT"]["GENOTYPE_STRAIN"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "None", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Noe", in ["SUBJECT"]["WEIGHT_OR_WEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "Not applicable", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["COLLECTION"]["ADDITIVES"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_PROTOCOL_ID"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_PROTOCOL_FILENAME"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_PROTOCOL_COMMENTS"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_COMPOUND"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_ROUTE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_DOSE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_DOSEVOLUME"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "None", in ["TREATMENT"]["TREATMENT_DOSEDURATION"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['h', 'weeks', 'days']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_VEHICLE"]. Either a legitimate value should be provided for this key, or it should be removed altogether.
+Error: The value, "20°C", in ["TREATMENT"]["PLANT_TEMP"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "45°C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
