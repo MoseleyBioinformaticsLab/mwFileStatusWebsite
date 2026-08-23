@@ -1,0 +1,75 @@
+Validation Log
+2026-08-23 14:23:43.916386
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008718/mwtab/txt
+Study ID:      ST005121
+Analysis ID:   AN008718
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 14
+
+Number of Warnings: 13
+
+Number of Value Errors: 12
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "M/Z" column at position 4 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Mass Error" column at position 11 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 8 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+10           C12H20O5S-2
+402    C2H6.[C12H20O11]n
+Warning: The "Adducts" column at position 7 in the METABOLITES table, matches a standard column name, "adduct". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG Compound ID" column at position 3 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS ID" column at position 12 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS ID" column at position 12 in the METABOLITES table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+15                          368-16-1;332-80-9
+25                        3681-82-1;3681-71-8
+39                       7773-56-0;21293-29-8
+77                        21637-25-2;482-35-9
+93                        458-36-6;20649-42-7
+110                       3564-96-3;5945-46-0
+120                           92-13-7;54-71-7
+124            458-37-7;84765-67-3;91884-86-5
+139                       25522-33-2;537-73-5
+169                   256642-48-5;110642-42-7
+178                                  5746/2/1
+201                       150-97-0;17817-88-8
+220                        597-44-4;2306-22-1
+268                      531-29-3;124151-33-3
+292                                  2782/9/4
+297                     15718-51-1;27025-41-8
+298                                 3715/10/4
+327                       13405-60-2;554-37-0
+336                         5959-95-5;56-85-9
+362                     53755-04-7;29533-15-1
+370                      7268-80-6;85562-86-3
+389                        35170-03-7;84-53-7
+448                       13299-20-2;585-99-9
+461    7361-90-2;530-59-6;7362-37-0;7362-37-0
+520                    145414-76-2;71339-34-9
+548                          543-24-8;64-19-7
+560        16611-84-0;103904-73-0;103904-74-1
+570                                  8066/7/7
+586                     91884-87-6;22608-11-3
+643                        470-46-2;3019-74-7
+649                     36455-72-8;71030-11-0
+650                       42150-38-9;505-54-4
+654                       33401-87-5;470-69-9
+656                     22427-39-0;59252-86-7
+657                    100286-90-6;97682-44-5
+658                         56-86-0;6893-26-1
+659                     81203-57-8;21852-80-2
+667                       3602-09-3;1852-43-3
+669                      1460-34-0;24809-08-3
+671                     36455-72-8;26538-44-3
+Warning: The "Library ID" column at position 2 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Retention time" column at position 5 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Mode" column at position 6 in the METABOLITES table, matches a standard column name, "ionization_mode". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "Library ID" was found in the METABOLITES table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "Library ID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "Fragmentation Score" column at position 9 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

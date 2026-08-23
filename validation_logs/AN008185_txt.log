@@ -1,0 +1,224 @@
+Validation Log
+2026-08-23 13:57:17.477147
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008185/mwtab/txt
+Study ID:      ST004834
+Analysis ID:   AN008185
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 15
+
+Number of Warnings: 10
+
+Number of Value Errors: 13
+
+Number of Consistency Errors: 1
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The value, "800", for the subsection, "SPECTROMETER_FREQUENCY", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['MHz']. Ignore this when more complicated descriptions are required.
+Error: The value, "25", for the subsection, "TEMPERATURE", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C', 'K']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "FACTORS".
+Warning: The "SMILES" column at position 7 in the METABOLITES table, matches a standard column name, "smiles", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     5722
+1     5111
+2     3206
+4       89
+5     5502
+6       14
+7     5206
+8      287
+9       56
+10      16
+11    6235
+12    5143
+13    3203
+15    3242
+16    5174
+17    5614
+18    5193
+19     109
+20    5205
+21      24
+22    5200
+23    4201
+24    5858
+25    5227
+26      27
+27      28
+28    5264
+29      29
+30     114
+31      32
+32    5913
+33    5879
+34      34
+37    5842
+38     370
+Warning: The "PubChem" column at position 3 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem" column at position 3 in the METABOLITES table, matches a standard column name, "pubchem_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     HMDB0000754
+1     HMDB0000045
+2     HMDB0000042
+3     HMDB0000161
+4     HMDB0000462
+5     HMDB0000517
+6     HMDB0000168
+7     HMDB0000191
+8     HMDB0000043
+9     HMDB0000097
+10    HMDB0000904
+11    HMDB0001423
+12    HMDB0000095
+13    HMDB0000108
+14    HMDB0304356
+15    HMDB0000134
+16    HMDB0000148
+17    HMDB0000641
+18    HMDB0000172
+19    HMDB0000718
+20    HMDB0000190
+21    HMDB0000687
+22    HMDB0000182
+23    HMDB0001875
+24    HMDB0000902
+25    HMDB0000217
+26    HMDB0000214
+27    HMDB0000159
+28    HMDB0000263
+29    HMDB0000162
+30    HMDB0000254
+31    HMDB0000167
+32    HMDB0000975
+33    HMDB0000929
+34    HMDB0000158
+35    HMDB0000288
+36    HMDB0000295
+37    HMDB0000883
+38    HMDB0000086
+Warning: The "KEGG" column at position 5 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 5 in the METABOLITES table, matches a standard column name, "kegg_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     37084
+1     16027
+2     15366
+3     16977
+4     15676
+5     16467
+6     17196
+7     17053
+8     41139
+9     15354
+10    16349
+11    15346
+12    17361
+13    16236
+14    15740
+15    18012
+16    16015
+17    18050
+18    17191
+19    28484
+20      422
+21    15603
+22    18019
+23    17790
+24    44215
+25    44409
+26    15729
+27    17295
+28    44897
+29    17203
+30    15741
+31    16857
+32    16551
+33    16828
+34    17895
+35    16695
+36    17659
+37    16414
+38    16870
+Warning: The "HMDB" column at position 2 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 2 in the METABOLITES table, matches a standard column name, "hmdb_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     3-Hydroxyisovaleric acid
+1      Adenosine monophosphate
+2                  Acetic acid
+3                    L-Alanine
+4                    Allantoin
+5                   L-Arginine
+6                 L-Asparagine
+7              L-Aspartic acid
+8                      Betaine
+9                      Choline
+10                  Citrulline
+11                  Coenzyme A
+12      Cytidine monophosphate
+13                     Ethanol
+14                     formate
+15                Fumaric acid
+16               Glutamic acid
+17                   Glutamine
+18                  Isoleucine
+19             Isovaleric acid
+20                 Lactic acid
+21                     Leucine
+22                      Lysine
+23                    Methanol
+24                         NAD
+25                        NADP
+26                   Ornithine
+27               Phenylalanine
+28     Phosphoenolpyruvic acid
+29                     Proline
+30               Succinic acid
+31                 L-Threonine
+32                   Trehalose
+33                L-Tryptophan
+34                  L-Tyrosine
+35    Uridine 5'-monophosphate
+36      Uridine 5'-diphosphate
+37                    L-Valine
+38       Glycerophosphocholine
+Warning: The "METLIN" column at position 6 in the METABOLITES table, matches a standard column name, "metlin_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "METLIN" column at position 6 in the METABOLITES table, matches a standard column name, "metlin_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     C20827
+1     C00020
+2     C00033
+3     C00041
+4     C02350
+5     C00062
+6     C00152
+7     C00049
+8     C00719
+9     C00114
+10    C00327
+11    C00010
+12    C00055
+13    C00469
+15    C00122
+16    C00025
+17    C00064
+18    C00407
+19    C08262
+20    C00186
+21    C00123
+22    C00047
+23    C00132
+24    C00003
+25    C00006
+26    C00077
+27    C00079
+28    C00074
+29    C00148
+30    C00042
+31    C00188
+32    C01083
+33    C00078
+34    C00082
+35    C00105
+36    C00015
+37    C00183
+38    C00670
+Warning: The "ChEBI" column at position 4 in the METABOLITES table, matches a standard column name, "chebi_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Error: Column(s) with no name were found in the METABOLITES table.
+Error: The section, METABOLITES, has a mismatch between the number of headers and the number of elements in each line. Either a line(s) has more values than headers or there are too few headers.

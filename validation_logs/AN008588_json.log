@@ -1,0 +1,122 @@
+Validation Log
+2026-08-23 14:20:35.285834
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008588/mwtab/json
+Study ID:      ST005051
+Analysis ID:   AN008588
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 19
+
+Number of Warnings: 14
+
+Number of Value Errors: 16
+
+Number of Consistency Errors: 2
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "400 Î¼L/min", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "40â", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The following metabolites in the, ["MS_METABOLITE_DATA"]["Data"] table were not found in the ["MS_METABOLITE_DATA"]["Metabolites"] table:
+	"(10E_12Z)-(9S)-9-Hydroperoxyoctadeca-10_12-dienoic acid"
+	"12_13-DHOME"
+	"1_2_4-Trimethylbenzene"
+	"(13E)-11a-Hydroxy-9_15-dioxoprost-13-enoic acid"
+	"1H-Indole-2_3-dione"
+	"2_4-Dimethylphenol"
+	"2_5-Dihydroxybenzaldehyde"
+	"2^_6^-Dihydroxy 4^-methoxydihydrochalcone"
+	"2-Deoxyribose 5^-phosphate"
+	"2^-Hydroxydihydrodaidzein"
+	"2^-O-Methyladenosine"
+	"(2S_3R_4E)-2-Amino-4-heptadecene-1_3-diol"
+	"3-(3_4-Dihydroxy-5-methoxy)-2-propenoic acid"
+	"3_4_5-Trimethoxycinnamyl alcohol"
+	"3_4-Dihydrocoumarin"
+	"3_4-Dihydroxybenzaldehyde"
+	"3_4-Dihydroxyphenylacetaldehyde"
+	"3_4-Dihydroxyphenylglycol"
+	"3_8^-Biapigenin"
+	"3_9-Dihydroxypterocarpan"
+	"3alpha_6beta-Ditigloyloxytropan-7beta-ol"
+	"4^_5_6_7-Tetramethoxyflavone"
+	"4^_7-Isoflavandiol"
+	"4^-Prenyloxyresveratrol"
+	"5_6-DHET"
+	"5_6-Dihydroxyindole"
+	"5^-Deoxyadenosine"
+	"5^-S-Methyl-5^-thioadenosine"
+	"5-Tricosyl-1_3-benzenediol"
+	"6_7_4^-Trihydroxyisoflavone"
+	"7beta-(3-Ethyl-cis-crotonoyloxy)-1alpha-(2-methylbutyryloxy)-3_14-dehydro-Z-notonipetranone"
+	"8_9-DiHETrE"
+	"9_10-DHOME"
+	"Adenosine 5^-monophosphate"
+	"N1-(alpha-D-ribosyl)-5_6-dimethyl-benzimidazole"
+	"N^-Formylkynurenine"
+	"NG_NG-Dimethylarginine dihydrochloride"
+	"N_N^-diacetylchitobiose"
+	"N_N-Dimethyl-1_4-phenylenediamine"
+	"N_N-Dimethylglycine"
+	"Pseudouridine 5^-phosphate"
+	"S-(5^-Adenosy)-L-homocysteine"
+Error: The following metabolites in the ["MS_METABOLITE_DATA"]["Metabolites"] table were not found in the ["MS_METABOLITE_DATA"]["Data"] table:
+	"(10E,12Z)-(9S)-9-Hydroperoxyoctadeca-10,12-dienoic acid"
+	"12,13-DHOME"
+	"1,2,4-Trimethylbenzene"
+	"(13E)-11a-Hydroxy-9,15-dioxoprost-13-enoic acid"
+	"1H-Indole-2,3-dione"
+	"2,4-Dimethylphenol"
+	"2,5-Dihydroxybenzaldehyde"
+	"2',6'-Dihydroxy 4'-methoxydihydrochalcone"
+	"2-Deoxyribose 5'-phosphate"
+	"2'-Hydroxydihydrodaidzein"
+	"2'-O-Methyladenosine"
+	"(2S,3R,4E)-2-Amino-4-heptadecene-1,3-diol"
+	"3-(3,4-Dihydroxy-5-methoxy)-2-propenoic acid"
+	"3,4,5-Trimethoxycinnamyl alcohol"
+	"3,4-Dihydrocoumarin"
+	"3,4-Dihydroxybenzaldehyde"
+	"3,4-Dihydroxyphenylacetaldehyde"
+	"3,4-Dihydroxyphenylglycol"
+	"3,8'-Biapigenin"
+	"3,9-Dihydroxypterocarpan"
+	"3alpha,6beta-Ditigloyloxytropan-7beta-ol"
+	"4',5,6,7-Tetramethoxyflavone"
+	"4',7-Isoflavandiol"
+	"4'-Prenyloxyresveratrol"
+	"5,6-DHET"
+	"5,6-Dihydroxyindole"
+	"5'-Deoxyadenosine"
+	"5'-S-Methyl-5'-thioadenosine"
+	"5-Tricosyl-1,3-benzenediol"
+	"6,7,4'-Trihydroxyisoflavone"
+	"7beta-(3-Ethyl-cis-crotonoyloxy)-1alpha-(2-methylbutyryloxy)-3,14-dehydro-Z-notonipetranone"
+	"8,9-DiHETrE"
+	"9,10-DHOME"
+	"Adenosine 5'-monophosphate"
+	"N1-(alpha-D-ribosyl)-5,6-dimethyl-benzimidazole"
+	"N'-Formylkynurenine"
+	"NG,NG-Dimethylarginine dihydrochloride"
+	"N,N'-diacetylchitobiose"
+	"N,N-Dimethyl-1,4-phenylenediamine"
+	"N,N-Dimethylglycine"
+	"Pseudouridine 5'-phosphate"
+	"S-(5'-Adenosy)-L-homocysteine"
+Warning: The "refmet_name" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Error: Column(s) with no name were found in the ["MS_METABOLITE_DATA"]["Metabolites"] table.
+Warning: The "refmet_name" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "pubchem_id" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "inchi_key" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "kegg_id" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "other_id_type" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "ri_type" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "moverz_quant" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.
+Warning: The "" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table has all null values.

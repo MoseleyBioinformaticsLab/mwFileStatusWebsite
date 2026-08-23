@@ -1,0 +1,461 @@
+Validation Log
+2026-08-23 14:22:52.424527
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008668/mwtab/txt
+Study ID:      ST005094
+Analysis ID:   AN008668
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 6
+
+Number of Warnings: 4
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: The required property, "ANALYSIS_TYPE", in the "ANALYSIS" section  is missing.
+Error: The value, "500.36", for the subsection, "SPECTROMETER_FREQUENCY", in the "NM" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['MHz']. Ignore this when more complicated descriptions are required.
+Warning: The "Full.Formula" column at position 10 in the METABOLITES table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Simplified.Formula" column at position 11 in the METABOLITES table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Full.Formula" column at position 10 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      XXL_VLDL_CE + XXL_VLDL_FC + XL_VLDL_CE + XL_VL...
+1      XXL_VLDL_CE + XXL_VLDL_FC + XL_VLDL_CE + XL_VL...
+2      XXL_VLDL_CE + XXL_VLDL_FC + XL_VLDL_CE + XL_VL...
+3      XXL_VLDL_CE + XXL_VLDL_FC + XL_VLDL_CE + XL_VL...
+5      L_LDL_CE + L_LDL_FC + M_LDL_CE + M_LDL_FC + S_...
+6      XL_HDL_CE + XL_HDL_FC + L_HDL_CE + L_HDL_FC + ...
+7      XXL_VLDL_TG + XL_VLDL_TG + L_VLDL_TG + M_VLDL_...
+8      XXL_VLDL_TG + XL_VLDL_TG + L_VLDL_TG + M_VLDL_...
+9                         L_LDL_TG + M_LDL_TG + S_LDL_TG
+10            XL_HDL_TG + L_HDL_TG + M_HDL_TG + S_HDL_TG
+11     XXL_VLDL_PL + XL_VLDL_PL + L_VLDL_PL + M_VLDL_...
+12     XXL_VLDL_PL + XL_VLDL_PL + L_VLDL_PL + M_VLDL_...
+13                        L_LDL_PL + M_LDL_PL + S_LDL_PL
+14            XL_HDL_PL + L_HDL_PL + M_HDL_PL + S_HDL_PL
+15     XXL_VLDL_CE + XL_VLDL_CE + L_VLDL_CE + M_VLDL_...
+16     XXL_VLDL_CE + XL_VLDL_CE + L_VLDL_CE + M_VLDL_...
+17                        L_LDL_CE + M_LDL_CE + S_LDL_CE
+18            XL_HDL_CE + L_HDL_CE + M_HDL_CE + S_HDL_CE
+19     XXL_VLDL_FC + XL_VLDL_FC + L_VLDL_FC + M_VLDL_...
+20     XXL_VLDL_FC + XL_VLDL_FC + L_VLDL_FC + M_VLDL_...
+21                        L_LDL_FC + M_LDL_FC + S_LDL_FC
+22            XL_HDL_FC + L_HDL_FC + M_HDL_FC + S_HDL_FC
+23     XXL_VLDL_CE + XXL_VLDL_FC + XXL_VLDL_PL + XXL_...
+24     XXL_VLDL_CE + XXL_VLDL_FC + XXL_VLDL_PL + XXL_...
+25     L_LDL_CE + L_LDL_FC + L_LDL_PL + L_LDL_TG + M_...
+26     XL_HDL_CE + XL_HDL_FC + XL_HDL_PL + XL_HDL_TG ...
+27     XXL_VLDL_P + XL_VLDL_P + L_VLDL_P + M_VLDL_P +...
+28     XXL_VLDL_P + XL_VLDL_P + L_VLDL_P + M_VLDL_P +...
+29                           L_LDL_P + M_LDL_P + S_LDL_P
+30                XL_HDL_P + L_HDL_P + M_HDL_P + S_HDL_P
+35     (XXL_VLDL_TG + XL_VLDL_TG + L_VLDL_TG + M_VLDL...
+41                                          ApoB / ApoA1
+42                        Omega_3 + Omega_6 + MUFA + SFA
+46                                     Omega_3 + Omega_6
+51      Omega_3 / (Omega_3 + Omega_6 + MUFA + SFA) * 100
+52      Omega_6 / (Omega_3 + Omega_6 + MUFA + SFA) * 100
+53     (Omega_3 + Omega_6) / (Omega_3 + Omega_6 + MUF...
+54         MUFA / (Omega_3 + Omega_6 + MUFA + SFA) * 100
+55          SFA / (Omega_3 + Omega_6 + MUFA + SFA) * 100
+56           LA / (Omega_3 + Omega_6 + MUFA + SFA) * 100
+57          DHA / (Omega_3 + Omega_6 + MUFA + SFA) * 100
+58                            (Omega_3 + Omega_6) / MUFA
+59                                     Omega_6 / Omega_3
+64                                       Leu + Ile + Val
+82     XXL_VLDL_CE + XXL_VLDL_FC + XXL_VLDL_PL + XXL_...
+84                             XXL_VLDL_CE + XXL_VLDL_FC
+89     XL_VLDL_CE + XL_VLDL_FC + XL_VLDL_PL + XL_VLDL_TG
+91                               XL_VLDL_CE + XL_VLDL_FC
+96         L_VLDL_CE + L_VLDL_FC + L_VLDL_PL + L_VLDL_TG
+98                                 L_VLDL_CE + L_VLDL_FC
+103        M_VLDL_CE + M_VLDL_FC + M_VLDL_PL + M_VLDL_TG
+105                                M_VLDL_CE + M_VLDL_FC
+110        S_VLDL_CE + S_VLDL_FC + S_VLDL_PL + S_VLDL_TG
+112                                S_VLDL_CE + S_VLDL_FC
+117    XS_VLDL_CE + XS_VLDL_FC + XS_VLDL_PL + XS_VLDL_TG
+119                              XS_VLDL_CE + XS_VLDL_FC
+124                    IDL_CE + IDL_FC + IDL_PL + IDL_TG
+126                                      IDL_CE + IDL_FC
+131            L_LDL_CE + L_LDL_FC + L_LDL_PL + L_LDL_TG
+133                                  L_LDL_CE + L_LDL_FC
+138            M_LDL_CE + M_LDL_FC + M_LDL_PL + M_LDL_TG
+140                                  M_LDL_CE + M_LDL_FC
+145            S_LDL_CE + S_LDL_FC + S_LDL_PL + S_LDL_TG
+147                                  S_LDL_CE + S_LDL_FC
+152        XL_HDL_CE + XL_HDL_FC + XL_HDL_PL + XL_HDL_TG
+154                                XL_HDL_CE + XL_HDL_FC
+159            L_HDL_CE + L_HDL_FC + L_HDL_PL + L_HDL_TG
+161                                  L_HDL_CE + L_HDL_FC
+166            M_HDL_CE + M_HDL_FC + M_HDL_PL + M_HDL_TG
+168                                  M_HDL_CE + M_HDL_FC
+173            S_HDL_CE + S_HDL_FC + S_HDL_PL + S_HDL_TG
+175                                  S_HDL_CE + S_HDL_FC
+179    XXL_VLDL_PL / (XXL_VLDL_CE + XXL_VLDL_FC + XXL...
+180    (XXL_VLDL_CE + XXL_VLDL_FC) / (XXL_VLDL_CE + X...
+181    XXL_VLDL_CE / (XXL_VLDL_CE + XXL_VLDL_FC + XXL...
+182    XXL_VLDL_FC / (XXL_VLDL_CE + XXL_VLDL_FC + XXL...
+183    XXL_VLDL_TG / (XXL_VLDL_CE + XXL_VLDL_FC + XXL...
+184    XL_VLDL_PL / (XL_VLDL_CE + XL_VLDL_FC + XL_VLD...
+185    (XL_VLDL_CE + XL_VLDL_FC) / (XL_VLDL_CE + XL_V...
+186    XL_VLDL_CE / (XL_VLDL_CE + XL_VLDL_FC + XL_VLD...
+187    XL_VLDL_FC / (XL_VLDL_CE + XL_VLDL_FC + XL_VLD...
+188    XL_VLDL_TG / (XL_VLDL_CE + XL_VLDL_FC + XL_VLD...
+189    L_VLDL_PL / (L_VLDL_CE + L_VLDL_FC + L_VLDL_PL...
+190    (L_VLDL_CE + L_VLDL_FC) / (L_VLDL_CE + L_VLDL_...
+191    L_VLDL_CE / (L_VLDL_CE + L_VLDL_FC + L_VLDL_PL...
+192    L_VLDL_FC / (L_VLDL_CE + L_VLDL_FC + L_VLDL_PL...
+193    L_VLDL_TG / (L_VLDL_CE + L_VLDL_FC + L_VLDL_PL...
+194    M_VLDL_PL / (M_VLDL_CE + M_VLDL_FC + M_VLDL_PL...
+195    (M_VLDL_CE + M_VLDL_FC) / (M_VLDL_CE + M_VLDL_...
+196    M_VLDL_CE / (M_VLDL_CE + M_VLDL_FC + M_VLDL_PL...
+197    M_VLDL_FC / (M_VLDL_CE + M_VLDL_FC + M_VLDL_PL...
+198    M_VLDL_TG / (M_VLDL_CE + M_VLDL_FC + M_VLDL_PL...
+199    S_VLDL_PL / (S_VLDL_CE + S_VLDL_FC + S_VLDL_PL...
+200    (S_VLDL_CE + S_VLDL_FC) / (S_VLDL_CE + S_VLDL_...
+201    S_VLDL_CE / (S_VLDL_CE + S_VLDL_FC + S_VLDL_PL...
+202    S_VLDL_FC / (S_VLDL_CE + S_VLDL_FC + S_VLDL_PL...
+203    S_VLDL_TG / (S_VLDL_CE + S_VLDL_FC + S_VLDL_PL...
+204    XS_VLDL_PL / (XS_VLDL_CE + XS_VLDL_FC + XS_VLD...
+205    (XS_VLDL_CE + XS_VLDL_FC) / (XS_VLDL_CE + XS_V...
+206    XS_VLDL_CE / (XS_VLDL_CE + XS_VLDL_FC + XS_VLD...
+207    XS_VLDL_FC / (XS_VLDL_CE + XS_VLDL_FC + XS_VLD...
+208    XS_VLDL_TG / (XS_VLDL_CE + XS_VLDL_FC + XS_VLD...
+209    IDL_PL / (IDL_CE + IDL_FC + IDL_PL + IDL_TG) *...
+210    (IDL_CE + IDL_FC) / (IDL_CE + IDL_FC + IDL_PL ...
+211    IDL_CE / (IDL_CE + IDL_FC + IDL_PL + IDL_TG) *...
+212    IDL_FC / (IDL_CE + IDL_FC + IDL_PL + IDL_TG) *...
+213    IDL_TG / (IDL_CE + IDL_FC + IDL_PL + IDL_TG) *...
+214    L_LDL_PL / (L_LDL_CE + L_LDL_FC + L_LDL_PL + L...
+215    (L_LDL_CE + L_LDL_FC) / (L_LDL_CE + L_LDL_FC +...
+216    L_LDL_CE / (L_LDL_CE + L_LDL_FC + L_LDL_PL + L...
+217    L_LDL_FC / (L_LDL_CE + L_LDL_FC + L_LDL_PL + L...
+218    L_LDL_TG / (L_LDL_CE + L_LDL_FC + L_LDL_PL + L...
+219    M_LDL_PL / (M_LDL_CE + M_LDL_FC + M_LDL_PL + M...
+220    (M_LDL_CE + M_LDL_FC) / (M_LDL_CE + M_LDL_FC +...
+221    M_LDL_CE / (M_LDL_CE + M_LDL_FC + M_LDL_PL + M...
+222    M_LDL_FC / (M_LDL_CE + M_LDL_FC + M_LDL_PL + M...
+223    M_LDL_TG / (M_LDL_CE + M_LDL_FC + M_LDL_PL + M...
+224    S_LDL_PL / (S_LDL_CE + S_LDL_FC + S_LDL_PL + S...
+225    (S_LDL_CE + S_LDL_FC) / (S_LDL_CE + S_LDL_FC +...
+226    S_LDL_CE / (S_LDL_CE + S_LDL_FC + S_LDL_PL + S...
+227    S_LDL_FC / (S_LDL_CE + S_LDL_FC + S_LDL_PL + S...
+228    S_LDL_TG / (S_LDL_CE + S_LDL_FC + S_LDL_PL + S...
+229    XL_HDL_PL / (XL_HDL_CE + XL_HDL_FC + XL_HDL_PL...
+230    (XL_HDL_CE + XL_HDL_FC) / (XL_HDL_CE + XL_HDL_...
+231    XL_HDL_CE / (XL_HDL_CE + XL_HDL_FC + XL_HDL_PL...
+232    XL_HDL_FC / (XL_HDL_CE + XL_HDL_FC + XL_HDL_PL...
+233    XL_HDL_TG / (XL_HDL_CE + XL_HDL_FC + XL_HDL_PL...
+234    L_HDL_PL / (L_HDL_CE + L_HDL_FC + L_HDL_PL + L...
+235    (L_HDL_CE + L_HDL_FC) / (L_HDL_CE + L_HDL_FC +...
+236    L_HDL_CE / (L_HDL_CE + L_HDL_FC + L_HDL_PL + L...
+237    L_HDL_FC / (L_HDL_CE + L_HDL_FC + L_HDL_PL + L...
+238    L_HDL_TG / (L_HDL_CE + L_HDL_FC + L_HDL_PL + L...
+239    M_HDL_PL / (M_HDL_CE + M_HDL_FC + M_HDL_PL + M...
+240    (M_HDL_CE + M_HDL_FC) / (M_HDL_CE + M_HDL_FC +...
+241    M_HDL_CE / (M_HDL_CE + M_HDL_FC + M_HDL_PL + M...
+242    M_HDL_FC / (M_HDL_CE + M_HDL_FC + M_HDL_PL + M...
+243    M_HDL_TG / (M_HDL_CE + M_HDL_FC + M_HDL_PL + M...
+244    S_HDL_PL / (S_HDL_CE + S_HDL_FC + S_HDL_PL + S...
+245    (S_HDL_CE + S_HDL_FC) / (S_HDL_CE + S_HDL_FC +...
+246    S_HDL_CE / (S_HDL_CE + S_HDL_FC + S_HDL_PL + S...
+247    S_HDL_FC / (S_HDL_CE + S_HDL_FC + S_HDL_PL + S...
+248    S_HDL_TG / (S_HDL_CE + S_HDL_FC + S_HDL_PL + S...
+249    (XL_HDL_CE + XL_HDL_FC + L_HDL_CE + L_HDL_FC +...
+250    (XL_HDL_CE + L_HDL_CE + M_HDL_CE + S_HDL_CE) /...
+251    (XL_HDL_CE + L_HDL_CE + M_HDL_CE + S_HDL_CE) /...
+252    (XL_HDL_FC + L_HDL_FC + M_HDL_FC + S_HDL_FC) /...
+253    (XL_HDL_FC + L_HDL_FC + M_HDL_FC + S_HDL_FC) /...
+254    (XL_HDL_FC + L_HDL_FC + M_HDL_FC + S_HDL_FC) /...
+255    (XL_HDL_PL + L_HDL_PL + M_HDL_PL + S_HDL_PL) /...
+256    (XL_HDL_TG + L_HDL_TG + M_HDL_TG + S_HDL_TG) /...
+257                     IDL_CE / (IDL_CE + IDL_FC) * 100
+258                                      IDL_FC / IDL_CE
+259                     IDL_FC / (IDL_CE + IDL_FC) * 100
+260               L_HDL_CE / (L_HDL_CE + L_HDL_FC) * 100
+261                                  L_HDL_FC / L_HDL_CE
+262               L_HDL_FC / (L_HDL_CE + L_HDL_FC) * 100
+263               L_LDL_CE / (L_LDL_CE + L_LDL_FC) * 100
+264                                  L_LDL_FC / L_LDL_CE
+265               L_LDL_FC / (L_LDL_CE + L_LDL_FC) * 100
+266            L_VLDL_CE / (L_VLDL_CE + L_VLDL_FC) * 100
+267                                L_VLDL_FC / L_VLDL_CE
+268            L_VLDL_FC / (L_VLDL_CE + L_VLDL_FC) * 100
+269    (L_LDL_CE + L_LDL_FC + M_LDL_CE + M_LDL_FC + S...
+270    (L_LDL_CE + M_LDL_CE + S_LDL_CE) / (L_LDL_CE +...
+271    (L_LDL_CE + M_LDL_CE + S_LDL_CE) / (L_LDL_CE +...
+272    (L_LDL_FC + M_LDL_FC + S_LDL_FC) / (L_LDL_CE +...
+273    (L_LDL_FC + M_LDL_FC + S_LDL_FC) / (L_LDL_CE +...
+274    (L_LDL_FC + M_LDL_FC + S_LDL_FC) / (L_LDL_CE +...
+275    (L_LDL_PL + M_LDL_PL + S_LDL_PL) / (L_LDL_CE +...
+276    (L_LDL_TG + M_LDL_TG + S_LDL_TG) / (L_LDL_CE +...
+277               M_HDL_CE / (M_HDL_CE + M_HDL_FC) * 100
+278                                  M_HDL_FC / M_HDL_CE
+279               M_HDL_FC / (M_HDL_CE + M_HDL_FC) * 100
+280               M_LDL_CE / (M_LDL_CE + M_LDL_FC) * 100
+281                                  M_LDL_FC / M_LDL_CE
+282               M_LDL_FC / (M_LDL_CE + M_LDL_FC) * 100
+283            M_VLDL_CE / (M_VLDL_CE + M_VLDL_FC) * 100
+284                                M_VLDL_FC / M_VLDL_CE
+285            M_VLDL_FC / (M_VLDL_CE + M_VLDL_FC) * 100
+286                  Omega_3 / (Omega_3 + Omega_6) * 100
+287                  Omega_6 / (Omega_3 + Omega_6) * 100
+288               S_HDL_CE / (S_HDL_CE + S_HDL_FC) * 100
+289                                  S_HDL_FC / S_HDL_CE
+290               S_HDL_FC / (S_HDL_CE + S_HDL_FC) * 100
+291               S_LDL_CE / (S_LDL_CE + S_LDL_FC) * 100
+292                                  S_LDL_FC / S_LDL_CE
+293               S_LDL_FC / (S_LDL_CE + S_LDL_FC) * 100
+294            S_VLDL_CE / (S_VLDL_CE + S_VLDL_FC) * 100
+295                                S_VLDL_FC / S_VLDL_CE
+296            S_VLDL_FC / (S_VLDL_CE + S_VLDL_FC) * 100
+297    (XXL_VLDL_CE + XXL_VLDL_FC + XL_VLDL_CE + XL_V...
+298    (XXL_VLDL_CE + XL_VLDL_CE + L_VLDL_CE + M_VLDL...
+299    (XXL_VLDL_CE + XL_VLDL_CE + L_VLDL_CE + M_VLDL...
+300    (XXL_VLDL_FC + XL_VLDL_FC + L_VLDL_FC + M_VLDL...
+301    (XXL_VLDL_FC + XL_VLDL_FC + L_VLDL_FC + M_VLDL...
+302    (XXL_VLDL_FC + XL_VLDL_FC + L_VLDL_FC + M_VLDL...
+303    (XXL_VLDL_PL + XL_VLDL_PL + L_VLDL_PL + M_VLDL...
+304    (XXL_VLDL_TG + XL_VLDL_TG + L_VLDL_TG + M_VLDL...
+305    (XXL_VLDL_CE + XXL_VLDL_FC + XL_VLDL_CE + XL_V...
+306    (XXL_VLDL_CE + XL_VLDL_CE + L_VLDL_CE + M_VLDL...
+307    (XXL_VLDL_CE + XL_VLDL_CE + L_VLDL_CE + M_VLDL...
+308    (XXL_VLDL_FC + XL_VLDL_FC + L_VLDL_FC + M_VLDL...
+309    (XXL_VLDL_FC + XL_VLDL_FC + L_VLDL_FC + M_VLDL...
+310    (XXL_VLDL_FC + XL_VLDL_FC + L_VLDL_FC + M_VLDL...
+311    (XXL_VLDL_PL + XL_VLDL_PL + L_VLDL_PL + M_VLDL...
+312    (XXL_VLDL_TG + XL_VLDL_TG + L_VLDL_TG + M_VLDL...
+313            XL_HDL_CE / (XL_HDL_CE + XL_HDL_FC) * 100
+314                                XL_HDL_FC / XL_HDL_CE
+315            XL_HDL_FC / (XL_HDL_CE + XL_HDL_FC) * 100
+316          XL_VLDL_CE / (XL_VLDL_CE + XL_HDL_FC) * 100
+317                              XL_VLDL_FC / XL_VLDL_CE
+318          XL_VLDL_FC / (XL_VLDL_CE + XL_HDL_FC) * 100
+319         XS_VLDL_CE / (XS_VLDL_CE + XS_VLDL_FC) * 100
+320                              XS_VLDL_FC / XS_VLDL_CE
+321         XS_VLDL_FC / (XS_VLDL_CE + XS_VLDL_FC) * 100
+322      XXL_VLDL_CE / (XXL_VLDL_CE + XXL_VLDL_FC) * 100
+323                            XXL_VLDL_FC / XXL_VLDL_CE
+324      XXL_VLDL_FC / (XXL_VLDL_CE + XXL_VLDL_FC) * 100
+Warning: The "Simplified.Formula" column at position 11 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0                         VLDL_C + IDL_C + LDL_C + HDL_C
+1                                        Total_C - HDL_C
+2                                Total_C - HDL_C - LDL_C
+3      XXL_VLDL_C + XL_VLDL_C + L_VLDL_C + M_VLDL_C +...
+5                            L_LDL_C + M_LDL_C + S_LDL_C
+6                 XL_HDL_C + L_HDL_C + M_HDL_C + S_HDL_C
+7                     VLDL_TG + IDL_TG + LDL_TG + HDL_TG
+8      XXL_VLDL_TG + XL_VLDL_TG + L_VLDL_TG + M_VLDL_...
+9                         L_LDL_TG + M_LDL_TG + S_LDL_TG
+10            XL_HDL_TG + L_HDL_TG + M_HDL_TG + S_HDL_TG
+11                    VLDL_PL + IDL_PL + LDL_PL + HDL_PL
+12     XXL_VLDL_PL + XL_VLDL_PL + L_VLDL_PL + M_VLDL_...
+13                        L_LDL_PL + M_LDL_PL + S_LDL_PL
+14            XL_HDL_PL + L_HDL_PL + M_HDL_PL + S_HDL_PL
+15                    VLDL_CE + IDL_CE + LDL_CE + HDL_CE
+16     XXL_VLDL_CE + XL_VLDL_CE + L_VLDL_CE + M_VLDL_...
+17                        L_LDL_CE + M_LDL_CE + S_LDL_CE
+18            XL_HDL_CE + L_HDL_CE + M_HDL_CE + S_HDL_CE
+19                    VLDL_FC + IDL_FC + LDL_FC + HDL_FC
+20     XXL_VLDL_FC + XL_VLDL_FC + L_VLDL_FC + M_VLDL_...
+21                        L_LDL_FC + M_LDL_FC + S_LDL_FC
+22            XL_HDL_FC + L_HDL_FC + M_HDL_FC + S_HDL_FC
+23                        VLDL_L + IDL_L + LDL_L + HDL_L
+24     XXL_VLDL_L + XL_VLDL_L + L_VLDL_L + M_VLDL_L +...
+25                           L_LDL_L + M_LDL_L + S_LDL_L
+26                XL_HDL_L + L_HDL_L + M_HDL_L + S_HDL_L
+27                        VLDL_P + IDL_P + LDL_P + HDL_P
+28     XXL_VLDL_P + XL_VLDL_P + L_VLDL_P + M_VLDL_P +...
+29                           L_LDL_P + M_LDL_P + S_LDL_P
+30                XL_HDL_P + L_HDL_P + M_HDL_P + S_HDL_P
+35                                Total_TG / Phosphoglyc
+41                                          ApoB / ApoA1
+42                                     PUFA + MUFA + SFA
+46                                     Omega_3 + Omega_6
+51                              Omega_3 / Total_FA * 100
+52                              Omega_6 / Total_FA * 100
+53                                 PUFA / Total_FA * 100
+54                                 MUFA / Total_FA * 100
+55                                  SFA / Total_FA * 100
+56                                   LA / Total_FA * 100
+57                                  DHA / Total_FA * 100
+58                                           PUFA / MUFA
+59                                     Omega_6 / Omega_3
+64                                       Leu + Ile + Val
+82                XXL_VLDL_C + XXL_VLDL_PL + XXL_VLDL_TG
+84                             XXL_VLDL_CE + XXL_VLDL_FC
+89                   XL_VLDL_C + XL_VLDL_PL + XL_VLDL_TG
+91                               XL_VLDL_CE + XL_VLDL_FC
+96                      L_VLDL_C + L_VLDL_PL + L_VLDL_TG
+98                                 L_VLDL_CE + L_VLDL_FC
+103                     M_VLDL_C + M_VLDL_PL + M_VLDL_TG
+105                                M_VLDL_CE + M_VLDL_FC
+110                     S_VLDL_C + S_VLDL_PL + S_VLDL_TG
+112                                S_VLDL_CE + S_VLDL_FC
+117                  XS_VLDL_C + XS_VLDL_PL + XS_VLDL_TG
+119                              XS_VLDL_CE + XS_VLDL_FC
+124                              IDL_C + IDL_PL + IDL_TG
+126                                      IDL_CE + IDL_FC
+131                        L_LDL_C + L_LDL_PL + L_LDL_TG
+133                                  L_LDL_CE + L_LDL_FC
+138                        M_LDL_C + M_LDL_PL + M_LDL_TG
+140                                  M_LDL_CE + M_LDL_FC
+145                        S_LDL_C + S_LDL_PL + S_LDL_TG
+147                                  S_LDL_CE + S_LDL_FC
+152                     XL_HDL_C + XL_HDL_PL + XL_HDL_TG
+154                                XL_HDL_CE + XL_HDL_FC
+159                        L_HDL_C + L_HDL_PL + L_HDL_TG
+161                                  L_HDL_CE + L_HDL_FC
+166                        M_HDL_C + M_HDL_PL + M_HDL_TG
+168                                  M_HDL_CE + M_HDL_FC
+173                        S_HDL_C + S_HDL_PL + S_HDL_TG
+175                                  S_HDL_CE + S_HDL_FC
+179                       XXL_VLDL_PL / XXL_VLDL_L * 100
+180                        XXL_VLDL_C / XXL_VLDL_L * 100
+181                       XXL_VLDL_CE / XXL_VLDL_L * 100
+182                       XXL_VLDL_FC / XXL_VLDL_L * 100
+183                       XXL_VLDL_TG / XXL_VLDL_L * 100
+184                         XL_VLDL_PL / XL_VLDL_L * 100
+185                          XL_VLDL_C / XL_VLDL_L * 100
+186                         XL_VLDL_CE / XL_VLDL_L * 100
+187                         XL_VLDL_FC / XL_VLDL_L * 100
+188                         XL_VLDL_TG / XL_VLDL_L * 100
+189                           L_VLDL_PL / L_VLDL_L * 100
+190                            L_VLDL_C / L_VLDL_L * 100
+191                           L_VLDL_CE / L_VLDL_L * 100
+192                           L_VLDL_FC / L_VLDL_L * 100
+193                           L_VLDL_TG / L_VLDL_L * 100
+194                           M_VLDL_PL / M_VLDL_L * 100
+195                            M_VLDL_C / M_VLDL_L * 100
+196                           M_VLDL_CE / M_VLDL_L * 100
+197                           M_VLDL_FC / M_VLDL_L * 100
+198                           M_VLDL_TG / M_VLDL_L * 100
+199                           S_VLDL_PL / S_VLDL_L * 100
+200                            S_VLDL_C / S_VLDL_L * 100
+201                           S_VLDL_CE / S_VLDL_L * 100
+202                           S_VLDL_FC / S_VLDL_L * 100
+203                           S_VLDL_TG / S_VLDL_L * 100
+204                         XS_VLDL_PL / XS_VLDL_L * 100
+205                          XS_VLDL_C / XS_VLDL_L * 100
+206                         XS_VLDL_CE / XS_VLDL_L * 100
+207                         XS_VLDL_FC / XS_VLDL_L * 100
+208                         XS_VLDL_TG / XS_VLDL_L * 100
+209                                 IDL_PL / IDL_L * 100
+210                                  IDL_C / IDL_L * 100
+211                                 IDL_CE / IDL_L * 100
+212                                 IDL_FC / IDL_L * 100
+213                                 IDL_TG / IDL_L * 100
+214                             L_LDL_PL / L_LDL_L * 100
+215                              L_LDL_C / L_LDL_L * 100
+216                             L_LDL_CE / L_LDL_L * 100
+217                             L_LDL_FC / L_LDL_L * 100
+218                             L_LDL_TG / L_LDL_L * 100
+219                             M_LDL_PL / M_LDL_L * 100
+220                              M_LDL_C / M_LDL_L * 100
+221                             M_LDL_CE / M_LDL_L * 100
+222                             M_LDL_FC / M_LDL_L * 100
+223                             M_LDL_TG / M_LDL_L * 100
+224                             S_LDL_PL / S_LDL_L * 100
+225                              S_LDL_C / S_LDL_L * 100
+226                             S_LDL_CE / S_LDL_L * 100
+227                             S_LDL_FC / S_LDL_L * 100
+228                             S_LDL_TG / S_LDL_L * 100
+229                           XL_HDL_PL / XL_HDL_L * 100
+230                            XL_HDL_C / XL_HDL_L * 100
+231                           XL_HDL_CE / XL_HDL_L * 100
+232                           XL_HDL_FC / XL_HDL_L * 100
+233                           XL_HDL_TG / XL_HDL_L * 100
+234                             L_HDL_PL / L_HDL_L * 100
+235                              L_HDL_C / L_HDL_L * 100
+236                             L_HDL_CE / L_HDL_L * 100
+237                             L_HDL_FC / L_HDL_L * 100
+238                             L_HDL_TG / L_HDL_L * 100
+239                             M_HDL_PL / M_HDL_L * 100
+240                              M_HDL_C / M_HDL_L * 100
+241                             M_HDL_CE / M_HDL_L * 100
+242                             M_HDL_FC / M_HDL_L * 100
+243                             M_HDL_TG / M_HDL_L * 100
+244                             S_HDL_PL / S_HDL_L * 100
+245                              S_HDL_C / S_HDL_L * 100
+246                             S_HDL_CE / S_HDL_L * 100
+247                             S_HDL_FC / S_HDL_L * 100
+248                             S_HDL_TG / S_HDL_L * 100
+249                                  HDL_C / HDL_L * 100
+250                                 HDL_CE / HDL_L * 100
+251                                 HDL_CE / HDL_C * 100
+252                                      HDL_FC / HDL_CE
+253                                 HDL_FC / HDL_L * 100
+254                                 HDL_FC / HDL_C * 100
+255                                 HDL_PL / HDL_L * 100
+256                                 HDL_TG / HDL_L * 100
+257                                 IDL_CE / IDL_C * 100
+258                                      IDL_FC / IDL_CE
+259                                 IDL_FC / IDL_C * 100
+260                             L_HDL_CE / L_HDL_C * 100
+261                                  L_HDL_FC / L_HDL_CE
+262                             L_HDL_FC / L_HDL_C * 100
+263                             L_LDL_CE / L_LDL_C * 100
+264                                  L_LDL_FC / L_LDL_CE
+265                             L_LDL_FC / L_LDL_C * 100
+266                           L_VLDL_CE / L_VLDL_C * 100
+267                                L_VLDL_FC / L_VLDL_CE
+268                           L_VLDL_FC / L_VLDL_C * 100
+269                                  LDL_C / LDL_L * 100
+270                                 LDL_CE / LDL_L * 100
+271                                 LDL_CE / LDL_C * 100
+272                                      LDL_FC / LDL_CE
+273                                 LDL_FC / LDL_L * 100
+274                                 LDL_FC / LDL_C * 100
+275                                 LDL_PL / LDL_L * 100
+276                                 LDL_TG / LDL_L * 100
+277                             M_HDL_CE / M_HDL_C * 100
+278                                  M_HDL_FC / M_HDL_CE
+279                             M_HDL_FC / M_HDL_C * 100
+280                             M_LDL_CE / M_LDL_C * 100
+281                                  M_LDL_FC / M_LDL_CE
+282                             M_LDL_FC / M_LDL_C * 100
+283                           M_VLDL_CE / M_VLDL_C * 100
+284                                M_VLDL_FC / M_VLDL_CE
+285                           M_VLDL_FC / M_VLDL_C * 100
+286                                 Omega_3 / PUFA * 100
+287                                 Omega_6 / PUFA * 100
+288                             S_HDL_CE / S_HDL_C * 100
+289                                  S_HDL_FC / S_HDL_CE
+290                             S_HDL_FC / S_HDL_C * 100
+291                             S_LDL_CE / S_LDL_C * 100
+292                                  S_LDL_FC / S_LDL_CE
+293                             S_LDL_FC / S_LDL_C * 100
+294                           S_VLDL_CE / S_VLDL_C * 100
+295                                S_VLDL_FC / S_VLDL_CE
+296                           S_VLDL_FC / S_VLDL_C * 100
+297                              Total_C / Total_L * 100
+298                             Total_CE / Total_L * 100
+299                             Total_CE / Total_C * 100
+300                                  Total_FC / Total_CE
+301                             Total_FC / Total_L * 100
+302                             Total_FC / Total_C * 100
+303                             Total_PL / Total_L * 100
+304                             Total_TG / Total_L * 100
+305                                VLDL_C / VLDL_L * 100
+306                               VLDL_CE / VLDL_L * 100
+307                               VLDL_CE / VLDL_C * 100
+308                                    VLDL_FC / VLDL_CE
+309                               VLDL_FC / VLDL_L * 100
+310                               VLDL_FC / VLDL_C * 100
+311                               VLDL_PL / VLDL_L * 100
+312                               VLDL_TG / VLDL_L * 100
+313                           XL_HDL_CE / XL_HDL_C * 100
+314                                XL_HDL_FC / XL_HDL_CE
+315                           XL_HDL_FC / XL_HDL_C * 100
+316                         XL_VLDL_CE / XL_VLDL_C * 100
+317                              XL_VLDL_FC / XL_VLDL_CE
+318                         XL_VLDL_FC / XL_VLDL_C * 100
+319                         XS_VLDL_CE / XS_VLDL_C * 100
+320                              XS_VLDL_FC / XS_VLDL_CE
+321                         XS_VLDL_FC / XS_VLDL_C * 100
+322                       XXL_VLDL_CE / XXL_VLDL_C * 100
+323                            XXL_VLDL_FC / XXL_VLDL_CE
+324                       XXL_VLDL_FC / XXL_VLDL_C * 100
