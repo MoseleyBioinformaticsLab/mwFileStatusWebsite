@@ -1,0 +1,25 @@
+Validation Log
+2026-08-30 14:41:06.427263
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008199/mwtab/json
+Study ID:      ST004844
+Analysis ID:   AN008199
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 6
+
+Number of Warnings: 0
+
+Number of Value Errors: 4
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 2
+
+Issue Log:
+Error: The required property, "ANALYSIS_TYPE", in ["ANALYSIS"] is missing.
+Error: The value, "1H: 0.0671744 s; 15N: 0.0066428 s", in ["NM"]["ACQUISITION_TIME"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['s']. Ignore this when more complicated descriptions are required.
+Error: The value, "1H: 16 ppm; 15N: 86 ppm", in ["NM"]["SPECTRAL_WIDTH"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['ppm', 'Hz']. Ignore this when more complicated descriptions are required.
+Error: The value, "1H: 2048; 15N: 110", in ["NM"]["NUM_DATA_POINTS_ACQUIRED"] should be a unitless number. Ignore this when more complicated descriptions are required.
+Error: The value, "1", in ["NM"]["LINE_BROADENING"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['Hz']. Ignore this when more complicated descriptions are required.
+Error: The ["NMR_METABOLITE_DATA"]["Metabolites"] table does not have a column for "Metabolite". It is likely misspelled or using a common incorrect substitute.
