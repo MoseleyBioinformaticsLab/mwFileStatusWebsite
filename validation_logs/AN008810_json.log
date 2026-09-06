@@ -1,0 +1,142 @@
+Validation Log
+2026-09-06 14:34:08.992147
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008810/mwtab/json
+Study ID:      ST005162
+Analysis ID:   AN008810
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 27
+
+Number of Warnings: 11
+
+Number of Value Errors: 26
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: Unknown or invalid subsection, "PUBLICATION_DOI", in ["PROJECT"].
+Error: The value, "37-81", in ["SUBJECT"]["AGE_OR_AGE_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected in ["TREATMENT"]["TREATMENT_SUMMARY"]. A legitimate value should be provided for this required key. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "1.0 mL/min (carrier gas)", in ["MS"]["HELIUM_FLOW"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['mL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "250", in ["MS"]["ION_SOURCE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "250", in ["MS"]["SOURCE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "1.0 mL/min helium, constant flow", in ["CHROMATOGRAPHY"]["FLOW_RATE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value in ["CHROMATOGRAPHY"]["SAMPLE_INJECTION"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "NA (constant-flow mode)", in ["CHROMATOGRAPHY"]["COLUMN_PRESSURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['psi', 'bar']. Ignore this when more complicated descriptions are required.
+Error: The value, "250", in ["CHROMATOGRAPHY"]["INJECTION_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Error: The value, "280", in ["CHROMATOGRAPHY"]["TRANSFERLINE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "5 µL per cycle", in ["CHROMATOGRAPHY"]["WEAK_WASH_VOLUME"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "5 µL per cycle", in ["CHROMATOGRAPHY"]["STRONG_WASH_VOLUME"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "10 µL", in ["CHROMATOGRAPHY"]["SAMPLE_SYRINGE_SIZE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Warning: The "quantified m/z" column at position 11 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "monoisotopic mass" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "InChIKey" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "molecular formula" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "molecular formula" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+36                      H2C=CCl2
+37                      H2C=CCl2
+38                      H2C=CCl2
+39                      H2C=CCl2
+232                  C6H2Cl3(OH)
+233                  C6H2Cl3(OH)
+234                  C6H2Cl3(OH)
+235                  C6H2Cl3(OH)
+288                  C6H2Cl3(OH)
+289                  C6H2Cl3(OH)
+290                  C6H2Cl3(OH)
+291                  C6H2Cl3(OH)
+356               C6H3(OH)(NO2)2
+357               C6H3(OH)(NO2)2
+358               C6H3(OH)(NO2)2
+359               C6H3(OH)(NO2)2
+360               C6H3(OH)(NO2)2
+361               C6H3(OH)(NO2)2
+362               C6H3(OH)(NO2)2
+363               C6H3(OH)(NO2)2
+520                   C5H4N(CH3)
+521                   C5H4N(CH3)
+522                   C5H4N(CH3)
+523                   C5H4N(CH3)
+692                 C6H5-C6H4NH2
+693                 C6H5-C6H4NH2
+694                 C6H5-C6H4NH2
+695                 C6H5-C6H4NH2
+696                 C6H5-C6H4NH2
+697                 C6H5-C6H4NH2
+698                 C6H5-C6H4NH2
+699                 C6H5-C6H4NH2
+1460                 C6H3Cl2(CN)
+1461                 C6H3Cl2(CN)
+1462                 C6H3Cl2(CN)
+1463                 C6H3Cl2(CN)
+1476           CCl2=CHOPO(OCH3)2
+1477           CCl2=CHOPO(OCH3)2
+1478           CCl2=CHOPO(OCH3)2
+1479           CCl2=CHOPO(OCH3)2
+1548    CH3CH2SC(O)N(CH2CH2CH3)2
+1549    CH3CH2SC(O)N(CH2CH2CH3)2
+1550    CH3CH2SC(O)N(CH2CH2CH3)2
+1551    CH3CH2SC(O)N(CH2CH2CH3)2
+1676         CH2=C(CH3)COO(C2H5)
+1677         CH2=C(CH3)COO(C2H5)
+1678         CH2=C(CH3)COO(C2H5)
+1679         CH2=C(CH3)COO(C2H5)
+1916            CCl2=CClCCl=CCl2
+1917            CCl2=CClCCl=CCl2
+1918            CCl2=CClCCl=CCl2
+1919            CCl2=CClCCl=CCl2
+1944     C6H(OH)Cl3CH2Cl3(OH)C6H
+1945     C6H(OH)Cl3CH2Cl3(OH)C6H
+1946     C6H(OH)Cl3CH2Cl3(OH)C6H
+1947     C6H(OH)Cl3CH2Cl3(OH)C6H
+2120             CH2C(CH3)COOCH3
+2121             CH2C(CH3)COOCH3
+2122             CH2C(CH3)COOCH3
+2123             CH2C(CH3)COOCH3
+2940                   Cl2C=CCl2
+2941                   Cl2C=CCl2
+2942                   Cl2C=CCl2
+2943                   Cl2C=CCl2
+3028                   ClCH=CCl2
+3029                   ClCH=CCl2
+3030                   ClCH=CCl2
+3031                   ClCH=CCl2
+3112     CH3SC(CH3)2CH=NOCONHCH3
+3113     CH3SC(CH3)2CH=NOCONHCH3
+3114     CH3SC(CH3)2CH=NOCONHCH3
+3115     CH3SC(CH3)2CH=NOCONHCH3
+3152            (ClCH2C(CH3)H)2O
+3153            (ClCH2C(CH3)H)2O
+3154            (ClCH2C(CH3)H)2O
+3155            (ClCH2C(CH3)H)2O
+3208                   ClCH=CHCl
+3209                   ClCH=CHCl
+3210                   ClCH=CHCl
+3211                   ClCH=CHCl
+3516          C6H5N=NC6H4N(CH3)2
+3517          C6H5N=NC6H4N(CH3)2
+3518          C6H5N=NC6H4N(CH3)2
+3519          C6H5N=NC6H4N(CH3)2
+3532            CH3OC6H3(CH3)NH2
+3533            CH3OC6H3(CH3)NH2
+3534            CH3OC6H3(CH3)NH2
+3535            CH3OC6H3(CH3)NH2
+3620                   ClCH=CHCl
+3621                   ClCH=CHCl
+3622                   ClCH=CHCl
+3623                   ClCH=CHCl
+Warning: The "compound name" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "IUPAC name" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "PubChem CID" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS Registry Number" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS Registry Number" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+1672    225-582-5
+1673    225-582-5
+1674    225-582-5
+1675    225-582-5
+Warning: The "retention time (min)" column at position 12 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
