@@ -1,0 +1,79 @@
+Validation Log
+2026-09-13 15:14:15.888947
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008669/mwtab/json
+Study ID:      ST005095
+Analysis ID:   AN008669
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 8
+
+Number of Warnings: 7
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "40°C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Formula" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+909        C12H13NO9P-3
+964       C11H17NO12P-3
+987          C13H10O8-2
+997      C9H12N3O10P2-3
+1012    C10H12N5O10PS-2
+1017       C12H16O13S-2
+1056     C9H12N3O11P2-3
+1059       C20H35O8P2-3
+1072    C15H20N2O16P2-2
+1089        C9H17O11P-2
+Warning: The "PubChem CID" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "kegg_map" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+4                                   68538-85-2 | 58-05-9
+23                   141-12-8 | 16409-44-2 | 130396-85-9
+46                               88546-96-7 | 37126-91-3
+62                               36894-69-6 | 32780-40-8
+69                                82964-34-9 | 7478-65-1
+82                                 501-13-3 | 91000-11-2
+85                                579-36-2 | 478529-45-2
+107                   85-32-5 | 128952-18-1 | 29593-02-0
+117      57-48-7 | 30237-26-4 | 25702-76-5 | 139686-85-4
+130                               19367-38-5 | 3943-97-3
+134    2465-59-0 | 184764-63-4 | 187486-05-1 | 187486...
+210                             109278-36-6 | 63324-97-0
+218                             60767-80-8 | 189033-11-2
+251                                500-38-9 | 27686-84-6
+258                   28371-16-6 | 8015-61-0 | 5133-19-7
+276                            191732-72-6 | 443912-14-9
+279       56-06-4 | 100643-27-4 | 143504-99-8 | 195-66-4
+318                              73141-46-5 | 68812-93-1
+515                               4382-33-6 | 93432-80-5
+517                              14197-60-5 | 11019-45-7
+559                                6005-18-1 | 4992-73-8
+562                              13139-15-6 | 53296-34-7
+588                               7284-42-6 | 84796-32-7
+590    117-81-7 | 15495-94-0 | 8033-53-2 | 50885-87-5...
+593                               2182-14-1 | 57794-53-3
+594                              16837-52-8 | 54809-74-4
+596                              30126-05-7 | 30376-45-5
+598                              77549-94-1 | 68780-77-8
+615                              26833-85-2 | 25302-09-4
+625                                 64-86-8 | 30512-31-3
+628                19227-13-5 | 923023-83-0 | 69113-24-2
+631      23945-44-0 | 59299-01-3 | 394-40-1 | 76821-79-9
+638                               4331-29-7 | 69984-77-6
+645                               3058-01-3 | 61898-58-6
+661                                 1196-31-2 | 491-07-6
+662                67776-06-1 | 79032-48-7 | 152971-80-7
+674                                 143-57-7 | 1360-61-8
+685                              33983-39-0 | 33983-40-3
+701                              38520-57-9 | 15394-73-7
+724                               24916-50-5 | 8025-81-8
+732                     510-77-0 | 1668-86-6 | 5107-70-0
+741                               4674-50-4 | 28834-25-5
+Warning: The "RT (min)" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "kegg_map" column at position 6 in the ["MS_METABOLITE_DATA"]["Metabolites"] table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

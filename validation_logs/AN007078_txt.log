@@ -1,0 +1,316 @@
+Validation Log
+2026-09-13 13:34:13.956909
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN007078/mwtab/txt
+Study ID:      ST004254
+Analysis ID:   AN007078
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 17
+
+Number of Warnings: 10
+
+Number of Value Errors: 17
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "9-10 weeks old at start of experiments", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "350", for the subsection, "CAPILLARY_TEMPERATURE", in the "MS" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "300", for the subsection, "ION_SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "3500 V positive/3000 V negative", for the subsection, "SPRAY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "60", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "10", for the subsection, "INJECTION_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Warning: The "Exact mass" column at position 5 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Standardized name" column at position 3 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 15 in the METABOLITES table, matches a standard column name, "refmet". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "REFMET_ID" column at position 15 in the METABOLITES table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      RM0154012
+1      RM0154013
+2      RM0154190
+3      RM0153848
+4      RM0153934
+5      RM0154058
+6      RM0153850
+7      RM0154036
+8      RM0153915
+9      RM0154195
+10     RM0154158
+11     RM0154067
+12     RM0154161
+13     RM0154066
+14     RM0135710
+15     RM0138765
+16     RM0016397
+17     RM0161424
+18     RM0009616
+19     RM0138480
+20     RM0003180
+21     RM0125897
+22     RM0000510
+23     RM0028964
+24     RM0028902
+25     RM0053907
+26     RM0028896
+27     RM0029561
+28     RM0030446
+29     RM0029808
+30     RM0041297
+31     RM0030140
+32     RM0134168
+33     RM0135485
+34     RM0135486
+35     RM0135487
+36     RM0030230
+37     RM0135488
+38     RM0138865
+39     RM0134169
+40     RM0040717
+41     RM0135502
+42     RM0135504
+43     RM0135505
+44     RM0134207
+45     RM0134208
+46     RM0058988
+47     RM0012634
+48     RM0161959
+49     RM0012700
+50     RM0028901
+51     RM0030275
+52     RM0040732
+53     RM0034278
+54     RM0134351
+55     RM0134345
+56     RM0033570
+57     RM0134353
+58     RM0033952
+59     RM0035650
+60     RM0034479
+61     RM0134343
+62     RM0033995
+63     RM0034254
+64     RM0134342
+65     RM0035676
+66     RM0034180
+67     RM0012583
+68     RM0171299
+69     RM0134360
+70     RM0134347
+71     RM0033561
+72     RM0135507
+73     RM0135508
+74     RM0153571
+75     RM0153574
+76     RM0152034
+77     RM0137845
+78     RM0135628
+79     RM0135629
+80     RM0041439
+81     RM0026928
+82     RM0048343
+83     RM0047744
+84     RM0036803
+85     RM0044465
+86     RM0134064
+87     RM0008618
+88     RM0036777
+89     RM0013838
+90     RM0042554
+91     RM0134083
+92     RM0044705
+93     RM0047158
+94     RM0135070
+95     RM0134475
+96     RM0048622
+97     RM0106163
+98     RM0042845
+99     RM0048598
+100    RM0134490
+101    RM0134472
+102    RM0048599
+103    RM0048636
+104    RM0134493
+105    RM0097691
+106    RM0133228
+107    RM0133230
+108    RM0134456
+109    RM0012607
+110    RM0017276
+111    RM0104274
+112    RM0097815
+113    RM0134455
+114    RM0092657
+115    RM0133224
+116    RM0133225
+117    RM0096807
+118    RM0121227
+119    RM0121228
+120    RM0163044
+121    RM0163045
+122    RM0122453
+123    RM0015486
+124    RM0098405
+125    RM0000558
+126    RM0135046
+127    RM0000437
+128    RM0090134
+129    RM0104110
+130    RM0171088
+131    RM0170562
+132    RM0134875
+133    RM0134906
+134    RM0134901
+135    RM0134879
+136    RM0134818
+137    RM0010754
+138    RM0010761
+139    RM0134821
+140    RM0171049
+141    RM0134865
+142    RM0134844
+143    RM0010755
+144    RM0134823
+145    RM0097851
+146    RM0171096
+147    RM0134847
+148    RM0134822
+149    RM0171053
+150    RM0171090
+151    RM0138805
+152    RM0134917
+153    RM0052315
+154    RM0052166
+155    RM0017335
+156    RM0134899
+157    RM0017336
+158    RM0052426
+159    RM0095704
+160    RM0011556
+161    RM0134725
+162    RM0011470
+163    RM0134803
+164    RM0104542
+165    RM0134779
+166    RM0001660
+167    RM0134782
+168    RM0134805
+169    RM0001469
+170    RM0043843
+171    RM0001195
+172    RM0134780
+173    RM0044082
+174    RM0017268
+175    RM0098131
+176    RM0134741
+177    RM0001276
+178    RM0001659
+179    RM0055928
+180    RM0134778
+181    RM0055940
+182    RM0054394
+183    RM0054678
+184    RM0055041
+185    RM0055036
+186    RM0017417
+187    RM0134760
+188    RM0134762
+189    RM0135808
+190    RM0017415
+191    RM0017416
+192    RM0134765
+193    RM0055203
+194    RM0092661
+195    RM0092649
+196    RM0134766
+197    RM0092659
+198    RM0055318
+199    RM0017453
+200    RM0017454
+201    RM0055321
+202    RM0134767
+203    RM0092655
+204    RM0092660
+205    RM0134783
+206    RM0008681
+207    RM0008680
+208    RM0054420
+209    RM0008683
+210    RM0008684
+211    RM0136066
+212    RM0008718
+213    RM0169129
+214    RM0134768
+215    RM0055405
+216    RM0008686
+217    RM0055418
+218    RM0008690
+219    RM0008691
+220    RM0134561
+221    RM0134558
+222    RM0135113
+223    RM0008656
+224    RM0138712
+225    RM0134535
+226    RM0134537
+227    RM0056665
+228    RM0027240
+229    RM0134515
+230    RM0057194
+231    RM0134528
+232    RM0098286
+233    RM0057743
+234    RM0134623
+235    RM0134669
+236    RM0057551
+237    RM0060201
+238    RM0135543
+239    RM0134099
+240    RM0059100
+241    RM0122299
+242    RM0135443
+243    RM0002291
+244    RM0121778
+245    RM0134259
+246    RM0134225
+247    RM0134224
+248    RM0134226
+249    RM0134260
+250    RM0134221
+251    RM0138778
+252    RM0134227
+253    RM0134230
+254    RM0134229
+255    RM0062103
+256    RM0134232
+257    RM0134220
+258    RM0134219
+259    RM0025657
+260    RM0138781
+261    RM0116159
+262    RM0134218
+263    RM0134236
+264    RM0134235
+265    RM0062063
+266    RM0134234
+267    RM0110466
+268    RM0134241
+269    RM0134240
+270    RM0134239
+271    RM0134242
+272    RM0134244
+273    RM0134243
+274    RM0162244
+275    RM0134317
+276    RM0163262
+277    RM0162341
+278    RM0163287
+279    RM0163283
+Warning: The "Super class" column at position 6 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Main class" column at position 7 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Sub class" column at position 8 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Pubchem CID" column at position 9 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Experimental RT" column at position 2 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG_ID" column at position 13 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.

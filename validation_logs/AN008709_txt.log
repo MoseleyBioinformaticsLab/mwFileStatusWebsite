@@ -1,0 +1,1889 @@
+Validation Log
+2026-09-13 15:15:54.327699
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008709/mwtab/txt
+Study ID:      ST005118
+Analysis ID:   AN008709
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 23
+
+Number of Warnings: 21
+
+Number of Value Errors: 19
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Not applicable", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "0.5 ml/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 10 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Calc. MW" column at position 9 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Mass List Match: Endogenous Metabolites database 4400 compounds" column at position 17 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Mass List Match: SKB-Metabolite-Internal Standard Library" column at position 18 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Mass List Match: Endogenous Metabolites database 4400 compounds" column at position 17 in the METABOLITES table, matches a standard column name, "mass", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0            No matches found
+1            No matches found
+2            No matches found
+3            No matches found
+4            No matches found
+5            No matches found
+6            No matches found
+7          Single match found
+8            No matches found
+9            No matches found
+10           No matches found
+11           No matches found
+12           No matches found
+13           No matches found
+14           No matches found
+15           No matches found
+16           No matches found
+17           No matches found
+18           No matches found
+19           No matches found
+20     Multiple matches found
+21         Single match found
+22         Single match found
+23         Single match found
+24         Single match found
+25           No matches found
+26           No matches found
+27     Multiple matches found
+28         Single match found
+29         Single match found
+30         Single match found
+31         Single match found
+32           No matches found
+33           No matches found
+34           No matches found
+35           No matches found
+36         Single match found
+37           No matches found
+38           No matches found
+39           No matches found
+40           No matches found
+41           No matches found
+42           No matches found
+43           No matches found
+44           No matches found
+45           No matches found
+46           No matches found
+47           No matches found
+48           No matches found
+49           No matches found
+50           No matches found
+51           No matches found
+52           No matches found
+53           No matches found
+54           No matches found
+55           No matches found
+56           No matches found
+57           No matches found
+58           No matches found
+59           No matches found
+60         Single match found
+61           No matches found
+62           No matches found
+63           No matches found
+64           No matches found
+65           No matches found
+66           No matches found
+67           No matches found
+68         Single match found
+69         Single match found
+70           No matches found
+71           No matches found
+72           No matches found
+73           No matches found
+74           No matches found
+75           No matches found
+76           No matches found
+77           No matches found
+78     Multiple matches found
+79         Single match found
+80           No matches found
+81           No matches found
+82           No matches found
+83     Multiple matches found
+84         Single match found
+85     Multiple matches found
+86           No matches found
+87           No matches found
+88         Single match found
+89     Multiple matches found
+90     Multiple matches found
+91         Single match found
+92         Single match found
+93     Multiple matches found
+94     Multiple matches found
+95           No matches found
+96           No matches found
+97           No matches found
+98         Single match found
+99           No matches found
+100          No matches found
+101          No matches found
+102        Single match found
+103        Single match found
+104        Single match found
+105          No matches found
+106        Single match found
+107        Single match found
+108        Single match found
+109    Multiple matches found
+110          No matches found
+111          No matches found
+112          No matches found
+113        Single match found
+114          No matches found
+115          No matches found
+116          No matches found
+117          No matches found
+118          No matches found
+119          No matches found
+120        Single match found
+121        Single match found
+122          No matches found
+123          No matches found
+124    Multiple matches found
+125          No matches found
+126        Single match found
+127        Single match found
+128          No matches found
+129        Single match found
+130          No matches found
+131          No matches found
+132          No matches found
+133          No matches found
+134        Single match found
+135          No matches found
+136          No matches found
+137    Multiple matches found
+138    Multiple matches found
+139          No matches found
+140          No matches found
+141    Multiple matches found
+142    Multiple matches found
+143        Single match found
+144        Single match found
+145    Multiple matches found
+146    Multiple matches found
+147        Single match found
+148        Single match found
+149          No matches found
+150          No matches found
+151          No matches found
+152          No matches found
+153          No matches found
+154          No matches found
+155          No matches found
+156    Multiple matches found
+157        Single match found
+158    Multiple matches found
+159          No matches found
+160        Single match found
+161          No matches found
+162        Single match found
+163          No matches found
+164          No matches found
+165          No matches found
+166          No matches found
+167          No matches found
+168          No matches found
+169        Single match found
+170        Single match found
+171    Multiple matches found
+172          No matches found
+173          No matches found
+174          No matches found
+175        Single match found
+176          No matches found
+177    Multiple matches found
+178        Single match found
+179          No matches found
+180          No matches found
+181          No matches found
+182          No matches found
+183        Single match found
+184          No matches found
+185        Single match found
+186          No matches found
+187          No matches found
+188          No matches found
+189          No matches found
+190        Single match found
+191    Multiple matches found
+192          No matches found
+193          No matches found
+194          No matches found
+195          No matches found
+196          No matches found
+197          No matches found
+198          No matches found
+199        Single match found
+200        Single match found
+201          No matches found
+202        Single match found
+203          No matches found
+204          No matches found
+205          No matches found
+206        Single match found
+207          No matches found
+208    Multiple matches found
+209          No matches found
+210          No matches found
+211          No matches found
+212        Single match found
+213          No matches found
+214          No matches found
+215    Multiple matches found
+216    Multiple matches found
+217    Multiple matches found
+218    Multiple matches found
+219    Multiple matches found
+220    Multiple matches found
+221    Multiple matches found
+222    Multiple matches found
+223    Multiple matches found
+224    Multiple matches found
+225    Multiple matches found
+226          No matches found
+227    Multiple matches found
+228    Multiple matches found
+229    Multiple matches found
+230    Multiple matches found
+231    Multiple matches found
+232    Multiple matches found
+233    Multiple matches found
+234        Single match found
+235          No matches found
+236          No matches found
+237          No matches found
+238          No matches found
+239        Single match found
+240          No matches found
+241          No matches found
+242        Single match found
+243        Single match found
+244          No matches found
+245        Single match found
+246        Single match found
+247          No matches found
+248        Single match found
+249          No matches found
+250          No matches found
+251          No matches found
+252          No matches found
+253          No matches found
+254          No matches found
+255    Multiple matches found
+256          No matches found
+257          No matches found
+258          No matches found
+259          No matches found
+260          No matches found
+261          No matches found
+262          No matches found
+263          No matches found
+264          No matches found
+265        Single match found
+266    Multiple matches found
+267    Multiple matches found
+268          No matches found
+269    Multiple matches found
+270          No matches found
+271          No matches found
+272          No matches found
+273    Multiple matches found
+274    Multiple matches found
+275          No matches found
+276        Single match found
+277        Single match found
+278    Multiple matches found
+279    Multiple matches found
+280    Multiple matches found
+281        Single match found
+282        Single match found
+283          No matches found
+284          No matches found
+285          No matches found
+286          No matches found
+287          No matches found
+288          No matches found
+289          No matches found
+290          No matches found
+291          No matches found
+292          No matches found
+293          No matches found
+294          No matches found
+295          No matches found
+296          No matches found
+297    Multiple matches found
+298    Multiple matches found
+299    Multiple matches found
+300    Multiple matches found
+301    Multiple matches found
+302    Multiple matches found
+303    Multiple matches found
+304    Multiple matches found
+305    Multiple matches found
+306        Single match found
+307        Single match found
+308    Multiple matches found
+309    Multiple matches found
+310    Multiple matches found
+311    Multiple matches found
+312    Multiple matches found
+313    Multiple matches found
+314    Multiple matches found
+315          No matches found
+316        Single match found
+317        Single match found
+318        Single match found
+319        Single match found
+320        Single match found
+321        Single match found
+322          No matches found
+323        Single match found
+324          No matches found
+325    Multiple matches found
+326    Multiple matches found
+327        Single match found
+328          No matches found
+329          No matches found
+330    Multiple matches found
+331          No matches found
+332          No matches found
+333          No matches found
+334          No matches found
+335          No matches found
+336    Multiple matches found
+337    Multiple matches found
+338    Multiple matches found
+339        Single match found
+340        Single match found
+341        Single match found
+342    Multiple matches found
+343        Single match found
+344        Single match found
+345          No matches found
+346          No matches found
+347          No matches found
+348    Multiple matches found
+349          No matches found
+350          No matches found
+351    Multiple matches found
+352    Multiple matches found
+353          No matches found
+354          No matches found
+355          No matches found
+356          No matches found
+357    Multiple matches found
+358          No matches found
+359          No matches found
+360          No matches found
+361          No matches found
+362    Multiple matches found
+363    Multiple matches found
+364    Multiple matches found
+365    Multiple matches found
+366    Multiple matches found
+367    Multiple matches found
+368    Multiple matches found
+369    Multiple matches found
+370    Multiple matches found
+371          No matches found
+372    Multiple matches found
+373          No matches found
+374          No matches found
+375    Multiple matches found
+376          No matches found
+377          No matches found
+378          No matches found
+379    Multiple matches found
+380    Multiple matches found
+381    Multiple matches found
+382    Multiple matches found
+383    Multiple matches found
+384    Multiple matches found
+385          No matches found
+386          No matches found
+387          No matches found
+388          No matches found
+389          No matches found
+390          No matches found
+391        Single match found
+392        Single match found
+393          No matches found
+394          No matches found
+395          No matches found
+396          No matches found
+397          No matches found
+398          No matches found
+399          No matches found
+400          No matches found
+401          No matches found
+402          No matches found
+403        Single match found
+404        Single match found
+405    Multiple matches found
+406    Multiple matches found
+407    Multiple matches found
+408    Multiple matches found
+409          No matches found
+410          No matches found
+411          No matches found
+412          No matches found
+413          No matches found
+414          No matches found
+415          No matches found
+416          No matches found
+417          No matches found
+418          No matches found
+419          No matches found
+420    Multiple matches found
+421    Multiple matches found
+422    Multiple matches found
+423        Single match found
+424        Single match found
+425        Single match found
+426          No matches found
+427          No matches found
+428          No matches found
+429          No matches found
+430          No matches found
+431        Single match found
+432        Single match found
+433          No matches found
+434          No matches found
+435          No matches found
+436          No matches found
+437          No matches found
+438          No matches found
+439    Multiple matches found
+440    Multiple matches found
+441    Multiple matches found
+442          No matches found
+443          No matches found
+444          No matches found
+445          No matches found
+446          No matches found
+447          No matches found
+448          No matches found
+449          No matches found
+450    Multiple matches found
+451          No matches found
+452          No matches found
+453          No matches found
+454          No matches found
+455          No matches found
+456          No matches found
+457          No matches found
+458          No matches found
+459          No matches found
+460          No matches found
+461          No matches found
+462          No matches found
+463          No matches found
+464          No matches found
+465    Multiple matches found
+466    Multiple matches found
+467    Multiple matches found
+468    Multiple matches found
+469          No matches found
+470    Multiple matches found
+471          No matches found
+472    Multiple matches found
+473    Multiple matches found
+474    Multiple matches found
+475    Multiple matches found
+476    Multiple matches found
+477        Single match found
+478        Single match found
+479          No matches found
+480          No matches found
+481          No matches found
+482          No matches found
+483          No matches found
+484          No matches found
+485    Multiple matches found
+486    Multiple matches found
+487    Multiple matches found
+488          No matches found
+489          No matches found
+490          No matches found
+491          No matches found
+492          No matches found
+493    Multiple matches found
+494          No matches found
+495          No matches found
+496          No matches found
+497          No matches found
+498          No matches found
+499          No matches found
+500          No matches found
+501          No matches found
+502          No matches found
+503          No matches found
+504          No matches found
+505          No matches found
+506          No matches found
+507          No matches found
+508          No matches found
+509          No matches found
+510          No matches found
+511          No matches found
+512          No matches found
+513          No matches found
+514          No matches found
+515          No matches found
+516          No matches found
+517          No matches found
+518          No matches found
+519          No matches found
+520          No matches found
+521          No matches found
+522          No matches found
+523          No matches found
+524        Single match found
+525          No matches found
+Warning: The "Mass List Match: SKB-Metabolite-Internal Standard Library" column at position 18 in the METABOLITES table, matches a standard column name, "mass", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0        No matches found
+1        No matches found
+2        No matches found
+3        No matches found
+4        No matches found
+5        No matches found
+6        No matches found
+7        No matches found
+8      Single match found
+9        No matches found
+10       No matches found
+11       No matches found
+12       No matches found
+13       No matches found
+14       No matches found
+15       No matches found
+16       No matches found
+17       No matches found
+18       No matches found
+19       No matches found
+20       No matches found
+21       No matches found
+22       No matches found
+23       No matches found
+24       No matches found
+25       No matches found
+26       No matches found
+27       No matches found
+28       No matches found
+29       No matches found
+30       No matches found
+31       No matches found
+32       No matches found
+33     Single match found
+34       No matches found
+35       No matches found
+36       No matches found
+37       No matches found
+38       No matches found
+39       No matches found
+40       No matches found
+41       No matches found
+42       No matches found
+43       No matches found
+44       No matches found
+45       No matches found
+46       No matches found
+47       No matches found
+48       No matches found
+49       No matches found
+50       No matches found
+51       No matches found
+52       No matches found
+53       No matches found
+54       No matches found
+55       No matches found
+56       No matches found
+57       No matches found
+58       No matches found
+59       No matches found
+60       No matches found
+61       No matches found
+62       No matches found
+63       No matches found
+64       No matches found
+65       No matches found
+66       No matches found
+67       No matches found
+68       No matches found
+69       No matches found
+70       No matches found
+71       No matches found
+72       No matches found
+73       No matches found
+74       No matches found
+75       No matches found
+76       No matches found
+77       No matches found
+78       No matches found
+79       No matches found
+80       No matches found
+81       No matches found
+82       No matches found
+83       No matches found
+84       No matches found
+85       No matches found
+86       No matches found
+87       No matches found
+88       No matches found
+89       No matches found
+90       No matches found
+91       No matches found
+92       No matches found
+93       No matches found
+94       No matches found
+95       No matches found
+96       No matches found
+97       No matches found
+98       No matches found
+99       No matches found
+100      No matches found
+101      No matches found
+102      No matches found
+103      No matches found
+104      No matches found
+105      No matches found
+106      No matches found
+107      No matches found
+108      No matches found
+109      No matches found
+110      No matches found
+111      No matches found
+112      No matches found
+113      No matches found
+114      No matches found
+115      No matches found
+116      No matches found
+117      No matches found
+118      No matches found
+119      No matches found
+120      No matches found
+121      No matches found
+122      No matches found
+123      No matches found
+124      No matches found
+125      No matches found
+126      No matches found
+127      No matches found
+128      No matches found
+129      No matches found
+130      No matches found
+131      No matches found
+132      No matches found
+133      No matches found
+134      No matches found
+135      No matches found
+136      No matches found
+137      No matches found
+138      No matches found
+139      No matches found
+140      No matches found
+141      No matches found
+142      No matches found
+143      No matches found
+144      No matches found
+145      No matches found
+146      No matches found
+147      No matches found
+148      No matches found
+149      No matches found
+150      No matches found
+151      No matches found
+152      No matches found
+153      No matches found
+154      No matches found
+155    Single match found
+156      No matches found
+157      No matches found
+158      No matches found
+159      No matches found
+160      No matches found
+161      No matches found
+162      No matches found
+163      No matches found
+164      No matches found
+165      No matches found
+166      No matches found
+167      No matches found
+168      No matches found
+169      No matches found
+170      No matches found
+171      No matches found
+172      No matches found
+173      No matches found
+174      No matches found
+175      No matches found
+176      No matches found
+177      No matches found
+178      No matches found
+179      No matches found
+180      No matches found
+181      No matches found
+182      No matches found
+183      No matches found
+184      No matches found
+185      No matches found
+186      No matches found
+187      No matches found
+188      No matches found
+189      No matches found
+190      No matches found
+191      No matches found
+192      No matches found
+193      No matches found
+194      No matches found
+195      No matches found
+196    Single match found
+197    Single match found
+198      No matches found
+199      No matches found
+200      No matches found
+201      No matches found
+202      No matches found
+203      No matches found
+204      No matches found
+205      No matches found
+206      No matches found
+207      No matches found
+208      No matches found
+209      No matches found
+210      No matches found
+211      No matches found
+212      No matches found
+213      No matches found
+214      No matches found
+215      No matches found
+216      No matches found
+217      No matches found
+218      No matches found
+219      No matches found
+220      No matches found
+221      No matches found
+222      No matches found
+223      No matches found
+224      No matches found
+225      No matches found
+226      No matches found
+227      No matches found
+228      No matches found
+229      No matches found
+230      No matches found
+231      No matches found
+232      No matches found
+233      No matches found
+234      No matches found
+235      No matches found
+236      No matches found
+237      No matches found
+238      No matches found
+239      No matches found
+240      No matches found
+241      No matches found
+242      No matches found
+243      No matches found
+244      No matches found
+245      No matches found
+246      No matches found
+247      No matches found
+248      No matches found
+249      No matches found
+250      No matches found
+251      No matches found
+252      No matches found
+253      No matches found
+254      No matches found
+255      No matches found
+256      No matches found
+257      No matches found
+258      No matches found
+259      No matches found
+260      No matches found
+261      No matches found
+262      No matches found
+263      No matches found
+264      No matches found
+265      No matches found
+266      No matches found
+267      No matches found
+268      No matches found
+269      No matches found
+270      No matches found
+271      No matches found
+272      No matches found
+273      No matches found
+274      No matches found
+275      No matches found
+276      No matches found
+277      No matches found
+278      No matches found
+279      No matches found
+280      No matches found
+281      No matches found
+282      No matches found
+283      No matches found
+284      No matches found
+285      No matches found
+286      No matches found
+287      No matches found
+288      No matches found
+289      No matches found
+290      No matches found
+291      No matches found
+292      No matches found
+293      No matches found
+294      No matches found
+295      No matches found
+296      No matches found
+297      No matches found
+298      No matches found
+299      No matches found
+300      No matches found
+301      No matches found
+302      No matches found
+303      No matches found
+304      No matches found
+305      No matches found
+306      No matches found
+307      No matches found
+308      No matches found
+309      No matches found
+310      No matches found
+311      No matches found
+312      No matches found
+313      No matches found
+314      No matches found
+315      No matches found
+316      No matches found
+317      No matches found
+318      No matches found
+319      No matches found
+320      No matches found
+321      No matches found
+322      No matches found
+323      No matches found
+324      No matches found
+325      No matches found
+326      No matches found
+327      No matches found
+328      No matches found
+329      No matches found
+330      No matches found
+331      No matches found
+332      No matches found
+333      No matches found
+334      No matches found
+335      No matches found
+336      No matches found
+337      No matches found
+338      No matches found
+339      No matches found
+340      No matches found
+341      No matches found
+342      No matches found
+343      No matches found
+344      No matches found
+345      No matches found
+346      No matches found
+347      No matches found
+348      No matches found
+349      No matches found
+350      No matches found
+351      No matches found
+352      No matches found
+353      No matches found
+354      No matches found
+355      No matches found
+356      No matches found
+357      No matches found
+358      No matches found
+359      No matches found
+360      No matches found
+361      No matches found
+362      No matches found
+363      No matches found
+364      No matches found
+365      No matches found
+366      No matches found
+367      No matches found
+368      No matches found
+369      No matches found
+370      No matches found
+371      No matches found
+372      No matches found
+373      No matches found
+374      No matches found
+375      No matches found
+376      No matches found
+377      No matches found
+378      No matches found
+379      No matches found
+380      No matches found
+381      No matches found
+382      No matches found
+383      No matches found
+384      No matches found
+385      No matches found
+386      No matches found
+387      No matches found
+388      No matches found
+389      No matches found
+390      No matches found
+391      No matches found
+392      No matches found
+393      No matches found
+394      No matches found
+395      No matches found
+396      No matches found
+397      No matches found
+398      No matches found
+399      No matches found
+400      No matches found
+401      No matches found
+402      No matches found
+403      No matches found
+404      No matches found
+405      No matches found
+406      No matches found
+407      No matches found
+408      No matches found
+409      No matches found
+410      No matches found
+411      No matches found
+412      No matches found
+413      No matches found
+414      No matches found
+415      No matches found
+416      No matches found
+417      No matches found
+418      No matches found
+419      No matches found
+420      No matches found
+421      No matches found
+422      No matches found
+423      No matches found
+424      No matches found
+425      No matches found
+426      No matches found
+427      No matches found
+428      No matches found
+429      No matches found
+430      No matches found
+431      No matches found
+432      No matches found
+433      No matches found
+434      No matches found
+435      No matches found
+436      No matches found
+437      No matches found
+438      No matches found
+439      No matches found
+440      No matches found
+441      No matches found
+442      No matches found
+443      No matches found
+444      No matches found
+445      No matches found
+446      No matches found
+447      No matches found
+448      No matches found
+449      No matches found
+450      No matches found
+451      No matches found
+452      No matches found
+453      No matches found
+454      No matches found
+455      No matches found
+456      No matches found
+457      No matches found
+458      No matches found
+459      No matches found
+460      No matches found
+461      No matches found
+462      No matches found
+463      No matches found
+464      No matches found
+465      No matches found
+466      No matches found
+467      No matches found
+468      No matches found
+469      No matches found
+470      No matches found
+471      No matches found
+472      No matches found
+473      No matches found
+474      No matches found
+475      No matches found
+476      No matches found
+477      No matches found
+478      No matches found
+479      No matches found
+480      No matches found
+481    Single match found
+482    Single match found
+483    Single match found
+484      No matches found
+485      No matches found
+486      No matches found
+487      No matches found
+488      No matches found
+489      No matches found
+490      No matches found
+491      No matches found
+492      No matches found
+493      No matches found
+494      No matches found
+495      No matches found
+496      No matches found
+497      No matches found
+498      No matches found
+499      No matches found
+500      No matches found
+501      No matches found
+502      No matches found
+503      No matches found
+504      No matches found
+505      No matches found
+506      No matches found
+507      No matches found
+508      No matches found
+509      No matches found
+510      No matches found
+511      No matches found
+512      No matches found
+513      No matches found
+514      No matches found
+515      No matches found
+516      No matches found
+517      No matches found
+518      No matches found
+519      No matches found
+520      No matches found
+521      No matches found
+522      No matches found
+523      No matches found
+524      No matches found
+525      No matches found
+Warning: The "Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+2               C15 H25 N O4
+8      C3 [13]C H4 [15]N2 O2
+9               C17 H27 N O7
+13               C6 H15 N O3
+14              C19 H35 N O4
+15              C16 H25 N O2
+19              C12 H19 N O3
+20            C26 H45 N O6 S
+21              C2 H7 N O3 S
+24               C7 H13 N O2
+25              C18 H35 N O2
+26              C18 H35 N O2
+27              C18 H37 N O2
+28              C18 H39 N O2
+29             C5 H14 N O6 P
+30             C8 H20 N O6 P
+35              C13 H17 N O2
+40               C8 H17 N O2
+41               C8 H17 N O2
+42               C8 H17 N O2
+43            C26 H54 N O7 P
+44            C26 H54 N O7 P
+47                 C7 H7 N O
+48                 C7 H7 N O
+49              C22 H39 N O5
+50              C20 H31 N O3
+51              C27 H43 N O3
+52              C27 H43 N O3
+53            C48 H88 N O7 P
+54            C46 H88 N O7 P
+55            C48 H94 N O7 P
+56            C44 H84 N O8 P
+57            C46 H84 N O8 P
+58            C46 H84 N O8 P
+59           C52 H100 N O8 P
+60               C9 H17 N O5
+63              C20 H37 N O3
+64              C20 H39 N O2
+65              C20 H39 N O2
+66              C20 H39 N O2
+67              C25 H47 N O4
+68               C18 H35 N O
+69               C18 H35 N O
+70           C44 H82 N O10 P
+71              C22 H43 N O4
+72              C24 H47 N O4
+73              C29 H57 N O4
+74           C46 H84 N O10 P
+75              C18 H35 N O4
+78               C8 H11 N O3
+83                C6 H5 N O2
+85               C9 H17 N O8
+96              C27 H45 N O4
+97              C27 H53 N O3
+98              C34 H67 N O3
+101             C22 H39 N O3
+102              C8 H13 N O3
+108              C7 H11 N O4
+109              C8 H15 N O6
+110             C34 H65 N O3
+112             C12 H19 N O4
+113             C16 H27 N O4
+117              C14 H29 N O
+118              C14 H29 N O
+119             C26 H37 N O6
+124              C11 H9 N O2
+126             C10 H15 N O3
+129               C4 H5 N O3
+131           C27 H44 N O7 P
+132           C27 H44 N O7 P
+134             C11 H19 N O6
+140           C22 H46 N O7 P
+142            C5 H11 N O3 S
+152           C13 H16 Cl N O
+155          [13]C6 H13 N O2
+157              C10 H11 N O
+160               C2 H3 N O2
+177               C2 H5 N O2
+181             C42 H81 N O8
+182             C40 H77 N O8
+184             C16 H27 N O6
+185               C7 H9 N O2
+188             C15 H27 N O3
+191              C9 H13 N O3
+192            C9 H13 N O6 S
+196           [13]C3 H7 N O3
+199           C40 H80 N O8 P
+200           C40 H80 N O8 P
+201             C11 H17 N O4
+203          C4 H12 F N2 O P
+209           C49 H94 N O8 P
+210           C49 H94 N O8 P
+214            C7 H11 N O4 S
+216               C3 H7 N O3
+217               C5 H9 N O2
+218              C6 H11 N O2
+219              C6 H11 N O2
+220              C6 H11 N O2
+221              C6 H11 N O2
+222              C9 H11 N O2
+223            C5 H11 N O2 S
+224            C5 H11 N O2 S
+225            C5 H11 N O2 S
+227               C5 H9 N O4
+228               C5 H9 N O4
+229               C4 H7 N O4
+241             C21 H39 N O4
+242            C5 H14 N O4 P
+243               C5 H13 N O
+246             C18 H27 N O3
+247             C12 H23 N O3
+249             C11 H19 N O3
+250             C25 H49 N O4
+251             C25 H49 N O4
+252             C21 H41 N O4
+253             C21 H41 N O4
+254             C19 H37 N O4
+255             C11 H21 N O4
+256             C16 H29 N O5
+257             C16 H29 N O5
+258             C16 H29 N O5
+268             C12 H13 N O3
+270              C21 H35 N O
+272              C18 H37 N O
+277              C9 H17 N O4
+278            C10 H11 Cl N4
+281             C42 H81 N O3
+282             C36 H69 N O3
+285             C29 H57 N O3
+288         C26 H49 Cl N2 O6
+289           C16 H29 N O2 S
+292              C11 H21 N O
+293             C20 H37 N O6
+304              C5 H11 N O2
+305              C5 H11 N O2
+306             C23 H45 N O4
+307             C23 H45 N O4
+310             C18 H37 N O2
+311             C18 H37 N O2
+312               C6 H9 N O2
+315             C23 H39 N O4
+316              C9 H17 N O3
+323             C24 H47 N O3
+327             C6 H13 N O S
+331             C32 H45 N O4
+334           C36 H72 N O8 P
+336               C7 H15 N O
+337               C7 H15 N O
+347             C22 H43 N O3
+351               C8 H9 N O4
+355             C13 H23 N O6
+358               C5 H12 O S
+359             C23 H45 N O5
+360             C12 H15 N O4
+361             C12 H23 N O5
+362              C10 H9 N O2
+363               C9 H7 N O2
+368              C7 H15 N O2
+369              C7 H13 N O3
+370               C7 H7 N O2
+371              C12 H21 N O
+372              C9 H11 N O3
+373             C17 H31 N O5
+374             C25 H49 N O5
+376             C27 H53 N O4
+377             C27 H53 N O4
+380              C6 H11 N O4
+381               C4 H9 N O3
+384             C10 H11 N O3
+385             C12 H23 N O4
+387             C37 H47 N O4
+390           C21 H44 N O6 P
+391               C3 H5 N O2
+392               C3 H5 N O2
+396           C25 H48 N O7 P
+399             C11 H17 N O2
+400                C7 H9 N S
+404               C10 H9 N O
+409             C11 H23 N O2
+410                C6 H9 N O
+411          C42 H80 N O10 P
+412           C41 H80 N O8 P
+413           C41 H80 N O8 P
+414           C44 H86 N O8 P
+415           C44 H86 N O8 P
+416           C44 H86 N O8 P
+417           C23 H48 N O7 P
+418           C43 H78 N O8 P
+419          C44 H80 N O10 P
+420               C5 H7 N O3
+421               C5 H7 N O3
+423           C24 H50 N O7 P
+424           C24 H50 N O7 P
+425           C24 H50 N O7 P
+426           C42 H82 N O8 P
+427           C42 H82 N O8 P
+428           C42 H82 N O8 P
+429           C42 H80 N O8 P
+430           C21 H44 N O7 P
+431           C26 H52 N O7 P
+432           C26 H52 N O7 P
+433           C23 H46 N O7 P
+434           C23 H46 N O7 P
+435           C46 H86 N O8 P
+438           C48 H84 N O8 P
+442           C28 H58 N O7 P
+443           C24 H52 N O6 P
+444           C42 H82 N O7 P
+447           C43 H74 N O8 P
+448           C43 H84 N O8 P
+449           C50 H90 N O8 P
+450              C6 H13 N O5
+451           C40 H78 N O8 P
+452           C24 H48 N O7 P
+453           C41 H78 N O7 P
+454           C30 H50 N O7 P
+455           C41 H78 N O7 P
+456           C43 H78 N O7 P
+457           C45 H78 N O7 P
+458           C24 H50 N O6 P
+459           C39 H74 N O7 P
+460           C43 H74 N O7 P
+464           C41 H78 N O8 P
+466              C7 H15 N O3
+467              C7 H15 N O3
+468               C5 H7 N O2
+469               C8 H18 O S
+471             C11 H21 N O5
+472               C4 H9 N O2
+479             C25 H47 N O5
+480             C23 H43 N O5
+484             C13 H21 N O4
+486              C6 H13 N O2
+487              C6 H13 N O2
+488              C25 H45 N O
+489              C25 H45 N O
+491              C8 H17 N O3
+494           C39 H76 N O7 P
+495           C52 H94 N O8 P
+497           C46 H88 N O8 P
+498           C25 H50 N O7 P
+499           C25 H50 N O7 P
+506              C23 H39 N O
+507              C23 H39 N O
+508              C25 H43 N O
+509              C25 H43 N O
+510             C23 H43 N O4
+511             C23 H43 N O4
+512           C49 H96 N O8 P
+513             C19 H15 Cl O
+514             C31 H59 N O4
+515             C42 H81 N O4
+516             C14 H23 N O3
+517           C45 H86 N O7 P
+518           C43 H84 N O7 P
+519           C43 H82 N O7 P
+520           C43 H82 N O7 P
+521          C48 H91 N O11 S
+525             C33 H55 N O8
+Warning: The "Reference Ion" column at position 20 in the METABOLITES table, matches a standard column name, "ion". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Reference Ion" column at position 20 in the METABOLITES table, matches a standard column name, "ion", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+2      [M+H+MeOH]+1
+9      [M+H+MeOH]+1
+102    [M+H+MeOH]+1
+160    [M+H+MeOH]+1
+228    [M+H+MeOH]+1
+323    [M+H+MeOH]+1
+345    [M+H+MeOH]+1
+369    [M+H+MeOH]+1
+519    [M+DMSO+H]+1
+520    [M+DMSO+H]+1
+Warning: The "Annot. Source: ChemSpider Search" column at position 6 in the METABOLITES table, matches a standard column name, "chemspider_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "# ChemSpider Results" column at position 13 in the METABOLITES table, matches a standard column name, "chemspider_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Annot. Source: ChemSpider Search" column at position 6 in the METABOLITES table, matches a standard column name, "chemspider_id", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0           Full match
+1           Full match
+2           Full match
+3           Full match
+4           Full match
+5           Full match
+6           Full match
+7        Partial match
+8           No results
+9           Full match
+10          Full match
+11          Full match
+12          Full match
+13          Full match
+14          Full match
+15          Full match
+16          Full match
+17          Full match
+18          Full match
+19          Full match
+20       Partial match
+21          Full match
+22       Partial match
+23       Partial match
+24          Full match
+25          Full match
+26          Full match
+27       Partial match
+28       Partial match
+29       Partial match
+30       Partial match
+31       Partial match
+32          Full match
+33          Full match
+34          Full match
+35          Full match
+36       Partial match
+37          Full match
+38          Full match
+39          Full match
+40          Full match
+41          Full match
+42          Full match
+43          Full match
+44          Full match
+45          Full match
+46          Full match
+47          Full match
+48          Full match
+49          Full match
+50          Full match
+51          Full match
+52          Full match
+53          Full match
+54          Full match
+55          Full match
+56          Full match
+57          Full match
+58          Full match
+59          Full match
+60       Partial match
+61          Full match
+62          Full match
+63          Full match
+64          Full match
+65          Full match
+66          Full match
+67          Full match
+68       Partial match
+69       Partial match
+70          Full match
+71          Full match
+72          Full match
+73          Full match
+74          Full match
+75          Full match
+76          Full match
+77            No match
+78       Partial match
+79       Partial match
+80          Full match
+81          Full match
+82          Full match
+83       Partial match
+84          Full match
+85     Not the top hit
+86          Full match
+87          Full match
+88       Partial match
+89       Partial match
+90       Partial match
+91       Partial match
+92       Partial match
+93       Partial match
+94       Partial match
+95          Full match
+96          Full match
+97          Full match
+98       Partial match
+99          Full match
+100         Full match
+101         Full match
+102      Partial match
+103      Partial match
+104      Partial match
+105         Full match
+106         Full match
+107      Partial match
+108      Partial match
+109      Partial match
+110         Full match
+111         Full match
+112         Full match
+113      Partial match
+114         Full match
+115         Full match
+116         Full match
+117         Full match
+118         Full match
+119         Full match
+120      Partial match
+121      Partial match
+122         No results
+123         No results
+124      Partial match
+125           No match
+126      Partial match
+127      Partial match
+128         Full match
+129         Full match
+130         Full match
+131         Full match
+132         Full match
+133         Full match
+134         Full match
+135         Full match
+136         Full match
+137      Partial match
+138      Partial match
+139         Full match
+140         Full match
+141      Partial match
+142      Partial match
+143      Partial match
+144      Partial match
+145      Partial match
+146      Partial match
+147      Partial match
+148      Partial match
+149           No match
+150           No match
+151         No results
+152         Full match
+153         Full match
+154         Full match
+155         No results
+156      Partial match
+157      Partial match
+158      Partial match
+159         Full match
+160      Partial match
+161         Full match
+162      Partial match
+163         Full match
+164         Full match
+165         Full match
+166         Full match
+167         Full match
+168         Full match
+169         Full match
+170         Full match
+171         Full match
+172         Full match
+173         Full match
+174         Full match
+175      Partial match
+176         Full match
+177         Full match
+178         Full match
+179         Full match
+180         Full match
+181         Full match
+182         Full match
+183      Partial match
+184         Full match
+185    Not the top hit
+186         Full match
+187         Full match
+188         Full match
+189         Full match
+190      Partial match
+191      Partial match
+192         Full match
+193         Full match
+194         Full match
+195         Full match
+196         No results
+197         No results
+198         Full match
+199      Partial match
+200      Partial match
+201         Full match
+202      Partial match
+203         Full match
+204         No results
+205         Full match
+206         Full match
+207         Full match
+208         Full match
+209         Full match
+210         Full match
+211         Full match
+212      Partial match
+213         Full match
+214         Full match
+215      Partial match
+216         Full match
+217         Full match
+218      Partial match
+219      Partial match
+220      Partial match
+221      Partial match
+222      Partial match
+223         Full match
+224         Full match
+225         Full match
+226         Full match
+227         Full match
+228         Full match
+229         Full match
+230      Partial match
+231      Partial match
+232      Partial match
+233      Partial match
+234         Full match
+235       Invalid mass
+236         Full match
+237         Full match
+238         Full match
+239         Full match
+240         Full match
+241         Full match
+242      Partial match
+243         No results
+244      Partial match
+245      Partial match
+246      Partial match
+247         Full match
+248      Partial match
+249         Full match
+250         Full match
+251         Full match
+252         Full match
+253         Full match
+254         Full match
+255      Partial match
+256         Full match
+257         Full match
+258         Full match
+259         Full match
+260         Full match
+261         Full match
+262         Full match
+263         Full match
+264         Full match
+265      Partial match
+266    Not the top hit
+267    Not the top hit
+268         Full match
+269    Not the top hit
+270         Full match
+271         Full match
+272         Full match
+273      Partial match
+274      Partial match
+275         Full match
+276      Partial match
+277      Partial match
+278    Not the top hit
+279      Partial match
+280      Partial match
+281      Partial match
+282      Partial match
+283         No results
+284         No results
+285         No results
+286         No results
+287         No results
+288         No results
+289         No results
+290         No results
+291         No results
+292         No results
+293         No results
+294         No results
+295         No results
+296         No results
+297      Partial match
+298      Partial match
+299      Partial match
+300      Partial match
+301      Partial match
+302      Partial match
+303      Partial match
+304      Partial match
+305      Partial match
+306      Partial match
+307      Partial match
+308      Partial match
+309      Partial match
+310      Partial match
+311      Partial match
+312      Partial match
+313      Partial match
+314      Partial match
+315         Full match
+316      Partial match
+317      Partial match
+318         No results
+319      Partial match
+320      Partial match
+321      Partial match
+322         Full match
+323      Partial match
+324         Full match
+325      Partial match
+326      Partial match
+327      Partial match
+328         Full match
+329         Full match
+330         Full match
+331         Full match
+332         Full match
+333         Full match
+334         Full match
+335         Full match
+336      Partial match
+337      Partial match
+338    Not the top hit
+339      Partial match
+340      Partial match
+341      Partial match
+342      Partial match
+343      Partial match
+344      Partial match
+345         Full match
+346         Full match
+347         Full match
+348      Partial match
+349           No match
+350         Full match
+351      Partial match
+352      Partial match
+353         Full match
+354         Full match
+355         Full match
+356       Invalid mass
+357      Partial match
+358         Full match
+359         Full match
+360         Full match
+361         Full match
+362      Partial match
+363      Partial match
+364      Partial match
+365      Partial match
+366      Partial match
+367      Partial match
+368      Partial match
+369      Partial match
+370      Partial match
+371         Full match
+372      Partial match
+373         Full match
+374         Full match
+375      Partial match
+376         Full match
+377         Full match
+378         Full match
+379      Partial match
+380      Partial match
+381    Not the top hit
+382    Not the top hit
+383      Partial match
+384      Partial match
+385         Full match
+386         Full match
+387         Full match
+388         Full match
+389         Full match
+390         Full match
+391      Partial match
+392      Partial match
+393         Full match
+394         Full match
+395         Full match
+396         Full match
+397         Full match
+398         Full match
+399         Full match
+400         Full match
+401         Full match
+402         Full match
+403      Partial match
+404           No match
+405      Partial match
+406      Partial match
+407      Partial match
+408      Partial match
+409         Full match
+410         Full match
+411         Full match
+412         Full match
+413         Full match
+414         Full match
+415         Full match
+416         Full match
+417         Full match
+418         Full match
+419         Full match
+420      Partial match
+421      Partial match
+422      Partial match
+423      Partial match
+424      Partial match
+425      Partial match
+426         Full match
+427         Full match
+428         Full match
+429         Full match
+430         Full match
+431      Partial match
+432      Partial match
+433         Full match
+434         Full match
+435         Full match
+436         Full match
+437         Full match
+438         Full match
+439      Partial match
+440         Full match
+441    Not the top hit
+442    Not the top hit
+443         Full match
+444         Full match
+445         Full match
+446         Full match
+447         Full match
+448         Full match
+449         Full match
+450      Partial match
+451         Full match
+452         Full match
+453         Full match
+454         Full match
+455         Full match
+456         Full match
+457         Full match
+458         Full match
+459         Full match
+460         Full match
+461         Full match
+462         Full match
+463         Full match
+464         Full match
+465      Partial match
+466      Partial match
+467      Partial match
+468    Not the top hit
+469         Full match
+470      Partial match
+471         Full match
+472      Partial match
+473      Partial match
+474      Partial match
+475      Partial match
+476      Partial match
+477         Full match
+478    Not the top hit
+479         Full match
+480         Full match
+481         No results
+482         No results
+483         No results
+484    Not the top hit
+485      Partial match
+486      Partial match
+487      Partial match
+488         Full match
+489         Full match
+490         Full match
+491         Full match
+492         Full match
+493      Partial match
+494         Full match
+495         Full match
+496         Full match
+497         Full match
+498         Full match
+499         Full match
+500         Full match
+501         Full match
+502         Full match
+503         Full match
+504         Full match
+505         Full match
+506         Full match
+507         Full match
+508         Full match
+509         Full match
+510         Full match
+511         Full match
+512         Full match
+513         Full match
+514         Full match
+515         Full match
+516         Full match
+517         Full match
+518         Full match
+519         Full match
+520         Full match
+521         Full match
+522         Full match
+523         Full match
+524      Partial match
+525         Full match
+Warning: The "Mass List Match: Endogenous Metabolites database 4400 compounds" column at position 17 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "RT [min]" column at position 11 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Mass List Match: SKB-Metabolite-Internal Standard Library" column at position 18 in the METABOLITES table, matches a standard column name, "istd". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "Mass List Match: Endogenous Metabolites database 4400 compounds" was found in the METABOLITES table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "Mass List Match: Endogenous Metabolites database 4400 compounds". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The column, "Mass List Match: Endogenous Metabolites database 4400 compounds", in the METABOLITES table was matched to multiple standard names, ['mass', 'other_id']. This is a good indication that the values in that column should be split into the appropriate individual columns.
+Warning: The column, "Mass List Match: SKB-Metabolite-Internal Standard Library", in the METABOLITES table was matched to multiple standard names, ['mass', 'istd']. This is a good indication that the values in that column should be split into the appropriate individual columns.
+Warning: The "Annot. Source: mzCloud Search" column at position 4 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
+Warning: The "Mass List Match: SKB-Metabolite-Internal Standard Library" column at position 18 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
