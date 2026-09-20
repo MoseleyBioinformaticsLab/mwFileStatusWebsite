@@ -1,0 +1,68 @@
+Validation Log
+2026-09-20 15:00:11.723583
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008747/mwtab/txt
+Study ID:      ST005135
+Analysis ID:   AN008747
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 8
+
+Number of Warnings: 7
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "40°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+804      C11H17NO12P-3
+850    C10H12N5O10PS-2
+854       C12H16O13S-2
+865     C15H19N6O11P-2
+882     C9H12N3O11P2-3
+884       C20H35O8P2-3
+915        C9H17O11P-2
+928     C10H15N3O8S2-2
+Warning: The "PubChem CID" column at position 6 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "kegg_map" column at position 7 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 5 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 5 in the METABOLITES table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+15                   141-12-8 | 16409-44-2 | 130396-85-9
+27                               20488-28-2 | 99265-53-9
+29                               21967-41-9 | 31564-28-0
+38                               88546-96-7 | 37126-91-3
+50                               36894-69-6 | 32780-40-8
+58                                82964-34-9 | 7478-65-1
+86                    85-32-5 | 128952-18-1 | 29593-02-0
+108    2465-59-0 | 184764-63-4 | 187486-05-1 | 187486...
+115                  1109-28-0 | 33404-34-1 | 66580-68-5
+171                             109278-36-6 | 63324-97-0
+205                                500-38-9 | 27686-84-6
+208                              18696-26-9 | 84123-22-8
+222                                134-35-0 | 31690-09-2
+423                               4382-33-6 | 93432-80-5
+454                                22139-77-1 | 102-61-4
+469                                141-28-6 | 68201-71-8
+477                                6005-18-1 | 4992-73-8
+479                              13139-15-6 | 53296-34-7
+498                               14307-02-9 | 2636-92-2
+501                              16837-52-8 | 54809-74-4
+504                              77549-94-1 | 68780-77-8
+519                              26833-85-2 | 25302-09-4
+524                                 64-86-8 | 30512-31-3
+526                19227-13-5 | 923023-83-0 | 69113-24-2
+530      23945-44-0 | 59299-01-3 | 394-40-1 | 76821-79-9
+545                              6543-97-1 | 329228-18-4
+549                               3058-01-3 | 61898-58-6
+558                              4836-13-9 | 625092-45-7
+564                                 1196-31-2 | 491-07-6
+576                                 143-57-7 | 1360-61-8
+587                              16561-29-8 | 11016-13-0
+618                               24916-50-5 | 8025-81-8
+623                     510-77-0 | 1668-86-6 | 5107-70-0
+Warning: The "RT (min)" column at position 3 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "kegg_map" column at position 7 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
