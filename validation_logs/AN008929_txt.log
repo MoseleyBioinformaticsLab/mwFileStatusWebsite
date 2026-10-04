@@ -1,0 +1,37 @@
+Validation Log
+2026-10-04 14:52:14.725483
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008929/mwtab/txt
+Study ID:      ST005224
+Analysis ID:   AN008929
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 18
+
+Number of Warnings: 11
+
+Number of Value Errors: 18
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Single exposure", for the subsection, "TREATMENT_DOSEDURATION", in the "TREATMENT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['h', 'weeks', 'days']. Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "ANIMAL_VET_TREATMENTS", in the "TREATMENT" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "EXTRACT_ENRICHMENT", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "SAMPLE_DERIVATIZATION", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "100", for the subsection, "ION_SOURCE_TEMPERATURE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "3500 V", for the subsection, "SPRAY_VOLTAGE", in the "MS" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['kV']. Ignore this when more complicated descriptions are required.
+Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "MS1 m/z" column at position 3 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Neutral Mass" column at position 2 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Sample-1" column at position 8 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Sample-2" column at position 9 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Sample-3" column at position 10 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Sample-4" column at position 11 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Sample-5" column at position 12 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Sample-6" column at position 13 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Sample-7" column at position 14 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Sample-8" column at position 15 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "Sample-11" column at position 18 in the MS_METABOLITE_DATA table has all null values.

@@ -1,0 +1,91 @@
+Validation Log
+2026-10-04 14:51:48.461242
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008868/mwtab/json
+Study ID:      ST005196
+Analysis ID:   AN008868
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 21
+
+Number of Warnings: 20
+
+Number of Value Errors: 21
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "55°C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][0] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw file name)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][1] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw file name)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][2] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw file name)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][3] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw file name)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][4] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw file name)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][5] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw file name)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][6] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw file name)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][7] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw file name)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][8] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw file name)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][9] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw file name)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][10] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw file name)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][11] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw file name)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][12] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw file name)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][13] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw file name)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][14] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw file name)"
+Warning: The SSF at ["SUBJECT_SAMPLE_FACTORS"][15] has the following duplicate keys in its Additional sample data:
+	"RAW_FILE_NAME(Raw file name)"
+Warning: The "CalcMz" column at position 9 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Calc Mass" column at position 8 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 10 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+23     C48 H83 O13 N0 P1
+45     C45 H77 O13 N0 P1
+54     C44 H75 O10 N0 P1
+62     C44 H73 O10 N0 P1
+67     C43 H79 O13 N0 P1
+68     C47 H79 O13 N0 P1
+96     C38 H75 O10 N0 P1
+100     C33 H65 O8 N0 P1
+133    C45 H81 O13 N0 P1
+143    C46 H81 O13 N0 P1
+155    C47 H79 O13 N0 P1
+165     C35 H69 O8 N0 P1
+197    C45 H81 O13 N0 P1
+200    C49 H87 O13 N0 P1
+225    C46 H85 O13 N0 P1
+230    C45 H83 O13 N0 P1
+242    C47 H87 O13 N0 P1
+268    C49 H85 O13 N0 P1
+276    C47 H81 O13 N0 P1
+283    C45 H81 O13 N0 P1
+302    C40 H75 O10 N0 P1
+308    C42 H81 O10 N0 P1
+319    C46 H77 O10 N0 P1
+328    C47 H83 O13 N0 P1
+344    C41 H77 O13 N0 P1
+355    C49 H83 O13 N0 P1
+378    C45 H79 O13 N0 P1
+401    C47 H85 O13 N0 P1
+405    C43 H79 O13 N0 P1
+419    C42 H79 O10 N0 P1
+424    C47 H81 O13 N0 P1
+429    C40 H77 O10 N0 P1
+467    C43 H81 O13 N0 P1
+474    C45 H83 O13 N0 P1
+485    C45 H85 O13 N0 P1
+Warning: The "Mean Retention Time" column at position 7 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.

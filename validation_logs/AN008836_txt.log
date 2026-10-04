@@ -1,0 +1,56 @@
+Validation Log
+2026-10-04 14:50:41.077340
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008836/mwtab/txt
+Study ID:      ST005176
+Analysis ID:   AN008836
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 9
+
+Number of Warnings: 3
+
+Number of Value Errors: 8
+
+Number of Consistency Errors: 1
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "450 µL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
+Error: The value, "45°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "6 µL", for the subsection, "SAMPLE_INJECTION", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Warning: The "m/z" column at position 2 in the METABOLITES table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "m/z" column at position 2 in the METABOLITES table, matches a standard column name, "moverz_quant", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     C00135
+1     C00082
+2     C00065
+3     C00065
+4     C00037
+5     C00037
+6     C00041
+7     C00041
+8     C00041
+9     C00049
+10    C00049
+11    C00049
+12    C00152
+13    C00152
+14    C00025
+15    C00025
+16    C00025
+17    C00064
+18    C00064
+19    C00064
+20    C00148
+21    C00148
+22    C00148
+23    C01602
+24    C00062
+25    C00051
+26    C00051
+27    C00051
+Warning: The "RT" column at position 3 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Error: Column(s) with no name were found in the METABOLITES table.
+Error: The section, METABOLITES, has a mismatch between the number of headers and the number of elements in each line. Either a line(s) has more values than headers or there are too few headers.
