@@ -1,0 +1,69 @@
+Validation Log
+2026-10-18 14:42:36.264502
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008921/mwtab/json
+Study ID:      ST005220
+Analysis ID:   AN008921
+File format:   json
+Status: Contains Validation Issues
+Number of Issues: 11
+
+Number of Warnings: 5
+
+Number of Value Errors: 11
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value in ["SUBJECT"]["WEIGHT_OR_WEIGHT_RANGE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "Not applicable", in ["SUBJECT"]["GENDER"] should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "325°C", in ["MS"]["CAPILLARY_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "50°C", in ["CHROMATOGRAPHY"]["COLUMN_TEMPERATURE"] should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "2 µL", in ["CHROMATOGRAPHY"]["SAMPLE_INJECTION"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['μL', 'uL']. Ignore this when more complicated descriptions are required.
+Error: The value, "8°C", in ["CHROMATOGRAPHY"]["TARGET_SAMPLE_TEMPERATURE"] should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "quantified m/z" column at position 4 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "moverz_quant". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "chemical formula" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "chemical formula" column at position 3 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+43            C21 H42 O6 N0 P1
+44            C25 H42 O7 N0 P1
+45            C27 H44 O7 N0 P1
+46        C41 H75 O8 N0 P1 Na1
+59        C41 H73 O8 N0 P1 Na1
+79       C54 H107 O8 N0 P1 Na1
+81       C56 H107 O8 N0 P1 Na1
+83        C39 H75 O8 N0 P1 Na1
+1199         C38 H76 O10 N0 P1
+1204         C48 H94 O10 N0 P1
+1205         C48 H96 O10 N0 P1
+1206        C50 H100 O10 N0 P1
+1207         C50 H98 O10 N0 P1
+1209        C52 H100 O10 N0 P1
+1210         C50 H96 O10 N0 P1
+1212        C52 H100 O10 N0 P1
+1220        C50 H100 O10 N0 P1
+1226         C52 H98 O10 N0 P1
+1227         C52 H96 O10 N0 P1
+1228        C53 H104 O10 N0 P1
+1234     C54 H99 O10 N0 P1 Na1
+1238    C57 H113 O10 N0 P1 Na1
+1239    C57 H111 O10 N0 P1 Na1
+1240        C58 H102 O10 N0 P1
+1241     C45 H81 O13 N0 P1 Na1
+1242     C46 H83 O13 N0 P1 Na1
+1243     C48 H81 O13 N0 P1 Na1
+1244     C45 H85 O13 N0 P1 Na1
+1245     C47 H85 O13 N0 P1 Na1
+1246         C45 H82 O13 N0 P1
+1247     C47 H83 O13 N0 P1 Na1
+1252     C47 H81 O13 N0 P1 Na1
+1257     C49 H79 O13 N0 P1 Na1
+1259         C31 H61 O22 N0 P4
+1260          C36 H72 O8 N0 P1
+1261          C37 H74 O8 N0 P1
+1262          C38 H72 O8 N0 P1
+1263          C39 H78 O8 N0 P1
+1264          C38 H76 O8 N0 P1
+Warning: The "KEGG ID" column at position 2 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "retention time (min)" column at position 5 in the ["MS_METABOLITE_DATA"]["Metabolites"] table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
