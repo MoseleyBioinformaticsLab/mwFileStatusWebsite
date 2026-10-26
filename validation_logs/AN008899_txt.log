@@ -1,0 +1,226 @@
+Validation Log
+2026-10-26 04:39:14.939916
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008899/mwtab/txt
+Study ID:      ST005210
+Analysis ID:   AN008899
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 19
+
+Number of Warnings: 10
+
+Number of Value Errors: 19
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "18-73", for the subsection, "AGE_OR_AGE_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['weeks', 'days', 'months', 'years']. Ignore this when more complicated descriptions are required.
+Error: The value for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: An empty value or a null value was detected for the subsection, "ADDITIVES", in the "COLLECTION" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "EXTRACT_ENRICHMENT", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: An empty value or a null value was detected for the subsection, "SAMPLE_DERIVATIZATION", in the "SAMPLEPREP" section. Either a legitimate value should be provided for this subsection, or it should be removed altogether.
+Error: The value, "curtain gas 40, CAD 9, GS1 30, GS2 50", for the subsection, "COLLISION_GAS", in the "MS" section should be one of "Nitrogen" or "Argon". Ignore this when more complicated descriptions are required.
+Error: The value, "30", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "15", for the subsection, "TARGET_SAMPLE_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "exact_mass" column at position 7 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "refmet_name" column at position 2 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "refmet_id" column at position 3 in the METABOLITES table, matches a standard column name, "refmet". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "refmet_id" column at position 3 in the METABOLITES table, matches a standard column name, "refmet", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      RM0155888
+1      RM0153654
+2      RM0153554
+3      RM0139716
+4      RM0153676
+5      RM0153706
+6      RM0153610
+7      RM0153036
+8      RM0118344
+9      RM0136217
+10     RM0050309
+11     RM0160240
+12     RM0153056
+13     RM0135949
+14     RM0226842
+15     RM0135976
+16     RM0153032
+17     RM0161660
+18     RM0012471
+20     RM0135960
+21     RM0139033
+22     RM0030084
+23     RM0155882
+25     RM0153222
+27     RM0049281
+28     RM0138930
+29     RM0149937
+30     RM0049220
+32     RM0135871
+33     RM0189056
+34     RM0153048
+36     RM0138946
+37     RM0159092
+38     RM0153097
+39     RM0136022
+41     RM0135885
+42     RM0135906
+43     RM0138923
+44     RM0136028
+45     RM0028587
+46     RM0126048
+47     RM0042978
+48     RM0135877
+49     RM0136032
+50     RM0155934
+52     RM0132232
+53     RM0135878
+54     RM0158596
+55     RM0155901
+56     RM0032432
+57     RM0041611
+58     RM0155934
+59     RM0138943
+60     RM0109018
+61     RM0030190
+62     RM0135891
+63     RM0158253
+64     RM0155944
+65     RM0155912
+66     RM0136090
+67     RM0136232
+68     RM0034128
+69     RM0155912
+70     RM0135889
+71     RM0118150
+72     RM0034698
+73     RM0135902
+74     RM0160118
+75     RM0135888
+76     RM0135850
+77     RM0136958
+78     RM0033601
+79     RM0136084
+80     RM0040234
+81     RM0155871
+82     RM0135980
+83     RM0136172
+84     RM0135973
+85     RM0135890
+86     RM0140735
+87     RM0140735
+88     RM0052813
+90     RM0000534
+91     RM0189436
+92     RM0135909
+93     RM0040827
+94     RM0135908
+95     RM0152814
+96     RM0135904
+97     RM0153289
+98     RM0013328
+99     RM0161726
+100    RM0155949
+101    RM0136024
+102    RM0135894
+103    RM0153373
+104    RM0156013
+105    RM0153291
+106    RM0149933
+108    RM0134990
+109    RM0136735
+110    RM0162118
+111    RM0136093
+112    RM0135964
+113    RM0161627
+114    RM0135920
+115    RM0136214
+117    RM0012948
+119    RM0135912
+120    RM0050067
+121    RM0134987
+122    RM0149940
+123    RM0134987
+124    RM0156424
+125    RM0153571
+126    RM0136730
+127    RM0136116
+128    RM0012471
+129    RM0136184
+130    RM0060576
+131    RM0155882
+132    RM0155969
+133    RM0136177
+134    RM0033386
+135    RM0156781
+136    RM0135924
+137    RM0134967
+138    RM0135916
+139    RM0020730
+142    RM0155940
+143    RM0134985
+144    RM0012924
+145    RM0118223
+146    RM0153229
+147    RM0018304
+148    RM0162751
+149    RM0049431
+150    RM0135927
+152    RM0135934
+153    RM0135867
+154    RM0135932
+155    RM0135928
+156    RM0002833
+158    RM0135930
+159    RM0155885
+160    RM0135989
+162    RM0131839
+163    RM0155969
+164    RM0118303
+165    RM0135901
+166    RM0135430
+167    RM0135975
+168    RM0138922
+169    RM0136105
+170    RM0135901
+171    RM0136085
+172    RM0156978
+173    RM0135336
+174    RM0136734
+175    RM0034731
+176    RM0158253
+177    RM0049636
+178    RM0040233
+179    RM0033168
+180    RM0033601
+181    RM0135982
+182    RM0043289
+183    RM0135985
+184    RM0132232
+185    RM0135912
+186    RM0135630
+187    RM0136738
+188    RM0138125
+189    RM0138929
+191    RM0012553
+192    RM0135915
+193    RM0020531
+194    RM0033030
+195    RM0040766
+197    RM0006551
+198    RM0136130
+199    RM0159438
+200    RM0136024
+201    RM0135928
+202    RM0128765
+203    RM0160877
+204    RM0032268
+205    RM0032268
+Warning: The "super_class" column at position 8 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "main_class" column at position 9 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "sub_class" column at position 10 in the METABOLITES table, matches a standard column name, "class". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "pubchem_cid" column at position 4 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "annotation_note" column at position 11 in the METABOLITES table, matches a standard column name, "annotations". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "annotation_note" column at position 11 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
