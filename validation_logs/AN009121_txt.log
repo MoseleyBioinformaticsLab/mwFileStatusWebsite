@@ -1,25 +1,47 @@
 Validation Log
-2026-10-26 04:51:15.589121
+2026-11-01 07:19:28.056407
 mwtab Python Library Version: 2.1.1
 Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN009121/mwtab/txt
 Study ID:      ST005316
 Analysis ID:   AN009121
 File format:   txt
 Status: Contains Validation Issues
-Number of Issues: 6
+Number of Issues: 16
 
-Number of Warnings: 4
+Number of Warnings: 12
 
-Number of Value Errors: 6
+Number of Value Errors: 12
 
-Number of Consistency Errors: 0
+Number of Consistency Errors: 2
 
 Number of Format Errors: 0
 
 Issue Log:
 Error: The value, "0.12mL/min", for the subsection, "FLOW_RATE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['mL/min', 'uL/min', 'μL/min']. Ignore this when more complicated descriptions are required.
 Error: The value, "40", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
-Warning: The "MRM Name" column at position 5 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
-Warning: The "Name_old" column at position 6 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
-Warning: The "HMDB number" column at position 3 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
-Warning: The "RT(tim)" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Error: The following metabolites in the, MS_METABOLITE_DATA table were not found in the METABOLITES table:
+	"11_12-DiHETrE"
+	"2_3-Dihydroxybenzoic acid"
+	"2_4-Dinitrophenol"
+	"2^-Deoxycytidine diphosphate"
+	"FA 20:5(5Z_8Z_11Z_14Z_17Z)"
+	"(S)-4_5-Dihydroorotate"
+Error: The following metabolites in the METABOLITES table were not found in the MS_METABOLITE_DATA table:
+	"11,12-DiHETrE"
+	"2,3-Dihydroxybenzoic acid"
+	"2,4-Dinitrophenol"
+	"2'-Deoxycytidine diphosphate"
+	"FA 20:5(5Z,8Z,11Z,14Z,17Z)"
+	"(S)-4,5-Dihydroorotate"
+Warning: The "refmet_name" column at position 2 in the METABOLITES table, matches a standard column name, "name". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri" column at position 8 in the METABOLITES table, matches a standard column name, "retention_index". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "ri_type" column at position 9 in the METABOLITES table, matches a standard column name, "retention_index_type". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column pair, "ri" and "ri_type", in the METABOLITES table should have data in the same rows, but at least one row has data in one column and nothing in the other.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "other_id". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "pubchem_id" column at position 3 in the METABOLITES table has all null values.
+Warning: The "inchi_key" column at position 4 in the METABOLITES table has all null values.
+Warning: The "kegg_id" column at position 5 in the METABOLITES table has all null values.
+Warning: The "other_id" column at position 6 in the METABOLITES table has all null values.
+Warning: The "other_id_type" column at position 7 in the METABOLITES table has all null values.
+Warning: The "ri_type" column at position 9 in the METABOLITES table has all null values.
+Warning: The "moverz_quant" column at position 10 in the METABOLITES table has all null values.
