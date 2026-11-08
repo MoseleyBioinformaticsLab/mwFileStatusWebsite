@@ -1,0 +1,383 @@
+Validation Log
+2026-11-08 08:16:44.647309
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN009033/mwtab/txt
+Study ID:      ST005275
+Analysis ID:   AN009033
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 22
+
+Number of Warnings: 20
+
+Number of Value Errors: 20
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "Male and female", for the subsection, "GENDER", in the "SUBJECT" section should be one of "Male", "Female", "Male, Female", "Hermaphrodite", or "N/A". Ignore this when more complicated descriptions are required.
+Error: The value, "40-50", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Warning: The "INCHIKEY" column at position 10 in the METABOLITES table, matches a standard column name, "inchi_key". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "SUPER_PATHWAY" column at position 6 in the METABOLITES table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "SUB_PATHWAY" column at position 7 in the METABOLITES table, matches a standard column name, "pathway". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LIPID SPECIES LEVEL" column at position 12 in the METABOLITES table, matches a standard column name, "species". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LIPID MOLECULAR SPECIES LEVEL" column at position 13 in the METABOLITES table, matches a standard column name, "species". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LIPID SPECIES LEVEL" column at position 12 in the METABOLITES table, matches a standard column name, "species", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+9         CER 36:0;O2
+17        CER 34:1;O2
+18            PE 34:1
+19            PC 34:2
+20         SM 36:1;O2
+21            PC 34:1
+22        CER 36:1;O2
+24         LPC O-16:0
+25        CER 36:2;O2
+26            PS 36:1
+27            PG 34:1
+28            PG 32:0
+29            PC 32:0
+30            PC 30:0
+39           LPC 16:0
+40           LPC 17:0
+43           LPC 18:0
+44           LPC 18:1
+45           LPC 20:0
+49           LPC 18:2
+51           LPA 16:0
+52           LPE 18:0
+54           LPC 16:1
+55           LPC 20:3
+56           LPC 20:4
+57           LPC 18:2
+58           LPC 20:3
+59           LPC 22:6
+60           LPE 16:0
+61           LPE 14:0
+62           LPE 18:1
+63           LPE 18:2
+65           LPE 14:0
+66           LPA 18:1
+67           LPE 20:4
+69           LPE 18:2
+70           LPE 16:1
+71           LPE 16:1
+72            PE 36:1
+73            PC 38:4
+74            PE 34:2
+75     HexCer 42:2;O2
+80           LPE 22:6
+81           LPE 22:6
+82         SM 34:1;O2
+83           LPC 15:0
+89           LPC 22:0
+90           LPC 22:1
+91           LPC 24:0
+92           LPC 24:1
+93         LPC O-16:1
+94         LPC O-18:2
+95         LPC O-18:1
+97            DG 36:3
+98         LPE O-16:1
+99         LPE O-18:1
+103        SM 32:1;O2
+106          LPC 20:5
+107          LPC 20:1
+108          LPC 19:0
+109        LPE O-18:2
+110          LPE 20:1
+111        SM 42:2;O2
+115        SM 38:1;O2
+116        SM 40:1;O2
+117        SM 42:1;O2
+118        SM 33:1;O2
+119           PC 36:4
+120           PC 36:1
+121           PC 36:4
+122           PC 38:6
+123           PC 40:6
+124         PE O-36:2
+125        SM 35:1;O2
+126           PC 34:0
+127        SM 34:0;O2
+128        SM 42:3;O2
+129           PE 36:2
+130           PE 38:4
+131           PC 36:2
+132           PC 36:3
+133           PC 32:1
+134           PC 36:5
+135           PE 36:4
+136           PE 38:6
+137           PE 32:1
+139         PE O-38:5
+140         PE O-38:7
+141         PE O-36:5
+142         PE O-36:4
+143         PE O-40:7
+144         PE O-34:2
+145         PC O-34:2
+146         PC O-34:3
+147         PC O-36:5
+148         PC O-38:4
+149         PC O-34:1
+150         PC O-36:4
+151       CER 34:0;O2
+153           PC 33:2
+154           PC 35:1
+155           PC 35:2
+156           PC 38:3
+157         PE O-34:3
+158           PC 34:3
+159           PC 34:3
+160           PE 36:3
+161          LPA 18:2
+162           PC 35:4
+163           PC 37:6
+164           PC 37:4
+165           PC 40:7
+166           PC 38:6
+167           PC 40:8
+168         PC O-34:2
+169           PC 32:2
+170           PC 34:4
+171           PC 40:5
+172        LPC O-18:0
+173           PC 38:5
+174           PC 38:5
+175        LPE O-18:0
+176           PE 32:0
+177           PE 36:5
+178           PE 38:3
+179           PE 36:4
+180         PE O-36:3
+182    HexCer 34:1;O2
+184           PC 36:5
+185           PC 33:1
+186           PC 38:2
+187         DGDG 36:6
+189         DGDG 36:5
+190         DGDG 36:4
+191         DGDG 34:2
+192         DGDG 34:3
+193         MGDG 36:4
+194         MGDG 34:2
+195           DG 38:6
+196           DG 36:5
+197           DG 36:5
+198           DG 40:8
+199           DG 36:4
+200           DG 36:4
+201        LPE O-16:0
+202         PC O-32:0
+203         PC O-36:2
+204       CER 34:1;O3
+207         PE O-38:6
+208         PC 34:2;O
+211       CER 40:2;O2
+212       CER 33:1;O2
+213       CER 32:1;O2
+214       CER 35:1;O2
+215       CER 42:3;O2
+216       CER 38:1;O2
+241         PC O-36:3
+242         PC O-36:3
+243         PC O-38:5
+244           PC 31:0
+246       CER 34:0;O3
+247         PE O-34:1
+250          LPC 23:0
+252           PC 38:5
+253        SM 34:1;O3
+257       CER 36:0;O3
+259        LPC O-18:1
+261       CER 34:2;O2
+Warning: The "LIPID MOLECULAR SPECIES LEVEL" column at position 13 in the METABOLITES table, matches a standard column name, "species", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+9                CER 18:0; O2_18:0
+17               CER 18:1; O2_16:0
+18                    PE 16:0_18:1
+19                    PC 16:0_18:2
+20                 SM 18:1;O2_18:0
+21                    PC 16:0_18:1
+22               CER 18:1; O2_18:0
+24                      LPC O-16:0
+25               CER 18:1; O2_18:1
+26                    PS 18:0_18:1
+27                    PG 16:0_18:1
+28                    PG 16:0_16:0
+29                    PC 16:0_16:0
+30                    PC 14:0_16:0
+39                        LPC 16:0
+40                        LPC 17:0
+43                        LPC 18:0
+44                        LPC 18:1
+45                        LPC 20:0
+49                        LPC 18:2
+51                        LPA 16:0
+52                        LPE 18:0
+54                        LPC 16:1
+55                        LPC 20:3
+56                        LPC 20:4
+57                        LPC 18:2
+58                        LPC 20:3
+59                        LPC 22:6
+60                        LPE 16:0
+61                        LPE 14:0
+62                        LPE 18:1
+63                        LPE 18:2
+65                        LPE 14:0
+66                        LPA 18:1
+67                        LPE 20:4
+69                        LPE 18:2
+70                        LPE 16:1
+71                        LPE 16:1
+72                    PE 18:0_18:1
+73                    PC 18:0_20:4
+74                    PE 16:0_18:2
+75             HexCer 18:1;O2_24:1
+80                        LPE 22:6
+81                        LPE 22:6
+82                 SM 18:1;O2_16:0
+83                        LPC 15:0
+89                        LPC 22:0
+90                        LPC 22:1
+91                        LPC 24:0
+92                    LPC 24:1(15)
+93                      LPC P-16:0
+94                      LPC P-18:1
+95                      LPC P-18:0
+97                    DG 18:1_18:2
+98                      LPE P-16:0
+99                      LPE P-18:0
+103                        Unknown
+106                       LPC 20:5
+107                       LPC 20:1
+108                       LPC 19:0
+109                     LPE P-18:1
+110                       LPE 20:1
+111                        Unknown
+115                        Unknown
+116                SM 18:1;O2_22:0
+117                SM 18:1;O2_24:0
+118                        Unknown
+119                   PC 18:2_18:2
+120                   PC 18:0_18:1
+121        PC 16:0_20:4(5,8,11,14)
+122                   PC 16:0_22:6
+123                   PC 18:0_22:6
+124                 PE P-18:0_18:1
+125                        Unknown
+126                   PC 16:0_18:0
+127                SM 18:0;O2_16:0
+128                        Unknown
+129                   PE 18:0_18:2
+130                   PE 18:0_20:4
+131                   PC 18:0_18:2
+132                   PC 18:1_18:2
+133                   PC 16:0_16:1
+134                   PC 16:0_20:5
+135                   PE 16:0_20:4
+136                   PE 16:0_22:6
+137                   PE 16:0_16:1
+139                 PE P-18:0_20:4
+140                 PE P-16:0_22:6
+141                 PE P-16:0_20:4
+142                 PE P-18:1_18:2
+143                 PE P-18:0_22:6
+144                 PE P-16:0_18:1
+145                 PC P-16:0_18:1
+146                 PC P-16:0_18:2
+147                 PC P-16:0_20:4
+148                 PC O-18:0_20:4
+149                 PC O-16:0_18:1
+150                 PC O-16:0_20:4
+151               CER 18:0;O2_16:0
+153                   PC 15:0_18:2
+154                   PC 17:0_18:1
+155                   PC 17:0_18:2
+156                   PC 18:0_20:3
+157                 PE P-16:0_18:2
+158                   PC 16:1_18:2
+159          PC 16:0_18:3(9,12,15)
+160                   PE 18:1_18:2
+161                       LPA 18:2
+162                   PC 15:0_20:4
+163                   PC 15:0_22:6
+164                   PC 17:0_20:4
+165                   PC 18:1_22:6
+166        PC 18:2_20:4(5,8,11,14)
+167                   PC 18:2_22:6
+168                 PC O-16:0_18:2
+169                   PC 14:0_18:2
+170                   PC 14:0_20:4
+171    PC 18:0_22:5(7,10,13,16,19)
+172                     LPC O-18:0
+173                        Unknown
+174                        Unknown
+175                     LPE O-18:0
+176                   PE 16:0_16:0
+177                   PE 16:0_20:5
+178                   PE 18:0_20:3
+179                   PE 18:2_18:2
+180                 PE P-18:0_18:2
+182            HexCer 18:1;O2_16:0
+184                   PC 18:2_18:3
+185                        Unknown
+186                        Unknown
+187                 DGDG 18:3_18:3
+189                 DGDG 18:2_18:3
+190                 DGDG 18:2_18:2
+191                 DGDG 16:0_18:2
+192                 DGDG 16:0_18:3
+193                 MGDG 18:2_18:2
+194                 MGDG 16:0_18:2
+195                   DG 18:2_20:4
+196                   DG 18:2_18:3
+197                   DG 18:2_18:3
+198                   DG 18:2_22:6
+199                   DG 18:2_18:2
+200                   DG 18:2_18:2
+201                     LPE O-16:0
+202                 PC O-16:0_16:0
+203                 PC O-18:0_18:2
+204            Cer 18:1;O2_16:0;1O
+207                        Unknown
+208                 PC 16:0_18:2;O
+211                        Unknown
+212              CER 17:1; O2_16:0
+213                        Unknown
+214                        Unknown
+215                        Unknown
+216                        Unknown
+241                 PC O-18:1_18:2
+242                 PC O-16:0_20:3
+243                        Unknown
+244                   PC 15:0_16:0
+246               CER 18:0;O3_16:0
+247                 PE O-16:0_18:1
+250                       LPC 23:0
+252                        Unknown
+253              SM 18:1;O2_16:0;O
+257              CER 18:0; O3_18:0
+259                     LPC O-18:1
+261                        Unknown
+Warning: The "PUBCHEM" column at position 19 in the METABOLITES table, matches a standard column name, "pubchem_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "KEGG" column at position 18 in the METABOLITES table, matches a standard column name, "kegg_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "HMDB" column at position 17 in the METABOLITES table, matches a standard column name, "hmdb_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHEMSPIDER" column at position 16 in the METABOLITES table, matches a standard column name, "chemspider_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 15 in the METABOLITES table, matches a standard column name, "cas_number". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CAS" column at position 15 in the METABOLITES table, matches a standard column name, "cas_number", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0     55482-27-4,55482-27-4
+11       10191-41-0,59-02-9
+12         111-58-0,11-58-0
+20    85187-10-6,85187-10-6
+21    26853-31-6,26853-31-6
+23      50865-10-5,553-12-8
+Warning: The "CHEM_ID" column at position 2 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "LIB_ID" column at position 3 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "COMP_ID" column at position 4 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "CHRO_LIB_ENTRY_ID" column at position 5 in the METABOLITES table, matches a standard column name, "other_id". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The column "CHEM_ID" was found in the METABOLITES table, but this column implies that another column, "other_id_type", should also exist, and that column was not found.
+Warning: The standard column, "other_id", was found in the METABOLITES table as "CHEM_ID". If this column contains database IDs for standard databases such as KEGG, PubChem, HMDB, etc., it is recommended to make individual columns for these and not lump them together into a less descriptive "other_id" column.
+Warning: The "TYPE" column at position 9 in the METABOLITES table may have incorrect values. 90% or more of the values are the same, but 10% or less are different.
