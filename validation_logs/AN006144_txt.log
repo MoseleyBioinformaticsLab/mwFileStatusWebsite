@@ -1,0 +1,234 @@
+Validation Log
+2026-11-15 06:19:02.198275
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN006144/mwtab/txt
+Study ID:      ST003742
+Analysis ID:   AN006144
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 37
+
+Number of Warnings: 33
+
+Number of Value Errors: 36
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 1
+
+Issue Log:
+Error: An empty value or a null value was detected for the subsection, "TREATMENT_SUMMARY", in the "TREATMENT" section. A legitimate value should be provided for this required subsection. You may have to ignore this error in certain situations. For example, SOLVENT_A for a GCMS experiment.
+Error: The value, "50 ºC", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "15", for the subsection, "TARGET_SAMPLE_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: Unknown or invalid section, "FACTORS".
+Warning: The "Exact Mass (Da)" column at position 3 in the METABOLITES table, matches a standard column name, "mass". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "Formula" column at position 2 in the METABOLITES table, matches a standard column name, "formula", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0         C20 H39 N O4
+1         C23 H45 N O4
+2         C25 H49 N O4
+3         C25 H47 N O4
+4         C25 H47 N O5
+5          C9 H17 N O4
+6         C27 H51 N O4
+7         C29 H53 N O4
+8         C10 H19 N O4
+9         C11 H21 N O5
+10        C11 H19 N O6
+11         C7 H15 N O3
+17        C40 H81 N O3
+18        C42 H85 N O3
+19        C43 H87 N O3
+20        C38 H75 N O3
+21        C40 H79 N O3
+22        C43 H83 N O3
+50        C46 H89 N O8
+51        C47 H91 N O8
+52      C23 H48 N O7 P
+53      C24 H50 N O7 P
+54      C25 H52 N O7 P
+55      C26 H54 N O7 P
+56      C26 H52 N O7 P
+57      C26 H50 N O7 P
+58      C27 H56 N O7 P
+59      C28 H58 N O7 P
+60      C28 H56 N O7 P
+61      C28 H54 N O7 P
+62      C28 H52 N O7 P
+63      C28 H50 N O7 P
+64      C30 H54 N O7 P
+65      C30 H52 N O7 P
+66      C30 H50 N O7 P
+67      C24 H50 N O6 P
+68      C21 H44 N O7 P
+69      C23 H48 N O7 P
+70      C23 H46 N O7 P
+71      C23 H44 N O7 P
+72      C25 H46 N O7 P
+73      C27 H46 N O7 P
+74      C27 H44 N O7 P
+75      C23 H48 N O6 P
+76        C16 H33 N O2
+77        C18 H37 N O2
+80      C40 H76 N O8 P
+81      C42 H76 N O8 P
+82      C44 H76 N O8 P
+83      C40 H80 N O8 P
+84      C42 H82 N O8 P
+85      C42 H80 N O8 P
+86      C46 H80 N O8 P
+87      C46 H82 N O8 P
+88      C42 H84 N O8 P
+89      C42 H78 N O8 P
+90      C44 H88 N O8 P
+91      C44 H84 N O8 P
+92      C46 H90 N O8 P
+93      C48 H84 N O8 P
+94      C44 H86 N O8 P
+95      C44 H84 N O8 P
+96      C46 H88 N O8 P
+97      C48 H84 N O8 P
+98      C46 H80 N O8 P
+99      C45 H86 N O8 P
+100     C48 H92 N O8 P
+101     C48 H80 N O8 P
+102     C39 H76 N O8 P
+103     C41 H76 N O8 P
+104     C42 H78 N O8 P
+105     C44 H82 N O8 P
+106     C44 H82 N O8 P
+107     C44 H82 N O8 P
+108     C44 H80 N O8 P
+109     C44 H80 N O8 P
+110     C44 H78 N O8 P
+111     C44 H78 N O8 P
+112     C45 H84 N O8 P
+113     C45 H78 N O8 P
+114     C46 H86 N O8 P
+115     C46 H84 N O8 P
+116     C46 H84 N O8 P
+117     C46 H84 N O8 P
+118     C46 H82 N O8 P
+119     C46 H78 N O8 P
+120     C47 H86 N O8 P
+121     C47 H84 N O8 P
+122     C47 H82 N O8 P
+123     C48 H90 N O8 P
+124     C48 H88 N O8 P
+125     C48 H86 N O8 P
+126     C48 H86 N O8 P
+127     C48 H82 N O8 P
+128     C50 H80 N O8 P
+129     C50 H90 N O8 P
+130     C50 H84 N O8 P
+131     C40 H82 N O7 P
+132     C42 H82 N O7 P
+133     C42 H84 N O7 P
+134     C44 H82 N O7 P
+135     C42 H80 N O7 P
+136     C44 H80 N O7 P
+137     C46 H88 N O7 P
+138     C44 H84 N O7 P
+139     C50 H94 N O7 P
+140     C54 H96 N O7 P
+141     C52 H94 N O7 P
+142     C40 H80 N O7 P
+143     C40 H80 N O7 P
+144     C40 H78 N O7 P
+145     C41 H72 N O7 P
+146     C42 H86 N O7 P
+147     C43 H80 N O7 P
+148     C43 H78 N O7 P
+149     C44 H84 N O7 P
+150     C44 H80 N O7 P
+151     C45 H90 N O7 P
+152     C45 H72 N O7 P
+153     C45 H84 N O7 P
+154     C45 H82 N O7 P
+155     C45 H76 N O7 P
+156     C45 H74 N O7 P
+157     C45 H74 N O7 P
+158     C46 H86 N O7 P
+159     C46 H86 N O7 P
+160     C46 H86 N O7 P
+161     C46 H84 N O7 P
+162     C46 H84 N O7 P
+163     C46 H84 N O7 P
+164     C46 H84 N O7 P
+165     C46 H82 N O7 P
+166     C47 H76 N O7 P
+167     C47 H82 N O7 P
+168     C47 H80 N O7 P
+169     C47 H78 N O7 P
+170     C48 H88 N O7 P
+171     C48 H86 N O7 P
+172     C48 H86 N O7 P
+173     C48 H84 N O7 P
+174     C48 H84 N O7 P
+175     C48 H82 N O7 P
+176     C49 H78 N O7 P
+177     C50 H86 N O7 P
+178     C52 H98 N O7 P
+179     C39 H76 N O8 P
+180     C39 H74 N O8 P
+181     C41 H74 N O8 P
+182     C41 H72 N O8 P
+183     C43 H76 N O8 P
+184     C43 H74 N O8 P
+185     C41 H80 N O8 P
+186     C41 H78 N O8 P
+187     C43 H80 N O8 P
+188     C43 H78 N O8 P
+189     C45 H80 N O8 P
+190     C43 H76 N O8 P
+191     C45 H72 N O8 P
+192     C47 H76 N O8 P
+193     C39 H76 N O7 P
+194     C41 H74 N O7 P
+195     C43 H76 N O7 P
+196     C43 H74 N O7 P
+197     C41 H80 N O7 P
+198     C41 H78 N O7 P
+199     C43 H78 N O7 P
+200     C45 H80 N O7 P
+201     C45 H78 N O7 P
+202     C41 H76 N O7 P
+203     C43 H82 N O7 P
+204     C45 H76 N O7 P
+205     C43 H78 N O7 P
+206     C43 H76 N O7 P
+207     C43 H72 N O7 P
+208     C47 H84 N O7 P
+213    C44 H80 N O10 P
+214    C45 H82 N O10 P
+215    C45 H80 N O10 P
+Warning: The "RT (min)" column at position 4 in the METABOLITES table, matches a standard column name, "retention_time". If this match was not in error, the column should be renamed to the standard name or a name that doesn't resemble the standard name.
+Warning: The "QC_iterative_WT_20eV_1" column at position 23 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_WT_20eV_2" column at position 24 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_WT_20eV_3" column at position 25 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_WT_20eV_4" column at position 26 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_WT_20eV_5" column at position 27 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_WT_40eV_1" column at position 28 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_WT_40eV_2" column at position 29 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_WT_40eV_3" column at position 30 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_WT_40eV_4" column at position 31 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_WT_40eV_5" column at position 32 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_KO_20eV_1" column at position 33 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_KO_20eV_2" column at position 34 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_KO_20eV_3" column at position 35 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_KO_20eV_4" column at position 36 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_KO_20eV_5" column at position 37 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_KO_40eV_1" column at position 38 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_KO_40eV_2" column at position 39 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_KO_40eV_3" column at position 40 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_KO_40eV_4" column at position 41 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "QC_iterative_KO_40eV_5" column at position 42 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ST_TCAmix_1" column at position 43 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ST_TCAmix_2" column at position 44 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ST_TCAmix_3" column at position 45 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ST_TCAmix_4" column at position 46 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ST_TCAmix_5" column at position 47 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ST_TCAmix_6" column at position 48 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ST_TCAmix_7" column at position 49 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ST_TCAmix_8" column at position 50 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ST_TCAmix_9" column at position 51 in the MS_METABOLITE_DATA table has all null values.
+Warning: The "ST_TCAmix_10" column at position 52 in the MS_METABOLITE_DATA table has all null values.

@@ -1,0 +1,223 @@
+Validation Log
+2026-11-15 07:55:05.699420
+mwtab Python Library Version: 2.1.1
+Source:        https://www.metabolomicsworkbench.org/rest/study/analysis_id/AN008351/mwtab/txt
+Study ID:      ST004927
+Analysis ID:   AN008351
+File format:   txt
+Status: Contains Validation Issues
+Number of Issues: 5
+
+Number of Warnings: 1
+
+Number of Value Errors: 5
+
+Number of Consistency Errors: 0
+
+Number of Format Errors: 0
+
+Issue Log:
+Error: The value, "581.59 ± 29.7 kg", for the subsection, "WEIGHT_OR_WEIGHT_RANGE", in the "SUBJECT" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['g', 'mg', 'kg', 'lbs']. Ignore this when more complicated descriptions are required.
+Error: The value, "350", for the subsection, "CAPILLARY_TEMPERATURE", in the "MS" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "40°C", for the subsection, "COLUMN_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C']. Ignore this when more complicated descriptions are required.
+Error: The value, "4°C", for the subsection, "INJECTION_TEMPERATURE", in the "CHROMATOGRAPHY" section should be a number or range (ex. "5-6") followed by a space with a unit (ex. "5 V") from the following list: ['°C', 'C'] or "room temperature". Ignore this when more complicated descriptions are required.
+Warning: The "species" column at position 6 in the METABOLITES table, matches a standard column name, "species", and some of the values in the column do not match the expected type or format for that column. The non-matching values are:
+0      Bos taurus
+1      Bos taurus
+2      Bos taurus
+3      Bos taurus
+4      Bos taurus
+5      Bos taurus
+6      Bos taurus
+7      Bos taurus
+8      Bos taurus
+9      Bos taurus
+10     Bos taurus
+11     Bos taurus
+12     Bos taurus
+13     Bos taurus
+14     Bos taurus
+15     Bos taurus
+16     Bos taurus
+17     Bos taurus
+18     Bos taurus
+19     Bos taurus
+20     Bos taurus
+21     Bos taurus
+22     Bos taurus
+23     Bos taurus
+24     Bos taurus
+25     Bos taurus
+26     Bos taurus
+27     Bos taurus
+28     Bos taurus
+29     Bos taurus
+30     Bos taurus
+31     Bos taurus
+32     Bos taurus
+33     Bos taurus
+34     Bos taurus
+35     Bos taurus
+36     Bos taurus
+37     Bos taurus
+38     Bos taurus
+39     Bos taurus
+40     Bos taurus
+41     Bos taurus
+42     Bos taurus
+43     Bos taurus
+44     Bos taurus
+45     Bos taurus
+46     Bos taurus
+47     Bos taurus
+48     Bos taurus
+49     Bos taurus
+50     Bos taurus
+51     Bos taurus
+52     Bos taurus
+53     Bos taurus
+54     Bos taurus
+55     Bos taurus
+56     Bos taurus
+57     Bos taurus
+58     Bos taurus
+59     Bos taurus
+60     Bos taurus
+61     Bos taurus
+62     Bos taurus
+63     Bos taurus
+64     Bos taurus
+65     Bos taurus
+66     Bos taurus
+67     Bos taurus
+68     Bos taurus
+69     Bos taurus
+70     Bos taurus
+71     Bos taurus
+72     Bos taurus
+73     Bos taurus
+74     Bos taurus
+75     Bos taurus
+76     Bos taurus
+77     Bos taurus
+78     Bos taurus
+79     Bos taurus
+80     Bos taurus
+81     Bos taurus
+82     Bos taurus
+83     Bos taurus
+84     Bos taurus
+85     Bos taurus
+86     Bos taurus
+87     Bos taurus
+88     Bos taurus
+89     Bos taurus
+90     Bos taurus
+91     Bos taurus
+92     Bos taurus
+93     Bos taurus
+94     Bos taurus
+95     Bos taurus
+96     Bos taurus
+97     Bos taurus
+98     Bos taurus
+99     Bos taurus
+100    Bos taurus
+101    Bos taurus
+102    Bos taurus
+103    Bos taurus
+104    Bos taurus
+105    Bos taurus
+106    Bos taurus
+107    Bos taurus
+108    Bos taurus
+109    Bos taurus
+110    Bos taurus
+111    Bos taurus
+112    Bos taurus
+113    Bos taurus
+114    Bos taurus
+115    Bos taurus
+116    Bos taurus
+117    Bos taurus
+118    Bos taurus
+119    Bos taurus
+120    Bos taurus
+121    Bos taurus
+122    Bos taurus
+123    Bos taurus
+124    Bos taurus
+125    Bos taurus
+126    Bos taurus
+127    Bos taurus
+128    Bos taurus
+129    Bos taurus
+130    Bos taurus
+131    Bos taurus
+132    Bos taurus
+133    Bos taurus
+134    Bos taurus
+135    Bos taurus
+136    Bos taurus
+137    Bos taurus
+138    Bos taurus
+139    Bos taurus
+140    Bos taurus
+141    Bos taurus
+142    Bos taurus
+143    Bos taurus
+144    Bos taurus
+145    Bos taurus
+146    Bos taurus
+147    Bos taurus
+148    Bos taurus
+149    Bos taurus
+150    Bos taurus
+151    Bos taurus
+152    Bos taurus
+153    Bos taurus
+154    Bos taurus
+155    Bos taurus
+156    Bos taurus
+157    Bos taurus
+158    Bos taurus
+159    Bos taurus
+160    Bos taurus
+161    Bos taurus
+162    Bos taurus
+163    Bos taurus
+164    Bos taurus
+165    Bos taurus
+166    Bos taurus
+167    Bos taurus
+168    Bos taurus
+169    Bos taurus
+170    Bos taurus
+171    Bos taurus
+172    Bos taurus
+173    Bos taurus
+174    Bos taurus
+175    Bos taurus
+176    Bos taurus
+177    Bos taurus
+178    Bos taurus
+179    Bos taurus
+180    Bos taurus
+181    Bos taurus
+182    Bos taurus
+183    Bos taurus
+184    Bos taurus
+185    Bos taurus
+186    Bos taurus
+187    Bos taurus
+188    Bos taurus
+189    Bos taurus
+190    Bos taurus
+191    Bos taurus
+192    Bos taurus
+193    Bos taurus
+194    Bos taurus
+195    Bos taurus
+196    Bos taurus
+197    Bos taurus
+198    Bos taurus
